@@ -1,0 +1,22 @@
+// Espelha src/data/categorias.ts (ids e subtópicos) para uso no gerador Node puro.
+export const CATEGORIAS = [
+  "numeros",
+  "porcentagem",
+  "razao-proporcao",
+  "regra-de-tres",
+  "equacoes",
+  "funcao-afim",
+  "funcao-quadratica",
+  "exponenciais-logaritmos",
+  "progressoes",
+  "geometria-plana",
+  "geometria-espacial",
+  "geometria-analitica",
+  "trigonometria",
+  "estatistica",
+  "probabilidade",
+  "analise-combinatoria",
+  "matematica-financeira",
+  "matrizes",
+  "logica",
+];

@@ -1,0 +1,750 @@
+[
+  {
+    "id": "enem-2023-136",
+    "categoriaId": "geometria-analitica",
+    "subtopico": "Leitura de Coordenadas e Direções",
+    "dificuldade": "facil",
+    "fonte": { "tipo": "enem", "ano": 2023, "descricao": "ENEM 2023, 2º dia, Caderno 11 (Laranja), questão 136", "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_Dia_2_P1_MT_Caderno_11_Laranja_NVDA.pdf" },
+    "enunciado": "Um cinema tem poltronas organizadas em colunas numeradas de 1 a 12 (da esquerda para a direita, com corredores entre as colunas 3-4 e 9-10) e em filas nomeadas de A a J (de baixo para cima). Uma pessoa está parada em um dos corredores, na altura da fila E, entre as colunas 3 e 4, de frente para o fundo da sala (sentido em que as filas crescem de A para J). Para chegar à sua poltrona, ela deve subir o corredor por mais 4 fileiras e depois olhar para o seu lado direito, sendo sua poltrona a terceira nesse sentido. Qual é a poltrona dessa pessoa?",
+    "alternativas": [
+      { "letra": "A", "texto": "A6" },
+      { "letra": "B", "texto": "H1" },
+      { "letra": "C", "texto": "H6" },
+      { "letra": "D", "texto": "I1" },
+      { "letra": "E", "texto": "I6" }
+    ],
+    "correta": "E",
+    "explicacao": "Subindo 4 fileiras a partir de E: F, G, H, I — chega-se à fila I. Como a pessoa está de frente para o fundo da sala (olhando para as filas crescentes), seu lado direito corresponde às colunas à direita do corredor (4, 5, 6, 7, 8, 9). Contando a terceira coluna a partir do corredor: 4 (1ª), 5 (2ª), 6 (3ª). Logo, a poltrona é I6."
+  },
+  {
+    "id": "enem-2023-137",
+    "categoriaId": "equacoes",
+    "subtopico": "Sistemas de Equações 2x2",
+    "dificuldade": "medio",
+    "fonte": { "tipo": "enem", "ano": 2023, "descricao": "ENEM 2023, 2º dia, Caderno 11 (Laranja), questão 137", "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_Dia_2_P1_MT_Caderno_11_Laranja_NVDA.pdf" },
+    "enunciado": "O metrô de um município vende tíquetes azuis e vermelhos em cartelas de 9 unidades da mesma cor. Duas cartelas de tíquetes azuis e uma cartela de tíquetes vermelhos custam, juntas, R$ 32,40. Sabe-se que o preço de um tíquete azul menos o preço de um tíquete vermelho é igual ao preço de um tíquete vermelho mais 5 centavos. Qual o preço, em reais, de uma cartela de tíquetes vermelhos?",
+    "alternativas": [
+      { "letra": "A", "texto": "4,68" },
+      { "letra": "B", "texto": "6,30" },
+      { "letra": "C", "texto": "9,30" },
+      { "letra": "D", "texto": "10,50" },
+      { "letra": "E", "texto": "10,65" }
+    ],
+    "correta": "B",
+    "explicacao": "Sejam a e v os preços unitários. Da segunda condição: a − v = v + 0,05, ou seja, a = 2v + 0,05. Substituindo em 18a + 9v = 32,40: 18(2v + 0,05) + 9v = 32,40 → 36v + 0,9 + 9v = 32,40 → 45v = 31,50 → v = 0,70. A cartela de vermelhos custa 9 × 0,70 = R$ 6,30."
+  },
+  {
+    "id": "enem-2023-139",
+    "categoriaId": "geometria-plana",
+    "subtopico": "Áreas e Perímetros",
+    "dificuldade": "medio",
+    "fonte": { "tipo": "enem", "ano": 2023, "descricao": "ENEM 2023, 2º dia, Caderno 11 (Laranja), questão 139", "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_Dia_2_P1_MT_Caderno_11_Laranja_NVDA.pdf" },
+    "enunciado": "Uma escada de concreto tem três degraus. Cada piso mede 1,0 m × 0,25 m e cada espelho mede 1,0 m × 0,20 m. Cada uma das duas paredes laterais da escada é formada por três retângulos justapostos: 0,25 m × 0,20 m, 0,25 m × 0,40 m e 0,25 m × 0,60 m. Pisos, espelhos e paredes laterais serão revestidos em cerâmica. Qual é a área total, em metro quadrado, a ser revestida?",
+    "alternativas": [
+      { "letra": "A", "texto": "1,20" },
+      { "letra": "B", "texto": "1,35" },
+      { "letra": "C", "texto": "1,65" },
+      { "letra": "D", "texto": "1,80" },
+      { "letra": "E", "texto": "1,95" }
+    ],
+    "correta": "E",
+    "explicacao": "Pisos: 3 × (1,0 × 0,25) = 0,75 m². Espelhos: 3 × (1,0 × 0,20) = 0,60 m². Cada parede lateral: (0,25×0,20)+(0,25×0,40)+(0,25×0,60) = 0,05+0,10+0,15 = 0,30 m²; duas paredes = 0,60 m². Total: 0,75 + 0,60 + 0,60 = 1,95 m²."
+  },
+  {
+    "id": "enem-2023-140",
+    "categoriaId": "regra-de-tres",
+    "subtopico": "Regra de Três Simples",
+    "dificuldade": "facil",
+    "fonte": { "tipo": "enem", "ano": 2023, "descricao": "ENEM 2023, 2º dia, Caderno 11 (Laranja), questão 140", "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_Dia_2_P1_MT_Caderno_11_Laranja_NVDA.pdf" },
+    "enunciado": "Um supermercado tem cinco caixas. Um cliente vai iniciar o atendimento agora em um deles e quer esperar o menor tempo possível até que todos os clientes já na fila sejam atendidos. As informações de cada caixa são: Caixa 1: 12 min por atendimento, 5 pessoas na fila. Caixa 2: 6 min por atendimento, 9 pessoas na fila. Caixa 3: 5 min por atendimento, 6 pessoas na fila. Caixa 4: 15 min por atendimento, 2 pessoas na fila. Caixa 5: 9 min por atendimento, 3 pessoas na fila. Qual caixa o cliente deve escolher?",
+    "alternativas": [
+      { "letra": "A", "texto": "1" },
+      { "letra": "B", "texto": "2" },
+      { "letra": "C", "texto": "3" },
+      { "letra": "D", "texto": "4" },
+      { "letra": "E", "texto": "5" }
+    ],
+    "correta": "E",
+    "explicacao": "O tempo de espera é (tempo por atendimento) × (pessoas na fila): Caixa 1 = 60 min; Caixa 2 = 54 min; Caixa 3 = 30 min; Caixa 4 = 30 min; Caixa 5 = 27 min. O menor tempo é o da Caixa 5."
+  },
+  {
+    "id": "enem-2023-141",
+    "categoriaId": "geometria-plana",
+    "subtopico": "Setores e Segmentos Circulares",
+    "dificuldade": "medio",
+    "fonte": { "tipo": "enem", "ano": 2023, "descricao": "ENEM 2023, 2º dia, Caderno 11 (Laranja), questão 141", "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_Dia_2_P1_MT_Caderno_11_Laranja_NVDA.pdf" },
+    "enunciado": "Em um quadro, a silhueta de uma torre com telhado em forma de triângulo equilátero está sobreposta a um círculo que representa a lua cheia. Um vértice do triângulo coincide com o centro do círculo, e o lado oposto a esse vértice é externo ao círculo. Que forma geométrica representa a parte da lua escondida atrás do telhado da torre?",
+    "alternativas": [
+      { "letra": "A", "texto": "cone." },
+      { "letra": "B", "texto": "setor circular." },
+      { "letra": "C", "texto": "segmento circular." },
+      { "letra": "D", "texto": "triângulo isósceles." },
+      { "letra": "E", "texto": "arco de circunferência." }
+    ],
+    "correta": "B",
+    "explicacao": "Como um vértice do triângulo (equilátero, ângulo de 60°) está no centro do círculo, os dois lados que partem desse vértice até os outros vértices funcionam como raios. A região do círculo delimitada por esses dois raios é, por definição, um setor circular."
+  },
+  {
+    "id": "enem-2023-142",
+    "categoriaId": "geometria-plana",
+    "subtopico": "Áreas e Perímetros",
+    "dificuldade": "facil",
+    "fonte": { "tipo": "enem", "ano": 2023, "descricao": "ENEM 2023, 2º dia, Caderno 11 (Laranja), questão 142", "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_Dia_2_P1_MT_Caderno_11_Laranja_NVDA.pdf" },
+    "enunciado": "Uma piscina quadrada tem área real de 400 m². Ao redor dela será construída uma calçada de largura constante igual a 5 m. Qual é a área, em metro quadrado, ocupada pela calçada?",
+    "alternativas": [
+      { "letra": "A", "texto": "1000" },
+      { "letra": "B", "texto": "900" },
+      { "letra": "C", "texto": "600" },
+      { "letra": "D", "texto": "500" },
+      { "letra": "E", "texto": "400" }
+    ],
+    "correta": "D",
+    "explicacao": "O lado da piscina é √400 = 20 m. Incluindo a calçada dos dois lados, o lado externo é 20 + 2×5 = 30 m, com área 900 m². A área da calçada é 900 − 400 = 500 m²."
+  },
+  {
+    "id": "enem-2023-143",
+    "categoriaId": "estatistica",
+    "subtopico": "Leitura de Gráficos e Tabelas",
+    "dificuldade": "medio",
+    "fonte": { "tipo": "enem", "ano": 2023, "descricao": "ENEM 2023, 2º dia, Caderno 11 (Laranja), questão 143", "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_Dia_2_P1_MT_Caderno_11_Laranja_NVDA.pdf" },
+    "enunciado": "Um aplicativo registrou a intensidade do sinal de internet (eixo vertical) de um celular durante uma caminhada de 30 minutos (eixo horizontal), formada por estes segmentos de reta ligando os pontos: (0,5)-(2,5), (2,5)-(6,2), (6,2)-(8,2), (8,2)-(10,0), (10,0)-(12,0), (12,0)-(14,4), (14,4)-(16,0), (16,0)-(20,0), (20,0)-(22,3), (22,3)-(24,3), (24,3)-(26,2), (26,2)-(28,5), (28,5)-(30,5). Por quantos minutos, ao todo, o celular ficou sem receber sinal (intensidade igual a 0)?",
+    "alternativas": [
+      { "letra": "A", "texto": "6" },
+      { "letra": "B", "texto": "8" },
+      { "letra": "C", "texto": "10" },
+      { "letra": "D", "texto": "14" },
+      { "letra": "E", "texto": "24" }
+    ],
+    "correta": "A",
+    "explicacao": "A intensidade permanece em 0 durante o intervalo de 10 a 12 min (2 minutos) e durante o intervalo de 16 a 20 min (4 minutos); nos demais pontos ela toca 0 apenas instantaneamente. Total: 2 + 4 = 6 minutos."
+  },
+  {
+    "id": "enem-2023-144",
+    "categoriaId": "matematica-financeira",
+    "subtopico": "Juros Compostos",
+    "dificuldade": "dificil",
+    "fonte": { "tipo": "enem", "ano": 2023, "descricao": "ENEM 2023, 2º dia, Caderno 11 (Laranja), questão 144", "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_Dia_2_P1_MT_Caderno_11_Laranja_NVDA.pdf" },
+    "enunciado": "Uma loja financia um produto em 3 parcelas mensais iguais: aumenta em 20% o valor à vista e divide o resultado por 3. A primeira parcela é paga no ato da compra, e as outras duas, em 30 e 60 dias. Um produto custa R$ 1.500,00 à vista. Utilize 5,29 como aproximação para √28. Qual é a taxa mensal de juros compostos praticada nesse financiamento?",
+    "alternativas": [
+      { "letra": "A", "texto": "6,7%" },
+      { "letra": "B", "texto": "10%" },
+      { "letra": "C", "texto": "20%" },
+      { "letra": "D", "texto": "21,5%" },
+      { "letra": "E", "texto": "23,3%" }
+    ],
+    "correta": "D",
+    "explicacao": "Cada parcela é (1500×1,2)/3 = 600. Igualando o valor à vista ao valor presente das parcelas (a 1ª não é descontada, pois é paga no ato): 1500 = 600 + 600/(1+i) + 600/(1+i)². Fazendo x = 1/(1+i): 900 = 600x + 600x² → 2x² + 2x − 3 = 0 → x = (−2 + √28)/4 = (−2 + 5,29)/4 ≈ 0,8225. Logo 1+i = 1/0,8225 ≈ 1,2158, ou seja, i ≈ 21,5%."
+  },
+  {
+    "id": "enem-2023-145",
+    "categoriaId": "funcao-afim",
+    "subtopico": "Tarifas e Planos",
+    "dificuldade": "facil",
+    "fonte": { "tipo": "enem", "ano": 2023, "descricao": "ENEM 2023, 2º dia, Caderno 11 (Laranja), questão 145", "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_Dia_2_P1_MT_Caderno_11_Laranja_NVDA.pdf" },
+    "enunciado": "O preço y do concreto bombeado é composto por uma taxa fixa de bombeamento de R$ 500,00 mais um valor variável de R$ 250,00 por metro cúbico (x) de concreto utilizado. Qual expressão representa y em função de x?",
+    "alternativas": [
+      { "letra": "A", "texto": "y = 250x" },
+      { "letra": "B", "texto": "y = 500x" },
+      { "letra": "C", "texto": "y = 750x" },
+      { "letra": "D", "texto": "y = 250x + 500" },
+      { "letra": "E", "texto": "y = 500x + 250" }
+    ],
+    "correta": "D",
+    "explicacao": "O valor fixo (500) se soma à parte variável (250 por m³ utilizado), resultando em y = 250x + 500."
+  },
+  {
+    "id": "enem-2023-146",
+    "categoriaId": "funcao-afim",
+    "subtopico": "Tarifas e Planos",
+    "dificuldade": "medio",
+    "fonte": { "tipo": "enem", "ano": 2023, "descricao": "ENEM 2023, 2º dia, Caderno 11 (Laranja), questão 146", "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_Dia_2_P1_MT_Caderno_11_Laranja_NVDA.pdf" },
+    "enunciado": "Lucas precisa estacionar por 40 minutos, e sua irmã Clara por 6 horas. Estacionamento Verde: R$ 5,00 por hora (ou fração). Estacionamento Amarelo: R$ 6,00 pelas primeiras 4 horas, mais R$ 2,50 por hora (ou fração) excedente. Estacionamento Preto: R$ 7,00 pelas primeiras 3 horas, mais R$ 1,00 por hora (ou fração) excedente. Quais são os estacionamentos mais econômicos para Lucas e Clara, respectivamente?",
+    "alternativas": [
+      { "letra": "A", "texto": "Verde e Preto." },
+      { "letra": "B", "texto": "Verde e Amarelo." },
+      { "letra": "C", "texto": "Amarelo e Amarelo." },
+      { "letra": "D", "texto": "Preto e Preto." },
+      { "letra": "E", "texto": "Verde e Verde." }
+    ],
+    "correta": "A",
+    "explicacao": "Lucas (40 min, dentro da 1ª faixa em todos): Verde R$ 5,00; Amarelo R$ 6,00; Preto R$ 7,00 → Verde é o mais barato. Clara (6h): Verde = 6×5 = R$ 30,00; Amarelo = 6 + 2×2,50 = R$ 11,00; Preto = 7 + 3×1,00 = R$ 10,00 → Preto é o mais barato."
+  },
+  {
+    "id": "enem-2023-147",
+    "categoriaId": "funcao-afim",
+    "subtopico": "Gráficos por Partes",
+    "dificuldade": "facil",
+    "fonte": { "tipo": "enem", "ano": 2023, "descricao": "ENEM 2023, 2º dia, Caderno 11 (Laranja), questão 147", "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_Dia_2_P1_MT_Caderno_11_Laranja_NVDA.pdf" },
+    "enunciado": "Uma torneira inteligente libera água a vazão constante durante 3 segundos (molhar as mãos), interrompe o fornecimento por 5 segundos (ensaboar), e libera água novamente por mais 3 segundos (enxágue). Qual gráfico de volume acumulado (litros) em função do tempo (segundos) descreve corretamente esse ciclo?",
+    "alternativas": [
+      { "letra": "A", "texto": "Sobe de (0,0) a (3,2); depois desce/zera entre (3,0) e (8,0); depois sobe de (8,2) a (11,4)." },
+      { "letra": "B", "texto": "Sobe de (0,0) a (3,2); permanece constante em 2 de (3,2) a (8,2); depois sobe de (8,2) a (11,4)." },
+      { "letra": "C", "texto": "Permanece constante em 2 de (0,2) a (3,2); zera entre (3,0) e (8,0); permanece constante em 2 entre (8,2) e (11,2)." },
+      { "letra": "D", "texto": "Um único segmento de reta ligando (0,0) a (11,4), sem patamares." },
+      { "letra": "E", "texto": "Sobe de (0,0) a (3,2); zera entre (3,0) e (8,0); depois sobe de (8,0) a (11,4)." }
+    ],
+    "correta": "B",
+    "explicacao": "O volume acumulado nunca diminui (a torneira não suga água de volta): sobe durante os 3 s iniciais (0 a 2 litros), permanece constante em 2 litros durante a pausa de 5 s (o volume acumulado não cai a zero, só a vazão para), e volta a subir nos 3 s finais (de 2 a 4 litros)."
+  },
+  {
+    "id": "enem-2023-148",
+    "categoriaId": "logica",
+    "subtopico": "Sistemas de Numeração",
+    "dificuldade": "medio",
+    "fonte": { "tipo": "enem", "ano": 2023, "descricao": "ENEM 2023, 2º dia, Caderno 11 (Laranja), questão 148", "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_Dia_2_P1_MT_Caderno_11_Laranja_NVDA.pdf" },
+    "enunciado": "Em uma cultura indígena, os números são contados assim: 1 = \"urapum\"; 2 = \"okosa\"; 3 = \"okosa urapum\"; 4 = \"okosa okosa\"; 6 = \"okosa okosa okosa\". Seguindo esse mesmo padrão, quais são as representações dos números cinco e sete, respectivamente?",
+    "alternativas": [
+      { "letra": "A", "texto": "okosa urapum urapum urapum e okosa okosa urapum urapum urapum." },
+      { "letra": "B", "texto": "okosa okosa urapum e okosa okosa okosa okosa urapum." },
+      { "letra": "C", "texto": "okosa okosa urapum e okosa okosa okosa urapum." },
+      { "letra": "D", "texto": "okosa urapum urapum e okosa urapum okosa urapum urapum." },
+      { "letra": "E", "texto": "okosa okosa urapum e okosa okosa okosa okosa." }
+    ],
+    "correta": "C",
+    "explicacao": "O padrão soma \"okosa\" (valor 2) e \"urapum\" (valor 1): 3 = 2+1, 4 = 2+2, 6 = 2+2+2. Logo, 5 = 2+2+1 = \"okosa okosa urapum\", e 7 = 2+2+2+1 = \"okosa okosa okosa urapum\"."
+  },
+  {
+    "id": "enem-2023-149",
+    "categoriaId": "estatistica",
+    "subtopico": "Média, Moda e Mediana",
+    "dificuldade": "facil",
+    "fonte": { "tipo": "enem", "ano": 2023, "descricao": "ENEM 2023, 2º dia, Caderno 11 (Laranja), questão 149", "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_Dia_2_P1_MT_Caderno_11_Laranja_NVDA.pdf" },
+    "enunciado": "Um produtor tem os seguintes índices mensais de precipitação (ImPC): outubro 250 mm, novembro 150 mm, dezembro 200 mm, janeiro 450 mm, fevereiro 100 mm, março 200 mm. Ele precisa escolher, entre pares de meses consecutivos, aquele com maior média de precipitação, e plantar no início do primeiro mês do par. Em qual mês ele deve plantar?",
+    "alternativas": [
+      { "letra": "A", "texto": "Outubro." },
+      { "letra": "B", "texto": "Novembro." },
+      { "letra": "C", "texto": "Dezembro." },
+      { "letra": "D", "texto": "Janeiro." },
+      { "letra": "E", "texto": "Fevereiro." }
+    ],
+    "correta": "C",
+    "explicacao": "Médias dos pares consecutivos: out-nov=200, nov-dez=175, dez-jan=325, jan-fev=275, fev-mar=150. A maior média é dez-jan (325 mm), então ele deve plantar no início de dezembro."
+  },
+  {
+    "id": "enem-2023-150",
+    "categoriaId": "geometria-espacial",
+    "subtopico": "Cones e Pirâmides",
+    "dificuldade": "dificil",
+    "fonte": { "tipo": "enem", "ano": 2023, "descricao": "ENEM 2023, 2º dia, Caderno 11 (Laranja), questão 150", "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_Dia_2_P1_MT_Caderno_11_Laranja_NVDA.pdf" },
+    "enunciado": "Um artista esculpe um cone reto com 36 cm de altura e 18 cm de diâmetro da base. Ele remove do topo um cone menor semelhante (mesmo vértice e eixo), com 6 cm de diâmetro da base, obtendo um tronco de cone. Em seguida, perfura esse tronco com um furo cilíndrico de 6 cm de diâmetro, ao longo de todo o seu eixo, de base a base. A madeira usada tem massa de 0,6 g por cm³. Utilize 3 como aproximação para π. Qual é a massa final, em grama, dessa escultura?",
+    "alternativas": [
+      { "letra": "A", "texto": "1198,8" },
+      { "letra": "B", "texto": "1296,0" },
+      { "letra": "C", "texto": "1360,8" },
+      { "letra": "D", "texto": "4665,6" },
+      { "letra": "E", "texto": "4860,0" }
+    ],
+    "correta": "B",
+    "explicacao": "Cone grande (R=9, H=36): V = (1/3)×3×9²×36 = 2916 cm³. Cone pequeno removido é semelhante com r=3, logo h = 36×(3/9) = 12: V = (1/3)×3×3²×12 = 108 cm³. Tronco: 2916 − 108 = 2808 cm³, com altura 36−12=24 cm. Cilindro perfurado (r=3, h=24): V = 3×3²×24 = 648 cm³. Volume final: 2808 − 648 = 2160 cm³. Massa: 2160 × 0,6 = 1296,0 g."
+  },
+  {
+    "id": "enem-2023-151",
+    "categoriaId": "estatistica",
+    "subtopico": "Média, Moda e Mediana",
+    "dificuldade": "facil",
+    "fonte": { "tipo": "enem", "ano": 2023, "descricao": "ENEM 2023, 2º dia, Caderno 11 (Laranja), questão 151", "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_Dia_2_P1_MT_Caderno_11_Laranja_NVDA.pdf" },
+    "enunciado": "Uma empresa tem 100 funcionários: 75 na Produção, ganhando R$ 2.000,00 cada, e 25 na Administração, ganhando R$ 7.000,00 cada. Qual é a média salarial dos 100 funcionários?",
+    "alternativas": [
+      { "letra": "A", "texto": "2000,00." },
+      { "letra": "B", "texto": "2500,00." },
+      { "letra": "C", "texto": "3250,00." },
+      { "letra": "D", "texto": "4500,00." },
+      { "letra": "E", "texto": "9000,00." }
+    ],
+    "correta": "C",
+    "explicacao": "Média ponderada = (75×2000 + 25×7000) / 100 = (150000 + 175000) / 100 = 325000/100 = R$ 3.250,00."
+  },
+  {
+    "id": "enem-2023-152",
+    "categoriaId": "probabilidade",
+    "subtopico": "Probabilidade Condicional",
+    "dificuldade": "dificil",
+    "fonte": { "tipo": "enem", "ano": 2023, "descricao": "ENEM 2023, 2º dia, Caderno 11 (Laranja), questão 152", "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_Dia_2_P1_MT_Caderno_11_Laranja_NVDA.pdf" },
+    "enunciado": "Um cliente ganha um voucher se tirar uma bolinha preta da urna A (probabilidade 20%) e uma bolinha preta da urna B (probabilidade atual 25%, sabendo que a urna B tem 4 bolinhas pretas). O gerente quer adicionar bolinhas brancas à urna B (mantendo as 4 pretas) para que a probabilidade de o cliente ganhar (tirar preta de A e de B) fique menor ou igual a 1%. Qual é o número mínimo de bolinhas brancas que devem ser adicionadas à urna B?",
+    "alternativas": [
+      { "letra": "A", "texto": "20" },
+      { "letra": "B", "texto": "60" },
+      { "letra": "C", "texto": "64" },
+      { "letra": "D", "texto": "68" },
+      { "letra": "E", "texto": "80" }
+    ],
+    "correta": "C",
+    "explicacao": "Hoje a urna B tem 4 pretas e P(preta)=25%, logo tem 16 bolinhas ao todo (12 brancas). Precisamos de 0,20 × p ≤ 0,01, ou seja, p ≤ 0,05 (5%). Com 4 pretas fixas: 4/total ≤ 0,05 → total ≥ 80. É preciso ter pelo menos 80 bolinhas na urna B, ou seja, adicionar 80 − 16 = 64 bolinhas brancas."
+  },
+  {
+    "id": "enem-2023-153",
+    "categoriaId": "porcentagem",
+    "subtopico": "Fator de Multiplicação",
+    "dificuldade": "facil",
+    "fonte": { "tipo": "enem", "ano": 2023, "descricao": "ENEM 2023, 2º dia, Caderno 11 (Laranja), questão 153", "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_Dia_2_P1_MT_Caderno_11_Laranja_NVDA.pdf" },
+    "enunciado": "Ao final da primeira hora após a ingestão de uma quantidade q de álcool, a concentração C de álcool no sangue corresponde a aproximadamente 90% da quantidade ingerida. Qual expressão representa algebricamente essa concentração C em função de q?",
+    "alternativas": [
+      { "letra": "A", "texto": "C = 0,9 × q" },
+      { "letra": "B", "texto": "C = 0,1 × q" },
+      { "letra": "C", "texto": "C = 1 − 0,1 × q" },
+      { "letra": "D", "texto": "C = 1 − 0,9 × q" },
+      { "letra": "E", "texto": "C = q − 10" }
+    ],
+    "correta": "A",
+    "explicacao": "90% de q, em notação decimal, é 0,9 × q. Logo C = 0,9q."
+  },
+  {
+    "id": "enem-2023-154",
+    "categoriaId": "geometria-analitica",
+    "subtopico": "Leitura de Plano Cartesiano",
+    "dificuldade": "medio",
+    "fonte": { "tipo": "enem", "ano": 2023, "descricao": "ENEM 2023, 2º dia, Caderno 11 (Laranja), questão 154", "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_Dia_2_P1_MT_Caderno_11_Laranja_NVDA.pdf" },
+    "enunciado": "Um gráfico relaciona, em 9 instantes (horas exatas de 9h a 17h), o valor da criptomoeda A (eixo horizontal) com o valor da criptomoeda B (eixo vertical), em pares (A, B): 9h(3; 0,5), 10h(2; 2), 11h(4; 4), 12h(5,5; 3), 13h(6; 1,5), 14h(3,5; 2), 15h(2,5; 4), 16h(1; 5), 17h(0,5; 3,5). Em quantos desses instantes o valor de A era estritamente maior do que o valor de B?",
+    "alternativas": [
+      { "letra": "A", "texto": "3" },
+      { "letra": "B", "texto": "4" },
+      { "letra": "C", "texto": "6" },
+      { "letra": "D", "texto": "7" },
+      { "letra": "E", "texto": "9" }
+    ],
+    "correta": "B",
+    "explicacao": "Comparando A e B em cada instante: 9h (3>0,5) sim; 10h (2=2) não; 11h (4=4) não; 12h (5,5>3) sim; 13h (6>1,5) sim; 14h (3,5>2) sim; 15h, 16h, 17h: A<B, não. Total de instantes com A>B: 4 (9h, 12h, 13h, 14h)."
+  },
+  {
+    "id": "enem-2023-155",
+    "categoriaId": "exponenciais-logaritmos",
+    "subtopico": "Escalas Logarítmicas (pH, Richter)",
+    "dificuldade": "dificil",
+    "fonte": { "tipo": "enem", "ano": 2023, "descricao": "ENEM 2023, 2º dia, Caderno 11 (Laranja), questão 155", "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_Dia_2_P1_MT_Caderno_11_Laranja_NVDA.pdf" },
+    "enunciado": "O nível de intensidade sonora, em decibéis, é dado por N = 10 · log₁₀(I / I₀), em que I₀ = 10⁻¹² W/m². Medidas preventivas: N ≤ 48 → medida 1; 48 < N < 55 → medida 2; 55 < N < 80 → medida 3; 80 < N < 115 → medida 4; N > 115 → medida 5. Uma máquina emite I = 8 × 10⁻⁸ W/m². Use 0,3 como aproximação para log₁₀(2). Qual medida preventiva deve ser adotada para essa máquina?",
+    "alternativas": [
+      { "letra": "A", "texto": "1." },
+      { "letra": "B", "texto": "2." },
+      { "letra": "C", "texto": "3." },
+      { "letra": "D", "texto": "4." },
+      { "letra": "E", "texto": "5." }
+    ],
+    "correta": "B",
+    "explicacao": "N = 10·log₁₀(8×10⁻⁸ / 10⁻¹²) = 10·log₁₀(8×10⁴) = 10·[log₁₀(8) + 4]. Como log₁₀(8) = 3·log₁₀(2) = 3×0,3 = 0,9, temos N = 10×(0,9+4) = 10×4,9 = 49 dB. Como 48 < 49 < 55, aplica-se a medida preventiva 2."
+  },
+  {
+    "id": "enem-2023-156",
+    "categoriaId": "probabilidade",
+    "subtopico": "Probabilidade Condicional",
+    "dificuldade": "dificil",
+    "fonte": { "tipo": "enem", "ano": 2023, "descricao": "ENEM 2023, 2º dia, Caderno 11 (Laranja), questão 156", "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_Dia_2_P1_MT_Caderno_11_Laranja_NVDA.pdf" },
+    "enunciado": "Há 55 candidatos inscritos, numerados de 01 a 55. Sorteia-se primeiro, em uma urna com bolas de 0 a 9, o algarismo das unidades do número sorteado; depois, em uma segunda urna (contendo apenas os algarismos das dezenas compatíveis com um número válido de 01 a 55, dado o algarismo das unidades já sorteado), sorteia-se o algarismo das dezenas. Quais são as probabilidades de os candidatos de número 50 e 02 serem sorteados, respectivamente?",
+    "alternativas": [
+      { "letra": "A", "texto": "um cinquenta avos e um sessenta avos." },
+      { "letra": "B", "texto": "um cinquenta avos e um cinquenta avos." },
+      { "letra": "C", "texto": "um cinquenta avos e um décimo." },
+      { "letra": "D", "texto": "um cinquenta e cinco avos e um cinquenta e quatro avos." },
+      { "letra": "E", "texto": "um centésimo e um centésimo." }
+    ],
+    "correta": "A",
+    "explicacao": "Para o número 50 (unidade 0, dezena 5): unidade 0 permite dezenas 1,2,3,4,5 (para formar 10,20,30,40,50), ou seja, 5 opções. P(50) = (1/10)×(1/5) = 1/50. Para o número 02 (unidade 2, dezena 0): unidade 2 permite dezenas 0,1,2,3,4,5 (02,12,...,52), ou seja, 6 opções. P(02) = (1/10)×(1/6) = 1/60."
+  },
+  {
+    "id": "enem-2023-157",
+    "categoriaId": "progressoes",
+    "subtopico": "Progressão Geométrica",
+    "dificuldade": "medio",
+    "fonte": { "tipo": "enem", "ano": 2023, "descricao": "ENEM 2023, 2º dia, Caderno 11 (Laranja), questão 157", "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_Dia_2_P1_MT_Caderno_11_Laranja_NVDA.pdf" },
+    "enunciado": "A intensidade luminosa em um rio decresce com a profundidade: a 0 m é L₀; a 1 m é (2/3)L₀; a 2 m é (4/9)L₀; a 3 m é (8/27)L₀. Mantendo esse mesmo padrão, qual é a intensidade luminosa na profundidade de 6 metros?",
+    "alternativas": [
+      { "letra": "A", "texto": "(1/9) × L₀." },
+      { "letra": "B", "texto": "(16/27) × L₀." },
+      { "letra": "C", "texto": "(32/243) × L₀." },
+      { "letra": "D", "texto": "(64/729) × L₀." },
+      { "letra": "E", "texto": "(128/2187) × L₀." }
+    ],
+    "correta": "D",
+    "explicacao": "A cada metro, a intensidade é multiplicada por 2/3 (PG de razão 2/3). A n metros, a intensidade é (2/3)ⁿ × L₀. A 6 metros: (2/3)⁶ = 64/729."
+  },
+  {
+    "id": "enem-2023-158",
+    "categoriaId": "funcao-quadratica",
+    "subtopico": "Vértice da Parábola",
+    "dificuldade": "medio",
+    "fonte": { "tipo": "enem", "ano": 2023, "descricao": "ENEM 2023, 2º dia, Caderno 11 (Laranja), questão 158", "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_Dia_2_P1_MT_Caderno_11_Laranja_NVDA.pdf" },
+    "enunciado": "O montante diário arrecadado por uma empresa, em milhar de reais, é V(x) = x²/4 − 10x + 105, em que x é o dia do mês (1 a 30). Classificação pelo menor montante V₀ do mês: Ótimo (V₀≥24), Bom (20≤V₀<24), Normal (10≤V₀<20), Ruim (4≤V₀<10), Péssimo (V₀<4). Qual é a classificação do desempenho da empresa nesse mês?",
+    "alternativas": [
+      { "letra": "A", "texto": "Ótimo." },
+      { "letra": "B", "texto": "Bom." },
+      { "letra": "C", "texto": "Normal." },
+      { "letra": "D", "texto": "Ruim." },
+      { "letra": "E", "texto": "Péssimo." }
+    ],
+    "correta": "D",
+    "explicacao": "O vértice da parábola (mínimo, já que a=1/4>0) está em x = -b/(2a) = 10/(2×1/4) = 20, dentro do intervalo [1,30]. V(20) = 400/4 − 200 + 105 = 100 − 200 + 105 = 5. Como 4 ≤ 5 < 10, a classificação é Ruim."
+  },
+  {
+    "id": "enem-2023-159",
+    "categoriaId": "estatistica",
+    "subtopico": "Leitura de Gráficos e Tabelas",
+    "dificuldade": "medio",
+    "fonte": { "tipo": "enem", "ano": 2023, "descricao": "ENEM 2023, 2º dia, Caderno 11 (Laranja), questão 159", "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_Dia_2_P1_MT_Caderno_11_Laranja_NVDA.pdf" },
+    "enunciado": "Dez estudantes tiveram massa corporal (kg) e altura (m) medidas: (50; 1,60), (58; 1,65), (60; 1,65), (63; 1,68), (70; 1,70), (85; 1,50), (85; 1,65), (90; 1,63), (108; 1,75), (120; 1,70). A média de massa é 80 kg e a média de altura é 1,65 m. Qual o percentual de estudantes com massa abaixo da média E altura acima da média?",
+    "alternativas": [
+      { "letra": "A", "texto": "10" },
+      { "letra": "B", "texto": "20" },
+      { "letra": "C", "texto": "30" },
+      { "letra": "D", "texto": "50" },
+      { "letra": "E", "texto": "70" }
+    ],
+    "correta": "B",
+    "explicacao": "Precisamos de massa < 80 e altura > 1,65 simultaneamente: (63; 1,68) atende e (70; 1,70) atende. Os demais com massa<80 têm altura ≤1,65, e os com massa≥80 não contam. São 2 de 10 estudantes = 20%."
+  },
+  {
+    "id": "enem-2023-160",
+    "categoriaId": "equacoes",
+    "subtopico": "Inequações do 1º grau",
+    "dificuldade": "dificil",
+    "fonte": { "tipo": "enem", "ano": 2023, "descricao": "ENEM 2023, 2º dia, Caderno 11 (Laranja), questão 160", "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_Dia_2_P1_MT_Caderno_11_Laranja_NVDA.pdf" },
+    "enunciado": "Um pescador tem custo fixo diário de R$ 900,00 e vende o peixe a R$ 5,00/kg. Sozinho, pesca 180 kg/dia (cobre só o custo fixo). Cada ajudante contratado custa R$ 250,00/dia mais 4% da receita total, dividido entre eles. Com 1 ajudante a pesca sobe para 300 kg/dia; a partir do 2º ajudante, cada um adicional soma mais 100 kg/dia à pesca total. Ele pode contratar até 5 ajudantes e quer lucro diário mínimo de R$ 800,00. Qual é o número mínimo de ajudantes necessário?",
+    "alternativas": [
+      { "letra": "A", "texto": "1." },
+      { "letra": "B", "texto": "2." },
+      { "letra": "C", "texto": "3." },
+      { "letra": "D", "texto": "4." },
+      { "letra": "E", "texto": "5." }
+    ],
+    "correta": "D",
+    "explicacao": "Com n ajudantes, a pesca é 300+100(n−1) kg. Lucro(n) = 5×pesca − 900 − 250n − 0,04×(5×pesca). Testando: n=1 → 300kg, lucro=1500−900−250−60=290. n=2→400kg, lucro=2000−900−500−80=520. n=3→500kg, lucro=2500−900−750−100=750. n=4→600kg, lucro=3000−900−1000−120=980≥800. O mínimo é 4 ajudantes."
+  },
+  {
+    "id": "enem-2023-161",
+    "categoriaId": "progressoes",
+    "subtopico": "Progressão Geométrica",
+    "dificuldade": "medio",
+    "fonte": { "tipo": "enem", "ano": 2023, "descricao": "ENEM 2023, 2º dia, Caderno 11 (Laranja), questão 161", "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_Dia_2_P1_MT_Caderno_11_Laranja_NVDA.pdf" },
+    "enunciado": "Uma população de larvas começa com 100 indivíduos e multiplica-se por 10 a cada 3 dias. O agricultor tem 5 litros de um produto X, aplicado na proporção de 1 litro para cada 200.000 larvas, e deve aplicar tudo de uma vez, exatamente quando a população atingir o total tratável pelos 5 litros. Quantos dias após o início ele deverá aplicar o produto?",
+    "alternativas": [
+      { "letra": "A", "texto": "2" },
+      { "letra": "B", "texto": "4" },
+      { "letra": "C", "texto": "6" },
+      { "letra": "D", "texto": "12" },
+      { "letra": "E", "texto": "18" }
+    ],
+    "correta": "D",
+    "explicacao": "5 litros tratam 5×200.000 = 1.000.000 larvas. População: dia 0 = 100; dia 3 = 1.000; dia 6 = 10.000; dia 9 = 100.000; dia 12 = 1.000.000. A aplicação deve ocorrer no dia 12."
+  },
+  {
+    "id": "enem-2023-162",
+    "categoriaId": "analise-combinatoria",
+    "subtopico": "Arranjo",
+    "dificuldade": "dificil",
+    "fonte": { "tipo": "enem", "ano": 2023, "descricao": "ENEM 2023, 2º dia, Caderno 11 (Laranja), questão 162", "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_Dia_2_P1_MT_Caderno_11_Laranja_NVDA.pdf" },
+    "enunciado": "Uma senha pode usar: 10 algarismos, 26 letras minúsculas, 26 maiúsculas e 6 caracteres especiais (68 símbolos ao todo, todos distintos entre si na senha). Tipo 1: 4 caracteres distintos quaisquer, em qualquer ordem. Tipo 2: 5 caracteres distintos — 3 letras, depois 1 algarismo, depois 1 especial. Tipo 3: 6 caracteres distintos — 2 letras, depois 2 algarismos, depois 2 especiais. Sejam p1, p2 e p3 as probabilidades de acertar cada tipo de senha na primeira tentativa. Qual tipo tem a menor probabilidade de ser descoberto?",
+    "alternativas": [
+      { "letra": "A", "texto": "tipo 1, pois p1 < p2 < p3." },
+      { "letra": "B", "texto": "tipo 1, pois tem menor quantidade de caracteres." },
+      { "letra": "C", "texto": "tipo 2, pois tem maior quantidade de letras." },
+      { "letra": "D", "texto": "tipo 3, pois p3 < p2 < p1." },
+      { "letra": "E", "texto": "tipo 3, pois tem maior quantidade de caracteres." }
+    ],
+    "correta": "A",
+    "explicacao": "Número de senhas possíveis: tipo 1 = 68×67×66×65 ≈ 19,5 milhões; tipo 2 = (52×51×50)×10×6 ≈ 7,96 milhões; tipo 3 = (52×51)×(10×9)×(6×5) ≈ 7,16 milhões. Quanto mais combinações possíveis, menor a probabilidade de acerto (p = 1/total). Como o tipo 1 tem o maior número de combinações, ele tem a menor probabilidade: p1 < p2 < p3."
+  },
+  {
+    "id": "enem-2023-163",
+    "categoriaId": "razao-proporcao",
+    "subtopico": "Divisão Proporcional",
+    "dificuldade": "medio",
+    "fonte": { "tipo": "enem", "ano": 2023, "descricao": "ENEM 2023, 2º dia, Caderno 11 (Laranja), questão 163", "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_Dia_2_P1_MT_Caderno_11_Laranja_NVDA.pdf" },
+    "enunciado": "Um canil com 98 cães tem ração suficiente para dar 1000 g/dia a cada cão durante 30 dias. No início do 11º dia, chegam 2 novos cães, e o restante da ração precisa ser redistribuído igualmente entre todos até o fim do mês. Qual será a nova porção diária, em grama, por cão, do dia 11 ao dia 30?",
+    "alternativas": [
+      { "letra": "A", "texto": "306" },
+      { "letra": "B", "texto": "500" },
+      { "letra": "C", "texto": "510" },
+      { "letra": "D", "texto": "653" },
+      { "letra": "E", "texto": "980" }
+    ],
+    "correta": "E",
+    "explicacao": "Estoque total: 98×1000×30 = 2.940.000 g. Consumido nos 10 primeiros dias: 98×1000×10 = 980.000 g. Restante: 1.960.000 g, para 100 cães durante 20 dias (dias 11 a 30). Porção diária: 1.960.000 / (100×20) = 980 g."
+  },
+  {
+    "id": "enem-2023-164",
+    "categoriaId": "trigonometria",
+    "subtopico": "Funções Periódicas",
+    "dificuldade": "facil",
+    "fonte": { "tipo": "enem", "ano": 2023, "descricao": "ENEM 2023, 2º dia, Caderno 11 (Laranja), questão 164", "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_Dia_2_P1_MT_Caderno_11_Laranja_NVDA.pdf" },
+    "enunciado": "Uma roda-gigante gira com velocidade angular constante. No instante t=0, a cadeira de uma pessoa está exatamente no ponto mais alto. Qual tipo de curva melhor representa a altura dessa cadeira em relação ao solo, em função do tempo?",
+    "alternativas": [
+      { "letra": "A", "texto": "Uma cossenoide (curva suave e periódica, iniciando no valor máximo)." },
+      { "letra": "B", "texto": "Uma linha poligonal com 4 segmentos retos de mesmo comprimento, alternando subida e descida." },
+      { "letra": "C", "texto": "Uma linha poligonal com 7 segmentos, alternando subida/descida com 3 patamares horizontais." },
+      { "letra": "D", "texto": "3 arcos de parábola com concavidade para baixo, formando uma curva contínua." },
+      { "letra": "E", "texto": "2 arcos de parábola com concavidade para cima, formando uma curva contínua." }
+    ],
+    "correta": "A",
+    "explicacao": "Como a roda gira com velocidade angular constante, a altura de um ponto em relação ao solo varia de forma senoidal com o tempo. Como o movimento começa exatamente no ponto mais alto, a curva é uma cossenoide (cosseno começa no valor máximo)."
+  },
+  {
+    "id": "enem-2023-165",
+    "categoriaId": "probabilidade",
+    "subtopico": "Probabilidade Simples",
+    "dificuldade": "medio",
+    "fonte": { "tipo": "enem", "ano": 2023, "descricao": "ENEM 2023, 2º dia, Caderno 11 (Laranja), questão 165", "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_Dia_2_P1_MT_Caderno_11_Laranja_NVDA.pdf" },
+    "enunciado": "Em um sorteio de quarto universitário, cada estudante de 1º ano recebe 1 cartão com seu nome na urna; de 2º ano, 2 cartões; de 3º ano, 3 cartões. Inscreveram-se 200 estudantes do 1º ano, 150 do 2º ano e 100 do 3º ano. Qual é a probabilidade de o sorteado ser um estudante do 3º ano?",
+    "alternativas": [
+      { "letra": "A", "texto": "Um meio." },
+      { "letra": "B", "texto": "Um terço." },
+      { "letra": "C", "texto": "Um oitavo." },
+      { "letra": "D", "texto": "Dois nonos." },
+      { "letra": "E", "texto": "Três oitavos." }
+    ],
+    "correta": "E",
+    "explicacao": "Total de cartões: 200×1 + 150×2 + 100×3 = 200 + 300 + 300 = 800. Cartões do 3º ano: 300. Probabilidade: 300/800 = 3/8."
+  },
+  {
+    "id": "enem-2023-166",
+    "categoriaId": "geometria-espacial",
+    "subtopico": "Prismas e Cilindros",
+    "dificuldade": "medio",
+    "fonte": { "tipo": "enem", "ano": 2023, "descricao": "ENEM 2023, 2º dia, Caderno 11 (Laranja), questão 166", "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_Dia_2_P1_MT_Caderno_11_Laranja_NVDA.pdf" },
+    "enunciado": "Um reservatório cilíndrico com raio da base de 5 m abastece 75 moradores, cada um consumindo em média 200 litros/dia. Após um gasto extra, o nível de água ficou em 1,5 m, e essa quantidade precisa durar os próximos 10 dias sem faltar água. Use 3 como aproximação para π. Qual é a quantidade mínima de água, em litro, que cada morador deve economizar por dia?",
+    "alternativas": [
+      { "letra": "A", "texto": "50" },
+      { "letra": "B", "texto": "60" },
+      { "letra": "C", "texto": "80" },
+      { "letra": "D", "texto": "140" },
+      { "letra": "E", "texto": "150" }
+    ],
+    "correta": "A",
+    "explicacao": "Água disponível: V = π×r²×h = 3×25×1,5 = 112,5 m³ = 112.500 L. Consumo normal em 10 dias: 75×200×10 = 150.000 L, que excede a água disponível em 150.000−112.500 = 37.500 L. Essa economia deve ser dividida por 75 moradores e por 10 dias: 37.500/(75×10) = 50 L por morador por dia."
+  },
+  {
+    "id": "enem-2023-167",
+    "categoriaId": "porcentagem",
+    "subtopico": "Aumentos e Descontos Sucessivos",
+    "dificuldade": "dificil",
+    "fonte": { "tipo": "enem", "ano": 2023, "descricao": "ENEM 2023, 2º dia, Caderno 11 (Laranja), questão 167", "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_Dia_2_P1_MT_Caderno_11_Laranja_NVDA.pdf" },
+    "enunciado": "Uma creche com salas de 10 vagas/ano cada teve, no ano passado, 400 nomes na lista de espera. Esse número cresceu 10% neste ano. Sem novas salas, a lista do próximo ano ficaria igual à deste ano. A fábrica quer que a lista do próximo ano seja 25% menor que a deste ano, construindo novas salas (10 vagas cada). Qual é o número mínimo de salas a construir?",
+    "alternativas": [
+      { "letra": "A", "texto": "10." },
+      { "letra": "B", "texto": "11." },
+      { "letra": "C", "texto": "13." },
+      { "letra": "D", "texto": "30." },
+      { "letra": "E", "texto": "33." }
+    ],
+    "correta": "B",
+    "explicacao": "Lista deste ano: 400×1,10 = 440. Meta do próximo ano: 440×0,75 = 330, uma redução de 440−330 = 110 nomes em relação à projeção sem novas salas. Cada sala atende 10 crianças a mais (retirando 10 nomes da lista): 110/10 = 11 salas."
+  },
+  {
+    "id": "enem-2023-168",
+    "categoriaId": "funcao-afim",
+    "subtopico": "Coeficiente Angular",
+    "dificuldade": "facil",
+    "fonte": { "tipo": "enem", "ano": 2023, "descricao": "ENEM 2023, 2º dia, Caderno 11 (Laranja), questão 168", "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_Dia_2_P1_MT_Caderno_11_Laranja_NVDA.pdf" },
+    "enunciado": "Uma cisterna cilíndrica com 3 m² de área de base é abastecida a vazão constante. O nível da água foi registrado: 6h → 0,5 m; 8h → 1,1 m; 12h → 2,3 m; 15h → 3,2 m. Qual foi a vazão, em metro cúbico por hora, do curso-d'água?",
+    "alternativas": [
+      { "letra": "A", "texto": "0,3" },
+      { "letra": "B", "texto": "0,5" },
+      { "letra": "C", "texto": "0,9" },
+      { "letra": "D", "texto": "1,8" },
+      { "letra": "E", "texto": "2,7" }
+    ],
+    "correta": "C",
+    "explicacao": "A taxa de variação do nível é constante: (1,1−0,5)/(8−6) = 0,3 m/h; (2,3−1,1)/(12−8) = 0,3 m/h; (3,2−2,3)/(15−12) = 0,3 m/h. Vazão volumétrica = taxa × área da base = 0,3 × 3 = 0,9 m³/h."
+  },
+  {
+    "id": "enem-2023-169",
+    "categoriaId": "geometria-plana",
+    "subtopico": "Ângulo Inscrito e Circunferência",
+    "dificuldade": "dificil",
+    "fonte": { "tipo": "enem", "ano": 2023, "descricao": "ENEM 2023, 2º dia, Caderno 11 (Laranja), questão 169", "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_Dia_2_P1_MT_Caderno_11_Laranja_NVDA.pdf" },
+    "enunciado": "Em um campo de futebol, A e B são os pés de uma trave. O jogador Q1, com a bola, forma um ângulo α = ∠AQ1B. Outros jogadores Q2, Q3, Q4, Q5, Q6 estão em posições diferentes. Sabe-se que Q1 e Q3 estão sobre a mesma circunferência que passa por A e B (junto com outra circunferência menor por A,Q4,B; outra por A,Q2,B; outra por A,Q5,B; e outra por A,Q6,B — cada uma com um raio diferente). A bola deve ir para o jogador Qn cujo ângulo ∠AQnB seja igual a α. Para qual jogador a bola deve ser passada?",
+    "alternativas": [
+      { "letra": "A", "texto": "Q2" },
+      { "letra": "B", "texto": "Q3" },
+      { "letra": "C", "texto": "Q4" },
+      { "letra": "D", "texto": "Q5" },
+      { "letra": "E", "texto": "Q6" }
+    ],
+    "correta": "B",
+    "explicacao": "Pelo teorema do ângulo inscrito, pontos que enxergam o mesmo segmento AB sob o mesmo ângulo estão sobre o mesmo arco de uma mesma circunferência. Como Q1 e Q3 estão na mesma circunferência que passa por A e B, o ângulo ∠AQ3B é automaticamente igual a ∠AQ1B = α."
+  },
+  {
+    "id": "enem-2023-170",
+    "categoriaId": "progressoes",
+    "subtopico": "Progressão Aritmética",
+    "dificuldade": "dificil",
+    "fonte": { "tipo": "enem", "ano": 2023, "descricao": "ENEM 2023, 2º dia, Caderno 11 (Laranja), questão 170", "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_Dia_2_P1_MT_Caderno_11_Laranja_NVDA.pdf" },
+    "enunciado": "Em um \"triângulo mágico\", os números de 1 a 6 são colocados nos 3 vértices e nos 3 pontos médios dos lados, sem repetição, de modo que a soma dos 3 números em cada lado seja a mesma. Os números dos vértices formam uma progressão aritmética de razão 2. Quais são as somas possíveis em cada lado do triângulo?",
+    "alternativas": [
+      { "letra": "A", "texto": "Só uma solução, com soma igual a 7 em cada lado." },
+      { "letra": "B", "texto": "Só uma solução, com soma igual a 9 em cada lado." },
+      { "letra": "C", "texto": "Duas soluções: somas iguais a 7 ou iguais a 9." },
+      { "letra": "D", "texto": "Duas soluções: somas iguais a 9 ou iguais a 12." },
+      { "letra": "E", "texto": "Duas soluções: somas iguais a 10 ou iguais a 11." }
+    ],
+    "correta": "E",
+    "explicacao": "As únicas ternas de 1 a 6 em PA de razão 2 são (1,3,5) e (2,4,6). Somando as 3 somas dos lados, cada vértice é contado 2 vezes e cada ponto médio 1 vez: 3S = 2×(soma dos vértices) + (soma dos pontos médios) = (soma dos vértices) + 21. Para vértices (1,3,5), soma=9: S=(9+21)/3=10. Para vértices (2,4,6), soma=12: S=(12+21)/3=11. Logo, as somas possíveis são 10 ou 11."
+  },
+  {
+    "id": "enem-2023-171",
+    "categoriaId": "funcao-afim",
+    "subtopico": "f(x) = ax + b",
+    "dificuldade": "medio",
+    "fonte": { "tipo": "enem", "ano": 2023, "descricao": "ENEM 2023, 2º dia, Caderno 11 (Laranja), questão 171", "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_Dia_2_P1_MT_Caderno_11_Laranja_NVDA.pdf" },
+    "enunciado": "As vendas mensais de dois produtos: Produto 1: 80 (abril), 90 (maio), 100 (junho), crescendo 10 unidades/mês. Produto 2: 190 (abril), 170 (maio), 150 (junho), caindo 20 unidades/mês. Mantido esse ritmo, a produção do produto 2 será encerrada no mês seguinte àquele em que as vendas do produto 1 ultrapassarem as do produto 2. Em qual mês o produto 2 deixará de ser produzido?",
+    "alternativas": [
+      { "letra": "A", "texto": "Junho." },
+      { "letra": "B", "texto": "Julho." },
+      { "letra": "C", "texto": "Agosto." },
+      { "letra": "D", "texto": "Setembro." },
+      { "letra": "E", "texto": "Outubro." }
+    ],
+    "correta": "D",
+    "explicacao": "Com t=0 em abril: Produto1(t) = 80+10t; Produto2(t) = 190−20t. Produto1 > Produto2 quando 80+10t > 190−20t → 30t > 110 → t > 3,67, ou seja, t=4 (agosto) é o primeiro mês em que isso ocorre. A produção é encerrada no mês seguinte a agosto: setembro."
+  },
+  {
+    "id": "enem-2023-172",
+    "categoriaId": "estatistica",
+    "subtopico": "Média, Moda e Mediana",
+    "dificuldade": "dificil",
+    "fonte": { "tipo": "enem", "ano": 2023, "descricao": "ENEM 2023, 2º dia, Caderno 11 (Laranja), questão 172", "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_Dia_2_P1_MT_Caderno_11_Laranja_NVDA.pdf" },
+    "enunciado": "Entre 160 motoristas, o número de viagens realizadas no dia foi: 1 viagem (10 motoristas), 2 (10), 3 (55), 4 (25), 5 (0), 6 (50), 7 (10). Comparando média, mediana e moda dessa distribuição, o que se obtém?",
+    "alternativas": [
+      { "letra": "A", "texto": "mediana igual a média, e ambas menores que a moda." },
+      { "letra": "B", "texto": "mediana igual a moda, e ambas menores que a média." },
+      { "letra": "C", "texto": "mediana menor que média, que é menor que a moda." },
+      { "letra": "D", "texto": "moda menor que média, que é menor que a mediana." },
+      { "letra": "E", "texto": "moda menor que mediana, que é menor que a média." }
+    ],
+    "correta": "E",
+    "explicacao": "Moda = valor mais frequente = 3 viagens (55 motoristas). Mediana: com 160 dados, é a média entre o 80º e 81º valor ordenado; as frequências acumuladas mostram que ambos caem na categoria \"4\", logo mediana = 4. Média = (1×10+2×10+3×55+4×25+5×0+6×50+7×10)/160 = 665/160 ≈ 4,16. Ordenando: moda (3) < mediana (4) < média (≈4,16)."
+  },
+  {
+    "id": "enem-2023-173",
+    "categoriaId": "estatistica",
+    "subtopico": "Média, Moda e Mediana",
+    "dificuldade": "medio",
+    "fonte": { "tipo": "enem", "ano": 2023, "descricao": "ENEM 2023, 2º dia, Caderno 11 (Laranja), questão 173", "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_Dia_2_P1_MT_Caderno_11_Laranja_NVDA.pdf" },
+    "enunciado": "Uma pessoa pratica, por dia, horas de caminhar, correr, andar de bicicleta e jogar futebol, respectivamente: Segunda (1,0; 0,5; 0,0; 2,0); Terça (0,5; 1,0; 0,5; 1,0); Quarta (0,0; 1,5; 1,0; 0,5); Quinta (0,0; 2,0; 0,0; 0,0); Sexta (0,0; 0,5; 0,0; 2,5). Gasto calórico por hora: caminhar 248, correr 764, bicicleta 356, futebol 492. Em qual dia o gasto calórico total foi maior?",
+    "alternativas": [
+      { "letra": "A", "texto": "segunda-feira." },
+      { "letra": "B", "texto": "terça-feira." },
+      { "letra": "C", "texto": "quarta-feira." },
+      { "letra": "D", "texto": "quinta-feira." },
+      { "letra": "E", "texto": "sexta-feira." }
+    ],
+    "correta": "C",
+    "explicacao": "Segunda: 1,0×248+0,5×764+2,0×492 = 248+382+984 = 1614. Terça: 0,5×248+1,0×764+0,5×356+1,0×492 = 124+764+178+492 = 1558. Quarta: 1,5×764+1,0×356+0,5×492 = 1146+356+246 = 1748. Quinta: 2,0×764 = 1528. Sexta: 0,5×764+2,5×492 = 382+1230 = 1612. O maior gasto foi na quarta-feira."
+  },
+  {
+    "id": "enem-2023-174",
+    "categoriaId": "porcentagem",
+    "subtopico": "Aumentos e Descontos Sucessivos",
+    "dificuldade": "dificil",
+    "fonte": { "tipo": "enem", "ano": 2023, "descricao": "ENEM 2023, 2º dia, Caderno 11 (Laranja), questão 174", "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_Dia_2_P1_MT_Caderno_11_Laranja_NVDA.pdf" },
+    "enunciado": "No bimestre passado, uma escola comprou 6000 folhas de papel para 1200 alunos (proporcional). Agora são 1150 alunos, e a diretora só pode gastar R$ 220,00. As folhas são vendidas em pacotes de 100 unidades por R$ 4,00 cada. A que intervalo pertence o desconto percentual necessário no preço final da compra, para viabilizar a quantidade de papel proporcional aos alunos atuais?",
+    "alternativas": [
+      { "letra": "A", "texto": "(5,0; 5,5)." },
+      { "letra": "B", "texto": "(8,0; 8,5)." },
+      { "letra": "C", "texto": "(11,5; 12,5)." },
+      { "letra": "D", "texto": "(19,5; 20,5)." },
+      { "letra": "E", "texto": "(3,5; 4,0)." }
+    ],
+    "correta": "A",
+    "explicacao": "Proporção: 6000/1200 = 5 folhas/aluno. Para 1150 alunos: 5750 folhas, o que exige 58 pacotes de 100 (arredondando para cima). Custo sem desconto: 58×4 = R$ 232,00. Desconto necessário: (232−220)/232 ≈ 0,0517 = 5,17%, que está no intervalo (5,0; 5,5)."
+  },
+  {
+    "id": "enem-2023-175",
+    "categoriaId": "razao-proporcao",
+    "subtopico": "Divisão Proporcional",
+    "dificuldade": "medio",
+    "fonte": { "tipo": "enem", "ano": 2023, "descricao": "ENEM 2023, 2º dia, Caderno 11 (Laranja), questão 175", "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_Dia_2_P1_MT_Caderno_11_Laranja_NVDA.pdf" },
+    "enunciado": "Recomenda-se 1 grama de carboidrato por minuto de caminhada. Um casal caminha 30 minutos por dia, cada um consumindo a quantidade ideal de carboidratos antes da atividade, obtidos só de pão de forma integral. Cada pacote tem 18 fatias de 15 g de carboidrato cada. Quantos pacotes, no mínimo, o casal precisa para 30 dias de suprimento?",
+    "alternativas": [
+      { "letra": "A", "texto": "1." },
+      { "letra": "B", "texto": "4." },
+      { "letra": "C", "texto": "6." },
+      { "letra": "D", "texto": "7." },
+      { "letra": "E", "texto": "8." }
+    ],
+    "correta": "D",
+    "explicacao": "Cada pessoa precisa de 30 g/dia (30 min × 1 g/min); o casal (2 pessoas) precisa de 60 g/dia, totalizando 60×30 = 1800 g em 30 dias. Cada pacote fornece 18×15 = 270 g. Pacotes necessários: 1800/270 ≈ 6,67, arredondando para cima: 7 pacotes."
+  },
+  {
+    "id": "enem-2023-176",
+    "categoriaId": "trigonometria",
+    "subtopico": "Triângulo Retângulo",
+    "dificuldade": "medio",
+    "fonte": { "tipo": "enem", "ano": 2023, "descricao": "ENEM 2023, 2º dia, Caderno 11 (Laranja), questão 176", "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_Dia_2_P1_MT_Caderno_11_Laranja_NVDA.pdf" },
+    "enunciado": "Um mastro será sustentado por cabos de aço presos a um ponto de altura h, formando ângulo α com o chão. Três opções: (h=11 m, α=30°), (h=12 m, α=45°), (h=18 m, α=60°). Deve-se escolher a opção com o cabo mais curto possível. Qual será o comprimento, em metro, do cabo escolhido?",
+    "alternativas": [
+      { "letra": "A", "texto": "(22√3)/3" },
+      { "letra": "B", "texto": "11√2" },
+      { "letra": "C", "texto": "12√2" },
+      { "letra": "D", "texto": "12√3" },
+      { "letra": "E", "texto": "22" }
+    ],
+    "correta": "C",
+    "explicacao": "O comprimento do cabo é h/sen(α). Opção 1: 11/sen(30°) = 11/0,5 = 22. Opção 2: 12/sen(45°) = 12/(√2/2) = 12√2 ≈ 16,97. Opção 3: 18/sen(60°) = 18/(√3/2) = 12√3 ≈ 20,78. O menor comprimento é 12√2, da opção 2."
+  },
+  {
+    "id": "enem-2023-177",
+    "categoriaId": "razao-proporcao",
+    "subtopico": "Escalas (Comprimento, Área e Volume)",
+    "dificuldade": "medio",
+    "fonte": { "tipo": "enem", "ano": 2023, "descricao": "ENEM 2023, 2º dia, Caderno 11 (Laranja), questão 177", "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_Dia_2_P1_MT_Caderno_11_Laranja_NVDA.pdf" },
+    "enunciado": "A tela de um instrumento de bordo mostra a trajetória de um avião numa malha em que cada quadradinho tem lado de 1 cm, representando proporcionalmente as distâncias reais. A maior altitude atingida no gráfico corresponde a 1 cm na tela e equivale, na realidade, a 5 km de altitude. Qual é a escala representada por essa tela?",
+    "alternativas": [
+      { "letra": "A", "texto": "1 para 5." },
+      { "letra": "B", "texto": "1 para 11." },
+      { "letra": "C", "texto": "1 para 55." },
+      { "letra": "D", "texto": "1 para 5000." },
+      { "letra": "E", "texto": "1 para 500.000." }
+    ],
+    "correta": "E",
+    "explicacao": "1 cm na tela = 5 km reais = 500.000 cm reais. A escala é 1 cm : 500.000 cm, ou seja, 1 para 500.000."
+  },
+  {
+    "id": "enem-2023-178",
+    "categoriaId": "numeros",
+    "subtopico": "MDC e MMC",
+    "dificuldade": "medio",
+    "fonte": { "tipo": "enem", "ano": 2023, "descricao": "ENEM 2023, 2º dia, Caderno 11 (Laranja), questão 178", "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_Dia_2_P1_MT_Caderno_11_Laranja_NVDA.pdf" },
+    "enunciado": "O calendário maia tem o ano Tzolkim (260 dias) e o ano Haab (365 dias). Uma família governou uma comunidade maia por 20 ciclos de 52 anos Haab cada. Durante quantos anos Tzolkim essa comunidade foi governada por essa família?",
+    "alternativas": [
+      { "letra": "A", "texto": "741" },
+      { "letra": "B", "texto": "1040" },
+      { "letra": "C", "texto": "1460" },
+      { "letra": "D", "texto": "2100" },
+      { "letra": "E", "texto": "5200" }
+    ],
+    "correta": "C",
+    "explicacao": "Tempo total governado: 20 × 52 = 1040 anos Haab = 1040 × 365 = 379.600 dias. Convertendo para anos Tzolkim (260 dias cada): 379.600 / 260 = 1460 anos Tzolkim."
+  },
+  {
+    "id": "enem-2023-179",
+    "categoriaId": "geometria-plana",
+    "subtopico": "Teorema de Pitágoras",
+    "dificuldade": "dificil",
+    "fonte": { "tipo": "enem", "ano": 2023, "descricao": "ENEM 2023, 2º dia, Caderno 11 (Laranja), questão 179", "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_Dia_2_P1_MT_Caderno_11_Laranja_NVDA.pdf" },
+    "enunciado": "Três amigos formam um triângulo com os diâmetros de três pizzas circulares, sendo α o ângulo oposto ao lado que é diâmetro da pizza do professor. Sem medir nada, o professor afirma que a área de sua pizza é maior do que a soma das áreas das pizzas dos outros dois (sabendo que, se o triângulo fosse retângulo com esse lado como hipotenusa, as áreas dos círculos satisfariam o Teorema de Pitágoras: área maior = soma das outras duas). Para que isso seja garantidamente verdade, em que intervalo deve estar o ângulo α?",
+    "alternativas": [
+      { "letra": "A", "texto": "0° < α < 90°." },
+      { "letra": "B", "texto": "α = 90°." },
+      { "letra": "C", "texto": "90° < α < 180°." },
+      { "letra": "D", "texto": "α = 180°." },
+      { "letra": "E", "texto": "180° < α < 360°." }
+    ],
+    "correta": "C",
+    "explicacao": "Pela lei dos cossenos, sendo a o lado oposto a α: a² = b² + c² − 2bc·cos(α). Como as áreas dos círculos são proporcionais ao quadrado dos diâmetros, a área da pizza do professor será maior que a soma das outras duas exatamente quando a² > b² + c², ou seja, quando −2bc·cos(α) > 0, isto é, cos(α) < 0. Isso ocorre quando α é um ângulo obtuso: 90° < α < 180°."
+  },
+  {
+    "id": "enem-2023-180",
+    "categoriaId": "razao-proporcao",
+    "subtopico": "Grandezas Inversas",
+    "dificuldade": "facil",
+    "fonte": { "tipo": "enem", "ano": 2023, "descricao": "ENEM 2023, 2º dia, Caderno 11 (Laranja), questão 180", "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_Dia_2_P1_MT_Caderno_11_Laranja_NVDA.pdf" },
+    "enunciado": "A economia de corrida (EC) de um maratonista é a razão entre o consumo de oxigênio (em mililitro por minuto) e a massa do atleta (em quilograma). Qual é a unidade de medida da grandeza EC?",
+    "alternativas": [
+      { "letra": "A", "texto": "min / (mL × kg)" },
+      { "letra": "B", "texto": "mL / (min × kg)" },
+      { "letra": "C", "texto": "(min × mL) / kg" },
+      { "letra": "D", "texto": "(min × kg) / mL" },
+      { "letra": "E", "texto": "(mL × kg) / min" }
+    ],
+    "correta": "B",
+    "explicacao": "EC = consumo de O₂ (mL/min) ÷ massa (kg) = mL / (min × kg)."
+  }
+]

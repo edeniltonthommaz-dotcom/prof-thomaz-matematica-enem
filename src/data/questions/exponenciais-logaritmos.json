@@ -1,0 +1,1872 @@
+[
+  {
+    "id": "exponenciais-logaritmos-ined-0399",
+    "categoriaId": "exponenciais-logaritmos",
+    "subtopico": "Crescimento e Decaimento",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma colônia de bactérias tem inicialmente 163 indivíduos e cresce a uma taxa de 20% a cada hora. Qual será, aproximadamente, o número de indivíduos após 2 horas?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "282 indivíduos"
+      },
+      {
+        "letra": "B",
+        "texto": "228 indivíduos"
+      },
+      {
+        "letra": "C",
+        "texto": "196 indivíduos"
+      },
+      {
+        "letra": "D",
+        "texto": "163 indivíduos"
+      },
+      {
+        "letra": "E",
+        "texto": "235 indivíduos"
+      }
+    ],
+    "correta": "E",
+    "explicacao": "O crescimento é exponencial: N(t) = N₀ × (1 + taxa)^t = 163 × (1 + 20/100)^2 ≈ 235 indivíduos."
+  },
+  {
+    "id": "exponenciais-logaritmos-ined-0400",
+    "categoriaId": "exponenciais-logaritmos",
+    "subtopico": "Meia-Vida Radioativa",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma substância radioativa tem meia-vida de 1 ano. Se a massa inicial é de 12800 g, qual será a massa restante após 2 anos?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "12800 g"
+      },
+      {
+        "letra": "B",
+        "texto": "6400 g"
+      },
+      {
+        "letra": "C",
+        "texto": "3200 g"
+      },
+      {
+        "letra": "D",
+        "texto": "1600 g"
+      },
+      {
+        "letra": "E",
+        "texto": "12801 g"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "A cada meia-vida, a massa é dividida por 2. Após 2 meias-vidas: M = 12800 ÷ 2^2 = 3200 g."
+  },
+  {
+    "id": "exponenciais-logaritmos-ined-0401",
+    "categoriaId": "exponenciais-logaritmos",
+    "subtopico": "Crescimento e Decaimento",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma colônia de bactérias tem inicialmente 1.376 indivíduos e cresce a uma taxa de 50% a cada hora. Qual será, aproximadamente, o número de indivíduos após 2 horas?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "2.064 indivíduos"
+      },
+      {
+        "letra": "B",
+        "texto": "3.096 indivíduos"
+      },
+      {
+        "letra": "C",
+        "texto": "4.644 indivíduos"
+      },
+      {
+        "letra": "D",
+        "texto": "2.752 indivíduos"
+      },
+      {
+        "letra": "E",
+        "texto": "1.376 indivíduos"
+      }
+    ],
+    "correta": "B",
+    "explicacao": "O crescimento é exponencial: N(t) = N₀ × (1 + taxa)^t = 1376 × (1 + 50/100)^2 ≈ 3.096 indivíduos."
+  },
+  {
+    "id": "exponenciais-logaritmos-ined-0402",
+    "categoriaId": "exponenciais-logaritmos",
+    "subtopico": "Meia-Vida Radioativa",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma substância radioativa tem meia-vida de 1 ano. Se a massa inicial é de 1600 g, qual será a massa restante após 3 anos?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "533.3333333333334 g"
+      },
+      {
+        "letra": "B",
+        "texto": "400 g"
+      },
+      {
+        "letra": "C",
+        "texto": "200 g"
+      },
+      {
+        "letra": "D",
+        "texto": "100 g"
+      },
+      {
+        "letra": "E",
+        "texto": "1600 g"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "A cada meia-vida, a massa é dividida por 2. Após 3 meias-vidas: M = 1600 ÷ 2^3 = 200 g."
+  },
+  {
+    "id": "exponenciais-logaritmos-ined-0403",
+    "categoriaId": "exponenciais-logaritmos",
+    "subtopico": "Crescimento e Decaimento",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma colônia de bactérias tem inicialmente 1.679 indivíduos e cresce a uma taxa de 100% a cada hora. Qual será, aproximadamente, o número de indivíduos após 2 horas?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "3.358 indivíduos"
+      },
+      {
+        "letra": "B",
+        "texto": "6.716 indivíduos"
+      },
+      {
+        "letra": "C",
+        "texto": "1.679 indivíduos"
+      },
+      {
+        "letra": "D",
+        "texto": "13.432 indivíduos"
+      },
+      {
+        "letra": "E",
+        "texto": "5.037 indivíduos"
+      }
+    ],
+    "correta": "B",
+    "explicacao": "O crescimento é exponencial: N(t) = N₀ × (1 + taxa)^t = 1679 × (1 + 100/100)^2 ≈ 6.716 indivíduos."
+  },
+  {
+    "id": "exponenciais-logaritmos-ined-0404",
+    "categoriaId": "exponenciais-logaritmos",
+    "subtopico": "Meia-Vida Radioativa",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma substância radioativa tem meia-vida de 1 ano. Se a massa inicial é de 12800 g, qual será a massa restante após 6 anos?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "2133.3333333333335 g"
+      },
+      {
+        "letra": "B",
+        "texto": "100 g"
+      },
+      {
+        "letra": "C",
+        "texto": "200 g"
+      },
+      {
+        "letra": "D",
+        "texto": "12800 g"
+      },
+      {
+        "letra": "E",
+        "texto": "400 g"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "A cada meia-vida, a massa é dividida por 2. Após 6 meias-vidas: M = 12800 ÷ 2^6 = 200 g."
+  },
+  {
+    "id": "exponenciais-logaritmos-ined-0405",
+    "categoriaId": "exponenciais-logaritmos",
+    "subtopico": "Crescimento e Decaimento",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma colônia de bactérias tem inicialmente 632 indivíduos e cresce a uma taxa de 20% a cada hora. Qual será, aproximadamente, o número de indivíduos após 2 horas?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "758 indivíduos"
+      },
+      {
+        "letra": "B",
+        "texto": "885 indivíduos"
+      },
+      {
+        "letra": "C",
+        "texto": "632 indivíduos"
+      },
+      {
+        "letra": "D",
+        "texto": "910 indivíduos"
+      },
+      {
+        "letra": "E",
+        "texto": "1.092 indivíduos"
+      }
+    ],
+    "correta": "D",
+    "explicacao": "O crescimento é exponencial: N(t) = N₀ × (1 + taxa)^t = 632 × (1 + 20/100)^2 ≈ 910 indivíduos."
+  },
+  {
+    "id": "exponenciais-logaritmos-ined-0407",
+    "categoriaId": "exponenciais-logaritmos",
+    "subtopico": "Crescimento e Decaimento",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma colônia de bactérias tem inicialmente 3.142 indivíduos e cresce a uma taxa de 10% a cada hora. Qual será, aproximadamente, o número de indivíduos após 3 horas?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "4.182 indivíduos"
+      },
+      {
+        "letra": "B",
+        "texto": "4.600 indivíduos"
+      },
+      {
+        "letra": "C",
+        "texto": "3.142 indivíduos"
+      },
+      {
+        "letra": "D",
+        "texto": "4.085 indivíduos"
+      },
+      {
+        "letra": "E",
+        "texto": "3.802 indivíduos"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "O crescimento é exponencial: N(t) = N₀ × (1 + taxa)^t = 3142 × (1 + 10/100)^3 ≈ 4.182 indivíduos."
+  },
+  {
+    "id": "exponenciais-logaritmos-ined-0408",
+    "categoriaId": "exponenciais-logaritmos",
+    "subtopico": "Meia-Vida Radioativa",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma substância radioativa tem meia-vida de 1 ano. Se a massa inicial é de 12800 g, qual será a massa restante após 3 anos?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "1600 g"
+      },
+      {
+        "letra": "B",
+        "texto": "800 g"
+      },
+      {
+        "letra": "C",
+        "texto": "3200 g"
+      },
+      {
+        "letra": "D",
+        "texto": "12800 g"
+      },
+      {
+        "letra": "E",
+        "texto": "4266.666666666667 g"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "A cada meia-vida, a massa é dividida por 2. Após 3 meias-vidas: M = 12800 ÷ 2^3 = 1600 g."
+  },
+  {
+    "id": "exponenciais-logaritmos-ined-0409",
+    "categoriaId": "exponenciais-logaritmos",
+    "subtopico": "Crescimento e Decaimento",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma colônia de bactérias tem inicialmente 1.299 indivíduos e cresce a uma taxa de 25% a cada hora. Qual será, aproximadamente, o número de indivíduos após 4 horas?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "1.299 indivíduos"
+      },
+      {
+        "letra": "B",
+        "texto": "2.537 indivíduos"
+      },
+      {
+        "letra": "C",
+        "texto": "3.964 indivíduos"
+      },
+      {
+        "letra": "D",
+        "texto": "3.171 indivíduos"
+      },
+      {
+        "letra": "E",
+        "texto": "2.598 indivíduos"
+      }
+    ],
+    "correta": "D",
+    "explicacao": "O crescimento é exponencial: N(t) = N₀ × (1 + taxa)^t = 1299 × (1 + 25/100)^4 ≈ 3.171 indivíduos."
+  },
+  {
+    "id": "exponenciais-logaritmos-ined-0410",
+    "categoriaId": "exponenciais-logaritmos",
+    "subtopico": "Meia-Vida Radioativa",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma substância radioativa tem meia-vida de 1 ano. Se a massa inicial é de 3200 g, qual será a massa restante após 3 anos?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "800 g"
+      },
+      {
+        "letra": "B",
+        "texto": "3200 g"
+      },
+      {
+        "letra": "C",
+        "texto": "1066.6666666666667 g"
+      },
+      {
+        "letra": "D",
+        "texto": "200 g"
+      },
+      {
+        "letra": "E",
+        "texto": "400 g"
+      }
+    ],
+    "correta": "E",
+    "explicacao": "A cada meia-vida, a massa é dividida por 2. Após 3 meias-vidas: M = 3200 ÷ 2^3 = 400 g."
+  },
+  {
+    "id": "exponenciais-logaritmos-ined-0411",
+    "categoriaId": "exponenciais-logaritmos",
+    "subtopico": "Crescimento e Decaimento",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma colônia de bactérias tem inicialmente 1.614 indivíduos e cresce a uma taxa de 10% a cada hora. Qual será, aproximadamente, o número de indivíduos após 2 horas?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "1.953 indivíduos"
+      },
+      {
+        "letra": "B",
+        "texto": "2.148 indivíduos"
+      },
+      {
+        "letra": "C",
+        "texto": "1.614 indivíduos"
+      },
+      {
+        "letra": "D",
+        "texto": "1.775 indivíduos"
+      },
+      {
+        "letra": "E",
+        "texto": "1.937 indivíduos"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "O crescimento é exponencial: N(t) = N₀ × (1 + taxa)^t = 1614 × (1 + 10/100)^2 ≈ 1.953 indivíduos."
+  },
+  {
+    "id": "exponenciais-logaritmos-ined-0412",
+    "categoriaId": "exponenciais-logaritmos",
+    "subtopico": "Meia-Vida Radioativa",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma substância radioativa tem meia-vida de 1 ano. Se a massa inicial é de 3200 g, qual será a massa restante após 4 anos?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "800 g"
+      },
+      {
+        "letra": "B",
+        "texto": "400 g"
+      },
+      {
+        "letra": "C",
+        "texto": "100 g"
+      },
+      {
+        "letra": "D",
+        "texto": "3200 g"
+      },
+      {
+        "letra": "E",
+        "texto": "200 g"
+      }
+    ],
+    "correta": "E",
+    "explicacao": "A cada meia-vida, a massa é dividida por 2. Após 4 meias-vidas: M = 3200 ÷ 2^4 = 200 g."
+  },
+  {
+    "id": "exponenciais-logaritmos-ined-0413",
+    "categoriaId": "exponenciais-logaritmos",
+    "subtopico": "Crescimento e Decaimento",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma colônia de bactérias tem inicialmente 3.011 indivíduos e cresce a uma taxa de 100% a cada hora. Qual será, aproximadamente, o número de indivíduos após 6 horas?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "96.352 indivíduos"
+      },
+      {
+        "letra": "B",
+        "texto": "3.011 indivíduos"
+      },
+      {
+        "letra": "C",
+        "texto": "21.077 indivíduos"
+      },
+      {
+        "letra": "D",
+        "texto": "192.704 indivíduos"
+      },
+      {
+        "letra": "E",
+        "texto": "385.408 indivíduos"
+      }
+    ],
+    "correta": "D",
+    "explicacao": "O crescimento é exponencial: N(t) = N₀ × (1 + taxa)^t = 3011 × (1 + 100/100)^6 ≈ 192.704 indivíduos."
+  },
+  {
+    "id": "exponenciais-logaritmos-ined-0414",
+    "categoriaId": "exponenciais-logaritmos",
+    "subtopico": "Meia-Vida Radioativa",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma substância radioativa tem meia-vida de 1 ano. Se a massa inicial é de 800 g, qual será a massa restante após 3 anos?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "200 g"
+      },
+      {
+        "letra": "B",
+        "texto": "266.6666666666667 g"
+      },
+      {
+        "letra": "C",
+        "texto": "800 g"
+      },
+      {
+        "letra": "D",
+        "texto": "100 g"
+      },
+      {
+        "letra": "E",
+        "texto": "50 g"
+      }
+    ],
+    "correta": "D",
+    "explicacao": "A cada meia-vida, a massa é dividida por 2. Após 3 meias-vidas: M = 800 ÷ 2^3 = 100 g."
+  },
+  {
+    "id": "exponenciais-logaritmos-ined-0415",
+    "categoriaId": "exponenciais-logaritmos",
+    "subtopico": "Crescimento e Decaimento",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma colônia de bactérias tem inicialmente 1.977 indivíduos e cresce a uma taxa de 100% a cada hora. Qual será, aproximadamente, o número de indivíduos após 4 horas?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "31.632 indivíduos"
+      },
+      {
+        "letra": "B",
+        "texto": "9.885 indivíduos"
+      },
+      {
+        "letra": "C",
+        "texto": "15.816 indivíduos"
+      },
+      {
+        "letra": "D",
+        "texto": "1.977 indivíduos"
+      },
+      {
+        "letra": "E",
+        "texto": "63.264 indivíduos"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "O crescimento é exponencial: N(t) = N₀ × (1 + taxa)^t = 1977 × (1 + 100/100)^4 ≈ 31.632 indivíduos."
+  },
+  {
+    "id": "exponenciais-logaritmos-ined-0416",
+    "categoriaId": "exponenciais-logaritmos",
+    "subtopico": "Meia-Vida Radioativa",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma substância radioativa tem meia-vida de 1 ano. Se a massa inicial é de 1600 g, qual será a massa restante após 6 anos?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "266.6666666666667 g"
+      },
+      {
+        "letra": "B",
+        "texto": "12.5 g"
+      },
+      {
+        "letra": "C",
+        "texto": "1600 g"
+      },
+      {
+        "letra": "D",
+        "texto": "25 g"
+      },
+      {
+        "letra": "E",
+        "texto": "50 g"
+      }
+    ],
+    "correta": "D",
+    "explicacao": "A cada meia-vida, a massa é dividida por 2. Após 6 meias-vidas: M = 1600 ÷ 2^6 = 25 g."
+  },
+  {
+    "id": "exponenciais-logaritmos-ined-0417",
+    "categoriaId": "exponenciais-logaritmos",
+    "subtopico": "Crescimento e Decaimento",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma colônia de bactérias tem inicialmente 1.772 indivíduos e cresce a uma taxa de 25% a cada hora. Qual será, aproximadamente, o número de indivíduos após 2 horas?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "2.769 indivíduos"
+      },
+      {
+        "letra": "B",
+        "texto": "1.772 indivíduos"
+      },
+      {
+        "letra": "C",
+        "texto": "2.215 indivíduos"
+      },
+      {
+        "letra": "D",
+        "texto": "3.461 indivíduos"
+      },
+      {
+        "letra": "E",
+        "texto": "2.658 indivíduos"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "O crescimento é exponencial: N(t) = N₀ × (1 + taxa)^t = 1772 × (1 + 25/100)^2 ≈ 2.769 indivíduos."
+  },
+  {
+    "id": "exponenciais-logaritmos-ined-0419",
+    "categoriaId": "exponenciais-logaritmos",
+    "subtopico": "Crescimento e Decaimento",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma colônia de bactérias tem inicialmente 2.786 indivíduos e cresce a uma taxa de 25% a cada hora. Qual será, aproximadamente, o número de indivíduos após 5 horas?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "8.502 indivíduos"
+      },
+      {
+        "letra": "B",
+        "texto": "6.269 indivíduos"
+      },
+      {
+        "letra": "C",
+        "texto": "2.786 indivíduos"
+      },
+      {
+        "letra": "D",
+        "texto": "6.802 indivíduos"
+      },
+      {
+        "letra": "E",
+        "texto": "10.628 indivíduos"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "O crescimento é exponencial: N(t) = N₀ × (1 + taxa)^t = 2786 × (1 + 25/100)^5 ≈ 8.502 indivíduos."
+  },
+  {
+    "id": "exponenciais-logaritmos-ined-0421",
+    "categoriaId": "exponenciais-logaritmos",
+    "subtopico": "Crescimento e Decaimento",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma colônia de bactérias tem inicialmente 1.391 indivíduos e cresce a uma taxa de 50% a cada hora. Qual será, aproximadamente, o número de indivíduos após 2 horas?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "4.695 indivíduos"
+      },
+      {
+        "letra": "B",
+        "texto": "2.782 indivíduos"
+      },
+      {
+        "letra": "C",
+        "texto": "2.087 indivíduos"
+      },
+      {
+        "letra": "D",
+        "texto": "3.130 indivíduos"
+      },
+      {
+        "letra": "E",
+        "texto": "1.391 indivíduos"
+      }
+    ],
+    "correta": "D",
+    "explicacao": "O crescimento é exponencial: N(t) = N₀ × (1 + taxa)^t = 1391 × (1 + 50/100)^2 ≈ 3.130 indivíduos."
+  },
+  {
+    "id": "exponenciais-logaritmos-ined-0422",
+    "categoriaId": "exponenciais-logaritmos",
+    "subtopico": "Meia-Vida Radioativa",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma substância radioativa tem meia-vida de 1 ano. Se a massa inicial é de 6400 g, qual será a massa restante após 2 anos?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "1600 g"
+      },
+      {
+        "letra": "B",
+        "texto": "3200 g"
+      },
+      {
+        "letra": "C",
+        "texto": "6400 g"
+      },
+      {
+        "letra": "D",
+        "texto": "6401 g"
+      },
+      {
+        "letra": "E",
+        "texto": "800 g"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "A cada meia-vida, a massa é dividida por 2. Após 2 meias-vidas: M = 6400 ÷ 2^2 = 1600 g."
+  },
+  {
+    "id": "exponenciais-logaritmos-ined-0423",
+    "categoriaId": "exponenciais-logaritmos",
+    "subtopico": "Crescimento e Decaimento",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma colônia de bactérias tem inicialmente 322 indivíduos e cresce a uma taxa de 25% a cada hora. Qual será, aproximadamente, o número de indivíduos após 3 horas?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "564 indivíduos"
+      },
+      {
+        "letra": "B",
+        "texto": "786 indivíduos"
+      },
+      {
+        "letra": "C",
+        "texto": "322 indivíduos"
+      },
+      {
+        "letra": "D",
+        "texto": "503 indivíduos"
+      },
+      {
+        "letra": "E",
+        "texto": "629 indivíduos"
+      }
+    ],
+    "correta": "E",
+    "explicacao": "O crescimento é exponencial: N(t) = N₀ × (1 + taxa)^t = 322 × (1 + 25/100)^3 ≈ 629 indivíduos."
+  },
+  {
+    "id": "exponenciais-logaritmos-ined-0425",
+    "categoriaId": "exponenciais-logaritmos",
+    "subtopico": "Crescimento e Decaimento",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma colônia de bactérias tem inicialmente 1.112 indivíduos e cresce a uma taxa de 100% a cada hora. Qual será, aproximadamente, o número de indivíduos após 5 horas?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "71.168 indivíduos"
+      },
+      {
+        "letra": "B",
+        "texto": "1.112 indivíduos"
+      },
+      {
+        "letra": "C",
+        "texto": "35.584 indivíduos"
+      },
+      {
+        "letra": "D",
+        "texto": "6.672 indivíduos"
+      },
+      {
+        "letra": "E",
+        "texto": "17.792 indivíduos"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "O crescimento é exponencial: N(t) = N₀ × (1 + taxa)^t = 1112 × (1 + 100/100)^5 ≈ 35.584 indivíduos."
+  },
+  {
+    "id": "exponenciais-logaritmos-ined-0427",
+    "categoriaId": "exponenciais-logaritmos",
+    "subtopico": "Crescimento e Decaimento",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma colônia de bactérias tem inicialmente 1.556 indivíduos e cresce a uma taxa de 20% a cada hora. Qual será, aproximadamente, o número de indivíduos após 4 horas?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "3.872 indivíduos"
+      },
+      {
+        "letra": "B",
+        "texto": "2.801 indivíduos"
+      },
+      {
+        "letra": "C",
+        "texto": "3.227 indivíduos"
+      },
+      {
+        "letra": "D",
+        "texto": "1.556 indivíduos"
+      },
+      {
+        "letra": "E",
+        "texto": "2.689 indivíduos"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "O crescimento é exponencial: N(t) = N₀ × (1 + taxa)^t = 1556 × (1 + 20/100)^4 ≈ 3.227 indivíduos."
+  },
+  {
+    "id": "exponenciais-logaritmos-ined-0429",
+    "categoriaId": "exponenciais-logaritmos",
+    "subtopico": "Crescimento e Decaimento",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma colônia de bactérias tem inicialmente 1.793 indivíduos e cresce a uma taxa de 20% a cada hora. Qual será, aproximadamente, o número de indivíduos após 4 horas?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "3.718 indivíduos"
+      },
+      {
+        "letra": "B",
+        "texto": "3.227 indivíduos"
+      },
+      {
+        "letra": "C",
+        "texto": "1.793 indivíduos"
+      },
+      {
+        "letra": "D",
+        "texto": "4.462 indivíduos"
+      },
+      {
+        "letra": "E",
+        "texto": "3.098 indivíduos"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "O crescimento é exponencial: N(t) = N₀ × (1 + taxa)^t = 1793 × (1 + 20/100)^4 ≈ 3.718 indivíduos."
+  },
+  {
+    "id": "exponenciais-logaritmos-ined-0430",
+    "categoriaId": "exponenciais-logaritmos",
+    "subtopico": "Meia-Vida Radioativa",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma substância radioativa tem meia-vida de 1 ano. Se a massa inicial é de 800 g, qual será a massa restante após 2 anos?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "200 g"
+      },
+      {
+        "letra": "B",
+        "texto": "100 g"
+      },
+      {
+        "letra": "C",
+        "texto": "400 g"
+      },
+      {
+        "letra": "D",
+        "texto": "801 g"
+      },
+      {
+        "letra": "E",
+        "texto": "800 g"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "A cada meia-vida, a massa é dividida por 2. Após 2 meias-vidas: M = 800 ÷ 2^2 = 200 g."
+  },
+  {
+    "id": "exponenciais-logaritmos-ined-0431",
+    "categoriaId": "exponenciais-logaritmos",
+    "subtopico": "Crescimento e Decaimento",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma colônia de bactérias tem inicialmente 2.015 indivíduos e cresce a uma taxa de 20% a cada hora. Qual será, aproximadamente, o número de indivíduos após 3 horas?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "3.224 indivíduos"
+      },
+      {
+        "letra": "B",
+        "texto": "2.902 indivíduos"
+      },
+      {
+        "letra": "C",
+        "texto": "3.482 indivíduos"
+      },
+      {
+        "letra": "D",
+        "texto": "2.015 indivíduos"
+      },
+      {
+        "letra": "E",
+        "texto": "4.178 indivíduos"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "O crescimento é exponencial: N(t) = N₀ × (1 + taxa)^t = 2015 × (1 + 20/100)^3 ≈ 3.482 indivíduos."
+  },
+  {
+    "id": "exponenciais-logaritmos-ined-0432",
+    "categoriaId": "exponenciais-logaritmos",
+    "subtopico": "Meia-Vida Radioativa",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma substância radioativa tem meia-vida de 1 ano. Se a massa inicial é de 6400 g, qual será a massa restante após 4 anos?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "1600 g"
+      },
+      {
+        "letra": "B",
+        "texto": "200 g"
+      },
+      {
+        "letra": "C",
+        "texto": "400 g"
+      },
+      {
+        "letra": "D",
+        "texto": "6400 g"
+      },
+      {
+        "letra": "E",
+        "texto": "800 g"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "A cada meia-vida, a massa é dividida por 2. Após 4 meias-vidas: M = 6400 ÷ 2^4 = 400 g."
+  },
+  {
+    "id": "exponenciais-logaritmos-ined-0433",
+    "categoriaId": "exponenciais-logaritmos",
+    "subtopico": "Crescimento e Decaimento",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma colônia de bactérias tem inicialmente 1.542 indivíduos e cresce a uma taxa de 50% a cada hora. Qual será, aproximadamente, o número de indivíduos após 4 horas?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "1.542 indivíduos"
+      },
+      {
+        "letra": "B",
+        "texto": "7.806 indivíduos"
+      },
+      {
+        "letra": "C",
+        "texto": "4.626 indivíduos"
+      },
+      {
+        "letra": "D",
+        "texto": "11.710 indivíduos"
+      },
+      {
+        "letra": "E",
+        "texto": "5.204 indivíduos"
+      }
+    ],
+    "correta": "B",
+    "explicacao": "O crescimento é exponencial: N(t) = N₀ × (1 + taxa)^t = 1542 × (1 + 50/100)^4 ≈ 7.806 indivíduos."
+  },
+  {
+    "id": "exponenciais-logaritmos-ined-0435",
+    "categoriaId": "exponenciais-logaritmos",
+    "subtopico": "Crescimento e Decaimento",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma colônia de bactérias tem inicialmente 1.568 indivíduos e cresce a uma taxa de 10% a cada hora. Qual será, aproximadamente, o número de indivíduos após 3 horas?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "2.296 indivíduos"
+      },
+      {
+        "letra": "B",
+        "texto": "1.897 indivíduos"
+      },
+      {
+        "letra": "C",
+        "texto": "2.087 indivíduos"
+      },
+      {
+        "letra": "D",
+        "texto": "1.568 indivíduos"
+      },
+      {
+        "letra": "E",
+        "texto": "2.038 indivíduos"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "O crescimento é exponencial: N(t) = N₀ × (1 + taxa)^t = 1568 × (1 + 10/100)^3 ≈ 2.087 indivíduos."
+  },
+  {
+    "id": "exponenciais-logaritmos-ined-0436",
+    "categoriaId": "exponenciais-logaritmos",
+    "subtopico": "Meia-Vida Radioativa",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma substância radioativa tem meia-vida de 1 ano. Se a massa inicial é de 1600 g, qual será a massa restante após 4 anos?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "50 g"
+      },
+      {
+        "letra": "B",
+        "texto": "400 g"
+      },
+      {
+        "letra": "C",
+        "texto": "1600 g"
+      },
+      {
+        "letra": "D",
+        "texto": "100 g"
+      },
+      {
+        "letra": "E",
+        "texto": "200 g"
+      }
+    ],
+    "correta": "D",
+    "explicacao": "A cada meia-vida, a massa é dividida por 2. Após 4 meias-vidas: M = 1600 ÷ 2^4 = 100 g."
+  },
+  {
+    "id": "exponenciais-logaritmos-ined-0437",
+    "categoriaId": "exponenciais-logaritmos",
+    "subtopico": "Crescimento e Decaimento",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma colônia de bactérias tem inicialmente 2.894 indivíduos e cresce a uma taxa de 10% a cada hora. Qual será, aproximadamente, o número de indivíduos após 3 horas?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "3.762 indivíduos"
+      },
+      {
+        "letra": "B",
+        "texto": "4.237 indivíduos"
+      },
+      {
+        "letra": "C",
+        "texto": "2.894 indivíduos"
+      },
+      {
+        "letra": "D",
+        "texto": "3.502 indivíduos"
+      },
+      {
+        "letra": "E",
+        "texto": "3.852 indivíduos"
+      }
+    ],
+    "correta": "E",
+    "explicacao": "O crescimento é exponencial: N(t) = N₀ × (1 + taxa)^t = 2894 × (1 + 10/100)^3 ≈ 3.852 indivíduos."
+  },
+  {
+    "id": "exponenciais-logaritmos-ined-0439",
+    "categoriaId": "exponenciais-logaritmos",
+    "subtopico": "Crescimento e Decaimento",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma colônia de bactérias tem inicialmente 1.435 indivíduos e cresce a uma taxa de 100% a cada hora. Qual será, aproximadamente, o número de indivíduos após 2 horas?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "2.870 indivíduos"
+      },
+      {
+        "letra": "B",
+        "texto": "5.740 indivíduos"
+      },
+      {
+        "letra": "C",
+        "texto": "1.435 indivíduos"
+      },
+      {
+        "letra": "D",
+        "texto": "4.305 indivíduos"
+      },
+      {
+        "letra": "E",
+        "texto": "11.480 indivíduos"
+      }
+    ],
+    "correta": "B",
+    "explicacao": "O crescimento é exponencial: N(t) = N₀ × (1 + taxa)^t = 1435 × (1 + 100/100)^2 ≈ 5.740 indivíduos."
+  },
+  {
+    "id": "exponenciais-logaritmos-ined-0440",
+    "categoriaId": "exponenciais-logaritmos",
+    "subtopico": "Meia-Vida Radioativa",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma substância radioativa tem meia-vida de 1 ano. Se a massa inicial é de 6400 g, qual será a massa restante após 6 anos?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "100 g"
+      },
+      {
+        "letra": "B",
+        "texto": "6400 g"
+      },
+      {
+        "letra": "C",
+        "texto": "200 g"
+      },
+      {
+        "letra": "D",
+        "texto": "1066.6666666666667 g"
+      },
+      {
+        "letra": "E",
+        "texto": "50 g"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "A cada meia-vida, a massa é dividida por 2. Após 6 meias-vidas: M = 6400 ÷ 2^6 = 100 g."
+  },
+  {
+    "id": "exponenciais-logaritmos-ined-0441",
+    "categoriaId": "exponenciais-logaritmos",
+    "subtopico": "Crescimento e Decaimento",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma colônia de bactérias tem inicialmente 1.496 indivíduos e cresce a uma taxa de 100% a cada hora. Qual será, aproximadamente, o número de indivíduos após 3 horas?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "1.496 indivíduos"
+      },
+      {
+        "letra": "B",
+        "texto": "11.968 indivíduos"
+      },
+      {
+        "letra": "C",
+        "texto": "23.936 indivíduos"
+      },
+      {
+        "letra": "D",
+        "texto": "24.936 indivíduos"
+      },
+      {
+        "letra": "E",
+        "texto": "5.984 indivíduos"
+      }
+    ],
+    "correta": "B",
+    "explicacao": "O crescimento é exponencial: N(t) = N₀ × (1 + taxa)^t = 1496 × (1 + 100/100)^3 ≈ 11.968 indivíduos."
+  },
+  {
+    "id": "exponenciais-logaritmos-ined-0443",
+    "categoriaId": "exponenciais-logaritmos",
+    "subtopico": "Crescimento e Decaimento",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma colônia de bactérias tem inicialmente 2.602 indivíduos e cresce a uma taxa de 25% a cada hora. Qual será, aproximadamente, o número de indivíduos após 5 horas?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "6.353 indivíduos"
+      },
+      {
+        "letra": "B",
+        "texto": "5.855 indivíduos"
+      },
+      {
+        "letra": "C",
+        "texto": "2.602 indivíduos"
+      },
+      {
+        "letra": "D",
+        "texto": "9.926 indivíduos"
+      },
+      {
+        "letra": "E",
+        "texto": "7.941 indivíduos"
+      }
+    ],
+    "correta": "E",
+    "explicacao": "O crescimento é exponencial: N(t) = N₀ × (1 + taxa)^t = 2602 × (1 + 25/100)^5 ≈ 7.941 indivíduos."
+  },
+  {
+    "id": "exponenciais-logaritmos-ined-0445",
+    "categoriaId": "exponenciais-logaritmos",
+    "subtopico": "Crescimento e Decaimento",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma colônia de bactérias tem inicialmente 1.383 indivíduos e cresce a uma taxa de 10% a cada hora. Qual será, aproximadamente, o número de indivíduos após 4 horas?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "1.841 indivíduos"
+      },
+      {
+        "letra": "B",
+        "texto": "2.025 indivíduos"
+      },
+      {
+        "letra": "C",
+        "texto": "2.227 indivíduos"
+      },
+      {
+        "letra": "D",
+        "texto": "1.936 indivíduos"
+      },
+      {
+        "letra": "E",
+        "texto": "1.383 indivíduos"
+      }
+    ],
+    "correta": "B",
+    "explicacao": "O crescimento é exponencial: N(t) = N₀ × (1 + taxa)^t = 1383 × (1 + 10/100)^4 ≈ 2.025 indivíduos."
+  },
+  {
+    "id": "exponenciais-logaritmos-ined-0446",
+    "categoriaId": "exponenciais-logaritmos",
+    "subtopico": "Meia-Vida Radioativa",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma substância radioativa tem meia-vida de 1 ano. Se a massa inicial é de 1600 g, qual será a massa restante após 2 anos?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "800 g"
+      },
+      {
+        "letra": "B",
+        "texto": "1600 g"
+      },
+      {
+        "letra": "C",
+        "texto": "400 g"
+      },
+      {
+        "letra": "D",
+        "texto": "200 g"
+      },
+      {
+        "letra": "E",
+        "texto": "1601 g"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "A cada meia-vida, a massa é dividida por 2. Após 2 meias-vidas: M = 1600 ÷ 2^2 = 400 g."
+  },
+  {
+    "id": "exponenciais-logaritmos-ined-0447",
+    "categoriaId": "exponenciais-logaritmos",
+    "subtopico": "Crescimento e Decaimento",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma colônia de bactérias tem inicialmente 1.845 indivíduos e cresce a uma taxa de 10% a cada hora. Qual será, aproximadamente, o número de indivíduos após 4 horas?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "2.583 indivíduos"
+      },
+      {
+        "letra": "B",
+        "texto": "2.971 indivíduos"
+      },
+      {
+        "letra": "C",
+        "texto": "2.456 indivíduos"
+      },
+      {
+        "letra": "D",
+        "texto": "2.701 indivíduos"
+      },
+      {
+        "letra": "E",
+        "texto": "1.845 indivíduos"
+      }
+    ],
+    "correta": "D",
+    "explicacao": "O crescimento é exponencial: N(t) = N₀ × (1 + taxa)^t = 1845 × (1 + 10/100)^4 ≈ 2.701 indivíduos."
+  },
+  {
+    "id": "exponenciais-logaritmos-ined-0449",
+    "categoriaId": "exponenciais-logaritmos",
+    "subtopico": "Crescimento e Decaimento",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma colônia de bactérias tem inicialmente 1.039 indivíduos e cresce a uma taxa de 100% a cada hora. Qual será, aproximadamente, o número de indivíduos após 4 horas?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "5.195 indivíduos"
+      },
+      {
+        "letra": "B",
+        "texto": "8.312 indivíduos"
+      },
+      {
+        "letra": "C",
+        "texto": "33.248 indivíduos"
+      },
+      {
+        "letra": "D",
+        "texto": "16.624 indivíduos"
+      },
+      {
+        "letra": "E",
+        "texto": "1.039 indivíduos"
+      }
+    ],
+    "correta": "D",
+    "explicacao": "O crescimento é exponencial: N(t) = N₀ × (1 + taxa)^t = 1039 × (1 + 100/100)^4 ≈ 16.624 indivíduos."
+  },
+  {
+    "id": "exponenciais-logaritmos-ined-0451",
+    "categoriaId": "exponenciais-logaritmos",
+    "subtopico": "Crescimento e Decaimento",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma colônia de bactérias tem inicialmente 1.001 indivíduos e cresce a uma taxa de 10% a cada hora. Qual será, aproximadamente, o número de indivíduos após 3 horas?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "1.211 indivíduos"
+      },
+      {
+        "letra": "B",
+        "texto": "1.001 indivíduos"
+      },
+      {
+        "letra": "C",
+        "texto": "1.466 indivíduos"
+      },
+      {
+        "letra": "D",
+        "texto": "1.332 indivíduos"
+      },
+      {
+        "letra": "E",
+        "texto": "1.301 indivíduos"
+      }
+    ],
+    "correta": "D",
+    "explicacao": "O crescimento é exponencial: N(t) = N₀ × (1 + taxa)^t = 1001 × (1 + 10/100)^3 ≈ 1.332 indivíduos."
+  },
+  {
+    "id": "exponenciais-logaritmos-ined-0452",
+    "categoriaId": "exponenciais-logaritmos",
+    "subtopico": "Meia-Vida Radioativa",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma substância radioativa tem meia-vida de 1 ano. Se a massa inicial é de 800 g, qual será a massa restante após 6 anos?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "25 g"
+      },
+      {
+        "letra": "B",
+        "texto": "800 g"
+      },
+      {
+        "letra": "C",
+        "texto": "133.33333333333334 g"
+      },
+      {
+        "letra": "D",
+        "texto": "12.5 g"
+      },
+      {
+        "letra": "E",
+        "texto": "6.25 g"
+      }
+    ],
+    "correta": "D",
+    "explicacao": "A cada meia-vida, a massa é dividida por 2. Após 6 meias-vidas: M = 800 ÷ 2^6 = 12.5 g."
+  },
+  {
+    "id": "exponenciais-logaritmos-ined-0453",
+    "categoriaId": "exponenciais-logaritmos",
+    "subtopico": "Crescimento e Decaimento",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma colônia de bactérias tem inicialmente 941 indivíduos e cresce a uma taxa de 25% a cada hora. Qual será, aproximadamente, o número de indivíduos após 2 horas?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "1.470 indivíduos"
+      },
+      {
+        "letra": "B",
+        "texto": "1.176 indivíduos"
+      },
+      {
+        "letra": "C",
+        "texto": "1.838 indivíduos"
+      },
+      {
+        "letra": "D",
+        "texto": "941 indivíduos"
+      },
+      {
+        "letra": "E",
+        "texto": "1.412 indivíduos"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "O crescimento é exponencial: N(t) = N₀ × (1 + taxa)^t = 941 × (1 + 25/100)^2 ≈ 1.470 indivíduos."
+  },
+  {
+    "id": "exponenciais-logaritmos-ined-0455",
+    "categoriaId": "exponenciais-logaritmos",
+    "subtopico": "Crescimento e Decaimento",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma colônia de bactérias tem inicialmente 2.167 indivíduos e cresce a uma taxa de 20% a cada hora. Qual será, aproximadamente, o número de indivíduos após 2 horas?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "3.745 indivíduos"
+      },
+      {
+        "letra": "B",
+        "texto": "3.120 indivíduos"
+      },
+      {
+        "letra": "C",
+        "texto": "2.167 indivíduos"
+      },
+      {
+        "letra": "D",
+        "texto": "2.600 indivíduos"
+      },
+      {
+        "letra": "E",
+        "texto": "3.034 indivíduos"
+      }
+    ],
+    "correta": "B",
+    "explicacao": "O crescimento é exponencial: N(t) = N₀ × (1 + taxa)^t = 2167 × (1 + 20/100)^2 ≈ 3.120 indivíduos."
+  },
+  {
+    "id": "exponenciais-logaritmos-ined-0457",
+    "categoriaId": "exponenciais-logaritmos",
+    "subtopico": "Crescimento e Decaimento",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma colônia de bactérias tem inicialmente 1.440 indivíduos e cresce a uma taxa de 10% a cada hora. Qual será, aproximadamente, o número de indivíduos após 2 horas?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "1.742 indivíduos"
+      },
+      {
+        "letra": "B",
+        "texto": "1.584 indivíduos"
+      },
+      {
+        "letra": "C",
+        "texto": "1.440 indivíduos"
+      },
+      {
+        "letra": "D",
+        "texto": "1.917 indivíduos"
+      },
+      {
+        "letra": "E",
+        "texto": "1.728 indivíduos"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "O crescimento é exponencial: N(t) = N₀ × (1 + taxa)^t = 1440 × (1 + 10/100)^2 ≈ 1.742 indivíduos."
+  },
+  {
+    "id": "exponenciais-logaritmos-ined-0459",
+    "categoriaId": "exponenciais-logaritmos",
+    "subtopico": "Crescimento e Decaimento",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma colônia de bactérias tem inicialmente 1.032 indivíduos e cresce a uma taxa de 10% a cada hora. Qual será, aproximadamente, o número de indivíduos após 2 horas?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "1.238 indivíduos"
+      },
+      {
+        "letra": "B",
+        "texto": "1.135 indivíduos"
+      },
+      {
+        "letra": "C",
+        "texto": "1.374 indivíduos"
+      },
+      {
+        "letra": "D",
+        "texto": "1.249 indivíduos"
+      },
+      {
+        "letra": "E",
+        "texto": "1.032 indivíduos"
+      }
+    ],
+    "correta": "D",
+    "explicacao": "O crescimento é exponencial: N(t) = N₀ × (1 + taxa)^t = 1032 × (1 + 10/100)^2 ≈ 1.249 indivíduos."
+  },
+  {
+    "id": "exponenciais-logaritmos-ined-0461",
+    "categoriaId": "exponenciais-logaritmos",
+    "subtopico": "Crescimento e Decaimento",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma colônia de bactérias tem inicialmente 1.501 indivíduos e cresce a uma taxa de 50% a cada hora. Qual será, aproximadamente, o número de indivíduos após 3 horas?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "7.599 indivíduos"
+      },
+      {
+        "letra": "B",
+        "texto": "1.501 indivíduos"
+      },
+      {
+        "letra": "C",
+        "texto": "5.066 indivíduos"
+      },
+      {
+        "letra": "D",
+        "texto": "3.753 indivíduos"
+      },
+      {
+        "letra": "E",
+        "texto": "3.377 indivíduos"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "O crescimento é exponencial: N(t) = N₀ × (1 + taxa)^t = 1501 × (1 + 50/100)^3 ≈ 5.066 indivíduos."
+  },
+  {
+    "id": "exponenciais-logaritmos-ined-0463",
+    "categoriaId": "exponenciais-logaritmos",
+    "subtopico": "Crescimento e Decaimento",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma colônia de bactérias tem inicialmente 1.007 indivíduos e cresce a uma taxa de 20% a cada hora. Qual será, aproximadamente, o número de indivíduos após 3 horas?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "1.007 indivíduos"
+      },
+      {
+        "letra": "B",
+        "texto": "1.740 indivíduos"
+      },
+      {
+        "letra": "C",
+        "texto": "2.088 indivíduos"
+      },
+      {
+        "letra": "D",
+        "texto": "1.450 indivíduos"
+      },
+      {
+        "letra": "E",
+        "texto": "1.611 indivíduos"
+      }
+    ],
+    "correta": "B",
+    "explicacao": "O crescimento é exponencial: N(t) = N₀ × (1 + taxa)^t = 1007 × (1 + 20/100)^3 ≈ 1.740 indivíduos."
+  },
+  {
+    "id": "exponenciais-logaritmos-ined-0465",
+    "categoriaId": "exponenciais-logaritmos",
+    "subtopico": "Crescimento e Decaimento",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma colônia de bactérias tem inicialmente 730 indivíduos e cresce a uma taxa de 25% a cada hora. Qual será, aproximadamente, o número de indivíduos após 2 horas?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "1.141 indivíduos"
+      },
+      {
+        "letra": "B",
+        "texto": "730 indivíduos"
+      },
+      {
+        "letra": "C",
+        "texto": "913 indivíduos"
+      },
+      {
+        "letra": "D",
+        "texto": "1.426 indivíduos"
+      },
+      {
+        "letra": "E",
+        "texto": "1.095 indivíduos"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "O crescimento é exponencial: N(t) = N₀ × (1 + taxa)^t = 730 × (1 + 25/100)^2 ≈ 1.141 indivíduos."
+  },
+  {
+    "id": "exponenciais-logaritmos-ined-0467",
+    "categoriaId": "exponenciais-logaritmos",
+    "subtopico": "Crescimento e Decaimento",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma colônia de bactérias tem inicialmente 3.896 indivíduos e cresce a uma taxa de 100% a cada hora. Qual será, aproximadamente, o número de indivíduos após 4 horas?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "31.168 indivíduos"
+      },
+      {
+        "letra": "B",
+        "texto": "62.336 indivíduos"
+      },
+      {
+        "letra": "C",
+        "texto": "3.896 indivíduos"
+      },
+      {
+        "letra": "D",
+        "texto": "19.480 indivíduos"
+      },
+      {
+        "letra": "E",
+        "texto": "124.672 indivíduos"
+      }
+    ],
+    "correta": "B",
+    "explicacao": "O crescimento é exponencial: N(t) = N₀ × (1 + taxa)^t = 3896 × (1 + 100/100)^4 ≈ 62.336 indivíduos."
+  },
+  {
+    "id": "exponenciais-logaritmos-ined-0469",
+    "categoriaId": "exponenciais-logaritmos",
+    "subtopico": "Crescimento e Decaimento",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma colônia de bactérias tem inicialmente 1.677 indivíduos e cresce a uma taxa de 20% a cada hora. Qual será, aproximadamente, o número de indivíduos após 4 horas?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "1.677 indivíduos"
+      },
+      {
+        "letra": "B",
+        "texto": "2.898 indivíduos"
+      },
+      {
+        "letra": "C",
+        "texto": "3.477 indivíduos"
+      },
+      {
+        "letra": "D",
+        "texto": "4.173 indivíduos"
+      },
+      {
+        "letra": "E",
+        "texto": "3.019 indivíduos"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "O crescimento é exponencial: N(t) = N₀ × (1 + taxa)^t = 1677 × (1 + 20/100)^4 ≈ 3.477 indivíduos."
+  },
+  {
+    "id": "exponenciais-logaritmos-ined-0470",
+    "categoriaId": "exponenciais-logaritmos",
+    "subtopico": "Meia-Vida Radioativa",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma substância radioativa tem meia-vida de 1 ano. Se a massa inicial é de 12800 g, qual será a massa restante após 5 anos?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "200 g"
+      },
+      {
+        "letra": "B",
+        "texto": "400 g"
+      },
+      {
+        "letra": "C",
+        "texto": "800 g"
+      },
+      {
+        "letra": "D",
+        "texto": "2560 g"
+      },
+      {
+        "letra": "E",
+        "texto": "12800 g"
+      }
+    ],
+    "correta": "B",
+    "explicacao": "A cada meia-vida, a massa é dividida por 2. Após 5 meias-vidas: M = 12800 ÷ 2^5 = 400 g."
+  },
+  {
+    "id": "exponenciais-logaritmos-ined-0471",
+    "categoriaId": "exponenciais-logaritmos",
+    "subtopico": "Crescimento e Decaimento",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma colônia de bactérias tem inicialmente 800 indivíduos e cresce a uma taxa de 100% a cada hora. Qual será, aproximadamente, o número de indivíduos após 3 horas?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "12.800 indivíduos"
+      },
+      {
+        "letra": "B",
+        "texto": "800 indivíduos"
+      },
+      {
+        "letra": "C",
+        "texto": "3.200 indivíduos"
+      },
+      {
+        "letra": "D",
+        "texto": "6.400 indivíduos"
+      },
+      {
+        "letra": "E",
+        "texto": "13.800 indivíduos"
+      }
+    ],
+    "correta": "D",
+    "explicacao": "O crescimento é exponencial: N(t) = N₀ × (1 + taxa)^t = 800 × (1 + 100/100)^3 ≈ 6.400 indivíduos."
+  },
+  {
+    "id": "exponenciais-logaritmos-ined-0473",
+    "categoriaId": "exponenciais-logaritmos",
+    "subtopico": "Crescimento e Decaimento",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma colônia de bactérias tem inicialmente 3.540 indivíduos e cresce a uma taxa de 25% a cada hora. Qual será, aproximadamente, o número de indivíduos após 5 horas?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "8.643 indivíduos"
+      },
+      {
+        "letra": "B",
+        "texto": "10.803 indivíduos"
+      },
+      {
+        "letra": "C",
+        "texto": "13.504 indivíduos"
+      },
+      {
+        "letra": "D",
+        "texto": "7.965 indivíduos"
+      },
+      {
+        "letra": "E",
+        "texto": "3.540 indivíduos"
+      }
+    ],
+    "correta": "B",
+    "explicacao": "O crescimento é exponencial: N(t) = N₀ × (1 + taxa)^t = 3540 × (1 + 25/100)^5 ≈ 10.803 indivíduos."
+  },
+  {
+    "id": "exponenciais-logaritmos-ined-0475",
+    "categoriaId": "exponenciais-logaritmos",
+    "subtopico": "Crescimento e Decaimento",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma colônia de bactérias tem inicialmente 509 indivíduos e cresce a uma taxa de 10% a cada hora. Qual será, aproximadamente, o número de indivíduos após 4 horas?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "677 indivíduos"
+      },
+      {
+        "letra": "B",
+        "texto": "745 indivíduos"
+      },
+      {
+        "letra": "C",
+        "texto": "820 indivíduos"
+      },
+      {
+        "letra": "D",
+        "texto": "509 indivíduos"
+      },
+      {
+        "letra": "E",
+        "texto": "713 indivíduos"
+      }
+    ],
+    "correta": "B",
+    "explicacao": "O crescimento é exponencial: N(t) = N₀ × (1 + taxa)^t = 509 × (1 + 10/100)^4 ≈ 745 indivíduos."
+  }
+]

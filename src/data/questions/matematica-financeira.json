@@ -1,0 +1,1872 @@
+[
+  {
+    "id": "matematica-financeira-ined-1064",
+    "categoriaId": "matematica-financeira",
+    "subtopico": "Juros Compostos",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um capital de R$ 6.500,00 foi aplicado a juros compostos de 8% ao mês. Qual será o montante após 4 meses?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "R$ 8.188,13"
+      },
+      {
+        "letra": "B",
+        "texto": "R$ 6.500,00"
+      },
+      {
+        "letra": "C",
+        "texto": "R$ 8.843,18"
+      },
+      {
+        "letra": "D",
+        "texto": "R$ 8.580,00"
+      },
+      {
+        "letra": "E",
+        "texto": "R$ 9.550,63"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "M = C × (1 + i)^t = R$ 6.500,00 × (1 + 8/100)^4 = R$ 8.843,18."
+  },
+  {
+    "id": "matematica-financeira-ined-1065",
+    "categoriaId": "matematica-financeira",
+    "subtopico": "Juros Compostos",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um capital de R$ 8.900,00 foi aplicado a juros compostos de 3% ao mês. Qual será o montante após 2 meses?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "R$ 9.167,00"
+      },
+      {
+        "letra": "B",
+        "texto": "R$ 9.442,01"
+      },
+      {
+        "letra": "C",
+        "texto": "R$ 8.900,00"
+      },
+      {
+        "letra": "D",
+        "texto": "R$ 9.725,27"
+      },
+      {
+        "letra": "E",
+        "texto": "R$ 9.434,00"
+      }
+    ],
+    "correta": "B",
+    "explicacao": "M = C × (1 + i)^t = R$ 8.900,00 × (1 + 3/100)^2 = R$ 9.442,01."
+  },
+  {
+    "id": "matematica-financeira-ined-1066",
+    "categoriaId": "matematica-financeira",
+    "subtopico": "Juros Compostos",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um capital de R$ 9.600,00 foi aplicado a juros compostos de 10% ao mês. Qual será o montante após 4 meses?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "R$ 15.460,90"
+      },
+      {
+        "letra": "B",
+        "texto": "R$ 12.777,60"
+      },
+      {
+        "letra": "C",
+        "texto": "R$ 9.600,00"
+      },
+      {
+        "letra": "D",
+        "texto": "R$ 14.055,36"
+      },
+      {
+        "letra": "E",
+        "texto": "R$ 13.440,00"
+      }
+    ],
+    "correta": "D",
+    "explicacao": "M = C × (1 + i)^t = R$ 9.600,00 × (1 + 10/100)^4 = R$ 14.055,36."
+  },
+  {
+    "id": "matematica-financeira-ined-1067",
+    "categoriaId": "matematica-financeira",
+    "subtopico": "Juros Compostos",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um capital de R$ 7.100,00 foi aplicado a juros compostos de 8% ao mês. Qual será o montante após 4 meses?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "R$ 9.372,00"
+      },
+      {
+        "letra": "B",
+        "texto": "R$ 8.943,96"
+      },
+      {
+        "letra": "C",
+        "texto": "R$ 7.100,00"
+      },
+      {
+        "letra": "D",
+        "texto": "R$ 9.659,47"
+      },
+      {
+        "letra": "E",
+        "texto": "R$ 10.432,23"
+      }
+    ],
+    "correta": "D",
+    "explicacao": "M = C × (1 + i)^t = R$ 7.100,00 × (1 + 8/100)^4 = R$ 9.659,47."
+  },
+  {
+    "id": "matematica-financeira-ined-1068",
+    "categoriaId": "matematica-financeira",
+    "subtopico": "Juros Compostos",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um capital de R$ 8.300,00 foi aplicado a juros compostos de 2% ao mês. Qual será o montante após 2 meses?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "R$ 8.632,00"
+      },
+      {
+        "letra": "B",
+        "texto": "R$ 8.635,32"
+      },
+      {
+        "letra": "C",
+        "texto": "R$ 8.466,00"
+      },
+      {
+        "letra": "D",
+        "texto": "R$ 8.300,00"
+      },
+      {
+        "letra": "E",
+        "texto": "R$ 8.808,03"
+      }
+    ],
+    "correta": "B",
+    "explicacao": "M = C × (1 + i)^t = R$ 8.300,00 × (1 + 2/100)^2 = R$ 8.635,32."
+  },
+  {
+    "id": "matematica-financeira-ined-1069",
+    "categoriaId": "matematica-financeira",
+    "subtopico": "Juros Compostos",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um capital de R$ 9.000,00 foi aplicado a juros compostos de 5% ao mês. Qual será o montante após 2 meses?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "R$ 9.450,00"
+      },
+      {
+        "letra": "B",
+        "texto": "R$ 10.418,63"
+      },
+      {
+        "letra": "C",
+        "texto": "R$ 9.000,00"
+      },
+      {
+        "letra": "D",
+        "texto": "R$ 9.900,00"
+      },
+      {
+        "letra": "E",
+        "texto": "R$ 9.922,50"
+      }
+    ],
+    "correta": "E",
+    "explicacao": "M = C × (1 + i)^t = R$ 9.000,00 × (1 + 5/100)^2 = R$ 9.922,50."
+  },
+  {
+    "id": "matematica-financeira-ined-1070",
+    "categoriaId": "matematica-financeira",
+    "subtopico": "Juros Compostos",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um capital de R$ 2.800,00 foi aplicado a juros compostos de 2% ao mês. Qual será o montante após 3 meses?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "R$ 2.971,38"
+      },
+      {
+        "letra": "B",
+        "texto": "R$ 2.968,00"
+      },
+      {
+        "letra": "C",
+        "texto": "R$ 2.800,00"
+      },
+      {
+        "letra": "D",
+        "texto": "R$ 2.913,12"
+      },
+      {
+        "letra": "E",
+        "texto": "R$ 3.030,81"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "M = C × (1 + i)^t = R$ 2.800,00 × (1 + 2/100)^3 = R$ 2.971,38."
+  },
+  {
+    "id": "matematica-financeira-ined-1071",
+    "categoriaId": "matematica-financeira",
+    "subtopico": "Juros Compostos",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um capital de R$ 6.400,00 foi aplicado a juros compostos de 3% ao mês. Qual será o montante após 2 meses?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "R$ 6.789,76"
+      },
+      {
+        "letra": "B",
+        "texto": "R$ 6.400,00"
+      },
+      {
+        "letra": "C",
+        "texto": "R$ 6.784,00"
+      },
+      {
+        "letra": "D",
+        "texto": "R$ 6.592,00"
+      },
+      {
+        "letra": "E",
+        "texto": "R$ 6.993,45"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "M = C × (1 + i)^t = R$ 6.400,00 × (1 + 3/100)^2 = R$ 6.789,76."
+  },
+  {
+    "id": "matematica-financeira-ined-1072",
+    "categoriaId": "matematica-financeira",
+    "subtopico": "Juros Compostos",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um capital de R$ 6.800,00 foi aplicado a juros compostos de 3% ao mês. Qual será o montante após 2 meses?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "R$ 7.430,54"
+      },
+      {
+        "letra": "B",
+        "texto": "R$ 7.208,00"
+      },
+      {
+        "letra": "C",
+        "texto": "R$ 7.004,00"
+      },
+      {
+        "letra": "D",
+        "texto": "R$ 7.214,12"
+      },
+      {
+        "letra": "E",
+        "texto": "R$ 6.800,00"
+      }
+    ],
+    "correta": "D",
+    "explicacao": "M = C × (1 + i)^t = R$ 6.800,00 × (1 + 3/100)^2 = R$ 7.214,12."
+  },
+  {
+    "id": "matematica-financeira-ined-1073",
+    "categoriaId": "matematica-financeira",
+    "subtopico": "Juros Compostos",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um capital de R$ 7.000,00 foi aplicado a juros compostos de 8% ao mês. Qual será o montante após 4 meses?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "R$ 8.817,98"
+      },
+      {
+        "letra": "B",
+        "texto": "R$ 9.240,00"
+      },
+      {
+        "letra": "C",
+        "texto": "R$ 10.285,30"
+      },
+      {
+        "letra": "D",
+        "texto": "R$ 7.000,00"
+      },
+      {
+        "letra": "E",
+        "texto": "R$ 9.523,42"
+      }
+    ],
+    "correta": "E",
+    "explicacao": "M = C × (1 + i)^t = R$ 7.000,00 × (1 + 8/100)^4 = R$ 9.523,42."
+  },
+  {
+    "id": "matematica-financeira-ined-1074",
+    "categoriaId": "matematica-financeira",
+    "subtopico": "Juros Compostos",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um capital de R$ 7.100,00 foi aplicado a juros compostos de 5% ao mês. Qual será o montante após 4 meses?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "R$ 7.100,00"
+      },
+      {
+        "letra": "B",
+        "texto": "R$ 8.630,09"
+      },
+      {
+        "letra": "C",
+        "texto": "R$ 9.061,60"
+      },
+      {
+        "letra": "D",
+        "texto": "R$ 8.219,14"
+      },
+      {
+        "letra": "E",
+        "texto": "R$ 8.520,00"
+      }
+    ],
+    "correta": "B",
+    "explicacao": "M = C × (1 + i)^t = R$ 7.100,00 × (1 + 5/100)^4 = R$ 8.630,09."
+  },
+  {
+    "id": "matematica-financeira-ined-1075",
+    "categoriaId": "matematica-financeira",
+    "subtopico": "Juros Compostos",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um capital de R$ 7.100,00 foi aplicado a juros compostos de 2% ao mês. Qual será o montante após 6 meses?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "R$ 7.952,00"
+      },
+      {
+        "letra": "B",
+        "texto": "R$ 7.995,75"
+      },
+      {
+        "letra": "C",
+        "texto": "R$ 7.100,00"
+      },
+      {
+        "letra": "D",
+        "texto": "R$ 8.155,67"
+      },
+      {
+        "letra": "E",
+        "texto": "R$ 7.838,97"
+      }
+    ],
+    "correta": "B",
+    "explicacao": "M = C × (1 + i)^t = R$ 7.100,00 × (1 + 2/100)^6 = R$ 7.995,75."
+  },
+  {
+    "id": "matematica-financeira-ined-1076",
+    "categoriaId": "matematica-financeira",
+    "subtopico": "Juros Compostos",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um capital de R$ 1.100,00 foi aplicado a juros compostos de 5% ao mês. Qual será o montante após 4 meses?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "R$ 1.273,39"
+      },
+      {
+        "letra": "B",
+        "texto": "R$ 1.403,91"
+      },
+      {
+        "letra": "C",
+        "texto": "R$ 1.100,00"
+      },
+      {
+        "letra": "D",
+        "texto": "R$ 1.337,06"
+      },
+      {
+        "letra": "E",
+        "texto": "R$ 1.320,00"
+      }
+    ],
+    "correta": "D",
+    "explicacao": "M = C × (1 + i)^t = R$ 1.100,00 × (1 + 5/100)^4 = R$ 1.337,06."
+  },
+  {
+    "id": "matematica-financeira-ined-1077",
+    "categoriaId": "matematica-financeira",
+    "subtopico": "Juros Compostos",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um capital de R$ 3.600,00 foi aplicado a juros compostos de 8% ao mês. Qual será o montante após 4 meses?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "R$ 3.600,00"
+      },
+      {
+        "letra": "B",
+        "texto": "R$ 5.289,58"
+      },
+      {
+        "letra": "C",
+        "texto": "R$ 4.752,00"
+      },
+      {
+        "letra": "D",
+        "texto": "R$ 4.534,96"
+      },
+      {
+        "letra": "E",
+        "texto": "R$ 4.897,76"
+      }
+    ],
+    "correta": "E",
+    "explicacao": "M = C × (1 + i)^t = R$ 3.600,00 × (1 + 8/100)^4 = R$ 4.897,76."
+  },
+  {
+    "id": "matematica-financeira-ined-1078",
+    "categoriaId": "matematica-financeira",
+    "subtopico": "Juros Compostos",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um capital de R$ 2.000,00 foi aplicado a juros compostos de 3% ao mês. Qual será o montante após 3 meses?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "R$ 2.000,00"
+      },
+      {
+        "letra": "B",
+        "texto": "R$ 2.251,02"
+      },
+      {
+        "letra": "C",
+        "texto": "R$ 2.185,45"
+      },
+      {
+        "letra": "D",
+        "texto": "R$ 2.180,00"
+      },
+      {
+        "letra": "E",
+        "texto": "R$ 2.121,80"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "M = C × (1 + i)^t = R$ 2.000,00 × (1 + 3/100)^3 = R$ 2.185,45."
+  },
+  {
+    "id": "matematica-financeira-ined-1079",
+    "categoriaId": "matematica-financeira",
+    "subtopico": "Juros Compostos",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um capital de R$ 5.700,00 foi aplicado a juros compostos de 5% ao mês. Qual será o montante após 3 meses?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "R$ 5.700,00"
+      },
+      {
+        "letra": "B",
+        "texto": "R$ 6.284,25"
+      },
+      {
+        "letra": "C",
+        "texto": "R$ 6.598,46"
+      },
+      {
+        "letra": "D",
+        "texto": "R$ 6.928,39"
+      },
+      {
+        "letra": "E",
+        "texto": "R$ 6.555,00"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "M = C × (1 + i)^t = R$ 5.700,00 × (1 + 5/100)^3 = R$ 6.598,46."
+  },
+  {
+    "id": "matematica-financeira-ined-1080",
+    "categoriaId": "matematica-financeira",
+    "subtopico": "Juros Compostos",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um capital de R$ 7.900,00 foi aplicado a juros compostos de 3% ao mês. Qual será o montante após 2 meses?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "R$ 7.900,00"
+      },
+      {
+        "letra": "B",
+        "texto": "R$ 8.381,11"
+      },
+      {
+        "letra": "C",
+        "texto": "R$ 8.374,00"
+      },
+      {
+        "letra": "D",
+        "texto": "R$ 8.632,54"
+      },
+      {
+        "letra": "E",
+        "texto": "R$ 8.137,00"
+      }
+    ],
+    "correta": "B",
+    "explicacao": "M = C × (1 + i)^t = R$ 7.900,00 × (1 + 3/100)^2 = R$ 8.381,11."
+  },
+  {
+    "id": "matematica-financeira-ined-1081",
+    "categoriaId": "matematica-financeira",
+    "subtopico": "Juros Compostos",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um capital de R$ 17.400,00 foi aplicado a juros compostos de 8% ao mês. Qual será o montante após 4 meses?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "R$ 21.918,99"
+      },
+      {
+        "letra": "B",
+        "texto": "R$ 17.400,00"
+      },
+      {
+        "letra": "C",
+        "texto": "R$ 22.968,00"
+      },
+      {
+        "letra": "D",
+        "texto": "R$ 25.566,31"
+      },
+      {
+        "letra": "E",
+        "texto": "R$ 23.672,51"
+      }
+    ],
+    "correta": "E",
+    "explicacao": "M = C × (1 + i)^t = R$ 17.400,00 × (1 + 8/100)^4 = R$ 23.672,51."
+  },
+  {
+    "id": "matematica-financeira-ined-1082",
+    "categoriaId": "matematica-financeira",
+    "subtopico": "Juros Compostos",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um capital de R$ 3.200,00 foi aplicado a juros compostos de 5% ao mês. Qual será o montante após 2 meses?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "R$ 3.704,40"
+      },
+      {
+        "letra": "B",
+        "texto": "R$ 3.520,00"
+      },
+      {
+        "letra": "C",
+        "texto": "R$ 3.360,00"
+      },
+      {
+        "letra": "D",
+        "texto": "R$ 3.200,00"
+      },
+      {
+        "letra": "E",
+        "texto": "R$ 3.528,00"
+      }
+    ],
+    "correta": "E",
+    "explicacao": "M = C × (1 + i)^t = R$ 3.200,00 × (1 + 5/100)^2 = R$ 3.528,00."
+  },
+  {
+    "id": "matematica-financeira-ined-1083",
+    "categoriaId": "matematica-financeira",
+    "subtopico": "Juros Compostos",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um capital de R$ 10.000,00 foi aplicado a juros compostos de 2% ao mês. Qual será o montante após 4 meses?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "R$ 10.000,00"
+      },
+      {
+        "letra": "B",
+        "texto": "R$ 11.040,81"
+      },
+      {
+        "letra": "C",
+        "texto": "R$ 10.824,32"
+      },
+      {
+        "letra": "D",
+        "texto": "R$ 10.800,00"
+      },
+      {
+        "letra": "E",
+        "texto": "R$ 10.612,08"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "M = C × (1 + i)^t = R$ 10.000,00 × (1 + 2/100)^4 = R$ 10.824,32."
+  },
+  {
+    "id": "matematica-financeira-ined-1084",
+    "categoriaId": "matematica-financeira",
+    "subtopico": "Juros Compostos",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um capital de R$ 7.200,00 foi aplicado a juros compostos de 10% ao mês. Qual será o montante após 4 meses?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "R$ 10.080,00"
+      },
+      {
+        "letra": "B",
+        "texto": "R$ 11.595,67"
+      },
+      {
+        "letra": "C",
+        "texto": "R$ 7.200,00"
+      },
+      {
+        "letra": "D",
+        "texto": "R$ 10.541,52"
+      },
+      {
+        "letra": "E",
+        "texto": "R$ 9.583,20"
+      }
+    ],
+    "correta": "D",
+    "explicacao": "M = C × (1 + i)^t = R$ 7.200,00 × (1 + 10/100)^4 = R$ 10.541,52."
+  },
+  {
+    "id": "matematica-financeira-ined-1085",
+    "categoriaId": "matematica-financeira",
+    "subtopico": "Juros Compostos",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um capital de R$ 6.500,00 foi aplicado a juros compostos de 5% ao mês. Qual será o montante após 3 meses?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "R$ 7.900,79"
+      },
+      {
+        "letra": "B",
+        "texto": "R$ 6.500,00"
+      },
+      {
+        "letra": "C",
+        "texto": "R$ 7.524,56"
+      },
+      {
+        "letra": "D",
+        "texto": "R$ 7.166,25"
+      },
+      {
+        "letra": "E",
+        "texto": "R$ 7.475,00"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "M = C × (1 + i)^t = R$ 6.500,00 × (1 + 5/100)^3 = R$ 7.524,56."
+  },
+  {
+    "id": "matematica-financeira-ined-1086",
+    "categoriaId": "matematica-financeira",
+    "subtopico": "Juros Compostos",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um capital de R$ 9.400,00 foi aplicado a juros compostos de 2% ao mês. Qual será o montante após 4 meses?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "R$ 10.152,00"
+      },
+      {
+        "letra": "B",
+        "texto": "R$ 10.174,86"
+      },
+      {
+        "letra": "C",
+        "texto": "R$ 10.378,36"
+      },
+      {
+        "letra": "D",
+        "texto": "R$ 9.400,00"
+      },
+      {
+        "letra": "E",
+        "texto": "R$ 9.975,36"
+      }
+    ],
+    "correta": "B",
+    "explicacao": "M = C × (1 + i)^t = R$ 9.400,00 × (1 + 2/100)^4 = R$ 10.174,86."
+  },
+  {
+    "id": "matematica-financeira-ined-1087",
+    "categoriaId": "matematica-financeira",
+    "subtopico": "Juros Compostos",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um capital de R$ 19.300,00 foi aplicado a juros compostos de 3% ao mês. Qual será o montante após 5 meses?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "R$ 23.045,21"
+      },
+      {
+        "letra": "B",
+        "texto": "R$ 22.373,99"
+      },
+      {
+        "letra": "C",
+        "texto": "R$ 22.195,00"
+      },
+      {
+        "letra": "D",
+        "texto": "R$ 19.300,00"
+      },
+      {
+        "letra": "E",
+        "texto": "R$ 21.722,32"
+      }
+    ],
+    "correta": "B",
+    "explicacao": "M = C × (1 + i)^t = R$ 19.300,00 × (1 + 3/100)^5 = R$ 22.373,99."
+  },
+  {
+    "id": "matematica-financeira-ined-1088",
+    "categoriaId": "matematica-financeira",
+    "subtopico": "Juros Compostos",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um capital de R$ 5.200,00 foi aplicado a juros compostos de 5% ao mês. Qual será o montante após 2 meses?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "R$ 6.019,65"
+      },
+      {
+        "letra": "B",
+        "texto": "R$ 5.200,00"
+      },
+      {
+        "letra": "C",
+        "texto": "R$ 5.733,00"
+      },
+      {
+        "letra": "D",
+        "texto": "R$ 5.720,00"
+      },
+      {
+        "letra": "E",
+        "texto": "R$ 5.460,00"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "M = C × (1 + i)^t = R$ 5.200,00 × (1 + 5/100)^2 = R$ 5.733,00."
+  },
+  {
+    "id": "matematica-financeira-ined-1089",
+    "categoriaId": "matematica-financeira",
+    "subtopico": "Juros Compostos",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um capital de R$ 5.500,00 foi aplicado a juros compostos de 10% ao mês. Qual será o montante após 4 meses?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "R$ 8.052,55"
+      },
+      {
+        "letra": "B",
+        "texto": "R$ 8.857,81"
+      },
+      {
+        "letra": "C",
+        "texto": "R$ 7.320,50"
+      },
+      {
+        "letra": "D",
+        "texto": "R$ 5.500,00"
+      },
+      {
+        "letra": "E",
+        "texto": "R$ 7.700,00"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "M = C × (1 + i)^t = R$ 5.500,00 × (1 + 10/100)^4 = R$ 8.052,55."
+  },
+  {
+    "id": "matematica-financeira-ined-1090",
+    "categoriaId": "matematica-financeira",
+    "subtopico": "Juros Compostos",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um capital de R$ 9.300,00 foi aplicado a juros compostos de 10% ao mês. Qual será o montante após 6 meses?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "R$ 9.300,00"
+      },
+      {
+        "letra": "B",
+        "texto": "R$ 14.880,00"
+      },
+      {
+        "letra": "C",
+        "texto": "R$ 16.475,52"
+      },
+      {
+        "letra": "D",
+        "texto": "R$ 14.977,74"
+      },
+      {
+        "letra": "E",
+        "texto": "R$ 18.123,07"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "M = C × (1 + i)^t = R$ 9.300,00 × (1 + 10/100)^6 = R$ 16.475,52."
+  },
+  {
+    "id": "matematica-financeira-ined-1091",
+    "categoriaId": "matematica-financeira",
+    "subtopico": "Juros Compostos",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um capital de R$ 9.000,00 foi aplicado a juros compostos de 3% ao mês. Qual será o montante após 2 meses?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "R$ 9.540,00"
+      },
+      {
+        "letra": "B",
+        "texto": "R$ 9.548,10"
+      },
+      {
+        "letra": "C",
+        "texto": "R$ 9.000,00"
+      },
+      {
+        "letra": "D",
+        "texto": "R$ 9.270,00"
+      },
+      {
+        "letra": "E",
+        "texto": "R$ 9.834,54"
+      }
+    ],
+    "correta": "B",
+    "explicacao": "M = C × (1 + i)^t = R$ 9.000,00 × (1 + 3/100)^2 = R$ 9.548,10."
+  },
+  {
+    "id": "matematica-financeira-ined-1092",
+    "categoriaId": "matematica-financeira",
+    "subtopico": "Juros Compostos",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um capital de R$ 6.000,00 foi aplicado a juros compostos de 3% ao mês. Qual será o montante após 3 meses?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "R$ 6.556,36"
+      },
+      {
+        "letra": "B",
+        "texto": "R$ 6.000,00"
+      },
+      {
+        "letra": "C",
+        "texto": "R$ 6.365,40"
+      },
+      {
+        "letra": "D",
+        "texto": "R$ 6.540,00"
+      },
+      {
+        "letra": "E",
+        "texto": "R$ 6.753,05"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "M = C × (1 + i)^t = R$ 6.000,00 × (1 + 3/100)^3 = R$ 6.556,36."
+  },
+  {
+    "id": "matematica-financeira-ined-1093",
+    "categoriaId": "matematica-financeira",
+    "subtopico": "Juros Compostos",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um capital de R$ 9.600,00 foi aplicado a juros compostos de 2% ao mês. Qual será o montante após 4 meses?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "R$ 10.187,60"
+      },
+      {
+        "letra": "B",
+        "texto": "R$ 9.600,00"
+      },
+      {
+        "letra": "C",
+        "texto": "R$ 10.368,00"
+      },
+      {
+        "letra": "D",
+        "texto": "R$ 10.391,35"
+      },
+      {
+        "letra": "E",
+        "texto": "R$ 10.599,18"
+      }
+    ],
+    "correta": "D",
+    "explicacao": "M = C × (1 + i)^t = R$ 9.600,00 × (1 + 2/100)^4 = R$ 10.391,35."
+  },
+  {
+    "id": "matematica-financeira-ined-1094",
+    "categoriaId": "matematica-financeira",
+    "subtopico": "Juros Compostos",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um capital de R$ 4.100,00 foi aplicado a juros compostos de 2% ao mês. Qual será o montante após 2 meses?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "R$ 4.100,00"
+      },
+      {
+        "letra": "B",
+        "texto": "R$ 4.265,64"
+      },
+      {
+        "letra": "C",
+        "texto": "R$ 4.182,00"
+      },
+      {
+        "letra": "D",
+        "texto": "R$ 4.264,00"
+      },
+      {
+        "letra": "E",
+        "texto": "R$ 4.350,95"
+      }
+    ],
+    "correta": "B",
+    "explicacao": "M = C × (1 + i)^t = R$ 4.100,00 × (1 + 2/100)^2 = R$ 4.265,64."
+  },
+  {
+    "id": "matematica-financeira-ined-1095",
+    "categoriaId": "matematica-financeira",
+    "subtopico": "Juros Compostos",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um capital de R$ 7.500,00 foi aplicado a juros compostos de 3% ao mês. Qual será o montante após 4 meses?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "R$ 8.400,00"
+      },
+      {
+        "letra": "B",
+        "texto": "R$ 8.195,45"
+      },
+      {
+        "letra": "C",
+        "texto": "R$ 8.441,32"
+      },
+      {
+        "letra": "D",
+        "texto": "R$ 7.500,00"
+      },
+      {
+        "letra": "E",
+        "texto": "R$ 8.694,56"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "M = C × (1 + i)^t = R$ 7.500,00 × (1 + 3/100)^4 = R$ 8.441,32."
+  },
+  {
+    "id": "matematica-financeira-ined-1096",
+    "categoriaId": "matematica-financeira",
+    "subtopico": "Juros Compostos",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um capital de R$ 12.400,00 foi aplicado a juros compostos de 3% ao mês. Qual será o montante após 6 meses?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "R$ 15.250,44"
+      },
+      {
+        "letra": "B",
+        "texto": "R$ 14.375,00"
+      },
+      {
+        "letra": "C",
+        "texto": "R$ 14.806,25"
+      },
+      {
+        "letra": "D",
+        "texto": "R$ 12.400,00"
+      },
+      {
+        "letra": "E",
+        "texto": "R$ 14.632,00"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "M = C × (1 + i)^t = R$ 12.400,00 × (1 + 3/100)^6 = R$ 14.806,25."
+  },
+  {
+    "id": "matematica-financeira-ined-1097",
+    "categoriaId": "matematica-financeira",
+    "subtopico": "Juros Compostos",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um capital de R$ 3.400,00 foi aplicado a juros compostos de 3% ao mês. Qual será o montante após 2 meses?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "R$ 3.607,06"
+      },
+      {
+        "letra": "B",
+        "texto": "R$ 3.604,00"
+      },
+      {
+        "letra": "C",
+        "texto": "R$ 3.400,00"
+      },
+      {
+        "letra": "D",
+        "texto": "R$ 3.502,00"
+      },
+      {
+        "letra": "E",
+        "texto": "R$ 3.715,27"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "M = C × (1 + i)^t = R$ 3.400,00 × (1 + 3/100)^2 = R$ 3.607,06."
+  },
+  {
+    "id": "matematica-financeira-ined-1098",
+    "categoriaId": "matematica-financeira",
+    "subtopico": "Juros Compostos",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um capital de R$ 8.100,00 foi aplicado a juros compostos de 8% ao mês. Qual será o montante após 4 meses?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "R$ 10.692,00"
+      },
+      {
+        "letra": "B",
+        "texto": "R$ 8.100,00"
+      },
+      {
+        "letra": "C",
+        "texto": "R$ 11.901,56"
+      },
+      {
+        "letra": "D",
+        "texto": "R$ 11.019,96"
+      },
+      {
+        "letra": "E",
+        "texto": "R$ 10.203,67"
+      }
+    ],
+    "correta": "D",
+    "explicacao": "M = C × (1 + i)^t = R$ 8.100,00 × (1 + 8/100)^4 = R$ 11.019,96."
+  },
+  {
+    "id": "matematica-financeira-ined-1099",
+    "categoriaId": "matematica-financeira",
+    "subtopico": "Juros Compostos",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um capital de R$ 14.600,00 foi aplicado a juros compostos de 5% ao mês. Qual será o montante após 5 meses?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "R$ 18.633,71"
+      },
+      {
+        "letra": "B",
+        "texto": "R$ 18.250,00"
+      },
+      {
+        "letra": "C",
+        "texto": "R$ 14.600,00"
+      },
+      {
+        "letra": "D",
+        "texto": "R$ 19.565,40"
+      },
+      {
+        "letra": "E",
+        "texto": "R$ 17.746,39"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "M = C × (1 + i)^t = R$ 14.600,00 × (1 + 5/100)^5 = R$ 18.633,71."
+  },
+  {
+    "id": "matematica-financeira-ined-1100",
+    "categoriaId": "matematica-financeira",
+    "subtopico": "Juros Compostos",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um capital de R$ 8.000,00 foi aplicado a juros compostos de 3% ao mês. Qual será o montante após 3 meses?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "R$ 9.004,07"
+      },
+      {
+        "letra": "B",
+        "texto": "R$ 8.720,00"
+      },
+      {
+        "letra": "C",
+        "texto": "R$ 8.741,82"
+      },
+      {
+        "letra": "D",
+        "texto": "R$ 8.487,20"
+      },
+      {
+        "letra": "E",
+        "texto": "R$ 8.000,00"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "M = C × (1 + i)^t = R$ 8.000,00 × (1 + 3/100)^3 = R$ 8.741,82."
+  },
+  {
+    "id": "matematica-financeira-ined-1101",
+    "categoriaId": "matematica-financeira",
+    "subtopico": "Juros Compostos",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um capital de R$ 8.700,00 foi aplicado a juros compostos de 10% ao mês. Qual será o montante após 4 meses?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "R$ 11.579,70"
+      },
+      {
+        "letra": "B",
+        "texto": "R$ 14.011,44"
+      },
+      {
+        "letra": "C",
+        "texto": "R$ 12.737,67"
+      },
+      {
+        "letra": "D",
+        "texto": "R$ 12.180,00"
+      },
+      {
+        "letra": "E",
+        "texto": "R$ 8.700,00"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "M = C × (1 + i)^t = R$ 8.700,00 × (1 + 10/100)^4 = R$ 12.737,67."
+  },
+  {
+    "id": "matematica-financeira-ined-1102",
+    "categoriaId": "matematica-financeira",
+    "subtopico": "Juros Compostos",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um capital de R$ 5.800,00 foi aplicado a juros compostos de 3% ao mês. Qual será o montante após 5 meses?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "R$ 6.723,79"
+      },
+      {
+        "letra": "B",
+        "texto": "R$ 6.527,95"
+      },
+      {
+        "letra": "C",
+        "texto": "R$ 5.800,00"
+      },
+      {
+        "letra": "D",
+        "texto": "R$ 6.670,00"
+      },
+      {
+        "letra": "E",
+        "texto": "R$ 6.925,50"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "M = C × (1 + i)^t = R$ 5.800,00 × (1 + 3/100)^5 = R$ 6.723,79."
+  },
+  {
+    "id": "matematica-financeira-ined-1103",
+    "categoriaId": "matematica-financeira",
+    "subtopico": "Juros Compostos",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um capital de R$ 8.400,00 foi aplicado a juros compostos de 5% ao mês. Qual será o montante após 2 meses?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "R$ 9.724,05"
+      },
+      {
+        "letra": "B",
+        "texto": "R$ 8.820,00"
+      },
+      {
+        "letra": "C",
+        "texto": "R$ 8.400,00"
+      },
+      {
+        "letra": "D",
+        "texto": "R$ 9.261,00"
+      },
+      {
+        "letra": "E",
+        "texto": "R$ 9.240,00"
+      }
+    ],
+    "correta": "D",
+    "explicacao": "M = C × (1 + i)^t = R$ 8.400,00 × (1 + 5/100)^2 = R$ 9.261,00."
+  },
+  {
+    "id": "matematica-financeira-ined-1104",
+    "categoriaId": "matematica-financeira",
+    "subtopico": "Juros Compostos",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um capital de R$ 5.400,00 foi aplicado a juros compostos de 3% ao mês. Qual será o montante após 2 meses?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "R$ 5.400,00"
+      },
+      {
+        "letra": "B",
+        "texto": "R$ 5.562,00"
+      },
+      {
+        "letra": "C",
+        "texto": "R$ 5.728,86"
+      },
+      {
+        "letra": "D",
+        "texto": "R$ 5.724,00"
+      },
+      {
+        "letra": "E",
+        "texto": "R$ 5.900,73"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "M = C × (1 + i)^t = R$ 5.400,00 × (1 + 3/100)^2 = R$ 5.728,86."
+  },
+  {
+    "id": "matematica-financeira-ined-1105",
+    "categoriaId": "matematica-financeira",
+    "subtopico": "Juros Compostos",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um capital de R$ 5.300,00 foi aplicado a juros compostos de 10% ao mês. Qual será o montante após 4 meses?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "R$ 5.300,00"
+      },
+      {
+        "letra": "B",
+        "texto": "R$ 7.054,30"
+      },
+      {
+        "letra": "C",
+        "texto": "R$ 7.420,00"
+      },
+      {
+        "letra": "D",
+        "texto": "R$ 7.759,73"
+      },
+      {
+        "letra": "E",
+        "texto": "R$ 8.535,70"
+      }
+    ],
+    "correta": "D",
+    "explicacao": "M = C × (1 + i)^t = R$ 5.300,00 × (1 + 10/100)^4 = R$ 7.759,73."
+  },
+  {
+    "id": "matematica-financeira-ined-1106",
+    "categoriaId": "matematica-financeira",
+    "subtopico": "Juros Compostos",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um capital de R$ 5.300,00 foi aplicado a juros compostos de 5% ao mês. Qual será o montante após 2 meses?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "R$ 5.843,25"
+      },
+      {
+        "letra": "B",
+        "texto": "R$ 5.300,00"
+      },
+      {
+        "letra": "C",
+        "texto": "R$ 5.565,00"
+      },
+      {
+        "letra": "D",
+        "texto": "R$ 6.135,41"
+      },
+      {
+        "letra": "E",
+        "texto": "R$ 5.830,00"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "M = C × (1 + i)^t = R$ 5.300,00 × (1 + 5/100)^2 = R$ 5.843,25."
+  },
+  {
+    "id": "matematica-financeira-ined-1107",
+    "categoriaId": "matematica-financeira",
+    "subtopico": "Juros Compostos",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um capital de R$ 5.900,00 foi aplicado a juros compostos de 8% ao mês. Qual será o montante após 2 meses?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "R$ 5.900,00"
+      },
+      {
+        "letra": "B",
+        "texto": "R$ 6.844,00"
+      },
+      {
+        "letra": "C",
+        "texto": "R$ 6.372,00"
+      },
+      {
+        "letra": "D",
+        "texto": "R$ 7.432,30"
+      },
+      {
+        "letra": "E",
+        "texto": "R$ 6.881,76"
+      }
+    ],
+    "correta": "E",
+    "explicacao": "M = C × (1 + i)^t = R$ 5.900,00 × (1 + 8/100)^2 = R$ 6.881,76."
+  },
+  {
+    "id": "matematica-financeira-ined-1108",
+    "categoriaId": "matematica-financeira",
+    "subtopico": "Juros Compostos",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um capital de R$ 7.600,00 foi aplicado a juros compostos de 2% ao mês. Qual será o montante após 2 meses?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "R$ 7.752,00"
+      },
+      {
+        "letra": "B",
+        "texto": "R$ 7.600,00"
+      },
+      {
+        "letra": "C",
+        "texto": "R$ 7.904,00"
+      },
+      {
+        "letra": "D",
+        "texto": "R$ 8.065,18"
+      },
+      {
+        "letra": "E",
+        "texto": "R$ 7.907,04"
+      }
+    ],
+    "correta": "E",
+    "explicacao": "M = C × (1 + i)^t = R$ 7.600,00 × (1 + 2/100)^2 = R$ 7.907,04."
+  },
+  {
+    "id": "matematica-financeira-ined-1109",
+    "categoriaId": "matematica-financeira",
+    "subtopico": "Juros Compostos",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um capital de R$ 9.900,00 foi aplicado a juros compostos de 8% ao mês. Qual será o montante após 4 meses?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "R$ 13.068,00"
+      },
+      {
+        "letra": "B",
+        "texto": "R$ 13.468,84"
+      },
+      {
+        "letra": "C",
+        "texto": "R$ 9.900,00"
+      },
+      {
+        "letra": "D",
+        "texto": "R$ 14.546,35"
+      },
+      {
+        "letra": "E",
+        "texto": "R$ 12.471,15"
+      }
+    ],
+    "correta": "B",
+    "explicacao": "M = C × (1 + i)^t = R$ 9.900,00 × (1 + 8/100)^4 = R$ 13.468,84."
+  },
+  {
+    "id": "matematica-financeira-ined-1110",
+    "categoriaId": "matematica-financeira",
+    "subtopico": "Juros Compostos",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um capital de R$ 7.600,00 foi aplicado a juros compostos de 10% ao mês. Qual será o montante após 2 meses?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "R$ 9.120,00"
+      },
+      {
+        "letra": "B",
+        "texto": "R$ 9.196,00"
+      },
+      {
+        "letra": "C",
+        "texto": "R$ 10.115,60"
+      },
+      {
+        "letra": "D",
+        "texto": "R$ 8.360,00"
+      },
+      {
+        "letra": "E",
+        "texto": "R$ 7.600,00"
+      }
+    ],
+    "correta": "B",
+    "explicacao": "M = C × (1 + i)^t = R$ 7.600,00 × (1 + 10/100)^2 = R$ 9.196,00."
+  },
+  {
+    "id": "matematica-financeira-ined-1111",
+    "categoriaId": "matematica-financeira",
+    "subtopico": "Juros Compostos",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um capital de R$ 9.500,00 foi aplicado a juros compostos de 5% ao mês. Qual será o montante após 2 meses?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "R$ 10.450,00"
+      },
+      {
+        "letra": "B",
+        "texto": "R$ 9.975,00"
+      },
+      {
+        "letra": "C",
+        "texto": "R$ 10.473,75"
+      },
+      {
+        "letra": "D",
+        "texto": "R$ 9.500,00"
+      },
+      {
+        "letra": "E",
+        "texto": "R$ 10.997,44"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "M = C × (1 + i)^t = R$ 9.500,00 × (1 + 5/100)^2 = R$ 10.473,75."
+  },
+  {
+    "id": "matematica-financeira-ined-1112",
+    "categoriaId": "matematica-financeira",
+    "subtopico": "Juros Compostos",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um capital de R$ 7.000,00 foi aplicado a juros compostos de 5% ao mês. Qual será o montante após 2 meses?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "R$ 8.103,38"
+      },
+      {
+        "letra": "B",
+        "texto": "R$ 7.350,00"
+      },
+      {
+        "letra": "C",
+        "texto": "R$ 7.000,00"
+      },
+      {
+        "letra": "D",
+        "texto": "R$ 7.700,00"
+      },
+      {
+        "letra": "E",
+        "texto": "R$ 7.717,50"
+      }
+    ],
+    "correta": "E",
+    "explicacao": "M = C × (1 + i)^t = R$ 7.000,00 × (1 + 5/100)^2 = R$ 7.717,50."
+  },
+  {
+    "id": "matematica-financeira-ined-1113",
+    "categoriaId": "matematica-financeira",
+    "subtopico": "Juros Compostos",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um capital de R$ 3.400,00 foi aplicado a juros compostos de 2% ao mês. Qual será o montante após 2 meses?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "R$ 3.537,36"
+      },
+      {
+        "letra": "B",
+        "texto": "R$ 3.608,11"
+      },
+      {
+        "letra": "C",
+        "texto": "R$ 3.536,00"
+      },
+      {
+        "letra": "D",
+        "texto": "R$ 3.468,00"
+      },
+      {
+        "letra": "E",
+        "texto": "R$ 3.400,00"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "M = C × (1 + i)^t = R$ 3.400,00 × (1 + 2/100)^2 = R$ 3.537,36."
+  },
+  {
+    "id": "matematica-financeira-ined-1114",
+    "categoriaId": "matematica-financeira",
+    "subtopico": "Juros Compostos",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um capital de R$ 16.100,00 foi aplicado a juros compostos de 5% ao mês. Qual será o montante após 5 meses?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "R$ 20.125,00"
+      },
+      {
+        "letra": "B",
+        "texto": "R$ 16.100,00"
+      },
+      {
+        "letra": "C",
+        "texto": "R$ 20.548,13"
+      },
+      {
+        "letra": "D",
+        "texto": "R$ 19.569,65"
+      },
+      {
+        "letra": "E",
+        "texto": "R$ 21.575,54"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "M = C × (1 + i)^t = R$ 16.100,00 × (1 + 5/100)^5 = R$ 20.548,13."
+  },
+  {
+    "id": "matematica-financeira-ined-1115",
+    "categoriaId": "matematica-financeira",
+    "subtopico": "Juros Compostos",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um capital de R$ 8.700,00 foi aplicado a juros compostos de 5% ao mês. Qual será o montante após 3 meses?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "R$ 9.591,75"
+      },
+      {
+        "letra": "B",
+        "texto": "R$ 10.574,90"
+      },
+      {
+        "letra": "C",
+        "texto": "R$ 8.700,00"
+      },
+      {
+        "letra": "D",
+        "texto": "R$ 10.005,00"
+      },
+      {
+        "letra": "E",
+        "texto": "R$ 10.071,34"
+      }
+    ],
+    "correta": "E",
+    "explicacao": "M = C × (1 + i)^t = R$ 8.700,00 × (1 + 5/100)^3 = R$ 10.071,34."
+  },
+  {
+    "id": "matematica-financeira-ined-1116",
+    "categoriaId": "matematica-financeira",
+    "subtopico": "Juros Compostos",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um capital de R$ 9.200,00 foi aplicado a juros compostos de 3% ao mês. Qual será o montante após 2 meses?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "R$ 10.053,09"
+      },
+      {
+        "letra": "B",
+        "texto": "R$ 9.752,00"
+      },
+      {
+        "letra": "C",
+        "texto": "R$ 9.760,28"
+      },
+      {
+        "letra": "D",
+        "texto": "R$ 9.200,00"
+      },
+      {
+        "letra": "E",
+        "texto": "R$ 9.476,00"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "M = C × (1 + i)^t = R$ 9.200,00 × (1 + 3/100)^2 = R$ 9.760,28."
+  },
+  {
+    "id": "matematica-financeira-ined-1117",
+    "categoriaId": "matematica-financeira",
+    "subtopico": "Juros Compostos",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um capital de R$ 19.100,00 foi aplicado a juros compostos de 2% ao mês. Qual será o montante após 5 meses?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "R$ 19.100,00"
+      },
+      {
+        "letra": "B",
+        "texto": "R$ 21.509,70"
+      },
+      {
+        "letra": "C",
+        "texto": "R$ 21.087,94"
+      },
+      {
+        "letra": "D",
+        "texto": "R$ 21.010,00"
+      },
+      {
+        "letra": "E",
+        "texto": "R$ 20.674,45"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "M = C × (1 + i)^t = R$ 19.100,00 × (1 + 2/100)^5 = R$ 21.087,94."
+  },
+  {
+    "id": "matematica-financeira-ined-1119",
+    "categoriaId": "matematica-financeira",
+    "subtopico": "Juros Compostos",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um capital de R$ 2.800,00 foi aplicado a juros compostos de 10% ao mês. Qual será o montante após 3 meses?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "R$ 3.726,80"
+      },
+      {
+        "letra": "B",
+        "texto": "R$ 4.099,48"
+      },
+      {
+        "letra": "C",
+        "texto": "R$ 3.388,00"
+      },
+      {
+        "letra": "D",
+        "texto": "R$ 3.640,00"
+      },
+      {
+        "letra": "E",
+        "texto": "R$ 2.800,00"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "M = C × (1 + i)^t = R$ 2.800,00 × (1 + 10/100)^3 = R$ 3.726,80."
+  }
+]
