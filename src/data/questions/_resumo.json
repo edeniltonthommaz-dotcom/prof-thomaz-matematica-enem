@@ -1,78 +1,78 @@
 [
   {
     "categoriaId": "numeros",
-    "total": 55
+    "total": 10
   },
   {
     "categoriaId": "porcentagem",
-    "total": 55
+    "total": 10
   },
   {
     "categoriaId": "razao-proporcao",
-    "total": 55
+    "total": 10
   },
   {
     "categoriaId": "regra-de-tres",
-    "total": 55
+    "total": 10
   },
   {
     "categoriaId": "equacoes",
-    "total": 55
+    "total": 10
   },
   {
     "categoriaId": "funcao-afim",
-    "total": 55
+    "total": 10
   },
   {
     "categoriaId": "funcao-quadratica",
-    "total": 55
+    "total": 10
   },
   {
     "categoriaId": "exponenciais-logaritmos",
-    "total": 55
+    "total": 10
   },
   {
     "categoriaId": "progressoes",
-    "total": 55
+    "total": 10
   },
   {
     "categoriaId": "geometria-plana",
-    "total": 55
+    "total": 10
   },
   {
     "categoriaId": "geometria-espacial",
-    "total": 55
+    "total": 10
   },
   {
     "categoriaId": "geometria-analitica",
-    "total": 55
+    "total": 10
   },
   {
     "categoriaId": "trigonometria",
-    "total": 55
+    "total": 10
   },
   {
     "categoriaId": "estatistica",
-    "total": 55
+    "total": 10
   },
   {
     "categoriaId": "probabilidade",
-    "total": 55
+    "total": 10
   },
   {
     "categoriaId": "analise-combinatoria",
-    "total": 55
+    "total": 10
   },
   {
     "categoriaId": "matematica-financeira",
-    "total": 55
+    "total": 10
   },
   {
     "categoriaId": "matrizes",
-    "total": 55
+    "total": 10
   },
   {
     "categoriaId": "logica",
-    "total": 55
+    "total": 10
   }
 ]

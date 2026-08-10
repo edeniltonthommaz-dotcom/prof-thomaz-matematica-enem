@@ -1,1872 +1,342 @@
 [
   {
-    "id": "porcentagem-ined-0056",
+    "id": "porcentagem-ined-0011",
     "categoriaId": "porcentagem",
     "subtopico": "Aumentos e Descontos Sucessivos",
     "dificuldade": "facil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Um produto custava R$ 3.750,00. Após um aumento de 50%, a loja aplicou uma promoção com desconto de 10% sobre o novo preço. Qual o preço final do produto?",
+    "enunciado": "Um produto custava R$ 3.920,00. Após um aumento de 25%, a loja aplicou uma promoção com desconto de 10% sobre o novo preço. Qual o preço final do produto?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "R$ 5.062,51"
+        "texto": "R$ 3.920,00"
       },
       {
         "letra": "B",
-        "texto": "R$ 5.625,00"
+        "texto": "R$ 4.410,00"
       },
       {
         "letra": "C",
-        "texto": "R$ 5.250,00"
+        "texto": "R$ 4.508,00"
       },
       {
         "letra": "D",
-        "texto": "R$ 3.750,00"
+        "texto": "R$ 4.410,01"
       },
       {
         "letra": "E",
-        "texto": "R$ 5.062,50"
-      }
-    ],
-    "correta": "E",
-    "explicacao": "Após o aumento: R$ 3.750,00 × (1 + 50/100) = R$ 5.625,00. Aplicando o desconto: R$ 5.625,00 × (1 − 10/100) = R$ 5.062,50."
-  },
-  {
-    "id": "porcentagem-ined-0057",
-    "categoriaId": "porcentagem",
-    "subtopico": "Juros Simples e Compostos",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um capital de R$ 8.000,00 foi aplicado a juros simples de 3% ao mês, durante 3 meses. Qual o montante (capital + juros) ao final do período?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "R$ 720,00"
-      },
-      {
-        "letra": "B",
-        "texto": "R$ 8.960,00"
-      },
-      {
-        "letra": "C",
-        "texto": "R$ 8.000,00"
-      },
-      {
-        "letra": "D",
-        "texto": "R$ 8.720,00"
-      },
-      {
-        "letra": "E",
-        "texto": "R$ 9.440,00"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "Juros = C × i × t = R$ 8.000,00 × 3/100 × 3 = R$ 720,00. Montante = Capital + Juros = R$ 8.000,00 + R$ 720,00 = R$ 8.720,00."
-  },
-  {
-    "id": "porcentagem-ined-0058",
-    "categoriaId": "porcentagem",
-    "subtopico": "Aumentos e Descontos Sucessivos",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um produto custava R$ 6.100,00. Após um aumento de 22%, a loja aplicou uma promoção com desconto de 25% sobre o novo preço. Qual o preço final do produto?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "R$ 5.581,51"
-      },
-      {
-        "letra": "B",
-        "texto": "R$ 7.442,00"
-      },
-      {
-        "letra": "C",
-        "texto": "R$ 6.100,00"
-      },
-      {
-        "letra": "D",
-        "texto": "R$ 5.917,00"
-      },
-      {
-        "letra": "E",
-        "texto": "R$ 5.581,50"
-      }
-    ],
-    "correta": "E",
-    "explicacao": "Após o aumento: R$ 6.100,00 × (1 + 22/100) = R$ 7.442,00. Aplicando o desconto: R$ 7.442,00 × (1 − 25/100) = R$ 5.581,50."
-  },
-  {
-    "id": "porcentagem-ined-0059",
-    "categoriaId": "porcentagem",
-    "subtopico": "Juros Simples e Compostos",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um capital de R$ 6.200,00 foi aplicado a juros simples de 1.5% ao mês, durante 9 meses. Qual o montante (capital + juros) ao final do período?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "R$ 837,00"
-      },
-      {
-        "letra": "B",
-        "texto": "R$ 7.037,00"
-      },
-      {
-        "letra": "C",
-        "texto": "R$ 7.874,00"
-      },
-      {
-        "letra": "D",
-        "texto": "R$ 7.130,00"
-      },
-      {
-        "letra": "E",
-        "texto": "R$ 6.200,00"
+        "texto": "R$ 4.900,00"
       }
     ],
     "correta": "B",
-    "explicacao": "Juros = C × i × t = R$ 6.200,00 × 1.5/100 × 9 = R$ 837,00. Montante = Capital + Juros = R$ 6.200,00 + R$ 837,00 = R$ 7.037,00."
+    "explicacao": "Após o aumento: R$ 3.920,00 × (1 + 25/100) = R$ 4.900,00. Aplicando o desconto: R$ 4.900,00 × (1 − 10/100) = R$ 4.410,00."
   },
   {
-    "id": "porcentagem-ined-0060",
-    "categoriaId": "porcentagem",
-    "subtopico": "Aumentos e Descontos Sucessivos",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um produto custava R$ 1.420,00. Após um aumento de 8%, a loja aplicou uma promoção com desconto de 5% sobre o novo preço. Qual o preço final do produto?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "R$ 1.533,60"
-      },
-      {
-        "letra": "B",
-        "texto": "R$ 1.462,60"
-      },
-      {
-        "letra": "C",
-        "texto": "R$ 1.456,93"
-      },
-      {
-        "letra": "D",
-        "texto": "R$ 1.456,92"
-      },
-      {
-        "letra": "E",
-        "texto": "R$ 1.420,00"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "Após o aumento: R$ 1.420,00 × (1 + 8/100) = R$ 1.533,60. Aplicando o desconto: R$ 1.533,60 × (1 − 5/100) = R$ 1.456,92."
-  },
-  {
-    "id": "porcentagem-ined-0061",
-    "categoriaId": "porcentagem",
-    "subtopico": "Juros Simples e Compostos",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um capital de R$ 18.000,00 foi aplicado a juros simples de 2% ao mês, durante 16 meses. Qual o montante (capital + juros) ao final do período?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "R$ 24.120,00"
-      },
-      {
-        "letra": "B",
-        "texto": "R$ 29.520,00"
-      },
-      {
-        "letra": "C",
-        "texto": "R$ 23.760,00"
-      },
-      {
-        "letra": "D",
-        "texto": "R$ 18.000,00"
-      },
-      {
-        "letra": "E",
-        "texto": "R$ 5.760,00"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "Juros = C × i × t = R$ 18.000,00 × 2/100 × 16 = R$ 5.760,00. Montante = Capital + Juros = R$ 18.000,00 + R$ 5.760,00 = R$ 23.760,00."
-  },
-  {
-    "id": "porcentagem-ined-0062",
-    "categoriaId": "porcentagem",
-    "subtopico": "Aumentos e Descontos Sucessivos",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um produto custava R$ 3.760,00. Após um aumento de 50%, a loja aplicou uma promoção com desconto de 20% sobre o novo preço. Qual o preço final do produto?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "R$ 3.760,00"
-      },
-      {
-        "letra": "B",
-        "texto": "R$ 5.640,00"
-      },
-      {
-        "letra": "C",
-        "texto": "R$ 4.512,01"
-      },
-      {
-        "letra": "D",
-        "texto": "R$ 4.888,00"
-      },
-      {
-        "letra": "E",
-        "texto": "R$ 4.512,00"
-      }
-    ],
-    "correta": "E",
-    "explicacao": "Após o aumento: R$ 3.760,00 × (1 + 50/100) = R$ 5.640,00. Aplicando o desconto: R$ 5.640,00 × (1 − 20/100) = R$ 4.512,00."
-  },
-  {
-    "id": "porcentagem-ined-0063",
+    "id": "porcentagem-ined-0012",
     "categoriaId": "porcentagem",
     "subtopico": "Juros Simples e Compostos",
     "dificuldade": "medio",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Um capital de R$ 7.100,00 foi aplicado a juros simples de 1% ao mês, durante 4 meses. Qual o montante (capital + juros) ao final do período?",
+    "enunciado": "Um capital de R$ 8.300,00 foi aplicado a juros simples de 3% ao mês, durante 9 meses. Qual o montante (capital + juros) ao final do período?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "R$ 7.384,00"
+        "texto": "R$ 10.541,00"
       },
       {
         "letra": "B",
-        "texto": "R$ 7.455,00"
+        "texto": "R$ 2.241,00"
       },
       {
         "letra": "C",
-        "texto": "R$ 284,00"
+        "texto": "R$ 10.790,00"
       },
       {
         "letra": "D",
-        "texto": "R$ 7.100,00"
+        "texto": "R$ 8.300,00"
       },
       {
         "letra": "E",
-        "texto": "R$ 7.668,00"
+        "texto": "R$ 12.782,00"
       }
     ],
     "correta": "A",
-    "explicacao": "Juros = C × i × t = R$ 7.100,00 × 1/100 × 4 = R$ 284,00. Montante = Capital + Juros = R$ 7.100,00 + R$ 284,00 = R$ 7.384,00."
+    "explicacao": "Juros = C × i × t = R$ 8.300,00 × 3/100 × 9 = R$ 2.241,00. Montante = Capital + Juros = R$ 8.300,00 + R$ 2.241,00 = R$ 10.541,00."
   },
   {
-    "id": "porcentagem-ined-0064",
+    "id": "porcentagem-ined-0013",
     "categoriaId": "porcentagem",
     "subtopico": "Aumentos e Descontos Sucessivos",
     "dificuldade": "dificil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Um produto custava R$ 5.460,00. Após um aumento de 18%, a loja aplicou uma promoção com desconto de 12% sobre o novo preço. Qual o preço final do produto?",
+    "enunciado": "Um produto custava R$ 5.240,00. Após um aumento de 15%, a loja aplicou uma promoção com desconto de 12% sobre o novo preço. Qual o preço final do produto?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "R$ 6.442,80"
+        "texto": "R$ 6.026,00"
       },
       {
         "letra": "B",
-        "texto": "R$ 5.669,67"
+        "texto": "R$ 5.240,00"
       },
       {
         "letra": "C",
-        "texto": "R$ 5.669,66"
+        "texto": "R$ 5.302,88"
       },
       {
         "letra": "D",
-        "texto": "R$ 5.787,60"
+        "texto": "R$ 5.302,89"
       },
       {
         "letra": "E",
-        "texto": "R$ 5.460,00"
+        "texto": "R$ 5.397,20"
       }
     ],
     "correta": "C",
-    "explicacao": "Após o aumento: R$ 5.460,00 × (1 + 18/100) = R$ 6.442,80. Aplicando o desconto: R$ 6.442,80 × (1 − 12/100) = R$ 5.669,66."
+    "explicacao": "Após o aumento: R$ 5.240,00 × (1 + 15/100) = R$ 6.026,00. Aplicando o desconto: R$ 6.026,00 × (1 − 12/100) = R$ 5.302,88."
   },
   {
-    "id": "porcentagem-ined-0065",
+    "id": "porcentagem-ined-0014",
     "categoriaId": "porcentagem",
     "subtopico": "Juros Simples e Compostos",
     "dificuldade": "facil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Um capital de R$ 1.300,00 foi aplicado a juros simples de 2.5% ao mês, durante 6 meses. Qual o montante (capital + juros) ao final do período?",
+    "enunciado": "Um capital de R$ 1.400,00 foi aplicado a juros simples de 2.5% ao mês, durante 7 meses. Qual o montante (capital + juros) ao final do período?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "R$ 1.690,00"
+        "texto": "R$ 1.400,00"
       },
       {
         "letra": "B",
-        "texto": "R$ 1.527,50"
+        "texto": "R$ 1.680,00"
       },
       {
         "letra": "C",
-        "texto": "R$ 195,00"
-      },
-      {
-        "letra": "D",
-        "texto": "R$ 1.300,00"
-      },
-      {
-        "letra": "E",
-        "texto": "R$ 1.495,00"
-      }
-    ],
-    "correta": "E",
-    "explicacao": "Juros = C × i × t = R$ 1.300,00 × 2.5/100 × 6 = R$ 195,00. Montante = Capital + Juros = R$ 1.300,00 + R$ 195,00 = R$ 1.495,00."
-  },
-  {
-    "id": "porcentagem-ined-0066",
-    "categoriaId": "porcentagem",
-    "subtopico": "Aumentos e Descontos Sucessivos",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um produto custava R$ 1.790,00. Após um aumento de 18%, a loja aplicou uma promoção com desconto de 12% sobre o novo preço. Qual o preço final do produto?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "R$ 1.897,40"
-      },
-      {
-        "letra": "B",
-        "texto": "R$ 1.858,74"
-      },
-      {
-        "letra": "C",
-        "texto": "R$ 1.790,00"
-      },
-      {
-        "letra": "D",
-        "texto": "R$ 2.112,20"
-      },
-      {
-        "letra": "E",
-        "texto": "R$ 1.858,75"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "Após o aumento: R$ 1.790,00 × (1 + 18/100) = R$ 2.112,20. Aplicando o desconto: R$ 2.112,20 × (1 − 12/100) = R$ 1.858,74."
-  },
-  {
-    "id": "porcentagem-ined-0067",
-    "categoriaId": "porcentagem",
-    "subtopico": "Juros Simples e Compostos",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um capital de R$ 12.900,00 foi aplicado a juros simples de 2.5% ao mês, durante 12 meses. Qual o montante (capital + juros) ao final do período?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "R$ 3.870,00"
-      },
-      {
-        "letra": "B",
-        "texto": "R$ 12.900,00"
-      },
-      {
-        "letra": "C",
-        "texto": "R$ 17.092,50"
-      },
-      {
-        "letra": "D",
-        "texto": "R$ 16.770,00"
-      },
-      {
-        "letra": "E",
-        "texto": "R$ 20.640,00"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "Juros = C × i × t = R$ 12.900,00 × 2.5/100 × 12 = R$ 3.870,00. Montante = Capital + Juros = R$ 12.900,00 + R$ 3.870,00 = R$ 16.770,00."
-  },
-  {
-    "id": "porcentagem-ined-0068",
-    "categoriaId": "porcentagem",
-    "subtopico": "Aumentos e Descontos Sucessivos",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um produto custava R$ 3.600,00. Após um aumento de 20%, a loja aplicou uma promoção com desconto de 10% sobre o novo preço. Qual o preço final do produto?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "R$ 3.888,01"
-      },
-      {
-        "letra": "B",
-        "texto": "R$ 3.888,00"
-      },
-      {
-        "letra": "C",
-        "texto": "R$ 3.960,00"
-      },
-      {
-        "letra": "D",
-        "texto": "R$ 4.320,00"
-      },
-      {
-        "letra": "E",
-        "texto": "R$ 3.600,00"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "Após o aumento: R$ 3.600,00 × (1 + 20/100) = R$ 4.320,00. Aplicando o desconto: R$ 4.320,00 × (1 − 10/100) = R$ 3.888,00."
-  },
-  {
-    "id": "porcentagem-ined-0069",
-    "categoriaId": "porcentagem",
-    "subtopico": "Juros Simples e Compostos",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um capital de R$ 7.000,00 foi aplicado a juros simples de 2.5% ao mês, durante 6 meses. Qual o montante (capital + juros) ao final do período?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "R$ 8.050,00"
-      },
-      {
-        "letra": "B",
-        "texto": "R$ 8.225,00"
-      },
-      {
-        "letra": "C",
-        "texto": "R$ 9.100,00"
-      },
-      {
-        "letra": "D",
-        "texto": "R$ 7.000,00"
-      },
-      {
-        "letra": "E",
-        "texto": "R$ 1.050,00"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "Juros = C × i × t = R$ 7.000,00 × 2.5/100 × 6 = R$ 1.050,00. Montante = Capital + Juros = R$ 7.000,00 + R$ 1.050,00 = R$ 8.050,00."
-  },
-  {
-    "id": "porcentagem-ined-0070",
-    "categoriaId": "porcentagem",
-    "subtopico": "Aumentos e Descontos Sucessivos",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um produto custava R$ 5.710,00. Após um aumento de 15%, a loja aplicou uma promoção com desconto de 5% sobre o novo preço. Qual o preço final do produto?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "R$ 6.238,17"
-      },
-      {
-        "letra": "B",
-        "texto": "R$ 6.281,00"
-      },
-      {
-        "letra": "C",
-        "texto": "R$ 6.238,18"
-      },
-      {
-        "letra": "D",
-        "texto": "R$ 5.710,00"
-      },
-      {
-        "letra": "E",
-        "texto": "R$ 6.566,50"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "Após o aumento: R$ 5.710,00 × (1 + 15/100) = R$ 6.566,50. Aplicando o desconto: R$ 6.566,50 × (1 − 5/100) = R$ 6.238,17."
-  },
-  {
-    "id": "porcentagem-ined-0071",
-    "categoriaId": "porcentagem",
-    "subtopico": "Juros Simples e Compostos",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um capital de R$ 5.100,00 foi aplicado a juros simples de 5% ao mês, durante 9 meses. Qual o montante (capital + juros) ao final do período?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "R$ 5.100,00"
-      },
-      {
-        "letra": "B",
-        "texto": "R$ 2.295,00"
-      },
-      {
-        "letra": "C",
-        "texto": "R$ 7.395,00"
-      },
-      {
-        "letra": "D",
-        "texto": "R$ 9.690,00"
-      },
-      {
-        "letra": "E",
-        "texto": "R$ 7.650,00"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "Juros = C × i × t = R$ 5.100,00 × 5/100 × 9 = R$ 2.295,00. Montante = Capital + Juros = R$ 5.100,00 + R$ 2.295,00 = R$ 7.395,00."
-  },
-  {
-    "id": "porcentagem-ined-0072",
-    "categoriaId": "porcentagem",
-    "subtopico": "Aumentos e Descontos Sucessivos",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um produto custava R$ 1.510,00. Após um aumento de 30%, a loja aplicou uma promoção com desconto de 25% sobre o novo preço. Qual o preço final do produto?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "R$ 1.472,25"
-      },
-      {
-        "letra": "B",
-        "texto": "R$ 1.963,00"
-      },
-      {
-        "letra": "C",
-        "texto": "R$ 1.585,50"
-      },
-      {
-        "letra": "D",
-        "texto": "R$ 1.472,26"
-      },
-      {
-        "letra": "E",
-        "texto": "R$ 1.510,00"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "Após o aumento: R$ 1.510,00 × (1 + 30/100) = R$ 1.963,00. Aplicando o desconto: R$ 1.963,00 × (1 − 25/100) = R$ 1.472,25."
-  },
-  {
-    "id": "porcentagem-ined-0073",
-    "categoriaId": "porcentagem",
-    "subtopico": "Juros Simples e Compostos",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um capital de R$ 11.300,00 foi aplicado a juros simples de 1.5% ao mês, durante 12 meses. Qual o montante (capital + juros) ao final do período?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "R$ 11.300,00"
-      },
-      {
-        "letra": "B",
-        "texto": "R$ 13.334,00"
-      },
-      {
-        "letra": "C",
-        "texto": "R$ 15.368,00"
-      },
-      {
-        "letra": "D",
-        "texto": "R$ 13.503,50"
-      },
-      {
-        "letra": "E",
-        "texto": "R$ 2.034,00"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "Juros = C × i × t = R$ 11.300,00 × 1.5/100 × 12 = R$ 2.034,00. Montante = Capital + Juros = R$ 11.300,00 + R$ 2.034,00 = R$ 13.334,00."
-  },
-  {
-    "id": "porcentagem-ined-0074",
-    "categoriaId": "porcentagem",
-    "subtopico": "Aumentos e Descontos Sucessivos",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um produto custava R$ 3.640,00. Após um aumento de 25%, a loja aplicou uma promoção com desconto de 10% sobre o novo preço. Qual o preço final do produto?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "R$ 4.550,00"
-      },
-      {
-        "letra": "B",
-        "texto": "R$ 3.640,00"
-      },
-      {
-        "letra": "C",
-        "texto": "R$ 4.095,01"
-      },
-      {
-        "letra": "D",
-        "texto": "R$ 4.095,00"
-      },
-      {
-        "letra": "E",
-        "texto": "R$ 4.186,00"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "Após o aumento: R$ 3.640,00 × (1 + 25/100) = R$ 4.550,00. Aplicando o desconto: R$ 4.550,00 × (1 − 10/100) = R$ 4.095,00."
-  },
-  {
-    "id": "porcentagem-ined-0075",
-    "categoriaId": "porcentagem",
-    "subtopico": "Juros Simples e Compostos",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um capital de R$ 8.900,00 foi aplicado a juros simples de 1% ao mês, durante 5 meses. Qual o montante (capital + juros) ao final do período?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "R$ 9.434,00"
-      },
-      {
-        "letra": "B",
-        "texto": "R$ 9.790,00"
-      },
-      {
-        "letra": "C",
-        "texto": "R$ 9.345,00"
-      },
-      {
-        "letra": "D",
-        "texto": "R$ 445,00"
-      },
-      {
-        "letra": "E",
-        "texto": "R$ 8.900,00"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "Juros = C × i × t = R$ 8.900,00 × 1/100 × 5 = R$ 445,00. Montante = Capital + Juros = R$ 8.900,00 + R$ 445,00 = R$ 9.345,00."
-  },
-  {
-    "id": "porcentagem-ined-0076",
-    "categoriaId": "porcentagem",
-    "subtopico": "Aumentos e Descontos Sucessivos",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um produto custava R$ 6.590,00. Após um aumento de 18%, a loja aplicou uma promoção com desconto de 12% sobre o novo preço. Qual o preço final do produto?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "R$ 6.843,07"
-      },
-      {
-        "letra": "B",
-        "texto": "R$ 6.985,40"
-      },
-      {
-        "letra": "C",
-        "texto": "R$ 6.590,00"
-      },
-      {
-        "letra": "D",
-        "texto": "R$ 6.843,06"
-      },
-      {
-        "letra": "E",
-        "texto": "R$ 7.776,20"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "Após o aumento: R$ 6.590,00 × (1 + 18/100) = R$ 7.776,20. Aplicando o desconto: R$ 7.776,20 × (1 − 12/100) = R$ 6.843,06."
-  },
-  {
-    "id": "porcentagem-ined-0077",
-    "categoriaId": "porcentagem",
-    "subtopico": "Juros Simples e Compostos",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um capital de R$ 7.300,00 foi aplicado a juros simples de 2.5% ao mês, durante 10 meses. Qual o montante (capital + juros) ao final do período?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "R$ 9.125,00"
-      },
-      {
-        "letra": "B",
-        "texto": "R$ 10.950,00"
-      },
-      {
-        "letra": "C",
-        "texto": "R$ 1.825,00"
-      },
-      {
-        "letra": "D",
-        "texto": "R$ 9.307,50"
-      },
-      {
-        "letra": "E",
-        "texto": "R$ 7.300,00"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "Juros = C × i × t = R$ 7.300,00 × 2.5/100 × 10 = R$ 1.825,00. Montante = Capital + Juros = R$ 7.300,00 + R$ 1.825,00 = R$ 9.125,00."
-  },
-  {
-    "id": "porcentagem-ined-0078",
-    "categoriaId": "porcentagem",
-    "subtopico": "Aumentos e Descontos Sucessivos",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um produto custava R$ 3.600,00. Após um aumento de 12%, a loja aplicou uma promoção com desconto de 10% sobre o novo preço. Qual o preço final do produto?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "R$ 3.672,00"
-      },
-      {
-        "letra": "B",
-        "texto": "R$ 4.032,00"
-      },
-      {
-        "letra": "C",
-        "texto": "R$ 3.628,81"
-      },
-      {
-        "letra": "D",
-        "texto": "R$ 3.628,80"
-      },
-      {
-        "letra": "E",
-        "texto": "R$ 3.600,00"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "Após o aumento: R$ 3.600,00 × (1 + 12/100) = R$ 4.032,00. Aplicando o desconto: R$ 4.032,00 × (1 − 10/100) = R$ 3.628,80."
-  },
-  {
-    "id": "porcentagem-ined-0079",
-    "categoriaId": "porcentagem",
-    "subtopico": "Juros Simples e Compostos",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um capital de R$ 7.500,00 foi aplicado a juros simples de 3% ao mês, durante 18 meses. Qual o montante (capital + juros) ao final do período?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "R$ 15.600,00"
-      },
-      {
-        "letra": "B",
-        "texto": "R$ 11.775,00"
-      },
-      {
-        "letra": "C",
-        "texto": "R$ 7.500,00"
-      },
-      {
-        "letra": "D",
-        "texto": "R$ 11.550,00"
-      },
-      {
-        "letra": "E",
-        "texto": "R$ 4.050,00"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "Juros = C × i × t = R$ 7.500,00 × 3/100 × 18 = R$ 4.050,00. Montante = Capital + Juros = R$ 7.500,00 + R$ 4.050,00 = R$ 11.550,00."
-  },
-  {
-    "id": "porcentagem-ined-0080",
-    "categoriaId": "porcentagem",
-    "subtopico": "Aumentos e Descontos Sucessivos",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um produto custava R$ 440,00. Após um aumento de 20%, a loja aplicou uma promoção com desconto de 10% sobre o novo preço. Qual o preço final do produto?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "R$ 528,00"
-      },
-      {
-        "letra": "B",
-        "texto": "R$ 440,00"
-      },
-      {
-        "letra": "C",
-        "texto": "R$ 475,20"
-      },
-      {
-        "letra": "D",
-        "texto": "R$ 475,21"
-      },
-      {
-        "letra": "E",
-        "texto": "R$ 484,00"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "Após o aumento: R$ 440,00 × (1 + 20/100) = R$ 528,00. Aplicando o desconto: R$ 528,00 × (1 − 10/100) = R$ 475,20."
-  },
-  {
-    "id": "porcentagem-ined-0081",
-    "categoriaId": "porcentagem",
-    "subtopico": "Juros Simples e Compostos",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um capital de R$ 5.000,00 foi aplicado a juros simples de 3% ao mês, durante 10 meses. Qual o montante (capital + juros) ao final do período?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "R$ 6.650,00"
-      },
-      {
-        "letra": "B",
-        "texto": "R$ 6.500,00"
-      },
-      {
-        "letra": "C",
-        "texto": "R$ 5.000,00"
-      },
-      {
-        "letra": "D",
-        "texto": "R$ 1.500,00"
-      },
-      {
-        "letra": "E",
-        "texto": "R$ 8.000,00"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "Juros = C × i × t = R$ 5.000,00 × 3/100 × 10 = R$ 1.500,00. Montante = Capital + Juros = R$ 5.000,00 + R$ 1.500,00 = R$ 6.500,00."
-  },
-  {
-    "id": "porcentagem-ined-0082",
-    "categoriaId": "porcentagem",
-    "subtopico": "Aumentos e Descontos Sucessivos",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um produto custava R$ 2.590,00. Após um aumento de 22%, a loja aplicou uma promoção com desconto de 25% sobre o novo preço. Qual o preço final do produto?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "R$ 3.159,80"
-      },
-      {
-        "letra": "B",
-        "texto": "R$ 2.590,00"
-      },
-      {
-        "letra": "C",
-        "texto": "R$ 2.512,30"
-      },
-      {
-        "letra": "D",
-        "texto": "R$ 2.369,86"
-      },
-      {
-        "letra": "E",
-        "texto": "R$ 2.369,85"
-      }
-    ],
-    "correta": "E",
-    "explicacao": "Após o aumento: R$ 2.590,00 × (1 + 22/100) = R$ 3.159,80. Aplicando o desconto: R$ 3.159,80 × (1 − 25/100) = R$ 2.369,85."
-  },
-  {
-    "id": "porcentagem-ined-0083",
-    "categoriaId": "porcentagem",
-    "subtopico": "Juros Simples e Compostos",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um capital de R$ 1.000,00 foi aplicado a juros simples de 1% ao mês, durante 6 meses. Qual o montante (capital + juros) ao final do período?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "R$ 1.000,00"
-      },
-      {
-        "letra": "B",
-        "texto": "R$ 1.070,00"
-      },
-      {
-        "letra": "C",
-        "texto": "R$ 60,00"
-      },
-      {
-        "letra": "D",
-        "texto": "R$ 1.060,00"
-      },
-      {
-        "letra": "E",
-        "texto": "R$ 1.120,00"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "Juros = C × i × t = R$ 1.000,00 × 1/100 × 6 = R$ 60,00. Montante = Capital + Juros = R$ 1.000,00 + R$ 60,00 = R$ 1.060,00."
-  },
-  {
-    "id": "porcentagem-ined-0084",
-    "categoriaId": "porcentagem",
-    "subtopico": "Aumentos e Descontos Sucessivos",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um produto custava R$ 1.290,00. Após um aumento de 30%, a loja aplicou uma promoção com desconto de 15% sobre o novo preço. Qual o preço final do produto?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "R$ 1.425,46"
-      },
-      {
-        "letra": "B",
-        "texto": "R$ 1.483,50"
-      },
-      {
-        "letra": "C",
-        "texto": "R$ 1.677,00"
-      },
-      {
-        "letra": "D",
-        "texto": "R$ 1.290,00"
-      },
-      {
-        "letra": "E",
-        "texto": "R$ 1.425,45"
-      }
-    ],
-    "correta": "E",
-    "explicacao": "Após o aumento: R$ 1.290,00 × (1 + 30/100) = R$ 1.677,00. Aplicando o desconto: R$ 1.677,00 × (1 − 15/100) = R$ 1.425,45."
-  },
-  {
-    "id": "porcentagem-ined-0085",
-    "categoriaId": "porcentagem",
-    "subtopico": "Juros Simples e Compostos",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um capital de R$ 5.500,00 foi aplicado a juros simples de 4% ao mês, durante 18 meses. Qual o montante (capital + juros) ao final do período?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "R$ 5.500,00"
-      },
-      {
-        "letra": "B",
-        "texto": "R$ 9.680,00"
-      },
-      {
-        "letra": "C",
-        "texto": "R$ 13.420,00"
-      },
-      {
-        "letra": "D",
-        "texto": "R$ 3.960,00"
-      },
-      {
-        "letra": "E",
-        "texto": "R$ 9.460,00"
-      }
-    ],
-    "correta": "E",
-    "explicacao": "Juros = C × i × t = R$ 5.500,00 × 4/100 × 18 = R$ 3.960,00. Montante = Capital + Juros = R$ 5.500,00 + R$ 3.960,00 = R$ 9.460,00."
-  },
-  {
-    "id": "porcentagem-ined-0086",
-    "categoriaId": "porcentagem",
-    "subtopico": "Aumentos e Descontos Sucessivos",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um produto custava R$ 3.040,00. Após um aumento de 10%, a loja aplicou uma promoção com desconto de 10% sobre o novo preço. Qual o preço final do produto?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "R$ 3.009,61"
-      },
-      {
-        "letra": "B",
-        "texto": "R$ 3.040,00"
-      },
-      {
-        "letra": "C",
-        "texto": "R$ 4.009,61"
-      },
-      {
-        "letra": "D",
-        "texto": "R$ 3.344,00"
-      },
-      {
-        "letra": "E",
-        "texto": "R$ 3.009,60"
-      }
-    ],
-    "correta": "E",
-    "explicacao": "Após o aumento: R$ 3.040,00 × (1 + 10/100) = R$ 3.344,00. Aplicando o desconto: R$ 3.344,00 × (1 − 10/100) = R$ 3.009,60."
-  },
-  {
-    "id": "porcentagem-ined-0087",
-    "categoriaId": "porcentagem",
-    "subtopico": "Juros Simples e Compostos",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um capital de R$ 9.900,00 foi aplicado a juros simples de 3% ao mês, durante 6 meses. Qual o montante (capital + juros) ao final do período?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "R$ 9.900,00"
-      },
-      {
-        "letra": "B",
-        "texto": "R$ 11.682,00"
-      },
-      {
-        "letra": "C",
-        "texto": "R$ 13.464,00"
-      },
-      {
-        "letra": "D",
-        "texto": "R$ 11.979,00"
-      },
-      {
-        "letra": "E",
-        "texto": "R$ 1.782,00"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "Juros = C × i × t = R$ 9.900,00 × 3/100 × 6 = R$ 1.782,00. Montante = Capital + Juros = R$ 9.900,00 + R$ 1.782,00 = R$ 11.682,00."
-  },
-  {
-    "id": "porcentagem-ined-0088",
-    "categoriaId": "porcentagem",
-    "subtopico": "Aumentos e Descontos Sucessivos",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um produto custava R$ 4.710,00. Após um aumento de 22%, a loja aplicou uma promoção com desconto de 20% sobre o novo preço. Qual o preço final do produto?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "R$ 4.710,00"
-      },
-      {
-        "letra": "B",
-        "texto": "R$ 4.804,20"
-      },
-      {
-        "letra": "C",
-        "texto": "R$ 4.596,96"
-      },
-      {
-        "letra": "D",
-        "texto": "R$ 4.596,97"
-      },
-      {
-        "letra": "E",
-        "texto": "R$ 5.746,20"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "Após o aumento: R$ 4.710,00 × (1 + 22/100) = R$ 5.746,20. Aplicando o desconto: R$ 5.746,20 × (1 − 20/100) = R$ 4.596,96."
-  },
-  {
-    "id": "porcentagem-ined-0089",
-    "categoriaId": "porcentagem",
-    "subtopico": "Juros Simples e Compostos",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um capital de R$ 2.900,00 foi aplicado a juros simples de 1% ao mês, durante 10 meses. Qual o montante (capital + juros) ao final do período?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "R$ 3.219,00"
-      },
-      {
-        "letra": "B",
-        "texto": "R$ 2.900,00"
-      },
-      {
-        "letra": "C",
-        "texto": "R$ 3.480,00"
-      },
-      {
-        "letra": "D",
-        "texto": "R$ 3.190,00"
-      },
-      {
-        "letra": "E",
-        "texto": "R$ 290,00"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "Juros = C × i × t = R$ 2.900,00 × 1/100 × 10 = R$ 290,00. Montante = Capital + Juros = R$ 2.900,00 + R$ 290,00 = R$ 3.190,00."
-  },
-  {
-    "id": "porcentagem-ined-0090",
-    "categoriaId": "porcentagem",
-    "subtopico": "Aumentos e Descontos Sucessivos",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um produto custava R$ 2.450,00. Após um aumento de 22%, a loja aplicou uma promoção com desconto de 20% sobre o novo preço. Qual o preço final do produto?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "R$ 2.450,00"
-      },
-      {
-        "letra": "B",
-        "texto": "R$ 2.499,00"
-      },
-      {
-        "letra": "C",
-        "texto": "R$ 2.391,21"
-      },
-      {
-        "letra": "D",
-        "texto": "R$ 2.391,20"
-      },
-      {
-        "letra": "E",
-        "texto": "R$ 2.989,00"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "Após o aumento: R$ 2.450,00 × (1 + 22/100) = R$ 2.989,00. Aplicando o desconto: R$ 2.989,00 × (1 − 20/100) = R$ 2.391,20."
-  },
-  {
-    "id": "porcentagem-ined-0091",
-    "categoriaId": "porcentagem",
-    "subtopico": "Juros Simples e Compostos",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um capital de R$ 4.400,00 foi aplicado a juros simples de 2% ao mês, durante 18 meses. Qual o montante (capital + juros) ao final do período?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "R$ 4.400,00"
-      },
-      {
-        "letra": "B",
-        "texto": "R$ 5.984,00"
-      },
-      {
-        "letra": "C",
-        "texto": "R$ 7.568,00"
-      },
-      {
-        "letra": "D",
-        "texto": "R$ 6.072,00"
-      },
-      {
-        "letra": "E",
-        "texto": "R$ 1.584,00"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "Juros = C × i × t = R$ 4.400,00 × 2/100 × 18 = R$ 1.584,00. Montante = Capital + Juros = R$ 4.400,00 + R$ 1.584,00 = R$ 5.984,00."
-  },
-  {
-    "id": "porcentagem-ined-0092",
-    "categoriaId": "porcentagem",
-    "subtopico": "Aumentos e Descontos Sucessivos",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um produto custava R$ 1.960,00. Após um aumento de 10%, a loja aplicou uma promoção com desconto de 10% sobre o novo preço. Qual o preço final do produto?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "R$ 1.960,00"
-      },
-      {
-        "letra": "B",
-        "texto": "R$ 1.940,40"
-      },
-      {
-        "letra": "C",
-        "texto": "R$ 2.940,41"
-      },
-      {
-        "letra": "D",
-        "texto": "R$ 1.940,41"
-      },
-      {
-        "letra": "E",
-        "texto": "R$ 2.156,00"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "Após o aumento: R$ 1.960,00 × (1 + 10/100) = R$ 2.156,00. Aplicando o desconto: R$ 2.156,00 × (1 − 10/100) = R$ 1.940,40."
-  },
-  {
-    "id": "porcentagem-ined-0093",
-    "categoriaId": "porcentagem",
-    "subtopico": "Juros Simples e Compostos",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um capital de R$ 3.400,00 foi aplicado a juros simples de 4% ao mês, durante 4 meses. Qual o montante (capital + juros) ao final do período?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "R$ 3.944,00"
-      },
-      {
-        "letra": "B",
-        "texto": "R$ 544,00"
-      },
-      {
-        "letra": "C",
-        "texto": "R$ 4.488,00"
-      },
-      {
-        "letra": "D",
-        "texto": "R$ 3.400,00"
-      },
-      {
-        "letra": "E",
-        "texto": "R$ 4.080,00"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "Juros = C × i × t = R$ 3.400,00 × 4/100 × 4 = R$ 544,00. Montante = Capital + Juros = R$ 3.400,00 + R$ 544,00 = R$ 3.944,00."
-  },
-  {
-    "id": "porcentagem-ined-0094",
-    "categoriaId": "porcentagem",
-    "subtopico": "Aumentos e Descontos Sucessivos",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um produto custava R$ 1.890,00. Após um aumento de 15%, a loja aplicou uma promoção com desconto de 12% sobre o novo preço. Qual o preço final do produto?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "R$ 2.173,50"
-      },
-      {
-        "letra": "B",
         "texto": "R$ 1.890,00"
       },
       {
-        "letra": "C",
-        "texto": "R$ 1.912,69"
-      },
-      {
         "letra": "D",
-        "texto": "R$ 1.946,70"
+        "texto": "R$ 245,00"
       },
       {
         "letra": "E",
-        "texto": "R$ 1.912,68"
+        "texto": "R$ 1.645,00"
       }
     ],
     "correta": "E",
-    "explicacao": "Após o aumento: R$ 1.890,00 × (1 + 15/100) = R$ 2.173,50. Aplicando o desconto: R$ 2.173,50 × (1 − 12/100) = R$ 1.912,68."
+    "explicacao": "Juros = C × i × t = R$ 1.400,00 × 2.5/100 × 7 = R$ 245,00. Montante = Capital + Juros = R$ 1.400,00 + R$ 245,00 = R$ 1.645,00."
   },
   {
-    "id": "porcentagem-ined-0095",
-    "categoriaId": "porcentagem",
-    "subtopico": "Juros Simples e Compostos",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um capital de R$ 4.500,00 foi aplicado a juros simples de 2.5% ao mês, durante 8 meses. Qual o montante (capital + juros) ao final do período?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "R$ 5.400,00"
-      },
-      {
-        "letra": "B",
-        "texto": "R$ 4.500,00"
-      },
-      {
-        "letra": "C",
-        "texto": "R$ 900,00"
-      },
-      {
-        "letra": "D",
-        "texto": "R$ 6.300,00"
-      },
-      {
-        "letra": "E",
-        "texto": "R$ 5.512,50"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "Juros = C × i × t = R$ 4.500,00 × 2.5/100 × 8 = R$ 900,00. Montante = Capital + Juros = R$ 4.500,00 + R$ 900,00 = R$ 5.400,00."
-  },
-  {
-    "id": "porcentagem-ined-0096",
+    "id": "porcentagem-ined-0015",
     "categoriaId": "porcentagem",
     "subtopico": "Aumentos e Descontos Sucessivos",
     "dificuldade": "medio",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Um produto custava R$ 520,00. Após um aumento de 12%, a loja aplicou uma promoção com desconto de 12% sobre o novo preço. Qual o preço final do produto?",
+    "enunciado": "Um produto custava R$ 3.570,00. Após um aumento de 30%, a loja aplicou uma promoção com desconto de 20% sobre o novo preço. Qual o preço final do produto?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "R$ 512,52"
+        "texto": "R$ 4.641,00"
       },
       {
         "letra": "B",
-        "texto": "R$ 513,52"
+        "texto": "R$ 3.712,81"
       },
       {
         "letra": "C",
-        "texto": "R$ 520,00"
+        "texto": "R$ 3.927,00"
       },
       {
         "letra": "D",
-        "texto": "R$ 512,51"
+        "texto": "R$ 3.570,00"
       },
       {
         "letra": "E",
-        "texto": "R$ 582,40"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "Após o aumento: R$ 520,00 × (1 + 12/100) = R$ 582,40. Aplicando o desconto: R$ 582,40 × (1 − 12/100) = R$ 512,51."
-  },
-  {
-    "id": "porcentagem-ined-0097",
-    "categoriaId": "porcentagem",
-    "subtopico": "Juros Simples e Compostos",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um capital de R$ 13.700,00 foi aplicado a juros simples de 1.5% ao mês, durante 17 meses. Qual o montante (capital + juros) ao final do período?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "R$ 13.700,00"
-      },
-      {
-        "letra": "B",
-        "texto": "R$ 17.193,50"
-      },
-      {
-        "letra": "C",
-        "texto": "R$ 17.399,00"
-      },
-      {
-        "letra": "D",
-        "texto": "R$ 3.493,50"
-      },
-      {
-        "letra": "E",
-        "texto": "R$ 20.687,00"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "Juros = C × i × t = R$ 13.700,00 × 1.5/100 × 17 = R$ 3.493,50. Montante = Capital + Juros = R$ 13.700,00 + R$ 3.493,50 = R$ 17.193,50."
-  },
-  {
-    "id": "porcentagem-ined-0098",
-    "categoriaId": "porcentagem",
-    "subtopico": "Aumentos e Descontos Sucessivos",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um produto custava R$ 2.980,00. Após um aumento de 20%, a loja aplicou uma promoção com desconto de 20% sobre o novo preço. Qual o preço final do produto?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "R$ 2.860,80"
-      },
-      {
-        "letra": "B",
-        "texto": "R$ 2.860,81"
-      },
-      {
-        "letra": "C",
-        "texto": "R$ 2.980,00"
-      },
-      {
-        "letra": "D",
-        "texto": "R$ 3.576,00"
-      },
-      {
-        "letra": "E",
-        "texto": "R$ 3.860,81"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "Após o aumento: R$ 2.980,00 × (1 + 20/100) = R$ 3.576,00. Aplicando o desconto: R$ 3.576,00 × (1 − 20/100) = R$ 2.860,80."
-  },
-  {
-    "id": "porcentagem-ined-0099",
-    "categoriaId": "porcentagem",
-    "subtopico": "Juros Simples e Compostos",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um capital de R$ 5.300,00 foi aplicado a juros simples de 4% ao mês, durante 6 meses. Qual o montante (capital + juros) ao final do período?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "R$ 1.272,00"
-      },
-      {
-        "letra": "B",
-        "texto": "R$ 5.300,00"
-      },
-      {
-        "letra": "C",
-        "texto": "R$ 7.844,00"
-      },
-      {
-        "letra": "D",
-        "texto": "R$ 6.572,00"
-      },
-      {
-        "letra": "E",
-        "texto": "R$ 6.784,00"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "Juros = C × i × t = R$ 5.300,00 × 4/100 × 6 = R$ 1.272,00. Montante = Capital + Juros = R$ 5.300,00 + R$ 1.272,00 = R$ 6.572,00."
-  },
-  {
-    "id": "porcentagem-ined-0100",
-    "categoriaId": "porcentagem",
-    "subtopico": "Aumentos e Descontos Sucessivos",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um produto custava R$ 1.300,00. Após um aumento de 18%, a loja aplicou uma promoção com desconto de 5% sobre o novo preço. Qual o preço final do produto?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "R$ 1.300,00"
-      },
-      {
-        "letra": "B",
-        "texto": "R$ 1.534,00"
-      },
-      {
-        "letra": "C",
-        "texto": "R$ 1.457,30"
-      },
-      {
-        "letra": "D",
-        "texto": "R$ 1.457,31"
-      },
-      {
-        "letra": "E",
-        "texto": "R$ 1.469,00"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "Após o aumento: R$ 1.300,00 × (1 + 18/100) = R$ 1.534,00. Aplicando o desconto: R$ 1.534,00 × (1 − 5/100) = R$ 1.457,30."
-  },
-  {
-    "id": "porcentagem-ined-0101",
-    "categoriaId": "porcentagem",
-    "subtopico": "Juros Simples e Compostos",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um capital de R$ 8.400,00 foi aplicado a juros simples de 1% ao mês, durante 6 meses. Qual o montante (capital + juros) ao final do período?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "R$ 8.988,00"
-      },
-      {
-        "letra": "B",
-        "texto": "R$ 8.400,00"
-      },
-      {
-        "letra": "C",
-        "texto": "R$ 8.904,00"
-      },
-      {
-        "letra": "D",
-        "texto": "R$ 504,00"
-      },
-      {
-        "letra": "E",
-        "texto": "R$ 9.408,00"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "Juros = C × i × t = R$ 8.400,00 × 1/100 × 6 = R$ 504,00. Montante = Capital + Juros = R$ 8.400,00 + R$ 504,00 = R$ 8.904,00."
-  },
-  {
-    "id": "porcentagem-ined-0102",
-    "categoriaId": "porcentagem",
-    "subtopico": "Aumentos e Descontos Sucessivos",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um produto custava R$ 2.240,00. Após um aumento de 15%, a loja aplicou uma promoção com desconto de 10% sobre o novo preço. Qual o preço final do produto?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "R$ 2.352,00"
-      },
-      {
-        "letra": "B",
-        "texto": "R$ 2.318,40"
-      },
-      {
-        "letra": "C",
-        "texto": "R$ 2.576,00"
-      },
-      {
-        "letra": "D",
-        "texto": "R$ 2.318,41"
-      },
-      {
-        "letra": "E",
-        "texto": "R$ 2.240,00"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "Após o aumento: R$ 2.240,00 × (1 + 15/100) = R$ 2.576,00. Aplicando o desconto: R$ 2.576,00 × (1 − 10/100) = R$ 2.318,40."
-  },
-  {
-    "id": "porcentagem-ined-0103",
-    "categoriaId": "porcentagem",
-    "subtopico": "Juros Simples e Compostos",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um capital de R$ 5.700,00 foi aplicado a juros simples de 5% ao mês, durante 18 meses. Qual o montante (capital + juros) ao final do período?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "R$ 5.130,00"
-      },
-      {
-        "letra": "B",
-        "texto": "R$ 15.960,00"
-      },
-      {
-        "letra": "C",
-        "texto": "R$ 11.115,00"
-      },
-      {
-        "letra": "D",
-        "texto": "R$ 10.830,00"
-      },
-      {
-        "letra": "E",
-        "texto": "R$ 5.700,00"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "Juros = C × i × t = R$ 5.700,00 × 5/100 × 18 = R$ 5.130,00. Montante = Capital + Juros = R$ 5.700,00 + R$ 5.130,00 = R$ 10.830,00."
-  },
-  {
-    "id": "porcentagem-ined-0104",
-    "categoriaId": "porcentagem",
-    "subtopico": "Aumentos e Descontos Sucessivos",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um produto custava R$ 360,00. Após um aumento de 50%, a loja aplicou uma promoção com desconto de 10% sobre o novo preço. Qual o preço final do produto?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "R$ 486,01"
-      },
-      {
-        "letra": "B",
-        "texto": "R$ 504,00"
-      },
-      {
-        "letra": "C",
-        "texto": "R$ 540,00"
-      },
-      {
-        "letra": "D",
-        "texto": "R$ 360,00"
-      },
-      {
-        "letra": "E",
-        "texto": "R$ 486,00"
+        "texto": "R$ 3.712,80"
       }
     ],
     "correta": "E",
-    "explicacao": "Após o aumento: R$ 360,00 × (1 + 50/100) = R$ 540,00. Aplicando o desconto: R$ 540,00 × (1 − 10/100) = R$ 486,00."
+    "explicacao": "Após o aumento: R$ 3.570,00 × (1 + 30/100) = R$ 4.641,00. Aplicando o desconto: R$ 4.641,00 × (1 − 20/100) = R$ 3.712,80."
   },
   {
-    "id": "porcentagem-ined-0105",
+    "id": "porcentagem-ined-0016",
+    "categoriaId": "porcentagem",
+    "subtopico": "Juros Simples e Compostos",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um capital de R$ 15.900,00 foi aplicado a juros simples de 5% ao mês, durante 11 meses. Qual o montante (capital + juros) ao final do período?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "R$ 33.390,00"
+      },
+      {
+        "letra": "B",
+        "texto": "R$ 24.645,00"
+      },
+      {
+        "letra": "C",
+        "texto": "R$ 8.745,00"
+      },
+      {
+        "letra": "D",
+        "texto": "R$ 25.440,00"
+      },
+      {
+        "letra": "E",
+        "texto": "R$ 15.900,00"
+      }
+    ],
+    "correta": "B",
+    "explicacao": "Juros = C × i × t = R$ 15.900,00 × 5/100 × 11 = R$ 8.745,00. Montante = Capital + Juros = R$ 15.900,00 + R$ 8.745,00 = R$ 24.645,00."
+  },
+  {
+    "id": "porcentagem-ined-0017",
+    "categoriaId": "porcentagem",
+    "subtopico": "Aumentos e Descontos Sucessivos",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um produto custava R$ 2.110,00. Após um aumento de 20%, a loja aplicou uma promoção com desconto de 20% sobre o novo preço. Qual o preço final do produto?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "R$ 3.025,61"
+      },
+      {
+        "letra": "B",
+        "texto": "R$ 2.025,60"
+      },
+      {
+        "letra": "C",
+        "texto": "R$ 2.110,00"
+      },
+      {
+        "letra": "D",
+        "texto": "R$ 2.025,61"
+      },
+      {
+        "letra": "E",
+        "texto": "R$ 2.532,00"
+      }
+    ],
+    "correta": "B",
+    "explicacao": "Após o aumento: R$ 2.110,00 × (1 + 20/100) = R$ 2.532,00. Aplicando o desconto: R$ 2.532,00 × (1 − 20/100) = R$ 2.025,60."
+  },
+  {
+    "id": "porcentagem-ined-0018",
     "categoriaId": "porcentagem",
     "subtopico": "Juros Simples e Compostos",
     "dificuldade": "medio",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Um capital de R$ 5.900,00 foi aplicado a juros simples de 2.5% ao mês, durante 9 meses. Qual o montante (capital + juros) ao final do período?",
+    "enunciado": "Um capital de R$ 7.700,00 foi aplicado a juros simples de 3% ao mês, durante 6 meses. Qual o montante (capital + juros) ao final do período?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "R$ 1.327,50"
+        "texto": "R$ 9.317,00"
       },
       {
         "letra": "B",
-        "texto": "R$ 7.375,00"
+        "texto": "R$ 7.700,00"
       },
       {
         "letra": "C",
-        "texto": "R$ 5.900,00"
+        "texto": "R$ 9.086,00"
       },
       {
         "letra": "D",
-        "texto": "R$ 7.227,50"
+        "texto": "R$ 10.472,00"
       },
       {
         "letra": "E",
-        "texto": "R$ 8.555,00"
+        "texto": "R$ 1.386,00"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "Juros = C × i × t = R$ 7.700,00 × 3/100 × 6 = R$ 1.386,00. Montante = Capital + Juros = R$ 7.700,00 + R$ 1.386,00 = R$ 9.086,00."
+  },
+  {
+    "id": "porcentagem-ined-0019",
+    "categoriaId": "porcentagem",
+    "subtopico": "Aumentos e Descontos Sucessivos",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um produto custava R$ 2.000,00. Após um aumento de 8%, a loja aplicou uma promoção com desconto de 10% sobre o novo preço. Qual o preço final do produto?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "R$ 2.000,00"
+      },
+      {
+        "letra": "B",
+        "texto": "R$ 1.944,01"
+      },
+      {
+        "letra": "C",
+        "texto": "R$ 2.160,00"
+      },
+      {
+        "letra": "D",
+        "texto": "R$ 1.944,00"
+      },
+      {
+        "letra": "E",
+        "texto": "R$ 1.960,00"
       }
     ],
     "correta": "D",
-    "explicacao": "Juros = C × i × t = R$ 5.900,00 × 2.5/100 × 9 = R$ 1.327,50. Montante = Capital + Juros = R$ 5.900,00 + R$ 1.327,50 = R$ 7.227,50."
+    "explicacao": "Após o aumento: R$ 2.000,00 × (1 + 8/100) = R$ 2.160,00. Aplicando o desconto: R$ 2.160,00 × (1 − 10/100) = R$ 1.944,00."
   },
   {
-    "id": "porcentagem-ined-0106",
-    "categoriaId": "porcentagem",
-    "subtopico": "Aumentos e Descontos Sucessivos",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um produto custava R$ 4.360,00. Após um aumento de 22%, a loja aplicou uma promoção com desconto de 15% sobre o novo preço. Qual o preço final do produto?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "R$ 5.319,20"
-      },
-      {
-        "letra": "B",
-        "texto": "R$ 4.521,32"
-      },
-      {
-        "letra": "C",
-        "texto": "R$ 4.665,20"
-      },
-      {
-        "letra": "D",
-        "texto": "R$ 4.521,33"
-      },
-      {
-        "letra": "E",
-        "texto": "R$ 4.360,00"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "Após o aumento: R$ 4.360,00 × (1 + 22/100) = R$ 5.319,20. Aplicando o desconto: R$ 5.319,20 × (1 − 15/100) = R$ 4.521,32."
-  },
-  {
-    "id": "porcentagem-ined-0107",
+    "id": "porcentagem-ined-0020",
     "categoriaId": "porcentagem",
     "subtopico": "Juros Simples e Compostos",
     "dificuldade": "facil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Um capital de R$ 1.700,00 foi aplicado a juros simples de 3% ao mês, durante 8 meses. Qual o montante (capital + juros) ao final do período?",
+    "enunciado": "Um capital de R$ 7.200,00 foi aplicado a juros simples de 2% ao mês, durante 2 meses. Qual o montante (capital + juros) ao final do período?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "R$ 408,00"
+        "texto": "R$ 288,00"
       },
       {
         "letra": "B",
-        "texto": "R$ 2.159,00"
+        "texto": "R$ 7.488,00"
       },
       {
         "letra": "C",
-        "texto": "R$ 2.108,00"
+        "texto": "R$ 7.776,00"
       },
       {
         "letra": "D",
-        "texto": "R$ 2.516,00"
+        "texto": "R$ 7.632,00"
       },
       {
         "letra": "E",
-        "texto": "R$ 1.700,00"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "Juros = C × i × t = R$ 1.700,00 × 3/100 × 8 = R$ 408,00. Montante = Capital + Juros = R$ 1.700,00 + R$ 408,00 = R$ 2.108,00."
-  },
-  {
-    "id": "porcentagem-ined-0108",
-    "categoriaId": "porcentagem",
-    "subtopico": "Aumentos e Descontos Sucessivos",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um produto custava R$ 3.340,00. Após um aumento de 8%, a loja aplicou uma promoção com desconto de 20% sobre o novo preço. Qual o preço final do produto?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "R$ 3.607,20"
-      },
-      {
-        "letra": "B",
-        "texto": "R$ 2.885,76"
-      },
-      {
-        "letra": "C",
-        "texto": "R$ 3.340,00"
-      },
-      {
-        "letra": "D",
-        "texto": "R$ 2.939,20"
-      },
-      {
-        "letra": "E",
-        "texto": "R$ 2.885,77"
+        "texto": "R$ 7.200,00"
       }
     ],
     "correta": "B",
-    "explicacao": "Após o aumento: R$ 3.340,00 × (1 + 8/100) = R$ 3.607,20. Aplicando o desconto: R$ 3.607,20 × (1 − 20/100) = R$ 2.885,76."
-  },
-  {
-    "id": "porcentagem-ined-0109",
-    "categoriaId": "porcentagem",
-    "subtopico": "Juros Simples e Compostos",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um capital de R$ 3.500,00 foi aplicado a juros simples de 3% ao mês, durante 6 meses. Qual o montante (capital + juros) ao final do período?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "R$ 630,00"
-      },
-      {
-        "letra": "B",
-        "texto": "R$ 4.760,00"
-      },
-      {
-        "letra": "C",
-        "texto": "R$ 4.130,00"
-      },
-      {
-        "letra": "D",
-        "texto": "R$ 4.235,00"
-      },
-      {
-        "letra": "E",
-        "texto": "R$ 3.500,00"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "Juros = C × i × t = R$ 3.500,00 × 3/100 × 6 = R$ 630,00. Montante = Capital + Juros = R$ 3.500,00 + R$ 630,00 = R$ 4.130,00."
-  },
-  {
-    "id": "porcentagem-ined-0110",
-    "categoriaId": "porcentagem",
-    "subtopico": "Aumentos e Descontos Sucessivos",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um produto custava R$ 1.480,00. Após um aumento de 10%, a loja aplicou uma promoção com desconto de 10% sobre o novo preço. Qual o preço final do produto?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "R$ 1.465,21"
-      },
-      {
-        "letra": "B",
-        "texto": "R$ 2.465,21"
-      },
-      {
-        "letra": "C",
-        "texto": "R$ 1.465,20"
-      },
-      {
-        "letra": "D",
-        "texto": "R$ 1.628,00"
-      },
-      {
-        "letra": "E",
-        "texto": "R$ 1.480,00"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "Após o aumento: R$ 1.480,00 × (1 + 10/100) = R$ 1.628,00. Aplicando o desconto: R$ 1.628,00 × (1 − 10/100) = R$ 1.465,20."
+    "explicacao": "Juros = C × i × t = R$ 7.200,00 × 2/100 × 2 = R$ 288,00. Montante = Capital + Juros = R$ 7.200,00 + R$ 288,00 = R$ 7.488,00."
   }
 ]

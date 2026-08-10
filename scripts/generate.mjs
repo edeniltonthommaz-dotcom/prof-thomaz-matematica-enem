@@ -7,7 +7,7 @@ import { DIFICULDADES, dedupeByEnunciado } from "./helpers.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const OUT_DIR = path.join(__dirname, "..", "src", "data", "questions");
-const TARGET_PER_CATEGORIA = 55;
+const TARGET_PER_CATEGORIA = 10;
 const MAX_TENTATIVAS = TARGET_PER_CATEGORIA * 15;
 
 fs.mkdirSync(OUT_DIR, { recursive: true });

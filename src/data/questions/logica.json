@@ -1,795 +1,13 @@
 [
   {
-    "id": "logica-ined-1175",
+    "id": "logica-ined-0186",
     "categoriaId": "logica",
     "subtopico": "Sequências e Padrões",
     "dificuldade": "facil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Observe a sequência: 2, 4, 8, 16, 32, ... Seguindo o mesmo padrão, qual é o próximo número da sequência?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "48"
-      },
-      {
-        "letra": "B",
-        "texto": "31"
-      },
-      {
-        "letra": "C",
-        "texto": "64"
-      },
-      {
-        "letra": "D",
-        "texto": "30"
-      },
-      {
-        "letra": "E",
-        "texto": "33"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "Cada termo é obtido multiplicando o anterior pela razão. O próximo termo é 32 × 2 = 64."
-  },
-  {
-    "id": "logica-ined-1176",
-    "categoriaId": "logica",
-    "subtopico": "Problemas de Raciocínio",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Hoje, um pai tem 36 anos e seu filho tem 12 anos. Daqui a 4 anos, quais serão as idades do pai e do filho, respectivamente?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "44 e 16 anos"
-      },
-      {
-        "letra": "B",
-        "texto": "40 e 16 anos"
-      },
-      {
-        "letra": "C",
-        "texto": "40 e 12 anos"
-      },
-      {
-        "letra": "D",
-        "texto": "41 e 12 anos"
-      },
-      {
-        "letra": "E",
-        "texto": "36 e 12 anos"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "Basta somar 4 anos à idade atual de cada um: pai = 36 + 4 = 40; filho = 12 + 4 = 16."
-  },
-  {
-    "id": "logica-ined-1177",
-    "categoriaId": "logica",
-    "subtopico": "Sequências e Padrões",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Observe a sequência: 4, 8, 12, 16, 20, ... Seguindo o mesmo padrão, qual é o próximo número da sequência?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "16"
-      },
-      {
-        "letra": "B",
-        "texto": "24"
-      },
-      {
-        "letra": "C",
-        "texto": "40"
-      },
-      {
-        "letra": "D",
-        "texto": "17"
-      },
-      {
-        "letra": "E",
-        "texto": "21"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "Cada termo é obtido somando 4 ao anterior. O próximo termo é 20 + 4 = 24."
-  },
-  {
-    "id": "logica-ined-1178",
-    "categoriaId": "logica",
-    "subtopico": "Problemas de Raciocínio",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Hoje, um pai tem 31 anos e seu filho tem 10 anos. Daqui a 7 anos, quais serão as idades do pai e do filho, respectivamente?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "31 e 10 anos"
-      },
-      {
-        "letra": "B",
-        "texto": "45 e 17 anos"
-      },
-      {
-        "letra": "C",
-        "texto": "39 e 10 anos"
-      },
-      {
-        "letra": "D",
-        "texto": "38 e 17 anos"
-      },
-      {
-        "letra": "E",
-        "texto": "38 e 10 anos"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "Basta somar 7 anos à idade atual de cada um: pai = 31 + 7 = 38; filho = 10 + 7 = 17."
-  },
-  {
-    "id": "logica-ined-1179",
-    "categoriaId": "logica",
-    "subtopico": "Sequências e Padrões",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Observe a sequência: 5, 11, 17, 23, 29, ... Seguindo o mesmo padrão, qual é o próximo número da sequência?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "24"
-      },
-      {
-        "letra": "B",
-        "texto": "35"
-      },
-      {
-        "letra": "C",
-        "texto": "30"
-      },
-      {
-        "letra": "D",
-        "texto": "58"
-      },
-      {
-        "letra": "E",
-        "texto": "23"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "Cada termo é obtido somando 6 ao anterior. O próximo termo é 29 + 6 = 35."
-  },
-  {
-    "id": "logica-ined-1180",
-    "categoriaId": "logica",
-    "subtopico": "Problemas de Raciocínio",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Hoje, um pai tem 37 anos e seu filho tem 11 anos. Daqui a 6 anos, quais serão as idades do pai e do filho, respectivamente?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "44 e 11 anos"
-      },
-      {
-        "letra": "B",
-        "texto": "43 e 11 anos"
-      },
-      {
-        "letra": "C",
-        "texto": "37 e 11 anos"
-      },
-      {
-        "letra": "D",
-        "texto": "49 e 17 anos"
-      },
-      {
-        "letra": "E",
-        "texto": "43 e 17 anos"
-      }
-    ],
-    "correta": "E",
-    "explicacao": "Basta somar 6 anos à idade atual de cada um: pai = 37 + 6 = 43; filho = 11 + 6 = 17."
-  },
-  {
-    "id": "logica-ined-1181",
-    "categoriaId": "logica",
-    "subtopico": "Sequências e Padrões",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Observe a sequência: 3, 9, 27, 81, 243, ... Seguindo o mesmo padrão, qual é o próximo número da sequência?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "729"
-      },
-      {
-        "letra": "B",
-        "texto": "486"
-      },
-      {
-        "letra": "C",
-        "texto": "244"
-      },
-      {
-        "letra": "D",
-        "texto": "405"
-      },
-      {
-        "letra": "E",
-        "texto": "237"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "Cada termo é obtido multiplicando o anterior pela razão. O próximo termo é 243 × 3 = 729."
-  },
-  {
-    "id": "logica-ined-1182",
-    "categoriaId": "logica",
-    "subtopico": "Problemas de Raciocínio",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Hoje, um pai tem 34 anos e seu filho tem 10 anos. Daqui a 3 anos, quais serão as idades do pai e do filho, respectivamente?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "34 e 10 anos"
-      },
-      {
-        "letra": "B",
-        "texto": "40 e 13 anos"
-      },
-      {
-        "letra": "C",
-        "texto": "37 e 13 anos"
-      },
-      {
-        "letra": "D",
-        "texto": "37 e 10 anos"
-      },
-      {
-        "letra": "E",
-        "texto": "38 e 10 anos"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "Basta somar 3 anos à idade atual de cada um: pai = 34 + 3 = 37; filho = 10 + 3 = 13."
-  },
-  {
-    "id": "logica-ined-1183",
-    "categoriaId": "logica",
-    "subtopico": "Sequências e Padrões",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Observe a sequência: 9, 14, 19, 24, 29, ... Seguindo o mesmo padrão, qual é o próximo número da sequência?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "34"
-      },
-      {
-        "letra": "B",
-        "texto": "25"
-      },
-      {
-        "letra": "C",
-        "texto": "30"
-      },
-      {
-        "letra": "D",
-        "texto": "58"
-      },
-      {
-        "letra": "E",
-        "texto": "24"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "Cada termo é obtido somando 5 ao anterior. O próximo termo é 29 + 5 = 34."
-  },
-  {
-    "id": "logica-ined-1184",
-    "categoriaId": "logica",
-    "subtopico": "Problemas de Raciocínio",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Hoje, um pai tem 37 anos e seu filho tem 11 anos. Daqui a 4 anos, quais serão as idades do pai e do filho, respectivamente?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "42 e 11 anos"
-      },
-      {
-        "letra": "B",
-        "texto": "41 e 11 anos"
-      },
-      {
-        "letra": "C",
-        "texto": "41 e 15 anos"
-      },
-      {
-        "letra": "D",
-        "texto": "37 e 11 anos"
-      },
-      {
-        "letra": "E",
-        "texto": "45 e 15 anos"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "Basta somar 4 anos à idade atual de cada um: pai = 37 + 4 = 41; filho = 11 + 4 = 15."
-  },
-  {
-    "id": "logica-ined-1185",
-    "categoriaId": "logica",
-    "subtopico": "Sequências e Padrões",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Observe a sequência: 8, 12, 16, 20, 24, ... Seguindo o mesmo padrão, qual é o próximo número da sequência?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "21"
-      },
-      {
-        "letra": "B",
-        "texto": "48"
-      },
-      {
-        "letra": "C",
-        "texto": "28"
-      },
-      {
-        "letra": "D",
-        "texto": "25"
-      },
-      {
-        "letra": "E",
-        "texto": "20"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "Cada termo é obtido somando 4 ao anterior. O próximo termo é 24 + 4 = 28."
-  },
-  {
-    "id": "logica-ined-1186",
-    "categoriaId": "logica",
-    "subtopico": "Problemas de Raciocínio",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Hoje, um pai tem 43 anos e seu filho tem 13 anos. Daqui a 9 anos, quais serão as idades do pai e do filho, respectivamente?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "53 e 13 anos"
-      },
-      {
-        "letra": "B",
-        "texto": "43 e 13 anos"
-      },
-      {
-        "letra": "C",
-        "texto": "61 e 22 anos"
-      },
-      {
-        "letra": "D",
-        "texto": "52 e 22 anos"
-      },
-      {
-        "letra": "E",
-        "texto": "52 e 13 anos"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "Basta somar 9 anos à idade atual de cada um: pai = 43 + 9 = 52; filho = 13 + 9 = 22."
-  },
-  {
-    "id": "logica-ined-1187",
-    "categoriaId": "logica",
-    "subtopico": "Sequências e Padrões",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Observe a sequência: 3, 9, 15, 21, 27, ... Seguindo o mesmo padrão, qual é o próximo número da sequência?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "28"
-      },
-      {
-        "letra": "B",
-        "texto": "33"
-      },
-      {
-        "letra": "C",
-        "texto": "22"
-      },
-      {
-        "letra": "D",
-        "texto": "54"
-      },
-      {
-        "letra": "E",
-        "texto": "21"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "Cada termo é obtido somando 6 ao anterior. O próximo termo é 27 + 6 = 33."
-  },
-  {
-    "id": "logica-ined-1188",
-    "categoriaId": "logica",
-    "subtopico": "Problemas de Raciocínio",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Hoje, um pai tem 40 anos e seu filho tem 15 anos. Daqui a 2 anos, quais serão as idades do pai e do filho, respectivamente?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "42 e 15 anos"
-      },
-      {
-        "letra": "B",
-        "texto": "42 e 17 anos"
-      },
-      {
-        "letra": "C",
-        "texto": "40 e 15 anos"
-      },
-      {
-        "letra": "D",
-        "texto": "43 e 15 anos"
-      },
-      {
-        "letra": "E",
-        "texto": "44 e 17 anos"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "Basta somar 2 anos à idade atual de cada um: pai = 40 + 2 = 42; filho = 15 + 2 = 17."
-  },
-  {
-    "id": "logica-ined-1189",
-    "categoriaId": "logica",
-    "subtopico": "Sequências e Padrões",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Observe a sequência: 1, 2, 4, 8, 16, ... Seguindo o mesmo padrão, qual é o próximo número da sequência?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "32"
-      },
-      {
-        "letra": "B",
-        "texto": "15"
-      },
-      {
-        "letra": "C",
-        "texto": "16"
-      },
-      {
-        "letra": "D",
-        "texto": "17"
-      },
-      {
-        "letra": "E",
-        "texto": "24"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "Cada termo é obtido multiplicando o anterior pela razão. O próximo termo é 16 × 2 = 32."
-  },
-  {
-    "id": "logica-ined-1190",
-    "categoriaId": "logica",
-    "subtopico": "Problemas de Raciocínio",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Hoje, um pai tem 35 anos e seu filho tem 7 anos. Daqui a 5 anos, quais serão as idades do pai e do filho, respectivamente?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "45 e 12 anos"
-      },
-      {
-        "letra": "B",
-        "texto": "40 e 7 anos"
-      },
-      {
-        "letra": "C",
-        "texto": "35 e 7 anos"
-      },
-      {
-        "letra": "D",
-        "texto": "41 e 7 anos"
-      },
-      {
-        "letra": "E",
-        "texto": "40 e 12 anos"
-      }
-    ],
-    "correta": "E",
-    "explicacao": "Basta somar 5 anos à idade atual de cada um: pai = 35 + 5 = 40; filho = 7 + 5 = 12."
-  },
-  {
-    "id": "logica-ined-1191",
-    "categoriaId": "logica",
-    "subtopico": "Sequências e Padrões",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Observe a sequência: 8, 24, 72, 216, 648, ... Seguindo o mesmo padrão, qual é o próximo número da sequência?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "1944"
-      },
-      {
-        "letra": "B",
-        "texto": "1296"
-      },
-      {
-        "letra": "C",
-        "texto": "1080"
-      },
-      {
-        "letra": "D",
-        "texto": "649"
-      },
-      {
-        "letra": "E",
-        "texto": "632"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "Cada termo é obtido multiplicando o anterior pela razão. O próximo termo é 648 × 3 = 1944."
-  },
-  {
-    "id": "logica-ined-1192",
-    "categoriaId": "logica",
-    "subtopico": "Problemas de Raciocínio",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Hoje, um pai tem 37 anos e seu filho tem 8 anos. Daqui a 12 anos, quais serão as idades do pai e do filho, respectivamente?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "49 e 20 anos"
-      },
-      {
-        "letra": "B",
-        "texto": "37 e 8 anos"
-      },
-      {
-        "letra": "C",
-        "texto": "49 e 8 anos"
-      },
-      {
-        "letra": "D",
-        "texto": "50 e 8 anos"
-      },
-      {
-        "letra": "E",
-        "texto": "61 e 20 anos"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "Basta somar 12 anos à idade atual de cada um: pai = 37 + 12 = 49; filho = 8 + 12 = 20."
-  },
-  {
-    "id": "logica-ined-1194",
-    "categoriaId": "logica",
-    "subtopico": "Problemas de Raciocínio",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Hoje, um pai tem 31 anos e seu filho tem 9 anos. Daqui a 7 anos, quais serão as idades do pai e do filho, respectivamente?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "31 e 9 anos"
-      },
-      {
-        "letra": "B",
-        "texto": "38 e 16 anos"
-      },
-      {
-        "letra": "C",
-        "texto": "38 e 9 anos"
-      },
-      {
-        "letra": "D",
-        "texto": "45 e 16 anos"
-      },
-      {
-        "letra": "E",
-        "texto": "39 e 9 anos"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "Basta somar 7 anos à idade atual de cada um: pai = 31 + 7 = 38; filho = 9 + 7 = 16."
-  },
-  {
-    "id": "logica-ined-1195",
-    "categoriaId": "logica",
-    "subtopico": "Sequências e Padrões",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Observe a sequência: 1, 3, 9, 27, 81, ... Seguindo o mesmo padrão, qual é o próximo número da sequência?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "135"
-      },
-      {
-        "letra": "B",
-        "texto": "82"
-      },
-      {
-        "letra": "C",
-        "texto": "79"
-      },
-      {
-        "letra": "D",
-        "texto": "162"
-      },
-      {
-        "letra": "E",
-        "texto": "243"
-      }
-    ],
-    "correta": "E",
-    "explicacao": "Cada termo é obtido multiplicando o anterior pela razão. O próximo termo é 81 × 3 = 243."
-  },
-  {
-    "id": "logica-ined-1196",
-    "categoriaId": "logica",
-    "subtopico": "Problemas de Raciocínio",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Hoje, um pai tem 41 anos e seu filho tem 11 anos. Daqui a 3 anos, quais serão as idades do pai e do filho, respectivamente?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "44 e 11 anos"
-      },
-      {
-        "letra": "B",
-        "texto": "47 e 14 anos"
-      },
-      {
-        "letra": "C",
-        "texto": "45 e 11 anos"
-      },
-      {
-        "letra": "D",
-        "texto": "44 e 14 anos"
-      },
-      {
-        "letra": "E",
-        "texto": "41 e 11 anos"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "Basta somar 3 anos à idade atual de cada um: pai = 41 + 3 = 44; filho = 11 + 3 = 14."
-  },
-  {
-    "id": "logica-ined-1197",
-    "categoriaId": "logica",
-    "subtopico": "Sequências e Padrões",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Observe a sequência: 9, 12, 15, 18, 21, ... Seguindo o mesmo padrão, qual é o próximo número da sequência?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "18"
-      },
-      {
-        "letra": "B",
-        "texto": "22"
-      },
-      {
-        "letra": "C",
-        "texto": "42"
-      },
-      {
-        "letra": "D",
-        "texto": "19"
-      },
-      {
-        "letra": "E",
-        "texto": "24"
-      }
-    ],
-    "correta": "E",
-    "explicacao": "Cada termo é obtido somando 3 ao anterior. O próximo termo é 21 + 3 = 24."
-  },
-  {
-    "id": "logica-ined-1198",
-    "categoriaId": "logica",
-    "subtopico": "Problemas de Raciocínio",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Hoje, um pai tem 46 anos e seu filho tem 17 anos. Daqui a 13 anos, quais serão as idades do pai e do filho, respectivamente?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "59 e 30 anos"
-      },
-      {
-        "letra": "B",
-        "texto": "60 e 17 anos"
-      },
-      {
-        "letra": "C",
-        "texto": "46 e 17 anos"
-      },
-      {
-        "letra": "D",
-        "texto": "72 e 30 anos"
-      },
-      {
-        "letra": "E",
-        "texto": "59 e 17 anos"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "Basta somar 13 anos à idade atual de cada um: pai = 46 + 13 = 59; filho = 17 + 13 = 30."
-  },
-  {
-    "id": "logica-ined-1199",
-    "categoriaId": "logica",
-    "subtopico": "Sequências e Padrões",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Observe a sequência: 4, 6, 8, 10, 12, ... Seguindo o mesmo padrão, qual é o próximo número da sequência?",
+    "enunciado": "Observe a sequência: 1, 3, 5, 7, 9, ... Seguindo o mesmo padrão, qual é o próximo número da sequência?",
     "alternativas": [
       {
         "letra": "A",
@@ -797,11 +15,147 @@
       },
       {
         "letra": "B",
-        "texto": "11"
+        "texto": "8"
       },
       {
         "letra": "C",
-        "texto": "13"
+        "texto": "7"
+      },
+      {
+        "letra": "D",
+        "texto": "18"
+      },
+      {
+        "letra": "E",
+        "texto": "11"
+      }
+    ],
+    "correta": "E",
+    "explicacao": "Cada termo é obtido somando 2 ao anterior. O próximo termo é 9 + 2 = 11."
+  },
+  {
+    "id": "logica-ined-0187",
+    "categoriaId": "logica",
+    "subtopico": "Problemas de Raciocínio",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Hoje, um pai tem 28 anos e seu filho tem 8 anos. Daqui a 5 anos, quais serão as idades do pai e do filho, respectivamente?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "28 e 8 anos"
+      },
+      {
+        "letra": "B",
+        "texto": "34 e 8 anos"
+      },
+      {
+        "letra": "C",
+        "texto": "33 e 13 anos"
+      },
+      {
+        "letra": "D",
+        "texto": "33 e 8 anos"
+      },
+      {
+        "letra": "E",
+        "texto": "38 e 13 anos"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "Basta somar 5 anos à idade atual de cada um: pai = 28 + 5 = 33; filho = 8 + 5 = 13."
+  },
+  {
+    "id": "logica-ined-0188",
+    "categoriaId": "logica",
+    "subtopico": "Sequências e Padrões",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Observe a sequência: 9, 18, 36, 72, 144, ... Seguindo o mesmo padrão, qual é o próximo número da sequência?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "145"
+      },
+      {
+        "letra": "B",
+        "texto": "135"
+      },
+      {
+        "letra": "C",
+        "texto": "216"
+      },
+      {
+        "letra": "D",
+        "texto": "288"
+      },
+      {
+        "letra": "E",
+        "texto": "136"
+      }
+    ],
+    "correta": "D",
+    "explicacao": "Cada termo é obtido multiplicando o anterior pela razão. O próximo termo é 144 × 2 = 288."
+  },
+  {
+    "id": "logica-ined-0189",
+    "categoriaId": "logica",
+    "subtopico": "Problemas de Raciocínio",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Hoje, um pai tem 33 anos e seu filho tem 8 anos. Daqui a 4 anos, quais serão as idades do pai e do filho, respectivamente?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "37 e 12 anos"
+      },
+      {
+        "letra": "B",
+        "texto": "37 e 8 anos"
+      },
+      {
+        "letra": "C",
+        "texto": "38 e 8 anos"
+      },
+      {
+        "letra": "D",
+        "texto": "41 e 12 anos"
+      },
+      {
+        "letra": "E",
+        "texto": "33 e 8 anos"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "Basta somar 4 anos à idade atual de cada um: pai = 33 + 4 = 37; filho = 8 + 4 = 12."
+  },
+  {
+    "id": "logica-ined-0190",
+    "categoriaId": "logica",
+    "subtopico": "Sequências e Padrões",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Observe a sequência: 8, 10, 12, 14, 16, ... Seguindo o mesmo padrão, qual é o próximo número da sequência?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "32"
+      },
+      {
+        "letra": "B",
+        "texto": "18"
+      },
+      {
+        "letra": "C",
+        "texto": "17"
       },
       {
         "letra": "D",
@@ -809,1064 +163,180 @@
       },
       {
         "letra": "E",
-        "texto": "24"
+        "texto": "15"
       }
     ],
-    "correta": "D",
-    "explicacao": "Cada termo é obtido somando 2 ao anterior. O próximo termo é 12 + 2 = 14."
+    "correta": "B",
+    "explicacao": "Cada termo é obtido somando 2 ao anterior. O próximo termo é 16 + 2 = 18."
   },
   {
-    "id": "logica-ined-1200",
+    "id": "logica-ined-0191",
+    "categoriaId": "logica",
+    "subtopico": "Problemas de Raciocínio",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Hoje, um pai tem 41 anos e seu filho tem 16 anos. Daqui a 10 anos, quais serão as idades do pai e do filho, respectivamente?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "51 e 26 anos"
+      },
+      {
+        "letra": "B",
+        "texto": "52 e 16 anos"
+      },
+      {
+        "letra": "C",
+        "texto": "61 e 26 anos"
+      },
+      {
+        "letra": "D",
+        "texto": "51 e 16 anos"
+      },
+      {
+        "letra": "E",
+        "texto": "41 e 16 anos"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "Basta somar 10 anos à idade atual de cada um: pai = 41 + 10 = 51; filho = 16 + 10 = 26."
+  },
+  {
+    "id": "logica-ined-0192",
+    "categoriaId": "logica",
+    "subtopico": "Sequências e Padrões",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Observe a sequência: 7, 21, 63, 189, 567, ... Seguindo o mesmo padrão, qual é o próximo número da sequência?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "945"
+      },
+      {
+        "letra": "B",
+        "texto": "1701"
+      },
+      {
+        "letra": "C",
+        "texto": "553"
+      },
+      {
+        "letra": "D",
+        "texto": "568"
+      },
+      {
+        "letra": "E",
+        "texto": "1134"
+      }
+    ],
+    "correta": "B",
+    "explicacao": "Cada termo é obtido multiplicando o anterior pela razão. O próximo termo é 567 × 3 = 1701."
+  },
+  {
+    "id": "logica-ined-0193",
     "categoriaId": "logica",
     "subtopico": "Problemas de Raciocínio",
     "dificuldade": "medio",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Hoje, um pai tem 33 anos e seu filho tem 9 anos. Daqui a 3 anos, quais serão as idades do pai e do filho, respectivamente?",
+    "enunciado": "Hoje, um pai tem 44 anos e seu filho tem 14 anos. Daqui a 4 anos, quais serão as idades do pai e do filho, respectivamente?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "39 e 12 anos"
+        "texto": "44 e 14 anos"
       },
       {
         "letra": "B",
-        "texto": "37 e 9 anos"
+        "texto": "52 e 18 anos"
       },
       {
         "letra": "C",
-        "texto": "36 e 12 anos"
+        "texto": "48 e 18 anos"
       },
       {
         "letra": "D",
-        "texto": "33 e 9 anos"
+        "texto": "49 e 14 anos"
       },
       {
         "letra": "E",
-        "texto": "36 e 9 anos"
+        "texto": "48 e 14 anos"
       }
     ],
     "correta": "C",
-    "explicacao": "Basta somar 3 anos à idade atual de cada um: pai = 33 + 3 = 36; filho = 9 + 3 = 12."
+    "explicacao": "Basta somar 4 anos à idade atual de cada um: pai = 44 + 4 = 48; filho = 14 + 4 = 18."
   },
   {
-    "id": "logica-ined-1201",
+    "id": "logica-ined-0194",
     "categoriaId": "logica",
     "subtopico": "Sequências e Padrões",
     "dificuldade": "dificil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Observe a sequência: 4, 12, 36, 108, 324, ... Seguindo o mesmo padrão, qual é o próximo número da sequência?",
+    "enunciado": "Observe a sequência: 4, 16, 28, 40, 52, ... Seguindo o mesmo padrão, qual é o próximo número da sequência?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "325"
-      },
-      {
-        "letra": "B",
-        "texto": "648"
-      },
-      {
-        "letra": "C",
-        "texto": "316"
-      },
-      {
-        "letra": "D",
-        "texto": "972"
-      },
-      {
-        "letra": "E",
-        "texto": "540"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "Cada termo é obtido multiplicando o anterior pela razão. O próximo termo é 324 × 3 = 972."
-  },
-  {
-    "id": "logica-ined-1202",
-    "categoriaId": "logica",
-    "subtopico": "Problemas de Raciocínio",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Hoje, um pai tem 39 anos e seu filho tem 13 anos. Daqui a 7 anos, quais serão as idades do pai e do filho, respectivamente?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "47 e 13 anos"
-      },
-      {
-        "letra": "B",
-        "texto": "46 e 20 anos"
-      },
-      {
-        "letra": "C",
-        "texto": "39 e 13 anos"
-      },
-      {
-        "letra": "D",
-        "texto": "46 e 13 anos"
-      },
-      {
-        "letra": "E",
-        "texto": "53 e 20 anos"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "Basta somar 7 anos à idade atual de cada um: pai = 39 + 7 = 46; filho = 13 + 7 = 20."
-  },
-  {
-    "id": "logica-ined-1203",
-    "categoriaId": "logica",
-    "subtopico": "Sequências e Padrões",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Observe a sequência: 9, 15, 21, 27, 33, ... Seguindo o mesmo padrão, qual é o próximo número da sequência?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "66"
-      },
-      {
-        "letra": "B",
-        "texto": "34"
-      },
-      {
-        "letra": "C",
-        "texto": "39"
-      },
-      {
-        "letra": "D",
-        "texto": "27"
-      },
-      {
-        "letra": "E",
-        "texto": "28"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "Cada termo é obtido somando 6 ao anterior. O próximo termo é 33 + 6 = 39."
-  },
-  {
-    "id": "logica-ined-1204",
-    "categoriaId": "logica",
-    "subtopico": "Problemas de Raciocínio",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Hoje, um pai tem 41 anos e seu filho tem 15 anos. Daqui a 8 anos, quais serão as idades do pai e do filho, respectivamente?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "49 e 15 anos"
-      },
-      {
-        "letra": "B",
-        "texto": "41 e 15 anos"
-      },
-      {
-        "letra": "C",
-        "texto": "50 e 15 anos"
-      },
-      {
-        "letra": "D",
-        "texto": "49 e 23 anos"
-      },
-      {
-        "letra": "E",
-        "texto": "57 e 23 anos"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "Basta somar 8 anos à idade atual de cada um: pai = 41 + 8 = 49; filho = 15 + 8 = 23."
-  },
-  {
-    "id": "logica-ined-1205",
-    "categoriaId": "logica",
-    "subtopico": "Sequências e Padrões",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Observe a sequência: 3, 6, 9, 12, 15, ... Seguindo o mesmo padrão, qual é o próximo número da sequência?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "13"
-      },
-      {
-        "letra": "B",
-        "texto": "30"
-      },
-      {
-        "letra": "C",
-        "texto": "16"
-      },
-      {
-        "letra": "D",
-        "texto": "12"
-      },
-      {
-        "letra": "E",
-        "texto": "18"
-      }
-    ],
-    "correta": "E",
-    "explicacao": "Cada termo é obtido somando 3 ao anterior. O próximo termo é 15 + 3 = 18."
-  },
-  {
-    "id": "logica-ined-1206",
-    "categoriaId": "logica",
-    "subtopico": "Problemas de Raciocínio",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Hoje, um pai tem 38 anos e seu filho tem 9 anos. Daqui a 3 anos, quais serão as idades do pai e do filho, respectivamente?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "41 e 9 anos"
-      },
-      {
-        "letra": "B",
-        "texto": "42 e 9 anos"
-      },
-      {
-        "letra": "C",
-        "texto": "44 e 12 anos"
-      },
-      {
-        "letra": "D",
-        "texto": "41 e 12 anos"
-      },
-      {
-        "letra": "E",
-        "texto": "38 e 9 anos"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "Basta somar 3 anos à idade atual de cada um: pai = 38 + 3 = 41; filho = 9 + 3 = 12."
-  },
-  {
-    "id": "logica-ined-1208",
-    "categoriaId": "logica",
-    "subtopico": "Problemas de Raciocínio",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Hoje, um pai tem 28 anos e seu filho tem 5 anos. Daqui a 6 anos, quais serão as idades do pai e do filho, respectivamente?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "34 e 11 anos"
-      },
-      {
-        "letra": "B",
-        "texto": "34 e 5 anos"
-      },
-      {
-        "letra": "C",
-        "texto": "35 e 5 anos"
-      },
-      {
-        "letra": "D",
-        "texto": "28 e 5 anos"
-      },
-      {
-        "letra": "E",
-        "texto": "40 e 11 anos"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "Basta somar 6 anos à idade atual de cada um: pai = 28 + 6 = 34; filho = 5 + 6 = 11."
-  },
-  {
-    "id": "logica-ined-1209",
-    "categoriaId": "logica",
-    "subtopico": "Sequências e Padrões",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Observe a sequência: 8, 13, 18, 23, 28, ... Seguindo o mesmo padrão, qual é o próximo número da sequência?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "33"
-      },
-      {
-        "letra": "B",
-        "texto": "29"
-      },
-      {
-        "letra": "C",
-        "texto": "24"
-      },
-      {
-        "letra": "D",
-        "texto": "56"
-      },
-      {
-        "letra": "E",
-        "texto": "23"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "Cada termo é obtido somando 5 ao anterior. O próximo termo é 28 + 5 = 33."
-  },
-  {
-    "id": "logica-ined-1210",
-    "categoriaId": "logica",
-    "subtopico": "Problemas de Raciocínio",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Hoje, um pai tem 33 anos e seu filho tem 10 anos. Daqui a 4 anos, quais serão as idades do pai e do filho, respectivamente?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "37 e 14 anos"
-      },
-      {
-        "letra": "B",
-        "texto": "33 e 10 anos"
-      },
-      {
-        "letra": "C",
-        "texto": "41 e 14 anos"
-      },
-      {
-        "letra": "D",
-        "texto": "38 e 10 anos"
-      },
-      {
-        "letra": "E",
-        "texto": "37 e 10 anos"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "Basta somar 4 anos à idade atual de cada um: pai = 33 + 4 = 37; filho = 10 + 4 = 14."
-  },
-  {
-    "id": "logica-ined-1212",
-    "categoriaId": "logica",
-    "subtopico": "Problemas de Raciocínio",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Hoje, um pai tem 34 anos e seu filho tem 10 anos. Daqui a 6 anos, quais serão as idades do pai e do filho, respectivamente?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "41 e 10 anos"
-      },
-      {
-        "letra": "B",
-        "texto": "40 e 16 anos"
-      },
-      {
-        "letra": "C",
-        "texto": "46 e 16 anos"
-      },
-      {
-        "letra": "D",
-        "texto": "34 e 10 anos"
-      },
-      {
-        "letra": "E",
-        "texto": "40 e 10 anos"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "Basta somar 6 anos à idade atual de cada um: pai = 34 + 6 = 40; filho = 10 + 6 = 16."
-  },
-  {
-    "id": "logica-ined-1213",
-    "categoriaId": "logica",
-    "subtopico": "Sequências e Padrões",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Observe a sequência: 8, 20, 32, 44, 56, ... Seguindo o mesmo padrão, qual é o próximo número da sequência?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "57"
-      },
-      {
-        "letra": "B",
-        "texto": "45"
-      },
-      {
-        "letra": "C",
-        "texto": "44"
-      },
-      {
-        "letra": "D",
-        "texto": "112"
-      },
-      {
-        "letra": "E",
-        "texto": "68"
-      }
-    ],
-    "correta": "E",
-    "explicacao": "Cada termo é obtido somando 12 ao anterior. O próximo termo é 56 + 12 = 68."
-  },
-  {
-    "id": "logica-ined-1214",
-    "categoriaId": "logica",
-    "subtopico": "Problemas de Raciocínio",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Hoje, um pai tem 36 anos e seu filho tem 8 anos. Daqui a 3 anos, quais serão as idades do pai e do filho, respectivamente?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "39 e 11 anos"
-      },
-      {
-        "letra": "B",
-        "texto": "40 e 8 anos"
-      },
-      {
-        "letra": "C",
-        "texto": "42 e 11 anos"
-      },
-      {
-        "letra": "D",
-        "texto": "39 e 8 anos"
-      },
-      {
-        "letra": "E",
-        "texto": "36 e 8 anos"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "Basta somar 3 anos à idade atual de cada um: pai = 36 + 3 = 39; filho = 8 + 3 = 11."
-  },
-  {
-    "id": "logica-ined-1215",
-    "categoriaId": "logica",
-    "subtopico": "Sequências e Padrões",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Observe a sequência: 9, 27, 81, 243, 729, ... Seguindo o mesmo padrão, qual é o próximo número da sequência?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "2187"
-      },
-      {
-        "letra": "B",
-        "texto": "1458"
-      },
-      {
-        "letra": "C",
-        "texto": "1215"
-      },
-      {
-        "letra": "D",
-        "texto": "730"
-      },
-      {
-        "letra": "E",
-        "texto": "711"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "Cada termo é obtido multiplicando o anterior pela razão. O próximo termo é 729 × 3 = 2187."
-  },
-  {
-    "id": "logica-ined-1216",
-    "categoriaId": "logica",
-    "subtopico": "Problemas de Raciocínio",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Hoje, um pai tem 43 anos e seu filho tem 19 anos. Daqui a 5 anos, quais serão as idades do pai e do filho, respectivamente?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "48 e 24 anos"
-      },
-      {
-        "letra": "B",
-        "texto": "43 e 19 anos"
-      },
-      {
-        "letra": "C",
-        "texto": "53 e 24 anos"
-      },
-      {
-        "letra": "D",
-        "texto": "49 e 19 anos"
-      },
-      {
-        "letra": "E",
-        "texto": "48 e 19 anos"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "Basta somar 5 anos à idade atual de cada um: pai = 43 + 5 = 48; filho = 19 + 5 = 24."
-  },
-  {
-    "id": "logica-ined-1217",
-    "categoriaId": "logica",
-    "subtopico": "Sequências e Padrões",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Observe a sequência: 1, 6, 11, 16, 21, ... Seguindo o mesmo padrão, qual é o próximo número da sequência?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "22"
-      },
-      {
-        "letra": "B",
-        "texto": "17"
-      },
-      {
-        "letra": "C",
-        "texto": "42"
-      },
-      {
-        "letra": "D",
-        "texto": "16"
-      },
-      {
-        "letra": "E",
-        "texto": "26"
-      }
-    ],
-    "correta": "E",
-    "explicacao": "Cada termo é obtido somando 5 ao anterior. O próximo termo é 21 + 5 = 26."
-  },
-  {
-    "id": "logica-ined-1218",
-    "categoriaId": "logica",
-    "subtopico": "Problemas de Raciocínio",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Hoje, um pai tem 39 anos e seu filho tem 15 anos. Daqui a 7 anos, quais serão as idades do pai e do filho, respectivamente?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "47 e 15 anos"
-      },
-      {
-        "letra": "B",
-        "texto": "46 e 22 anos"
-      },
-      {
-        "letra": "C",
-        "texto": "53 e 22 anos"
-      },
-      {
-        "letra": "D",
-        "texto": "39 e 15 anos"
-      },
-      {
-        "letra": "E",
-        "texto": "46 e 15 anos"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "Basta somar 7 anos à idade atual de cada um: pai = 39 + 7 = 46; filho = 15 + 7 = 22."
-  },
-  {
-    "id": "logica-ined-1219",
-    "categoriaId": "logica",
-    "subtopico": "Sequências e Padrões",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Observe a sequência: 6, 17, 28, 39, 50, ... Seguindo o mesmo padrão, qual é o próximo número da sequência?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "51"
-      },
-      {
-        "letra": "B",
-        "texto": "39"
-      },
-      {
-        "letra": "C",
-        "texto": "100"
-      },
-      {
-        "letra": "D",
         "texto": "40"
       },
       {
+        "letra": "B",
+        "texto": "41"
+      },
+      {
+        "letra": "C",
+        "texto": "104"
+      },
+      {
+        "letra": "D",
+        "texto": "53"
+      },
+      {
         "letra": "E",
-        "texto": "61"
+        "texto": "64"
       }
     ],
     "correta": "E",
-    "explicacao": "Cada termo é obtido somando 11 ao anterior. O próximo termo é 50 + 11 = 61."
+    "explicacao": "Cada termo é obtido somando 12 ao anterior. O próximo termo é 52 + 12 = 64."
   },
   {
-    "id": "logica-ined-1220",
+    "id": "logica-ined-0195",
     "categoriaId": "logica",
     "subtopico": "Problemas de Raciocínio",
     "dificuldade": "facil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Hoje, um pai tem 32 anos e seu filho tem 12 anos. Daqui a 6 anos, quais serão as idades do pai e do filho, respectivamente?",
+    "enunciado": "Hoje, um pai tem 31 anos e seu filho tem 5 anos. Daqui a 5 anos, quais serão as idades do pai e do filho, respectivamente?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "39 e 12 anos"
+        "texto": "36 e 10 anos"
       },
       {
         "letra": "B",
-        "texto": "32 e 12 anos"
+        "texto": "36 e 5 anos"
       },
       {
         "letra": "C",
-        "texto": "44 e 18 anos"
+        "texto": "31 e 5 anos"
       },
       {
         "letra": "D",
-        "texto": "38 e 18 anos"
+        "texto": "37 e 5 anos"
       },
       {
         "letra": "E",
-        "texto": "38 e 12 anos"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "Basta somar 6 anos à idade atual de cada um: pai = 32 + 6 = 38; filho = 12 + 6 = 18."
-  },
-  {
-    "id": "logica-ined-1222",
-    "categoriaId": "logica",
-    "subtopico": "Problemas de Raciocínio",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Hoje, um pai tem 37 anos e seu filho tem 9 anos. Daqui a 4 anos, quais serão as idades do pai e do filho, respectivamente?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "41 e 9 anos"
-      },
-      {
-        "letra": "B",
-        "texto": "41 e 13 anos"
-      },
-      {
-        "letra": "C",
-        "texto": "37 e 9 anos"
-      },
-      {
-        "letra": "D",
-        "texto": "45 e 13 anos"
-      },
-      {
-        "letra": "E",
-        "texto": "42 e 9 anos"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "Basta somar 4 anos à idade atual de cada um: pai = 37 + 4 = 41; filho = 9 + 4 = 13."
-  },
-  {
-    "id": "logica-ined-1223",
-    "categoriaId": "logica",
-    "subtopico": "Sequências e Padrões",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Observe a sequência: 7, 14, 28, 56, 112, ... Seguindo o mesmo padrão, qual é o próximo número da sequência?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "224"
-      },
-      {
-        "letra": "B",
-        "texto": "113"
-      },
-      {
-        "letra": "C",
-        "texto": "106"
-      },
-      {
-        "letra": "D",
-        "texto": "168"
-      },
-      {
-        "letra": "E",
-        "texto": "105"
+        "texto": "41 e 10 anos"
       }
     ],
     "correta": "A",
-    "explicacao": "Cada termo é obtido multiplicando o anterior pela razão. O próximo termo é 112 × 2 = 224."
-  },
-  {
-    "id": "logica-ined-1224",
-    "categoriaId": "logica",
-    "subtopico": "Problemas de Raciocínio",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Hoje, um pai tem 34 anos e seu filho tem 10 anos. Daqui a 8 anos, quais serão as idades do pai e do filho, respectivamente?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "42 e 18 anos"
-      },
-      {
-        "letra": "B",
-        "texto": "34 e 10 anos"
-      },
-      {
-        "letra": "C",
-        "texto": "43 e 10 anos"
-      },
-      {
-        "letra": "D",
-        "texto": "42 e 10 anos"
-      },
-      {
-        "letra": "E",
-        "texto": "50 e 18 anos"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "Basta somar 8 anos à idade atual de cada um: pai = 34 + 8 = 42; filho = 10 + 8 = 18."
-  },
-  {
-    "id": "logica-ined-1225",
-    "categoriaId": "logica",
-    "subtopico": "Sequências e Padrões",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Observe a sequência: 10, 30, 90, 270, 810, ... Seguindo o mesmo padrão, qual é o próximo número da sequência?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "2430"
-      },
-      {
-        "letra": "B",
-        "texto": "790"
-      },
-      {
-        "letra": "C",
-        "texto": "811"
-      },
-      {
-        "letra": "D",
-        "texto": "1620"
-      },
-      {
-        "letra": "E",
-        "texto": "1350"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "Cada termo é obtido multiplicando o anterior pela razão. O próximo termo é 810 × 3 = 2430."
-  },
-  {
-    "id": "logica-ined-1226",
-    "categoriaId": "logica",
-    "subtopico": "Problemas de Raciocínio",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Hoje, um pai tem 32 anos e seu filho tem 12 anos. Daqui a 4 anos, quais serão as idades do pai e do filho, respectivamente?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "32 e 12 anos"
-      },
-      {
-        "letra": "B",
-        "texto": "40 e 16 anos"
-      },
-      {
-        "letra": "C",
-        "texto": "36 e 16 anos"
-      },
-      {
-        "letra": "D",
-        "texto": "37 e 12 anos"
-      },
-      {
-        "letra": "E",
-        "texto": "36 e 12 anos"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "Basta somar 4 anos à idade atual de cada um: pai = 32 + 4 = 36; filho = 12 + 4 = 16."
-  },
-  {
-    "id": "logica-ined-1228",
-    "categoriaId": "logica",
-    "subtopico": "Problemas de Raciocínio",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Hoje, um pai tem 37 anos e seu filho tem 12 anos. Daqui a 4 anos, quais serão as idades do pai e do filho, respectivamente?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "37 e 12 anos"
-      },
-      {
-        "letra": "B",
-        "texto": "45 e 16 anos"
-      },
-      {
-        "letra": "C",
-        "texto": "42 e 12 anos"
-      },
-      {
-        "letra": "D",
-        "texto": "41 e 16 anos"
-      },
-      {
-        "letra": "E",
-        "texto": "41 e 12 anos"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "Basta somar 4 anos à idade atual de cada um: pai = 37 + 4 = 41; filho = 12 + 4 = 16."
-  },
-  {
-    "id": "logica-ined-1229",
-    "categoriaId": "logica",
-    "subtopico": "Sequências e Padrões",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Observe a sequência: 4, 8, 16, 32, 64, ... Seguindo o mesmo padrão, qual é o próximo número da sequência?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "60"
-      },
-      {
-        "letra": "B",
-        "texto": "61"
-      },
-      {
-        "letra": "C",
-        "texto": "65"
-      },
-      {
-        "letra": "D",
-        "texto": "96"
-      },
-      {
-        "letra": "E",
-        "texto": "128"
-      }
-    ],
-    "correta": "E",
-    "explicacao": "Cada termo é obtido multiplicando o anterior pela razão. O próximo termo é 64 × 2 = 128."
-  },
-  {
-    "id": "logica-ined-1230",
-    "categoriaId": "logica",
-    "subtopico": "Problemas de Raciocínio",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Hoje, um pai tem 42 anos e seu filho tem 15 anos. Daqui a 3 anos, quais serão as idades do pai e do filho, respectivamente?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "45 e 18 anos"
-      },
-      {
-        "letra": "B",
-        "texto": "46 e 15 anos"
-      },
-      {
-        "letra": "C",
-        "texto": "42 e 15 anos"
-      },
-      {
-        "letra": "D",
-        "texto": "45 e 15 anos"
-      },
-      {
-        "letra": "E",
-        "texto": "48 e 18 anos"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "Basta somar 3 anos à idade atual de cada um: pai = 42 + 3 = 45; filho = 15 + 3 = 18."
-  },
-  {
-    "id": "logica-ined-1231",
-    "categoriaId": "logica",
-    "subtopico": "Sequências e Padrões",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Observe a sequência: 4, 10, 16, 22, 28, ... Seguindo o mesmo padrão, qual é o próximo número da sequência?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "56"
-      },
-      {
-        "letra": "B",
-        "texto": "22"
-      },
-      {
-        "letra": "C",
-        "texto": "34"
-      },
-      {
-        "letra": "D",
-        "texto": "29"
-      },
-      {
-        "letra": "E",
-        "texto": "23"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "Cada termo é obtido somando 6 ao anterior. O próximo termo é 28 + 6 = 34."
-  },
-  {
-    "id": "logica-ined-1232",
-    "categoriaId": "logica",
-    "subtopico": "Problemas de Raciocínio",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Hoje, um pai tem 39 anos e seu filho tem 13 anos. Daqui a 6 anos, quais serão as idades do pai e do filho, respectivamente?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "39 e 13 anos"
-      },
-      {
-        "letra": "B",
-        "texto": "46 e 13 anos"
-      },
-      {
-        "letra": "C",
-        "texto": "45 e 13 anos"
-      },
-      {
-        "letra": "D",
-        "texto": "45 e 19 anos"
-      },
-      {
-        "letra": "E",
-        "texto": "51 e 19 anos"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "Basta somar 6 anos à idade atual de cada um: pai = 39 + 6 = 45; filho = 13 + 6 = 19."
-  },
-  {
-    "id": "logica-ined-1233",
-    "categoriaId": "logica",
-    "subtopico": "Sequências e Padrões",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Observe a sequência: 6, 11, 16, 21, 26, ... Seguindo o mesmo padrão, qual é o próximo número da sequência?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "22"
-      },
-      {
-        "letra": "B",
-        "texto": "52"
-      },
-      {
-        "letra": "C",
-        "texto": "31"
-      },
-      {
-        "letra": "D",
-        "texto": "27"
-      },
-      {
-        "letra": "E",
-        "texto": "21"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "Cada termo é obtido somando 5 ao anterior. O próximo termo é 26 + 5 = 31."
-  },
-  {
-    "id": "logica-ined-1234",
-    "categoriaId": "logica",
-    "subtopico": "Problemas de Raciocínio",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Hoje, um pai tem 41 anos e seu filho tem 14 anos. Daqui a 11 anos, quais serão as idades do pai e do filho, respectivamente?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "41 e 14 anos"
-      },
-      {
-        "letra": "B",
-        "texto": "52 e 14 anos"
-      },
-      {
-        "letra": "C",
-        "texto": "52 e 25 anos"
-      },
-      {
-        "letra": "D",
-        "texto": "53 e 14 anos"
-      },
-      {
-        "letra": "E",
-        "texto": "63 e 25 anos"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "Basta somar 11 anos à idade atual de cada um: pai = 41 + 11 = 52; filho = 14 + 11 = 25."
+    "explicacao": "Basta somar 5 anos à idade atual de cada um: pai = 31 + 5 = 36; filho = 5 + 5 = 10."
   }
 ]

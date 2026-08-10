@@ -1,421 +1,13 @@
 [
   {
-    "id": "equacoes-ined-0231",
+    "id": "equacoes-ined-0041",
     "categoriaId": "equacoes",
     "subtopico": "Sistemas de Equações 2x2",
     "dificuldade": "facil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Na cantina de uma escola, 4 salgados e 4 sucos custam juntos R$ 208,00, enquanto 6 salgados e 6 sucos custam R$ 312,00. Qual é o preço de um suco?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "R$ 52,00"
-      },
-      {
-        "letra": "B",
-        "texto": "R$ 37,00"
-      },
-      {
-        "letra": "C",
-        "texto": "R$ 20,00"
-      },
-      {
-        "letra": "D",
-        "texto": "R$ 32,00"
-      },
-      {
-        "letra": "E",
-        "texto": "R$ 12,00"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "Resolvendo o sistema {4a + 4b = 208; 6a + 6b = 312} obtém-se o preço do salgado a = R$ 20,00 e do suco b = R$ 32,00."
-  },
-  {
-    "id": "equacoes-ined-0232",
-    "categoriaId": "equacoes",
-    "subtopico": "Equações Quadráticas (Bhaskara)",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um terreno retangular tem comprimento 5 m maior que a largura. Sabendo que a área do terreno é 176 m², qual é a medida da largura?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "9 m"
-      },
-      {
-        "letra": "B",
-        "texto": "11 m"
-      },
-      {
-        "letra": "C",
-        "texto": "176 m"
-      },
-      {
-        "letra": "D",
-        "texto": "21 m"
-      },
-      {
-        "letra": "E",
-        "texto": "16 m"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "Chamando a largura de x, temos x(x + 5) = 176, ou seja x² + 5x − 176 = 0. Resolvendo por Bhaskara, a raiz positiva é x = 11 m."
-  },
-  {
-    "id": "equacoes-ined-0233",
-    "categoriaId": "equacoes",
-    "subtopico": "Sistemas de Equações 2x2",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Na cantina de uma escola, 3 salgados e 7 sucos custam juntos R$ 232,00, enquanto 2 salgados e 3 sucos custam R$ 113,00. Qual é o preço de um suco?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "R$ 44,00"
-      },
-      {
-        "letra": "B",
-        "texto": "R$ 25,00"
-      },
-      {
-        "letra": "C",
-        "texto": "R$ 6,00"
-      },
-      {
-        "letra": "D",
-        "texto": "R$ 19,00"
-      },
-      {
-        "letra": "E",
-        "texto": "R$ 30,00"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "Resolvendo o sistema {3a + 7b = 232; 2a + 3b = 113} obtém-se o preço do salgado a = R$ 19,00 e do suco b = R$ 25,00."
-  },
-  {
-    "id": "equacoes-ined-0234",
-    "categoriaId": "equacoes",
-    "subtopico": "Equações Quadráticas (Bhaskara)",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um terreno retangular tem comprimento 3 m maior que a largura. Sabendo que a área do terreno é 238 m², qual é a medida da largura?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "20 m"
-      },
-      {
-        "letra": "B",
-        "texto": "17 m"
-      },
-      {
-        "letra": "C",
-        "texto": "12 m"
-      },
-      {
-        "letra": "D",
-        "texto": "14 m"
-      },
-      {
-        "letra": "E",
-        "texto": "238 m"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "Chamando a largura de x, temos x(x + 3) = 238, ou seja x² + 3x − 238 = 0. Resolvendo por Bhaskara, a raiz positiva é x = 14 m."
-  },
-  {
-    "id": "equacoes-ined-0235",
-    "categoriaId": "equacoes",
-    "subtopico": "Sistemas de Equações 2x2",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Na cantina de uma escola, 6 salgados e 5 sucos custam juntos R$ 91,00, enquanto 8 salgados e 5 sucos custam R$ 103,00. Qual é o preço de um suco?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "R$ 5,00"
-      },
-      {
-        "letra": "B",
-        "texto": "R$ 16,00"
-      },
-      {
-        "letra": "C",
-        "texto": "R$ 6,00"
-      },
-      {
-        "letra": "D",
-        "texto": "R$ 17,00"
-      },
-      {
-        "letra": "E",
-        "texto": "R$ 11,00"
-      }
-    ],
-    "correta": "E",
-    "explicacao": "Resolvendo o sistema {6a + 5b = 91; 8a + 5b = 103} obtém-se o preço do salgado a = R$ 6,00 e do suco b = R$ 11,00."
-  },
-  {
-    "id": "equacoes-ined-0236",
-    "categoriaId": "equacoes",
-    "subtopico": "Equações Quadráticas (Bhaskara)",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um terreno retangular tem comprimento 10 m maior que a largura. Sabendo que a área do terreno é 704 m², qual é a medida da largura?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "704 m"
-      },
-      {
-        "letra": "B",
-        "texto": "22 m"
-      },
-      {
-        "letra": "C",
-        "texto": "32 m"
-      },
-      {
-        "letra": "D",
-        "texto": "42 m"
-      },
-      {
-        "letra": "E",
-        "texto": "20 m"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "Chamando a largura de x, temos x(x + 10) = 704, ou seja x² + 10x − 704 = 0. Resolvendo por Bhaskara, a raiz positiva é x = 22 m."
-  },
-  {
-    "id": "equacoes-ined-0237",
-    "categoriaId": "equacoes",
-    "subtopico": "Sistemas de Equações 2x2",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Na cantina de uma escola, 5 salgados e 5 sucos custam juntos R$ 250,00, enquanto 5 salgados e 4 sucos custam R$ 221,00. Qual é o preço de um suco?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "R$ 8,00"
-      },
-      {
-        "letra": "B",
-        "texto": "R$ 50,00"
-      },
-      {
-        "letra": "C",
-        "texto": "R$ 29,00"
-      },
-      {
-        "letra": "D",
-        "texto": "R$ 34,00"
-      },
-      {
-        "letra": "E",
-        "texto": "R$ 21,00"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "Resolvendo o sistema {5a + 5b = 250; 5a + 4b = 221} obtém-se o preço do salgado a = R$ 21,00 e do suco b = R$ 29,00."
-  },
-  {
-    "id": "equacoes-ined-0238",
-    "categoriaId": "equacoes",
-    "subtopico": "Equações Quadráticas (Bhaskara)",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um terreno retangular tem comprimento 10 m maior que a largura. Sabendo que a área do terreno é 264 m², qual é a medida da largura?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "10 m"
-      },
-      {
-        "letra": "B",
-        "texto": "12 m"
-      },
-      {
-        "letra": "C",
-        "texto": "32 m"
-      },
-      {
-        "letra": "D",
-        "texto": "264 m"
-      },
-      {
-        "letra": "E",
-        "texto": "22 m"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "Chamando a largura de x, temos x(x + 10) = 264, ou seja x² + 10x − 264 = 0. Resolvendo por Bhaskara, a raiz positiva é x = 12 m."
-  },
-  {
-    "id": "equacoes-ined-0239",
-    "categoriaId": "equacoes",
-    "subtopico": "Sistemas de Equações 2x2",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Na cantina de uma escola, 7 salgados e 2 sucos custam juntos R$ 127,00, enquanto 5 salgados e 2 sucos custam R$ 101,00. Qual é o preço de um suco?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "R$ 18,00"
-      },
-      {
-        "letra": "B",
-        "texto": "R$ 13,00"
-      },
-      {
-        "letra": "C",
-        "texto": "R$ 5,00"
-      },
-      {
-        "letra": "D",
-        "texto": "R$ 23,00"
-      },
-      {
-        "letra": "E",
-        "texto": "R$ 31,00"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "Resolvendo o sistema {7a + 2b = 127; 5a + 2b = 101} obtém-se o preço do salgado a = R$ 13,00 e do suco b = R$ 18,00."
-  },
-  {
-    "id": "equacoes-ined-0240",
-    "categoriaId": "equacoes",
-    "subtopico": "Equações Quadráticas (Bhaskara)",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um terreno retangular tem comprimento 9 m maior que a largura. Sabendo que a área do terreno é 322 m², qual é a medida da largura?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "32 m"
-      },
-      {
-        "letra": "B",
-        "texto": "23 m"
-      },
-      {
-        "letra": "C",
-        "texto": "322 m"
-      },
-      {
-        "letra": "D",
-        "texto": "14 m"
-      },
-      {
-        "letra": "E",
-        "texto": "12 m"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "Chamando a largura de x, temos x(x + 9) = 322, ou seja x² + 9x − 322 = 0. Resolvendo por Bhaskara, a raiz positiva é x = 14 m."
-  },
-  {
-    "id": "equacoes-ined-0241",
-    "categoriaId": "equacoes",
-    "subtopico": "Sistemas de Equações 2x2",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Na cantina de uma escola, 4 salgados e 3 sucos custam juntos R$ 88,00, enquanto 8 salgados e 8 sucos custam R$ 208,00. Qual é o preço de um suco?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "R$ 10,00"
-      },
-      {
-        "letra": "B",
-        "texto": "R$ 26,00"
-      },
-      {
-        "letra": "C",
-        "texto": "R$ 21,00"
-      },
-      {
-        "letra": "D",
-        "texto": "R$ 6,00"
-      },
-      {
-        "letra": "E",
-        "texto": "R$ 16,00"
-      }
-    ],
-    "correta": "E",
-    "explicacao": "Resolvendo o sistema {4a + 3b = 88; 8a + 8b = 208} obtém-se o preço do salgado a = R$ 10,00 e do suco b = R$ 16,00."
-  },
-  {
-    "id": "equacoes-ined-0242",
-    "categoriaId": "equacoes",
-    "subtopico": "Equações Quadráticas (Bhaskara)",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um terreno retangular tem comprimento 2 m maior que a largura. Sabendo que a área do terreno é 399 m², qual é a medida da largura?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "19 m"
-      },
-      {
-        "letra": "B",
-        "texto": "23 m"
-      },
-      {
-        "letra": "C",
-        "texto": "21 m"
-      },
-      {
-        "letra": "D",
-        "texto": "399 m"
-      },
-      {
-        "letra": "E",
-        "texto": "17 m"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "Chamando a largura de x, temos x(x + 2) = 399, ou seja x² + 2x − 399 = 0. Resolvendo por Bhaskara, a raiz positiva é x = 19 m."
-  },
-  {
-    "id": "equacoes-ined-0243",
-    "categoriaId": "equacoes",
-    "subtopico": "Sistemas de Equações 2x2",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Na cantina de uma escola, 8 salgados e 3 sucos custam juntos R$ 110,00, enquanto 2 salgados e 6 sucos custam R$ 122,00. Qual é o preço de um suco?",
+    "enunciado": "Na cantina de uma escola, 6 salgados e 2 sucos custam juntos R$ 110,00, enquanto 8 salgados e 2 sucos custam R$ 132,00. Qual é o preço de um suco?",
     "alternativas": [
       {
         "letra": "A",
@@ -423,1095 +15,109 @@
       },
       {
         "letra": "B",
-        "texto": "R$ 7,00"
-      },
-      {
-        "letra": "C",
-        "texto": "R$ 23,00"
-      },
-      {
-        "letra": "D",
-        "texto": "R$ 25,00"
-      },
-      {
-        "letra": "E",
-        "texto": "R$ 18,00"
-      }
-    ],
-    "correta": "E",
-    "explicacao": "Resolvendo o sistema {8a + 3b = 110; 2a + 6b = 122} obtém-se o preço do salgado a = R$ 7,00 e do suco b = R$ 18,00."
-  },
-  {
-    "id": "equacoes-ined-0244",
-    "categoriaId": "equacoes",
-    "subtopico": "Equações Quadráticas (Bhaskara)",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um terreno retangular tem comprimento 10 m maior que a largura. Sabendo que a área do terreno é 200 m², qual é a medida da largura?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "10 m"
-      },
-      {
-        "letra": "B",
-        "texto": "30 m"
-      },
-      {
-        "letra": "C",
-        "texto": "8 m"
-      },
-      {
-        "letra": "D",
-        "texto": "20 m"
-      },
-      {
-        "letra": "E",
-        "texto": "200 m"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "Chamando a largura de x, temos x(x + 10) = 200, ou seja x² + 10x − 200 = 0. Resolvendo por Bhaskara, a raiz positiva é x = 10 m."
-  },
-  {
-    "id": "equacoes-ined-0245",
-    "categoriaId": "equacoes",
-    "subtopico": "Sistemas de Equações 2x2",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Na cantina de uma escola, 5 salgados e 6 sucos custam juntos R$ 584,00, enquanto 2 salgados e 8 sucos custam R$ 536,00. Qual é o preço de um suco?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "R$ 54,00"
-      },
-      {
-        "letra": "B",
-        "texto": "R$ 59,00"
-      },
-      {
-        "letra": "C",
-        "texto": "R$ 2,00"
-      },
-      {
-        "letra": "D",
-        "texto": "R$ 52,00"
-      },
-      {
-        "letra": "E",
-        "texto": "R$ 106,00"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "Resolvendo o sistema {5a + 6b = 584; 2a + 8b = 536} obtém-se o preço do salgado a = R$ 52,00 e do suco b = R$ 54,00."
-  },
-  {
-    "id": "equacoes-ined-0246",
-    "categoriaId": "equacoes",
-    "subtopico": "Equações Quadráticas (Bhaskara)",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um terreno retangular tem comprimento 7 m maior que a largura. Sabendo que a área do terreno é 44 m², qual é a medida da largura?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "4 m"
-      },
-      {
-        "letra": "B",
-        "texto": "44 m"
-      },
-      {
-        "letra": "C",
-        "texto": "18 m"
-      },
-      {
-        "letra": "D",
-        "texto": "2 m"
-      },
-      {
-        "letra": "E",
-        "texto": "11 m"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "Chamando a largura de x, temos x(x + 7) = 44, ou seja x² + 7x − 44 = 0. Resolvendo por Bhaskara, a raiz positiva é x = 4 m."
-  },
-  {
-    "id": "equacoes-ined-0247",
-    "categoriaId": "equacoes",
-    "subtopico": "Sistemas de Equações 2x2",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Na cantina de uma escola, 4 salgados e 7 sucos custam juntos R$ 340,00, enquanto 7 salgados e 3 sucos custam R$ 262,00. Qual é o preço de um suco?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "R$ 41,00"
-      },
-      {
-        "letra": "B",
-        "texto": "R$ 58,00"
-      },
-      {
-        "letra": "C",
-        "texto": "R$ 14,00"
-      },
-      {
-        "letra": "D",
-        "texto": "R$ 36,00"
-      },
-      {
-        "letra": "E",
-        "texto": "R$ 22,00"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "Resolvendo o sistema {4a + 7b = 340; 7a + 3b = 262} obtém-se o preço do salgado a = R$ 22,00 e do suco b = R$ 36,00."
-  },
-  {
-    "id": "equacoes-ined-0248",
-    "categoriaId": "equacoes",
-    "subtopico": "Equações Quadráticas (Bhaskara)",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um terreno retangular tem comprimento 8 m maior que a largura. Sabendo que a área do terreno é 65 m², qual é a medida da largura?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "65 m"
-      },
-      {
-        "letra": "B",
-        "texto": "13 m"
-      },
-      {
-        "letra": "C",
-        "texto": "3 m"
-      },
-      {
-        "letra": "D",
-        "texto": "5 m"
-      },
-      {
-        "letra": "E",
-        "texto": "21 m"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "Chamando a largura de x, temos x(x + 8) = 65, ou seja x² + 8x − 65 = 0. Resolvendo por Bhaskara, a raiz positiva é x = 5 m."
-  },
-  {
-    "id": "equacoes-ined-0249",
-    "categoriaId": "equacoes",
-    "subtopico": "Sistemas de Equações 2x2",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Na cantina de uma escola, 6 salgados e 2 sucos custam juntos R$ 146,00, enquanto 2 salgados e 6 sucos custam R$ 198,00. Qual é o preço de um suco?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "R$ 13,00"
-      },
-      {
-        "letra": "B",
-        "texto": "R$ 33,00"
-      },
-      {
-        "letra": "C",
-        "texto": "R$ 28,00"
-      },
-      {
-        "letra": "D",
-        "texto": "R$ 43,00"
-      },
-      {
-        "letra": "E",
-        "texto": "R$ 15,00"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "Resolvendo o sistema {6a + 2b = 146; 2a + 6b = 198} obtém-se o preço do salgado a = R$ 15,00 e do suco b = R$ 28,00."
-  },
-  {
-    "id": "equacoes-ined-0250",
-    "categoriaId": "equacoes",
-    "subtopico": "Equações Quadráticas (Bhaskara)",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um terreno retangular tem comprimento 8 m maior que a largura. Sabendo que a área do terreno é 273 m², qual é a medida da largura?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "11 m"
-      },
-      {
-        "letra": "B",
-        "texto": "13 m"
-      },
-      {
-        "letra": "C",
-        "texto": "273 m"
-      },
-      {
-        "letra": "D",
-        "texto": "21 m"
-      },
-      {
-        "letra": "E",
-        "texto": "29 m"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "Chamando a largura de x, temos x(x + 8) = 273, ou seja x² + 8x − 273 = 0. Resolvendo por Bhaskara, a raiz positiva é x = 13 m."
-  },
-  {
-    "id": "equacoes-ined-0251",
-    "categoriaId": "equacoes",
-    "subtopico": "Sistemas de Equações 2x2",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Na cantina de uma escola, 7 salgados e 6 sucos custam juntos R$ 646,00, enquanto 6 salgados e 7 sucos custam R$ 654,00. Qual é o preço de um suco?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "R$ 46,00"
-      },
-      {
-        "letra": "B",
-        "texto": "R$ 100,00"
-      },
-      {
-        "letra": "C",
-        "texto": "R$ 59,00"
-      },
-      {
-        "letra": "D",
-        "texto": "R$ 8,00"
-      },
-      {
-        "letra": "E",
-        "texto": "R$ 54,00"
-      }
-    ],
-    "correta": "E",
-    "explicacao": "Resolvendo o sistema {7a + 6b = 646; 6a + 7b = 654} obtém-se o preço do salgado a = R$ 46,00 e do suco b = R$ 54,00."
-  },
-  {
-    "id": "equacoes-ined-0252",
-    "categoriaId": "equacoes",
-    "subtopico": "Equações Quadráticas (Bhaskara)",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um terreno retangular tem comprimento 8 m maior que a largura. Sabendo que a área do terreno é 240 m², qual é a medida da largura?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "10 m"
-      },
-      {
-        "letra": "B",
-        "texto": "28 m"
-      },
-      {
-        "letra": "C",
-        "texto": "12 m"
-      },
-      {
-        "letra": "D",
-        "texto": "20 m"
-      },
-      {
-        "letra": "E",
-        "texto": "240 m"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "Chamando a largura de x, temos x(x + 8) = 240, ou seja x² + 8x − 240 = 0. Resolvendo por Bhaskara, a raiz positiva é x = 12 m."
-  },
-  {
-    "id": "equacoes-ined-0253",
-    "categoriaId": "equacoes",
-    "subtopico": "Sistemas de Equações 2x2",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Na cantina de uma escola, 4 salgados e 3 sucos custam juntos R$ 123,00, enquanto 7 salgados e 7 sucos custam R$ 252,00. Qual é o preço de um suco?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "R$ 26,00"
-      },
-      {
-        "letra": "B",
-        "texto": "R$ 6,00"
-      },
-      {
-        "letra": "C",
-        "texto": "R$ 36,00"
-      },
-      {
-        "letra": "D",
-        "texto": "R$ 21,00"
-      },
-      {
-        "letra": "E",
-        "texto": "R$ 15,00"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "Resolvendo o sistema {4a + 3b = 123; 7a + 7b = 252} obtém-se o preço do salgado a = R$ 15,00 e do suco b = R$ 21,00."
-  },
-  {
-    "id": "equacoes-ined-0254",
-    "categoriaId": "equacoes",
-    "subtopico": "Equações Quadráticas (Bhaskara)",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um terreno retangular tem comprimento 5 m maior que a largura. Sabendo que a área do terreno é 300 m², qual é a medida da largura?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "25 m"
-      },
-      {
-        "letra": "B",
-        "texto": "15 m"
-      },
-      {
-        "letra": "C",
-        "texto": "13 m"
-      },
-      {
-        "letra": "D",
-        "texto": "20 m"
-      },
-      {
-        "letra": "E",
-        "texto": "300 m"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "Chamando a largura de x, temos x(x + 5) = 300, ou seja x² + 5x − 300 = 0. Resolvendo por Bhaskara, a raiz positiva é x = 15 m."
-  },
-  {
-    "id": "equacoes-ined-0255",
-    "categoriaId": "equacoes",
-    "subtopico": "Sistemas de Equações 2x2",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Na cantina de uma escola, 5 salgados e 5 sucos custam juntos R$ 65,00, enquanto 6 salgados e 3 sucos custam R$ 51,00. Qual é o preço de um suco?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "R$ 14,00"
-      },
-      {
-        "letra": "B",
-        "texto": "R$ 13,00"
-      },
-      {
-        "letra": "C",
-        "texto": "R$ 4,00"
-      },
-      {
-        "letra": "D",
-        "texto": "R$ 5,00"
-      },
-      {
-        "letra": "E",
-        "texto": "R$ 9,00"
-      }
-    ],
-    "correta": "E",
-    "explicacao": "Resolvendo o sistema {5a + 5b = 65; 6a + 3b = 51} obtém-se o preço do salgado a = R$ 4,00 e do suco b = R$ 9,00."
-  },
-  {
-    "id": "equacoes-ined-0256",
-    "categoriaId": "equacoes",
-    "subtopico": "Equações Quadráticas (Bhaskara)",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um terreno retangular tem comprimento 9 m maior que a largura. Sabendo que a área do terreno é 90 m², qual é a medida da largura?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "6 m"
-      },
-      {
-        "letra": "B",
-        "texto": "90 m"
-      },
-      {
-        "letra": "C",
-        "texto": "15 m"
-      },
-      {
-        "letra": "D",
-        "texto": "24 m"
-      },
-      {
-        "letra": "E",
-        "texto": "4 m"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "Chamando a largura de x, temos x(x + 9) = 90, ou seja x² + 9x − 90 = 0. Resolvendo por Bhaskara, a raiz positiva é x = 6 m."
-  },
-  {
-    "id": "equacoes-ined-0257",
-    "categoriaId": "equacoes",
-    "subtopico": "Sistemas de Equações 2x2",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Na cantina de uma escola, 4 salgados e 2 sucos custam juntos R$ 230,00, enquanto 4 salgados e 6 sucos custam R$ 386,00. Qual é o preço de um suco?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "R$ 38,00"
-      },
-      {
-        "letra": "B",
-        "texto": "R$ 44,00"
-      },
-      {
-        "letra": "C",
-        "texto": "R$ 39,00"
-      },
-      {
-        "letra": "D",
-        "texto": "R$ 1,00"
-      },
-      {
-        "letra": "E",
-        "texto": "R$ 77,00"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "Resolvendo o sistema {4a + 2b = 230; 4a + 6b = 386} obtém-se o preço do salgado a = R$ 38,00 e do suco b = R$ 39,00."
-  },
-  {
-    "id": "equacoes-ined-0258",
-    "categoriaId": "equacoes",
-    "subtopico": "Equações Quadráticas (Bhaskara)",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um terreno retangular tem comprimento 2 m maior que a largura. Sabendo que a área do terreno é 24 m², qual é a medida da largura?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "2 m"
-      },
-      {
-        "letra": "B",
-        "texto": "4 m"
-      },
-      {
-        "letra": "C",
-        "texto": "8 m"
-      },
-      {
-        "letra": "D",
-        "texto": "6 m"
-      },
-      {
-        "letra": "E",
-        "texto": "24 m"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "Chamando a largura de x, temos x(x + 2) = 24, ou seja x² + 2x − 24 = 0. Resolvendo por Bhaskara, a raiz positiva é x = 4 m."
-  },
-  {
-    "id": "equacoes-ined-0259",
-    "categoriaId": "equacoes",
-    "subtopico": "Sistemas de Equações 2x2",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Na cantina de uma escola, 8 salgados e 7 sucos custam juntos R$ 361,00, enquanto 3 salgados e 6 sucos custam R$ 240,00. Qual é o preço de um suco?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "R$ 31,00"
-      },
-      {
-        "letra": "B",
-        "texto": "R$ 49,00"
-      },
-      {
-        "letra": "C",
-        "texto": "R$ 13,00"
-      },
-      {
-        "letra": "D",
-        "texto": "R$ 18,00"
-      },
-      {
-        "letra": "E",
-        "texto": "R$ 36,00"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "Resolvendo o sistema {8a + 7b = 361; 3a + 6b = 240} obtém-se o preço do salgado a = R$ 18,00 e do suco b = R$ 31,00."
-  },
-  {
-    "id": "equacoes-ined-0260",
-    "categoriaId": "equacoes",
-    "subtopico": "Equações Quadráticas (Bhaskara)",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um terreno retangular tem comprimento 7 m maior que a largura. Sabendo que a área do terreno é 408 m², qual é a medida da largura?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "31 m"
-      },
-      {
-        "letra": "B",
-        "texto": "15 m"
-      },
-      {
-        "letra": "C",
-        "texto": "408 m"
-      },
-      {
-        "letra": "D",
-        "texto": "17 m"
-      },
-      {
-        "letra": "E",
-        "texto": "24 m"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "Chamando a largura de x, temos x(x + 7) = 408, ou seja x² + 7x − 408 = 0. Resolvendo por Bhaskara, a raiz positiva é x = 17 m."
-  },
-  {
-    "id": "equacoes-ined-0261",
-    "categoriaId": "equacoes",
-    "subtopico": "Sistemas de Equações 2x2",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Na cantina de uma escola, 7 salgados e 3 sucos custam juntos R$ 190,00, enquanto 5 salgados e 7 sucos custam R$ 262,00. Qual é o preço de um suco?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "R$ 42,00"
-      },
-      {
-        "letra": "B",
-        "texto": "R$ 31,00"
-      },
-      {
-        "letra": "C",
-        "texto": "R$ 26,00"
-      },
-      {
-        "letra": "D",
-        "texto": "R$ 16,00"
-      },
-      {
-        "letra": "E",
-        "texto": "R$ 10,00"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "Resolvendo o sistema {7a + 3b = 190; 5a + 7b = 262} obtém-se o preço do salgado a = R$ 16,00 e do suco b = R$ 26,00."
-  },
-  {
-    "id": "equacoes-ined-0262",
-    "categoriaId": "equacoes",
-    "subtopico": "Equações Quadráticas (Bhaskara)",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um terreno retangular tem comprimento 6 m maior que a largura. Sabendo que a área do terreno é 280 m², qual é a medida da largura?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "26 m"
-      },
-      {
-        "letra": "B",
-        "texto": "280 m"
-      },
-      {
-        "letra": "C",
-        "texto": "12 m"
-      },
-      {
-        "letra": "D",
-        "texto": "14 m"
-      },
-      {
-        "letra": "E",
-        "texto": "20 m"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "Chamando a largura de x, temos x(x + 6) = 280, ou seja x² + 6x − 280 = 0. Resolvendo por Bhaskara, a raiz positiva é x = 14 m."
-  },
-  {
-    "id": "equacoes-ined-0263",
-    "categoriaId": "equacoes",
-    "subtopico": "Sistemas de Equações 2x2",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Na cantina de uma escola, 2 salgados e 2 sucos custam juntos R$ 216,00, enquanto 3 salgados e 3 sucos custam R$ 324,00. Qual é o preço de um suco?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "R$ 60,00"
-      },
-      {
-        "letra": "B",
-        "texto": "R$ 108,00"
-      },
-      {
-        "letra": "C",
-        "texto": "R$ 65,00"
-      },
-      {
-        "letra": "D",
-        "texto": "R$ 48,00"
-      },
-      {
-        "letra": "E",
-        "texto": "R$ 12,00"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "Resolvendo o sistema {2a + 2b = 216; 3a + 3b = 324} obtém-se o preço do salgado a = R$ 48,00 e do suco b = R$ 60,00."
-  },
-  {
-    "id": "equacoes-ined-0265",
-    "categoriaId": "equacoes",
-    "subtopico": "Sistemas de Equações 2x2",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Na cantina de uma escola, 8 salgados e 5 sucos custam juntos R$ 192,00, enquanto 3 salgados e 8 sucos custam R$ 219,00. Qual é o preço de um suco?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "R$ 29,00"
-      },
-      {
-        "letra": "B",
-        "texto": "R$ 24,00"
-      },
-      {
-        "letra": "C",
-        "texto": "R$ 9,00"
-      },
-      {
-        "letra": "D",
-        "texto": "R$ 33,00"
-      },
-      {
-        "letra": "E",
-        "texto": "R$ 15,00"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "Resolvendo o sistema {8a + 5b = 192; 3a + 8b = 219} obtém-se o preço do salgado a = R$ 9,00 e do suco b = R$ 24,00."
-  },
-  {
-    "id": "equacoes-ined-0266",
-    "categoriaId": "equacoes",
-    "subtopico": "Equações Quadráticas (Bhaskara)",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um terreno retangular tem comprimento 10 m maior que a largura. Sabendo que a área do terreno é 144 m², qual é a medida da largura?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "28 m"
-      },
-      {
-        "letra": "B",
-        "texto": "8 m"
-      },
-      {
-        "letra": "C",
-        "texto": "144 m"
-      },
-      {
-        "letra": "D",
-        "texto": "18 m"
-      },
-      {
-        "letra": "E",
-        "texto": "6 m"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "Chamando a largura de x, temos x(x + 10) = 144, ou seja x² + 10x − 144 = 0. Resolvendo por Bhaskara, a raiz positiva é x = 8 m."
-  },
-  {
-    "id": "equacoes-ined-0267",
-    "categoriaId": "equacoes",
-    "subtopico": "Sistemas de Equações 2x2",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Na cantina de uma escola, 4 salgados e 2 sucos custam juntos R$ 90,00, enquanto 7 salgados e 8 sucos custam R$ 261,00. Qual é o preço de um suco?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "R$ 12,00"
-      },
-      {
-        "letra": "B",
-        "texto": "R$ 34,00"
-      },
-      {
-        "letra": "C",
-        "texto": "R$ 23,00"
-      },
-      {
-        "letra": "D",
-        "texto": "R$ 11,00"
-      },
-      {
-        "letra": "E",
-        "texto": "R$ 28,00"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "Resolvendo o sistema {4a + 2b = 90; 7a + 8b = 261} obtém-se o preço do salgado a = R$ 11,00 e do suco b = R$ 23,00."
-  },
-  {
-    "id": "equacoes-ined-0268",
-    "categoriaId": "equacoes",
-    "subtopico": "Equações Quadráticas (Bhaskara)",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um terreno retangular tem comprimento 4 m maior que a largura. Sabendo que a área do terreno é 221 m², qual é a medida da largura?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "221 m"
-      },
-      {
-        "letra": "B",
-        "texto": "13 m"
-      },
-      {
-        "letra": "C",
-        "texto": "21 m"
-      },
-      {
-        "letra": "D",
-        "texto": "17 m"
-      },
-      {
-        "letra": "E",
-        "texto": "11 m"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "Chamando a largura de x, temos x(x + 4) = 221, ou seja x² + 4x − 221 = 0. Resolvendo por Bhaskara, a raiz positiva é x = 13 m."
-  },
-  {
-    "id": "equacoes-ined-0269",
-    "categoriaId": "equacoes",
-    "subtopico": "Sistemas de Equações 2x2",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Na cantina de uma escola, 7 salgados e 2 sucos custam juntos R$ 543,00, enquanto 3 salgados e 2 sucos custam R$ 315,00. Qual é o preço de um suco?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "R$ 57,00"
-      },
-      {
-        "letra": "B",
-        "texto": "R$ 129,00"
-      },
-      {
-        "letra": "C",
-        "texto": "R$ 72,00"
-      },
-      {
-        "letra": "D",
-        "texto": "R$ 77,00"
-      },
-      {
-        "letra": "E",
-        "texto": "R$ 15,00"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "Resolvendo o sistema {7a + 2b = 543; 3a + 2b = 315} obtém-se o preço do salgado a = R$ 57,00 e do suco b = R$ 72,00."
-  },
-  {
-    "id": "equacoes-ined-0270",
-    "categoriaId": "equacoes",
-    "subtopico": "Equações Quadráticas (Bhaskara)",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um terreno retangular tem comprimento 10 m maior que a largura. Sabendo que a área do terreno é 56 m², qual é a medida da largura?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "14 m"
-      },
-      {
-        "letra": "B",
-        "texto": "56 m"
-      },
-      {
-        "letra": "C",
-        "texto": "24 m"
-      },
-      {
-        "letra": "D",
-        "texto": "4 m"
-      },
-      {
-        "letra": "E",
-        "texto": "2 m"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "Chamando a largura de x, temos x(x + 10) = 56, ou seja x² + 10x − 56 = 0. Resolvendo por Bhaskara, a raiz positiva é x = 4 m."
-  },
-  {
-    "id": "equacoes-ined-0271",
-    "categoriaId": "equacoes",
-    "subtopico": "Sistemas de Equações 2x2",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Na cantina de uma escola, 4 salgados e 5 sucos custam juntos R$ 217,00, enquanto 4 salgados e 2 sucos custam R$ 142,00. Qual é o preço de um suco?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "R$ 2,00"
-      },
-      {
-        "letra": "B",
-        "texto": "R$ 25,00"
-      },
-      {
-        "letra": "C",
-        "texto": "R$ 23,00"
-      },
-      {
-        "letra": "D",
-        "texto": "R$ 48,00"
-      },
-      {
-        "letra": "E",
-        "texto": "R$ 30,00"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "Resolvendo o sistema {4a + 5b = 217; 4a + 2b = 142} obtém-se o preço do salgado a = R$ 23,00 e do suco b = R$ 25,00."
-  },
-  {
-    "id": "equacoes-ined-0272",
-    "categoriaId": "equacoes",
-    "subtopico": "Equações Quadráticas (Bhaskara)",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um terreno retangular tem comprimento 8 m maior que a largura. Sabendo que a área do terreno é 425 m², qual é a medida da largura?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "425 m"
-      },
-      {
-        "letra": "B",
-        "texto": "33 m"
-      },
-      {
-        "letra": "C",
-        "texto": "15 m"
-      },
-      {
-        "letra": "D",
-        "texto": "25 m"
-      },
-      {
-        "letra": "E",
-        "texto": "17 m"
-      }
-    ],
-    "correta": "E",
-    "explicacao": "Chamando a largura de x, temos x(x + 8) = 425, ou seja x² + 8x − 425 = 0. Resolvendo por Bhaskara, a raiz positiva é x = 17 m."
-  },
-  {
-    "id": "equacoes-ined-0273",
-    "categoriaId": "equacoes",
-    "subtopico": "Sistemas de Equações 2x2",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Na cantina de uma escola, 5 salgados e 4 sucos custam juntos R$ 128,00, enquanto 3 salgados e 4 sucos custam R$ 112,00. Qual é o preço de um suco?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "R$ 30,00"
-      },
-      {
-        "letra": "B",
-        "texto": "R$ 8,00"
-      },
-      {
-        "letra": "C",
         "texto": "R$ 27,00"
       },
       {
-        "letra": "D",
+        "letra": "C",
         "texto": "R$ 22,00"
       },
       {
+        "letra": "D",
+        "texto": "R$ 28,00"
+      },
+      {
         "letra": "E",
-        "texto": "R$ 14,00"
+        "texto": "R$ 33,00"
       }
     ],
-    "correta": "D",
-    "explicacao": "Resolvendo o sistema {5a + 4b = 128; 3a + 4b = 112} obtém-se o preço do salgado a = R$ 8,00 e do suco b = R$ 22,00."
+    "correta": "C",
+    "explicacao": "Resolvendo o sistema {6a + 2b = 110; 8a + 2b = 132} obtém-se o preço do salgado a = R$ 11,00 e do suco b = R$ 22,00."
   },
   {
-    "id": "equacoes-ined-0274",
+    "id": "equacoes-ined-0042",
     "categoriaId": "equacoes",
     "subtopico": "Equações Quadráticas (Bhaskara)",
     "dificuldade": "medio",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Um terreno retangular tem comprimento 9 m maior que a largura. Sabendo que a área do terreno é 162 m², qual é a medida da largura?",
+    "enunciado": "Um terreno retangular tem comprimento 6 m maior que a largura. Sabendo que a área do terreno é 91 m², qual é a medida da largura?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "27 m"
+        "texto": "91 m"
       },
       {
         "letra": "B",
-        "texto": "162 m"
+        "texto": "7 m"
       },
       {
         "letra": "C",
-        "texto": "9 m"
+        "texto": "19 m"
       },
       {
         "letra": "D",
-        "texto": "18 m"
+        "texto": "13 m"
       },
       {
         "letra": "E",
-        "texto": "7 m"
+        "texto": "5 m"
       }
     ],
-    "correta": "C",
-    "explicacao": "Chamando a largura de x, temos x(x + 9) = 162, ou seja x² + 9x − 162 = 0. Resolvendo por Bhaskara, a raiz positiva é x = 9 m."
+    "correta": "B",
+    "explicacao": "Chamando a largura de x, temos x(x + 6) = 91, ou seja x² + 6x − 91 = 0. Resolvendo por Bhaskara, a raiz positiva é x = 7 m."
   },
   {
-    "id": "equacoes-ined-0275",
+    "id": "equacoes-ined-0043",
     "categoriaId": "equacoes",
     "subtopico": "Sistemas de Equações 2x2",
     "dificuldade": "dificil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Na cantina de uma escola, 6 salgados e 2 sucos custam juntos R$ 482,00, enquanto 7 salgados e 7 sucos custam R$ 875,00. Qual é o preço de um suco?",
+    "enunciado": "Na cantina de uma escola, 7 salgados e 3 sucos custam juntos R$ 299,00, enquanto 3 salgados e 4 sucos custam R$ 215,00. Qual é o preço de um suco?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "R$ 67,00"
+        "texto": "R$ 32,00"
       },
       {
         "letra": "B",
-        "texto": "R$ 125,00"
+        "texto": "R$ 29,00"
       },
       {
         "letra": "C",
-        "texto": "R$ 58,00"
+        "texto": "R$ 3,00"
       },
       {
         "letra": "D",
-        "texto": "R$ 72,00"
+        "texto": "R$ 61,00"
       },
       {
         "letra": "E",
-        "texto": "R$ 9,00"
+        "texto": "R$ 37,00"
       }
     ],
     "correta": "A",
-    "explicacao": "Resolvendo o sistema {6a + 2b = 482; 7a + 7b = 875} obtém-se o preço do salgado a = R$ 58,00 e do suco b = R$ 67,00."
+    "explicacao": "Resolvendo o sistema {7a + 3b = 299; 3a + 4b = 215} obtém-se o preço do salgado a = R$ 29,00 e do suco b = R$ 32,00."
   },
   {
-    "id": "equacoes-ined-0276",
+    "id": "equacoes-ined-0044",
     "categoriaId": "equacoes",
     "subtopico": "Equações Quadráticas (Bhaskara)",
     "dificuldade": "facil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Um terreno retangular tem comprimento 7 m maior que a largura. Sabendo que a área do terreno é 260 m², qual é a medida da largura?",
+    "enunciado": "Um terreno retangular tem comprimento 3 m maior que a largura. Sabendo que a área do terreno é 70 m², qual é a medida da largura?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "260 m"
+        "texto": "10 m"
       },
       {
         "letra": "B",
-        "texto": "27 m"
+        "texto": "70 m"
       },
       {
         "letra": "C",
@@ -1519,263 +125,195 @@
       },
       {
         "letra": "D",
-        "texto": "20 m"
+        "texto": "7 m"
       },
       {
         "letra": "E",
-        "texto": "11 m"
+        "texto": "5 m"
       }
     ],
-    "correta": "C",
-    "explicacao": "Chamando a largura de x, temos x(x + 7) = 260, ou seja x² + 7x − 260 = 0. Resolvendo por Bhaskara, a raiz positiva é x = 13 m."
+    "correta": "D",
+    "explicacao": "Chamando a largura de x, temos x(x + 3) = 70, ou seja x² + 3x − 70 = 0. Resolvendo por Bhaskara, a raiz positiva é x = 7 m."
   },
   {
-    "id": "equacoes-ined-0277",
+    "id": "equacoes-ined-0045",
     "categoriaId": "equacoes",
     "subtopico": "Sistemas de Equações 2x2",
     "dificuldade": "medio",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Na cantina de uma escola, 6 salgados e 2 sucos custam juntos R$ 184,00, enquanto 8 salgados e 5 sucos custam R$ 313,00. Qual é o preço de um suco?",
+    "enunciado": "Na cantina de uma escola, 8 salgados e 6 sucos custam juntos R$ 158,00, enquanto 4 salgados e 8 sucos custam R$ 164,00. Qual é o preço de um suco?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "R$ 21,00"
+        "texto": "R$ 24,00"
       },
       {
         "letra": "B",
-        "texto": "R$ 8,00"
+        "texto": "R$ 17,00"
       },
       {
         "letra": "C",
-        "texto": "R$ 34,00"
-      },
-      {
-        "letra": "D",
-        "texto": "R$ 29,00"
-      },
-      {
-        "letra": "E",
-        "texto": "R$ 50,00"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "Resolvendo o sistema {6a + 2b = 184; 8a + 5b = 313} obtém-se o preço do salgado a = R$ 21,00 e do suco b = R$ 29,00."
-  },
-  {
-    "id": "equacoes-ined-0278",
-    "categoriaId": "equacoes",
-    "subtopico": "Equações Quadráticas (Bhaskara)",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um terreno retangular tem comprimento 3 m maior que a largura. Sabendo que a área do terreno é 504 m², qual é a medida da largura?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "27 m"
-      },
-      {
-        "letra": "B",
-        "texto": "19 m"
-      },
-      {
-        "letra": "C",
-        "texto": "21 m"
-      },
-      {
-        "letra": "D",
-        "texto": "24 m"
-      },
-      {
-        "letra": "E",
-        "texto": "504 m"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "Chamando a largura de x, temos x(x + 3) = 504, ou seja x² + 3x − 504 = 0. Resolvendo por Bhaskara, a raiz positiva é x = 21 m."
-  },
-  {
-    "id": "equacoes-ined-0279",
-    "categoriaId": "equacoes",
-    "subtopico": "Sistemas de Equações 2x2",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Na cantina de uma escola, 8 salgados e 8 sucos custam juntos R$ 264,00, enquanto 3 salgados e 6 sucos custam R$ 168,00. Qual é o preço de um suco?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "R$ 28,00"
-      },
-      {
-        "letra": "B",
-        "texto": "R$ 23,00"
-      },
-      {
-        "letra": "C",
-        "texto": "R$ 33,00"
-      },
-      {
-        "letra": "D",
         "texto": "R$ 10,00"
       },
       {
+        "letra": "D",
+        "texto": "R$ 7,00"
+      },
+      {
         "letra": "E",
-        "texto": "R$ 13,00"
+        "texto": "R$ 22,00"
       }
     ],
     "correta": "B",
-    "explicacao": "Resolvendo o sistema {8a + 8b = 264; 3a + 6b = 168} obtém-se o preço do salgado a = R$ 10,00 e do suco b = R$ 23,00."
+    "explicacao": "Resolvendo o sistema {8a + 6b = 158; 4a + 8b = 164} obtém-se o preço do salgado a = R$ 7,00 e do suco b = R$ 17,00."
   },
   {
-    "id": "equacoes-ined-0280",
+    "id": "equacoes-ined-0046",
     "categoriaId": "equacoes",
     "subtopico": "Equações Quadráticas (Bhaskara)",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um terreno retangular tem comprimento 4 m maior que a largura. Sabendo que a área do terreno é 252 m², qual é a medida da largura?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "252 m"
-      },
-      {
-        "letra": "B",
-        "texto": "18 m"
-      },
-      {
-        "letra": "C",
-        "texto": "22 m"
-      },
-      {
-        "letra": "D",
-        "texto": "12 m"
-      },
-      {
-        "letra": "E",
-        "texto": "14 m"
-      }
-    ],
-    "correta": "E",
-    "explicacao": "Chamando a largura de x, temos x(x + 4) = 252, ou seja x² + 4x − 252 = 0. Resolvendo por Bhaskara, a raiz positiva é x = 14 m."
-  },
-  {
-    "id": "equacoes-ined-0281",
-    "categoriaId": "equacoes",
-    "subtopico": "Sistemas de Equações 2x2",
     "dificuldade": "dificil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Na cantina de uma escola, 6 salgados e 3 sucos custam juntos R$ 501,00, enquanto 6 salgados e 8 sucos custam R$ 796,00. Qual é o preço de um suco?",
+    "enunciado": "Um terreno retangular tem comprimento 4 m maior que a largura. Sabendo que a área do terreno é 45 m², qual é a medida da largura?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "R$ 59,00"
-      },
-      {
-        "letra": "B",
-        "texto": "R$ 113,00"
-      },
-      {
-        "letra": "C",
-        "texto": "R$ 64,00"
-      },
-      {
-        "letra": "D",
-        "texto": "R$ 54,00"
-      },
-      {
-        "letra": "E",
-        "texto": "R$ 5,00"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "Resolvendo o sistema {6a + 3b = 501; 6a + 8b = 796} obtém-se o preço do salgado a = R$ 54,00 e do suco b = R$ 59,00."
-  },
-  {
-    "id": "equacoes-ined-0282",
-    "categoriaId": "equacoes",
-    "subtopico": "Equações Quadráticas (Bhaskara)",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um terreno retangular tem comprimento 7 m maior que a largura. Sabendo que a área do terreno é 60 m², qual é a medida da largura?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "19 m"
-      },
-      {
-        "letra": "B",
-        "texto": "60 m"
-      },
-      {
-        "letra": "C",
         "texto": "3 m"
       },
       {
-        "letra": "D",
+        "letra": "B",
+        "texto": "13 m"
+      },
+      {
+        "letra": "C",
         "texto": "5 m"
       },
       {
+        "letra": "D",
+        "texto": "45 m"
+      },
+      {
         "letra": "E",
-        "texto": "12 m"
+        "texto": "9 m"
       }
     ],
-    "correta": "D",
-    "explicacao": "Chamando a largura de x, temos x(x + 7) = 60, ou seja x² + 7x − 60 = 0. Resolvendo por Bhaskara, a raiz positiva é x = 5 m."
+    "correta": "C",
+    "explicacao": "Chamando a largura de x, temos x(x + 4) = 45, ou seja x² + 4x − 45 = 0. Resolvendo por Bhaskara, a raiz positiva é x = 5 m."
   },
   {
-    "id": "equacoes-ined-0283",
+    "id": "equacoes-ined-0047",
     "categoriaId": "equacoes",
     "subtopico": "Sistemas de Equações 2x2",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Na cantina de uma escola, 8 salgados e 8 sucos custam juntos R$ 144,00, enquanto 7 salgados e 2 sucos custam R$ 76,00. Qual é o preço de um suco?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "R$ 15,00"
+      },
+      {
+        "letra": "B",
+        "texto": "R$ 18,00"
+      },
+      {
+        "letra": "C",
+        "texto": "R$ 10,00"
+      },
+      {
+        "letra": "D",
+        "texto": "R$ 2,00"
+      },
+      {
+        "letra": "E",
+        "texto": "R$ 8,00"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "Resolvendo o sistema {8a + 8b = 144; 7a + 2b = 76} obtém-se o preço do salgado a = R$ 8,00 e do suco b = R$ 10,00."
+  },
+  {
+    "id": "equacoes-ined-0048",
+    "categoriaId": "equacoes",
+    "subtopico": "Equações Quadráticas (Bhaskara)",
     "dificuldade": "medio",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Na cantina de uma escola, 5 salgados e 6 sucos custam juntos R$ 113,00, enquanto 4 salgados e 3 sucos custam R$ 67,00. Qual é o preço de um suco?",
+    "enunciado": "Um terreno retangular tem comprimento 3 m maior que a largura. Sabendo que a área do terreno é 40 m², qual é a medida da largura?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "R$ 18,00"
+        "texto": "8 m"
       },
       {
         "letra": "B",
-        "texto": "R$ 7,00"
+        "texto": "5 m"
       },
       {
         "letra": "C",
-        "texto": "R$ 20,00"
+        "texto": "11 m"
       },
       {
         "letra": "D",
-        "texto": "R$ 6,00"
+        "texto": "40 m"
       },
       {
         "letra": "E",
-        "texto": "R$ 13,00"
+        "texto": "3 m"
       }
     ],
-    "correta": "E",
-    "explicacao": "Resolvendo o sistema {5a + 6b = 113; 4a + 3b = 67} obtém-se o preço do salgado a = R$ 7,00 e do suco b = R$ 13,00."
+    "correta": "B",
+    "explicacao": "Chamando a largura de x, temos x(x + 3) = 40, ou seja x² + 3x − 40 = 0. Resolvendo por Bhaskara, a raiz positiva é x = 5 m."
   },
   {
-    "id": "equacoes-ined-0284",
+    "id": "equacoes-ined-0049",
     "categoriaId": "equacoes",
-    "subtopico": "Equações Quadráticas (Bhaskara)",
+    "subtopico": "Sistemas de Equações 2x2",
     "dificuldade": "dificil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Um terreno retangular tem comprimento 7 m maior que a largura. Sabendo que a área do terreno é 494 m², qual é a medida da largura?",
+    "enunciado": "Na cantina de uma escola, 6 salgados e 2 sucos custam juntos R$ 92,00, enquanto 2 salgados e 5 sucos custam R$ 113,00. Qual é o preço de um suco?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "R$ 19,00"
+      },
+      {
+        "letra": "B",
+        "texto": "R$ 10,00"
+      },
+      {
+        "letra": "C",
+        "texto": "R$ 9,00"
+      },
+      {
+        "letra": "D",
+        "texto": "R$ 28,00"
+      },
+      {
+        "letra": "E",
+        "texto": "R$ 24,00"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "Resolvendo o sistema {6a + 2b = 92; 2a + 5b = 113} obtém-se o preço do salgado a = R$ 9,00 e do suco b = R$ 19,00."
+  },
+  {
+    "id": "equacoes-ined-0050",
+    "categoriaId": "equacoes",
+    "subtopico": "Equações Quadráticas (Bhaskara)",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um terreno retangular tem comprimento 3 m maior que a largura. Sabendo que a área do terreno é 208 m², qual é a medida da largura?",
     "alternativas": [
       {
         "letra": "A",
@@ -1783,90 +321,22 @@
       },
       {
         "letra": "B",
-        "texto": "494 m"
+        "texto": "16 m"
       },
       {
         "letra": "C",
-        "texto": "17 m"
+        "texto": "13 m"
       },
       {
         "letra": "D",
-        "texto": "33 m"
+        "texto": "208 m"
       },
       {
         "letra": "E",
-        "texto": "26 m"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "Chamando a largura de x, temos x(x + 7) = 494, ou seja x² + 7x − 494 = 0. Resolvendo por Bhaskara, a raiz positiva é x = 19 m."
-  },
-  {
-    "id": "equacoes-ined-0285",
-    "categoriaId": "equacoes",
-    "subtopico": "Sistemas de Equações 2x2",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Na cantina de uma escola, 7 salgados e 5 sucos custam juntos R$ 251,00, enquanto 6 salgados e 8 sucos custam R$ 308,00. Qual é o preço de um suco?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "R$ 43,00"
-      },
-      {
-        "letra": "B",
-        "texto": "R$ 30,00"
-      },
-      {
-        "letra": "C",
-        "texto": "R$ 25,00"
-      },
-      {
-        "letra": "D",
-        "texto": "R$ 7,00"
-      },
-      {
-        "letra": "E",
-        "texto": "R$ 18,00"
+        "texto": "11 m"
       }
     ],
     "correta": "C",
-    "explicacao": "Resolvendo o sistema {7a + 5b = 251; 6a + 8b = 308} obtém-se o preço do salgado a = R$ 18,00 e do suco b = R$ 25,00."
-  },
-  {
-    "id": "equacoes-ined-0286",
-    "categoriaId": "equacoes",
-    "subtopico": "Equações Quadráticas (Bhaskara)",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um terreno retangular tem comprimento 7 m maior que a largura. Sabendo que a área do terreno é 198 m², qual é a medida da largura?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "9 m"
-      },
-      {
-        "letra": "B",
-        "texto": "11 m"
-      },
-      {
-        "letra": "C",
-        "texto": "198 m"
-      },
-      {
-        "letra": "D",
-        "texto": "18 m"
-      },
-      {
-        "letra": "E",
-        "texto": "25 m"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "Chamando a largura de x, temos x(x + 7) = 198, ou seja x² + 7x − 198 = 0. Resolvendo por Bhaskara, a raiz positiva é x = 11 m."
+    "explicacao": "Chamando a largura de x, temos x(x + 3) = 208, ou seja x² + 3x − 208 = 0. Resolvendo por Bhaskara, a raiz positiva é x = 13 m."
   }
 ]
