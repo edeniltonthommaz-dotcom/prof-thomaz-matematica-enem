@@ -115,6 +115,7 @@ export function makeQuestao({
   distractorTexts,
   explicacao,
   distratores,
+  diagrama,
 }) {
   const { alternativas, correta } = buildAlternativas(correctText, distractorTexts);
   return {
@@ -128,6 +129,7 @@ export function makeQuestao({
     correta,
     explicacao,
     ...(distratores ? { distratores } : {}),
+    ...(diagrama ? { diagrama } : {}),
   };
 }
 

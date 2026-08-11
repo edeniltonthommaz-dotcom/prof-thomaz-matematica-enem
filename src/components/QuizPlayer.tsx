@@ -4,6 +4,8 @@ import Link from "next/link";
 import { useState } from "react";
 import { Alternativa, Questao } from "@/lib/types";
 import DificuldadeBadge from "@/components/DificuldadeBadge";
+import SolidoDiagram from "@/components/SolidoDiagram";
+import GraficoDiagram from "@/components/GraficoDiagram";
 import { registrarResposta } from "@/lib/progress";
 
 export default function QuizPlayer({
@@ -75,6 +77,16 @@ export default function QuizPlayer({
             <figcaption className="mt-2 text-center text-xs text-slate-500">{questao.figura.legenda}</figcaption>
           )}
         </figure>
+      )}
+
+      {questao.diagrama && (
+        <div className="mb-6 rounded-lg border border-white/10 bg-white/[0.02] p-4">
+          {"categorias" in questao.diagrama ? (
+            <GraficoDiagram diagrama={questao.diagrama} />
+          ) : (
+            <SolidoDiagram diagrama={questao.diagrama} />
+          )}
+        </div>
       )}
 
       <div className="mb-6 flex flex-col gap-3">

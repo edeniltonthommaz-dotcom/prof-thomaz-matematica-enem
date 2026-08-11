@@ -7,31 +7,31 @@
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Um produto custava R$ 1.140,00. Após um aumento de 20%, a loja aplicou uma promoção com desconto de 20% sobre o novo preço. Qual o preço final do produto?",
+    "enunciado": "Um produto custava R$ 310,00. Após um aumento de 10%, a loja aplicou uma promoção com desconto de 10% sobre o novo preço. Qual o preço final do produto?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "R$ 1.140,00"
+        "texto": "R$ 307,91"
       },
       {
         "letra": "B",
-        "texto": "R$ 1.094,40"
+        "texto": "R$ 310,00"
       },
       {
         "letra": "C",
-        "texto": "R$ 1.368,00"
+        "texto": "R$ 306,91"
       },
       {
         "letra": "D",
-        "texto": "R$ 1.094,41"
+        "texto": "R$ 341,00"
       },
       {
         "letra": "E",
-        "texto": "R$ 2.094,41"
+        "texto": "R$ 306,90"
       }
     ],
-    "correta": "B",
-    "explicacao": "Após o aumento: R$ 1.140,00 × (1 + 20/100) = R$ 1.368,00. Aplicando o desconto: R$ 1.368,00 × (1 − 20/100) = R$ 1.094,40."
+    "correta": "E",
+    "explicacao": "Após o aumento: R$ 310,00 × (1 + 10/100) = R$ 341,00. Aplicando o desconto: R$ 341,00 × (1 − 10/100) = R$ 306,90."
   },
   {
     "id": "porcentagem-ined-0022",
@@ -41,31 +41,31 @@
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Um capital de R$ 8.300,00 foi aplicado a juros simples de 1% ao mês, durante 4 meses. Qual o montante (capital + juros) ao final do período?",
+    "enunciado": "Um capital de R$ 6.400,00 foi aplicado a juros simples de 2% ao mês, durante 3 meses. Qual o montante (capital + juros) ao final do período?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "R$ 332,00"
+        "texto": "R$ 6.912,00"
       },
       {
         "letra": "B",
-        "texto": "R$ 8.964,00"
+        "texto": "R$ 384,00"
       },
       {
         "letra": "C",
-        "texto": "R$ 8.300,00"
+        "texto": "R$ 7.168,00"
       },
       {
         "letra": "D",
-        "texto": "R$ 8.715,00"
+        "texto": "R$ 6.784,00"
       },
       {
         "letra": "E",
-        "texto": "R$ 8.632,00"
+        "texto": "R$ 6.400,00"
       }
     ],
-    "correta": "E",
-    "explicacao": "Juros = C × i × t = R$ 8.300,00 × 1/100 × 4 = R$ 332,00. Montante = Capital + Juros = R$ 8.300,00 + R$ 332,00 = R$ 8.632,00."
+    "correta": "D",
+    "explicacao": "Juros = C × i × t = R$ 6.400,00 × 2/100 × 3 = R$ 384,00. Montante = Capital + Juros = R$ 6.400,00 + R$ 384,00 = R$ 6.784,00."
   },
   {
     "id": "porcentagem-ined-0023",
@@ -75,31 +75,31 @@
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Um produto custava R$ 7.720,00. Após um aumento de 15%, a loja aplicou uma promoção com desconto de 5% sobre o novo preço. Qual o preço final do produto?",
+    "enunciado": "Um produto custava R$ 3.570,00. Após um aumento de 30%, a loja aplicou uma promoção com desconto de 5% sobre o novo preço. Qual o preço final do produto?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "R$ 7.720,00"
+        "texto": "R$ 4.462,50"
       },
       {
         "letra": "B",
-        "texto": "R$ 8.434,11"
+        "texto": "R$ 3.570,00"
       },
       {
         "letra": "C",
-        "texto": "R$ 8.492,00"
+        "texto": "R$ 4.408,96"
       },
       {
         "letra": "D",
-        "texto": "R$ 8.434,10"
+        "texto": "R$ 4.408,95"
       },
       {
         "letra": "E",
-        "texto": "R$ 8.878,00"
+        "texto": "R$ 4.641,00"
       }
     ],
     "correta": "D",
-    "explicacao": "Após o aumento: R$ 7.720,00 × (1 + 15/100) = R$ 8.878,00. Aplicando o desconto: R$ 8.878,00 × (1 − 5/100) = R$ 8.434,10."
+    "explicacao": "Após o aumento: R$ 3.570,00 × (1 + 30/100) = R$ 4.641,00. Aplicando o desconto: R$ 4.641,00 × (1 − 5/100) = R$ 4.408,95."
   },
   {
     "id": "porcentagem-ined-0024",
@@ -109,31 +109,31 @@
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Um capital de R$ 5.300,00 foi aplicado a juros simples de 1% ao mês, durante 10 meses. Qual o montante (capital + juros) ao final do período?",
+    "enunciado": "Um capital de R$ 8.300,00 foi aplicado a juros simples de 2.5% ao mês, durante 7 meses. Qual o montante (capital + juros) ao final do período?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "R$ 5.300,00"
+        "texto": "R$ 1.452,50"
       },
       {
         "letra": "B",
-        "texto": "R$ 5.883,00"
+        "texto": "R$ 8.300,00"
       },
       {
         "letra": "C",
-        "texto": "R$ 5.830,00"
+        "texto": "R$ 11.205,00"
       },
       {
         "letra": "D",
-        "texto": "R$ 530,00"
+        "texto": "R$ 9.752,50"
       },
       {
         "letra": "E",
-        "texto": "R$ 6.360,00"
+        "texto": "R$ 9.960,00"
       }
     ],
-    "correta": "C",
-    "explicacao": "Juros = C × i × t = R$ 5.300,00 × 1/100 × 10 = R$ 530,00. Montante = Capital + Juros = R$ 5.300,00 + R$ 530,00 = R$ 5.830,00."
+    "correta": "D",
+    "explicacao": "Juros = C × i × t = R$ 8.300,00 × 2.5/100 × 7 = R$ 1.452,50. Montante = Capital + Juros = R$ 8.300,00 + R$ 1.452,50 = R$ 9.752,50."
   },
   {
     "id": "porcentagem-ined-0025",
@@ -143,31 +143,31 @@
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Um produto custava R$ 3.440,00. Após um aumento de 18%, a loja aplicou uma promoção com desconto de 25% sobre o novo preço. Qual o preço final do produto?",
+    "enunciado": "Um produto custava R$ 1.640,00. Após um aumento de 22%, a loja aplicou uma promoção com desconto de 15% sobre o novo preço. Qual o preço final do produto?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "R$ 3.044,40"
+        "texto": "R$ 1.700,69"
       },
       {
         "letra": "B",
-        "texto": "R$ 3.440,00"
+        "texto": "R$ 1.640,00"
       },
       {
         "letra": "C",
-        "texto": "R$ 3.199,20"
+        "texto": "R$ 1.754,80"
       },
       {
         "letra": "D",
-        "texto": "R$ 4.059,20"
+        "texto": "R$ 2.000,80"
       },
       {
         "letra": "E",
-        "texto": "R$ 3.044,41"
+        "texto": "R$ 1.700,68"
       }
     ],
-    "correta": "A",
-    "explicacao": "Após o aumento: R$ 3.440,00 × (1 + 18/100) = R$ 4.059,20. Aplicando o desconto: R$ 4.059,20 × (1 − 25/100) = R$ 3.044,40."
+    "correta": "E",
+    "explicacao": "Após o aumento: R$ 1.640,00 × (1 + 22/100) = R$ 2.000,80. Aplicando o desconto: R$ 2.000,80 × (1 − 15/100) = R$ 1.700,68."
   },
   {
     "id": "porcentagem-ined-0026",
@@ -177,31 +177,31 @@
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Um capital de R$ 17.100,00 foi aplicado a juros simples de 2.5% ao mês, durante 17 meses. Qual o montante (capital + juros) ao final do período?",
+    "enunciado": "Um capital de R$ 12.600,00 foi aplicado a juros simples de 3% ao mês, durante 11 meses. Qual o montante (capital + juros) ao final do período?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "R$ 17.100,00"
+        "texto": "R$ 12.600,00"
       },
       {
         "letra": "B",
-        "texto": "R$ 7.267,50"
+        "texto": "R$ 20.916,00"
       },
       {
         "letra": "C",
-        "texto": "R$ 24.795,00"
+        "texto": "R$ 17.136,00"
       },
       {
         "letra": "D",
-        "texto": "R$ 24.367,50"
+        "texto": "R$ 16.758,00"
       },
       {
         "letra": "E",
-        "texto": "R$ 31.635,00"
+        "texto": "R$ 4.158,00"
       }
     ],
     "correta": "D",
-    "explicacao": "Juros = C × i × t = R$ 17.100,00 × 2.5/100 × 17 = R$ 7.267,50. Montante = Capital + Juros = R$ 17.100,00 + R$ 7.267,50 = R$ 24.367,50."
+    "explicacao": "Juros = C × i × t = R$ 12.600,00 × 3/100 × 11 = R$ 4.158,00. Montante = Capital + Juros = R$ 12.600,00 + R$ 4.158,00 = R$ 16.758,00."
   },
   {
     "id": "porcentagem-ined-0027",
@@ -211,31 +211,31 @@
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Um produto custava R$ 1.000,00. Após um aumento de 25%, a loja aplicou uma promoção com desconto de 20% sobre o novo preço. Qual o preço final do produto?",
+    "enunciado": "Um produto custava R$ 1.800,00. Após um aumento de 25%, a loja aplicou uma promoção com desconto de 10% sobre o novo preço. Qual o preço final do produto?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "R$ 1.000,01"
+        "texto": "R$ 2.250,00"
       },
       {
         "letra": "B",
-        "texto": "R$ 1.050,00"
+        "texto": "R$ 2.025,01"
       },
       {
         "letra": "C",
-        "texto": "R$ 2.000,01"
+        "texto": "R$ 1.800,00"
       },
       {
         "letra": "D",
-        "texto": "R$ 1.250,00"
+        "texto": "R$ 2.070,00"
       },
       {
         "letra": "E",
-        "texto": "R$ 1.000,00"
+        "texto": "R$ 2.025,00"
       }
     ],
     "correta": "E",
-    "explicacao": "Após o aumento: R$ 1.000,00 × (1 + 25/100) = R$ 1.250,00. Aplicando o desconto: R$ 1.250,00 × (1 − 20/100) = R$ 1.000,00."
+    "explicacao": "Após o aumento: R$ 1.800,00 × (1 + 25/100) = R$ 2.250,00. Aplicando o desconto: R$ 2.250,00 × (1 − 10/100) = R$ 2.025,00."
   },
   {
     "id": "porcentagem-ined-0028",
@@ -245,31 +245,31 @@
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Um capital de R$ 6.600,00 foi aplicado a juros simples de 1% ao mês, durante 3 meses. Qual o montante (capital + juros) ao final do período?",
+    "enunciado": "Um capital de R$ 8.500,00 foi aplicado a juros simples de 1% ao mês, durante 9 meses. Qual o montante (capital + juros) ao final do período?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "R$ 198,00"
+        "texto": "R$ 9.265,00"
       },
       {
         "letra": "B",
-        "texto": "R$ 6.996,00"
+        "texto": "R$ 10.030,00"
       },
       {
         "letra": "C",
-        "texto": "R$ 6.798,00"
+        "texto": "R$ 8.500,00"
       },
       {
         "letra": "D",
-        "texto": "R$ 6.600,00"
+        "texto": "R$ 765,00"
       },
       {
         "letra": "E",
-        "texto": "R$ 6.864,00"
+        "texto": "R$ 9.350,00"
       }
     ],
-    "correta": "C",
-    "explicacao": "Juros = C × i × t = R$ 6.600,00 × 1/100 × 3 = R$ 198,00. Montante = Capital + Juros = R$ 6.600,00 + R$ 198,00 = R$ 6.798,00."
+    "correta": "A",
+    "explicacao": "Juros = C × i × t = R$ 8.500,00 × 1/100 × 9 = R$ 765,00. Montante = Capital + Juros = R$ 8.500,00 + R$ 765,00 = R$ 9.265,00."
   },
   {
     "id": "porcentagem-ined-0029",
@@ -279,31 +279,31 @@
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Um produto custava R$ 3.430,00. Após um aumento de 22%, a loja aplicou uma promoção com desconto de 20% sobre o novo preço. Qual o preço final do produto?",
+    "enunciado": "Um produto custava R$ 6.070,00. Após um aumento de 15%, a loja aplicou uma promoção com desconto de 25% sobre o novo preço. Qual o preço final do produto?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "R$ 4.184,60"
+        "texto": "R$ 5.235,37"
       },
       {
         "letra": "B",
-        "texto": "R$ 3.498,60"
+        "texto": "R$ 5.463,00"
       },
       {
         "letra": "C",
-        "texto": "R$ 3.430,00"
+        "texto": "R$ 6.070,00"
       },
       {
         "letra": "D",
-        "texto": "R$ 3.347,68"
+        "texto": "R$ 6.980,50"
       },
       {
         "letra": "E",
-        "texto": "R$ 3.347,69"
+        "texto": "R$ 5.235,39"
       }
     ],
-    "correta": "D",
-    "explicacao": "Após o aumento: R$ 3.430,00 × (1 + 22/100) = R$ 4.184,60. Aplicando o desconto: R$ 4.184,60 × (1 − 20/100) = R$ 3.347,68."
+    "correta": "A",
+    "explicacao": "Após o aumento: R$ 6.070,00 × (1 + 15/100) = R$ 6.980,50. Aplicando o desconto: R$ 6.980,50 × (1 − 25/100) = R$ 5.235,37."
   },
   {
     "id": "porcentagem-ined-0030",
@@ -313,30 +313,30 @@
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Um capital de R$ 3.000,00 foi aplicado a juros simples de 5% ao mês, durante 10 meses. Qual o montante (capital + juros) ao final do período?",
+    "enunciado": "Um capital de R$ 9.600,00 foi aplicado a juros simples de 1% ao mês, durante 7 meses. Qual o montante (capital + juros) ao final do período?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "R$ 6.000,00"
+        "texto": "R$ 10.272,00"
       },
       {
         "letra": "B",
-        "texto": "R$ 4.500,00"
+        "texto": "R$ 672,00"
       },
       {
         "letra": "C",
-        "texto": "R$ 1.500,00"
+        "texto": "R$ 10.368,00"
       },
       {
         "letra": "D",
-        "texto": "R$ 4.650,00"
+        "texto": "R$ 10.944,00"
       },
       {
         "letra": "E",
-        "texto": "R$ 3.000,00"
+        "texto": "R$ 9.600,00"
       }
     ],
-    "correta": "B",
-    "explicacao": "Juros = C × i × t = R$ 3.000,00 × 5/100 × 10 = R$ 1.500,00. Montante = Capital + Juros = R$ 3.000,00 + R$ 1.500,00 = R$ 4.500,00."
+    "correta": "A",
+    "explicacao": "Juros = C × i × t = R$ 9.600,00 × 1/100 × 7 = R$ 672,00. Montante = Capital + Juros = R$ 9.600,00 + R$ 672,00 = R$ 10.272,00."
   }
 ]

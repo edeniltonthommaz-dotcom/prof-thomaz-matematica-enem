@@ -27,6 +27,20 @@ export interface Figura {
   legenda?: string;
 }
 
+export type DiagramaSolido =
+  | { tipo: "paralelepipedo"; comprimento: number; largura: number; altura: number; unidade: string }
+  | { tipo: "cilindro"; raio: number; altura: number; unidade: string }
+  | { tipo: "cone"; raio: number; altura: number; unidade: string }
+  | { tipo: "piramide"; ladoBase: number; altura: number; unidade: string }
+  | { tipo: "esfera"; raio: number; unidade: string }
+  | { tipo: "planificacao-caixa"; comprimento: number; largura: number; altura: number; unidade: string };
+
+export type DiagramaGrafico =
+  | { tipo: "barras"; titulo?: string; eixoY?: string; categorias: string[]; valores: number[] }
+  | { tipo: "pizza"; titulo?: string; categorias: string[]; valores: number[] };
+
+export type Diagrama = DiagramaSolido | DiagramaGrafico;
+
 export interface Questao {
   id: string;
   categoriaId: string;
@@ -36,6 +50,8 @@ export interface Questao {
   enunciado: string;
   /** Print de figura/gráfico/imagem do enunciado, quando não é possível recriar com fidelidade em texto */
   figura?: Figura;
+  /** Diagrama (sólido geométrico ou gráfico) renderizado como SVG a partir de dados estruturados */
+  diagrama?: Diagrama;
   alternativas: Alternativa[];
   correta: Alternativa["letra"];
   explicacao: string;

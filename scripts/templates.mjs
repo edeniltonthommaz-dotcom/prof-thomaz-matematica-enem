@@ -487,6 +487,7 @@ function geoVolumePrisma(dificuldade) {
     correctText,
     distractorTexts,
     explicacao: `Volume = comprimento × largura × altura = ${comp} × ${larg} × ${alt} = ${volumeM3} m³. Convertendo para litros (×1000): ${correctText}.`,
+    diagrama: { tipo: "paralelepipedo", comprimento: comp, largura: larg, altura: alt, unidade: "m" },
   });
 }
 
@@ -504,12 +505,108 @@ function geoVolumeCilindro(dificuldade) {
   ];
   return makeQuestao({
     categoriaId: "geometria-espacial",
-    subtopico: "Cones e Pirâmides",
+    subtopico: "Prismas e Cilindros",
     dificuldade,
     enunciado: `Uma lata cilíndrica tem raio da base igual a ${raio} cm e altura igual a ${altura} cm. Usando π ≈ 22/7, qual é o volume aproximado dessa lata?`,
     correctText,
     distractorTexts,
     explicacao: `Volume do cilindro = π × r² × h ≈ (22/7) × ${raio}² × ${altura} = ${correctText}.`,
+    diagrama: { tipo: "cilindro", raio, altura, unidade: "cm" },
+  });
+}
+
+function geoVolumeCone(dificuldade) {
+  const raio = pick(dificuldade === "dificil" ? [7, 14, 21] : [7, 14]);
+  const altura = randInt(dificuldade === "facil" ? 3 : 6, dificuldade === "dificil" ? 21 : 14);
+  const piAprox = 22 / 7;
+  const volume = Math.round((1 / 3) * piAprox * raio * raio * altura);
+  const correctText = `${volume.toLocaleString("pt-BR")} cm³`;
+  const distractorTexts = [
+    `${Math.round(piAprox * raio * raio * altura).toLocaleString("pt-BR")} cm³`,
+    `${Math.round((1 / 3) * piAprox * raio * altura).toLocaleString("pt-BR")} cm³`,
+    `${Math.round((2 / 3) * piAprox * raio * raio * altura).toLocaleString("pt-BR")} cm³`,
+    `${(raio * raio * altura).toLocaleString("pt-BR")} cm³`,
+  ];
+  return makeQuestao({
+    categoriaId: "geometria-espacial",
+    subtopico: "Cones e Pirâmides",
+    dificuldade,
+    enunciado: `Um chapéu de festa tem o formato de um cone com raio da base igual a ${raio} cm e altura igual a ${altura} cm. Usando π ≈ 22/7, qual é o volume aproximado desse cone?`,
+    correctText,
+    distractorTexts,
+    explicacao: `Volume do cone = (1/3) × π × r² × h ≈ (1/3) × (22/7) × ${raio}² × ${altura} = ${correctText}.`,
+    diagrama: { tipo: "cone", raio, altura, unidade: "cm" },
+  });
+}
+
+function geoVolumePiramide(dificuldade) {
+  const ladoBase = pick(dificuldade === "dificil" ? [6, 8, 10, 12] : [4, 6, 8]);
+  const altura = randInt(dificuldade === "facil" ? 3 : 6, dificuldade === "dificil" ? 18 : 12);
+  const areaBase = ladoBase * ladoBase;
+  const volume = Math.round((1 / 3) * areaBase * altura);
+  const correctText = `${volume.toLocaleString("pt-BR")} cm³`;
+  const distractorTexts = [
+    `${(areaBase * altura).toLocaleString("pt-BR")} cm³`,
+    `${Math.round((1 / 3) * ladoBase * altura).toLocaleString("pt-BR")} cm³`,
+    `${Math.round((2 / 3) * areaBase * altura).toLocaleString("pt-BR")} cm³`,
+    `${(ladoBase * altura).toLocaleString("pt-BR")} cm³`,
+  ];
+  return makeQuestao({
+    categoriaId: "geometria-espacial",
+    subtopico: "Cones e Pirâmides",
+    dificuldade,
+    enunciado: `Uma pirâmide de base quadrada tem lado da base igual a ${ladoBase} cm e altura igual a ${altura} cm. Qual é o volume dessa pirâmide?`,
+    correctText,
+    distractorTexts,
+    explicacao: `Área da base = ${ladoBase}² = ${areaBase} cm². Volume = (1/3) × área da base × altura = (1/3) × ${areaBase} × ${altura} = ${correctText}.`,
+    diagrama: { tipo: "piramide", ladoBase, altura, unidade: "cm" },
+  });
+}
+
+function geoEsfera(dificuldade) {
+  const raio = pick(dificuldade === "dificil" ? [3, 6, 9, 12] : [3, 6, 9]);
+  const piAprox = 3;
+  const volume = Math.round((4 / 3) * piAprox * Math.pow(raio, 3));
+  const correctText = `${volume.toLocaleString("pt-BR")} cm³`;
+  const distractorTexts = [
+    `${Math.round(piAprox * Math.pow(raio, 3)).toLocaleString("pt-BR")} cm³`,
+    `${Math.round((2 / 3) * piAprox * Math.pow(raio, 3)).toLocaleString("pt-BR")} cm³`,
+    `${Math.round(4 * piAprox * raio * raio).toLocaleString("pt-BR")} cm³`,
+    `${Math.round(volume / 2).toLocaleString("pt-BR")} cm³`,
+  ];
+  return makeQuestao({
+    categoriaId: "geometria-espacial",
+    subtopico: "Esferas",
+    dificuldade,
+    enunciado: `Uma bola de borracha tem formato esférico com raio igual a ${raio} cm. Usando π ≈ 3, qual é o volume aproximado dessa bola?`,
+    correctText,
+    distractorTexts,
+    explicacao: `Volume da esfera = (4/3) × π × r³ ≈ (4/3) × 3 × ${raio}³ = ${correctText}.`,
+    diagrama: { tipo: "esfera", raio, unidade: "cm" },
+  });
+}
+
+function geoPlanificacaoCaixa(dificuldade) {
+  const comp = randInt(dificuldade === "facil" ? 3 : 5, dificuldade === "dificil" ? 20 : 12);
+  const larg = randInt(dificuldade === "facil" ? 2 : 3, dificuldade === "dificil" ? 15 : 8);
+  const alt = randInt(dificuldade === "facil" ? 2 : 3, dificuldade === "dificil" ? 10 : 6);
+  const areaTotal = 2 * (comp * larg + comp * alt + larg * alt);
+  const correctText = `${areaTotal.toLocaleString("pt-BR")} cm²`;
+  const distractorTexts = [
+    `${(comp * larg * alt).toLocaleString("pt-BR")} cm²`,
+    `${(comp * larg + comp * alt + larg * alt).toLocaleString("pt-BR")} cm²`,
+    `${Math.round(areaTotal / 2).toLocaleString("pt-BR")} cm²`,
+    `${(2 * comp * larg).toLocaleString("pt-BR")} cm²`,
+  ];
+  return makeQuestao({
+    categoriaId: "geometria-espacial",
+    subtopico: "Planificações",
+    dificuldade,
+    enunciado: `A planificação de uma caixa em formato de paralelepípedo retângulo tem 6 retângulos: duas faces de ${comp} cm × ${larg} cm, duas faces de ${comp} cm × ${alt} cm e duas faces de ${larg} cm × ${alt} cm. Qual é a área total da planificação dessa caixa?`,
+    correctText,
+    distractorTexts,
+    explicacao: `Área total = 2×(comprimento×largura + comprimento×altura + largura×altura) = 2×(${comp}×${larg} + ${comp}×${alt} + ${larg}×${alt}) = 2×(${comp * larg} + ${comp * alt} + ${larg * alt}) = ${correctText}.`,
+    diagrama: { tipo: "planificacao-caixa", comprimento: comp, largura: larg, altura: alt, unidade: "cm" },
   });
 }
 
@@ -607,6 +704,94 @@ function estMediana(dificuldade) {
     correctText,
     distractorTexts,
     explicacao: `Ordenando os valores: ${valores.join(", ")}. Como há ${n} valores (ímpar), a mediana é o valor central, ou seja, ${correctText}.`,
+  });
+}
+
+const CONTEXTOS_GRAFICO = [
+  { titulo: "Alunos matriculados por curso", eixoY: "Alunos", unidade: "alunos", categorias: ["Matemática", "Física", "Química", "Biologia", "História"] },
+  { titulo: "Vendas mensais de uma loja (unidades)", eixoY: "Unidades vendidas", unidade: "unidades", categorias: ["Janeiro", "Fevereiro", "Março", "Abril", "Maio"] },
+  { titulo: "Livros emprestados por gênero", eixoY: "Livros", unidade: "livros", categorias: ["Romance", "Ficção", "História", "Poesia", "Biografia"] },
+  { titulo: "Ingressos vendidos por modalidade esportiva", eixoY: "Ingressos", unidade: "ingressos", categorias: ["Futebol", "Vôlei", "Basquete", "Natação", "Atletismo"] },
+];
+
+function estLeituraGraficoDiferenca(dificuldade) {
+  const contexto = pick(CONTEXTOS_GRAFICO);
+  const n = dificuldade === "dificil" ? 5 : 4;
+  const categorias = contexto.categorias.slice(0, n);
+  const min = dificuldade === "facil" ? 10 : 20;
+  const max = dificuldade === "dificil" ? 90 : 60;
+  const valores = categorias.map(() => randInt(min, max));
+  const maiorValor = Math.max(...valores);
+  const menorValor = Math.min(...valores);
+  const diferenca = maiorValor - menorValor;
+  const correctText = `${diferenca} ${contexto.unidade}`;
+  const distractorTexts = [
+    `${maiorValor} ${contexto.unidade}`,
+    `${menorValor} ${contexto.unidade}`,
+    `${diferenca + 5} ${contexto.unidade}`,
+    `${valores.reduce((a, b) => a + b, 0)} ${contexto.unidade}`,
+  ];
+  return makeQuestao({
+    categoriaId: "estatistica",
+    subtopico: "Leitura de Gráficos e Tabelas",
+    dificuldade,
+    enunciado: `O gráfico mostra ${contexto.titulo.toLowerCase()}. Qual é a diferença entre o maior e o menor valor mostrados no gráfico?`,
+    correctText,
+    distractorTexts,
+    explicacao: `O maior valor no gráfico é ${maiorValor} ${contexto.unidade} e o menor é ${menorValor} ${contexto.unidade}. Diferença: ${maiorValor} − ${menorValor} = ${correctText}.`,
+    diagrama: { tipo: "barras", titulo: contexto.titulo, eixoY: contexto.eixoY, categorias, valores },
+  });
+}
+
+function estLeituraGraficoTotal(dificuldade) {
+  const contexto = pick(CONTEXTOS_GRAFICO);
+  const n = dificuldade === "dificil" ? 5 : 4;
+  const categorias = contexto.categorias.slice(0, n);
+  const min = dificuldade === "facil" ? 10 : 20;
+  const max = dificuldade === "dificil" ? 90 : 60;
+  const valores = categorias.map(() => randInt(min, max));
+  const total = valores.reduce((a, b) => a + b, 0);
+  const correctText = `${total} ${contexto.unidade}`;
+  const distractorTexts = [
+    `${total - Math.max(...valores)} ${contexto.unidade}`,
+    `${total + 10} ${contexto.unidade}`,
+    `${Math.round(total / n)} ${contexto.unidade}`,
+    `${Math.max(...valores)} ${contexto.unidade}`,
+  ];
+  return makeQuestao({
+    categoriaId: "estatistica",
+    subtopico: "Leitura de Gráficos e Tabelas",
+    dificuldade,
+    enunciado: `O gráfico mostra ${contexto.titulo.toLowerCase()}. Somando todas as categorias mostradas no gráfico, qual é o total?`,
+    correctText,
+    distractorTexts,
+    explicacao: `Somando os valores de todas as categorias: ${valores.join(" + ")} = ${correctText}.`,
+    diagrama: { tipo: "barras", titulo: contexto.titulo, eixoY: contexto.eixoY, categorias, valores },
+  });
+}
+
+function estLeituraGraficoPercentual(dificuldade) {
+  const contexto = pick(CONTEXTOS_GRAFICO);
+  const n = dificuldade === "dificil" ? 5 : 4;
+  const categorias = contexto.categorias.slice(0, n);
+  const min = dificuldade === "facil" ? 10 : 20;
+  const max = dificuldade === "dificil" ? 90 : 60;
+  const valores = categorias.map(() => randInt(min, max));
+  const total = valores.reduce((a, b) => a + b, 0);
+  const maiorValor = Math.max(...valores);
+  const catMaior = categorias[valores.indexOf(maiorValor)];
+  const percentual = Math.round((maiorValor / total) * 100);
+  const correctText = pct(percentual);
+  const distractorTexts = [pct(Math.round(((total - maiorValor) / total) * 100)), pct(50), pct(Math.round(percentual / 2))];
+  return makeQuestao({
+    categoriaId: "estatistica",
+    subtopico: "Leitura de Gráficos e Tabelas",
+    dificuldade,
+    enunciado: `O gráfico mostra ${contexto.titulo.toLowerCase()}. A categoria "${catMaior}" corresponde a aproximadamente qual percentual do total mostrado no gráfico?`,
+    correctText,
+    distractorTexts,
+    explicacao: `Total de todas as categorias: ${valores.join(" + ")} = ${total}. A categoria "${catMaior}" tem ${maiorValor} ${contexto.unidade}. Percentual: (${maiorValor} ÷ ${total}) × 100 ≈ ${correctText}.`,
+    diagrama: { tipo: "barras", titulo: contexto.titulo, eixoY: contexto.eixoY, categorias, valores },
   });
 }
 
@@ -879,10 +1064,10 @@ export const TEMPLATES = {
   "exponenciais-logaritmos": [expCrescimento, expMeiaVida],
   progressoes: [progPA, progPG],
   "geometria-plana": [geoAreaPerimetro, geoPitagoras],
-  "geometria-espacial": [geoVolumePrisma, geoVolumeCilindro],
+  "geometria-espacial": [geoVolumePrisma, geoVolumeCilindro, geoVolumeCone, geoVolumePiramide, geoEsfera, geoPlanificacaoCaixa],
   "geometria-analitica": [geoDistanciaPontos, geoEquacaoReta],
   trigonometria: [trigTrianguloRetangulo],
-  estatistica: [estMedia, estMediana],
+  estatistica: [estMedia, estMediana, estLeituraGraficoDiferenca, estLeituraGraficoTotal, estLeituraGraficoPercentual],
   probabilidade: [probSimples, probSucessiva],
   "analise-combinatoria": [combMultiplicativo, combComissao],
   "matematica-financeira": [finJurosCompostos],
