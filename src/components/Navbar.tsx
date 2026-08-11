@@ -20,10 +20,13 @@ export default function Navbar() {
             className="h-10 w-auto"
             priority
           />
-          <span className="block text-[11px] leading-tight text-slate-400">
-            Matemática ENEM
-            <br />
-            1000+ questões
+          <span className="block leading-tight">
+            <span className="block text-sm font-semibold text-white">Prof. Thomaz</span>
+            <span className="block text-[11px] text-slate-400">
+              Matemática ENEM
+              <br />
+              1000+ questões
+            </span>
           </span>
         </Link>
         <nav className="flex gap-1 text-sm">
