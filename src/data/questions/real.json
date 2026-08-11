@@ -3466,5 +3466,857 @@
     ],
     "correta": "D",
     "explicacao": "1 pé = 0,9144/3 = 0,3048 metro = 30,48 cm. Em polegadas: 30,48/2,54 = 12."
+  },
+  {
+    "id": "enem-2014-165",
+    "categoriaId": "numeros",
+    "subtopico": "MDC e MMC",
+    "dificuldade": "dificil",
+    "fonte": { "tipo": "enem", "ano": 2014, "descricao": "ENEM 2014, 2º dia, Caderno 5 (Amarelo), questão 165", "url": "https://download.inep.gov.br/educacao_basica/enem/provas/2014/2014_PV_impresso_D2_CD5.pdf" },
+    "enunciado": "Um número N é dado pela expressão 2^x · 5^y · 7^z, em que x, y e z são inteiros não negativos. Sabe-se que N é múltiplo de 10 e não é múltiplo de 7. O número de divisores de N, diferentes de N, é",
+    "alternativas": [
+      { "letra": "A", "texto": "x·y·z" },
+      { "letra": "B", "texto": "(x+1)·(y+1)" },
+      { "letra": "C", "texto": "x·y·z − 1" },
+      { "letra": "D", "texto": "(x+1)·(y+1)·z" },
+      { "letra": "E", "texto": "(x+1)·(y+1) − 1" }
+    ],
+    "correta": "E",
+    "explicacao": "N múltiplo de 10=2·5 exige x≥1 e y≥1. N não múltiplo de 7 exige z=0, logo N=2^x·5^y. O número total de divisores de N é (x+1)(y+1)(z+1)=(x+1)(y+1). Excluindo o próprio N (que é um dos seus divisores), restam (x+1)(y+1) − 1 divisores diferentes de N."
+  },
+  {
+    "id": "enem-2015-146",
+    "categoriaId": "numeros",
+    "subtopico": "MDC e MMC",
+    "dificuldade": "dificil",
+    "fonte": { "tipo": "enem", "ano": 2015, "descricao": "ENEM 2015, 2º dia, Caderno 5 (Amarelo), questão 146", "url": "https://download.inep.gov.br/educacao_basica/enem/provas/2015/CAD_ENEM 2015_DIA 2_05_AMARELO.pdf" },
+    "enunciado": "Um arquiteto dispõe de 40 tábuas de 540cm, 30 de 810cm e 10 de 1.080cm, todas da mesma largura e espessura. Pediu a um carpinteiro que cortasse todas em pedaços de mesmo comprimento, sem sobras, com o maior tamanho possível, mas menor que 2 metros. Quantas peças serão produzidas ao todo?",
+    "alternativas": [
+      { "letra": "A", "texto": "105 peças." },
+      { "letra": "B", "texto": "120 peças." },
+      { "letra": "C", "texto": "210 peças." },
+      { "letra": "D", "texto": "243 peças." },
+      { "letra": "E", "texto": "420 peças." }
+    ],
+    "correta": "E",
+    "explicacao": "O MDC(540, 810, 1080) = 270 cm, mas isso excede o limite de 200 cm. O maior divisor de 270 menor que 200 é 135 cm. Peças: 540/135=4 (×40 tábuas=160); 810/135=6 (×30=180); 1080/135=8 (×10=80). Total: 160+180+80=420 peças."
+  },
+  {
+    "id": "enem-2015-153",
+    "categoriaId": "numeros",
+    "subtopico": "Notação Científica e Escalas",
+    "dificuldade": "medio",
+    "fonte": { "tipo": "enem", "ano": 2015, "descricao": "ENEM 2015, 2º dia, Caderno 5 (Amarelo), questão 153", "url": "https://download.inep.gov.br/educacao_basica/enem/provas/2015/CAD_ENEM 2015_DIA 2_05_AMARELO.pdf" },
+    "enunciado": "As exportações de soja do Brasil totalizaram 4,129 milhões de toneladas em julho de 2012. Qual é essa quantidade em quilogramas, em notação científica?",
+    "alternativas": [
+      { "letra": "A", "texto": "4,129 × 10³" },
+      { "letra": "B", "texto": "4,129 × 10⁶" },
+      { "letra": "C", "texto": "4,129 × 10⁹" },
+      { "letra": "D", "texto": "4,129 × 10¹²" },
+      { "letra": "E", "texto": "4,129 × 10¹⁵" }
+    ],
+    "correta": "C",
+    "explicacao": "4,129 milhões de toneladas = 4,129×10⁶ toneladas. Como 1 tonelada = 10³ kg, o total em kg é 4,129×10⁶×10³ = 4,129×10⁹ kg."
+  },
+  {
+    "id": "enem-2015-160",
+    "categoriaId": "numeros",
+    "subtopico": "MDC e MMC",
+    "dificuldade": "dificil",
+    "fonte": { "tipo": "enem", "ano": 2015, "descricao": "ENEM 2015, 2º dia, Caderno 5 (Amarelo), questão 160", "url": "https://download.inep.gov.br/educacao_basica/enem/provas/2015/CAD_ENEM 2015_DIA 2_05_AMARELO.pdf" },
+    "enunciado": "Um cinema distribuirá 400 ingressos para uma sessão vespertina e 320 para uma noturna. Cada escola recebe ingressos de uma única sessão, todas as escolas contempladas recebem o mesmo número de ingressos, e não pode haver sobra. Qual é o número mínimo de escolas que podem ser escolhidas?",
+    "alternativas": [
+      { "letra": "A", "texto": "2." },
+      { "letra": "B", "texto": "4." },
+      { "letra": "C", "texto": "9." },
+      { "letra": "D", "texto": "40." },
+      { "letra": "E", "texto": "80." }
+    ],
+    "correta": "C",
+    "explicacao": "Para minimizar o número de escolas, cada uma deve receber o maior número possível de ingressos, que deve dividir tanto 400 quanto 320: MDC(400,320)=80. Número de escolas: 400/80 + 320/80 = 5+4=9."
+  },
+  {
+    "id": "enem-2015-169",
+    "categoriaId": "numeros",
+    "subtopico": "Operações com Frações",
+    "dificuldade": "facil",
+    "fonte": { "tipo": "enem", "ano": 2015, "descricao": "ENEM 2015, 2º dia, Caderno 5 (Amarelo), questão 169", "url": "https://download.inep.gov.br/educacao_basica/enem/provas/2015/CAD_ENEM 2015_DIA 2_05_AMARELO.pdf" },
+    "enunciado": "Uma loja tem lentes de espessura: 3,10mm; 3,021mm; 2,96mm; 2,099mm; 3,07mm. Qual espessura está mais próxima de 3mm?",
+    "alternativas": [
+      { "letra": "A", "texto": "2,099." },
+      { "letra": "B", "texto": "2,96." },
+      { "letra": "C", "texto": "3,021." },
+      { "letra": "D", "texto": "3,07." },
+      { "letra": "E", "texto": "3,10." }
+    ],
+    "correta": "C",
+    "explicacao": "Diferenças em relação a 3: |3,10−3|=0,10; |3,021−3|=0,021; |2,96−3|=0,04; |2,099−3|=0,901; |3,07−3|=0,07. A menor diferença é a de 3,021mm."
+  },
+  {
+    "id": "enem-2015-172",
+    "categoriaId": "numeros",
+    "subtopico": "MDC e MMC",
+    "dificuldade": "medio",
+    "fonte": { "tipo": "enem", "ano": 2015, "descricao": "ENEM 2015, 2º dia, Caderno 5 (Amarelo), questão 172", "url": "https://download.inep.gov.br/educacao_basica/enem/provas/2015/CAD_ENEM 2015_DIA 2_05_AMARELO.pdf" },
+    "enunciado": "Uma paciente deve beber 1 copo de 150 mL a cada meia hora, durante 10 horas antes de um exame. Ela decide comprar duas garrafas do MESMO tipo, de modo a consumir exatamente todo o líquido das duas garrafas. Tipos disponíveis: I) 0,15L; II) 0,30L; III) 0,75L; IV) 1,50L; V) 3,00L. Qual tipo ela deve escolher?",
+    "alternativas": [
+      { "letra": "A", "texto": "I" },
+      { "letra": "B", "texto": "II" },
+      { "letra": "C", "texto": "III" },
+      { "letra": "D", "texto": "IV" },
+      { "letra": "E", "texto": "V" }
+    ],
+    "correta": "D",
+    "explicacao": "Total necessário: 20 copos (10h ÷ 0,5h) × 150mL = 3.000mL = 3L. Duas garrafas do mesmo tipo devem somar exatamente 3L, ou seja, cada uma deve ter 1,5L — o tipo IV."
+  },
+  {
+    "id": "enem-2016-158",
+    "categoriaId": "numeros",
+    "subtopico": "Potenciação e Radiciação",
+    "dificuldade": "medio",
+    "fonte": { "tipo": "enem", "ano": 2016, "descricao": "ENEM 2016, 2º dia, Caderno 5 (Amarelo), questão 158", "url": "https://download.inep.gov.br/educacao_basica/enem/provas/2016/2016_PV_impresso_D2_CD5.pdf" },
+    "enunciado": "O ábaco é um antigo instrumento de cálculo que usa notação posicional de base dez para representar números naturais. Ele pode ser apresentado em vários modelos, um deles é formado por hastes apoiadas em uma base. Cada haste corresponde a uma posição no sistema decimal e nelas são colocadas argolas; a quantidade de argolas na haste representa o algarismo daquela posição. Em geral, colocam-se adesivos abaixo das hastes com os símbolos U, D, C, M, DM e CM que correspondem, respectivamente, a unidades, dezenas, centenas, unidades de milhar, dezenas de milhar e centenas de milhar, sempre começando com a unidade na haste da direita e as demais ordens do número no sistema decimal nas hastes subsequentes (da direita para esquerda), até a haste que se encontra mais à esquerda. Entretanto, no ábaco da figura, os adesivos não seguiram a disposição usual.",
+    "figura": { "src": "/figuras/enem-2016-158-abaco.png", "alt": "Ábaco com seis hastes rotuladas, da esquerda para a direita, U, CM, D, M, C e DM, com quantidades de argolas 1, 4, 7, 0, 1 e 6, respectivamente", "legenda": "Ábaco com rótulos fora da disposição usual (ENEM 2016)" },
+    "alternativas": [
+      { "letra": "A", "texto": "46 171." },
+      { "letra": "B", "texto": "147 016." },
+      { "letra": "C", "texto": "171 064." },
+      { "letra": "D", "texto": "460 171." },
+      { "letra": "E", "texto": "610 741." }
+    ],
+    "correta": "D",
+    "explicacao": "Contando as argolas em cada haste: U=1, CM=4, D=7, M=0, C=1, DM=6. Como CM=centena de milhar (10⁵), DM=dezena de milhar (10⁴), M=milhar (10³), C=centena (10²), D=dezena (10¹) e U=unidade (10⁰), o número é 4·10⁵+6·10⁴+0·10³+1·10²+7·10¹+1 = 460.171."
+  },
+  {
+    "id": "enem-2016-170",
+    "categoriaId": "numeros",
+    "subtopico": "MDC e MMC",
+    "dificuldade": "dificil",
+    "fonte": { "tipo": "enem", "ano": 2016, "descricao": "ENEM 2016, 2º dia, Caderno 5 (Amarelo), questão 170", "url": "https://download.inep.gov.br/educacao_basica/enem/provas/2016/2016_PV_impresso_D2_CD5.pdf" },
+    "enunciado": "Sob a orientação de um mestre de obras, João e Pedro trabalharam na reforma de um edifício. João efetuou reparos na parte hidráulica nos andares 1, 3, 5, 7, e assim sucessivamente, de dois em dois andares. Pedro trabalhou na parte elétrica nos andares 1, 4, 7, 10, e assim sucessivamente, de três em três andares. Coincidentemente, terminaram seus trabalhos no último andar. Na conclusão da reforma, o mestre de obras informou, em seu relatório, o número de andares do edifício. Sabe-se que, ao longo da execução da obra, em exatamente 20 andares, foram realizados reparos nas partes hidráulica e elétrica por João e Pedro. Qual é o número de andares desse edifício?",
+    "alternativas": [
+      { "letra": "A", "texto": "40" },
+      { "letra": "B", "texto": "60" },
+      { "letra": "C", "texto": "100" },
+      { "letra": "D", "texto": "115" },
+      { "letra": "E", "texto": "120" }
+    ],
+    "correta": "D",
+    "explicacao": "Os andares atendidos por ambos formam uma sequência com razão MMC(2,3)=6, começando em 1: 1, 7, 13, ..., já que o último andar do prédio foi atendido por ambos. Se há 20 termos nessa sequência até o último andar N, então N = 1 + 6·(20−1) = 1 + 114 = 115."
+  },
+  {
+    "id": "enem-2016-177",
+    "categoriaId": "numeros",
+    "subtopico": "Operações com Frações",
+    "dificuldade": "medio",
+    "fonte": { "tipo": "enem", "ano": 2016, "descricao": "ENEM 2016, 2º dia, Caderno 5 (Amarelo), questão 177", "url": "https://download.inep.gov.br/educacao_basica/enem/provas/2016/2016_PV_impresso_D2_CD5.pdf" },
+    "enunciado": "A London Eye é uma enorme roda-gigante na capital inglesa. Por ser um dos monumentos construídos para celebrar a entrada do terceiro milênio, ela também é conhecida como Roda do Milênio. Um turista brasileiro, em visita à Inglaterra, perguntou a um londrino o diâmetro da Roda do Milênio e ele respondeu que ele tem 443 pés. Não habituado com a unidade pé, e querendo satisfazer sua curiosidade, esse turista consultou um manual de unidades de medidas e constatou que 1 pé equivale a 12 polegadas, e que 1 polegada equivale a 2,54 cm. Após alguns cálculos de conversão, o turista ficou surpreendido com o resultado obtido em metros. Qual a medida que mais se aproxima do diâmetro da Roda do Milênio, em metro?",
+    "alternativas": [
+      { "letra": "A", "texto": "53" },
+      { "letra": "B", "texto": "94" },
+      { "letra": "C", "texto": "113" },
+      { "letra": "D", "texto": "135" },
+      { "letra": "E", "texto": "145" }
+    ],
+    "correta": "D",
+    "explicacao": "443 pés × 12 polegadas/pé = 5.316 polegadas. 5.316 × 2,54 cm = 13.502,64 cm = 135,0264 m, valor mais próximo de 135 m."
+  },
+  {
+    "id": "enem-2013-163",
+    "categoriaId": "numeros",
+    "subtopico": "Números Decimais",
+    "dificuldade": "facil",
+    "fonte": { "tipo": "enem", "ano": 2013, "descricao": "ENEM 2013, 2º dia, Caderno 5 (Amarelo), questão 163", "url": "https://download.inep.gov.br/educacao_basica/enem/provas/2013/2013_PV_impresso_D2_CD5.pdf" },
+    "enunciado": "Nos Estados Unidos a unidade de medida de volume mais utilizada em latas de refrigerante é a onça fluida (fl oz), que equivale a aproximadamente 2,95 centilitros (cL). Sabe-se que o centilitro é a centésima parte do litro e que a lata de refrigerante usualmente comercializada no Brasil tem capacidade de 355 mL. Assim, a medida do volume da lata de refrigerante de 355 mL, em onça fluida (fl oz), é mais próxima de",
+    "alternativas": [
+      { "letra": "A", "texto": "0,83." },
+      { "letra": "B", "texto": "1,20." },
+      { "letra": "C", "texto": "12,03." },
+      { "letra": "D", "texto": "104,73." },
+      { "letra": "E", "texto": "120,34." }
+    ],
+    "correta": "C",
+    "explicacao": "355 mL = 35,5 cL (pois 1 cL = 10 mL). Dividindo por 2,95 cL/fl oz: 35,5 ÷ 2,95 ≈ 12,03 fl oz."
+  },
+  {
+    "id": "enem-2012-157",
+    "categoriaId": "numeros",
+    "subtopico": "Operações com Frações",
+    "dificuldade": "medio",
+    "fonte": { "tipo": "enem", "ano": 2012, "descricao": "ENEM 2012, 2º dia, Caderno 5 (Amarelo), questão 157", "url": "https://download.inep.gov.br/educacao_basica/enem/provas/2012/2012_PV_impresso_D2_CD5.pdf" },
+    "enunciado": "João decidiu contratar os serviços de uma empresa por telefone através do SAC (Serviço de Atendimento ao Consumidor). O atendente ditou para João o número de protocolo de atendimento da ligação e pediu que ele anotasse. Entretanto, João não entendeu um dos algarismos ditados pelo atendente e anotou o número 1 3 _ 9 8 2 0 7, sendo que o espaço vazio é o do algarismo que João não entendeu. De acordo com essas informações, a posição ocupada pelo algarismo que falta no número de protocolo é a de",
+    "alternativas": [
+      { "letra": "A", "texto": "centena." },
+      { "letra": "B", "texto": "dezena de milhar." },
+      { "letra": "C", "texto": "centena de milhar." },
+      { "letra": "D", "texto": "milhão." },
+      { "letra": "E", "texto": "centena de milhão." }
+    ],
+    "correta": "C",
+    "explicacao": "O número tem 8 algarismos: 1-3-_-9-8-2-0-7. Contando as posições da direita para a esquerda: 7 (unidade), 0 (dezena), 2 (centena), 8 (milhar), 9 (dezena de milhar), _ (centena de milhar), 3 (unidade de milhão), 1 (dezena de milhão). O algarismo que falta ocupa a posição de centena de milhar."
+  },
+  {
+    "id": "enem-2012-180",
+    "categoriaId": "numeros",
+    "subtopico": "Operações com Frações",
+    "dificuldade": "facil",
+    "fonte": { "tipo": "enem", "ano": 2012, "descricao": "ENEM 2012, 2º dia, Caderno 5 (Amarelo), questão 180", "url": "https://download.inep.gov.br/educacao_basica/enem/provas/2012/2012_PV_impresso_D2_CD5.pdf" },
+    "enunciado": "Em 20 de fevereiro de 2011 ocorreu a grande erupção do vulcão Bulusan nas Filipinas. A sua localização geográfica no globo terrestre é dada pelo GPS (sigla em inglês para Sistema de Posicionamento Global) com longitude de 124° 3' 0\" a leste do Meridiano de Greenwich. Dado: 1° equivale a 60' e 1' equivale a 60\". A representação angular da localização do vulcão com relação a sua longitude na forma decimal é",
+    "alternativas": [
+      { "letra": "A", "texto": "124,02°." },
+      { "letra": "B", "texto": "124,05°." },
+      { "letra": "C", "texto": "124,20°." },
+      { "letra": "D", "texto": "124,30°." },
+      { "letra": "E", "texto": "124,50°." }
+    ],
+    "correta": "B",
+    "explicacao": "3' equivalem a 3/60 = 0,05°. Como 0\" não acrescenta nada, a longitude decimal é 124° + 0,05° = 124,05°."
+  },
+  {
+    "id": "enem-2011-137",
+    "categoriaId": "numeros",
+    "subtopico": "Potenciação e Radiciação",
+    "dificuldade": "medio",
+    "fonte": { "tipo": "enem", "ano": 2011, "descricao": "ENEM 2011, 2º dia, Caderno 5 (Amarelo), questão 137", "url": "https://download.inep.gov.br/educacao_basica/enem/provas/2011/2011_PV_impresso_D2_CD5.pdf" },
+    "enunciado": "O medidor de energia elétrica de uma residência, conhecido por \"relógio de luz\", é constituído de quatro pequenos relógios, cujos sentidos de rotação estão indicados conforme a figura. A medida é expressa em kWh. O número obtido na leitura é composto por 4 algarismos. Cada posição do número é formada pelo último algarismo ultrapassado pelo ponteiro. O número obtido pela leitura em kWh, na imagem, é",
+    "figura": { "src": "/figuras/enem-2011-137-relogio-luz.png", "alt": "Quatro relógios de ponteiro rotulados MILHAR, CENTENA, DEZENA e UNIDADE, com ponteiros indicando os algarismos 2, 6, 1 e 4, respectivamente, cada par de relógios adjacentes girando em sentido oposto", "legenda": "Relógio de luz com quatro ponteiros (ENEM 2011)" },
+    "alternativas": [
+      { "letra": "A", "texto": "2 614." },
+      { "letra": "B", "texto": "3 624." },
+      { "letra": "C", "texto": "2 715." },
+      { "letra": "D", "texto": "3 725." },
+      { "letra": "E", "texto": "4 162." }
+    ],
+    "correta": "A",
+    "explicacao": "Lendo o último algarismo ultrapassado por cada ponteiro: milhar=2, centena=6, dezena=1, unidade=4, formando o número 2.614 kWh."
+  },
+  {
+    "id": "enem-2009-140",
+    "categoriaId": "porcentagem",
+    "subtopico": "Fator de Multiplicação",
+    "dificuldade": "medio",
+    "fonte": { "tipo": "enem", "ano": 2009, "descricao": "ENEM 2009, 2º dia, Caderno 5 (Amarelo), questão 140", "url": "https://download.inep.gov.br/educacao_basica/enem/provas/2009/dia2_caderno5_amarelo.pdf" },
+    "enunciado": "Uma resolução do Conselho Nacional de Política Energética (CNPE) estabeleceu a obrigatoriedade de adição de biodísel ao óleo dísel comercializado nos postos. A exigência é que, a partir de 1º de julho de 2009, 4% do volume da mistura final seja formada por biodísel. Até junho de 2009, esse percentual era de 3%. Estimativas indicam que, com a adição de 4% de biodísel ao dísel, serão consumidos 925 milhões de litros de biodísel no segundo semestre de 2009. Considerando-se essa estimativa, para o mesmo volume da mistura final dísel/biodísel consumida no segundo semestre de 2009, qual seria o consumo de biodísel com a adição de 3%?",
+    "alternativas": [
+      { "letra": "A", "texto": "27,75 milhões de litros." },
+      { "letra": "B", "texto": "37,00 milhões de litros." },
+      { "letra": "C", "texto": "231,25 milhões de litros." },
+      { "letra": "D", "texto": "693,75 milhões de litros." },
+      { "letra": "E", "texto": "888,00 milhões de litros." }
+    ],
+    "correta": "D",
+    "explicacao": "Se 925 milhões de litros correspondem a 4% do volume total da mistura, o volume total é 925/0,04 = 23.125 milhões de litros. Com 3% de biodísel, o consumo seria 0,03 × 23.125 = 693,75 milhões de litros."
+  },
+  {
+    "id": "enem-2009-141",
+    "categoriaId": "porcentagem",
+    "subtopico": "Aumentos e Descontos Sucessivos",
+    "dificuldade": "dificil",
+    "fonte": { "tipo": "enem", "ano": 2009, "descricao": "ENEM 2009, 2º dia, Caderno 5 (Amarelo), questão 141", "url": "https://download.inep.gov.br/educacao_basica/enem/provas/2009/dia2_caderno5_amarelo.pdf" },
+    "enunciado": "O governo cedeu terrenos para que famílias construíssem suas residências com a condição de que no mínimo 94% da área do terreno fosse mantida como área de preservação ambiental. Ao receber o terreno retangular ABCD, em que AB = BC/2, Antônio demarcou uma área quadrada no vértice A, para a construção de sua residência, de acordo com o desenho, no qual AE = AB/5 é lado do quadrado. Nesse caso, a área definida por Antônio atingiria exatamente o limite determinado pela condição se ele",
+    "alternativas": [
+      { "letra": "A", "texto": "duplicasse a medida do lado do quadrado." },
+      { "letra": "B", "texto": "triplicasse a medida do lado do quadrado." },
+      { "letra": "C", "texto": "triplicasse a área do quadrado." },
+      { "letra": "D", "texto": "ampliasse a medida do lado do quadrado em 4%." },
+      { "letra": "E", "texto": "ampliasse a área do quadrado em 4%." }
+    ],
+    "correta": "C",
+    "explicacao": "Fazendo BC=2x e AB=x, a área do terreno é 2x². O lado do quadrado é AB/5=x/5, com área x²/25. A razão entre a área do quadrado e a do terreno é (x²/25)/(2x²)=1/50=2%. Para respeitar o limite de 6% de área construída (100%−94%), a área do quadrado precisa triplicar (2%×3=6%)."
+  },
+  {
+    "id": "enem-2010-140",
+    "categoriaId": "porcentagem",
+    "subtopico": "Fator de Multiplicação",
+    "dificuldade": "medio",
+    "fonte": { "tipo": "enem", "ano": 2010, "descricao": "ENEM 2010, 2º dia, Caderno 5 (Amarelo), questão 140", "url": "https://download.inep.gov.br/educacao_basica/enem/provas/2010/dia2_caderno5_amarelo_com_gab.pdf" },
+    "enunciado": "Em sete de abril de 2004, um jornal publicou o ranking de desmatamento da chamada Amazônia Legal, integrada por nove estados, com os seguintes valores (em km²): 9º Amapá: 4; 8º Tocantins: 136; 7º Roraima: 326; 6º Acre: 549; 5º Maranhão: 766; 4º Amazonas: 797; 3º Rondônia: 3.463; 2º Pará: 7.293; 1º Mato Grosso: 10.416. Considerando-se que até 2009 o desmatamento cresceu 10,5% em relação aos dados de 2004, o desmatamento médio por estado em 2009 está entre",
+    "alternativas": [
+      { "letra": "A", "texto": "100 km² e 900 km²." },
+      { "letra": "B", "texto": "1 000 km² e 2 700 km²." },
+      { "letra": "C", "texto": "2 800 km² e 3 200 km²." },
+      { "letra": "D", "texto": "3 300 km² e 4 000 km²." },
+      { "letra": "E", "texto": "4 100 km² e 5 800 km²." }
+    ],
+    "correta": "C",
+    "explicacao": "Somando os valores de 2004: 4+136+326+549+766+797+3.463+7.293+10.416 = 23.750 km². Com crescimento de 10,5%: 23.750×1,105 = 26.243,75 km² em 2009. Dividindo por 9 estados: 26.243,75/9 ≈ 2.916 km², valor entre 2.800 e 3.200."
+  },
+  {
+    "id": "enem-2010-141",
+    "categoriaId": "porcentagem",
+    "subtopico": "Fator de Multiplicação",
+    "dificuldade": "facil",
+    "fonte": { "tipo": "enem", "ano": 2010, "descricao": "ENEM 2010, 2º dia, Caderno 5 (Amarelo), questão 141", "url": "https://download.inep.gov.br/educacao_basica/enem/provas/2010/dia2_caderno5_amarelo_com_gab.pdf" },
+    "enunciado": "Os dados do gráfico foram coletados por meio da Pesquisa Nacional por Amostra de Domicílios, mostrando o percentual de estudantes que possuem telefone móvel celular, com idade de 10 anos ou mais, por região brasileira. Na região Sudeste, 56% dos estudantes possuíam telefone móvel celular (e 44% não possuíam). Supondo-se que, no Sudeste, 14.900 estudantes foram entrevistados nessa pesquisa, quantos deles possuíam telefone móvel celular?",
+    "alternativas": [
+      { "letra": "A", "texto": "5 513" },
+      { "letra": "B", "texto": "6 556" },
+      { "letra": "C", "texto": "7 450" },
+      { "letra": "D", "texto": "8 344" },
+      { "letra": "E", "texto": "9 536" }
+    ],
+    "correta": "D",
+    "explicacao": "56% de 14.900 = 0,56 × 14.900 = 8.344 estudantes."
+  },
+  {
+    "id": "enem-2010-153",
+    "categoriaId": "porcentagem",
+    "subtopico": "Fator de Multiplicação",
+    "dificuldade": "medio",
+    "fonte": { "tipo": "enem", "ano": 2010, "descricao": "ENEM 2010, 2º dia, Caderno 5 (Amarelo), questão 153", "url": "https://download.inep.gov.br/educacao_basica/enem/provas/2010/dia2_caderno5_amarelo_com_gab.pdf" },
+    "enunciado": "O jornal de certa cidade publicou em uma página inteira a seguinte divulgação de seu caderno de classificados: um retângulo de 260 mm de largura por 400 mm de altura representa, com sua área total, 100% do espaço da página. Desse retângulo, 96% da área é dedicada à frase \"Pessoas que consultam nossos classificados\" e o restante, um pequeno retângulo de 26 mm de largura por x mm de altura, no canto superior esquerdo, é dedicado à frase \"4% outros jornais\". Para que a propaganda seja fidedigna à porcentagem da área que aparece na divulgação, a medida x (altura do retângulo que representa os 4%) deve ser de aproximadamente",
+    "alternativas": [
+      { "letra": "A", "texto": "1 mm." },
+      { "letra": "B", "texto": "10 mm." },
+      { "letra": "C", "texto": "17 mm." },
+      { "letra": "D", "texto": "160 mm." },
+      { "letra": "E", "texto": "167 mm." }
+    ],
+    "correta": "D",
+    "explicacao": "A área total do retângulo é 260×400 = 104.000 mm². 4% dessa área é 0,04×104.000 = 4.160 mm². Como a largura do retângulo dos 4% é 26 mm, sua altura deve ser 4.160/26 = 160 mm."
+  },
+  {
+    "id": "enem-2010-154",
+    "categoriaId": "porcentagem",
+    "subtopico": "Aumentos e Descontos Sucessivos",
+    "dificuldade": "facil",
+    "fonte": { "tipo": "enem", "ano": 2010, "descricao": "ENEM 2010, 2º dia, Caderno 5 (Amarelo), questão 154", "url": "https://download.inep.gov.br/educacao_basica/enem/provas/2010/dia2_caderno5_amarelo_com_gab.pdf" },
+    "enunciado": "Uma empresa possui um sistema de controle de qualidade que classifica o seu desempenho financeiro anual, tendo como base o do ano anterior. Os conceitos são: insuficiente, quando o crescimento é menor que 1%; regular, quando o crescimento é maior ou igual a 1% e menor que 5%; bom, quando o crescimento é maior ou igual a 5% e menor que 10%; ótimo, quando é maior ou igual a 10% e menor que 20%; e excelente, quando é maior ou igual a 20%. Essa empresa apresentou lucro de R$ 132.000,00 em 2008 e de R$ 145.000,00 em 2009. De acordo com esse sistema de controle de qualidade, o desempenho financeiro dessa empresa no ano de 2009 deve ser considerado",
+    "alternativas": [
+      { "letra": "A", "texto": "insuficiente." },
+      { "letra": "B", "texto": "regular." },
+      { "letra": "C", "texto": "bom." },
+      { "letra": "D", "texto": "ótimo." },
+      { "letra": "E", "texto": "excelente." }
+    ],
+    "correta": "C",
+    "explicacao": "O crescimento percentual foi (145.000−132.000)/132.000 = 13.000/132.000 ≈ 9,85%, que está entre 5% e 10%, classificando o desempenho como bom."
+  },
+  {
+    "id": "enem-2010-170",
+    "categoriaId": "porcentagem",
+    "subtopico": "Aumentos e Descontos Sucessivos",
+    "dificuldade": "medio",
+    "fonte": { "tipo": "enem", "ano": 2010, "descricao": "ENEM 2010, 2º dia, Caderno 5 (Amarelo), questão 170", "url": "https://download.inep.gov.br/educacao_basica/enem/provas/2010/dia2_caderno5_amarelo_com_gab.pdf" },
+    "enunciado": "Um grupo de pacientes com Hepatite C foi submetido a um tratamento tradicional em que 40% desses pacientes foram completamente curados. Os pacientes que não obtiveram cura foram distribuídos em dois grupos de mesma quantidade e submetidos a dois tratamentos inovadores. No primeiro tratamento inovador, 35% dos pacientes foram curados e, no segundo, 45%. Em relação aos pacientes submetidos inicialmente, os tratamentos inovadores proporcionaram cura de",
+    "alternativas": [
+      { "letra": "A", "texto": "16%." },
+      { "letra": "B", "texto": "24%." },
+      { "letra": "C", "texto": "32%." },
+      { "letra": "D", "texto": "48%." },
+      { "letra": "E", "texto": "64%." }
+    ],
+    "correta": "B",
+    "explicacao": "Os 60% não curados foram divididos em dois grupos de 30% cada. O primeiro tratamento curou 35% de 30% = 10,5% do total. O segundo curou 45% de 30% = 13,5% do total. Juntos, os tratamentos inovadores curaram 10,5%+13,5% = 24% dos pacientes iniciais."
+  },
+  {
+    "id": "enem-2010-172",
+    "categoriaId": "porcentagem",
+    "subtopico": "Fator de Multiplicação",
+    "dificuldade": "dificil",
+    "fonte": { "tipo": "enem", "ano": 2010, "descricao": "ENEM 2010, 2º dia, Caderno 5 (Amarelo), questão 172", "url": "https://download.inep.gov.br/educacao_basica/enem/provas/2010/dia2_caderno5_amarelo_com_gab.pdf" },
+    "enunciado": "Em 2006, a produção mundial de etanol foi de 40 bilhões de litros e a de biodiesel, de 6,5 bilhões. Neste mesmo ano, a produção brasileira de etanol correspondeu a 43% da produção mundial, ao passo que a produção dos Estados Unidos da América, usando milho, foi de 45%. Considerando que, em 2009, a produção mundial de etanol seja a mesma de 2006 e que os Estados Unidos produzirão somente a metade de sua produção de 2006, para que o total produzido pelo Brasil e pelos Estados Unidos continue correspondendo a 88% da produção mundial, o Brasil deve aumentar sua produção em, aproximadamente,",
+    "alternativas": [
+      { "letra": "A", "texto": "22,5%." },
+      { "letra": "B", "texto": "50,0%." },
+      { "letra": "C", "texto": "52,3%." },
+      { "letra": "D", "texto": "65,5%." },
+      { "letra": "E", "texto": "77,5%." }
+    ],
+    "correta": "C",
+    "explicacao": "Brasil em 2006: 43%×40 = 17,2 bilhões de litros. EUA em 2006: 45%×40 = 18 bilhões; em 2009, a metade: 9 bilhões. Para que Brasil+EUA = 88%×40 = 35,2 bilhões em 2009, o Brasil deve produzir 35,2−9 = 26,2 bilhões. O aumento percentual é (26,2−17,2)/17,2 ≈ 52,3%."
+  },
+  {
+    "id": "enem-2011-150",
+    "categoriaId": "porcentagem",
+    "subtopico": "Fator de Multiplicação",
+    "dificuldade": "facil",
+    "fonte": { "tipo": "enem", "ano": 2011, "descricao": "ENEM 2011, 2º dia, Caderno 5 (Amarelo), questão 150", "url": "https://download.inep.gov.br/educacao_basica/enem/provas/2011/2011_PV_impresso_D2_CD5.pdf" },
+    "enunciado": "A participação dos estudantes na Olimpíada Brasileira de Matemática das Escolas Públicas (OBMEP) aumenta a cada ano. O quadro indica o percentual de medalhistas de ouro da região Nordeste, por edição da OBMEP, entre 2005 e 2009: 2005: 18%; 2006: 19%; 2007: 21%; 2008: 15%; 2009: 19%. Em relação às edições de 2005 a 2009 da OBMEP, qual o percentual médio de medalhistas de ouro da região Nordeste?",
+    "alternativas": [
+      { "letra": "A", "texto": "14,6%" },
+      { "letra": "B", "texto": "18,2%" },
+      { "letra": "C", "texto": "18,4%" },
+      { "letra": "D", "texto": "19,0%" },
+      { "letra": "E", "texto": "21,0%" }
+    ],
+    "correta": "C",
+    "explicacao": "Média = (18+19+21+15+19)/5 = 92/5 = 18,4%."
+  },
+  {
+    "id": "enem-2011-157",
+    "categoriaId": "porcentagem",
+    "subtopico": "Juros Simples e Compostos",
+    "dificuldade": "medio",
+    "fonte": { "tipo": "enem", "ano": 2011, "descricao": "ENEM 2011, 2º dia, Caderno 5 (Amarelo), questão 157", "url": "https://download.inep.gov.br/educacao_basica/enem/provas/2011/2011_PV_impresso_D2_CD5.pdf" },
+    "enunciado": "Um jovem investidor precisa escolher qual investimento lhe trará maior retorno financeiro em uma aplicação de R$ 500,00. Para isso, pesquisa o rendimento e o imposto a ser pago em dois investimentos. Poupança: rendimento mensal de 0,560%, isento de imposto de renda (IR). CDB (certificado de depósito bancário): rendimento mensal de 0,876%, com IR de 4% sobre o ganho. Para o jovem investidor, ao final de um mês, a aplicação mais vantajosa é",
+    "alternativas": [
+      { "letra": "A", "texto": "a poupança, pois totalizará um montante de R$ 502,80." },
+      { "letra": "B", "texto": "a poupança, pois totalizará um montante de R$ 500,56." },
+      { "letra": "C", "texto": "o CDB, pois totalizará um montante de R$ 504,38." },
+      { "letra": "D", "texto": "o CDB, pois totalizará um montante de R$ 504,21." },
+      { "letra": "E", "texto": "o CDB, pois totalizará um montante de R$ 500,87." }
+    ],
+    "correta": "D",
+    "explicacao": "Poupança: 500×1,0056 = R$502,80. CDB: ganho bruto = 500×0,00876 = R$4,38; IR = 4% de 4,38 = R$0,18; ganho líquido ≈ R$4,20; montante ≈ R$504,21, maior que o da poupança."
+  },
+  {
+    "id": "enem-2011-162",
+    "categoriaId": "porcentagem",
+    "subtopico": "Aumentos e Descontos Sucessivos",
+    "dificuldade": "dificil",
+    "fonte": { "tipo": "enem", "ano": 2011, "descricao": "ENEM 2011, 2º dia, Caderno 5 (Amarelo), questão 162", "url": "https://download.inep.gov.br/educacao_basica/enem/provas/2011/2011_PV_impresso_D2_CD5.pdf" },
+    "enunciado": "Uma pessoa aplicou certa quantia em ações. No primeiro mês, ela perdeu 30% do total do investimento e, no segundo mês, recuperou 20% do que havia perdido. Depois desses dois meses, resolveu tirar o montante de R$ 3.800,00 gerado pela aplicação. A quantia inicial que essa pessoa aplicou em ações corresponde ao valor de",
+    "alternativas": [
+      { "letra": "A", "texto": "R$ 4.222,22." },
+      { "letra": "B", "texto": "R$ 4.523,80." },
+      { "letra": "C", "texto": "R$ 5.000,00." },
+      { "letra": "D", "texto": "R$ 13.300,00." },
+      { "letra": "E", "texto": "R$ 17.100,00." }
+    ],
+    "correta": "C",
+    "explicacao": "Após perder 30%, restam 70% do valor inicial. O valor perdido foi 30% do inicial; recuperando 20% desse valor perdido, ganha-se mais 20%×30%=6% do inicial. Total final: 70%+6%=76% do inicial. Se 76% do inicial = R$3.800, o inicial = 3.800/0,76 = R$5.000,00."
+  },
+  {
+    "id": "enem-2011-178",
+    "categoriaId": "porcentagem",
+    "subtopico": "Juros Simples e Compostos",
+    "dificuldade": "dificil",
+    "fonte": { "tipo": "enem", "ano": 2011, "descricao": "ENEM 2011, 2º dia, Caderno 5 (Amarelo), questão 178", "url": "https://download.inep.gov.br/educacao_basica/enem/provas/2011/2011_PV_impresso_D2_CD5.pdf" },
+    "enunciado": "Considere que uma pessoa decida investir uma determinada quantia e que lhe sejam apresentadas três possibilidades de investimento, com rentabilidades líquidas garantidas pelo período de um ano, incidindo sobre o valor do período anterior: Investimento A: 3% ao mês; Investimento B: 36% ao ano; Investimento C: 18% ao semestre. Use as aproximações: 1,03³≈1,093; 1,03⁶≈1,194; 1,03⁹≈1,305; 1,03¹²≈1,426. Para escolher o investimento com a maior rentabilidade anual, essa pessoa deverá",
+    "alternativas": [
+      { "letra": "A", "texto": "escolher qualquer um dos investimentos A, B ou C, pois as suas rentabilidades anuais são iguais a 36%." },
+      { "letra": "B", "texto": "escolher os investimentos A ou C, pois suas rentabilidades anuais são iguais a 39%." },
+      { "letra": "C", "texto": "escolher o investimento A, pois a sua rentabilidade anual é maior que as rentabilidades anuais dos investimentos B e C." },
+      { "letra": "D", "texto": "escolher o investimento B, pois sua rentabilidade de 36% é maior que as rentabilidades de 3% do investimento A e de 18% do investimento C." },
+      { "letra": "E", "texto": "escolher o investimento C, pois sua rentabilidade de 39% ao ano é maior que a rentabilidade de 36% ao ano dos investimentos A e B." }
+    ],
+    "correta": "C",
+    "explicacao": "Investimento A, capitalizado mensalmente por 12 meses: 1,03¹² ≈ 1,426, ou seja, 42,6% ao ano — maior que os 36% de B e os aproximadamente 39,2% de C (1,18² ≈ 1,392). Logo, A é o mais vantajoso."
+  },
+  {
+    "id": "enem-2012-171",
+    "categoriaId": "porcentagem",
+    "subtopico": "Aumentos e Descontos Sucessivos",
+    "dificuldade": "medio",
+    "fonte": { "tipo": "enem", "ano": 2012, "descricao": "ENEM 2012, 2º dia, Caderno 5 (Amarelo), questão 171", "url": "https://download.inep.gov.br/educacao_basica/enem/provas/2012/2012_PV_impresso_D2_CD5.pdf" },
+    "enunciado": "Um laboratório realiza exames em que é possível observar a taxa de glicose de uma pessoa. Os resultados são analisados de acordo com o quadro: Hipoglicemia: taxa de glicose menor ou igual a 70 mg/dL; Normal: taxa maior que 70 e menor ou igual a 100 mg/dL; Pré-diabetes: taxa maior que 100 e menor ou igual a 125 mg/dL; Diabetes Melito: taxa maior que 125 e menor ou igual a 250 mg/dL; Hiperglicemia: taxa maior que 250 mg/dL. Um paciente fez um exame de glicose nesse laboratório e comprovou que estava com hiperglicemia. Sua taxa de glicose era de 300 mg/dL. Seu médico prescreveu um tratamento em duas etapas. Na primeira etapa ele conseguiu reduzir sua taxa em 30% e na segunda etapa em 10%. Ao calcular sua taxa de glicose após as duas reduções, o paciente verificou que estava na categoria de",
+    "alternativas": [
+      { "letra": "A", "texto": "hipoglicemia." },
+      { "letra": "B", "texto": "normal." },
+      { "letra": "C", "texto": "pré-diabetes." },
+      { "letra": "D", "texto": "diabetes melito." },
+      { "letra": "E", "texto": "hiperglicemia." }
+    ],
+    "correta": "D",
+    "explicacao": "Após a primeira redução: 300×0,7=210 mg/dL. Após a segunda: 210×0,9=189 mg/dL. Esse valor está entre 125 e 250, caracterizando diabetes melito."
+  },
+  {
+    "id": "enem-2012-176",
+    "categoriaId": "porcentagem",
+    "subtopico": "Fator de Multiplicação",
+    "dificuldade": "dificil",
+    "fonte": { "tipo": "enem", "ano": 2012, "descricao": "ENEM 2012, 2º dia, Caderno 5 (Amarelo), questão 176", "url": "https://download.inep.gov.br/educacao_basica/enem/provas/2012/2012_PV_impresso_D2_CD5.pdf" },
+    "enunciado": "A cerâmica possui a propriedade da contração, que consiste na evaporação da água existente em um conjunto ou bloco cerâmico submetido a uma determinada temperatura elevada, fazendo o conjunto retrair-se. Considere que no processo de cozimento a cerâmica de argila sofra uma contração, em dimensões lineares, de 20%. Levando em consideração o processo de cozimento e a contração sofrida, o volume V de uma travessa de argila, de forma cúbica de aresta a, diminui para um valor que é",
+    "alternativas": [
+      { "letra": "A", "texto": "20% menor que V, uma vez que o volume do cubo é diretamente proporcional ao comprimento de seu lado." },
+      { "letra": "B", "texto": "36% menor que V, porque a área da base diminui de a² para ((1 − 0,2)a)²." },
+      { "letra": "C", "texto": "48,8% menor que V, porque o volume diminui de a³ para (0,8a)³." },
+      { "letra": "D", "texto": "51,2% menor que V, porque cada lado diminui para 80% do comprimento original." },
+      { "letra": "E", "texto": "60% menor que V, porque cada lado diminui 20%." }
+    ],
+    "correta": "C",
+    "explicacao": "Cada lado passa a medir 80% do original (0,8a). O novo volume é (0,8a)³ = 0,512a³, ou seja, 51,2% do volume original. Isso significa uma redução de 1−0,512 = 0,488 = 48,8% em relação a V."
+  },
+  {
+    "id": "enem-2013-146",
+    "categoriaId": "porcentagem",
+    "subtopico": "Fator de Multiplicação",
+    "dificuldade": "facil",
+    "fonte": { "tipo": "enem", "ano": 2013, "descricao": "ENEM 2013, 2º dia, Caderno 5 (Amarelo), questão 146", "url": "https://download.inep.gov.br/educacao_basica/enem/provas/2013/2013_PV_impresso_D2_CD5.pdf" },
+    "enunciado": "O contribuinte que vende mais de R$ 20 mil de ações em Bolsa de Valores em um mês deverá pagar Imposto de Renda. O pagamento para a Receita Federal consistirá em 15% do lucro obtido com a venda das ações. Um contribuinte que vende por R$ 34 mil um lote de ações que custou R$ 26 mil terá de pagar de Imposto de Renda à Receita Federal o valor de",
+    "alternativas": [
+      { "letra": "A", "texto": "R$ 900,00." },
+      { "letra": "B", "texto": "R$ 1 200,00." },
+      { "letra": "C", "texto": "R$ 2 100,00." },
+      { "letra": "D", "texto": "R$ 3 900,00." },
+      { "letra": "E", "texto": "R$ 5 100,00." }
+    ],
+    "correta": "B",
+    "explicacao": "O lucro foi de R$34.000−R$26.000=R$8.000. O imposto é 15% desse lucro: 0,15×8.000=R$1.200,00."
+  },
+  {
+    "id": "enem-2013-151",
+    "categoriaId": "porcentagem",
+    "subtopico": "Aumentos e Descontos Sucessivos",
+    "dificuldade": "medio",
+    "fonte": { "tipo": "enem", "ano": 2013, "descricao": "ENEM 2013, 2º dia, Caderno 5 (Amarelo), questão 151", "url": "https://download.inep.gov.br/educacao_basica/enem/provas/2013/2013_PV_impresso_D2_CD5.pdf" },
+    "enunciado": "Para aumentar as vendas no início do ano, uma loja de departamentos remarcou os preços de seus produtos 20% abaixo do preço original. Quando chegam ao caixa, os clientes que possuem o cartão fidelidade da loja têm direito a um desconto adicional de 10% sobre o valor total de suas compras. Um cliente deseja comprar um produto que custava R$ 50,00 antes da remarcação de preços. Ele não possui o cartão fidelidade da loja. Caso esse cliente possuísse o cartão fidelidade da loja, a economia adicional que obteria ao efetuar a compra, em reais, seria de",
+    "alternativas": [
+      { "letra": "A", "texto": "15,00." },
+      { "letra": "B", "texto": "14,00." },
+      { "letra": "C", "texto": "10,00." },
+      { "letra": "D", "texto": "5,00." },
+      { "letra": "E", "texto": "4,00." }
+    ],
+    "correta": "E",
+    "explicacao": "Preço remarcado: 50×0,8=R$40,00. O desconto adicional de 10% do cartão fidelidade incide sobre esse valor: 0,10×40=R$4,00 de economia extra."
+  },
+  {
+    "id": "enem-2013-174",
+    "categoriaId": "porcentagem",
+    "subtopico": "Fator de Multiplicação",
+    "dificuldade": "medio",
+    "fonte": { "tipo": "enem", "ano": 2013, "descricao": "ENEM 2013, 2º dia, Caderno 5 (Amarelo), questão 174", "url": "https://download.inep.gov.br/educacao_basica/enem/provas/2013/2013_PV_impresso_D2_CD5.pdf" },
+    "enunciado": "A cerâmica constitui-se em um artefato bastante presente na história da humanidade. Uma de suas várias propriedades é a retração (contração), que consiste na evaporação da água existente em um conjunto ou bloco cerâmico quando submetido a uma determinada temperatura elevada. Essa elevação de temperatura, que ocorre durante o processo de cozimento, causa uma redução de até 20% nas dimensões lineares de uma peça. Suponha que uma peça, quando moldada em argila, possuía uma base retangular cujos lados mediam 30 cm e 15 cm. Após o cozimento, esses lados foram reduzidos em 20%. Em relação à área original, a área da base dessa peça, após o cozimento, ficou reduzida em",
+    "alternativas": [
+      { "letra": "A", "texto": "4%." },
+      { "letra": "B", "texto": "20%." },
+      { "letra": "C", "texto": "36%." },
+      { "letra": "D", "texto": "64%." },
+      { "letra": "E", "texto": "96%." }
+    ],
+    "correta": "C",
+    "explicacao": "Cada lado passa a medir 80% do original. A área é proporcional ao produto dos lados, então a nova área é (0,8)×(0,8)=0,64=64% da original, uma redução de 36%."
+  },
+  {
+    "id": "enem-2013-177",
+    "categoriaId": "porcentagem",
+    "subtopico": "Fator de Multiplicação",
+    "dificuldade": "dificil",
+    "fonte": { "tipo": "enem", "ano": 2013, "descricao": "ENEM 2013, 2º dia, Caderno 5 (Amarelo), questão 177", "url": "https://download.inep.gov.br/educacao_basica/enem/provas/2013/2013_PV_impresso_D2_CD5.pdf" },
+    "enunciado": "Um comerciante visita um centro de vendas para fazer cotação de preços dos produtos que deseja comprar. Verifica que se aproveita 100% da quantidade adquirida de produtos do tipo A, mas apenas 90% de produtos do tipo B. Esse comerciante deseja comprar uma quantidade de produtos, obtendo o menor custo/benefício em cada um deles. O quadro mostra o preço por quilograma, em reais, de cada produto comercializado: Arroz — Tipo A: R$ 2,00, Tipo B: R$ 1,70; Feijão — Tipo A: R$ 4,50, Tipo B: R$ 4,10; Soja — Tipo A: R$ 3,80, Tipo B: R$ 3,50; Milho — Tipo A: R$ 6,00, Tipo B: R$ 5,30. Os tipos de arroz, feijão, soja e milho que devem ser escolhidos pelo comerciante são, respectivamente,",
+    "alternativas": [
+      { "letra": "A", "texto": "A, A, A, A." },
+      { "letra": "B", "texto": "A, B, A, B." },
+      { "letra": "C", "texto": "A, B, B, A." },
+      { "letra": "D", "texto": "B, A, A, B." },
+      { "letra": "E", "texto": "B, B, B, B." }
+    ],
+    "correta": "D",
+    "explicacao": "Como só 90% do tipo B é aproveitado, seu custo efetivo por kg útil é preço/0,9. Arroz: A=2,00 vs B=1,70/0,9≈1,89 → B mais barato. Feijão: A=4,50 vs B=4,10/0,9≈4,56 → A mais barato. Soja: A=3,80 vs B=3,50/0,9≈3,89 → A mais barato. Milho: A=6,00 vs B=5,30/0,9≈5,89 → B mais barato. Resultado: B, A, A, B."
+  },
+  {
+    "id": "enem-2014-147",
+    "categoriaId": "porcentagem",
+    "subtopico": "Fator de Multiplicação",
+    "dificuldade": "medio",
+    "fonte": { "tipo": "enem", "ano": 2014, "descricao": "ENEM 2014, 2º dia, Caderno 5 (Amarelo), questão 147", "url": "https://download.inep.gov.br/educacao_basica/enem/provas/2014/2014_PV_impresso_D2_CD5.pdf" },
+    "enunciado": "Uma organização não governamental divulgou um levantamento de dados realizado em algumas cidades brasileiras sobre saneamento básico. Os resultados indicam que somente 36% do esgoto gerado nessas cidades é tratado, o que mostra que 8 bilhões de litros de esgoto sem nenhum tratamento são lançados todos os dias nas águas. Uma campanha para melhorar o saneamento básico nessas cidades tem como meta a redução da quantidade de esgoto lançado nas águas diariamente, sem tratamento, para 4 bilhões de litros nos próximos meses. Se o volume de esgoto gerado permanecer o mesmo e a meta dessa campanha se concretizar, o percentual de esgoto tratado passará a ser",
+    "alternativas": [
+      { "letra": "A", "texto": "72%" },
+      { "letra": "B", "texto": "68%" },
+      { "letra": "C", "texto": "64%" },
+      { "letra": "D", "texto": "54%" },
+      { "letra": "E", "texto": "18%" }
+    ],
+    "correta": "B",
+    "explicacao": "Se 36% tratado implica 64% não tratado = 8 bilhões de litros, o volume total gerado é 8/0,64 = 12,5 bilhões de litros. Com a meta de reduzir o não tratado para 4 bilhões, o tratado passa a ser 12,5−4 = 8,5 bilhões, ou seja, 8,5/12,5 = 68%."
+  },
+  {
+    "id": "enem-2014-173",
+    "categoriaId": "porcentagem",
+    "subtopico": "Fator de Multiplicação",
+    "dificuldade": "dificil",
+    "fonte": { "tipo": "enem", "ano": 2014, "descricao": "ENEM 2014, 2º dia, Caderno 5 (Amarelo), questão 173", "url": "https://download.inep.gov.br/educacao_basica/enem/provas/2014/2014_PV_impresso_D2_CD5.pdf" },
+    "enunciado": "Uma pessoa compra semanalmente, numa mesma loja, sempre a mesma quantidade de um produto que custa R$ 10,00 a unidade. Como já sabe quanto deve gastar, leva sempre R$ 6,00 a mais do que a quantia necessária para comprar tal quantidade, para o caso de eventuais despesas extras. Entretanto, um dia, ao chegar à loja, foi informada de que o preço daquele produto havia aumentado 20%. Devido a esse reajuste, concluiu que o dinheiro levado era a quantia exata para comprar duas unidades a menos em relação à quantidade habitualmente comprada. A quantia que essa pessoa levava semanalmente para fazer a compra era",
+    "alternativas": [
+      { "letra": "A", "texto": "R$ 166,00." },
+      { "letra": "B", "texto": "R$ 156,00." },
+      { "letra": "C", "texto": "R$ 84,00." },
+      { "letra": "D", "texto": "R$ 46,00." },
+      { "letra": "E", "texto": "R$ 24,00." }
+    ],
+    "correta": "B",
+    "explicacao": "Sendo n a quantidade habitual, o dinheiro levado é 10n+6. Com aumento de 20%, o novo preço é R$12,00, e 12(n−2)=10n+6, o que dá 2n=30, logo n=15. O dinheiro levado é 10×15+6=R$156,00."
+  },
+  {
+    "id": "enem-2015-155",
+    "categoriaId": "porcentagem",
+    "subtopico": "Fator de Multiplicação",
+    "dificuldade": "dificil",
+    "fonte": { "tipo": "enem", "ano": 2015, "descricao": "ENEM 2015, 2º dia, Caderno 5 (Amarelo), 1ª aplicação, questão 155", "url": "https://download.inep.gov.br/educacao_basica/enem/provas/2015/CAD_ENEM 2015_DIA 2_05_AMARELO.pdf" },
+    "enunciado": "Segundo dados apurados no Censo 2010, para uma população de 101,8 milhões de brasileiros com 10 anos ou mais de idade e que teve algum tipo de rendimento em 2010, a renda média mensal apurada foi de R$ 1.202,00. A soma dos rendimentos mensais dos 10% mais pobres correspondeu a apenas 1,1% do total de rendimentos dessa população considerada, enquanto que a soma dos rendimentos mensais dos 10% mais ricos correspondeu a 44,5% desse total. Qual foi a diferença, em reais, entre a renda média mensal de um brasileiro que estava na faixa dos 10% mais ricos e de um brasileiro que estava na faixa dos 10% mais pobres?",
+    "alternativas": [
+      { "letra": "A", "texto": "240,40" },
+      { "letra": "B", "texto": "548,11" },
+      { "letra": "C", "texto": "1 723,67" },
+      { "letra": "D", "texto": "4 026,70" },
+      { "letra": "E", "texto": "5 216,68" }
+    ],
+    "correta": "E",
+    "explicacao": "Renda total ≈ 101,8 milhões × R$1.202 ≈ R$122.363,6 milhões. Cada grupo de 10% tem 10,18 milhões de pessoas. Os 10% mais ricos somam 44,5% do total (≈R$54.451,8 milhões), com média per capita ≈R$5.349,88. Os 10% mais pobres somam 1,1% do total (≈R$1.346,0 milhões), com média per capita ≈R$132,22. A diferença é aproximadamente R$5.217,66 ≈ R$5.216,68."
+  },
+  {
+    "id": "enem-2015-158",
+    "categoriaId": "porcentagem",
+    "subtopico": "Fator de Multiplicação",
+    "dificuldade": "dificil",
+    "fonte": { "tipo": "enem", "ano": 2015, "descricao": "ENEM 2015, 2º dia, Caderno 5 (Amarelo), 1ª aplicação, questão 158", "url": "https://download.inep.gov.br/educacao_basica/enem/provas/2015/CAD_ENEM 2015_DIA 2_05_AMARELO.pdf" },
+    "enunciado": "O HPV é uma doença sexualmente transmissível. Uma vacina com eficácia de 98% foi criada com o objetivo de prevenir a infecção por HPV. Uma campanha de vacinação foi lançada em 2014 pelo SUS, para um público-alvo de meninas de 11 a 13 anos de idade. Considera-se que, em uma população não vacinada, o HPV acomete 50% desse público ao longo de suas vidas. Em certo município, a equipe coordenadora da campanha decidiu vacinar meninas dessa faixa etária em quantidade suficiente para que a probabilidade de uma menina, escolhida ao acaso, vir a desenvolver essa doença seja, no máximo, de 5,9%. Houve cinco propostas de cobertura: Proposta I: 90% do público-alvo; Proposta II: 55,8%; Proposta III: 88,2%; Proposta IV: 49%; Proposta V: 95,9%. Para diminuir os custos, a proposta escolhida deveria ser também aquela que vacinasse a menor quantidade possível de pessoas. A proposta implementada foi a de número",
+    "alternativas": [
+      { "letra": "A", "texto": "I." },
+      { "letra": "B", "texto": "II." },
+      { "letra": "C", "texto": "III." },
+      { "letra": "D", "texto": "IV." },
+      { "letra": "E", "texto": "V." }
+    ],
+    "correta": "A",
+    "explicacao": "Uma pessoa vacinada tem risco residual de (1−0,98)×50%=1%. Se V é a fração vacinada, o risco médio é V×1%+(1−V)×50% ≤ 5,9%. Resolvendo: 0,5−0,49V≤0,059, logo V≥90%. A menor cobertura que atinge exatamente essa meta é a Proposta I, com 90%."
+  },
+  {
+    "id": "enem-2015-179",
+    "categoriaId": "porcentagem",
+    "subtopico": "Fator de Multiplicação",
+    "dificuldade": "medio",
+    "fonte": { "tipo": "enem", "ano": 2015, "descricao": "ENEM 2015, 2º dia, Caderno 5 (Amarelo), 1ª aplicação, questão 179", "url": "https://download.inep.gov.br/educacao_basica/enem/provas/2015/CAD_ENEM 2015_DIA 2_05_AMARELO.pdf" },
+    "enunciado": "Uma fábrica de sorvetes utiliza embalagens plásticas no formato de paralelepípedo retangular reto. Internamente, a embalagem tem 10 cm de altura e base de 20 cm por 10 cm. No processo de confecção do sorvete, uma mistura é colocada na embalagem no estado líquido e, quando levada ao congelador, tem seu volume aumentado em 25%, ficando com consistência cremosa. Inicialmente é colocada na embalagem uma mistura sabor chocolate com volume de 1.000 cm³ e, após essa mistura ficar cremosa, será adicionada uma mistura sabor morango, de modo que, ao final do processo de congelamento, a embalagem fique completamente preenchida com sorvete, sem transbordar. O volume máximo, em cm³, da mistura sabor morango que deverá ser colocado na embalagem é",
+    "alternativas": [
+      { "letra": "A", "texto": "450." },
+      { "letra": "B", "texto": "500." },
+      { "letra": "C", "texto": "600." },
+      { "letra": "D", "texto": "750." },
+      { "letra": "E", "texto": "1 000." }
+    ],
+    "correta": "C",
+    "explicacao": "O volume da embalagem é 20×10×10=2.000 cm³. O chocolate, após congelar, ocupa 1.000×1,25=1.250 cm³. Sobram 2.000−1.250=750 cm³ para o morango após seu próprio congelamento. Como o morango também aumenta 25% de volume, seu volume inicial deve ser 750/1,25=600 cm³."
+  },
+  {
+    "id": "enem-2016-151",
+    "categoriaId": "porcentagem",
+    "subtopico": "Aumentos e Descontos Sucessivos",
+    "dificuldade": "medio",
+    "fonte": { "tipo": "enem", "ano": 2016, "descricao": "ENEM 2016, 2º dia, Caderno 5 (Amarelo), questão 151", "url": "https://download.inep.gov.br/educacao_basica/enem/provas/2016/2016_PV_impresso_D2_CD5.pdf" },
+    "enunciado": "O censo demográfico é um levantamento estatístico que permite a coleta de várias informações. Segundo dados do censo demográfico brasileiro de 1940 e 2000, a população residente na capital da Região Nordeste era de 1.270.729 habitantes em 1940 e passou para 10.162.346 habitantes em 2000. O valor mais próximo do percentual que descreve o aumento da população nas capitais da Região Nordeste é",
+    "alternativas": [
+      { "letra": "A", "texto": "125%" },
+      { "letra": "B", "texto": "231%" },
+      { "letra": "C", "texto": "331%" },
+      { "letra": "D", "texto": "700%" },
+      { "letra": "E", "texto": "800%" }
+    ],
+    "correta": "D",
+    "explicacao": "O aumento percentual é (10.162.346−1.270.729)/1.270.729 = 8.891.617/1.270.729 ≈ 7,0, ou seja, aproximadamente 700%."
+  },
+  {
+    "id": "enem-2016-155",
+    "categoriaId": "porcentagem",
+    "subtopico": "Fator de Multiplicação",
+    "dificuldade": "dificil",
+    "fonte": { "tipo": "enem", "ano": 2016, "descricao": "ENEM 2016, 2º dia, Caderno 5 (Amarelo), questão 155", "url": "https://download.inep.gov.br/educacao_basica/enem/provas/2016/2016_PV_impresso_D2_CD5.pdf" },
+    "enunciado": "O setor de recursos humanos de uma empresa pretende fazer contratações para adequar-se ao artigo 93 da Lei nº 8.213/91, que dispõe: a empresa com 100 ou mais empregados está obrigada a preencher, com beneficiários reabilitados ou pessoas com deficiência habilitadas, a seguinte proporção dos seus cargos: até 200 empregados: 2%; de 201 a 500 empregados: 3%; de 501 a 1.000 empregados: 4%; de 1.001 em diante: 5%. Constatou-se que a empresa possui 1.200 funcionários, dos quais 10 são reabilitados ou com deficiência, habilitados. Para adequar-se à referida lei, a empresa contratará apenas empregados que atendem ao perfil indicado no artigo 93. O número mínimo de empregados reabilitados ou com deficiência, habilitados, que deverá ser contratado pela empresa é",
+    "alternativas": [
+      { "letra": "A", "texto": "74." },
+      { "letra": "B", "texto": "70." },
+      { "letra": "C", "texto": "64." },
+      { "letra": "D", "texto": "60." },
+      { "letra": "E", "texto": "53." }
+    ],
+    "correta": "E",
+    "explicacao": "Como a empresa contratará x novos funcionários (todos dentro do perfil), o total de funcionários passa a ser 1200+x, e o número de habilitados passa a ser 10+x. Com 1200+x > 1000, a exigência é de 5%: 10+x ≥ 0,05×(1200+x). Resolvendo: 10+x≥60+0,05x → 0,95x≥50 → x≥52,6, ou seja, no mínimo 53 contratações."
+  },
+  {
+    "id": "enem-2018-137",
+    "categoriaId": "porcentagem",
+    "subtopico": "Aumentos e Descontos Sucessivos",
+    "dificuldade": "medio",
+    "fonte": { "tipo": "enem", "ano": 2018, "descricao": "ENEM 2018, 2º dia, Caderno 5 (Amarelo), questão 137", "url": "https://download.inep.gov.br/educacao_basica/enem/provas/2018/2018_PV_impresso_D2_CD5.pdf" },
+    "enunciado": "O colesterol total de uma pessoa é obtido pela soma da taxa do seu \"colesterol bom\" com a taxa do seu \"colesterol ruim\". Os exames periódicos, realizados em um paciente adulto, apresentaram taxa normal de \"colesterol bom\", porém, taxa do \"colesterol ruim\" (também chamado LDL) de 280 mg/dL. Classificação de acordo com as taxas de LDL em adultos: Ótima: menor que 100; Próxima de ótima: 100 a 129; Limite: 130 a 159; Alta: 160 a 189; Muito alta: 190 ou mais (em mg/dL). O paciente, seguindo as recomendações médicas sobre estilo de vida e alimentação, realizou o exame logo após o primeiro mês, e a taxa de LDL reduziu 25%. No mês seguinte, realizou novo exame e constatou uma redução de mais 20% na taxa de LDL. Após essas duas reduções, a taxa de LDL do paciente pode ser classificada como",
+    "alternativas": [
+      { "letra": "A", "texto": "ótima." },
+      { "letra": "B", "texto": "próxima de ótima." },
+      { "letra": "C", "texto": "limite." },
+      { "letra": "D", "texto": "alta." },
+      { "letra": "E", "texto": "muito alta." }
+    ],
+    "correta": "D",
+    "explicacao": "Taxa inicial: 280 mg/dL. Após a primeira redução de 25%: 280×0,75=210 mg/dL. Após a segunda redução de 20%: 210×0,8=168 mg/dL. Esse valor está entre 160 e 189, classificado como alta."
+  },
+  {
+    "id": "enem-2019-179",
+    "categoriaId": "porcentagem",
+    "subtopico": "Aumentos e Descontos Sucessivos",
+    "dificuldade": "dificil",
+    "fonte": { "tipo": "enem", "ano": 2019, "descricao": "ENEM 2019, 2º dia, Caderno 5 (Amarelo), questão 179", "url": "https://download.inep.gov.br/educacao_basica/enem/provas/2019/2019_PV_impresso_D2_CD5.pdf" },
+    "enunciado": "Para construir uma piscina, cuja área total da superfície interna é igual a 40 m², uma construtora apresentou o seguinte orçamento: R$ 10.000,00 pela elaboração do projeto; R$ 40.000,00 pelos custos fixos; R$ 2.500,00 por metro quadrado para construção da área interna da piscina. Após a apresentação do orçamento, essa empresa decidiu reduzir o valor de elaboração do projeto em 50%, mas recalculou o valor do metro quadrado para a construção da área interna da piscina, concluindo haver a necessidade de aumentá-lo em 25%. Além disso, a construtora pretende dar um desconto nos custos fixos, de maneira que o novo valor do orçamento seja reduzido em 10% em relação ao total inicial. O percentual de desconto que a construtora deverá conceder nos custos fixos é de",
+    "alternativas": [
+      { "letra": "A", "texto": "23,3%" },
+      { "letra": "B", "texto": "25,0%" },
+      { "letra": "C", "texto": "50,0%" },
+      { "letra": "D", "texto": "87,5%" },
+      { "letra": "E", "texto": "100,0%" }
+    ],
+    "correta": "D",
+    "explicacao": "Orçamento inicial: 10.000+40.000+2.500×40=10.000+40.000+100.000=150.000. Novo projeto: 10.000×0,5=5.000. Nova área: 2.500×1,25×40=125.000. O novo total deve ser 150.000×0,9=135.000. Logo, o novo custo fixo é 135.000−5.000−125.000=5.000. O desconto sobre os custos fixos é (40.000−5.000)/40.000=87,5%."
+  },
+  {
+    "id": "enem-2020-174",
+    "categoriaId": "porcentagem",
+    "subtopico": "Aumentos e Descontos Sucessivos",
+    "dificuldade": "medio",
+    "fonte": { "tipo": "enem", "ano": 2020, "descricao": "ENEM 2020, 2º dia, Caderno 5 (Amarelo), questão 174", "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_PV_impresso_D2_CD5.pdf" },
+    "enunciado": "O quadro representa os gastos mensais, em real, de uma família com internet, mensalidade escolar e mesada do filho: Internet: R$ 120,00; Mensalidade escolar: R$ 700,00; Mesada do filho: R$ 400,00. No início do ano, a internet e a mensalidade escolar tiveram acréscimos, respectivamente, de 20% e 10%. Necessitando manter o valor da despesa mensal total com os itens citados, a família reduzirá a mesada do filho. Qual será a porcentagem da redução da mesada?",
+    "alternativas": [
+      { "letra": "A", "texto": "15,0" },
+      { "letra": "B", "texto": "23,5" },
+      { "letra": "C", "texto": "30,0" },
+      { "letra": "D", "texto": "70,0" },
+      { "letra": "E", "texto": "76,5" }
+    ],
+    "correta": "B",
+    "explicacao": "Total inicial: 120+700+400=1.220. Nova internet: 120×1,2=144. Nova mensalidade: 700×1,1=770. Para manter o total em 1.220, a nova mesada deve ser 1.220−144−770=306. A redução é (400−306)/400=23,5%."
+  },
+  {
+    "id": "enem-2021-157",
+    "categoriaId": "porcentagem",
+    "subtopico": "Fator de Multiplicação",
+    "dificuldade": "medio",
+    "fonte": { "tipo": "enem", "ano": 2021, "descricao": "ENEM 2021, 2º dia, Caderno 5 (Amarelo), 1ª aplicação, questão 157", "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2021_PV_impresso_D2_CD5.pdf" },
+    "enunciado": "Para realizar um voo entre duas cidades que distam 2.000 km uma da outra, uma companhia aérea utilizava um modelo de aeronave A, capaz de transportar até 200 passageiros. Quando uma dessas aeronaves está lotada de passageiros, o consumo de combustível é de 0,02 litro por quilômetro e por passageiro. Essa companhia resolveu trocar o modelo de aeronave A pelo modelo de aeronave B, que é capaz de transportar 10% de passageiros a mais do que o modelo A, mas consumindo 10% menos combustível por quilômetro e por passageiro. A quantidade de combustível consumida pelo modelo de aeronave B, em relação à do modelo de aeronave A, em um voo lotado entre as duas cidades, é",
+    "alternativas": [
+      { "letra": "A", "texto": "10% menor." },
+      { "letra": "B", "texto": "1% menor." },
+      { "letra": "C", "texto": "igual." },
+      { "letra": "D", "texto": "1% maior." },
+      { "letra": "E", "texto": "11% maior." }
+    ],
+    "correta": "B",
+    "explicacao": "Consumo total de A: 200 passageiros × consumo c. Consumo total de B: (1,1×200 passageiros) × (0,9×c) = 1,1×0,9×200c = 0,99×200c, ou seja, 99% do consumo de A — uma redução de 1%."
+  },
+  {
+    "id": "enem-2021-151",
+    "categoriaId": "regra-de-tres",
+    "subtopico": "Regra de Três Simples",
+    "dificuldade": "medio",
+    "fonte": { "tipo": "enem", "ano": 2021, "descricao": "ENEM 2021, 2º dia, Caderno 5 (Amarelo), 1ª aplicação, questão 151", "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2021_PV_impresso_D2_CD5.pdf" },
+    "enunciado": "Um automóvel apresenta um desempenho médio de 16 km/L. Um engenheiro desenvolveu um novo motor a combustão que economiza, em relação ao consumo do motor anterior, 0,1 L de combustível a cada 20 km percorridos. O valor do desempenho médio do automóvel com o novo motor, em quilômetro por litro, expresso com uma casa decimal, é",
+    "alternativas": [
+      { "letra": "A", "texto": "15,9." },
+      { "letra": "B", "texto": "16,1." },
+      { "letra": "C", "texto": "16,4." },
+      { "letra": "D", "texto": "17,4." },
+      { "letra": "E", "texto": "18,0." }
+    ],
+    "correta": "D",
+    "explicacao": "O consumo original é 1/16 = 0,0625 L/km. A economia é 0,1 L a cada 20 km, ou seja, 0,005 L/km. O novo consumo é 0,0625−0,005=0,0575 L/km, o que corresponde a um rendimento de 1/0,0575 ≈ 17,4 km/L."
+  },
+  {
+    "id": "enem-2011-138",
+    "categoriaId": "numeros",
+    "subtopico": "Números Decimais",
+    "dificuldade": "facil",
+    "fonte": { "tipo": "enem", "ano": 2011, "descricao": "ENEM 2011, 2º dia, Caderno 5 (Amarelo), questão 138", "url": "https://download.inep.gov.br/educacao_basica/enem/provas/2011/2011_PV_impresso_D2_CD5.pdf" },
+    "enunciado": "O dono de uma oficina mecânica precisa de um pistão das partes de um motor, de 68 mm de diâmetro, para o conserto de um carro. Para conseguir um, esse dono vai até um ferro velho e lá encontra pistões com diâmetros iguais a 68,21 mm; 68,102 mm; 68,001 mm; 68,02 mm e 68,012 mm. Para colocar o pistão no motor que está sendo consertado, o dono da oficina terá de adquirir aquele que tenha o diâmetro mais próximo do que precisa. Nessa condição, o dono da oficina deverá comprar o pistão de diâmetro",
+    "alternativas": [
+      { "letra": "A", "texto": "68,21 mm." },
+      { "letra": "B", "texto": "68,102 mm." },
+      { "letra": "C", "texto": "68,02 mm." },
+      { "letra": "D", "texto": "68,012 mm." },
+      { "letra": "E", "texto": "68,001 mm." }
+    ],
+    "correta": "E",
+    "explicacao": "Calculando a diferença de cada opção para 68 mm: 0,21; 0,102; 0,02; 0,012; 0,001. A menor diferença é a do pistão de 68,001 mm."
+  },
+  {
+    "id": "enem-2010-176",
+    "categoriaId": "numeros",
+    "subtopico": "Operações com Frações",
+    "dificuldade": "medio",
+    "fonte": { "tipo": "enem", "ano": 2010, "descricao": "ENEM 2010, 2º dia, Caderno 5 (Amarelo), questão 176", "url": "https://download.inep.gov.br/educacao_basica/enem/provas/2010/AMARELO_Domingo_GAB.pdf" },
+    "enunciado": "A disparidade de volume entre os planetas é tão grande que seria possível colocá-los uns dentro dos outros. O planeta Mercúrio é o menor de todos. Marte é o segundo menor: dentro dele cabem três Mercúrios. Terra é o único com vida: dentro dela cabem sete Martes. Netuno é o quarto maior: dentro dele cabem 58 Terras. Júpiter é o maior dos planetas: dentro dele cabem 23 Netunos. Seguindo o raciocínio proposto, quantas Terras cabem dentro de Júpiter?",
+    "alternativas": [
+      { "letra": "A", "texto": "406" },
+      { "letra": "B", "texto": "1 334" },
+      { "letra": "C", "texto": "4 002" },
+      { "letra": "D", "texto": "9 338" },
+      { "letra": "E", "texto": "28 014" }
+    ],
+    "correta": "B",
+    "explicacao": "Cada Netuno comporta 58 Terras, e cada Júpiter comporta 23 Netunos. Logo, o número de Terras dentro de Júpiter é 58 × 23 = 1.334."
+  },
+  {
+    "id": "enem-2009-153",
+    "categoriaId": "numeros",
+    "subtopico": "Notação Científica e Escalas",
+    "dificuldade": "dificil",
+    "fonte": { "tipo": "enem", "ano": 2009, "descricao": "ENEM 2009, 2º dia, Caderno 5 (Amarelo), questão 153", "url": "https://download.inep.gov.br/educacao_basica/enem/provas/2009/dia2_caderno5_amarelo.pdf" },
+    "enunciado": "O aquífero Guarani localiza-se no subterrâneo dos territórios da Argentina, Brasil, Paraguai e Uruguai, com extensão total de 1.200.000 quilômetros quadrados, dos quais 840.000 quilômetros quadrados estão no Brasil. O aquífero armazena cerca de 30 mil quilômetros cúbicos de água e é considerado um dos maiores do mundo. Na maioria das vezes em que são feitas referências à água, são usadas as unidades metro cúbico e litro, e não as unidades já descritas. A Companhia de Saneamento Básico do Estado de São Paulo (SABESP) divulgou, por exemplo, um novo reservatório cuja capacidade de armazenagem é de 20 milhões de litros. Comparando as capacidades do aquífero Guarani e desse novo reservatório da SABESP, a capacidade do aquífero Guarani é",
+    "alternativas": [
+      { "letra": "A", "texto": "1,5 x 10² vezes a capacidade do reservatório novo." },
+      { "letra": "B", "texto": "1,5 x 10³ vezes a capacidade do reservatório novo." },
+      { "letra": "C", "texto": "1,5 x 10⁶ vezes a capacidade do reservatório novo." },
+      { "letra": "D", "texto": "1,5 x 10⁸ vezes a capacidade do reservatório novo." },
+      { "letra": "E", "texto": "1,5 x 10⁹ vezes a capacidade do reservatório novo." }
+    ],
+    "correta": "E",
+    "explicacao": "30 mil km³ = 3×10⁴ km³. Como 1 km³ = 10¹² litros, o aquífero tem 3×10¹⁶ litros. Dividindo pelos 2×10⁷ litros do reservatório: (3×10¹⁶)/(2×10⁷) = 1,5×10⁹ vezes."
+  },
+  {
+    "id": "enem-2009-158",
+    "categoriaId": "numeros",
+    "subtopico": "Operações com Frações",
+    "dificuldade": "dificil",
+    "fonte": { "tipo": "enem", "ano": 2009, "descricao": "ENEM 2009, 2º dia, Caderno 5 (Amarelo), questão 158", "url": "https://download.inep.gov.br/educacao_basica/enem/provas/2009/dia2_caderno5_amarelo.pdf" },
+    "enunciado": "Para cada indivíduo, a sua inscrição no Cadastro de Pessoas Físicas (CPF) é composto por um número de 9 algarismos e outro número de 2 algarismos, na forma d1d2, em que os dígitos d1 e d2 são denominados dígitos verificadores. Os dígitos verificadores são calculados, a partir da esquerda, da seguinte maneira: os 9 primeiros algarismos são multiplicados pela sequência 10, 9, 8, 7, 6, 5, 4, 3, 2 (o primeiro por 10, o segundo por 9, e assim sucessivamente); em seguida, calcula-se o resto r da divisão da soma dos resultados das multiplicações por 11, e se esse resto r for 0 ou 1, d1 é zero, caso contrário d1 = (11 – r). O dígito d2 é calculado pela mesma regra, na qual os números a serem multiplicados pela sequência dada são contados a partir do segundo algarismo, sendo d1 o último algarismo, isto é, d2 é zero se o resto s da divisão por 11 das somas das multiplicações for 0 ou 1, caso contrário, d2 = (11 – s). Suponha que João tenha perdido seus documentos, inclusive o cartão de CPF e, ao dar queixa da perda na delegacia, não conseguisse lembrar quais eram os dígitos verificadores, recordando-se apenas que os nove primeiros algarismos eram 123.456.789. Neste caso, os dígitos verificadores d1 e d2 esquecidos são, respectivamente,",
+    "alternativas": [
+      { "letra": "A", "texto": "0 e 9." },
+      { "letra": "B", "texto": "1 e 4." },
+      { "letra": "C", "texto": "1 e 7." },
+      { "letra": "D", "texto": "9 e 1." },
+      { "letra": "E", "texto": "0 e 1." }
+    ],
+    "correta": "A",
+    "explicacao": "Multiplicando 1,2,...,9 por 10,9,...,2: soma = 210. 210 dividido por 11 dá resto r=1, logo d1=0. Repetindo com 2,3,...,9,0 (usando d1=0) multiplicados por 10,9,...,2: soma = 244. 244 dividido por 11 dá resto s=2, logo d2 = 11-2 = 9. Portanto d1=0 e d2=9."
+  },
+  {
+    "id": "enem-2009-173",
+    "categoriaId": "numeros",
+    "subtopico": "Notação Científica e Escalas",
+    "dificuldade": "dificil",
+    "fonte": { "tipo": "enem", "ano": 2009, "descricao": "ENEM 2009, 2º dia, Caderno 5 (Amarelo), questão 173", "url": "https://download.inep.gov.br/educacao_basica/enem/provas/2009/dia2_caderno5_amarelo.pdf" },
+    "enunciado": "A resolução das câmeras digitais modernas é dada em megapixels, unidade de medida que representa um milhão de pontos. As informações sobre cada um desses pontos são armazenadas, em geral, em 3 bytes. Porém, para evitar que as imagens ocupem muito espaço, elas são submetidas a algoritmos de compressão, que reduzem em até 95% a quantidade de bytes necessários para armazená-las. Considere 1 KB = 1.000 bytes, 1 MB = 1.000 KB, 1 GB = 1.000 MB. Utilizando uma câmera de 2.0 megapixels cujo algoritmo de compressão é de 95%, João fotografou 150 imagens para seu trabalho escolar. Se ele deseja armazená-las de modo que o espaço restante no dispositivo seja o menor espaço possível, ele deve utilizar",
+    "alternativas": [
+      { "letra": "A", "texto": "um CD de 700 MB." },
+      { "letra": "B", "texto": "um pendrive de 1 GB." },
+      { "letra": "C", "texto": "um HD externo de 16 GB." },
+      { "letra": "D", "texto": "um memory stick de 16 MB." },
+      { "letra": "E", "texto": "um cartão de memória de 64 MB." }
+    ],
+    "correta": "E",
+    "explicacao": "Cada imagem sem compressão: 2.000.000 pontos × 3 bytes = 6.000.000 bytes. Com redução de 95%, restam 5%: 6.000.000 × 0,05 = 300.000 bytes por imagem. Para 150 imagens: 300.000 × 150 = 45.000.000 bytes = 45 MB. O menor dispositivo com capacidade suficiente (≥45 MB) é o cartão de memória de 64 MB, que deixa o menor espaço livre restante."
+  },
+  {
+    "id": "enem-2021-136",
+    "categoriaId": "numeros",
+    "subtopico": "Operações com Frações",
+    "dificuldade": "medio",
+    "fonte": { "tipo": "enem", "ano": 2021, "descricao": "ENEM 2021, 2º dia, Caderno 5 (Amarelo), 1ª aplicação, questão 136", "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2021_PV_impresso_D2_CD5.pdf" },
+    "enunciado": "O sistema de numeração romano ainda é utilizado na indicação de capítulos e volumes de livros, na designação de séculos e, em ordem cronológica, de papas e reis de mesmo nome. São utilizadas sete letras do alfabeto: Quatro fundamentais: I (vale 1); X (vale 10); C (vale 100) e M (vale 1 000). Três secundárias: V (vale 5); L (vale 50) e D (vale 500). As regras para escrever números romanos são: 1. Não existe símbolo correspondente ao zero; 2. Os símbolos fundamentais podem ser repetidos até três vezes e seus valores são adicionados. Exemplo: XXX = 30; 3. Uma letra posta à esquerda de outra de maior valor indica subtração dos respectivos valores. Exemplo: IX = 10 − 1 = 9; 4. Uma letra posta à direita de outra de maior valor indica adição dos respectivos valores. Exemplo: XI = 10 + 1 = 11. Em uma cidade europeia há uma placa indicando o ano de sua fundação: MCDLXIX. Quantos anos de fundação essa cidade comemorará em 2050?",
+    "alternativas": [
+      { "letra": "A", "texto": "379" },
+      { "letra": "B", "texto": "381" },
+      { "letra": "C", "texto": "579" },
+      { "letra": "D", "texto": "581" },
+      { "letra": "E", "texto": "601" }
+    ],
+    "correta": "D",
+    "explicacao": "MCDLXIX = M(1000) + CD(400) + L(50) + X(10) + IX(9) = 1469. Em 2050, a cidade comemorará 2050 − 1469 = 581 anos de fundação."
+  },
+  {
+    "id": "enem-2021-137",
+    "categoriaId": "numeros",
+    "subtopico": "Potenciação e Radiciação",
+    "dificuldade": "medio",
+    "fonte": { "tipo": "enem", "ano": 2021, "descricao": "ENEM 2021, 2º dia, Caderno 5 (Amarelo), 1ª aplicação, questão 137", "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2021_PV_impresso_D2_CD5.pdf" },
+    "enunciado": "Uma das bases mais utilizadas para representar um número é a base decimal. Entretanto, os computadores trabalham com números na base binária. Nessa base, qualquer número natural é representado usando apenas os algarismos 0 e 1. Por exemplo, as representações dos números 9 e 12, na base binária, são 1001 e 1100, respectivamente. A operação de adição, na base binária, segue um algoritmo similar ao utilizado na base decimal (0+0=0, 0+1=1, 1+0=1, 1+1=10, com o 'vai um' análogo à base decimal). Por exemplo, na base binária, a soma dos números 10 e 10 é 100. Considerando as informações do texto, o resultado da adição 9 + 12 será representado, na base binária, por",
+    "alternativas": [
+      { "letra": "A", "texto": "101." },
+      { "letra": "B", "texto": "1101." },
+      { "letra": "C", "texto": "1111." },
+      { "letra": "D", "texto": "10101." },
+      { "letra": "E", "texto": "11001." }
+    ],
+    "correta": "D",
+    "explicacao": "9 + 12 = 21 em decimal. Convertendo 21 para base binária: 21 = 16+4+1 = 10101₂."
   }
 ]

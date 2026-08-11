@@ -7,31 +7,31 @@
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Um(a) reservatório de água tem capacidade total de 600 litros e está com 3/5 de sua capacidade. Em seguida, foram retirados 1/2 da capacidade total do recipiente. Quantos litros restaram?",
+    "enunciado": "Um(a) tanque de combustível tem capacidade total de 320 litros e está com 3/4 de sua capacidade. Em seguida, foram retirados 2/4 da capacidade total do recipiente. Quantos litros restaram?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "360 litros"
+        "texto": "320 litros"
       },
       {
         "letra": "B",
-        "texto": "240 litros"
+        "texto": "80 litros"
       },
       {
         "letra": "C",
-        "texto": "60 litros"
+        "texto": "160 litros"
       },
       {
         "letra": "D",
-        "texto": "300 litros"
+        "texto": "321 litros"
       },
       {
         "letra": "E",
-        "texto": "600 litros"
+        "texto": "240 litros"
       }
     ],
-    "correta": "C",
-    "explicacao": "A quantidade inicial é 3/5 de 600 = 360 litros. A quantidade retirada é 1/2 de 600 = 300 litros. Logo, o restante é 360 − 300 = 60 litros."
+    "correta": "B",
+    "explicacao": "A quantidade inicial é 3/4 de 320 = 240 litros. A quantidade retirada é 2/4 de 320 = 160 litros. Logo, o restante é 240 − 160 = 80 litros."
   },
   {
     "id": "numeros-ined-0002",
@@ -41,31 +41,31 @@
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Uma medida de distância é de aproximadamente 994,3 km. Qual é essa medida em mm, escrita em notação científica (na forma a · 10^k, onde 1 ≤ a < 10 e k é um número inteiro)?",
+    "enunciado": "Uma medida de massa é de aproximadamente 683,7 ton. Qual é essa medida em kg, escrita em notação científica (na forma a · 10^k, onde 1 ≤ a < 10 e k é um número inteiro)?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "9,943 · 10^2 km"
+        "texto": "6,837 · 10^6 kg"
       },
       {
         "letra": "B",
-        "texto": "9,943 · 10^9 mm"
+        "texto": "6,837 · 10^7 kg"
       },
       {
         "letra": "C",
-        "texto": "9,943 · 10^8 mm"
+        "texto": "6,837 · 10^4 kg"
       },
       {
         "letra": "D",
-        "texto": "9,943 · 10^7 mm"
+        "texto": "6,837 · 10^5 kg"
       },
       {
         "letra": "E",
-        "texto": "9,943 · 10^10 mm"
+        "texto": "6,837 · 10^2 ton"
       }
     ],
-    "correta": "C",
-    "explicacao": "1 km = 10^6 mm. Então 994,3 km = 994.300.000 mm. Deslocando a vírgula até obter um único dígito antes dela: 9,943 · 10^8 mm."
+    "correta": "D",
+    "explicacao": "1 ton = 10^3 kg. Então 683,7 ton = 683.700 kg. Deslocando a vírgula até obter um único dígito antes dela: 6,837 · 10^5 kg."
   },
   {
     "id": "numeros-ined-0003",
@@ -75,31 +75,31 @@
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Um(a) saco de cimento em um estoque tem capacidade total de 900 kg e está com 1/5 de sua capacidade. Em seguida, foram retirados 1/6 da capacidade total do recipiente. Quantos kg restaram?",
+    "enunciado": "Um(a) saco de cimento em um estoque tem capacidade total de 200 kg e está com 4/5 de sua capacidade. Em seguida, foram retirados 1/10 da capacidade total do recipiente. Quantos kg restaram?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "30 kg"
+        "texto": "160 kg"
       },
       {
         "letra": "B",
-        "texto": "900 kg"
+        "texto": "140 kg"
       },
       {
         "letra": "C",
-        "texto": "720 kg"
+        "texto": "200 kg"
       },
       {
         "letra": "D",
-        "texto": "150 kg"
+        "texto": "20 kg"
       },
       {
         "letra": "E",
-        "texto": "180 kg"
+        "texto": "40 kg"
       }
     ],
-    "correta": "A",
-    "explicacao": "A quantidade inicial é 1/5 de 900 = 180 kg. A quantidade retirada é 1/6 de 900 = 150 kg. Logo, o restante é 180 − 150 = 30 kg."
+    "correta": "B",
+    "explicacao": "A quantidade inicial é 4/5 de 200 = 160 kg. A quantidade retirada é 1/10 de 200 = 20 kg. Logo, o restante é 160 − 20 = 140 kg."
   },
   {
     "id": "numeros-ined-0004",
@@ -109,31 +109,31 @@
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Uma medida de distância é de aproximadamente 354,9 km. Qual é essa medida em m, escrita em notação científica (na forma a · 10^k, onde 1 ≤ a < 10 e k é um número inteiro)?",
+    "enunciado": "Uma medida de massa é de aproximadamente 662,6 ton. Qual é essa medida em kg, escrita em notação científica (na forma a · 10^k, onde 1 ≤ a < 10 e k é um número inteiro)?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "3,549 · 10^6 m"
+        "texto": "6,626 · 10^4 kg"
       },
       {
         "letra": "B",
-        "texto": "3,549 · 10^4 m"
+        "texto": "6,626 · 10^5 kg"
       },
       {
         "letra": "C",
-        "texto": "3,549 · 10^2 km"
+        "texto": "6,626 · 10^6 kg"
       },
       {
         "letra": "D",
-        "texto": "3,549 · 10^5 m"
+        "texto": "6,626 · 10^2 ton"
       },
       {
         "letra": "E",
-        "texto": "3,549 · 10^7 m"
+        "texto": "6,626 · 10^7 kg"
       }
     ],
-    "correta": "D",
-    "explicacao": "1 km = 10^3 m. Então 354,9 km = 354.900 m. Deslocando a vírgula até obter um único dígito antes dela: 3,549 · 10^5 m."
+    "correta": "B",
+    "explicacao": "1 ton = 10^3 kg. Então 662,6 ton = 662.600 kg. Deslocando a vírgula até obter um único dígito antes dela: 6,626 · 10^5 kg."
   },
   {
     "id": "numeros-ined-0005",
@@ -143,31 +143,31 @@
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Um(a) saco de cimento em um estoque tem capacidade total de 2400 kg e está com 4/8 de sua capacidade. Em seguida, foram retirados 2/5 da capacidade total do recipiente. Quantos kg restaram?",
+    "enunciado": "Um(a) rolo de fio elétrico tem capacidade total de 800 metros e está com 4/5 de sua capacidade. Em seguida, foram retirados 3/4 da capacidade total do recipiente. Quantos metros restaram?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "1200 kg"
+        "texto": "40 metros"
       },
       {
         "letra": "B",
-        "texto": "240 kg"
+        "texto": "640 metros"
       },
       {
         "letra": "C",
-        "texto": "2400 kg"
+        "texto": "800 metros"
       },
       {
         "letra": "D",
-        "texto": "960 kg"
+        "texto": "160 metros"
       },
       {
         "letra": "E",
-        "texto": "2401 kg"
+        "texto": "600 metros"
       }
     ],
-    "correta": "B",
-    "explicacao": "A quantidade inicial é 4/8 de 2400 = 1200 kg. A quantidade retirada é 2/5 de 2400 = 960 kg. Logo, o restante é 1200 − 960 = 240 kg."
+    "correta": "A",
+    "explicacao": "A quantidade inicial é 4/5 de 800 = 640 metros. A quantidade retirada é 3/4 de 800 = 600 metros. Logo, o restante é 640 − 600 = 40 metros."
   },
   {
     "id": "numeros-ined-0006",
@@ -177,31 +177,31 @@
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Uma medida de distância é de aproximadamente 468,9 km. Qual é essa medida em mm, escrita em notação científica (na forma a · 10^k, onde 1 ≤ a < 10 e k é um número inteiro)?",
+    "enunciado": "Uma medida de distância é de aproximadamente 766,3 km. Qual é essa medida em mm, escrita em notação científica (na forma a · 10^k, onde 1 ≤ a < 10 e k é um número inteiro)?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "4,689 · 10^2 km"
+        "texto": "7,663 · 10^2 km"
       },
       {
         "letra": "B",
-        "texto": "4,689 · 10^9 mm"
+        "texto": "7,663 · 10^8 mm"
       },
       {
         "letra": "C",
-        "texto": "4,689 · 10^7 mm"
+        "texto": "7,663 · 10^7 mm"
       },
       {
         "letra": "D",
-        "texto": "4,689 · 10^10 mm"
+        "texto": "7,663 · 10^10 mm"
       },
       {
         "letra": "E",
-        "texto": "4,689 · 10^8 mm"
+        "texto": "7,663 · 10^9 mm"
       }
     ],
-    "correta": "E",
-    "explicacao": "1 km = 10^6 mm. Então 468,9 km = 468.900.000 mm. Deslocando a vírgula até obter um único dígito antes dela: 4,689 · 10^8 mm."
+    "correta": "B",
+    "explicacao": "1 km = 10^6 mm. Então 766,3 km = 766.300.000 mm. Deslocando a vírgula até obter um único dígito antes dela: 7,663 · 10^8 mm."
   },
   {
     "id": "numeros-ined-0007",
@@ -211,31 +211,31 @@
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Um(a) tanque de combustível tem capacidade total de 200 litros e está com 2/4 de sua capacidade. Em seguida, foram retirados 1/4 da capacidade total do recipiente. Quantos litros restaram?",
+    "enunciado": "Um(a) reservatório de água tem capacidade total de 200 litros e está com 4/5 de sua capacidade. Em seguida, foram retirados 1/10 da capacidade total do recipiente. Quantos litros restaram?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "201 litros"
+        "texto": "160 litros"
       },
       {
         "letra": "B",
-        "texto": "203 litros"
+        "texto": "40 litros"
       },
       {
         "letra": "C",
-        "texto": "50 litros"
+        "texto": "140 litros"
       },
       {
         "letra": "D",
-        "texto": "200 litros"
+        "texto": "20 litros"
       },
       {
         "letra": "E",
-        "texto": "100 litros"
+        "texto": "200 litros"
       }
     ],
     "correta": "C",
-    "explicacao": "A quantidade inicial é 2/4 de 200 = 100 litros. A quantidade retirada é 1/4 de 200 = 50 litros. Logo, o restante é 100 − 50 = 50 litros."
+    "explicacao": "A quantidade inicial é 4/5 de 200 = 160 litros. A quantidade retirada é 1/10 de 200 = 20 litros. Logo, o restante é 160 − 20 = 140 litros."
   },
   {
     "id": "numeros-ined-0008",
@@ -245,31 +245,31 @@
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Uma medida de massa é de aproximadamente 992,8 g. Qual é essa medida em mg, escrita em notação científica (na forma a · 10^k, onde 1 ≤ a < 10 e k é um número inteiro)?",
+    "enunciado": "Uma medida de distância é de aproximadamente 255,3 km. Qual é essa medida em m, escrita em notação científica (na forma a · 10^k, onde 1 ≤ a < 10 e k é um número inteiro)?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "9,928 · 10^4 mg"
+        "texto": "2,553 · 10^5 m"
       },
       {
         "letra": "B",
-        "texto": "9,928 · 10^2 g"
+        "texto": "2,553 · 10^7 m"
       },
       {
         "letra": "C",
-        "texto": "9,928 · 10^6 mg"
+        "texto": "2,553 · 10^4 m"
       },
       {
         "letra": "D",
-        "texto": "9,928 · 10^7 mg"
+        "texto": "2,553 · 10^2 km"
       },
       {
         "letra": "E",
-        "texto": "9,928 · 10^5 mg"
+        "texto": "2,553 · 10^6 m"
       }
     ],
-    "correta": "E",
-    "explicacao": "1 g = 10^3 mg. Então 992,8 g = 992.800 mg. Deslocando a vírgula até obter um único dígito antes dela: 9,928 · 10^5 mg."
+    "correta": "A",
+    "explicacao": "1 km = 10^3 m. Então 255,3 km = 255.300 m. Deslocando a vírgula até obter um único dígito antes dela: 2,553 · 10^5 m."
   },
   {
     "id": "numeros-ined-0009",
@@ -279,31 +279,31 @@
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Um(a) tanque de combustível tem capacidade total de 1200 litros e está com 1/5 de sua capacidade. Em seguida, foram retirados 1/6 da capacidade total do recipiente. Quantos litros restaram?",
+    "enunciado": "Um(a) rolo de fio elétrico tem capacidade total de 2800 metros e está com 6/8 de sua capacidade. Em seguida, foram retirados 4/10 da capacidade total do recipiente. Quantos metros restaram?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "240 litros"
+        "texto": "2100 metros"
       },
       {
         "letra": "B",
-        "texto": "1200 litros"
+        "texto": "2800 metros"
       },
       {
         "letra": "C",
-        "texto": "200 litros"
+        "texto": "700 metros"
       },
       {
         "letra": "D",
-        "texto": "960 litros"
+        "texto": "1120 metros"
       },
       {
         "letra": "E",
-        "texto": "40 litros"
+        "texto": "980 metros"
       }
     ],
     "correta": "E",
-    "explicacao": "A quantidade inicial é 1/5 de 1200 = 240 litros. A quantidade retirada é 1/6 de 1200 = 200 litros. Logo, o restante é 240 − 200 = 40 litros."
+    "explicacao": "A quantidade inicial é 6/8 de 2800 = 2100 metros. A quantidade retirada é 4/10 de 2800 = 1120 metros. Logo, o restante é 2100 − 1120 = 980 metros."
   },
   {
     "id": "numeros-ined-0010",
@@ -313,30 +313,370 @@
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Uma medida de comprimento é de aproximadamente 294,4 m. Qual é essa medida em cm, escrita em notação científica (na forma a · 10^k, onde 1 ≤ a < 10 e k é um número inteiro)?",
+    "enunciado": "Uma medida de massa é de aproximadamente 972,2 ton. Qual é essa medida em kg, escrita em notação científica (na forma a · 10^k, onde 1 ≤ a < 10 e k é um número inteiro)?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "2,9439999999999995 · 10^6 cm"
+        "texto": "9,722 · 10^5 kg"
       },
       {
         "letra": "B",
-        "texto": "2,9439999999999995 · 10^5 cm"
+        "texto": "9,722 · 10^2 ton"
       },
       {
         "letra": "C",
-        "texto": "2,9439999999999995 · 10^4 cm"
+        "texto": "9,722 · 10^6 kg"
       },
       {
         "letra": "D",
-        "texto": "2,944 · 10^2 m"
+        "texto": "9,722 · 10^4 kg"
       },
       {
         "letra": "E",
-        "texto": "2,9439999999999995 · 10^3 cm"
+        "texto": "9,722 · 10^7 kg"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "1 ton = 10^3 kg. Então 972,2 ton = 972.200 kg. Deslocando a vírgula até obter um único dígito antes dela: 9,722 · 10^5 kg."
+  },
+  {
+    "id": "numeros-ined-0011",
+    "categoriaId": "numeros",
+    "subtopico": "Operações com Frações",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um(a) reservatório de água tem capacidade total de 960 litros e está com 6/8 de sua capacidade. Em seguida, foram retirados 2/3 da capacidade total do recipiente. Quantos litros restaram?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "960 litros"
+      },
+      {
+        "letra": "B",
+        "texto": "640 litros"
+      },
+      {
+        "letra": "C",
+        "texto": "80 litros"
+      },
+      {
+        "letra": "D",
+        "texto": "720 litros"
+      },
+      {
+        "letra": "E",
+        "texto": "240 litros"
       }
     ],
     "correta": "C",
-    "explicacao": "1 m = 10^2 cm. Então 294,4 m = 29.440 cm. Deslocando a vírgula até obter um único dígito antes dela: 2,9439999999999995 · 10^4 cm."
+    "explicacao": "A quantidade inicial é 6/8 de 960 = 720 litros. A quantidade retirada é 2/3 de 960 = 640 litros. Logo, o restante é 720 − 640 = 80 litros."
+  },
+  {
+    "id": "numeros-ined-0012",
+    "categoriaId": "numeros",
+    "subtopico": "Notação Científica e Escalas",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma medida de distância é de aproximadamente 336 km. Qual é essa medida em mm, escrita em notação científica (na forma a · 10^k, onde 1 ≤ a < 10 e k é um número inteiro)?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "3,36 · 10^8 mm"
+      },
+      {
+        "letra": "B",
+        "texto": "3,36 · 10^10 mm"
+      },
+      {
+        "letra": "C",
+        "texto": "3,36 · 10^7 mm"
+      },
+      {
+        "letra": "D",
+        "texto": "3,36 · 10^9 mm"
+      },
+      {
+        "letra": "E",
+        "texto": "3,36 · 10^2 km"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "1 km = 10^6 mm. Então 336 km = 336.000.000 mm. Deslocando a vírgula até obter um único dígito antes dela: 3,36 · 10^8 mm."
+  },
+  {
+    "id": "numeros-ined-0013",
+    "categoriaId": "numeros",
+    "subtopico": "Operações com Frações",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um(a) saco de cimento em um estoque tem capacidade total de 600 kg e está com 4/5 de sua capacidade. Em seguida, foram retirados 2/4 da capacidade total do recipiente. Quantos kg restaram?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "180 kg"
+      },
+      {
+        "letra": "B",
+        "texto": "300 kg"
+      },
+      {
+        "letra": "C",
+        "texto": "480 kg"
+      },
+      {
+        "letra": "D",
+        "texto": "120 kg"
+      },
+      {
+        "letra": "E",
+        "texto": "600 kg"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "A quantidade inicial é 4/5 de 600 = 480 kg. A quantidade retirada é 2/4 de 600 = 300 kg. Logo, o restante é 480 − 300 = 180 kg."
+  },
+  {
+    "id": "numeros-ined-0014",
+    "categoriaId": "numeros",
+    "subtopico": "Notação Científica e Escalas",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma medida de massa é de aproximadamente 422,8 g. Qual é essa medida em mg, escrita em notação científica (na forma a · 10^k, onde 1 ≤ a < 10 e k é um número inteiro)?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "4,228 · 10^4 mg"
+      },
+      {
+        "letra": "B",
+        "texto": "4,228 · 10^6 mg"
+      },
+      {
+        "letra": "C",
+        "texto": "4,228 · 10^7 mg"
+      },
+      {
+        "letra": "D",
+        "texto": "4,228 · 10^5 mg"
+      },
+      {
+        "letra": "E",
+        "texto": "4,228 · 10^2 g"
+      }
+    ],
+    "correta": "D",
+    "explicacao": "1 g = 10^3 mg. Então 422,8 g = 422.800 mg. Deslocando a vírgula até obter um único dígito antes dela: 4,228 · 10^5 mg."
+  },
+  {
+    "id": "numeros-ined-0015",
+    "categoriaId": "numeros",
+    "subtopico": "Operações com Frações",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um(a) tanque de combustível tem capacidade total de 1500 litros e está com 5/6 de sua capacidade. Em seguida, foram retirados 2/5 da capacidade total do recipiente. Quantos litros restaram?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "1500 litros"
+      },
+      {
+        "letra": "B",
+        "texto": "600 litros"
+      },
+      {
+        "letra": "C",
+        "texto": "1250 litros"
+      },
+      {
+        "letra": "D",
+        "texto": "250 litros"
+      },
+      {
+        "letra": "E",
+        "texto": "650 litros"
+      }
+    ],
+    "correta": "E",
+    "explicacao": "A quantidade inicial é 5/6 de 1500 = 1250 litros. A quantidade retirada é 2/5 de 1500 = 600 litros. Logo, o restante é 1250 − 600 = 650 litros."
+  },
+  {
+    "id": "numeros-ined-0016",
+    "categoriaId": "numeros",
+    "subtopico": "Notação Científica e Escalas",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma medida de massa é de aproximadamente 807,8 ton. Qual é essa medida em kg, escrita em notação científica (na forma a · 10^k, onde 1 ≤ a < 10 e k é um número inteiro)?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "8,078 · 10^5 kg"
+      },
+      {
+        "letra": "B",
+        "texto": "8,078 · 10^6 kg"
+      },
+      {
+        "letra": "C",
+        "texto": "8,078 · 10^7 kg"
+      },
+      {
+        "letra": "D",
+        "texto": "8,078 · 10^4 kg"
+      },
+      {
+        "letra": "E",
+        "texto": "8,078 · 10^2 ton"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "1 ton = 10^3 kg. Então 807,8 ton = 807.800 kg. Deslocando a vírgula até obter um único dígito antes dela: 8,078 · 10^5 kg."
+  },
+  {
+    "id": "numeros-ined-0017",
+    "categoriaId": "numeros",
+    "subtopico": "Operações com Frações",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um(a) saco de cimento em um estoque tem capacidade total de 300 kg e está com 2/5 de sua capacidade. Em seguida, foram retirados 1/3 da capacidade total do recipiente. Quantos kg restaram?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "120 kg"
+      },
+      {
+        "letra": "B",
+        "texto": "180 kg"
+      },
+      {
+        "letra": "C",
+        "texto": "20 kg"
+      },
+      {
+        "letra": "D",
+        "texto": "100 kg"
+      },
+      {
+        "letra": "E",
+        "texto": "300 kg"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "A quantidade inicial é 2/5 de 300 = 120 kg. A quantidade retirada é 1/3 de 300 = 100 kg. Logo, o restante é 120 − 100 = 20 kg."
+  },
+  {
+    "id": "numeros-ined-0018",
+    "categoriaId": "numeros",
+    "subtopico": "Notação Científica e Escalas",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma medida de distância é de aproximadamente 652 km. Qual é essa medida em mm, escrita em notação científica (na forma a · 10^k, onde 1 ≤ a < 10 e k é um número inteiro)?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "6,52 · 10^9 mm"
+      },
+      {
+        "letra": "B",
+        "texto": "6,52 · 10^8 mm"
+      },
+      {
+        "letra": "C",
+        "texto": "6,52 · 10^10 mm"
+      },
+      {
+        "letra": "D",
+        "texto": "6,52 · 10^2 km"
+      },
+      {
+        "letra": "E",
+        "texto": "6,52 · 10^7 mm"
+      }
+    ],
+    "correta": "B",
+    "explicacao": "1 km = 10^6 mm. Então 652 km = 652.000.000 mm. Deslocando a vírgula até obter um único dígito antes dela: 6,52 · 10^8 mm."
+  },
+  {
+    "id": "numeros-ined-0019",
+    "categoriaId": "numeros",
+    "subtopico": "Operações com Frações",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um(a) reservatório de água tem capacidade total de 320 litros e está com 1/2 de sua capacidade. Em seguida, foram retirados 1/4 da capacidade total do recipiente. Quantos litros restaram?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "321 litros"
+      },
+      {
+        "letra": "B",
+        "texto": "80 litros"
+      },
+      {
+        "letra": "C",
+        "texto": "320 litros"
+      },
+      {
+        "letra": "D",
+        "texto": "160 litros"
+      },
+      {
+        "letra": "E",
+        "texto": "323 litros"
+      }
+    ],
+    "correta": "B",
+    "explicacao": "A quantidade inicial é 1/2 de 320 = 160 litros. A quantidade retirada é 1/4 de 320 = 80 litros. Logo, o restante é 160 − 80 = 80 litros."
+  },
+  {
+    "id": "numeros-ined-0020",
+    "categoriaId": "numeros",
+    "subtopico": "Notação Científica e Escalas",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma medida de massa é de aproximadamente 173,1 g. Qual é essa medida em mg, escrita em notação científica (na forma a · 10^k, onde 1 ≤ a < 10 e k é um número inteiro)?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "1,731 · 10^5 mg"
+      },
+      {
+        "letra": "B",
+        "texto": "1,731 · 10^7 mg"
+      },
+      {
+        "letra": "C",
+        "texto": "1,731 · 10^4 mg"
+      },
+      {
+        "letra": "D",
+        "texto": "1,731 · 10^2 g"
+      },
+      {
+        "letra": "E",
+        "texto": "1,731 · 10^6 mg"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "1 g = 10^3 mg. Então 173,1 g = 173.100 mg. Deslocando a vírgula até obter um único dígito antes dela: 1,731 · 10^5 mg."
   }
 ]

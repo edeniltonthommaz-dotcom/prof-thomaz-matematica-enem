@@ -15,6 +15,16 @@ export interface Fonte {
 export interface Alternativa {
   letra: "A" | "B" | "C" | "D" | "E";
   texto: string;
+  /** Print da alternativa (ex: gráficos/figuras como opção), usado quando o texto sozinho não é fiel ao original */
+  imagem?: string;
+}
+
+export interface Figura {
+  /** Caminho em /public, ex: "/figuras/enem-2020-136.png" */
+  src: string;
+  alt: string;
+  /** Legenda opcional exibida abaixo da imagem */
+  legenda?: string;
 }
 
 export interface Questao {
@@ -24,6 +34,8 @@ export interface Questao {
   dificuldade: Dificuldade;
   fonte: Fonte;
   enunciado: string;
+  /** Print de figura/gráfico/imagem do enunciado, quando não é possível recriar com fidelidade em texto */
+  figura?: Figura;
   alternativas: Alternativa[];
   correta: Alternativa["letra"];
   explicacao: string;

@@ -65,7 +65,17 @@ export default function QuizPlayer({
         </span>
       </div>
 
-      <p className="mb-6 text-lg leading-relaxed text-slate-100">{questao.enunciado}</p>
+      <p className="mb-4 text-lg leading-relaxed text-slate-100">{questao.enunciado}</p>
+
+      {questao.figura && (
+        <figure className="mb-6 overflow-hidden rounded-lg border border-white/10 bg-white p-2">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src={questao.figura.src} alt={questao.figura.alt} className="mx-auto h-auto max-w-full" />
+          {questao.figura.legenda && (
+            <figcaption className="mt-2 text-center text-xs text-slate-500">{questao.figura.legenda}</figcaption>
+          )}
+        </figure>
+      )}
 
       <div className="mb-6 flex flex-col gap-3">
         {questao.alternativas.map((alt) => (
@@ -78,7 +88,12 @@ export default function QuizPlayer({
             <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full border border-white/20 text-xs font-semibold">
               {alt.letra}
             </span>
-            <span className="text-sm text-slate-100">{alt.texto}</span>
+            {alt.imagem ? (
+              // eslint-disable-next-line @next/next/no-img-element
+              <img src={alt.imagem} alt={`Alternativa ${alt.letra}`} className="h-auto max-w-full rounded bg-white p-1" />
+            ) : (
+              <span className="text-sm text-slate-100">{alt.texto}</span>
+            )}
           </button>
         ))}
       </div>

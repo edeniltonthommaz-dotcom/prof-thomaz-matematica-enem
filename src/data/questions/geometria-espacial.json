@@ -1,43 +1,111 @@
 [
   {
-    "id": "geometria-espacial-ined-0103",
+    "id": "geometria-espacial-ined-0366",
     "categoriaId": "geometria-espacial",
     "subtopico": "Prismas e Cilindros",
     "dificuldade": "facil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Uma caixa d'água tem o formato de um paralelepípedo retângulo com 10 m de comprimento, 7 m de largura e 6 m de altura. Qual é a capacidade dessa caixa, em litros? (Considere 1 m³ = 1000 litros.)",
+    "enunciado": "Uma caixa d'água tem o formato de um paralelepípedo retângulo com 5 m de comprimento, 4 m de largura e 1 m de altura. Qual é a capacidade dessa caixa, em litros? (Considere 1 m³ = 1000 litros.)",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "70 litros"
+        "texto": "20 litros"
       },
       {
         "letra": "B",
-        "texto": "420 litros"
+        "texto": "20.000 litros"
       },
       {
         "letra": "C",
-        "texto": "420.000 litros"
+        "texto": "10.000 litros"
       },
       {
         "letra": "D",
-        "texto": "840.000 litros"
+        "texto": "41.000 litros"
       },
       {
         "letra": "E",
-        "texto": "210.000 litros"
+        "texto": "40.000 litros"
       }
     ],
-    "correta": "C",
-    "explicacao": "Volume = comprimento × largura × altura = 10 × 7 × 6 = 420 m³. Convertendo para litros (×1000): 420.000 litros."
+    "correta": "B",
+    "explicacao": "Volume = comprimento × largura × altura = 5 × 4 × 1 = 20 m³. Convertendo para litros (×1000): 20.000 litros."
   },
   {
-    "id": "geometria-espacial-ined-0104",
+    "id": "geometria-espacial-ined-0367",
     "categoriaId": "geometria-espacial",
     "subtopico": "Cones e Pirâmides",
     "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma lata cilíndrica tem raio da base igual a 7 cm e altura igual a 10 cm. Usando π ≈ 22/7, qual é o volume aproximado dessa lata?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "1.540 cm³"
+      },
+      {
+        "letra": "B",
+        "texto": "220 cm³"
+      },
+      {
+        "letra": "C",
+        "texto": "440 cm³"
+      },
+      {
+        "letra": "D",
+        "texto": "490 cm³"
+      },
+      {
+        "letra": "E",
+        "texto": "3.080 cm³"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "Volume do cilindro = π × r² × h ≈ (22/7) × 7² × 10 = 1.540 cm³."
+  },
+  {
+    "id": "geometria-espacial-ined-0368",
+    "categoriaId": "geometria-espacial",
+    "subtopico": "Prismas e Cilindros",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma caixa d'água tem o formato de um paralelepípedo retângulo com 11 m de comprimento, 11 m de largura e 9 m de altura. Qual é a capacidade dessa caixa, em litros? (Considere 1 m³ = 1000 litros.)",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "544.500 litros"
+      },
+      {
+        "letra": "B",
+        "texto": "2.178.000 litros"
+      },
+      {
+        "letra": "C",
+        "texto": "121 litros"
+      },
+      {
+        "letra": "D",
+        "texto": "1.089.000 litros"
+      },
+      {
+        "letra": "E",
+        "texto": "1089 litros"
+      }
+    ],
+    "correta": "D",
+    "explicacao": "Volume = comprimento × largura × altura = 11 × 11 × 9 = 1089 m³. Convertendo para litros (×1000): 1.089.000 litros."
+  },
+  {
+    "id": "geometria-espacial-ined-0369",
+    "categoriaId": "geometria-espacial",
+    "subtopico": "Cones e Pirâmides",
+    "dificuldade": "facil",
     "fonte": {
       "tipo": "inedita"
     },
@@ -49,63 +117,811 @@
       },
       {
         "letra": "B",
-        "texto": "220 cm³"
-      },
-      {
-        "letra": "C",
-        "texto": "1.540 cm³"
-      },
-      {
-        "letra": "D",
         "texto": "245 cm³"
       },
       {
-        "letra": "E",
+        "letra": "C",
         "texto": "770 cm³"
+      },
+      {
+        "letra": "D",
+        "texto": "220 cm³"
+      },
+      {
+        "letra": "E",
+        "texto": "1.540 cm³"
       }
     ],
-    "correta": "E",
+    "correta": "C",
     "explicacao": "Volume do cilindro = π × r² × h ≈ (22/7) × 7² × 5 = 770 cm³."
   },
   {
-    "id": "geometria-espacial-ined-0105",
+    "id": "geometria-espacial-ined-0370",
+    "categoriaId": "geometria-espacial",
+    "subtopico": "Prismas e Cilindros",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma caixa d'água tem o formato de um paralelepípedo retângulo com 13 m de comprimento, 9 m de largura e 4 m de altura. Qual é a capacidade dessa caixa, em litros? (Considere 1 m³ = 1000 litros.)",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "117 litros"
+      },
+      {
+        "letra": "B",
+        "texto": "234.000 litros"
+      },
+      {
+        "letra": "C",
+        "texto": "936.000 litros"
+      },
+      {
+        "letra": "D",
+        "texto": "468 litros"
+      },
+      {
+        "letra": "E",
+        "texto": "468.000 litros"
+      }
+    ],
+    "correta": "E",
+    "explicacao": "Volume = comprimento × largura × altura = 13 × 9 × 4 = 468 m³. Convertendo para litros (×1000): 468.000 litros."
+  },
+  {
+    "id": "geometria-espacial-ined-0371",
+    "categoriaId": "geometria-espacial",
+    "subtopico": "Cones e Pirâmides",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma lata cilíndrica tem raio da base igual a 21 cm e altura igual a 13 cm. Usando π ≈ 22/7, qual é o volume aproximado dessa lata?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "858 cm³"
+      },
+      {
+        "letra": "B",
+        "texto": "18.018 cm³"
+      },
+      {
+        "letra": "C",
+        "texto": "36.036 cm³"
+      },
+      {
+        "letra": "D",
+        "texto": "5.733 cm³"
+      },
+      {
+        "letra": "E",
+        "texto": "1.716 cm³"
+      }
+    ],
+    "correta": "B",
+    "explicacao": "Volume do cilindro = π × r² × h ≈ (22/7) × 21² × 13 = 18.018 cm³."
+  },
+  {
+    "id": "geometria-espacial-ined-0372",
+    "categoriaId": "geometria-espacial",
+    "subtopico": "Prismas e Cilindros",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma caixa d'água tem o formato de um paralelepípedo retângulo com 4 m de comprimento, 7 m de largura e 5 m de altura. Qual é a capacidade dessa caixa, em litros? (Considere 1 m³ = 1000 litros.)",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "140 litros"
+      },
+      {
+        "letra": "B",
+        "texto": "280.000 litros"
+      },
+      {
+        "letra": "C",
+        "texto": "70.000 litros"
+      },
+      {
+        "letra": "D",
+        "texto": "28 litros"
+      },
+      {
+        "letra": "E",
+        "texto": "140.000 litros"
+      }
+    ],
+    "correta": "E",
+    "explicacao": "Volume = comprimento × largura × altura = 4 × 7 × 5 = 140 m³. Convertendo para litros (×1000): 140.000 litros."
+  },
+  {
+    "id": "geometria-espacial-ined-0374",
     "categoriaId": "geometria-espacial",
     "subtopico": "Prismas e Cilindros",
     "dificuldade": "dificil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Uma caixa d'água tem o formato de um paralelepípedo retângulo com 4 m de comprimento, 18 m de largura e 9 m de altura. Qual é a capacidade dessa caixa, em litros? (Considere 1 m³ = 1000 litros.)",
+    "enunciado": "Uma caixa d'água tem o formato de um paralelepípedo retângulo com 15 m de comprimento, 8 m de largura e 10 m de altura. Qual é a capacidade dessa caixa, em litros? (Considere 1 m³ = 1000 litros.)",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "72 litros"
+        "texto": "1.200.000 litros"
       },
       {
         "letra": "B",
-        "texto": "648 litros"
+        "texto": "600.000 litros"
       },
       {
         "letra": "C",
-        "texto": "324.000 litros"
+        "texto": "1200 litros"
       },
       {
         "letra": "D",
-        "texto": "648.000 litros"
+        "texto": "120 litros"
       },
       {
         "letra": "E",
-        "texto": "1.296.000 litros"
+        "texto": "2.400.000 litros"
       }
     ],
-    "correta": "D",
-    "explicacao": "Volume = comprimento × largura × altura = 4 × 18 × 9 = 648 m³. Convertendo para litros (×1000): 648.000 litros."
+    "correta": "A",
+    "explicacao": "Volume = comprimento × largura × altura = 15 × 8 × 10 = 1200 m³. Convertendo para litros (×1000): 1.200.000 litros."
   },
   {
-    "id": "geometria-espacial-ined-0106",
+    "id": "geometria-espacial-ined-0375",
     "categoriaId": "geometria-espacial",
     "subtopico": "Cones e Pirâmides",
     "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma lata cilíndrica tem raio da base igual a 7 cm e altura igual a 2 cm. Usando π ≈ 22/7, qual é o volume aproximado dessa lata?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "88 cm³"
+      },
+      {
+        "letra": "B",
+        "texto": "616 cm³"
+      },
+      {
+        "letra": "C",
+        "texto": "98 cm³"
+      },
+      {
+        "letra": "D",
+        "texto": "44 cm³"
+      },
+      {
+        "letra": "E",
+        "texto": "308 cm³"
+      }
+    ],
+    "correta": "E",
+    "explicacao": "Volume do cilindro = π × r² × h ≈ (22/7) × 7² × 2 = 308 cm³."
+  },
+  {
+    "id": "geometria-espacial-ined-0376",
+    "categoriaId": "geometria-espacial",
+    "subtopico": "Prismas e Cilindros",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma caixa d'água tem o formato de um paralelepípedo retângulo com 8 m de comprimento, 10 m de largura e 3 m de altura. Qual é a capacidade dessa caixa, em litros? (Considere 1 m³ = 1000 litros.)",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "480.000 litros"
+      },
+      {
+        "letra": "B",
+        "texto": "80 litros"
+      },
+      {
+        "letra": "C",
+        "texto": "240 litros"
+      },
+      {
+        "letra": "D",
+        "texto": "240.000 litros"
+      },
+      {
+        "letra": "E",
+        "texto": "120.000 litros"
+      }
+    ],
+    "correta": "D",
+    "explicacao": "Volume = comprimento × largura × altura = 8 × 10 × 3 = 240 m³. Convertendo para litros (×1000): 240.000 litros."
+  },
+  {
+    "id": "geometria-espacial-ined-0377",
+    "categoriaId": "geometria-espacial",
+    "subtopico": "Cones e Pirâmides",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma lata cilíndrica tem raio da base igual a 21 cm e altura igual a 17 cm. Usando π ≈ 22/7, qual é o volume aproximado dessa lata?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "23.562 cm³"
+      },
+      {
+        "letra": "B",
+        "texto": "2.244 cm³"
+      },
+      {
+        "letra": "C",
+        "texto": "1.122 cm³"
+      },
+      {
+        "letra": "D",
+        "texto": "47.124 cm³"
+      },
+      {
+        "letra": "E",
+        "texto": "7.497 cm³"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "Volume do cilindro = π × r² × h ≈ (22/7) × 21² × 17 = 23.562 cm³."
+  },
+  {
+    "id": "geometria-espacial-ined-0378",
+    "categoriaId": "geometria-espacial",
+    "subtopico": "Prismas e Cilindros",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma caixa d'água tem o formato de um paralelepípedo retângulo com 11 m de comprimento, 10 m de largura e 2 m de altura. Qual é a capacidade dessa caixa, em litros? (Considere 1 m³ = 1000 litros.)",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "110 litros"
+      },
+      {
+        "letra": "B",
+        "texto": "220.000 litros"
+      },
+      {
+        "letra": "C",
+        "texto": "440.000 litros"
+      },
+      {
+        "letra": "D",
+        "texto": "220 litros"
+      },
+      {
+        "letra": "E",
+        "texto": "110.000 litros"
+      }
+    ],
+    "correta": "B",
+    "explicacao": "Volume = comprimento × largura × altura = 11 × 10 × 2 = 220 m³. Convertendo para litros (×1000): 220.000 litros."
+  },
+  {
+    "id": "geometria-espacial-ined-0379",
+    "categoriaId": "geometria-espacial",
+    "subtopico": "Cones e Pirâmides",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma lata cilíndrica tem raio da base igual a 14 cm e altura igual a 9 cm. Usando π ≈ 22/7, qual é o volume aproximado dessa lata?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "11.088 cm³"
+      },
+      {
+        "letra": "B",
+        "texto": "5.544 cm³"
+      },
+      {
+        "letra": "C",
+        "texto": "1.764 cm³"
+      },
+      {
+        "letra": "D",
+        "texto": "792 cm³"
+      },
+      {
+        "letra": "E",
+        "texto": "396 cm³"
+      }
+    ],
+    "correta": "B",
+    "explicacao": "Volume do cilindro = π × r² × h ≈ (22/7) × 14² × 9 = 5.544 cm³."
+  },
+  {
+    "id": "geometria-espacial-ined-0380",
+    "categoriaId": "geometria-espacial",
+    "subtopico": "Prismas e Cilindros",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma caixa d'água tem o formato de um paralelepípedo retângulo com 24 m de comprimento, 19 m de largura e 3 m de altura. Qual é a capacidade dessa caixa, em litros? (Considere 1 m³ = 1000 litros.)",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "2.736.000 litros"
+      },
+      {
+        "letra": "B",
+        "texto": "684.000 litros"
+      },
+      {
+        "letra": "C",
+        "texto": "456 litros"
+      },
+      {
+        "letra": "D",
+        "texto": "1.368.000 litros"
+      },
+      {
+        "letra": "E",
+        "texto": "1368 litros"
+      }
+    ],
+    "correta": "D",
+    "explicacao": "Volume = comprimento × largura × altura = 24 × 19 × 3 = 1368 m³. Convertendo para litros (×1000): 1.368.000 litros."
+  },
+  {
+    "id": "geometria-espacial-ined-0381",
+    "categoriaId": "geometria-espacial",
+    "subtopico": "Cones e Pirâmides",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma lata cilíndrica tem raio da base igual a 14 cm e altura igual a 4 cm. Usando π ≈ 22/7, qual é o volume aproximado dessa lata?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "784 cm³"
+      },
+      {
+        "letra": "B",
+        "texto": "2.464 cm³"
+      },
+      {
+        "letra": "C",
+        "texto": "176 cm³"
+      },
+      {
+        "letra": "D",
+        "texto": "352 cm³"
+      },
+      {
+        "letra": "E",
+        "texto": "4.928 cm³"
+      }
+    ],
+    "correta": "B",
+    "explicacao": "Volume do cilindro = π × r² × h ≈ (22/7) × 14² × 4 = 2.464 cm³."
+  },
+  {
+    "id": "geometria-espacial-ined-0382",
+    "categoriaId": "geometria-espacial",
+    "subtopico": "Prismas e Cilindros",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma caixa d'água tem o formato de um paralelepípedo retângulo com 13 m de comprimento, 7 m de largura e 2 m de altura. Qual é a capacidade dessa caixa, em litros? (Considere 1 m³ = 1000 litros.)",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "91 litros"
+      },
+      {
+        "letra": "B",
+        "texto": "91.000 litros"
+      },
+      {
+        "letra": "C",
+        "texto": "364.000 litros"
+      },
+      {
+        "letra": "D",
+        "texto": "182 litros"
+      },
+      {
+        "letra": "E",
+        "texto": "182.000 litros"
+      }
+    ],
+    "correta": "E",
+    "explicacao": "Volume = comprimento × largura × altura = 13 × 7 × 2 = 182 m³. Convertendo para litros (×1000): 182.000 litros."
+  },
+  {
+    "id": "geometria-espacial-ined-0383",
+    "categoriaId": "geometria-espacial",
+    "subtopico": "Cones e Pirâmides",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma lata cilíndrica tem raio da base igual a 7 cm e altura igual a 13 cm. Usando π ≈ 22/7, qual é o volume aproximado dessa lata?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "286 cm³"
+      },
+      {
+        "letra": "B",
+        "texto": "572 cm³"
+      },
+      {
+        "letra": "C",
+        "texto": "637 cm³"
+      },
+      {
+        "letra": "D",
+        "texto": "4.004 cm³"
+      },
+      {
+        "letra": "E",
+        "texto": "2.002 cm³"
+      }
+    ],
+    "correta": "E",
+    "explicacao": "Volume do cilindro = π × r² × h ≈ (22/7) × 7² × 13 = 2.002 cm³."
+  },
+  {
+    "id": "geometria-espacial-ined-0384",
+    "categoriaId": "geometria-espacial",
+    "subtopico": "Prismas e Cilindros",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma caixa d'água tem o formato de um paralelepípedo retângulo com 7 m de comprimento, 6 m de largura e 5 m de altura. Qual é a capacidade dessa caixa, em litros? (Considere 1 m³ = 1000 litros.)",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "210 litros"
+      },
+      {
+        "letra": "B",
+        "texto": "42 litros"
+      },
+      {
+        "letra": "C",
+        "texto": "420.000 litros"
+      },
+      {
+        "letra": "D",
+        "texto": "210.000 litros"
+      },
+      {
+        "letra": "E",
+        "texto": "105.000 litros"
+      }
+    ],
+    "correta": "D",
+    "explicacao": "Volume = comprimento × largura × altura = 7 × 6 × 5 = 210 m³. Convertendo para litros (×1000): 210.000 litros."
+  },
+  {
+    "id": "geometria-espacial-ined-0385",
+    "categoriaId": "geometria-espacial",
+    "subtopico": "Cones e Pirâmides",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma lata cilíndrica tem raio da base igual a 7 cm e altura igual a 9 cm. Usando π ≈ 22/7, qual é o volume aproximado dessa lata?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "441 cm³"
+      },
+      {
+        "letra": "B",
+        "texto": "1.386 cm³"
+      },
+      {
+        "letra": "C",
+        "texto": "396 cm³"
+      },
+      {
+        "letra": "D",
+        "texto": "2.772 cm³"
+      },
+      {
+        "letra": "E",
+        "texto": "198 cm³"
+      }
+    ],
+    "correta": "B",
+    "explicacao": "Volume do cilindro = π × r² × h ≈ (22/7) × 7² × 9 = 1.386 cm³."
+  },
+  {
+    "id": "geometria-espacial-ined-0386",
+    "categoriaId": "geometria-espacial",
+    "subtopico": "Prismas e Cilindros",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma caixa d'água tem o formato de um paralelepípedo retângulo com 15 m de comprimento, 11 m de largura e 6 m de altura. Qual é a capacidade dessa caixa, em litros? (Considere 1 m³ = 1000 litros.)",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "1.980.000 litros"
+      },
+      {
+        "letra": "B",
+        "texto": "495.000 litros"
+      },
+      {
+        "letra": "C",
+        "texto": "990.000 litros"
+      },
+      {
+        "letra": "D",
+        "texto": "990 litros"
+      },
+      {
+        "letra": "E",
+        "texto": "165 litros"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "Volume = comprimento × largura × altura = 15 × 11 × 6 = 990 m³. Convertendo para litros (×1000): 990.000 litros."
+  },
+  {
+    "id": "geometria-espacial-ined-0387",
+    "categoriaId": "geometria-espacial",
+    "subtopico": "Cones e Pirâmides",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma lata cilíndrica tem raio da base igual a 14 cm e altura igual a 10 cm. Usando π ≈ 22/7, qual é o volume aproximado dessa lata?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "6.160 cm³"
+      },
+      {
+        "letra": "B",
+        "texto": "880 cm³"
+      },
+      {
+        "letra": "C",
+        "texto": "1.960 cm³"
+      },
+      {
+        "letra": "D",
+        "texto": "440 cm³"
+      },
+      {
+        "letra": "E",
+        "texto": "12.320 cm³"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "Volume do cilindro = π × r² × h ≈ (22/7) × 14² × 10 = 6.160 cm³."
+  },
+  {
+    "id": "geometria-espacial-ined-0388",
+    "categoriaId": "geometria-espacial",
+    "subtopico": "Prismas e Cilindros",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma caixa d'água tem o formato de um paralelepípedo retângulo com 8 m de comprimento, 10 m de largura e 5 m de altura. Qual é a capacidade dessa caixa, em litros? (Considere 1 m³ = 1000 litros.)",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "800.000 litros"
+      },
+      {
+        "letra": "B",
+        "texto": "80 litros"
+      },
+      {
+        "letra": "C",
+        "texto": "400 litros"
+      },
+      {
+        "letra": "D",
+        "texto": "400.000 litros"
+      },
+      {
+        "letra": "E",
+        "texto": "200.000 litros"
+      }
+    ],
+    "correta": "D",
+    "explicacao": "Volume = comprimento × largura × altura = 8 × 10 × 5 = 400 m³. Convertendo para litros (×1000): 400.000 litros."
+  },
+  {
+    "id": "geometria-espacial-ined-0389",
+    "categoriaId": "geometria-espacial",
+    "subtopico": "Cones e Pirâmides",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma lata cilíndrica tem raio da base igual a 21 cm e altura igual a 10 cm. Usando π ≈ 22/7, qual é o volume aproximado dessa lata?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "13.860 cm³"
+      },
+      {
+        "letra": "B",
+        "texto": "4.410 cm³"
+      },
+      {
+        "letra": "C",
+        "texto": "660 cm³"
+      },
+      {
+        "letra": "D",
+        "texto": "27.720 cm³"
+      },
+      {
+        "letra": "E",
+        "texto": "1.320 cm³"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "Volume do cilindro = π × r² × h ≈ (22/7) × 21² × 10 = 13.860 cm³."
+  },
+  {
+    "id": "geometria-espacial-ined-0390",
+    "categoriaId": "geometria-espacial",
+    "subtopico": "Prismas e Cilindros",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma caixa d'água tem o formato de um paralelepípedo retângulo com 2 m de comprimento, 10 m de largura e 2 m de altura. Qual é a capacidade dessa caixa, em litros? (Considere 1 m³ = 1000 litros.)",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "80.000 litros"
+      },
+      {
+        "letra": "B",
+        "texto": "20.000 litros"
+      },
+      {
+        "letra": "C",
+        "texto": "40.000 litros"
+      },
+      {
+        "letra": "D",
+        "texto": "40 litros"
+      },
+      {
+        "letra": "E",
+        "texto": "20 litros"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "Volume = comprimento × largura × altura = 2 × 10 × 2 = 40 m³. Convertendo para litros (×1000): 40.000 litros."
+  },
+  {
+    "id": "geometria-espacial-ined-0391",
+    "categoriaId": "geometria-espacial",
+    "subtopico": "Cones e Pirâmides",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma lata cilíndrica tem raio da base igual a 14 cm e altura igual a 5 cm. Usando π ≈ 22/7, qual é o volume aproximado dessa lata?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "3.080 cm³"
+      },
+      {
+        "letra": "B",
+        "texto": "6.160 cm³"
+      },
+      {
+        "letra": "C",
+        "texto": "220 cm³"
+      },
+      {
+        "letra": "D",
+        "texto": "440 cm³"
+      },
+      {
+        "letra": "E",
+        "texto": "980 cm³"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "Volume do cilindro = π × r² × h ≈ (22/7) × 14² × 5 = 3.080 cm³."
+  },
+  {
+    "id": "geometria-espacial-ined-0392",
+    "categoriaId": "geometria-espacial",
+    "subtopico": "Prismas e Cilindros",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma caixa d'água tem o formato de um paralelepípedo retângulo com 6 m de comprimento, 19 m de largura e 9 m de altura. Qual é a capacidade dessa caixa, em litros? (Considere 1 m³ = 1000 litros.)",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "513.000 litros"
+      },
+      {
+        "letra": "B",
+        "texto": "1026 litros"
+      },
+      {
+        "letra": "C",
+        "texto": "1.026.000 litros"
+      },
+      {
+        "letra": "D",
+        "texto": "114 litros"
+      },
+      {
+        "letra": "E",
+        "texto": "2.052.000 litros"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "Volume = comprimento × largura × altura = 6 × 19 × 9 = 1026 m³. Convertendo para litros (×1000): 1.026.000 litros."
+  },
+  {
+    "id": "geometria-espacial-ined-0394",
+    "categoriaId": "geometria-espacial",
+    "subtopico": "Prismas e Cilindros",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma caixa d'água tem o formato de um paralelepípedo retângulo com 13 m de comprimento, 9 m de largura e 5 m de altura. Qual é a capacidade dessa caixa, em litros? (Considere 1 m³ = 1000 litros.)",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "585 litros"
+      },
+      {
+        "letra": "B",
+        "texto": "292.500 litros"
+      },
+      {
+        "letra": "C",
+        "texto": "117 litros"
+      },
+      {
+        "letra": "D",
+        "texto": "1.170.000 litros"
+      },
+      {
+        "letra": "E",
+        "texto": "585.000 litros"
+      }
+    ],
+    "correta": "E",
+    "explicacao": "Volume = comprimento × largura × altura = 13 × 9 × 5 = 585 m³. Convertendo para litros (×1000): 585.000 litros."
+  },
+  {
+    "id": "geometria-espacial-ined-0395",
+    "categoriaId": "geometria-espacial",
+    "subtopico": "Cones e Pirâmides",
+    "dificuldade": "dificil",
     "fonte": {
       "tipo": "inedita"
     },
@@ -117,15 +933,15 @@
       },
       {
         "letra": "B",
-        "texto": "528 cm³"
-      },
-      {
-        "letra": "C",
         "texto": "1.176 cm³"
       },
       {
-        "letra": "D",
+        "letra": "C",
         "texto": "264 cm³"
+      },
+      {
+        "letra": "D",
+        "texto": "528 cm³"
       },
       {
         "letra": "E",
@@ -136,207 +952,105 @@
     "explicacao": "Volume do cilindro = π × r² × h ≈ (22/7) × 14² × 6 = 3.696 cm³."
   },
   {
-    "id": "geometria-espacial-ined-0107",
-    "categoriaId": "geometria-espacial",
-    "subtopico": "Prismas e Cilindros",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma caixa d'água tem o formato de um paralelepípedo retângulo com 9 m de comprimento, 5 m de largura e 4 m de altura. Qual é a capacidade dessa caixa, em litros? (Considere 1 m³ = 1000 litros.)",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "360.000 litros"
-      },
-      {
-        "letra": "B",
-        "texto": "45 litros"
-      },
-      {
-        "letra": "C",
-        "texto": "180.000 litros"
-      },
-      {
-        "letra": "D",
-        "texto": "90.000 litros"
-      },
-      {
-        "letra": "E",
-        "texto": "180 litros"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "Volume = comprimento × largura × altura = 9 × 5 × 4 = 180 m³. Convertendo para litros (×1000): 180.000 litros."
-  },
-  {
-    "id": "geometria-espacial-ined-0108",
-    "categoriaId": "geometria-espacial",
-    "subtopico": "Cones e Pirâmides",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma lata cilíndrica tem raio da base igual a 14 cm e altura igual a 20 cm. Usando π ≈ 22/7, qual é o volume aproximado dessa lata?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "12.320 cm³"
-      },
-      {
-        "letra": "B",
-        "texto": "880 cm³"
-      },
-      {
-        "letra": "C",
-        "texto": "1.760 cm³"
-      },
-      {
-        "letra": "D",
-        "texto": "3.920 cm³"
-      },
-      {
-        "letra": "E",
-        "texto": "24.640 cm³"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "Volume do cilindro = π × r² × h ≈ (22/7) × 14² × 20 = 12.320 cm³."
-  },
-  {
-    "id": "geometria-espacial-ined-0109",
+    "id": "geometria-espacial-ined-0396",
     "categoriaId": "geometria-espacial",
     "subtopico": "Prismas e Cilindros",
     "dificuldade": "facil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Uma caixa d'água tem o formato de um paralelepípedo retângulo com 6 m de comprimento, 6 m de largura e 5 m de altura. Qual é a capacidade dessa caixa, em litros? (Considere 1 m³ = 1000 litros.)",
+    "enunciado": "Uma caixa d'água tem o formato de um paralelepípedo retângulo com 10 m de comprimento, 2 m de largura e 4 m de altura. Qual é a capacidade dessa caixa, em litros? (Considere 1 m³ = 1000 litros.)",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "360.000 litros"
+        "texto": "80 litros"
       },
       {
         "letra": "B",
-        "texto": "90.000 litros"
+        "texto": "20 litros"
       },
       {
         "letra": "C",
-        "texto": "180.000 litros"
+        "texto": "160.000 litros"
       },
       {
         "letra": "D",
-        "texto": "36 litros"
+        "texto": "40.000 litros"
       },
       {
         "letra": "E",
-        "texto": "180 litros"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "Volume = comprimento × largura × altura = 6 × 6 × 5 = 180 m³. Convertendo para litros (×1000): 180.000 litros."
-  },
-  {
-    "id": "geometria-espacial-ined-0110",
-    "categoriaId": "geometria-espacial",
-    "subtopico": "Cones e Pirâmides",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma lata cilíndrica tem raio da base igual a 14 cm e altura igual a 9 cm. Usando π ≈ 22/7, qual é o volume aproximado dessa lata?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "396 cm³"
-      },
-      {
-        "letra": "B",
-        "texto": "792 cm³"
-      },
-      {
-        "letra": "C",
-        "texto": "1.764 cm³"
-      },
-      {
-        "letra": "D",
-        "texto": "11.088 cm³"
-      },
-      {
-        "letra": "E",
-        "texto": "5.544 cm³"
+        "texto": "80.000 litros"
       }
     ],
     "correta": "E",
-    "explicacao": "Volume do cilindro = π × r² × h ≈ (22/7) × 14² × 9 = 5.544 cm³."
+    "explicacao": "Volume = comprimento × largura × altura = 10 × 2 × 4 = 80 m³. Convertendo para litros (×1000): 80.000 litros."
   },
   {
-    "id": "geometria-espacial-ined-0111",
+    "id": "geometria-espacial-ined-0398",
     "categoriaId": "geometria-espacial",
     "subtopico": "Prismas e Cilindros",
     "dificuldade": "dificil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Uma caixa d'água tem o formato de um paralelepípedo retângulo com 21 m de comprimento, 8 m de largura e 8 m de altura. Qual é a capacidade dessa caixa, em litros? (Considere 1 m³ = 1000 litros.)",
+    "enunciado": "Uma caixa d'água tem o formato de um paralelepípedo retângulo com 9 m de comprimento, 18 m de largura e 3 m de altura. Qual é a capacidade dessa caixa, em litros? (Considere 1 m³ = 1000 litros.)",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "1.344.000 litros"
+        "texto": "243.000 litros"
       },
       {
         "letra": "B",
-        "texto": "1344 litros"
+        "texto": "972.000 litros"
       },
       {
         "letra": "C",
-        "texto": "672.000 litros"
+        "texto": "486 litros"
       },
       {
         "letra": "D",
-        "texto": "168 litros"
+        "texto": "162 litros"
       },
       {
         "letra": "E",
-        "texto": "2.688.000 litros"
+        "texto": "486.000 litros"
       }
     ],
-    "correta": "A",
-    "explicacao": "Volume = comprimento × largura × altura = 21 × 8 × 8 = 1344 m³. Convertendo para litros (×1000): 1.344.000 litros."
+    "correta": "E",
+    "explicacao": "Volume = comprimento × largura × altura = 9 × 18 × 3 = 486 m³. Convertendo para litros (×1000): 486.000 litros."
   },
   {
-    "id": "geometria-espacial-ined-0112",
+    "id": "geometria-espacial-ined-0399",
     "categoriaId": "geometria-espacial",
     "subtopico": "Cones e Pirâmides",
     "dificuldade": "facil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Uma lata cilíndrica tem raio da base igual a 7 cm e altura igual a 7 cm. Usando π ≈ 22/7, qual é o volume aproximado dessa lata?",
+    "enunciado": "Uma lata cilíndrica tem raio da base igual a 14 cm e altura igual a 7 cm. Usando π ≈ 22/7, qual é o volume aproximado dessa lata?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "2.156 cm³"
+        "texto": "8.624 cm³"
       },
       {
         "letra": "B",
-        "texto": "343 cm³"
+        "texto": "308 cm³"
       },
       {
         "letra": "C",
-        "texto": "154 cm³"
+        "texto": "1.372 cm³"
       },
       {
         "letra": "D",
-        "texto": "1.078 cm³"
+        "texto": "616 cm³"
       },
       {
         "letra": "E",
-        "texto": "308 cm³"
+        "texto": "4.312 cm³"
       }
     ],
-    "correta": "D",
-    "explicacao": "Volume do cilindro = π × r² × h ≈ (22/7) × 7² × 7 = 1.078 cm³."
+    "correta": "E",
+    "explicacao": "Volume do cilindro = π × r² × h ≈ (22/7) × 14² × 7 = 4.312 cm³."
   }
 ]

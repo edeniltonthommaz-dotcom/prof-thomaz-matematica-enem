@@ -7,8 +7,15 @@ import { DIFICULDADES, dedupeByEnunciado } from "./helpers.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const OUT_DIR = path.join(__dirname, "..", "src", "data", "questions");
-const TARGET_PER_CATEGORIA = 10;
-const MAX_TENTATIVAS = TARGET_PER_CATEGORIA * 15;
+const REAL_PATH = path.join(OUT_DIR, "real.json");
+const DEFAULT_TARGET = 10;
+const META_TOTAL = 50;
+
+const realQuestoes = JSON.parse(fs.readFileSync(REAL_PATH, "utf-8"));
+const realCountPorCategoria = {};
+for (const q of realQuestoes) {
+  realCountPorCategoria[q.categoriaId] = (realCountPorCategoria[q.categoriaId] ?? 0) + 1;
+}
 
 fs.mkdirSync(OUT_DIR, { recursive: true });
 
@@ -21,6 +28,9 @@ for (const categoriaId of CATEGORIAS) {
     console.warn(`(!) Sem templates para categoria: ${categoriaId}`);
     continue;
   }
+  const realCount = realCountPorCategoria[categoriaId] ?? 0;
+  const TARGET_PER_CATEGORIA = Math.max(DEFAULT_TARGET, META_TOTAL - realCount);
+  const MAX_TENTATIVAS = TARGET_PER_CATEGORIA * 15;
   let questoes = [];
   let tentativas = 0;
   let fnIndex = 0;
@@ -42,8 +52,8 @@ for (const categoriaId of CATEGORIAS) {
   const outPath = path.join(OUT_DIR, `${categoriaId}.json`);
   fs.writeFileSync(outPath, JSON.stringify(questoes, null, 2), "utf-8");
   totalGeral += questoes.length;
-  resumo.push({ categoriaId, total: questoes.length });
-  console.log(`${categoriaId}: ${questoes.length} questões geradas`);
+  resumo.push({ categoriaId, real: realCount, inedita: questoes.length, total: realCount + questoes.length });
+  console.log(`${categoriaId}: ${questoes.length} questões geradas (real: ${realCount}, total: ${realCount + questoes.length})`);
 }
 
 console.log(`\nTotal geral (inéditas): ${totalGeral}`);

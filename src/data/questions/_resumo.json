@@ -1,78 +1,116 @@
 [
   {
     "categoriaId": "numeros",
-    "total": 10
+    "real": 30,
+    "inedita": 20,
+    "total": 50
   },
   {
     "categoriaId": "porcentagem",
-    "total": 10
+    "real": 45,
+    "inedita": 10,
+    "total": 55
   },
   {
     "categoriaId": "razao-proporcao",
-    "total": 10
+    "real": 51,
+    "inedita": 10,
+    "total": 61
   },
   {
     "categoriaId": "regra-de-tres",
-    "total": 10
+    "real": 4,
+    "inedita": 46,
+    "total": 50
   },
   {
     "categoriaId": "equacoes",
-    "total": 10
+    "real": 7,
+    "inedita": 43,
+    "total": 50
   },
   {
     "categoriaId": "funcao-afim",
-    "total": 10
+    "real": 11,
+    "inedita": 39,
+    "total": 50
   },
   {
     "categoriaId": "funcao-quadratica",
-    "total": 10
+    "real": 4,
+    "inedita": 46,
+    "total": 50
   },
   {
     "categoriaId": "exponenciais-logaritmos",
-    "total": 10
+    "real": 6,
+    "inedita": 44,
+    "total": 50
   },
   {
     "categoriaId": "progressoes",
-    "total": 10
+    "real": 7,
+    "inedita": 43,
+    "total": 50
   },
   {
     "categoriaId": "geometria-plana",
-    "total": 10
+    "real": 15,
+    "inedita": 35,
+    "total": 50
   },
   {
     "categoriaId": "geometria-espacial",
-    "total": 10
+    "real": 19,
+    "inedita": 31,
+    "total": 50
   },
   {
     "categoriaId": "geometria-analitica",
-    "total": 10
+    "real": 4,
+    "inedita": 46,
+    "total": 50
   },
   {
     "categoriaId": "trigonometria",
-    "total": 10
+    "real": 3,
+    "inedita": 47,
+    "total": 50
   },
   {
     "categoriaId": "estatistica",
-    "total": 10
+    "real": 19,
+    "inedita": 31,
+    "total": 50
   },
   {
     "categoriaId": "probabilidade",
-    "total": 10
+    "real": 12,
+    "inedita": 38,
+    "total": 50
   },
   {
     "categoriaId": "analise-combinatoria",
-    "total": 10
+    "real": 9,
+    "inedita": 41,
+    "total": 50
   },
   {
     "categoriaId": "matematica-financeira",
-    "total": 10
+    "real": 2,
+    "inedita": 48,
+    "total": 50
   },
   {
     "categoriaId": "matrizes",
-    "total": 10
+    "real": 0,
+    "inedita": 50,
+    "total": 50
   },
   {
     "categoriaId": "logica",
-    "total": 10
+    "real": 6,
+    "inedita": 44,
+    "total": 50
   }
 ]
