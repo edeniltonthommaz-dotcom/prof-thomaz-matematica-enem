@@ -1,0 +1,53 @@
+{
+  "categoriaId": "conjuntos",
+  "subtopicos": [
+    {
+      "subtopico": "União e Interseção",
+      "pontos": [
+        "União (A ∪ B): elementos que pertencem a A OU a B (ou a ambos).",
+        "Interseção (A ∩ B): elementos que pertencem a A E a B ao mesmo tempo.",
+        "Fórmula fundamental: |A ∪ B| = |A| + |B| − |A ∩ B| — subtrai-se a interseção para não contar os elementos comuns duas vezes."
+      ],
+      "exemplo": {
+        "enunciado": "Numa turma, 18 alunos jogam futebol, 12 jogam vôlei, e 5 jogam os dois esportes. Quantos alunos jogam pelo menos um dos dois esportes?",
+        "resolucao": [
+          "|A ∪ B| = |A| + |B| − |A ∩ B|.",
+          "|A ∪ B| = 18 + 12 − 5.",
+          "|A ∪ B| = 25 alunos."
+        ]
+      }
+    },
+    {
+      "subtopico": "Diagramas de Venn",
+      "pontos": [
+        "Um diagrama de Venn representa cada conjunto como um círculo; a área de sobreposição entre os círculos é a interseção.",
+        "Para preencher o diagrama corretamente, comece pela interseção (\"quantos estão nos dois ao mesmo tempo\") e depois subtraia esse valor dos totais de cada conjunto para achar \"só A\" e \"só B\".",
+        "A soma de todas as regiões do diagrama (só A, só B, A ∩ B, e nenhum dos dois) deve ser igual ao total de elementos pesquisados."
+      ],
+      "exemplo": {
+        "enunciado": "Numa pesquisa com 90 pessoas, 50 leem o jornal A, 40 leem o jornal B, e 15 leem os dois jornais. Quantas pessoas leem só o jornal A?",
+        "resolucao": [
+          "\"Só A\" é o total de A menos quem também está em B (a interseção).",
+          "Só A = 50 − 15.",
+          "Só A = 35 pessoas."
+        ]
+      }
+    },
+    {
+      "subtopico": "Problemas de Pesquisa",
+      "pontos": [
+        "Em pesquisas com duas categorias, o total pesquisado se divide em 4 grupos: só A, só B, A e B (ambos), e nenhum dos dois — a soma desses 4 grupos é sempre igual ao total.",
+        "Quem está em \"pelo menos uma categoria\" = total − quem não está em nenhuma das duas.",
+        "A fórmula |A ∪ B| = |A| + |B| − |A ∩ B| serve para achar qualquer uma das quatro grandezas (|A|, |B|, |A ∩ B| ou |A ∪ B|), desde que as outras três sejam conhecidas."
+      ],
+      "exemplo": {
+        "enunciado": "Numa pesquisa com 100 clientes, 60 compram o produto X, 45 compram o produto Y, e 20 não compram nenhum dos dois. Quantos clientes compram os dois produtos ao mesmo tempo?",
+        "resolucao": [
+          "Quem compra pelo menos um dos dois produtos: 100 − 20 = 80.",
+          "Pela fórmula |A ∪ B| = |A| + |B| − |A ∩ B|: 80 = 60 + 45 − |A ∩ B|.",
+          "|A ∩ B| = 60 + 45 − 80 = 25 clientes."
+        ]
+      }
+    }
+  ]
+}

@@ -51,3 +51,22 @@ export interface Categoria {
   tier: "Altíssima" | "Alta" | "Média" | "Média-Alta";
   subtopicos: string[];
 }
+
+export interface ResumoExemplo {
+  enunciado: string;
+  /** Passos da resolução, em ordem, cada item um passo curto */
+  resolucao: string[];
+}
+
+export interface ResumoSubtopico {
+  /** Deve bater exatamente com um item de Categoria.subtopicos */
+  subtopico: string;
+  /** Pontos-chave/fórmulas em texto curto, sem jargão de aula longa */
+  pontos: string[];
+  exemplo: ResumoExemplo;
+}
+
+export interface Resumo {
+  categoriaId: string;
+  subtopicos: ResumoSubtopico[];
+}

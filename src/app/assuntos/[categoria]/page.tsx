@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import { getCategoria } from "@/data/categorias";
 import { questoesPorCategoria } from "@/lib/questions";
+import { getResumo } from "@/lib/resumos";
 import { Dificuldade } from "@/lib/types";
 import CategoriaExplorer from "@/components/CategoriaExplorer";
 
@@ -17,6 +18,7 @@ export default async function CategoriaPage({
   if (!categoria) notFound();
 
   const todas = questoesPorCategoria(categoriaId);
+  const resumo = getResumo(categoriaId);
   const porDificuldade: Record<Dificuldade, typeof todas> = {
     facil: todas.filter((q) => q.dificuldade === "facil"),
     medio: todas.filter((q) => q.dificuldade === "medio"),
@@ -32,7 +34,12 @@ export default async function CategoriaPage({
       </p>
       <h1 className="mb-2 text-3xl font-bold text-white">{categoria.nome}</h1>
       <p className="mb-8 max-w-2xl text-slate-400">{categoria.descricao}</p>
-      <CategoriaExplorer categoria={categoria} porDificuldade={porDificuldade} dificuldadeInicial={dificuldadeInicial} />
+      <CategoriaExplorer
+        categoria={categoria}
+        porDificuldade={porDificuldade}
+        dificuldadeInicial={dificuldadeInicial}
+        resumo={resumo}
+      />
     </div>
   );
 }

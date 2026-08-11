@@ -1,0 +1,53 @@
+{
+  "categoriaId": "estatistica",
+  "subtopicos": [
+    {
+      "subtopico": "Média, Moda e Mediana",
+      "pontos": [
+        "Média aritmética: soma de todos os valores ÷ quantidade de valores.",
+        "Moda: o(s) valor(es) que mais se repete(m) no conjunto — pode não haver moda, ou haver mais de uma.",
+        "Mediana: valor central quando os dados estão em ordem crescente; com quantidade par de valores, é a média dos dois valores centrais."
+      ],
+      "exemplo": {
+        "enunciado": "As notas de um aluno em 6 avaliações foram: 6, 7, 7, 8, 9, 10. Quais são a moda e a mediana desse conjunto?",
+        "resolucao": [
+          "Moda: o valor 7 aparece duas vezes, mais que qualquer outro — moda = 7.",
+          "Os dados já estão em ordem crescente e há 6 valores (quantidade par); os dois centrais são o 3º (7) e o 4º (8).",
+          "Mediana = (7 + 8) / 2 = 7,5."
+        ]
+      }
+    },
+    {
+      "subtopico": "Desvio Padrão",
+      "pontos": [
+        "Mede o quanto os valores se afastam, em média, da média do conjunto — quanto maior o desvio padrão, mais dispersos (menos uniformes) os dados.",
+        "Passo a passo: (1) calcule a média; (2) calcule o quadrado da diferença entre cada valor e a média; (3) calcule a média desses quadrados (a variância); (4) tire a raiz quadrada da variância.",
+        "Dois conjuntos podem ter a mesma média e desvios padrão bem diferentes — o desvio padrão mede a consistência dos dados, não o valor típico."
+      ],
+      "exemplo": {
+        "enunciado": "Um conjunto de dados é {4, 8}. Qual é o desvio padrão desse conjunto?",
+        "resolucao": [
+          "Média: (4 + 8) / 2 = 6.",
+          "Quadrados das diferenças: (4 − 6)² = 4 e (8 − 6)² = 4. Variância: (4 + 4) / 2 = 4.",
+          "Desvio padrão = √4 = 2."
+        ]
+      }
+    },
+    {
+      "subtopico": "Leitura de Gráficos e Tabelas",
+      "pontos": [
+        "Antes de calcular qualquer coisa, identifique o que cada eixo/coluna representa e a unidade usada — escalas que não começam em zero podem distorcer a percepção visual das diferenças.",
+        "Em gráficos de barras/colunas, a altura (ou comprimento) da barra é proporcional ao valor representado; compare barras sempre pela mesma escala.",
+        "Em tabelas, preste atenção a totais/subtotais e ao que a pergunta pede exatamente: frequência absoluta (contagem) ou frequência relativa (percentual)."
+      ],
+      "exemplo": {
+        "enunciado": "Uma tabela mostra as vendas mensais de uma loja: Janeiro = 120, Fevereiro = 150, Março = 90 unidades. Qual foi o percentual de queda das vendas de fevereiro para março?",
+        "resolucao": [
+          "Queda em unidades: 150 − 90 = 60.",
+          "Percentual de queda em relação a fevereiro: 60 / 150.",
+          "60 / 150 = 0,40, ou seja, queda de 40%."
+        ]
+      }
+    }
+  ]
+}

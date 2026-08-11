@@ -1,0 +1,52 @@
+{
+  "categoriaId": "logica",
+  "subtopicos": [
+    {
+      "subtopico": "Proposições Lógicas",
+      "pontos": [
+        "Uma proposição é uma frase que pode ser julgada verdadeira (V) ou falsa (F), nunca as duas ao mesmo tempo.",
+        "Conectivos principais: \"e\" (conjunção, verdadeira só se ambas forem V); \"ou\" (disjunção, verdadeira se pelo menos uma for V); \"se... então\" (condicional, falsa só quando o antecedente é V e o consequente é F); \"não\" (negação, inverte o valor lógico).",
+        "A negação de uma condicional \"se P então Q\" é \"P e não Q\" — nunca \"se P então não Q\", que é o erro mais comum nesse tipo de questão."
+      ],
+      "exemplo": {
+        "enunciado": "Considere a proposição \"Se chove, então a rua fica molhada.\" Qual é a negação lógica correta dessa proposição?",
+        "resolucao": [
+          "A proposição tem a forma \"se P então Q\", com P = \"chove\" e Q = \"a rua fica molhada\".",
+          "A negação de \"se P então Q\" é \"P e não Q\".",
+          "Negação: \"Chove e a rua não fica molhada.\""
+        ]
+      }
+    },
+    {
+      "subtopico": "Sequências e Padrões",
+      "pontos": [
+        "Compare termos consecutivos: diferença constante entre eles indica um padrão de progressão aritmética (soma sempre a mesma quantidade); razão constante indica progressão geométrica (multiplica sempre pelo mesmo fator).",
+        "Padrões também podem envolver a posição do termo (ex.: quadrados perfeitos: 1, 4, 9, 16, ...) ou repetição cíclica de um grupo de elementos."
+      ],
+      "exemplo": {
+        "enunciado": "Observe a sequência: 3, 7, 11, 15, 19, ... Seguindo o mesmo padrão, qual é o próximo número da sequência?",
+        "resolucao": [
+          "A diferença entre termos consecutivos é sempre 4 (7−3=4, 11−7=4, 15−11=4, 19−15=4).",
+          "O próximo termo é 19 + 4.",
+          "23."
+        ]
+      }
+    },
+    {
+      "subtopico": "Problemas de Raciocínio",
+      "pontos": [
+        "Traduza o enunciado para uma equação ou relação matemática simples antes de tentar \"adivinhar\" a resposta.",
+        "Em problemas de idade, use uma variável para a idade atual e some (ou subtraia) os mesmos anos para todas as pessoas envolvidas — a diferença de idade entre elas nunca muda.",
+        "Sempre confira a resposta encontrada substituindo de volta no enunciado original."
+      ],
+      "exemplo": {
+        "enunciado": "Hoje, uma mãe tem 34 anos e sua filha tem 8 anos. Daqui a quantos anos a idade da mãe será o triplo da idade da filha?",
+        "resolucao": [
+          "Chamando de x o número de anos: 34 + x = 3 × (8 + x).",
+          "34 + x = 24 + 3x → 34 − 24 = 3x − x → 10 = 2x → x = 5.",
+          "Confirmando: daqui a 5 anos, mãe = 39 e filha = 13, e de fato 39 = 3 × 13."
+        ]
+      }
+    }
+  ]
+}

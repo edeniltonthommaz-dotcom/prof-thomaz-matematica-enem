@@ -1,0 +1,51 @@
+{
+  "categoriaId": "geometria-analitica",
+  "subtopicos": [
+    {
+      "subtopico": "Distância entre Pontos",
+      "pontos": [
+        "Distância entre A(x₁, y₁) e B(x₂, y₂): d(A,B) = √[(x₂ − x₁)² + (y₂ − y₁)²].",
+        "É o Teorema de Pitágoras aplicado às coordenadas: a diferença em x e a diferença em y formam os catetos de um triângulo retângulo cuja hipotenusa é a distância."
+      ],
+      "exemplo": {
+        "enunciado": "No plano cartesiano, qual é a distância entre os pontos A(1, 2) e B(4, 6)?",
+        "resolucao": [
+          "d = √[(4 − 1)² + (6 − 2)²] = √[3² + 4²].",
+          "d = √[9 + 16] = √25.",
+          "d = 5."
+        ]
+      }
+    },
+    {
+      "subtopico": "Equação da Reta",
+      "pontos": [
+        "Forma reduzida: y = mx + n, onde m é o coeficiente angular (a mesma inclinação da função afim) e n é onde a reta cruza o eixo y.",
+        "Coeficiente angular a partir de dois pontos: m = (y₂ − y₁) / (x₂ − x₁).",
+        "Retas paralelas têm o mesmo coeficiente angular; retas perpendiculares têm produto dos coeficientes angulares igual a −1."
+      ],
+      "exemplo": {
+        "enunciado": "Uma reta passa pelos pontos (2, 3) e (6, 11). Qual é a equação reduzida dessa reta?",
+        "resolucao": [
+          "m = (11 − 3) / (6 − 2) = 8 / 4 = 2.",
+          "Substituindo o ponto (2, 3) em y = 2x + n: 3 = 2(2) + n → n = −1.",
+          "y = 2x − 1 (confira com o outro ponto: 2×6 − 1 = 11 ✓)."
+        ]
+      }
+    },
+    {
+      "subtopico": "Equação da Circunferência",
+      "pontos": [
+        "Equação reduzida: (x − a)² + (y − b)² = r², onde (a, b) é o centro e r é o raio.",
+        "Para saber se um ponto está dentro, na borda ou fora da circunferência, substitua as coordenadas do ponto no lado esquerdo e compare com r²: igual → na borda; menor → dentro; maior → fora."
+      ],
+      "exemplo": {
+        "enunciado": "Qual é a equação da circunferência de centro (3, −2) e raio 5?",
+        "resolucao": [
+          "(x − a)² + (y − b)² = r², com a = 3, b = −2 e r = 5.",
+          "(x − 3)² + (y − (−2))² = 5².",
+          "(x − 3)² + (y + 2)² = 25."
+        ]
+      }
+    }
+  ]
+}

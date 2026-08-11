@@ -1,0 +1,50 @@
+{
+  "categoriaId": "probabilidade",
+  "subtopicos": [
+    {
+      "subtopico": "Probabilidade Simples",
+      "pontos": [
+        "P(evento) = número de casos favoráveis / número de casos possíveis, quando todos os resultados são igualmente prováveis.",
+        "P varia sempre entre 0 (evento impossível) e 1 (evento certo); pode ser expressa como fração, decimal ou porcentagem."
+      ],
+      "exemplo": {
+        "enunciado": "Uma urna tem 15 bolas numeradas de 1 a 15, todas com a mesma chance de serem sorteadas. Se 3 delas são azuis, qual é a probabilidade de, em um único sorteio, sair uma bola azul?",
+        "resolucao": [
+          "Casos favoráveis: 3 (bolas azuis). Casos possíveis: 15 (total de bolas).",
+          "P = 3/15.",
+          "Simplificando: P = 1/5, ou 20%."
+        ]
+      }
+    },
+    {
+      "subtopico": "Probabilidade Condicional",
+      "pontos": [
+        "Probabilidade condicional é a chance de um evento B ocorrer, sabendo que outro evento A já ocorreu: P(B|A) = P(A ∩ B) / P(A).",
+        "Em situações \"sem reposição\", a probabilidade do segundo evento muda porque o espaço amostral (e, às vezes, os casos favoráveis) diminuiu depois do primeiro evento."
+      ],
+      "exemplo": {
+        "enunciado": "Uma caixa tem 4 bolas brancas e 3 pretas. Retira-se uma bola e, sem devolvê-la à caixa, retira-se outra. Sabendo que a primeira bola retirada foi branca, qual é a probabilidade de a segunda também ser branca?",
+        "resolucao": [
+          "Depois de tirar uma bola branca sem reposição, restam 6 bolas na caixa: 3 brancas e 3 pretas.",
+          "P(2ª branca | 1ª branca) = 3/6.",
+          "P = 1/2."
+        ]
+      }
+    },
+    {
+      "subtopico": "Eventos Sucessivos",
+      "pontos": [
+        "Eventos sucessivos independentes (com reposição, ou sem relação entre si): a probabilidade de todos ocorrerem é o produto das probabilidades individuais — P(A e B) = P(A) × P(B).",
+        "Eventos sucessivos dependentes (sem reposição): a probabilidade de cada evento depende do resultado dos anteriores — usa-se probabilidade condicional a cada passo, multiplicando as probabilidades condicionais em sequência."
+      ],
+      "exemplo": {
+        "enunciado": "Uma moeda honesta é lançada duas vezes, de forma independente. Qual é a probabilidade de sair cara nas duas vezes?",
+        "resolucao": [
+          "Os dois lançamentos são independentes: P(cara e cara) = P(cara) × P(cara).",
+          "P = 1/2 × 1/2.",
+          "P = 1/4, ou 25%."
+        ]
+      }
+    }
+  ]
+}

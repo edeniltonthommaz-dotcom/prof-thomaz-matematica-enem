@@ -1,0 +1,53 @@
+{
+  "categoriaId": "exponenciais-logaritmos",
+  "subtopicos": [
+    {
+      "subtopico": "Crescimento e Decaimento",
+      "pontos": [
+        "Crescimento exponencial: N(t) = N₀ · (1 + i)^t, onde N₀ é o valor inicial, i é a taxa de crescimento por período e t o número de períodos.",
+        "Decaimento exponencial: N(t) = N₀ · (1 − i)^t, com 0 < i < 1.",
+        "É o mesmo modelo dos juros compostos aplicado a outras grandezas (população, bactérias, valor de bens, poluentes)."
+      ],
+      "exemplo": {
+        "enunciado": "Uma colônia de bactérias tem 500 indivíduos e cresce 10% a cada hora. Quantos indivíduos ela terá após 2 horas?",
+        "resolucao": [
+          "N(t) = 500 × (1 + 0,10)^t.",
+          "N(2) = 500 × (1,10)² = 500 × 1,21.",
+          "N(2) = 605 indivíduos."
+        ]
+      }
+    },
+    {
+      "subtopico": "Meia-Vida Radioativa",
+      "pontos": [
+        "Meia-vida é o tempo necessário para a quantidade de uma substância cair à metade.",
+        "Fórmula: M(t) = M₀ · (1/2)^(t/T), onde T é a meia-vida e t o tempo decorrido, ambos na mesma unidade.",
+        "Após n meias-vidas completas, a massa restante é M₀ ÷ 2ⁿ."
+      ],
+      "exemplo": {
+        "enunciado": "Uma substância radioativa tem meia-vida de 2 anos e massa inicial de 640 g. Qual é a massa restante após 6 anos?",
+        "resolucao": [
+          "6 anos correspondem a 6 ÷ 2 = 3 meias-vidas completas.",
+          "M = 640 ÷ 2³ = 640 ÷ 8.",
+          "M = 80 g."
+        ]
+      }
+    },
+    {
+      "subtopico": "Escalas Logarítmicas (pH, Richter)",
+      "pontos": [
+        "Escalas logarítmicas usam log na base 10 para comprimir grandezas que variam em ordens de grandeza muito diferentes.",
+        "pH = −log₁₀[H⁺]: cada unidade de pH representa uma variação de 10 vezes na concentração de íons H⁺ — quanto menor o pH, maior a concentração de H⁺ (mais ácido).",
+        "Escala Richter: cada grau a mais representa uma amplitude de onda sísmica 10 vezes maior que a do grau anterior."
+      ],
+      "exemplo": {
+        "enunciado": "Uma solução tem concentração de íons H⁺ igual a 10⁻⁵ mol/L. Qual é o pH dessa solução?",
+        "resolucao": [
+          "pH = −log₁₀(10⁻⁵).",
+          "log₁₀(10⁻⁵) = −5, então pH = −(−5).",
+          "pH = 5."
+        ]
+      }
+    }
+  ]
+}

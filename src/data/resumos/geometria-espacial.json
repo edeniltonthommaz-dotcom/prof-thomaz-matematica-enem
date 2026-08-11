@@ -1,0 +1,68 @@
+{
+  "categoriaId": "geometria-espacial",
+  "subtopicos": [
+    {
+      "subtopico": "Prismas e Cilindros",
+      "pontos": [
+        "Volume de um prisma (incluindo paralelepípedo e cubo): V = Área da base × altura.",
+        "Volume do cilindro: V = π · r² · h.",
+        "Área total = área lateral + 2 × área da base, para prismas retos e cilindros."
+      ],
+      "exemplo": {
+        "enunciado": "Um tambor cilíndrico tem raio da base 3 m e altura 4 m. Usando π ≈ 3, qual é o volume aproximado desse tambor?",
+        "resolucao": [
+          "V = π × r² × h ≈ 3 × 3² × 4.",
+          "V ≈ 3 × 9 × 4.",
+          "V ≈ 108 m³."
+        ]
+      }
+    },
+    {
+      "subtopico": "Cones e Pirâmides",
+      "pontos": [
+        "Volume do cone: V = (1/3) · π · r² · h.",
+        "Volume da pirâmide: V = (1/3) · Área da base · h.",
+        "Cones e pirâmides têm volume igual a 1/3 do cilindro (ou prisma) de mesma base e mesma altura."
+      ],
+      "exemplo": {
+        "enunciado": "Um cone tem raio da base 6 cm e altura 7 cm. Usando π ≈ 22/7, qual é o volume aproximado desse cone?",
+        "resolucao": [
+          "V = (1/3) × π × r² × h ≈ (1/3) × (22/7) × 6² × 7.",
+          "Os fatores 7 se cancelam: (1/3) × 22 × 36.",
+          "V ≈ 792 / 3 = 264 cm³."
+        ]
+      }
+    },
+    {
+      "subtopico": "Esferas",
+      "pontos": [
+        "Volume da esfera: V = (4/3) · π · r³.",
+        "Área da superfície esférica: A = 4 · π · r².",
+        "Um hemisfério (metade da esfera) tem volume (2/3) · π · r³ — usado em problemas de tigelas, cúpulas e domos."
+      ],
+      "exemplo": {
+        "enunciado": "Uma esfera tem raio 3 cm. Usando π ≈ 3, qual é o volume aproximado dessa esfera?",
+        "resolucao": [
+          "V = (4/3) × π × r³ ≈ (4/3) × 3 × 3³.",
+          "(4/3) × 3 = 4, então V ≈ 4 × 27.",
+          "V ≈ 108 cm³."
+        ]
+      }
+    },
+    {
+      "subtopico": "Planificações",
+      "pontos": [
+        "A planificação de um sólido mostra todas as suas faces \"abertas\" em um plano — útil para calcular a área total como soma das áreas de cada face.",
+        "Cubo: planificação com 6 quadrados congruentes. Prisma: 2 bases + faces laterais retangulares. Cone: um setor circular (superfície lateral) + um círculo (base).",
+        "Cilindro planificado: a superfície lateral vira um retângulo de largura 2πr (o perímetro da base) e altura h, mais 2 círculos de raio r nas bases."
+      ],
+      "exemplo": {
+        "enunciado": "Um cilindro tem raio da base 5 cm e altura 10 cm. Usando π ≈ 3, qual é a área lateral desse cilindro quando planificado (o retângulo)?",
+        "resolucao": [
+          "Área lateral = 2 × π × r × h ≈ 2 × 3 × 5 × 10.",
+          "Área lateral ≈ 300 cm²."
+        ]
+      }
+    }
+  ]
+}

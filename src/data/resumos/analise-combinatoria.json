@@ -1,0 +1,66 @@
+{
+  "categoriaId": "analise-combinatoria",
+  "subtopicos": [
+    {
+      "subtopico": "Princípio Multiplicativo",
+      "pontos": [
+        "Se uma decisão pode ser tomada em etapas independentes, com m₁, m₂, ..., mₖ opções em cada etapa, o total de possibilidades é o produto m₁ × m₂ × ... × mₖ.",
+        "É a base de toda a análise combinatória — arranjos, combinações e permutações podem ser deduzidos a partir dele."
+      ],
+      "exemplo": {
+        "enunciado": "Uma pessoa vai montar um look escolhendo uma camisa entre 3, uma calça entre 2 e um par de sapato entre 4. De quantas formas diferentes ela pode se vestir?",
+        "resolucao": [
+          "As escolhas são etapas independentes: camisa × calça × sapato.",
+          "3 × 2 × 4.",
+          "24 formas diferentes."
+        ]
+      }
+    },
+    {
+      "subtopico": "Arranjo",
+      "pontos": [
+        "Usado quando a ORDEM importa e os elementos não se repetem — ex.: pódios, senhas sem repetição de dígitos, cargos diferentes distribuídos entre pessoas.",
+        "Fórmula: A(n, p) = n! / (n − p)!, para escolher e ordenar p elementos entre n disponíveis.",
+        "Diferença chave para combinação: no arranjo, trocar a ordem dos mesmos elementos escolhidos conta como um resultado diferente."
+      ],
+      "exemplo": {
+        "enunciado": "De um grupo de 5 atletas, quantos pódios diferentes (1º, 2º e 3º lugar) podem ser formados?",
+        "resolucao": [
+          "A ordem importa (1º ≠ 2º ≠ 3º lugar), então é um arranjo: A(5, 3) = 5! / (5 − 3)!.",
+          "A(5, 3) = 5! / 2! = 120 / 2.",
+          "A(5, 3) = 60 pódios diferentes."
+        ]
+      }
+    },
+    {
+      "subtopico": "Combinação",
+      "pontos": [
+        "Usado quando a ORDEM NÃO importa — ex.: formar um grupo, uma comissão ou escolher itens sem distinção de posição.",
+        "Fórmula: C(n, p) = n! / [p! × (n − p)!]."
+      ],
+      "exemplo": {
+        "enunciado": "De um grupo de 7 alunos, quantas comissões de 2 alunos podem ser formadas, sem distinção de cargo entre eles?",
+        "resolucao": [
+          "A ordem não importa dentro da comissão, então é uma combinação: C(7, 2) = 7! / (2! × 5!).",
+          "C(7, 2) = 5.040 / (2 × 120) = 5.040 / 240.",
+          "C(7, 2) = 21 comissões diferentes."
+        ]
+      }
+    },
+    {
+      "subtopico": "Permutação",
+      "pontos": [
+        "Caso particular do arranjo em que se usam TODOS os n elementos disponíveis: Pₙ = n!.",
+        "Permutação com elementos repetidos: Pₙ^(a,b,...) = n! / (a! × b! × ...), onde a, b, ... são as quantidades de cada elemento que se repete."
+      ],
+      "exemplo": {
+        "enunciado": "De quantas formas diferentes 5 pessoas podem se sentar em fila, em 5 cadeiras numeradas?",
+        "resolucao": [
+          "Todos os 5 elementos são usados e a ordem importa: P₅ = 5!.",
+          "5! = 5 × 4 × 3 × 2 × 1.",
+          "P₅ = 120 formas diferentes."
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "categoriaId": "equacoes",
+  "subtopicos": [
+    {
+      "subtopico": "Sistemas de Equações 2x2",
+      "pontos": [
+        "Método da substituição: isole uma variável em uma das equações e substitua na outra.",
+        "Método da adição/eliminação: multiplique uma ou ambas as equações por constantes até os coeficientes de uma variável ficarem opostos, depois some as duas equações.",
+        "Sempre confira a solução substituindo os valores encontrados nas duas equações originais."
+      ],
+      "exemplo": {
+        "enunciado": "Numa livraria, 2 cadernos e 3 lápis custam R$ 33,00; 4 cadernos e 1 lápis custam R$ 31,00. Qual é o preço de um lápis?",
+        "resolucao": [
+          "Chamando o caderno de x e o lápis de y: 2x + 3y = 33 e 4x + y = 31.",
+          "Da segunda equação: y = 31 − 4x.",
+          "Substituindo na primeira: 2x + 3(31 − 4x) = 33 → 2x + 93 − 12x = 33 → −10x = −60 → x = 6.",
+          "y = 31 − 4(6) = 31 − 24 = 7. O lápis custa R$ 7,00."
+        ]
+      }
+    },
+    {
+      "subtopico": "Equações Quadráticas (Bhaskara)",
+      "pontos": [
+        "Forma geral: ax² + bx + c = 0, com a ≠ 0.",
+        "Discriminante: Δ = b² − 4ac. Δ > 0 → duas raízes reais distintas; Δ = 0 → uma raiz real (dupla); Δ < 0 → nenhuma raiz real.",
+        "Fórmula de Bhaskara: x = (−b ± √Δ) / (2a).",
+        "Em problemas de medida (comprimento, largura, tempo etc.), descarte a raiz negativa — ela não tem sentido físico."
+      ],
+      "exemplo": {
+        "enunciado": "Um terreno retangular tem comprimento 7 m maior que a largura. Sabendo que a área do terreno é 120 m², qual é a medida da largura?",
+        "resolucao": [
+          "Chamando a largura de x: x(x + 7) = 120 → x² + 7x − 120 = 0.",
+          "Δ = 7² − 4(1)(−120) = 49 + 480 = 529. √529 = 23.",
+          "x = (−7 ± 23) / 2 → x = 8 ou x = −15.",
+          "Como largura não pode ser negativa, a resposta é x = 8 m."
+        ]
+      }
+    },
+    {
+      "subtopico": "Inequações do 1º grau",
+      "pontos": [
+        "Resolve-se isolando a incógnita, do mesmo jeito que uma equação do 1º grau.",
+        "Regra crítica: ao multiplicar ou dividir os dois lados por um número NEGATIVO, o sentido da desigualdade se inverte.",
+        "A solução é um intervalo de valores, não um único número — represente na reta numérica ou em notação de intervalo."
+      ],
+      "exemplo": {
+        "enunciado": "Um vendedor recebe salário fixo de R$ 1.200,00 mais R$ 30,00 por produto vendido. Qual é o número mínimo de produtos que ele precisa vender para que o salário total ultrapasse R$ 2.100,00?",
+        "resolucao": [
+          "Montando a inequação: 1.200 + 30x > 2.100.",
+          "30x > 900 → x > 30.",
+          "Como x precisa ser um número inteiro de produtos e maior que 30, o mínimo é x = 31 produtos."
+        ]
+      }
+    }
+  ]
+}

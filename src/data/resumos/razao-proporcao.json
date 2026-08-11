@@ -1,0 +1,54 @@
+{
+  "categoriaId": "razao-proporcao",
+  "subtopicos": [
+    {
+      "subtopico": "Escalas (Comprimento, Área e Volume)",
+      "pontos": [
+        "Escala 1:N significa que 1 unidade no mapa/desenho corresponde a N unidades reais.",
+        "Comprimento: distância real = distância no mapa × N.",
+        "Área: a razão entre as áreas é N² — área real = área no mapa × N².",
+        "Volume: a razão entre os volumes é N³ — volume real = volume no desenho × N³."
+      ],
+      "exemplo": {
+        "enunciado": "Num mapa de escala 1:50.000, duas cidades estão a 8 cm de distância. Qual é a distância real entre elas, em km?",
+        "resolucao": [
+          "Distância real = 8 × 50.000 = 400.000 cm.",
+          "Convertendo para km (÷ 100.000): 400.000 ÷ 100.000 = 4.",
+          "Distância real: 4 km."
+        ]
+      }
+    },
+    {
+      "subtopico": "Divisão Proporcional",
+      "pontos": [
+        "Para dividir um total em partes diretamente proporcionais a uma razão a : b : c, some as partes da razão (a + b + c) e divida o total por essa soma — isso dá o \"valor de uma parte\".",
+        "A parte de cada um é o número de partes da razão multiplicado pelo valor de uma parte."
+      ],
+      "exemplo": {
+        "enunciado": "Um prêmio de R$ 3.600,00 será dividido entre três sócios de forma diretamente proporcional a 2 : 3 : 4. Quanto recebe cada um?",
+        "resolucao": [
+          "Soma das partes da razão: 2 + 3 + 4 = 9.",
+          "Valor de uma parte: 3.600 ÷ 9 = 400.",
+          "Sócios recebem: 2 × 400 = R$ 800,00; 3 × 400 = R$ 1.200,00; 4 × 400 = R$ 1.600,00."
+        ]
+      }
+    },
+    {
+      "subtopico": "Grandezas Inversas",
+      "pontos": [
+        "Duas grandezas são inversamente proporcionais quando o produto entre elas é constante: se uma aumenta, a outra diminui na mesma proporção.",
+        "Para dividir um total em partes inversamente proporcionais a uma razão a : b : c, divida em partes diretamente proporcionais a 1/a : 1/b : 1/c — na prática, multiplique cada inverso pelo MMC de a, b, c para trabalhar com números inteiros.",
+        "Regra prática: quanto maior o valor de referência (mais faltas, mais velocidade, mais trabalhadores), menor a parte recebida/o tempo necessário."
+      ],
+      "exemplo": {
+        "enunciado": "Uma quantia de R$ 780,00 deve ser dividida entre três funcionários de forma inversamente proporcional ao número de faltas de cada um no mês: 2, 3 e 4 faltas, respectivamente. Quanto recebe o funcionário com 2 faltas?",
+        "resolucao": [
+          "Inversos das faltas: 1/2, 1/3, 1/4. MMC(2, 3, 4) = 12.",
+          "Multiplicando cada inverso por 12: 12/2 = 6, 12/3 = 4, 12/4 = 3 — razão direta equivalente 6 : 4 : 3.",
+          "Soma das partes: 6 + 4 + 3 = 13. Valor de uma parte: 780 ÷ 13 = 60.",
+          "Funcionário com 2 faltas (peso 6): 6 × 60 = R$ 360,00."
+        ]
+      }
+    }
+  ]
+}

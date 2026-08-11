@@ -1,0 +1,52 @@
+{
+  "categoriaId": "funcao-afim",
+  "subtopicos": [
+    {
+      "subtopico": "f(x) = ax + b",
+      "pontos": [
+        "Função afim (ou \"do 1º grau\"): f(x) = ax + b, com a ≠ 0. O gráfico é sempre uma reta.",
+        "\"a\" é o coeficiente angular (inclinação da reta); \"b\" é o coeficiente linear, o valor de f(0) — onde a reta cruza o eixo y.",
+        "Para achar a lei da função a partir de dois pontos: calcule a = Δy/Δx e depois substitua um dos pontos na equação para achar b."
+      ],
+      "exemplo": {
+        "enunciado": "Uma reta passa pelos pontos (1, 5) e (4, 17). Qual é a lei de formação f(x) = ax + b dessa reta?",
+        "resolucao": [
+          "a = (17 − 5) / (4 − 1) = 12 / 3 = 4.",
+          "Substituindo o ponto (1, 5) em f(x) = 4x + b: 5 = 4(1) + b → b = 1.",
+          "f(x) = 4x + 1 (confira com o outro ponto: f(4) = 4×4 + 1 = 17 ✓)."
+        ]
+      }
+    },
+    {
+      "subtopico": "Coeficiente Angular",
+      "pontos": [
+        "a = (y₂ − y₁) / (x₂ − x₁), calculado a partir de dois pontos quaisquer da reta.",
+        "a > 0: função crescente. a < 0: função decrescente. Quanto maior |a|, mais \"inclinada\" é a reta.",
+        "Em problemas aplicados, \"a\" costuma representar uma taxa: preço por km rodado, velocidade, variação por unidade de tempo."
+      ],
+      "exemplo": {
+        "enunciado": "Uma função afim f(x) = ax + b passa pelos pontos (2, 9) e (5, 21). Qual é o valor do coeficiente angular a?",
+        "resolucao": [
+          "a = (21 − 9) / (5 − 2) = 12 / 3.",
+          "a = 4."
+        ]
+      }
+    },
+    {
+      "subtopico": "Tarifas e Planos",
+      "pontos": [
+        "Situações do tipo \"taxa fixa + valor por unidade\" são funções afins: Custo(x) = fixo + variável × x.",
+        "Para comparar dois planos e achar em que ponto eles custam o mesmo, iguale as duas expressões e resolva a equação resultante.",
+        "O coeficiente linear (b) é o valor pago mesmo sem uso (x = 0); o coeficiente angular (a) é o custo por unidade adicional."
+      ],
+      "exemplo": {
+        "enunciado": "Um aplicativo de transporte cobra tarifa fixa de R$ 6,00 mais R$ 2,50 por quilômetro rodado. Quanto custa uma corrida de 12 km?",
+        "resolucao": [
+          "C(x) = 6 + 2,5x.",
+          "C(12) = 6 + 2,5 × 12 = 6 + 30.",
+          "C(12) = R$ 36,00."
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "categoriaId": "numeros",
+  "subtopicos": [
+    {
+      "subtopico": "Operações com Frações",
+      "pontos": [
+        "Soma/subtração: com o mesmo denominador, soma (ou subtrai) só os numeradores; com denominadores diferentes, primeiro tira o MMC dos denominadores.",
+        "Multiplicação: multiplica numerador com numerador e denominador com denominador.",
+        "Divisão: multiplica pela fração inversa (a/b ÷ c/d = a/b · d/c).",
+        "\"Fração de um todo\": \"3/5 de X\" significa (3/5) · X."
+      ],
+      "exemplo": {
+        "enunciado": "Um tanque tem 900 L de capacidade e está com 2/3 cheio. Em seguida, retiram-se 1/6 da capacidade total. Quantos litros restam no tanque?",
+        "resolucao": [
+          "Quantidade inicial no tanque: 2/3 de 900 = 600 L.",
+          "Quantidade retirada: 1/6 de 900 = 150 L.",
+          "Restante: 600 − 150 = 450 L."
+        ]
+      }
+    },
+    {
+      "subtopico": "Números Decimais",
+      "pontos": [
+        "Cada casa decimal é uma potência de 10 negativa (décimos, centésimos, milésimos...).",
+        "Para somar/subtrair, alinhe a vírgula (as casas decimais) antes de operar.",
+        "Para multiplicar, multiplique como se fossem inteiros e depois conte o total de casas decimais dos dois fatores.",
+        "Para dividir, multiplique dividendo e divisor pela mesma potência de 10 até o divisor virar inteiro."
+      ],
+      "exemplo": {
+        "enunciado": "Um litro de combustível custa R$ 5,48. Quanto custam 12,5 litros?",
+        "resolucao": [
+          "5,48 × 12,5 = 5,48 × 12 + 5,48 × 0,5.",
+          "5,48 × 12 = 65,76 e 5,48 × 0,5 = 2,74.",
+          "Total: 65,76 + 2,74 = R$ 68,50."
+        ]
+      }
+    },
+    {
+      "subtopico": "MDC e MMC",
+      "pontos": [
+        "MDC (máximo divisor comum): o maior número que divide todos os valores ao mesmo tempo — usado para repartir em partes iguais máximas.",
+        "MMC (mínimo múltiplo comum): o menor número divisível por todos os valores ao mesmo tempo — usado para eventos que se repetem juntos ou para somar frações.",
+        "Método rápido: fatore cada número em primos. MDC = produto dos fatores comuns com o MENOR expoente. MMC = produto de todos os fatores (comuns e não comuns) com o MAIOR expoente."
+      ],
+      "exemplo": {
+        "enunciado": "Dois ônibus saem do mesmo terminal no mesmo instante: um a cada 18 minutos, outro a cada 24 minutos. Depois de quantos minutos os dois saem juntos de novo?",
+        "resolucao": [
+          "Fatorando: 18 = 2 · 3² e 24 = 2³ · 3.",
+          "MMC = 2³ · 3² = 8 · 9 = 72.",
+          "Os dois saem juntos novamente depois de 72 minutos."
+        ]
+      }
+    },
+    {
+      "subtopico": "Potenciação e Radiciação",
+      "pontos": [
+        "Produto de potências de mesma base: soma os expoentes (aᵐ · aⁿ = aᵐ⁺ⁿ).",
+        "Divisão de potências de mesma base: subtrai os expoentes (aᵐ ÷ aⁿ = aᵐ⁻ⁿ).",
+        "Potência de potência: multiplica os expoentes ((aᵐ)ⁿ = aᵐ·ⁿ).",
+        "Expoente negativo: a⁻ⁿ = 1/aⁿ.",
+        "Raiz n-ésima é o inverso da potência n: ⁿ√a = a^(1/n)."
+      ],
+      "exemplo": {
+        "enunciado": "Simplifique (2³ · 2⁵) ÷ 2⁴ e, em seguida, calcule a raiz quadrada do resultado.",
+        "resolucao": [
+          "2³ · 2⁵ = 2⁸.",
+          "2⁸ ÷ 2⁴ = 2⁴ = 16.",
+          "√16 = 4."
+        ]
+      }
+    },
+    {
+      "subtopico": "Notação Científica e Escalas",
+      "pontos": [
+        "Forma padrão: a · 10^k, com 1 ≤ a < 10 e k inteiro.",
+        "Para multiplicar/dividir em notação científica, opera-se os coeficientes \"a\" e soma-se (ou subtrai-se) os expoentes de 10.",
+        "Trocar de unidade (km → m → mm, por exemplo) equivale a multiplicar por uma potência de 10."
+      ],
+      "exemplo": {
+        "enunciado": "Escreva 45.000.000 em notação científica e, em seguida, multiplique o resultado por 2 × 10³.",
+        "resolucao": [
+          "45.000.000 = 4,5 × 10⁷.",
+          "(4,5 × 10⁷) × (2 × 10³) = (4,5 × 2) × 10⁽⁷⁺³⁾.",
+          "Resultado: 9 × 10¹⁰."
+        ]
+      }
+    }
+  ]
+}

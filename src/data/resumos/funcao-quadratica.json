@@ -1,0 +1,53 @@
+{
+  "categoriaId": "funcao-quadratica",
+  "subtopicos": [
+    {
+      "subtopico": "Vértice da Parábola",
+      "pontos": [
+        "Para f(x) = ax² + bx + c, o vértice é o ponto (xᵥ, yᵥ), com xᵥ = −b / (2a).",
+        "yᵥ pode ser calculado substituindo xᵥ em f(x), ou direto por yᵥ = −Δ / (4a), sem precisar achar as raízes antes.",
+        "Se a > 0, o vértice é ponto de mínimo (parábola com concavidade para cima). Se a < 0, é ponto de máximo (concavidade para baixo)."
+      ],
+      "exemplo": {
+        "enunciado": "A altura h, em metros, de um projétil em função do tempo t, em segundos, é dada por h(t) = −2t² + 40t. Qual é o vértice da parábola que descreve esse movimento?",
+        "resolucao": [
+          "xᵥ = −40 / (2 × −2) = −40 / −4 = 10.",
+          "yᵥ = h(10) = −2(10)² + 40(10) = −200 + 400 = 200.",
+          "Vértice: (10, 200)."
+        ]
+      }
+    },
+    {
+      "subtopico": "Pontos de Máximo e Mínimo",
+      "pontos": [
+        "O valor de yᵥ é o valor MÁXIMO da função quando a < 0, ou o valor MÍNIMO quando a > 0.",
+        "Em problemas de receita, lucro ou altura, o vértice responde duas perguntas: em que ponto (xᵥ) o melhor resultado ocorre, e qual é esse melhor resultado (yᵥ).",
+        "Atalho: yᵥ = −Δ / (4a), com Δ = b² − 4ac."
+      ],
+      "exemplo": {
+        "enunciado": "A receita mensal de uma loja, em reais, é dada por R(x) = −2x² + 80x, em que x é o valor do reajuste no preço de venda. Qual é a receita máxima possível?",
+        "resolucao": [
+          "xᵥ = −80 / (2 × −2) = −80 / −4 = 20.",
+          "yᵥ = R(20) = −2(20)² + 80(20) = −800 + 1.600.",
+          "Receita máxima: R$ 800,00, obtida com reajuste x = 20."
+        ]
+      }
+    },
+    {
+      "subtopico": "Raízes e Concavidade",
+      "pontos": [
+        "As raízes são os valores de x em que f(x) = 0, encontrados pela fórmula de Bhaskara.",
+        "Concavidade: a > 0 → parábola abre para cima (\"sorriso\"); a < 0 → parábola abre para baixo (\"triste\").",
+        "As raízes (quando existem) são simétricas em relação ao eixo xᵥ = −b / (2a)."
+      ],
+      "exemplo": {
+        "enunciado": "Encontre as raízes de f(x) = x² − 5x + 6 e diga qual é a concavidade da parábola.",
+        "resolucao": [
+          "Δ = (−5)² − 4(1)(6) = 25 − 24 = 1.",
+          "x = (5 ± 1) / 2 → x = 3 ou x = 2.",
+          "Como a = 1 > 0, a concavidade é para cima."
+        ]
+      }
+    }
+  ]
+}

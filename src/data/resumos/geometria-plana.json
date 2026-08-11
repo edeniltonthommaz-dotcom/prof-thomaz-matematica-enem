@@ -1,0 +1,68 @@
+{
+  "categoriaId": "geometria-plana",
+  "subtopicos": [
+    {
+      "subtopico": "Áreas e Perímetros",
+      "pontos": [
+        "Perímetro é a soma de todos os lados da figura; retângulo: P = 2(b + h). Círculo (comprimento): C = 2πr.",
+        "Área: retângulo A = b·h; triângulo A = (b·h)/2; círculo A = πr²; trapézio A = (B + b)·h/2, com B a base maior e b a base menor.",
+        "Em figuras compostas, calcule a área de cada parte simples separadamente e some (ou subtraia, se houver um \"buraco\" na figura)."
+      ],
+      "exemplo": {
+        "enunciado": "Um terreno tem forma de trapézio, com base maior de 20 m, base menor de 12 m e altura de 8 m. Qual é a área desse terreno?",
+        "resolucao": [
+          "A = (B + b) · h / 2 = (20 + 12) × 8 / 2.",
+          "A = 32 × 8 / 2 = 256 / 2.",
+          "A = 128 m²."
+        ]
+      }
+    },
+    {
+      "subtopico": "Semelhança de Triângulos",
+      "pontos": [
+        "Dois triângulos são semelhantes quando têm os mesmos ângulos (ou lados proporcionais); a razão entre lados correspondentes é constante — a razão de semelhança.",
+        "Se a razão de semelhança entre os lados é k, a razão entre as áreas é k².",
+        "Aplicação clássica: problemas de sombra/altura, em que o objeto, sua sombra e os raios de luz (paralelos) formam triângulos semelhantes."
+      ],
+      "exemplo": {
+        "enunciado": "Um poste de 6 m de altura projeta uma sombra de 4 m no mesmo instante em que uma pessoa projeta uma sombra de 1,2 m. Qual é a altura da pessoa?",
+        "resolucao": [
+          "Os triângulos (poste/sombra e pessoa/sombra) são semelhantes: 6/4 = h/1,2.",
+          "h = 6 × 1,2 / 4 = 7,2 / 4.",
+          "h = 1,8 m."
+        ]
+      }
+    },
+    {
+      "subtopico": "Teorema de Pitágoras",
+      "pontos": [
+        "Em um triângulo retângulo, o quadrado da hipotenusa é igual à soma dos quadrados dos catetos: a² = b² + c².",
+        "Usado para achar um lado desconhecido de um triângulo retângulo, ou para verificar se um triângulo é retângulo."
+      ],
+      "exemplo": {
+        "enunciado": "Um triângulo retângulo tem catetos medindo 6 cm e 8 cm. Qual é a medida da hipotenusa?",
+        "resolucao": [
+          "hipotenusa² = 6² + 8² = 36 + 64 = 100.",
+          "hipotenusa = √100.",
+          "hipotenusa = 10 cm."
+        ]
+      }
+    },
+    {
+      "subtopico": "Teorema de Tales",
+      "pontos": [
+        "Um feixe de retas paralelas cortado por duas retas transversais determina segmentos proporcionais nas transversais.",
+        "Regra prática: se as paralelas cortam as transversais nos pontos A, B, C e A', B', C' (na mesma ordem), então AB/BC = A'B'/B'C'.",
+        "Muito usado para dividir um segmento em partes proporcionais ou achar uma medida desconhecida a partir de uma proporção conhecida."
+      ],
+      "exemplo": {
+        "enunciado": "Três retas paralelas cortam duas retas transversais. Numa transversal, os segmentos determinados medem 4 cm e 6 cm; na outra, os segmentos correspondentes medem 6 cm e x. Qual é o valor de x?",
+        "resolucao": [
+          "Pela proporcionalidade de Tales: 4/6 = 6/x.",
+          "x = 6 × 6 / 4 = 36 / 4.",
+          "x = 9 cm."
+        ]
+      }
+    }
+  ]
+}

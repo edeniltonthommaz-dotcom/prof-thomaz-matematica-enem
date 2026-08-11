@@ -1,0 +1,51 @@
+{
+  "categoriaId": "progressoes",
+  "subtopicos": [
+    {
+      "subtopico": "Progressão Aritmética",
+      "pontos": [
+        "Termo geral: aₙ = a₁ + (n − 1)r, onde r é a razão (diferença constante entre termos consecutivos).",
+        "r > 0: PA crescente. r < 0: PA decrescente. r = 0: todos os termos iguais."
+      ],
+      "exemplo": {
+        "enunciado": "Uma progressão aritmética tem primeiro termo 15 e razão 6. Qual é o valor do 10º termo dessa progressão?",
+        "resolucao": [
+          "aₙ = a₁ + (n − 1)r.",
+          "a₁₀ = 15 + (10 − 1) × 6 = 15 + 54.",
+          "a₁₀ = 69."
+        ]
+      }
+    },
+    {
+      "subtopico": "Progressão Geométrica",
+      "pontos": [
+        "Termo geral: aₙ = a₁ · qⁿ⁻¹, onde q é a razão (proporção constante entre termos consecutivos).",
+        "q > 1 (com a₁ > 0): PG crescente. 0 < q < 1: PG decrescente. q < 0: termos alternam de sinal."
+      ],
+      "exemplo": {
+        "enunciado": "Uma progressão geométrica tem primeiro termo 4 e razão 2. Qual é o valor do 6º termo dessa progressão?",
+        "resolucao": [
+          "aₙ = a₁ · qⁿ⁻¹.",
+          "a₆ = 4 × 2⁵ = 4 × 32.",
+          "a₆ = 128."
+        ]
+      }
+    },
+    {
+      "subtopico": "Soma de Termos",
+      "pontos": [
+        "Soma dos n primeiros termos de uma PA: Sₙ = n · (a₁ + aₙ) / 2.",
+        "Soma dos n primeiros termos de uma PG (q ≠ 1): Sₙ = a₁ · (qⁿ − 1) / (q − 1).",
+        "Soma de uma PG infinita, só quando −1 < q < 1: S∞ = a₁ / (1 − q)."
+      ],
+      "exemplo": {
+        "enunciado": "Some os 10 primeiros termos da progressão aritmética com primeiro termo 3 e razão 5.",
+        "resolucao": [
+          "Primeiro, o 10º termo: a₁₀ = 3 + (10 − 1) × 5 = 3 + 45 = 48.",
+          "Sₙ = n × (a₁ + aₙ) / 2 → S₁₀ = 10 × (3 + 48) / 2.",
+          "S₁₀ = 10 × 51 / 2 = 255."
+        ]
+      }
+    }
+  ]
+}

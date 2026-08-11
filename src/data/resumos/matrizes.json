@@ -1,0 +1,53 @@
+{
+  "categoriaId": "matrizes",
+  "subtopicos": [
+    {
+      "subtopico": "Operações com Matrizes",
+      "pontos": [
+        "Soma/subtração: soma-se (ou subtrai-se) elemento a elemento; só é possível entre matrizes de mesma dimensão.",
+        "Multiplicação por escalar: multiplica-se cada elemento da matriz pelo número.",
+        "Multiplicação de matrizes: o elemento da linha i, coluna j do resultado é a soma dos produtos da linha i da primeira matriz pelos elementos da coluna j da segunda; só é possível quando o número de colunas da primeira é igual ao número de linhas da segunda."
+      ],
+      "exemplo": {
+        "enunciado": "Considere as matrizes A = [[2, 1], [0, 3]] e B = [[1, 4], [2, −1]]. Calcule 2A + B.",
+        "resolucao": [
+          "2A = [[4, 2], [0, 6]].",
+          "2A + B: soma elemento a elemento.",
+          "2A + B = [[4+1, 2+4], [0+2, 6−1]] = [[5, 6], [2, 5]]."
+        ]
+      }
+    },
+    {
+      "subtopico": "Determinantes",
+      "pontos": [
+        "Matriz 2×2 [[a, b], [c, d]]: det = a·d − b·c.",
+        "Matriz 3×3: regra de Sarrus — repete-se as duas primeiras colunas ao lado da matriz, soma-se os produtos das três diagonais \"descendo\" e subtrai-se os produtos das três diagonais \"subindo\".",
+        "Se det = 0, a matriz não tem inversa (é chamada de singular)."
+      ],
+      "exemplo": {
+        "enunciado": "Considere a matriz A = [[4, 7], [2, 5]]. Qual é o determinante de A?",
+        "resolucao": [
+          "det(A) = a·d − b·c = 4×5 − 7×2.",
+          "det(A) = 20 − 14.",
+          "det(A) = 6."
+        ]
+      }
+    },
+    {
+      "subtopico": "Aplicações Práticas",
+      "pontos": [
+        "Matrizes organizam dados em tabelas (linhas = itens/categorias, colunas = atributos/períodos) — úteis para representar produção, estoque, notas etc.",
+        "Multiplicação de matrizes aparece em problemas de \"custo total\": uma matriz-linha de quantidades multiplicada por uma matriz-coluna de preços resulta no custo total.",
+        "Soma e multiplicação por escalar modelam variações simples: reajustar todos os valores por um mesmo fator, ou combinar duas tabelas de mesma estrutura."
+      ],
+      "exemplo": {
+        "enunciado": "A matriz-linha Q = [10, 5] representa a quantidade comprada de dois produtos (em unidades) e a matriz-coluna P = [[8], [12]] representa o preço unitário de cada produto (em reais). O produto Q × P dá o custo total da compra. Qual é esse custo?",
+        "resolucao": [
+          "Q × P = [10×8 + 5×12].",
+          "Q × P = [80 + 60].",
+          "Custo total: R$ 140,00."
+        ]
+      }
+    }
+  ]
+}

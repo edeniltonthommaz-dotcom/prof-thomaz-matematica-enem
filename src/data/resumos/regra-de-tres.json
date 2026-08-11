@@ -1,0 +1,53 @@
+{
+  "categoriaId": "regra-de-tres",
+  "subtopicos": [
+    {
+      "subtopico": "Regra de Três Simples",
+      "pontos": [
+        "Relaciona duas grandezas: primeiro identifique se elas são diretamente proporcionais (aumentam juntas) ou inversamente proporcionais (uma aumenta enquanto a outra diminui).",
+        "Diretamente proporcional: monte a proporção a/b = c/x mantendo a mesma \"direção\" das duas colunas e resolva por multiplicação cruzada.",
+        "Inversamente proporcional: inverta uma das razões antes de multiplicar cruzado (a/b = x/c)."
+      ],
+      "exemplo": {
+        "enunciado": "Uma receita para 4 pessoas usa 320 g de açúcar. Mantendo a mesma proporção, quantos gramas de açúcar são necessários para 7 pessoas?",
+        "resolucao": [
+          "Mais pessoas exigem mais açúcar — grandezas diretamente proporcionais.",
+          "4 pessoas → 320 g; 7 pessoas → x. Logo x = (320 × 7) ÷ 4.",
+          "x = 2.240 ÷ 4 = 560 g."
+        ]
+      }
+    },
+    {
+      "subtopico": "Regra de Três Composta",
+      "pontos": [
+        "Envolve três ou mais grandezas relacionadas ao mesmo tempo.",
+        "Para cada grandeza, decida se ela é diretamente ou inversamente proporcional à grandeza que contém a incógnita; inverta a razão de cada grandeza inversamente proporcional antes de multiplicar.",
+        "Monte uma proporção única: a razão da grandeza com a incógnita é igual ao produto de todas as outras razões já ajustadas."
+      ],
+      "exemplo": {
+        "enunciado": "Uma fábrica com 4 máquinas produz 360 peças em 3 dias. Mantendo o mesmo ritmo, quantas peças 6 máquinas produzem em 5 dias?",
+        "resolucao": [
+          "Mais máquinas e mais dias produzem mais peças — as duas grandezas são diretamente proporcionais ao número de peças.",
+          "Peças por máquina-dia: 360 ÷ (4 × 3) = 30.",
+          "Com 6 máquinas em 5 dias: 30 × 6 × 5 = 900 peças."
+        ]
+      }
+    },
+    {
+      "subtopico": "Conversão de Medidas e Unidades",
+      "pontos": [
+        "Comprimento: 1 km = 1.000 m = 100.000 cm — cada \"degrau\" da escala métrica multiplica ou divide por 10.",
+        "Área: o fator de conversão é o quadrado do fator linear (1 m² = 10.000 cm², pois 100² = 10.000).",
+        "Volume/capacidade: 1 m³ = 1.000 L = 1.000.000 cm³ (1 L = 1 dm³ = 1.000 cm³).",
+        "Tempo: 1 h = 60 min = 3.600 s."
+      ],
+      "exemplo": {
+        "enunciado": "Uma caixa d'água tem 2,5 m³ de volume. Quantos litros ela comporta?",
+        "resolucao": [
+          "1 m³ equivale a 1.000 L.",
+          "2,5 m³ × 1.000 = 2.500 L."
+        ]
+      }
+    }
+  ]
+}

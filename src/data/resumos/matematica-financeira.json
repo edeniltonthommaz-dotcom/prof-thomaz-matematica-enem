@@ -1,0 +1,53 @@
+{
+  "categoriaId": "matematica-financeira",
+  "subtopicos": [
+    {
+      "subtopico": "Juros Compostos",
+      "pontos": [
+        "Montante: M = C · (1 + i)^t, onde C é o capital inicial, i a taxa por período e t o número de períodos.",
+        "A taxa i deve estar na mesma unidade de tempo que t (taxa mensal com t em meses, taxa anual com t em anos etc.).",
+        "É o mesmo modelo usado em crescimento exponencial: o juro de cada período incide sobre o montante do período anterior."
+      ],
+      "exemplo": {
+        "enunciado": "Um capital de R$ 2.000,00 é aplicado a juros compostos de 4% ao mês. Qual será o montante após 3 meses?",
+        "resolucao": [
+          "M = C × (1 + i)^t = 2.000 × (1 + 0,04)³.",
+          "1,04³ = 1,124864.",
+          "M = 2.000 × 1,124864 ≈ R$ 2.249,73."
+        ]
+      }
+    },
+    {
+      "subtopico": "Taxas Equivalentes",
+      "pontos": [
+        "Duas taxas são equivalentes quando produzem o mesmo montante final no mesmo período total, mesmo referindo-se a unidades de tempo diferentes (ex.: taxa mensal e taxa anual).",
+        "Conversão em juros compostos: (1 + i_período_maior) = (1 + i_período_menor)ⁿ, onde n é quantos períodos menores cabem no maior (ex.: n = 12 para converter mês → ano).",
+        "Não confundir com taxa proporcional (usada só em juros simples, que apenas multiplica/divide a taxa): em juros compostos a conversão correta é sempre exponencial."
+      ],
+      "exemplo": {
+        "enunciado": "Uma aplicação rende juros compostos de 2% ao mês. Qual é, aproximadamente, a taxa anual equivalente?",
+        "resolucao": [
+          "(1 + i_ano) = (1 + 0,02)¹².",
+          "1,02¹² ≈ 1,2682.",
+          "i_ano ≈ 0,2682, ou seja, aproximadamente 26,82% ao ano."
+        ]
+      }
+    },
+    {
+      "subtopico": "Financiamentos e Prestações",
+      "pontos": [
+        "Num financiamento, o valor total pago considera juros sobre o saldo devedor ao longo do tempo — não é simplesmente o preço à vista dividido pelo número de parcelas, a menos que seja explicitamente \"sem juros\".",
+        "Caso simples (parcelamento sem juros): prestação = valor total ÷ número de parcelas.",
+        "Caso com juros compostos incidindo sobre o valor total: primeiro calcula-se o montante final M = C·(1+i)^t, depois divide-se esse montante pelo número de parcelas."
+      ],
+      "exemplo": {
+        "enunciado": "Um televisor de R$ 1.800,00 é financiado em 3 parcelas mensais iguais, com juros compostos de 5% ao mês incidindo sobre o valor total. Qual é o valor de cada parcela?",
+        "resolucao": [
+          "Montante total: M = 1.800 × (1,05)³ = 1.800 × 1,157625 ≈ 2.083,73.",
+          "Parcela = M ÷ 3 = 2.083,73 ÷ 3.",
+          "Parcela ≈ R$ 694,58."
+        ]
+      }
+    }
+  ]
+}

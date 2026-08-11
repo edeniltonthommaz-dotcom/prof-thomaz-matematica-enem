@@ -1,0 +1,51 @@
+{
+  "categoriaId": "trigonometria",
+  "subtopicos": [
+    {
+      "subtopico": "Triângulo Retângulo",
+      "pontos": [
+        "seno = cateto oposto / hipotenusa; cosseno = cateto adjacente / hipotenusa; tangente = cateto oposto / cateto adjacente (= seno / cosseno).",
+        "Ângulos notáveis: 30° (sen = 1/2, cos = √3/2, tan = √3/3); 45° (sen = cos = √2/2, tan = 1); 60° (sen = √3/2, cos = 1/2, tan = √3).",
+        "Muito usado em problemas de altura/distância a partir de um ângulo de observação (elevação ou depressão)."
+      ],
+      "exemplo": {
+        "enunciado": "Um observador está a 20 m da base de uma torre e vê o topo da torre sob um ângulo de 60° em relação ao chão. Usando tan(60°) ≈ 1,73, qual é, aproximadamente, a altura da torre?",
+        "resolucao": [
+          "tan(60°) = altura / distância.",
+          "altura = distância × tan(60°) = 20 × 1,73.",
+          "altura ≈ 34,6 m."
+        ]
+      }
+    },
+    {
+      "subtopico": "Lei dos Senos",
+      "pontos": [
+        "Válida para qualquer triângulo (não só retângulo): a/sen(A) = b/sen(B) = c/sen(C), onde cada lado é oposto ao ângulo de mesma letra.",
+        "Usada quando se conhece um lado e o ângulo oposto a ele, junto de outro ângulo ou lado do triângulo."
+      ],
+      "exemplo": {
+        "enunciado": "Num triângulo, o lado a mede 10 cm e é oposto a um ângulo de 30°. O lado b é oposto a um ângulo de 90°. Usando sen(30°) = 0,5 e sen(90°) = 1, qual é a medida do lado b?",
+        "resolucao": [
+          "Pela lei dos senos: a/sen(A) = b/sen(B) → 10/0,5 = b/1.",
+          "20 = b.",
+          "b = 20 cm."
+        ]
+      }
+    },
+    {
+      "subtopico": "Lei dos Cossenos",
+      "pontos": [
+        "Generaliza o Teorema de Pitágoras para qualquer triângulo: a² = b² + c² − 2bc·cos(A), onde A é o ângulo oposto ao lado a.",
+        "Usada quando se conhecem dois lados e o ângulo entre eles (para achar o terceiro lado), ou os três lados (para achar um ângulo)."
+      ],
+      "exemplo": {
+        "enunciado": "Num triângulo, dois lados medem 8 cm e 5 cm, e o ângulo entre eles é 60°. Usando cos(60°) = 0,5, qual é a medida do terceiro lado?",
+        "resolucao": [
+          "a² = 8² + 5² − 2 × 8 × 5 × cos(60°) = 64 + 25 − 2×8×5×0,5.",
+          "a² = 89 − 40 = 49.",
+          "a = √49 = 7 cm."
+        ]
+      }
+    }
+  ]
+}

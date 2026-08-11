@@ -1,0 +1,54 @@
+{
+  "categoriaId": "porcentagem",
+  "subtopicos": [
+    {
+      "subtopico": "Aumentos e Descontos Sucessivos",
+      "pontos": [
+        "Cada aumento ou desconto percentual multiplica o valor por um fator; aumentos/descontos sucessivos multiplicam os fatores em sequência — não se somam as porcentagens diretamente.",
+        "Aumento de p%: multiplica por (1 + p/100). Desconto de p%: multiplica por (1 − p/100).",
+        "Um aumento seguido de um desconto de mesma porcentagem NÃO volta ao valor original, porque o segundo percentual incide sobre um valor diferente do primeiro."
+      ],
+      "exemplo": {
+        "enunciado": "Um produto de R$ 200 sofre um aumento de 20% e, em seguida, um desconto de 10% sobre o novo preço. Qual é o preço final?",
+        "resolucao": [
+          "Depois do aumento de 20%: 200 × 1,20 = 240.",
+          "Depois do desconto de 10% sobre 240: 240 × 0,90 = 216.",
+          "Preço final: R$ 216,00."
+        ]
+      }
+    },
+    {
+      "subtopico": "Fator de Multiplicação",
+      "pontos": [
+        "O fator de multiplicação resume o efeito de uma variação percentual: F = 1 + i/100 (i é negativo para desconto).",
+        "Combinar variações sucessivas equivale a multiplicar os fatores: F_total = F1 · F2 · ... · Fn.",
+        "Para achar a variação percentual total a partir do fator: (F_total − 1) × 100%."
+      ],
+      "exemplo": {
+        "enunciado": "Um salário recebe reajuste de 8% em janeiro e de 5% em julho do mesmo ano. Qual foi a variação percentual acumulada no ano?",
+        "resolucao": [
+          "F1 = 1,08 e F2 = 1,05.",
+          "F_total = 1,08 × 1,05 = 1,134.",
+          "Variação acumulada: (1,134 − 1) × 100% = 13,4%."
+        ]
+      }
+    },
+    {
+      "subtopico": "Juros Simples e Compostos",
+      "pontos": [
+        "Juros simples: J = C · i · t — o juro de cada período incide sempre sobre o capital inicial C.",
+        "Montante em juros simples: M = C · (1 + i · t).",
+        "Juros compostos: M = C · (1 + i)^t — o juro de cada período incide sobre o montante do período anterior (\"juros sobre juros\").",
+        "A taxa i deve estar na mesma unidade de tempo que t (ex.: taxa mensal com t em meses)."
+      ],
+      "exemplo": {
+        "enunciado": "Um capital de R$ 1.000 é aplicado a juros compostos de 10% ao mês, por 2 meses. Qual é o montante final?",
+        "resolucao": [
+          "M = 1000 × (1 + 0,10)².",
+          "M = 1000 × (1,10)² = 1000 × 1,21.",
+          "Montante final: R$ 1.210,00."
+        ]
+      }
+    }
+  ]
+}
