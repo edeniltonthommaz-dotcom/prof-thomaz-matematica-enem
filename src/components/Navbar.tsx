@@ -12,14 +12,14 @@ export default function Navbar() {
       <div className="mx-auto flex max-w-6xl items-center gap-6 px-4 py-3">
         <Link href="/" className="flex items-center gap-2 shrink-0">
           <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-blue-600 font-bold text-white">
-            E
+            T
           </span>
           <span>
             <span className="block text-sm font-bold leading-none text-white">
-              Banco ENEM
+              Prof. Thomaz
             </span>
             <span className="block text-[11px] leading-tight text-slate-400">
-              Matemática • 1000+ questões
+              Matemática ENEM • 1000+ questões
             </span>
           </span>
         </Link>

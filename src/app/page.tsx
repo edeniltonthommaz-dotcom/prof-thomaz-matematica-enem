@@ -13,7 +13,7 @@ export default function Home() {
         <p className="mb-2 inline-block rounded-full bg-white/15 px-3 py-1 text-xs font-medium text-white">
           {todasQuestoes.length}+ questões · {categorias.length} categorias oficiais do ENEM
         </p>
-        <h1 className="mb-3 text-3xl font-bold text-white sm:text-4xl">Banco ENEM — Matemática</h1>
+        <h1 className="mb-3 text-3xl font-bold text-white sm:text-4xl">Prof. Thomaz — Matemática ENEM</h1>
         <p className="mb-6 max-w-2xl text-blue-100">
           Pratique com questões organizadas por assunto e nível de dificuldade,
           responda e receba feedback imediato: certo ou errado, com a explicação

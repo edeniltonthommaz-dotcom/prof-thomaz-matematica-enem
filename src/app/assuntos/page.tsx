@@ -2,7 +2,7 @@ import { categorias } from "@/data/categorias";
 import { questoesPorCategoria, todasQuestoes } from "@/lib/questions";
 import CategoryCard from "@/components/CategoryCard";
 
-export const metadata = { title: "Questões por Assunto — Banco ENEM" };
+export const metadata = { title: "Questões por Assunto — Prof. Thomaz" };
 
 export default function AssuntosPage() {
   return (

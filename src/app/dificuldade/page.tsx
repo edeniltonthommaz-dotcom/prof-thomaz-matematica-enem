@@ -4,7 +4,7 @@ import { contagemPorDificuldade } from "@/lib/questions";
 import DificuldadeBadge from "@/components/DificuldadeBadge";
 import { Dificuldade } from "@/lib/types";
 
-export const metadata = { title: "Questões por Dificuldade — Banco ENEM" };
+export const metadata = { title: "Questões por Dificuldade — Prof. Thomaz" };
 
 const NIVEIS: Dificuldade[] = ["facil", "medio", "dificil"];
 

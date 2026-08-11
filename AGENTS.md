@@ -8,10 +8,10 @@ This block is written and re-added by `next dev` — verify at `node_modules/nex
 
 <!-- END:nextjs-agent-rules -->
 
-# Banco ENEM — Questões de Matemática
+# Prof. Thomaz — Matemática ENEM
 
 Next.js (App Router, TypeScript, Tailwind) app: banco de questões de Matemática
-do ENEM organizado por assunto (19 categorias) e dificuldade (fácil/médio/difícil),
+do ENEM organizado por assunto (20 categorias) e dificuldade (fácil/médio/difícil),
 com correção interativa (responder → feedback certo/errado → explicação → gabarito).
 
 ## Comandos
@@ -23,7 +23,7 @@ com correção interativa (responder → feedback certo/errado → explicação 
 
 ## Dados
 
-- `src/data/categorias.ts` — as 19 categorias (id, subtópicos, peso na prova)
+- `src/data/categorias.ts` — as 20 categorias (id, subtópicos, peso na prova)
 - `src/data/questions/*.json` — um arquivo por categoria com questões **inéditas** geradas por `scripts/templates.mjs`
   (motor determinístico: cada template calcula a resposta certa em código, não por IA, para garantir que a matemática esteja correta)
 - `src/data/questions/real.json` — questões **reais** de provas passadas do ENEM (254 questões), com `fonte.tipo: "enem"`, `fonte.ano` e `fonte.url` apontando para o PDF oficial do INEP (download.inep.gov.br) usado na transcrição. Cobertura: 2009 a 2025 (2º dia, prova regular / 1ª aplicação), incluindo 2021 (recuperado via renderização de imagem, ver abaixo). Distribuição por categoria é desigual porque reflete a frequência real de cada assunto nas provas — categorias muito cobradas (Razão e Proporção: 51, Porcentagem: 45, Números: 30) têm bem mais questões reais que as raras (Matrizes: 0, Matemática Financeira: 2, Trigonometria: 3).

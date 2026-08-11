@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Banco ENEM — Questões de Matemática",
+  title: "Prof. Thomaz — Matemática ENEM",
   description: "Banco de questões de Matemática do ENEM organizado por assunto e dificuldade.",
 };
 
