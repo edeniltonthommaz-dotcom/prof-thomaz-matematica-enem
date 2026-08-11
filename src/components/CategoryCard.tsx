@@ -7,7 +7,7 @@ import { calcularEstatisticas, subscribe, getSnapshot, getServerSnapshot } from 
 
 const TIER_CLASSES: Record<Categoria["tier"], string> = {
   "Altíssima": "text-cyan-400",
-  Alta: "text-blue-400",
+  Alta: "text-indigo-400",
   "Média-Alta": "text-amber-400",
   "Média": "text-slate-400",
 };
@@ -53,7 +53,7 @@ export default function CategoryCard({
         <span>{progressoPct}%</span>
       </div>
       <div className="mb-4 h-1.5 w-full overflow-hidden rounded-full bg-white/10">
-        <div className="h-full rounded-full bg-blue-500" style={{ width: `${progressoPct}%` }} />
+        <div className="h-full rounded-full bg-gray-400" style={{ width: `${progressoPct}%` }} />
       </div>
       <div className="mt-auto flex items-center justify-between">
         <span className="text-xs text-slate-400">
@@ -61,7 +61,7 @@ export default function CategoryCard({
         </span>
         <Link
           href={`/assuntos/${categoria.id}`}
-          className="rounded-md bg-blue-600 px-3 py-1.5 text-sm font-medium text-white hover:bg-blue-500"
+          className="rounded-md bg-gray-600 px-3 py-1.5 text-sm font-medium text-white hover:bg-gray-500"
         >
           Praticar →
         </Link>

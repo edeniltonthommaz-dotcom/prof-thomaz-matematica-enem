@@ -9,18 +9,18 @@ export default function Home() {
 
   return (
     <div className="mx-auto max-w-6xl px-4 py-10">
-      <section className="mb-10 rounded-2xl bg-gradient-to-br from-blue-700 to-cyan-600 p-8">
+      <section className="mb-10 rounded-2xl bg-gradient-to-br from-gray-600 to-gray-900 p-8">
         <p className="mb-2 inline-block rounded-full bg-white/15 px-3 py-1 text-xs font-medium text-white">
           {todasQuestoes.length}+ questões · {categorias.length} categorias oficiais do ENEM
         </p>
         <h1 className="mb-3 text-3xl font-bold text-white sm:text-4xl">Prof. Thomaz — Matemática ENEM</h1>
-        <p className="mb-6 max-w-2xl text-blue-100">
+        <p className="mb-6 max-w-2xl text-gray-300">
           Pratique com questões organizadas por assunto e nível de dificuldade,
           responda e receba feedback imediato: certo ou errado, com a explicação
           de cada erro e a alternativa correta.
         </p>
         <div className="flex flex-wrap gap-3">
-          <Link href="/assuntos" className="rounded-lg bg-white px-4 py-2.5 text-sm font-semibold text-blue-700 hover:bg-blue-50">
+          <Link href="/assuntos" className="rounded-lg bg-white px-4 py-2.5 text-sm font-semibold text-gray-700 hover:bg-gray-100">
             Explorar por Assunto →
           </Link>
           <Link href="/dificuldade" className="rounded-lg bg-white/10 px-4 py-2.5 text-sm font-semibold text-white hover:bg-white/20">

@@ -39,7 +39,7 @@ export default function CategoriaExplorer({
               onClick={() => setAba(d)}
               className={`rounded-lg border px-4 py-2 text-sm transition ${
                 ativa
-                  ? "border-blue-500 bg-blue-500/10 text-white"
+                  ? "border-gray-400 bg-gray-400/10 text-white"
                   : "border-white/10 bg-white/[0.02] text-slate-300 hover:bg-white/5"
               }`}
             >
@@ -55,7 +55,7 @@ export default function CategoriaExplorer({
       {primeiraPendente && (
         <Link
           href={`/assuntos/${categoria.id}/${primeiraPendente.id}`}
-          className="mb-6 inline-flex items-center rounded-lg bg-blue-600 px-4 py-2 text-sm font-medium text-white hover:bg-blue-500"
+          className="mb-6 inline-flex items-center rounded-lg bg-gray-600 px-4 py-2 text-sm font-medium text-white hover:bg-gray-500"
         >
           Praticar nível {DIFICULDADE_LABEL[aba].toLowerCase()} →
         </Link>

@@ -11,7 +11,7 @@ export default function Navbar() {
     <header className="sticky top-0 z-10 border-b border-white/10 bg-[#0b1120]/95 backdrop-blur">
       <div className="mx-auto flex max-w-6xl items-center gap-6 px-4 py-3">
         <Link href="/" className="flex items-center gap-2 shrink-0">
-          <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-blue-600 font-bold text-white">
+          <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-gray-600 font-bold text-white">
             T
           </span>
           <span>

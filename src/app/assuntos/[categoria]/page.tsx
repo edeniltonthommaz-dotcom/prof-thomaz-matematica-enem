@@ -27,7 +27,7 @@ export default async function CategoriaPage({
 
   return (
     <div className="mx-auto max-w-6xl px-4 py-10">
-      <p className="mb-1 text-xs font-semibold uppercase tracking-wide text-blue-400">
+      <p className="mb-1 text-xs font-semibold uppercase tracking-wide text-gray-400">
         {categoria.tier} · {categoria.pesoProva}
       </p>
       <h1 className="mb-2 text-3xl font-bold text-white">{categoria.nome}</h1>

@@ -7,7 +7,7 @@ export const metadata = { title: "Questões por Assunto — Prof. Thomaz" };
 export default function AssuntosPage() {
   return (
     <div className="mx-auto max-w-6xl px-4 py-10">
-      <p className="mb-2 text-xs font-semibold uppercase tracking-wide text-blue-400">
+      <p className="mb-2 text-xs font-semibold uppercase tracking-wide text-gray-400">
         {categorias.length} categorias de Matemática do ENEM
       </p>
       <h1 className="mb-2 text-3xl font-bold text-white">Questões por Assunto</h1>

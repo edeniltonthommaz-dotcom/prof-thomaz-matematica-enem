@@ -42,7 +42,7 @@ export default function QuizPlayer({
   function estiloAlternativa(letra: Alternativa["letra"]) {
     if (!respondida) {
       return selecionada === letra
-        ? "border-blue-500 bg-blue-500/10"
+        ? "border-gray-400 bg-gray-400/10"
         : "border-white/10 bg-white/[0.02] hover:bg-white/5";
     }
     if (letra === questao.correta) return "border-emerald-500/50 bg-emerald-500/15";
@@ -54,7 +54,7 @@ export default function QuizPlayer({
 
   return (
     <div className="mx-auto max-w-3xl px-4 py-10">
-      <p className="mb-1 text-xs font-semibold uppercase tracking-wide text-blue-400">
+      <p className="mb-1 text-xs font-semibold uppercase tracking-wide text-gray-400">
         {categoriaNome} › {questao.subtopico}
       </p>
       <div className="mb-6 flex items-center justify-between">
@@ -102,7 +102,7 @@ export default function QuizPlayer({
         <button
           onClick={responder}
           disabled={!selecionada}
-          className="rounded-lg bg-blue-600 px-5 py-2.5 text-sm font-semibold text-white transition disabled:cursor-not-allowed disabled:opacity-40 hover:bg-blue-500"
+          className="rounded-lg bg-gray-600 px-5 py-2.5 text-sm font-semibold text-white transition disabled:cursor-not-allowed disabled:opacity-40 hover:bg-gray-500"
         >
           Responder
         </button>
@@ -150,7 +150,7 @@ export default function QuizPlayer({
             </Link>
             <Link
               href={nextId ? `/assuntos/${categoriaId}/${nextId}` : `/assuntos/${categoriaId}`}
-              className="rounded-lg bg-blue-600 px-4 py-2 text-sm font-medium text-white hover:bg-blue-500"
+              className="rounded-lg bg-gray-600 px-4 py-2 text-sm font-medium text-white hover:bg-gray-500"
             >
               Próxima questão →
             </Link>
