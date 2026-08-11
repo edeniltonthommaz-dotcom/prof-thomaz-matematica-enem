@@ -18,6 +18,7 @@ import analiseCombinatoria from "@/data/questions/analise-combinatoria.json";
 import matematicaFinanceira from "@/data/questions/matematica-financeira.json";
 import matrizes from "@/data/questions/matrizes.json";
 import logica from "@/data/questions/logica.json";
+import conjuntos from "@/data/questions/conjuntos.json";
 import real from "@/data/questions/real.json";
 
 export const todasQuestoes: Questao[] = [
@@ -40,6 +41,7 @@ export const todasQuestoes: Questao[] = [
   ...(matematicaFinanceira as Questao[]),
   ...(matrizes as Questao[]),
   ...(logica as Questao[]),
+  ...(conjuntos as Questao[]),
   ...(real as Questao[]),
 ];
 

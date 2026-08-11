@@ -153,6 +153,14 @@ export const categorias: Categoria[] = [
     tier: "Média",
     subtopicos: ["Proposições Lógicas", "Sequências e Padrões", "Problemas de Raciocínio"],
   },
+  {
+    id: "conjuntos",
+    nome: "Conjuntos",
+    descricao: "União, interseção e diferença de conjuntos, diagramas de Venn e problemas de pesquisa com sobreposição de grupos.",
+    pesoProva: "~4% da prova",
+    tier: "Média",
+    subtopicos: ["União e Interseção", "Diagramas de Venn", "Problemas de Pesquisa"],
+  },
 ];
 
 export function getCategoria(id: string): Categoria | undefined {

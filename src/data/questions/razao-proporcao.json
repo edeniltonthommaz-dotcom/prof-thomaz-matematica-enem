@@ -7,31 +7,31 @@
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Em um mapa de escala 1:1.000, a distância entre duas cidades é de 17 cm. Qual é a distância real entre essas cidades, em quilômetros?",
+    "enunciado": "Em um mapa de escala 1:1.000, a distância entre duas cidades é de 6 cm. Qual é a distância real entre essas cidades, em quilômetros?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "18 km"
+        "texto": "0.06 km"
       },
       {
         "letra": "B",
-        "texto": "1.7 km"
+        "texto": "6 km"
       },
       {
         "letra": "C",
-        "texto": "17 km"
+        "texto": "0.01 km"
       },
       {
         "letra": "D",
-        "texto": "0.02 km"
+        "texto": "0.6 km"
       },
       {
         "letra": "E",
-        "texto": "0.17 km"
+        "texto": "7 km"
       }
     ],
-    "correta": "E",
-    "explicacao": "Distância real = 17 cm × 1000 = 17.000 cm. Convertendo para km (÷100.000): 0.17 km."
+    "correta": "A",
+    "explicacao": "Distância real = 6 cm × 1000 = 6.000 cm. Convertendo para km (÷100.000): 0.06 km."
   },
   {
     "id": "razao-proporcao-ined-0032",
@@ -41,31 +41,31 @@
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Três sócios vão dividir um lucro de R$ 2.240,00 de forma diretamente proporcional aos valores investidos por cada um, na razão 2 : 2 : 3. Qual o valor recebido pelo sócio que investiu mais?",
+    "enunciado": "Três sócios vão dividir um lucro de R$ 2.480,00 de forma diretamente proporcional aos valores investidos por cada um, na razão 1 : 3 : 4. Qual o valor recebido pelo sócio que investiu mais?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "R$ 320,00"
+        "texto": "R$ 826,67"
       },
       {
         "letra": "B",
-        "texto": "R$ 640,00"
+        "texto": "R$ 310,00"
       },
       {
         "letra": "C",
-        "texto": "R$ 2.240,00"
+        "texto": "R$ 2.480,00"
       },
       {
         "letra": "D",
-        "texto": "R$ 746,67"
+        "texto": "R$ 1.240,00"
       },
       {
         "letra": "E",
-        "texto": "R$ 960,00"
+        "texto": "R$ 3.480,00"
       }
     ],
-    "correta": "E",
-    "explicacao": "A soma das partes da razão é 7. Cada parte vale R$ 2.240,00 ÷ 7 = R$ 320,00. O sócio com maior proporção (3) recebe 3 × R$ 320,00 = R$ 960,00."
+    "correta": "D",
+    "explicacao": "A soma das partes da razão é 8. Cada parte vale R$ 2.480,00 ÷ 8 = R$ 310,00. O sócio com maior proporção (4) recebe 4 × R$ 310,00 = R$ 1.240,00."
   },
   {
     "id": "razao-proporcao-ined-0033",
@@ -75,31 +75,31 @@
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Em um mapa de escala 1:250.000, a distância entre duas cidades é de 20 cm. Qual é a distância real entre essas cidades, em quilômetros?",
+    "enunciado": "Em um mapa de escala 1:250.000, a distância entre duas cidades é de 15 cm. Qual é a distância real entre essas cidades, em quilômetros?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "500 km"
+        "texto": "15 km"
       },
       {
         "letra": "B",
-        "texto": "20 km"
+        "texto": "3.75 km"
       },
       {
         "letra": "C",
-        "texto": "5 km"
+        "texto": "3750 km"
       },
       {
         "letra": "D",
-        "texto": "50 km"
+        "texto": "375 km"
       },
       {
         "letra": "E",
-        "texto": "5000 km"
+        "texto": "37.5 km"
       }
     ],
-    "correta": "D",
-    "explicacao": "Distância real = 20 cm × 250000 = 5.000.000 cm. Convertendo para km (÷100.000): 50 km."
+    "correta": "E",
+    "explicacao": "Distância real = 15 cm × 250000 = 3.750.000 cm. Convertendo para km (÷100.000): 37.5 km."
   },
   {
     "id": "razao-proporcao-ined-0034",
@@ -109,31 +109,31 @@
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Três sócios vão dividir um lucro de R$ 320,00 de forma diretamente proporcional aos valores investidos por cada um, na razão 1 : 1 : 2. Qual o valor recebido pelo sócio que investiu mais?",
+    "enunciado": "Três sócios vão dividir um lucro de R$ 1.050,00 de forma diretamente proporcional aos valores investidos por cada um, na razão 1 : 2 : 2. Qual o valor recebido pelo sócio que investiu mais?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "R$ 160,00"
+        "texto": "R$ 420,00"
       },
       {
         "letra": "B",
-        "texto": "R$ 321,00"
+        "texto": "R$ 210,00"
       },
       {
         "letra": "C",
-        "texto": "R$ 320,00"
+        "texto": "R$ 1.050,00"
       },
       {
         "letra": "D",
-        "texto": "R$ 80,00"
+        "texto": "R$ 2.050,00"
       },
       {
         "letra": "E",
-        "texto": "R$ 106,67"
+        "texto": "R$ 350,00"
       }
     ],
     "correta": "A",
-    "explicacao": "A soma das partes da razão é 4. Cada parte vale R$ 320,00 ÷ 4 = R$ 80,00. O sócio com maior proporção (2) recebe 2 × R$ 80,00 = R$ 160,00."
+    "explicacao": "A soma das partes da razão é 5. Cada parte vale R$ 1.050,00 ÷ 5 = R$ 210,00. O sócio com maior proporção (2) recebe 2 × R$ 210,00 = R$ 420,00."
   },
   {
     "id": "razao-proporcao-ined-0035",
@@ -143,31 +143,31 @@
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Em um mapa de escala 1:25.000, a distância entre duas cidades é de 21 cm. Qual é a distância real entre essas cidades, em quilômetros?",
+    "enunciado": "Em um mapa de escala 1:25.000, a distância entre duas cidades é de 19 cm. Qual é a distância real entre essas cidades, em quilômetros?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "5.25 km"
+        "texto": "4.75 km"
       },
       {
         "letra": "B",
-        "texto": "0.53 km"
+        "texto": "475 km"
       },
       {
         "letra": "C",
-        "texto": "21 km"
+        "texto": "0.47 km"
       },
       {
         "letra": "D",
-        "texto": "525 km"
+        "texto": "47.5 km"
       },
       {
         "letra": "E",
-        "texto": "52.5 km"
+        "texto": "19 km"
       }
     ],
     "correta": "A",
-    "explicacao": "Distância real = 21 cm × 25000 = 525.000 cm. Convertendo para km (÷100.000): 5.25 km."
+    "explicacao": "Distância real = 19 cm × 25000 = 475.000 cm. Convertendo para km (÷100.000): 4.75 km."
   },
   {
     "id": "razao-proporcao-ined-0036",
@@ -177,31 +177,31 @@
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Três sócios vão dividir um lucro de R$ 3.360,00 de forma diretamente proporcional aos valores investidos por cada um, na razão 1 : 5 : 6. Qual o valor recebido pelo sócio que investiu mais?",
+    "enunciado": "Três sócios vão dividir um lucro de R$ 5.760,00 de forma diretamente proporcional aos valores investidos por cada um, na razão 4 : 5 : 7. Qual o valor recebido pelo sócio que investiu mais?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "R$ 280,00"
+        "texto": "R$ 2.520,00"
       },
       {
         "letra": "B",
-        "texto": "R$ 1.680,00"
+        "texto": "R$ 5.760,00"
       },
       {
         "letra": "C",
-        "texto": "R$ 1.120,00"
+        "texto": "R$ 360,00"
       },
       {
         "letra": "D",
-        "texto": "R$ 4.360,00"
+        "texto": "R$ 1.920,00"
       },
       {
         "letra": "E",
-        "texto": "R$ 3.360,00"
+        "texto": "R$ 1.440,00"
       }
     ],
-    "correta": "B",
-    "explicacao": "A soma das partes da razão é 12. Cada parte vale R$ 3.360,00 ÷ 12 = R$ 280,00. O sócio com maior proporção (6) recebe 6 × R$ 280,00 = R$ 1.680,00."
+    "correta": "A",
+    "explicacao": "A soma das partes da razão é 16. Cada parte vale R$ 5.760,00 ÷ 16 = R$ 360,00. O sócio com maior proporção (7) recebe 7 × R$ 360,00 = R$ 2.520,00."
   },
   {
     "id": "razao-proporcao-ined-0037",
@@ -211,31 +211,31 @@
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Em um mapa de escala 1:1.000, a distância entre duas cidades é de 36 cm. Qual é a distância real entre essas cidades, em quilômetros?",
+    "enunciado": "Em um mapa de escala 1:1.000, a distância entre duas cidades é de 19 cm. Qual é a distância real entre essas cidades, em quilômetros?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "3.6 km"
+        "texto": "1.9 km"
       },
       {
         "letra": "B",
-        "texto": "0.36 km"
+        "texto": "19 km"
       },
       {
         "letra": "C",
-        "texto": "37 km"
+        "texto": "0.02 km"
       },
       {
         "letra": "D",
-        "texto": "0.04 km"
+        "texto": "20 km"
       },
       {
         "letra": "E",
-        "texto": "36 km"
+        "texto": "0.19 km"
       }
     ],
-    "correta": "B",
-    "explicacao": "Distância real = 36 cm × 1000 = 36.000 cm. Convertendo para km (÷100.000): 0.36 km."
+    "correta": "E",
+    "explicacao": "Distância real = 19 cm × 1000 = 19.000 cm. Convertendo para km (÷100.000): 0.19 km."
   },
   {
     "id": "razao-proporcao-ined-0038",
@@ -245,31 +245,31 @@
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Três sócios vão dividir um lucro de R$ 2.560,00 de forma diretamente proporcional aos valores investidos por cada um, na razão 1 : 3 : 4. Qual o valor recebido pelo sócio que investiu mais?",
+    "enunciado": "Três sócios vão dividir um lucro de R$ 2.000,00 de forma diretamente proporcional aos valores investidos por cada um, na razão 2 : 3 : 5. Qual o valor recebido pelo sócio que investiu mais?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "R$ 3.560,00"
+        "texto": "R$ 400,00"
       },
       {
         "letra": "B",
-        "texto": "R$ 853,33"
+        "texto": "R$ 200,00"
       },
       {
         "letra": "C",
-        "texto": "R$ 320,00"
+        "texto": "R$ 1.000,00"
       },
       {
         "letra": "D",
-        "texto": "R$ 2.560,00"
+        "texto": "R$ 2.000,00"
       },
       {
         "letra": "E",
-        "texto": "R$ 1.280,00"
+        "texto": "R$ 666,67"
       }
     ],
-    "correta": "E",
-    "explicacao": "A soma das partes da razão é 8. Cada parte vale R$ 2.560,00 ÷ 8 = R$ 320,00. O sócio com maior proporção (4) recebe 4 × R$ 320,00 = R$ 1.280,00."
+    "correta": "C",
+    "explicacao": "A soma das partes da razão é 10. Cada parte vale R$ 2.000,00 ÷ 10 = R$ 200,00. O sócio com maior proporção (5) recebe 5 × R$ 200,00 = R$ 1.000,00."
   },
   {
     "id": "razao-proporcao-ined-0039",
@@ -279,64 +279,64 @@
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Em um mapa de escala 1:250.000, a distância entre duas cidades é de 23 cm. Qual é a distância real entre essas cidades, em quilômetros?",
+    "enunciado": "Em um mapa de escala 1:500.000, a distância entre duas cidades é de 3 cm. Qual é a distância real entre essas cidades, em quilômetros?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "57.5 km"
+        "texto": "1.5 km"
       },
       {
         "letra": "B",
-        "texto": "575 km"
+        "texto": "3 km"
       },
       {
         "letra": "C",
-        "texto": "5750 km"
+        "texto": "15 km"
       },
       {
         "letra": "D",
-        "texto": "23 km"
+        "texto": "1500 km"
       },
       {
         "letra": "E",
-        "texto": "5.75 km"
+        "texto": "150 km"
       }
     ],
-    "correta": "A",
-    "explicacao": "Distância real = 23 cm × 250000 = 5.750.000 cm. Convertendo para km (÷100.000): 57.5 km."
+    "correta": "C",
+    "explicacao": "Distância real = 3 cm × 500000 = 1.500.000 cm. Convertendo para km (÷100.000): 15 km."
   },
   {
-    "id": "razao-proporcao-ined-0040",
+    "id": "razao-proporcao-ined-0041",
     "categoriaId": "razao-proporcao",
-    "subtopico": "Divisão Proporcional",
-    "dificuldade": "facil",
+    "subtopico": "Escalas (Comprimento, Área e Volume)",
+    "dificuldade": "medio",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Três sócios vão dividir um lucro de R$ 1.480,00 de forma diretamente proporcional aos valores investidos por cada um, na razão 1 : 1 : 2. Qual o valor recebido pelo sócio que investiu mais?",
+    "enunciado": "Em um mapa de escala 1:10.000, a distância entre duas cidades é de 18 cm. Qual é a distância real entre essas cidades, em quilômetros?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "R$ 740,00"
+        "texto": "0.18 km"
       },
       {
         "letra": "B",
-        "texto": "R$ 2.480,00"
+        "texto": "180 km"
       },
       {
         "letra": "C",
-        "texto": "R$ 493,33"
+        "texto": "18 km"
       },
       {
         "letra": "D",
-        "texto": "R$ 1.480,00"
+        "texto": "181 km"
       },
       {
         "letra": "E",
-        "texto": "R$ 370,00"
+        "texto": "1.8 km"
       }
     ],
-    "correta": "A",
-    "explicacao": "A soma das partes da razão é 4. Cada parte vale R$ 1.480,00 ÷ 4 = R$ 370,00. O sócio com maior proporção (2) recebe 2 × R$ 370,00 = R$ 740,00."
+    "correta": "E",
+    "explicacao": "Distância real = 18 cm × 10000 = 180.000 cm. Convertendo para km (÷100.000): 1.8 km."
   }
 ]

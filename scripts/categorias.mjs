@@ -19,4 +19,5 @@ export const CATEGORIAS = [
   "matematica-financeira",
   "matrizes",
   "logica",
+  "conjuntos",
 ];

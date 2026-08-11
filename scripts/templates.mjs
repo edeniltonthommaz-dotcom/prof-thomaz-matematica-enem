@@ -776,6 +776,98 @@ function logRaciocinioIdade(dificuldade) {
   });
 }
 
+// ---------- CONJUNTOS ----------
+function conjDoisConjuntos(dificuldade) {
+  const contextos = [
+    ["um clube de leitura", "leem o livro A", "leem o livro B"],
+    ["uma escola de idiomas", "estudam inglês", "estudam espanhol"],
+    ["uma academia", "praticam natação", "praticam musculação"],
+    ["uma empresa", "usam o aplicativo X", "usam o aplicativo Y"],
+    ["um bairro", "assinam o jornal A", "assinam o jornal B"],
+  ];
+  const [lugar, grupoA, grupoB] = pick(contextos);
+  const ambos = randInt(dificuldade === "facil" ? 5 : 8, dificuldade === "dificil" ? 30 : 20);
+  const apenasA = randInt(dificuldade === "facil" ? 10 : 15, dificuldade === "dificil" ? 40 : 30);
+  const apenasB = randInt(dificuldade === "facil" ? 10 : 15, dificuldade === "dificil" ? 40 : 30);
+  const nenhum = randInt(dificuldade === "facil" ? 5 : 10, dificuldade === "dificil" ? 25 : 15);
+  const totalA = apenasA + ambos;
+  const totalB = apenasB + ambos;
+  const totalGeral = apenasA + apenasB + ambos + nenhum;
+  const pelosMenosUm = apenasA + apenasB + ambos;
+
+  const fatosBase = `${totalA} pessoas ${grupoA}, ${totalB} pessoas ${grupoB}`;
+  const modos = [
+    {
+      // Revela "ambos" e pede o total que faz pelo menos uma das duas coisas.
+      fatosExtra: `, e ${ambos} pessoas fazem as duas coisas`,
+      pergunta: `Quantas pessoas ${grupoA} ou ${grupoB} (pelo menos um dos dois)?`,
+      correctText: `${pelosMenosUm}`,
+      explicacao: `Pelo menos um dos dois = apenas ${grupoA} (${apenasA}) + apenas ${grupoB} (${apenasB}) + ambos (${ambos}) = ${pelosMenosUm}. Também pode ser calculado por |A∪B| = |A|+|B|−|A∩B| = ${totalA}+${totalB}−${ambos} = ${pelosMenosUm}.`,
+      distractorTexts: [`${totalGeral}`, `${totalA + totalB}`, `${nenhum}`, `${apenasA + apenasB}`],
+    },
+    {
+      // Revela "ambos" e pede quantas não fazem nenhuma das duas.
+      fatosExtra: `, e ${ambos} pessoas fazem as duas coisas`,
+      pergunta: `Quantas pessoas não ${grupoA} nem ${grupoB}?`,
+      correctText: `${nenhum}`,
+      explicacao: `O total pesquisado é ${totalGeral}. Os que fazem pelo menos uma das duas coisas somam ${pelosMenosUm} (apenas A: ${apenasA} + apenas B: ${apenasB} + ambos: ${ambos}). Logo, não fazem nenhuma das duas: ${totalGeral} − ${pelosMenosUm} = ${nenhum}.`,
+      distractorTexts: [`${pelosMenosUm}`, `${totalGeral}`, `${apenasA}`, `${apenasB}`],
+    },
+    {
+      // NÃO revela "ambos" (é o que se pede) — revela "nenhum" em vez disso.
+      fatosExtra: `. Sabe-se ainda que ${nenhum} pessoas não se enquadram em nenhuma das duas situações`,
+      pergunta: `Quantas pessoas ${grupoA} e ${grupoB} ao mesmo tempo?`,
+      correctText: `${ambos}`,
+      explicacao: `Quem faz pelo menos uma das duas coisas: ${totalGeral} − ${nenhum} = ${pelosMenosUm}. Pela fórmula |A∪B| = |A|+|B|−|A∩B|, temos ${pelosMenosUm} = ${totalA}+${totalB}−|A∩B|, logo |A∩B| = ${totalA}+${totalB}−${pelosMenosUm} = ${ambos}.`,
+      distractorTexts: [`${totalA}`, `${totalB}`, `${apenasA}`, `${apenasB}`],
+    },
+  ];
+  const modo = dificuldade === "dificil" ? modos[2] : dificuldade === "medio" ? modos[1] : modos[0];
+
+  return makeQuestao({
+    categoriaId: "conjuntos",
+    subtopico: "Diagramas de Venn",
+    dificuldade,
+    enunciado: `Uma pesquisa foi realizada em ${lugar} com ${totalGeral} pessoas. Constatou-se que ${fatosBase}${modo.fatosExtra}. ${modo.pergunta}`,
+    correctText: modo.correctText,
+    distractorTexts: modo.distractorTexts,
+    explicacao: modo.explicacao,
+  });
+}
+
+function conjDiferenca(dificuldade) {
+  const contextos = [
+    ["moradores de um condomínio", "têm carro", "têm moto"],
+    ["clientes de uma loja", "compraram pelo cartão", "compraram no débito"],
+    ["alunos de uma turma", "fazem teatro", "fazem música"],
+    ["visitantes de um site", "acessam pelo celular", "acessam pelo computador"],
+  ];
+  const [pessoas, grupoA, grupoB] = pick(contextos);
+  // Construído de forma consistente por definição: parte-se dos quatro blocos do
+  // diagrama de Venn (apenas A, apenas B, ambos, nenhum) e soma-se para obter os
+  // totais divulgados no enunciado, evitando qualquer combinação inconsistente.
+  const ambos = randInt(dificuldade === "facil" ? 5 : 10, dificuldade === "dificil" ? 40 : 25);
+  const apenasA = randInt(dificuldade === "facil" ? 15 : 20, dificuldade === "dificil" ? 60 : 40);
+  const apenasB = randInt(dificuldade === "facil" ? 15 : 20, dificuldade === "dificil" ? 60 : 40);
+  const nenhum = randInt(dificuldade === "facil" ? 5 : 8, dificuldade === "dificil" ? 30 : 18);
+  const totalA = apenasA + ambos;
+  const totalB = apenasB + ambos;
+  const pelosMenosUm = apenasA + apenasB + ambos;
+  const totalGeral = pelosMenosUm + nenhum;
+
+  const correctText = `${ambos}`;
+  const distractorTexts = [`${pelosMenosUm}`, `${totalA + totalB}`, `${totalA - ambos}`, `${totalB - ambos}`];
+  return makeQuestao({
+    categoriaId: "conjuntos",
+    subtopico: "Problemas de Pesquisa",
+    dificuldade,
+    enunciado: `Em uma pesquisa com ${totalGeral} ${pessoas}, verificou-se que ${totalA} ${grupoA}, ${totalB} ${grupoB}, e ${nenhum} não se enquadram em nenhuma das duas situações. Quantas pessoas, dentre as pesquisadas, ${grupoA} e ${grupoB} ao mesmo tempo?`,
+    correctText,
+    distractorTexts,
+    explicacao: `Quem se enquadra em pelo menos uma situação: ${totalGeral} − ${nenhum} = ${pelosMenosUm}. Pela fórmula |A∪B| = |A|+|B|−|A∩B|, temos ${pelosMenosUm} = ${totalA}+${totalB}−|A∩B|, logo |A∩B| = ${totalA}+${totalB}−${pelosMenosUm} = ${ambos}.`,
+  });
+}
+
 export const TEMPLATES = {
   numeros: [numFracaoOperacoes, numNotacaoCientifica],
   porcentagem: [pctAumentoDesconto, pctJurosSimples],
@@ -796,4 +888,5 @@ export const TEMPLATES = {
   "matematica-financeira": [finJurosCompostos],
   matrizes: [matDeterminante],
   logica: [logSequencia, logRaciocinioIdade],
+  conjuntos: [conjDoisConjuntos, conjDiferenca],
 };

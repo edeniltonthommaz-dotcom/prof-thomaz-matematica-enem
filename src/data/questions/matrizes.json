@@ -1,13 +1,13 @@
 [
   {
-    "id": "matrizes-ined-0712",
+    "id": "matrizes-ined-0708",
     "categoriaId": "matrizes",
     "subtopico": "Determinantes",
     "dificuldade": "facil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Considere a matriz A = [[-3, -9], [6, -6]]. Qual é o determinante de A?",
+    "enunciado": "Considere a matriz A = [[0, 8], [-9, 1]]. Qual é o determinante de A?",
     "alternativas": [
       {
         "letra": "A",
@@ -15,139 +15,71 @@
       },
       {
         "letra": "B",
-        "texto": "-72"
+        "texto": "3"
       },
       {
         "letra": "C",
-        "texto": "-36"
+        "texto": "2"
       },
       {
         "letra": "D",
-        "texto": "-6"
+        "texto": "-72"
       },
       {
         "letra": "E",
-        "texto": "-5"
+        "texto": "-8"
       }
     ],
     "correta": "A",
-    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (-3)(-6) − (-9)(6) = 72."
+    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (0)(1) − (8)(-9) = 72."
   },
   {
-    "id": "matrizes-ined-0713",
+    "id": "matrizes-ined-0709",
     "categoriaId": "matrizes",
     "subtopico": "Determinantes",
     "dificuldade": "medio",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Considere a matriz A = [[6, -7], [-5, -2]]. Qual é o determinante de A?",
+    "enunciado": "Considere a matriz A = [[2, -4], [7, -1]]. Qual é o determinante de A?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "47"
+        "texto": "10"
       },
       {
         "letra": "B",
-        "texto": "-47"
+        "texto": "-2"
       },
       {
         "letra": "C",
-        "texto": "16"
+        "texto": "-30"
       },
       {
         "letra": "D",
-        "texto": "23"
+        "texto": "-26"
       },
       {
         "letra": "E",
-        "texto": "-44"
+        "texto": "26"
       }
     ],
-    "correta": "B",
-    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (6)(-2) − (-7)(-5) = -47."
+    "correta": "E",
+    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (2)(-1) − (-4)(7) = 26."
   },
   {
-    "id": "matrizes-ined-0714",
+    "id": "matrizes-ined-0710",
     "categoriaId": "matrizes",
     "subtopico": "Determinantes",
     "dificuldade": "dificil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Considere a matriz A = [[9, 9], [-7, 9]]. Qual é o determinante de A?",
+    "enunciado": "Considere a matriz A = [[4, 5], [2, 3]]. Qual é o determinante de A?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "16"
-      },
-      {
-        "letra": "B",
-        "texto": "144"
-      },
-      {
-        "letra": "C",
-        "texto": "18"
-      },
-      {
-        "letra": "D",
-        "texto": "17"
-      },
-      {
-        "letra": "E",
-        "texto": "-144"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (9)(9) − (9)(-7) = 144."
-  },
-  {
-    "id": "matrizes-ined-0715",
-    "categoriaId": "matrizes",
-    "subtopico": "Determinantes",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Considere a matriz A = [[3, -3], [4, 4]]. Qual é o determinante de A?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "6"
-      },
-      {
-        "letra": "B",
-        "texto": "24"
-      },
-      {
-        "letra": "C",
-        "texto": "-24"
-      },
-      {
-        "letra": "D",
-        "texto": "-23"
-      },
-      {
-        "letra": "E",
         "texto": "0"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (3)(4) − (-3)(4) = 24."
-  },
-  {
-    "id": "matrizes-ined-0716",
-    "categoriaId": "matrizes",
-    "subtopico": "Determinantes",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Considere a matriz A = [[-2, 2], [9, 2]]. Qual é o determinante de A?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "23"
       },
       {
         "letra": "B",
@@ -155,7 +87,177 @@
       },
       {
         "letra": "C",
-        "texto": "-22"
+        "texto": "-7"
+      },
+      {
+        "letra": "D",
+        "texto": "2"
+      },
+      {
+        "letra": "E",
+        "texto": "-2"
+      }
+    ],
+    "correta": "D",
+    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (4)(3) − (5)(2) = 2."
+  },
+  {
+    "id": "matrizes-ined-0711",
+    "categoriaId": "matrizes",
+    "subtopico": "Determinantes",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Considere a matriz A = [[-7, -5], [2, 5]]. Qual é o determinante de A?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "-45"
+      },
+      {
+        "letra": "B",
+        "texto": "1"
+      },
+      {
+        "letra": "C",
+        "texto": "-25"
+      },
+      {
+        "letra": "D",
+        "texto": "11"
+      },
+      {
+        "letra": "E",
+        "texto": "25"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (-7)(5) − (-5)(2) = -25."
+  },
+  {
+    "id": "matrizes-ined-0712",
+    "categoriaId": "matrizes",
+    "subtopico": "Determinantes",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Considere a matriz A = [[0, 2], [-1, -3]]. Qual é o determinante de A?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "2"
+      },
+      {
+        "letra": "B",
+        "texto": "6"
+      },
+      {
+        "letra": "C",
+        "texto": "-2"
+      },
+      {
+        "letra": "D",
+        "texto": "-3"
+      },
+      {
+        "letra": "E",
+        "texto": "-4"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (0)(-3) − (2)(-1) = 2."
+  },
+  {
+    "id": "matrizes-ined-0713",
+    "categoriaId": "matrizes",
+    "subtopico": "Determinantes",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Considere a matriz A = [[1, -8], [-9, 7]]. Qual é o determinante de A?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "25"
+      },
+      {
+        "letra": "B",
+        "texto": "-65"
+      },
+      {
+        "letra": "C",
+        "texto": "79"
+      },
+      {
+        "letra": "D",
+        "texto": "65"
+      },
+      {
+        "letra": "E",
+        "texto": "47"
+      }
+    ],
+    "correta": "B",
+    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (1)(7) − (-8)(-9) = -65."
+  },
+  {
+    "id": "matrizes-ined-0714",
+    "categoriaId": "matrizes",
+    "subtopico": "Determinantes",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Considere a matriz A = [[6, 2], [0, -6]]. Qual é o determinante de A?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "37"
+      },
+      {
+        "letra": "B",
+        "texto": "-36"
+      },
+      {
+        "letra": "C",
+        "texto": "36"
+      },
+      {
+        "letra": "D",
+        "texto": "12"
+      },
+      {
+        "letra": "E",
+        "texto": "-2"
+      }
+    ],
+    "correta": "B",
+    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (6)(-6) − (2)(0) = -36."
+  },
+  {
+    "id": "matrizes-ined-0715",
+    "categoriaId": "matrizes",
+    "subtopico": "Determinantes",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Considere a matriz A = [[1, 4], [1, -7]]. Qual é o determinante de A?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "11"
+      },
+      {
+        "letra": "B",
+        "texto": "12"
+      },
+      {
+        "letra": "C",
+        "texto": "-3"
       },
       {
         "letra": "D",
@@ -163,1045 +265,127 @@
       },
       {
         "letra": "E",
-        "texto": "14"
+        "texto": "29"
       }
     ],
-    "correta": "C",
-    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (-2)(2) − (2)(9) = -22."
+    "correta": "D",
+    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (1)(-7) − (4)(1) = -11."
+  },
+  {
+    "id": "matrizes-ined-0716",
+    "categoriaId": "matrizes",
+    "subtopico": "Determinantes",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Considere a matriz A = [[3, 4], [9, 0]]. Qual é o determinante de A?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "36"
+      },
+      {
+        "letra": "B",
+        "texto": "-36"
+      },
+      {
+        "letra": "C",
+        "texto": "-10"
+      },
+      {
+        "letra": "D",
+        "texto": "27"
+      },
+      {
+        "letra": "E",
+        "texto": "-9"
+      }
+    ],
+    "correta": "B",
+    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (3)(0) − (4)(9) = -36."
   },
   {
     "id": "matrizes-ined-0717",
     "categoriaId": "matrizes",
     "subtopico": "Determinantes",
-    "dificuldade": "dificil",
+    "dificuldade": "facil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Considere a matriz A = [[0, -5], [-1, -8]]. Qual é o determinante de A?",
+    "enunciado": "Considere a matriz A = [[0, 6], [8, -9]]. Qual é o determinante de A?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "5"
+        "texto": "-23"
       },
       {
         "letra": "B",
-        "texto": "-2"
+        "texto": "-48"
       },
       {
         "letra": "C",
-        "texto": "-5"
+        "texto": "54"
       },
       {
         "letra": "D",
-        "texto": "-40"
+        "texto": "-22"
       },
       {
         "letra": "E",
-        "texto": "-1"
+        "texto": "48"
       }
     ],
-    "correta": "C",
-    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (0)(-8) − (-5)(-1) = -5."
+    "correta": "B",
+    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (0)(-9) − (6)(8) = -48."
   },
   {
     "id": "matrizes-ined-0718",
     "categoriaId": "matrizes",
     "subtopico": "Determinantes",
-    "dificuldade": "facil",
+    "dificuldade": "medio",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Considere a matriz A = [[8, -4], [5, 2]]. Qual é o determinante de A?",
+    "enunciado": "Considere a matriz A = [[4, 4], [-1, 7]]. Qual é o determinante de A?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "-4"
+        "texto": "24"
       },
       {
         "letra": "B",
-        "texto": "9"
+        "texto": "8"
       },
       {
         "letra": "C",
-        "texto": "48"
+        "texto": "9"
       },
       {
         "letra": "D",
-        "texto": "36"
+        "texto": "32"
       },
       {
         "letra": "E",
-        "texto": "-36"
+        "texto": "-32"
       }
     ],
     "correta": "D",
-    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (8)(2) − (-4)(5) = 36."
+    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (4)(7) − (4)(-1) = 32."
   },
   {
     "id": "matrizes-ined-0719",
     "categoriaId": "matrizes",
     "subtopico": "Determinantes",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Considere a matriz A = [[9, -6], [-3, -9]]. Qual é o determinante de A?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "9"
-      },
-      {
-        "letra": "B",
-        "texto": "99"
-      },
-      {
-        "letra": "C",
-        "texto": "-99"
-      },
-      {
-        "letra": "D",
-        "texto": "-63"
-      },
-      {
-        "letra": "E",
-        "texto": "-81"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (9)(-9) − (-6)(-3) = -99."
-  },
-  {
-    "id": "matrizes-ined-0720",
-    "categoriaId": "matrizes",
-    "subtopico": "Determinantes",
     "dificuldade": "dificil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Considere a matriz A = [[6, 0], [1, -5]]. Qual é o determinante de A?",
+    "enunciado": "Considere a matriz A = [[0, -7], [5, 7]]. Qual é o determinante de A?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "0"
-      },
-      {
-        "letra": "B",
-        "texto": "30"
-      },
-      {
-        "letra": "C",
-        "texto": "6"
-      },
-      {
-        "letra": "D",
-        "texto": "-30"
-      },
-      {
-        "letra": "E",
-        "texto": "31"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (6)(-5) − (0)(1) = -30."
-  },
-  {
-    "id": "matrizes-ined-0721",
-    "categoriaId": "matrizes",
-    "subtopico": "Determinantes",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Considere a matriz A = [[8, -1], [4, -9]]. Qual é o determinante de A?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "-4"
-      },
-      {
-        "letra": "B",
-        "texto": "23"
-      },
-      {
-        "letra": "C",
-        "texto": "-76"
-      },
-      {
-        "letra": "D",
-        "texto": "68"
-      },
-      {
-        "letra": "E",
-        "texto": "-68"
-      }
-    ],
-    "correta": "E",
-    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (8)(-9) − (-1)(4) = -68."
-  },
-  {
-    "id": "matrizes-ined-0722",
-    "categoriaId": "matrizes",
-    "subtopico": "Determinantes",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Considere a matriz A = [[-4, 4], [5, 4]]. Qual é o determinante de A?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "-9"
-      },
-      {
-        "letra": "B",
-        "texto": "37"
-      },
-      {
-        "letra": "C",
-        "texto": "-36"
-      },
-      {
-        "letra": "D",
-        "texto": "4"
-      },
-      {
-        "letra": "E",
-        "texto": "36"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (-4)(4) − (4)(5) = -36."
-  },
-  {
-    "id": "matrizes-ined-0723",
-    "categoriaId": "matrizes",
-    "subtopico": "Determinantes",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Considere a matriz A = [[2, -2], [7, -3]]. Qual é o determinante de A?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "-6"
-      },
-      {
-        "letra": "B",
-        "texto": "-20"
-      },
-      {
-        "letra": "C",
-        "texto": "8"
-      },
-      {
-        "letra": "D",
-        "texto": "-8"
-      },
-      {
-        "letra": "E",
-        "texto": "-7"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (2)(-3) − (-2)(7) = 8."
-  },
-  {
-    "id": "matrizes-ined-0724",
-    "categoriaId": "matrizes",
-    "subtopico": "Determinantes",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Considere a matriz A = [[3, 5], [-2, 8]]. Qual é o determinante de A?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "-34"
-      },
-      {
-        "letra": "B",
-        "texto": "14"
-      },
-      {
-        "letra": "C",
-        "texto": "34"
-      },
-      {
-        "letra": "D",
-        "texto": "-46"
-      },
-      {
-        "letra": "E",
-        "texto": "8"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (3)(8) − (5)(-2) = 34."
-  },
-  {
-    "id": "matrizes-ined-0725",
-    "categoriaId": "matrizes",
-    "subtopico": "Determinantes",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Considere a matriz A = [[-9, -9], [4, 0]]. Qual é o determinante de A?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "-3"
-      },
-      {
-        "letra": "B",
-        "texto": "-36"
-      },
-      {
-        "letra": "C",
-        "texto": "-1"
-      },
-      {
-        "letra": "D",
-        "texto": "36"
-      },
-      {
-        "letra": "E",
-        "texto": "-4"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (-9)(0) − (-9)(4) = 36."
-  },
-  {
-    "id": "matrizes-ined-0726",
-    "categoriaId": "matrizes",
-    "subtopico": "Determinantes",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Considere a matriz A = [[-2, -7], [2, -1]]. Qual é o determinante de A?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "-16"
-      },
-      {
-        "letra": "B",
-        "texto": "-12"
-      },
-      {
-        "letra": "C",
-        "texto": "2"
-      },
-      {
-        "letra": "D",
-        "texto": "-11"
-      },
-      {
-        "letra": "E",
-        "texto": "16"
-      }
-    ],
-    "correta": "E",
-    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (-2)(-1) − (-7)(2) = 16."
-  },
-  {
-    "id": "matrizes-ined-0727",
-    "categoriaId": "matrizes",
-    "subtopico": "Determinantes",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Considere a matriz A = [[5, 0], [9, -8]]. Qual é o determinante de A?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "-40"
-      },
-      {
-        "letra": "B",
-        "texto": "-12"
-      },
-      {
-        "letra": "C",
-        "texto": "45"
-      },
-      {
-        "letra": "D",
-        "texto": "40"
-      },
-      {
-        "letra": "E",
-        "texto": "41"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (5)(-8) − (0)(9) = -40."
-  },
-  {
-    "id": "matrizes-ined-0728",
-    "categoriaId": "matrizes",
-    "subtopico": "Determinantes",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Considere a matriz A = [[9, -5], [5, -3]]. Qual é o determinante de A?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "6"
-      },
-      {
-        "letra": "B",
-        "texto": "2"
-      },
-      {
-        "letra": "C",
-        "texto": "-52"
-      },
-      {
-        "letra": "D",
-        "texto": "-2"
-      },
-      {
-        "letra": "E",
-        "texto": "30"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (9)(-3) − (-5)(5) = -2."
-  },
-  {
-    "id": "matrizes-ined-0729",
-    "categoriaId": "matrizes",
-    "subtopico": "Determinantes",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Considere a matriz A = [[-7, 2], [6, 1]]. Qual é o determinante de A?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "-19"
-      },
-      {
-        "letra": "B",
-        "texto": "-14"
-      },
-      {
-        "letra": "C",
-        "texto": "19"
-      },
-      {
-        "letra": "D",
-        "texto": "-44"
-      },
-      {
-        "letra": "E",
-        "texto": "5"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (-7)(1) − (2)(6) = -19."
-  },
-  {
-    "id": "matrizes-ined-0730",
-    "categoriaId": "matrizes",
-    "subtopico": "Determinantes",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Considere a matriz A = [[8, -7], [2, -7]]. Qual é o determinante de A?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "6"
-      },
-      {
-        "letra": "B",
-        "texto": "-42"
-      },
-      {
-        "letra": "C",
-        "texto": "-33"
-      },
-      {
-        "letra": "D",
-        "texto": "-70"
-      },
-      {
-        "letra": "E",
-        "texto": "42"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (8)(-7) − (-7)(2) = -42."
-  },
-  {
-    "id": "matrizes-ined-0731",
-    "categoriaId": "matrizes",
-    "subtopico": "Determinantes",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Considere a matriz A = [[-1, -1], [-9, -7]]. Qual é o determinante de A?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "3"
-      },
-      {
-        "letra": "B",
-        "texto": "16"
-      },
-      {
-        "letra": "C",
-        "texto": "2"
-      },
-      {
-        "letra": "D",
-        "texto": "5"
-      },
-      {
-        "letra": "E",
-        "texto": "-2"
-      }
-    ],
-    "correta": "E",
-    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (-1)(-7) − (-1)(-9) = -2."
-  },
-  {
-    "id": "matrizes-ined-0732",
-    "categoriaId": "matrizes",
-    "subtopico": "Determinantes",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Considere a matriz A = [[-9, 7], [5, 6]]. Qual é o determinante de A?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "89"
-      },
-      {
-        "letra": "B",
-        "texto": "-89"
-      },
-      {
-        "letra": "C",
-        "texto": "-19"
-      },
-      {
-        "letra": "D",
-        "texto": "-87"
-      },
-      {
-        "letra": "E",
-        "texto": "-15"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (-9)(6) − (7)(5) = -89."
-  },
-  {
-    "id": "matrizes-ined-0733",
-    "categoriaId": "matrizes",
-    "subtopico": "Determinantes",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Considere a matriz A = [[-6, -2], [-8, -3]]. Qual é o determinante de A?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "34"
-      },
-      {
-        "letra": "B",
-        "texto": "2"
-      },
-      {
-        "letra": "C",
-        "texto": "-2"
-      },
-      {
-        "letra": "D",
-        "texto": "1"
-      },
-      {
-        "letra": "E",
-        "texto": "42"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (-6)(-3) − (-2)(-8) = 2."
-  },
-  {
-    "id": "matrizes-ined-0734",
-    "categoriaId": "matrizes",
-    "subtopico": "Determinantes",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Considere a matriz A = [[-2, 6], [-3, 3]]. Qual é o determinante de A?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "-1"
-      },
-      {
-        "letra": "B",
-        "texto": "-24"
-      },
-      {
-        "letra": "C",
-        "texto": "-2"
-      },
-      {
-        "letra": "D",
-        "texto": "-12"
-      },
-      {
-        "letra": "E",
-        "texto": "12"
-      }
-    ],
-    "correta": "E",
-    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (-2)(3) − (6)(-3) = 12."
-  },
-  {
-    "id": "matrizes-ined-0735",
-    "categoriaId": "matrizes",
-    "subtopico": "Determinantes",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Considere a matriz A = [[1, 3], [4, 6]]. Qual é o determinante de A?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "-6"
-      },
-      {
-        "letra": "B",
-        "texto": "6"
-      },
-      {
-        "letra": "C",
-        "texto": "18"
-      },
-      {
-        "letra": "D",
-        "texto": "0"
-      },
-      {
-        "letra": "E",
-        "texto": "-14"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (1)(6) − (3)(4) = -6."
-  },
-  {
-    "id": "matrizes-ined-0736",
-    "categoriaId": "matrizes",
-    "subtopico": "Determinantes",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Considere a matriz A = [[5, -5], [-4, -7]]. Qual é o determinante de A?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "7"
-      },
-      {
-        "letra": "B",
-        "texto": "56"
-      },
-      {
-        "letra": "C",
-        "texto": "-55"
-      },
-      {
-        "letra": "D",
-        "texto": "55"
-      },
-      {
-        "letra": "E",
-        "texto": "-15"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (5)(-7) − (-5)(-4) = -55."
-  },
-  {
-    "id": "matrizes-ined-0737",
-    "categoriaId": "matrizes",
-    "subtopico": "Determinantes",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Considere a matriz A = [[3, -9], [4, -4]]. Qual é o determinante de A?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "4"
-      },
-      {
-        "letra": "B",
-        "texto": "24"
-      },
-      {
-        "letra": "C",
-        "texto": "-48"
-      },
-      {
-        "letra": "D",
-        "texto": "-24"
-      },
-      {
-        "letra": "E",
-        "texto": "5"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (3)(-4) − (-9)(4) = 24."
-  },
-  {
-    "id": "matrizes-ined-0738",
-    "categoriaId": "matrizes",
-    "subtopico": "Determinantes",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Considere a matriz A = [[-8, 7], [8, 1]]. Qual é o determinante de A?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "-22"
-      },
-      {
-        "letra": "B",
-        "texto": "64"
-      },
-      {
-        "letra": "C",
-        "texto": "-64"
-      },
-      {
-        "letra": "D",
-        "texto": "-71"
-      },
-      {
-        "letra": "E",
-        "texto": "48"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (-8)(1) − (7)(8) = -64."
-  },
-  {
-    "id": "matrizes-ined-0739",
-    "categoriaId": "matrizes",
-    "subtopico": "Determinantes",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Considere a matriz A = [[7, 9], [0, 1]]. Qual é o determinante de A?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "-7"
-      },
-      {
-        "letra": "B",
-        "texto": "-6"
-      },
-      {
-        "letra": "C",
-        "texto": "7"
-      },
-      {
-        "letra": "D",
-        "texto": "-1"
-      },
-      {
-        "letra": "E",
-        "texto": "-9"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (7)(1) − (9)(0) = 7."
-  },
-  {
-    "id": "matrizes-ined-0740",
-    "categoriaId": "matrizes",
-    "subtopico": "Determinantes",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Considere a matriz A = [[9, -8], [5, -6]]. Qual é o determinante de A?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "-94"
-      },
-      {
-        "letra": "B",
-        "texto": "-14"
-      },
-      {
-        "letra": "C",
-        "texto": "-3"
-      },
-      {
-        "letra": "D",
-        "texto": "6"
-      },
-      {
-        "letra": "E",
-        "texto": "14"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (9)(-6) − (-8)(5) = -14."
-  },
-  {
-    "id": "matrizes-ined-0741",
-    "categoriaId": "matrizes",
-    "subtopico": "Determinantes",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Considere a matriz A = [[9, -5], [-6, -3]]. Qual é o determinante de A?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "3"
-      },
-      {
-        "letra": "B",
-        "texto": "-69"
-      },
-      {
-        "letra": "C",
-        "texto": "-57"
-      },
-      {
-        "letra": "D",
-        "texto": "57"
-      },
-      {
-        "letra": "E",
-        "texto": "17"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (9)(-3) − (-5)(-6) = -57."
-  },
-  {
-    "id": "matrizes-ined-0742",
-    "categoriaId": "matrizes",
-    "subtopico": "Determinantes",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Considere a matriz A = [[1, -7], [-3, 7]]. Qual é o determinante de A?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "-14"
-      },
-      {
-        "letra": "B",
-        "texto": "14"
-      },
-      {
-        "letra": "C",
-        "texto": "46"
-      },
-      {
-        "letra": "D",
-        "texto": "18"
-      },
-      {
-        "letra": "E",
-        "texto": "28"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (1)(7) − (-7)(-3) = -14."
-  },
-  {
-    "id": "matrizes-ined-0743",
-    "categoriaId": "matrizes",
-    "subtopico": "Determinantes",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Considere a matriz A = [[3, -6], [8, 8]]. Qual é o determinante de A?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "-72"
-      },
-      {
-        "letra": "B",
-        "texto": "-24"
-      },
-      {
-        "letra": "C",
-        "texto": "-71"
-      },
-      {
-        "letra": "D",
-        "texto": "72"
-      },
-      {
-        "letra": "E",
-        "texto": "9"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (3)(8) − (-6)(8) = 72."
-  },
-  {
-    "id": "matrizes-ined-0744",
-    "categoriaId": "matrizes",
-    "subtopico": "Determinantes",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Considere a matriz A = [[2, 4], [5, 3]]. Qual é o determinante de A?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "14"
-      },
-      {
-        "letra": "B",
-        "texto": "-14"
-      },
-      {
-        "letra": "C",
-        "texto": "-4"
-      },
-      {
-        "letra": "D",
-        "texto": "26"
-      },
-      {
-        "letra": "E",
-        "texto": "-2"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (2)(3) − (4)(5) = -14."
-  },
-  {
-    "id": "matrizes-ined-0745",
-    "categoriaId": "matrizes",
-    "subtopico": "Determinantes",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Considere a matriz A = [[2, 3], [9, -6]]. Qual é o determinante de A?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "39"
-      },
-      {
-        "letra": "B",
-        "texto": "36"
-      },
-      {
-        "letra": "C",
-        "texto": "-39"
-      },
-      {
-        "letra": "D",
-        "texto": "15"
-      },
-      {
-        "letra": "E",
-        "texto": "-16"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (2)(-6) − (3)(9) = -39."
-  },
-  {
-    "id": "matrizes-ined-0746",
-    "categoriaId": "matrizes",
-    "subtopico": "Determinantes",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Considere a matriz A = [[-4, -5], [5, -8]]. Qual é o determinante de A?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "57"
-      },
-      {
-        "letra": "B",
-        "texto": "7"
-      },
-      {
-        "letra": "C",
-        "texto": "-57"
-      },
-      {
-        "letra": "D",
-        "texto": "-12"
-      },
-      {
-        "letra": "E",
-        "texto": "-60"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (-4)(-8) − (-5)(5) = 57."
-  },
-  {
-    "id": "matrizes-ined-0747",
-    "categoriaId": "matrizes",
-    "subtopico": "Determinantes",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Considere a matriz A = [[6, 7], [0, -7]]. Qual é o determinante de A?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "-8"
+        "texto": "10"
       },
       {
         "letra": "B",
@@ -1209,177 +393,7 @@
       },
       {
         "letra": "C",
-        "texto": "-42"
-      },
-      {
-        "letra": "D",
-        "texto": "42"
-      },
-      {
-        "letra": "E",
-        "texto": "43"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (6)(-7) − (7)(0) = -42."
-  },
-  {
-    "id": "matrizes-ined-0748",
-    "categoriaId": "matrizes",
-    "subtopico": "Determinantes",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Considere a matriz A = [[-6, -6], [5, 2]]. Qual é o determinante de A?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "-3"
-      },
-      {
-        "letra": "B",
-        "texto": "-18"
-      },
-      {
-        "letra": "C",
-        "texto": "-42"
-      },
-      {
-        "letra": "D",
-        "texto": "18"
-      },
-      {
-        "letra": "E",
-        "texto": "-2"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (-6)(2) − (-6)(5) = 18."
-  },
-  {
-    "id": "matrizes-ined-0749",
-    "categoriaId": "matrizes",
-    "subtopico": "Determinantes",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Considere a matriz A = [[-6, -2], [-1, -5]]. Qual é o determinante de A?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "-4"
-      },
-      {
-        "letra": "B",
-        "texto": "-8"
-      },
-      {
-        "letra": "C",
-        "texto": "-28"
-      },
-      {
-        "letra": "D",
-        "texto": "32"
-      },
-      {
-        "letra": "E",
-        "texto": "28"
-      }
-    ],
-    "correta": "E",
-    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (-6)(-5) − (-2)(-1) = 28."
-  },
-  {
-    "id": "matrizes-ined-0750",
-    "categoriaId": "matrizes",
-    "subtopico": "Determinantes",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Considere a matriz A = [[8, 4], [1, -7]]. Qual é o determinante de A?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "36"
-      },
-      {
-        "letra": "B",
-        "texto": "-60"
-      },
-      {
-        "letra": "C",
-        "texto": "-52"
-      },
-      {
-        "letra": "D",
-        "texto": "-4"
-      },
-      {
-        "letra": "E",
-        "texto": "60"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (8)(-7) − (4)(1) = -60."
-  },
-  {
-    "id": "matrizes-ined-0751",
-    "categoriaId": "matrizes",
-    "subtopico": "Determinantes",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Considere a matriz A = [[0, 8], [-4, 5]]. Qual é o determinante de A?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "1"
-      },
-      {
-        "letra": "B",
-        "texto": "-32"
-      },
-      {
-        "letra": "C",
-        "texto": "-40"
-      },
-      {
-        "letra": "D",
-        "texto": "2"
-      },
-      {
-        "letra": "E",
-        "texto": "32"
-      }
-    ],
-    "correta": "E",
-    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (0)(5) − (8)(-4) = 32."
-  },
-  {
-    "id": "matrizes-ined-0752",
-    "categoriaId": "matrizes",
-    "subtopico": "Determinantes",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Considere a matriz A = [[4, 7], [0, 9]]. Qual é o determinante de A?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "6"
-      },
-      {
-        "letra": "B",
-        "texto": "36"
-      },
-      {
-        "letra": "C",
-        "texto": "-36"
+        "texto": "35"
       },
       {
         "letra": "D",
@@ -1387,101 +401,135 @@
       },
       {
         "letra": "E",
-        "texto": "-63"
+        "texto": "9"
       }
     ],
-    "correta": "B",
-    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (4)(9) − (7)(0) = 36."
+    "correta": "C",
+    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (0)(7) − (-7)(5) = 35."
   },
   {
-    "id": "matrizes-ined-0753",
-    "categoriaId": "matrizes",
-    "subtopico": "Determinantes",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Considere a matriz A = [[-9, 2], [3, 3]]. Qual é o determinante de A?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "-21"
-      },
-      {
-        "letra": "B",
-        "texto": "-33"
-      },
-      {
-        "letra": "C",
-        "texto": "-11"
-      },
-      {
-        "letra": "D",
-        "texto": "33"
-      },
-      {
-        "letra": "E",
-        "texto": "34"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (-9)(3) − (2)(3) = -33."
-  },
-  {
-    "id": "matrizes-ined-0754",
+    "id": "matrizes-ined-0720",
     "categoriaId": "matrizes",
     "subtopico": "Determinantes",
     "dificuldade": "facil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Considere a matriz A = [[2, -1], [4, 4]]. Qual é o determinante de A?",
+    "enunciado": "Considere a matriz A = [[4, 8], [3, -5]]. Qual é o determinante de A?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "12"
+        "texto": "4"
       },
       {
         "letra": "B",
-        "texto": "3"
-      },
-      {
-        "letra": "C",
-        "texto": "-11"
-      },
-      {
-        "letra": "D",
         "texto": "-12"
       },
       {
+        "letra": "C",
+        "texto": "52"
+      },
+      {
+        "letra": "D",
+        "texto": "44"
+      },
+      {
         "letra": "E",
-        "texto": "4"
+        "texto": "-44"
       }
     ],
-    "correta": "A",
-    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (2)(4) − (-1)(4) = 12."
+    "correta": "E",
+    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (4)(-5) − (8)(3) = -44."
   },
   {
-    "id": "matrizes-ined-0755",
+    "id": "matrizes-ined-0721",
     "categoriaId": "matrizes",
     "subtopico": "Determinantes",
     "dificuldade": "medio",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Considere a matriz A = [[7, -4], [1, -5]]. Qual é o determinante de A?",
+    "enunciado": "Considere a matriz A = [[0, 9], [-8, 4]]. Qual é o determinante de A?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "31"
+        "texto": "-36"
       },
       {
         "letra": "B",
-        "texto": "-31"
+        "texto": "4"
       },
       {
         "letra": "C",
-        "texto": "-39"
+        "texto": "-72"
+      },
+      {
+        "letra": "D",
+        "texto": "3"
+      },
+      {
+        "letra": "E",
+        "texto": "72"
+      }
+    ],
+    "correta": "E",
+    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (0)(4) − (9)(-8) = 72."
+  },
+  {
+    "id": "matrizes-ined-0722",
+    "categoriaId": "matrizes",
+    "subtopico": "Determinantes",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Considere a matriz A = [[7, 3], [-6, 7]]. Qual é o determinante de A?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "-63"
+      },
+      {
+        "letra": "B",
+        "texto": "31"
+      },
+      {
+        "letra": "C",
+        "texto": "17"
+      },
+      {
+        "letra": "D",
+        "texto": "67"
+      },
+      {
+        "letra": "E",
+        "texto": "-67"
+      }
+    ],
+    "correta": "D",
+    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (7)(7) − (3)(-6) = 67."
+  },
+  {
+    "id": "matrizes-ined-0723",
+    "categoriaId": "matrizes",
+    "subtopico": "Determinantes",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Considere a matriz A = [[-6, -7], [-7, -9]]. Qual é o determinante de A?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "103"
+      },
+      {
+        "letra": "B",
+        "texto": "-5"
+      },
+      {
+        "letra": "C",
+        "texto": "-1"
       },
       {
         "letra": "D",
@@ -1489,21 +537,225 @@
       },
       {
         "letra": "E",
-        "texto": "-13"
+        "texto": "-21"
       }
     ],
-    "correta": "B",
-    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (7)(-5) − (-4)(1) = -31."
+    "correta": "D",
+    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (-6)(-9) − (-7)(-7) = 5."
   },
   {
-    "id": "matrizes-ined-0756",
+    "id": "matrizes-ined-0724",
+    "categoriaId": "matrizes",
+    "subtopico": "Determinantes",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Considere a matriz A = [[1, -7], [9, -9]]. Qual é o determinante de A?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "-54"
+      },
+      {
+        "letra": "B",
+        "texto": "-72"
+      },
+      {
+        "letra": "C",
+        "texto": "-9"
+      },
+      {
+        "letra": "D",
+        "texto": "-10"
+      },
+      {
+        "letra": "E",
+        "texto": "54"
+      }
+    ],
+    "correta": "E",
+    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (1)(-9) − (-7)(9) = 54."
+  },
+  {
+    "id": "matrizes-ined-0725",
     "categoriaId": "matrizes",
     "subtopico": "Determinantes",
     "dificuldade": "dificil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Considere a matriz A = [[6, -9], [5, 7]]. Qual é o determinante de A?",
+    "enunciado": "Considere a matriz A = [[-9, 2], [9, 2]]. Qual é o determinante de A?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "0"
+      },
+      {
+        "letra": "B",
+        "texto": "-36"
+      },
+      {
+        "letra": "C",
+        "texto": "-18"
+      },
+      {
+        "letra": "D",
+        "texto": "36"
+      },
+      {
+        "letra": "E",
+        "texto": "-85"
+      }
+    ],
+    "correta": "B",
+    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (-9)(2) − (2)(9) = -36."
+  },
+  {
+    "id": "matrizes-ined-0726",
+    "categoriaId": "matrizes",
+    "subtopico": "Determinantes",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Considere a matriz A = [[-4, 7], [-7, 5]]. Qual é o determinante de A?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "-7"
+      },
+      {
+        "letra": "B",
+        "texto": "-29"
+      },
+      {
+        "letra": "C",
+        "texto": "-69"
+      },
+      {
+        "letra": "D",
+        "texto": "1"
+      },
+      {
+        "letra": "E",
+        "texto": "29"
+      }
+    ],
+    "correta": "E",
+    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (-4)(5) − (7)(-7) = 29."
+  },
+  {
+    "id": "matrizes-ined-0727",
+    "categoriaId": "matrizes",
+    "subtopico": "Determinantes",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Considere a matriz A = [[-9, 8], [-1, 1]]. Qual é o determinante de A?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "-1"
+      },
+      {
+        "letra": "B",
+        "texto": "1"
+      },
+      {
+        "letra": "C",
+        "texto": "-15"
+      },
+      {
+        "letra": "D",
+        "texto": "-14"
+      },
+      {
+        "letra": "E",
+        "texto": "-17"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (-9)(1) − (8)(-1) = -1."
+  },
+  {
+    "id": "matrizes-ined-0728",
+    "categoriaId": "matrizes",
+    "subtopico": "Determinantes",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Considere a matriz A = [[-4, 6], [0, 9]]. Qual é o determinante de A?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "-1"
+      },
+      {
+        "letra": "B",
+        "texto": "-36"
+      },
+      {
+        "letra": "C",
+        "texto": "37"
+      },
+      {
+        "letra": "D",
+        "texto": "-54"
+      },
+      {
+        "letra": "E",
+        "texto": "36"
+      }
+    ],
+    "correta": "B",
+    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (-4)(9) − (6)(0) = -36."
+  },
+  {
+    "id": "matrizes-ined-0729",
+    "categoriaId": "matrizes",
+    "subtopico": "Determinantes",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Considere a matriz A = [[-7, -8], [-4, 8]]. Qual é o determinante de A?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "88"
+      },
+      {
+        "letra": "B",
+        "texto": "-88"
+      },
+      {
+        "letra": "C",
+        "texto": "92"
+      },
+      {
+        "letra": "D",
+        "texto": "13"
+      },
+      {
+        "letra": "E",
+        "texto": "-24"
+      }
+    ],
+    "correta": "B",
+    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (-7)(8) − (-8)(-4) = -88."
+  },
+  {
+    "id": "matrizes-ined-0730",
+    "categoriaId": "matrizes",
+    "subtopico": "Determinantes",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Considere a matriz A = [[-6, -5], [-9, -8]]. Qual é o determinante de A?",
     "alternativas": [
       {
         "letra": "A",
@@ -1511,143 +763,517 @@
       },
       {
         "letra": "B",
-        "texto": "17"
+        "texto": "14"
       },
       {
         "letra": "C",
-        "texto": "87"
-      },
-      {
-        "letra": "D",
         "texto": "93"
       },
       {
-        "letra": "E",
-        "texto": "-87"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (6)(7) − (-9)(5) = 87."
-  },
-  {
-    "id": "matrizes-ined-0757",
-    "categoriaId": "matrizes",
-    "subtopico": "Determinantes",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Considere a matriz A = [[-2, -6], [-4, 8]]. Qual é o determinante de A?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "16"
-      },
-      {
-        "letra": "B",
-        "texto": "40"
-      },
-      {
-        "letra": "C",
-        "texto": "-40"
-      },
-      {
         "letra": "D",
-        "texto": "56"
+        "texto": "3"
       },
       {
         "letra": "E",
-        "texto": "8"
+        "texto": "0"
       }
     ],
-    "correta": "C",
-    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (-2)(8) − (-6)(-4) = -40."
+    "correta": "D",
+    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (-6)(-8) − (-5)(-9) = 3."
   },
   {
-    "id": "matrizes-ined-0758",
-    "categoriaId": "matrizes",
-    "subtopico": "Determinantes",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Considere a matriz A = [[9, -2], [3, 9]]. Qual é o determinante de A?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "75"
-      },
-      {
-        "letra": "B",
-        "texto": "87"
-      },
-      {
-        "letra": "C",
-        "texto": "45"
-      },
-      {
-        "letra": "D",
-        "texto": "-87"
-      },
-      {
-        "letra": "E",
-        "texto": "17"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (9)(9) − (-2)(3) = 87."
-  },
-  {
-    "id": "matrizes-ined-0759",
+    "id": "matrizes-ined-0731",
     "categoriaId": "matrizes",
     "subtopico": "Determinantes",
     "dificuldade": "dificil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Considere a matriz A = [[0, 2], [-1, 5]]. Qual é o determinante de A?",
+    "enunciado": "Considere a matriz A = [[7, 5], [-8, -4]]. Qual é o determinante de A?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "-10"
+        "texto": "12"
       },
       {
         "letra": "B",
-        "texto": "2"
+        "texto": "-36"
       },
       {
         "letra": "C",
-        "texto": "5"
+        "texto": "-68"
       },
       {
         "letra": "D",
-        "texto": "4"
+        "texto": "-12"
       },
       {
         "letra": "E",
-        "texto": "-2"
+        "texto": "6"
       }
     ],
-    "correta": "B",
-    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (0)(5) − (2)(-1) = 2."
+    "correta": "A",
+    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (7)(-4) − (5)(-8) = 12."
   },
   {
-    "id": "matrizes-ined-0760",
+    "id": "matrizes-ined-0732",
     "categoriaId": "matrizes",
     "subtopico": "Determinantes",
     "dificuldade": "facil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Considere a matriz A = [[0, -8], [-1, -6]]. Qual é o determinante de A?",
+    "enunciado": "Considere a matriz A = [[2, 9], [-4, 5]]. Qual é o determinante de A?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "-48"
+        "texto": "-46"
       },
       {
         "letra": "B",
+        "texto": "-26"
+      },
+      {
+        "letra": "C",
+        "texto": "46"
+      },
+      {
+        "letra": "D",
+        "texto": "-53"
+      },
+      {
+        "letra": "E",
+        "texto": "2"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (2)(5) − (9)(-4) = 46."
+  },
+  {
+    "id": "matrizes-ined-0733",
+    "categoriaId": "matrizes",
+    "subtopico": "Determinantes",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Considere a matriz A = [[-2, -1], [6, -5]]. Qual é o determinante de A?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "4"
+      },
+      {
+        "letra": "B",
+        "texto": "-16"
+      },
+      {
+        "letra": "C",
+        "texto": "16"
+      },
+      {
+        "letra": "D",
+        "texto": "-12"
+      },
+      {
+        "letra": "E",
+        "texto": "-17"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (-2)(-5) − (-1)(6) = 16."
+  },
+  {
+    "id": "matrizes-ined-0734",
+    "categoriaId": "matrizes",
+    "subtopico": "Determinantes",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Considere a matriz A = [[-5, -6], [6, 4]]. Qual é o determinante de A?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "-6"
+      },
+      {
+        "letra": "B",
+        "texto": "16"
+      },
+      {
+        "letra": "C",
+        "texto": "-56"
+      },
+      {
+        "letra": "D",
+        "texto": "-1"
+      },
+      {
+        "letra": "E",
+        "texto": "-16"
+      }
+    ],
+    "correta": "B",
+    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (-5)(4) − (-6)(6) = 16."
+  },
+  {
+    "id": "matrizes-ined-0735",
+    "categoriaId": "matrizes",
+    "subtopico": "Determinantes",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Considere a matriz A = [[-7, 7], [6, -7]]. Qual é o determinante de A?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "-27"
+      },
+      {
+        "letra": "B",
+        "texto": "91"
+      },
+      {
+        "letra": "C",
+        "texto": "7"
+      },
+      {
+        "letra": "D",
+        "texto": "-7"
+      },
+      {
+        "letra": "E",
+        "texto": "-6"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (-7)(-7) − (7)(6) = 7."
+  },
+  {
+    "id": "matrizes-ined-0736",
+    "categoriaId": "matrizes",
+    "subtopico": "Determinantes",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Considere a matriz A = [[9, -8], [-4, -6]]. Qual é o determinante de A?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "-86"
+      },
+      {
+        "letra": "B",
+        "texto": "-84"
+      },
+      {
+        "letra": "C",
+        "texto": "-22"
+      },
+      {
+        "letra": "D",
+        "texto": "86"
+      },
+      {
+        "letra": "E",
+        "texto": "15"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (9)(-6) − (-8)(-4) = -86."
+  },
+  {
+    "id": "matrizes-ined-0737",
+    "categoriaId": "matrizes",
+    "subtopico": "Determinantes",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Considere a matriz A = [[3, -6], [-7, 3]]. Qual é o determinante de A?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "33"
+      },
+      {
+        "letra": "B",
+        "texto": "-33"
+      },
+      {
+        "letra": "C",
+        "texto": "19"
+      },
+      {
+        "letra": "D",
+        "texto": "51"
+      },
+      {
+        "letra": "E",
+        "texto": "-3"
+      }
+    ],
+    "correta": "B",
+    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (3)(3) − (-6)(-7) = -33."
+  },
+  {
+    "id": "matrizes-ined-0738",
+    "categoriaId": "matrizes",
+    "subtopico": "Determinantes",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Considere a matriz A = [[7, 7], [1, -7]]. Qual é o determinante de A?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "56"
+      },
+      {
+        "letra": "B",
+        "texto": "-7"
+      },
+      {
+        "letra": "C",
+        "texto": "-56"
+      },
+      {
+        "letra": "D",
+        "texto": "-42"
+      },
+      {
+        "letra": "E",
+        "texto": "-8"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (7)(-7) − (7)(1) = -56."
+  },
+  {
+    "id": "matrizes-ined-0739",
+    "categoriaId": "matrizes",
+    "subtopico": "Determinantes",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Considere a matriz A = [[-5, 5], [-6, -1]]. Qual é o determinante de A?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "-35"
+      },
+      {
+        "letra": "B",
+        "texto": "-25"
+      },
+      {
+        "letra": "C",
+        "texto": "35"
+      },
+      {
+        "letra": "D",
+        "texto": "-34"
+      },
+      {
+        "letra": "E",
+        "texto": "-5"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (-5)(-1) − (5)(-6) = 35."
+  },
+  {
+    "id": "matrizes-ined-0740",
+    "categoriaId": "matrizes",
+    "subtopico": "Determinantes",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Considere a matriz A = [[-3, -3], [1, 4]]. Qual é o determinante de A?",
+    "alternativas": [
+      {
+        "letra": "A",
         "texto": "3"
+      },
+      {
+        "letra": "B",
+        "texto": "-9"
+      },
+      {
+        "letra": "C",
+        "texto": "4"
+      },
+      {
+        "letra": "D",
+        "texto": "9"
+      },
+      {
+        "letra": "E",
+        "texto": "-15"
+      }
+    ],
+    "correta": "B",
+    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (-3)(4) − (-3)(1) = -9."
+  },
+  {
+    "id": "matrizes-ined-0741",
+    "categoriaId": "matrizes",
+    "subtopico": "Determinantes",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Considere a matriz A = [[-4, 5], [3, 9]]. Qual é o determinante de A?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "-51"
+      },
+      {
+        "letra": "B",
+        "texto": "-3"
+      },
+      {
+        "letra": "C",
+        "texto": "-21"
+      },
+      {
+        "letra": "D",
+        "texto": "51"
+      },
+      {
+        "letra": "E",
+        "texto": "-57"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (-4)(9) − (5)(3) = -51."
+  },
+  {
+    "id": "matrizes-ined-0742",
+    "categoriaId": "matrizes",
+    "subtopico": "Determinantes",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Considere a matriz A = [[6, 8], [9, 7]]. Qual é o determinante de A?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "-4"
+      },
+      {
+        "letra": "B",
+        "texto": "-2"
+      },
+      {
+        "letra": "C",
+        "texto": "114"
+      },
+      {
+        "letra": "D",
+        "texto": "30"
+      },
+      {
+        "letra": "E",
+        "texto": "-30"
+      }
+    ],
+    "correta": "E",
+    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (6)(7) − (8)(9) = -30."
+  },
+  {
+    "id": "matrizes-ined-0743",
+    "categoriaId": "matrizes",
+    "subtopico": "Determinantes",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Considere a matriz A = [[-9, -2], [4, -3]]. Qual é o determinante de A?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "19"
+      },
+      {
+        "letra": "B",
+        "texto": "35"
+      },
+      {
+        "letra": "C",
+        "texto": "-14"
+      },
+      {
+        "letra": "D",
+        "texto": "-42"
+      },
+      {
+        "letra": "E",
+        "texto": "-35"
+      }
+    ],
+    "correta": "B",
+    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (-9)(-3) − (-2)(4) = 35."
+  },
+  {
+    "id": "matrizes-ined-0744",
+    "categoriaId": "matrizes",
+    "subtopico": "Determinantes",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Considere a matriz A = [[-9, -2], [8, -7]]. Qual é o determinante de A?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "47"
+      },
+      {
+        "letra": "B",
+        "texto": "-22"
+      },
+      {
+        "letra": "C",
+        "texto": "-86"
+      },
+      {
+        "letra": "D",
+        "texto": "-79"
+      },
+      {
+        "letra": "E",
+        "texto": "79"
+      }
+    ],
+    "correta": "E",
+    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (-9)(-7) − (-2)(8) = 79."
+  },
+  {
+    "id": "matrizes-ined-0745",
+    "categoriaId": "matrizes",
+    "subtopico": "Determinantes",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Considere a matriz A = [[2, 4], [8, 6]]. Qual é o determinante de A?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "-4"
+      },
+      {
+        "letra": "B",
+        "texto": "-20"
       },
       {
         "letra": "C",
@@ -1655,48 +1281,422 @@
       },
       {
         "letra": "D",
-        "texto": "4"
+        "texto": "20"
       },
       {
         "letra": "E",
-        "texto": "8"
+        "texto": "44"
       }
     ],
-    "correta": "C",
-    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (0)(-6) − (-8)(-1) = -8."
+    "correta": "B",
+    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (2)(6) − (4)(8) = -20."
   },
   {
-    "id": "matrizes-ined-0761",
+    "id": "matrizes-ined-0746",
+    "categoriaId": "matrizes",
+    "subtopico": "Determinantes",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Considere a matriz A = [[-2, -8], [2, -6]]. Qual é o determinante de A?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "-4"
+      },
+      {
+        "letra": "B",
+        "texto": "-52"
+      },
+      {
+        "letra": "C",
+        "texto": "-28"
+      },
+      {
+        "letra": "D",
+        "texto": "28"
+      },
+      {
+        "letra": "E",
+        "texto": "-2"
+      }
+    ],
+    "correta": "D",
+    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (-2)(-6) − (-8)(2) = 28."
+  },
+  {
+    "id": "matrizes-ined-0747",
+    "categoriaId": "matrizes",
+    "subtopico": "Determinantes",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Considere a matriz A = [[-5, 8], [-3, 3]]. Qual é o determinante de A?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "9"
+      },
+      {
+        "letra": "B",
+        "texto": "-6"
+      },
+      {
+        "letra": "C",
+        "texto": "-7"
+      },
+      {
+        "letra": "D",
+        "texto": "-39"
+      },
+      {
+        "letra": "E",
+        "texto": "-9"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (-5)(3) − (8)(-3) = 9."
+  },
+  {
+    "id": "matrizes-ined-0748",
     "categoriaId": "matrizes",
     "subtopico": "Determinantes",
     "dificuldade": "medio",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Considere a matriz A = [[6, 3], [-6, -9]]. Qual é o determinante de A?",
+    "enunciado": "Considere a matriz A = [[2, -4], [8, -8]]. Qual é o determinante de A?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "-72"
+        "texto": "16"
       },
       {
         "letra": "B",
-        "texto": "0"
+        "texto": "-48"
       },
       {
         "letra": "C",
-        "texto": "-36"
+        "texto": "-10"
       },
       {
         "letra": "D",
-        "texto": "-9"
+        "texto": "-16"
       },
       {
         "letra": "E",
-        "texto": "36"
+        "texto": "-9"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (2)(-8) − (-4)(8) = 16."
+  },
+  {
+    "id": "matrizes-ined-0749",
+    "categoriaId": "matrizes",
+    "subtopico": "Determinantes",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Considere a matriz A = [[-4, -5], [0, 8]]. Qual é o determinante de A?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "9"
+      },
+      {
+        "letra": "B",
+        "texto": "-32"
+      },
+      {
+        "letra": "C",
+        "texto": "32"
+      },
+      {
+        "letra": "D",
+        "texto": "33"
+      },
+      {
+        "letra": "E",
+        "texto": "40"
+      }
+    ],
+    "correta": "B",
+    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (-4)(8) − (-5)(0) = -32."
+  },
+  {
+    "id": "matrizes-ined-0750",
+    "categoriaId": "matrizes",
+    "subtopico": "Determinantes",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Considere a matriz A = [[2, 7], [-9, -2]]. Qual é o determinante de A?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "-67"
+      },
+      {
+        "letra": "B",
+        "texto": "59"
+      },
+      {
+        "letra": "C",
+        "texto": "2"
+      },
+      {
+        "letra": "D",
+        "texto": "-4"
+      },
+      {
+        "letra": "E",
+        "texto": "-59"
+      }
+    ],
+    "correta": "B",
+    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (2)(-2) − (7)(-9) = 59."
+  },
+  {
+    "id": "matrizes-ined-0751",
+    "categoriaId": "matrizes",
+    "subtopico": "Determinantes",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Considere a matriz A = [[6, 5], [-2, -9]]. Qual é o determinante de A?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "-64"
+      },
+      {
+        "letra": "B",
+        "texto": "-6"
+      },
+      {
+        "letra": "C",
+        "texto": "44"
+      },
+      {
+        "letra": "D",
+        "texto": "33"
+      },
+      {
+        "letra": "E",
+        "texto": "-44"
+      }
+    ],
+    "correta": "E",
+    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (6)(-9) − (5)(-2) = -44."
+  },
+  {
+    "id": "matrizes-ined-0752",
+    "categoriaId": "matrizes",
+    "subtopico": "Determinantes",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Considere a matriz A = [[5, -1], [-8, -3]]. Qual é o determinante de A?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "-23"
+      },
+      {
+        "letra": "B",
+        "texto": "-7"
+      },
+      {
+        "letra": "C",
+        "texto": "11"
+      },
+      {
+        "letra": "D",
+        "texto": "23"
+      },
+      {
+        "letra": "E",
+        "texto": "-43"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (5)(-3) − (-1)(-8) = -23."
+  },
+  {
+    "id": "matrizes-ined-0753",
+    "categoriaId": "matrizes",
+    "subtopico": "Determinantes",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Considere a matriz A = [[-7, 6], [-4, 6]]. Qual é o determinante de A?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "-66"
+      },
+      {
+        "letra": "B",
+        "texto": "18"
+      },
+      {
+        "letra": "C",
+        "texto": "-3"
+      },
+      {
+        "letra": "D",
+        "texto": "-18"
+      },
+      {
+        "letra": "E",
+        "texto": "-8"
+      }
+    ],
+    "correta": "D",
+    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (-7)(6) − (6)(-4) = -18."
+  },
+  {
+    "id": "matrizes-ined-0754",
+    "categoriaId": "matrizes",
+    "subtopico": "Determinantes",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Considere a matriz A = [[3, -8], [7, 7]]. Qual é o determinante de A?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "77"
+      },
+      {
+        "letra": "B",
+        "texto": "-35"
+      },
+      {
+        "letra": "C",
+        "texto": "-77"
+      },
+      {
+        "letra": "D",
+        "texto": "11"
+      },
+      {
+        "letra": "E",
+        "texto": "-76"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (3)(7) − (-8)(7) = 77."
+  },
+  {
+    "id": "matrizes-ined-0755",
+    "categoriaId": "matrizes",
+    "subtopico": "Determinantes",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Considere a matriz A = [[-8, -4], [-3, 5]]. Qual é o determinante de A?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "44"
+      },
+      {
+        "letra": "B",
+        "texto": "4"
+      },
+      {
+        "letra": "C",
+        "texto": "-52"
+      },
+      {
+        "letra": "D",
+        "texto": "-28"
+      },
+      {
+        "letra": "E",
+        "texto": "52"
       }
     ],
     "correta": "C",
-    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (6)(-9) − (3)(-6) = -36."
+    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (-8)(5) − (-4)(-3) = -52."
+  },
+  {
+    "id": "matrizes-ined-0756",
+    "categoriaId": "matrizes",
+    "subtopico": "Determinantes",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Considere a matriz A = [[9, -8], [-1, 6]]. Qual é o determinante de A?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "24"
+      },
+      {
+        "letra": "B",
+        "texto": "62"
+      },
+      {
+        "letra": "C",
+        "texto": "46"
+      },
+      {
+        "letra": "D",
+        "texto": "39"
+      },
+      {
+        "letra": "E",
+        "texto": "-46"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (9)(6) − (-8)(-1) = 46."
+  },
+  {
+    "id": "matrizes-ined-0757",
+    "categoriaId": "matrizes",
+    "subtopico": "Determinantes",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Considere a matriz A = [[0, -7], [-6, -4]]. Qual é o determinante de A?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "-42"
+      },
+      {
+        "letra": "B",
+        "texto": "10"
+      },
+      {
+        "letra": "C",
+        "texto": "9"
+      },
+      {
+        "letra": "D",
+        "texto": "42"
+      },
+      {
+        "letra": "E",
+        "texto": "-28"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (0)(-4) − (-7)(-6) = -42."
   }
 ]

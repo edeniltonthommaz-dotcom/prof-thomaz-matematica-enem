@@ -112,5 +112,11 @@
     "real": 6,
     "inedita": 44,
     "total": 50
+  },
+  {
+    "categoriaId": "conjuntos",
+    "real": 0,
+    "inedita": 50,
+    "total": 50
   }
 ]

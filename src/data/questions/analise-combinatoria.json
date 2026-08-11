@@ -1,6 +1,6 @@
 [
   {
-    "id": "analise-combinatoria-ined-0601",
+    "id": "analise-combinatoria-ined-0589",
     "categoriaId": "analise-combinatoria",
     "subtopico": "Princípio Multiplicativo",
     "dificuldade": "facil",
@@ -34,347 +34,7 @@
     "explicacao": "Pelo princípio fundamental da contagem, o total de combinações é 4 × 2 × 3 = 24."
   },
   {
-    "id": "analise-combinatoria-ined-0602",
-    "categoriaId": "analise-combinatoria",
-    "subtopico": "Combinação",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "De um grupo de 8 funcionários, deseja-se formar uma comissão de 4 pessoas, sem distinção de cargos dentro da comissão. De quantas maneiras diferentes essa comissão pode ser formada?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "57"
-      },
-      {
-        "letra": "B",
-        "texto": "32"
-      },
-      {
-        "letra": "C",
-        "texto": "70"
-      },
-      {
-        "letra": "D",
-        "texto": "1680"
-      },
-      {
-        "letra": "E",
-        "texto": "56"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "Como a ordem não importa, usa-se combinação: C(8,4) = 8! / (4! × 4!) = 70."
-  },
-  {
-    "id": "analise-combinatoria-ined-0603",
-    "categoriaId": "analise-combinatoria",
-    "subtopico": "Princípio Multiplicativo",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um restaurante oferece 5 tipos de entrada, 4 tipos de prato principal e 6 tipos de sobremesa. De quantas formas diferentes um cliente pode montar uma refeição com uma entrada, um prato principal e uma sobremesa?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "126"
-      },
-      {
-        "letra": "B",
-        "texto": "15"
-      },
-      {
-        "letra": "C",
-        "texto": "120"
-      },
-      {
-        "letra": "D",
-        "texto": "125"
-      },
-      {
-        "letra": "E",
-        "texto": "20"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "Pelo princípio fundamental da contagem, o total de combinações é 5 × 4 × 6 = 120."
-  },
-  {
-    "id": "analise-combinatoria-ined-0604",
-    "categoriaId": "analise-combinatoria",
-    "subtopico": "Combinação",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "De um grupo de 8 funcionários, deseja-se formar uma comissão de 3 pessoas, sem distinção de cargos dentro da comissão. De quantas maneiras diferentes essa comissão pode ser formada?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "28"
-      },
-      {
-        "letra": "B",
-        "texto": "24"
-      },
-      {
-        "letra": "C",
-        "texto": "336"
-      },
-      {
-        "letra": "D",
-        "texto": "56"
-      },
-      {
-        "letra": "E",
-        "texto": "70"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "Como a ordem não importa, usa-se combinação: C(8,3) = 8! / (3! × 5!) = 56."
-  },
-  {
-    "id": "analise-combinatoria-ined-0605",
-    "categoriaId": "analise-combinatoria",
-    "subtopico": "Princípio Multiplicativo",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um restaurante oferece 4 tipos de entrada, 3 tipos de prato principal e 2 tipos de sobremesa. De quantas formas diferentes um cliente pode montar uma refeição com uma entrada, um prato principal e uma sobremesa?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "24"
-      },
-      {
-        "letra": "B",
-        "texto": "12"
-      },
-      {
-        "letra": "C",
-        "texto": "29"
-      },
-      {
-        "letra": "D",
-        "texto": "9"
-      },
-      {
-        "letra": "E",
-        "texto": "28"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "Pelo princípio fundamental da contagem, o total de combinações é 4 × 3 × 2 = 24."
-  },
-  {
-    "id": "analise-combinatoria-ined-0606",
-    "categoriaId": "analise-combinatoria",
-    "subtopico": "Combinação",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "De um grupo de 6 funcionários, deseja-se formar uma comissão de 4 pessoas, sem distinção de cargos dentro da comissão. De quantas maneiras diferentes essa comissão pode ser formada?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "15"
-      },
-      {
-        "letra": "B",
-        "texto": "360"
-      },
-      {
-        "letra": "C",
-        "texto": "20"
-      },
-      {
-        "letra": "D",
-        "texto": "6"
-      },
-      {
-        "letra": "E",
-        "texto": "24"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "Como a ordem não importa, usa-se combinação: C(6,4) = 6! / (4! × 2!) = 15."
-  },
-  {
-    "id": "analise-combinatoria-ined-0607",
-    "categoriaId": "analise-combinatoria",
-    "subtopico": "Princípio Multiplicativo",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um restaurante oferece 3 tipos de entrada, 3 tipos de prato principal e 4 tipos de sobremesa. De quantas formas diferentes um cliente pode montar uma refeição com uma entrada, um prato principal e uma sobremesa?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "40"
-      },
-      {
-        "letra": "B",
-        "texto": "9"
-      },
-      {
-        "letra": "C",
-        "texto": "10"
-      },
-      {
-        "letra": "D",
-        "texto": "36"
-      },
-      {
-        "letra": "E",
-        "texto": "39"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "Pelo princípio fundamental da contagem, o total de combinações é 3 × 3 × 4 = 36."
-  },
-  {
-    "id": "analise-combinatoria-ined-0608",
-    "categoriaId": "analise-combinatoria",
-    "subtopico": "Combinação",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "De um grupo de 8 funcionários, deseja-se formar uma comissão de 2 pessoas, sem distinção de cargos dentro da comissão. De quantas maneiras diferentes essa comissão pode ser formada?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "16"
-      },
-      {
-        "letra": "B",
-        "texto": "8"
-      },
-      {
-        "letra": "C",
-        "texto": "9"
-      },
-      {
-        "letra": "D",
-        "texto": "28"
-      },
-      {
-        "letra": "E",
-        "texto": "56"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "Como a ordem não importa, usa-se combinação: C(8,2) = 8! / (2! × 6!) = 28."
-  },
-  {
-    "id": "analise-combinatoria-ined-0609",
-    "categoriaId": "analise-combinatoria",
-    "subtopico": "Princípio Multiplicativo",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um restaurante oferece 7 tipos de entrada, 7 tipos de prato principal e 2 tipos de sobremesa. De quantas formas diferentes um cliente pode montar uma refeição com uma entrada, um prato principal e uma sobremesa?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "105"
-      },
-      {
-        "letra": "B",
-        "texto": "16"
-      },
-      {
-        "letra": "C",
-        "texto": "98"
-      },
-      {
-        "letra": "D",
-        "texto": "106"
-      },
-      {
-        "letra": "E",
-        "texto": "49"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "Pelo princípio fundamental da contagem, o total de combinações é 7 × 7 × 2 = 98."
-  },
-  {
-    "id": "analise-combinatoria-ined-0610",
-    "categoriaId": "analise-combinatoria",
-    "subtopico": "Combinação",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "De um grupo de 6 funcionários, deseja-se formar uma comissão de 2 pessoas, sem distinção de cargos dentro da comissão. De quantas maneiras diferentes essa comissão pode ser formada?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "30"
-      },
-      {
-        "letra": "B",
-        "texto": "20"
-      },
-      {
-        "letra": "C",
-        "texto": "15"
-      },
-      {
-        "letra": "D",
-        "texto": "6"
-      },
-      {
-        "letra": "E",
-        "texto": "12"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "Como a ordem não importa, usa-se combinação: C(6,2) = 6! / (2! × 4!) = 15."
-  },
-  {
-    "id": "analise-combinatoria-ined-0611",
-    "categoriaId": "analise-combinatoria",
-    "subtopico": "Princípio Multiplicativo",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um restaurante oferece 5 tipos de entrada, 2 tipos de prato principal e 4 tipos de sobremesa. De quantas formas diferentes um cliente pode montar uma refeição com uma entrada, um prato principal e uma sobremesa?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "11"
-      },
-      {
-        "letra": "B",
-        "texto": "46"
-      },
-      {
-        "letra": "C",
-        "texto": "40"
-      },
-      {
-        "letra": "D",
-        "texto": "10"
-      },
-      {
-        "letra": "E",
-        "texto": "45"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "Pelo princípio fundamental da contagem, o total de combinações é 5 × 2 × 4 = 40."
-  },
-  {
-    "id": "analise-combinatoria-ined-0614",
+    "id": "analise-combinatoria-ined-0590",
     "categoriaId": "analise-combinatoria",
     "subtopico": "Combinação",
     "dificuldade": "medio",
@@ -385,11 +45,11 @@
     "alternativas": [
       {
         "letra": "A",
-        "texto": "16"
+        "texto": "18"
       },
       {
         "letra": "B",
-        "texto": "120"
+        "texto": "16"
       },
       {
         "letra": "C",
@@ -397,7 +57,7 @@
       },
       {
         "letra": "D",
-        "texto": "18"
+        "texto": "120"
       },
       {
         "letra": "E",
@@ -408,619 +68,7 @@
     "explicacao": "Como a ordem não importa, usa-se combinação: C(6,3) = 6! / (3! × 3!) = 20."
   },
   {
-    "id": "analise-combinatoria-ined-0615",
-    "categoriaId": "analise-combinatoria",
-    "subtopico": "Princípio Multiplicativo",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um restaurante oferece 5 tipos de entrada, 7 tipos de prato principal e 6 tipos de sobremesa. De quantas formas diferentes um cliente pode montar uma refeição com uma entrada, um prato principal e uma sobremesa?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "18"
-      },
-      {
-        "letra": "B",
-        "texto": "210"
-      },
-      {
-        "letra": "C",
-        "texto": "216"
-      },
-      {
-        "letra": "D",
-        "texto": "215"
-      },
-      {
-        "letra": "E",
-        "texto": "35"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "Pelo princípio fundamental da contagem, o total de combinações é 5 × 7 × 6 = 210."
-  },
-  {
-    "id": "analise-combinatoria-ined-0617",
-    "categoriaId": "analise-combinatoria",
-    "subtopico": "Princípio Multiplicativo",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um restaurante oferece 5 tipos de entrada, 5 tipos de prato principal e 3 tipos de sobremesa. De quantas formas diferentes um cliente pode montar uma refeição com uma entrada, um prato principal e uma sobremesa?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "80"
-      },
-      {
-        "letra": "B",
-        "texto": "25"
-      },
-      {
-        "letra": "C",
-        "texto": "75"
-      },
-      {
-        "letra": "D",
-        "texto": "13"
-      },
-      {
-        "letra": "E",
-        "texto": "81"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "Pelo princípio fundamental da contagem, o total de combinações é 5 × 5 × 3 = 75."
-  },
-  {
-    "id": "analise-combinatoria-ined-0618",
-    "categoriaId": "analise-combinatoria",
-    "subtopico": "Combinação",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "De um grupo de 7 funcionários, deseja-se formar uma comissão de 4 pessoas, sem distinção de cargos dentro da comissão. De quantas maneiras diferentes essa comissão pode ser formada?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "35"
-      },
-      {
-        "letra": "B",
-        "texto": "28"
-      },
-      {
-        "letra": "C",
-        "texto": "840"
-      },
-      {
-        "letra": "D",
-        "texto": "22"
-      },
-      {
-        "letra": "E",
-        "texto": "21"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "Como a ordem não importa, usa-se combinação: C(7,4) = 7! / (4! × 3!) = 35."
-  },
-  {
-    "id": "analise-combinatoria-ined-0621",
-    "categoriaId": "analise-combinatoria",
-    "subtopico": "Princípio Multiplicativo",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um restaurante oferece 5 tipos de entrada, 6 tipos de prato principal e 2 tipos de sobremesa. De quantas formas diferentes um cliente pode montar uma refeição com uma entrada, um prato principal e uma sobremesa?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "30"
-      },
-      {
-        "letra": "B",
-        "texto": "60"
-      },
-      {
-        "letra": "C",
-        "texto": "13"
-      },
-      {
-        "letra": "D",
-        "texto": "65"
-      },
-      {
-        "letra": "E",
-        "texto": "66"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "Pelo princípio fundamental da contagem, o total de combinações é 5 × 6 × 2 = 60."
-  },
-  {
-    "id": "analise-combinatoria-ined-0623",
-    "categoriaId": "analise-combinatoria",
-    "subtopico": "Princípio Multiplicativo",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um restaurante oferece 5 tipos de entrada, 2 tipos de prato principal e 2 tipos de sobremesa. De quantas formas diferentes um cliente pode montar uma refeição com uma entrada, um prato principal e uma sobremesa?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "20"
-      },
-      {
-        "letra": "B",
-        "texto": "10"
-      },
-      {
-        "letra": "C",
-        "texto": "9"
-      },
-      {
-        "letra": "D",
-        "texto": "25"
-      },
-      {
-        "letra": "E",
-        "texto": "26"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "Pelo princípio fundamental da contagem, o total de combinações é 5 × 2 × 2 = 20."
-  },
-  {
-    "id": "analise-combinatoria-ined-0625",
-    "categoriaId": "analise-combinatoria",
-    "subtopico": "Princípio Multiplicativo",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um restaurante oferece 3 tipos de entrada, 5 tipos de prato principal e 2 tipos de sobremesa. De quantas formas diferentes um cliente pode montar uma refeição com uma entrada, um prato principal e uma sobremesa?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "10"
-      },
-      {
-        "letra": "B",
-        "texto": "34"
-      },
-      {
-        "letra": "C",
-        "texto": "33"
-      },
-      {
-        "letra": "D",
-        "texto": "30"
-      },
-      {
-        "letra": "E",
-        "texto": "15"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "Pelo princípio fundamental da contagem, o total de combinações é 3 × 5 × 2 = 30."
-  },
-  {
-    "id": "analise-combinatoria-ined-0626",
-    "categoriaId": "analise-combinatoria",
-    "subtopico": "Combinação",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "De um grupo de 7 funcionários, deseja-se formar uma comissão de 2 pessoas, sem distinção de cargos dentro da comissão. De quantas maneiras diferentes essa comissão pode ser formada?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "7"
-      },
-      {
-        "letra": "B",
-        "texto": "21"
-      },
-      {
-        "letra": "C",
-        "texto": "35"
-      },
-      {
-        "letra": "D",
-        "texto": "42"
-      },
-      {
-        "letra": "E",
-        "texto": "14"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "Como a ordem não importa, usa-se combinação: C(7,2) = 7! / (2! × 5!) = 21."
-  },
-  {
-    "id": "analise-combinatoria-ined-0627",
-    "categoriaId": "analise-combinatoria",
-    "subtopico": "Princípio Multiplicativo",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um restaurante oferece 4 tipos de entrada, 7 tipos de prato principal e 6 tipos de sobremesa. De quantas formas diferentes um cliente pode montar uma refeição com uma entrada, um prato principal e uma sobremesa?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "17"
-      },
-      {
-        "letra": "B",
-        "texto": "168"
-      },
-      {
-        "letra": "C",
-        "texto": "172"
-      },
-      {
-        "letra": "D",
-        "texto": "173"
-      },
-      {
-        "letra": "E",
-        "texto": "28"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "Pelo princípio fundamental da contagem, o total de combinações é 4 × 7 × 6 = 168."
-  },
-  {
-    "id": "analise-combinatoria-ined-0630",
-    "categoriaId": "analise-combinatoria",
-    "subtopico": "Combinação",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "De um grupo de 9 funcionários, deseja-se formar uma comissão de 4 pessoas, sem distinção de cargos dentro da comissão. De quantas maneiras diferentes essa comissão pode ser formada?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "84"
-      },
-      {
-        "letra": "B",
-        "texto": "85"
-      },
-      {
-        "letra": "C",
-        "texto": "3024"
-      },
-      {
-        "letra": "D",
-        "texto": "126"
-      },
-      {
-        "letra": "E",
-        "texto": "36"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "Como a ordem não importa, usa-se combinação: C(9,4) = 9! / (4! × 5!) = 126."
-  },
-  {
-    "id": "analise-combinatoria-ined-0631",
-    "categoriaId": "analise-combinatoria",
-    "subtopico": "Princípio Multiplicativo",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um restaurante oferece 2 tipos de entrada, 2 tipos de prato principal e 3 tipos de sobremesa. De quantas formas diferentes um cliente pode montar uma refeição com uma entrada, um prato principal e uma sobremesa?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "12"
-      },
-      {
-        "letra": "B",
-        "texto": "4"
-      },
-      {
-        "letra": "C",
-        "texto": "15"
-      },
-      {
-        "letra": "D",
-        "texto": "7"
-      },
-      {
-        "letra": "E",
-        "texto": "14"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "Pelo princípio fundamental da contagem, o total de combinações é 2 × 2 × 3 = 12."
-  },
-  {
-    "id": "analise-combinatoria-ined-0633",
-    "categoriaId": "analise-combinatoria",
-    "subtopico": "Princípio Multiplicativo",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um restaurante oferece 2 tipos de entrada, 2 tipos de prato principal e 4 tipos de sobremesa. De quantas formas diferentes um cliente pode montar uma refeição com uma entrada, um prato principal e uma sobremesa?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "8"
-      },
-      {
-        "letra": "B",
-        "texto": "18"
-      },
-      {
-        "letra": "C",
-        "texto": "19"
-      },
-      {
-        "letra": "D",
-        "texto": "4"
-      },
-      {
-        "letra": "E",
-        "texto": "16"
-      }
-    ],
-    "correta": "E",
-    "explicacao": "Pelo princípio fundamental da contagem, o total de combinações é 2 × 2 × 4 = 16."
-  },
-  {
-    "id": "analise-combinatoria-ined-0635",
-    "categoriaId": "analise-combinatoria",
-    "subtopico": "Princípio Multiplicativo",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um restaurante oferece 3 tipos de entrada, 4 tipos de prato principal e 3 tipos de sobremesa. De quantas formas diferentes um cliente pode montar uma refeição com uma entrada, um prato principal e uma sobremesa?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "12"
-      },
-      {
-        "letra": "B",
-        "texto": "40"
-      },
-      {
-        "letra": "C",
-        "texto": "10"
-      },
-      {
-        "letra": "D",
-        "texto": "39"
-      },
-      {
-        "letra": "E",
-        "texto": "36"
-      }
-    ],
-    "correta": "E",
-    "explicacao": "Pelo princípio fundamental da contagem, o total de combinações é 3 × 4 × 3 = 36."
-  },
-  {
-    "id": "analise-combinatoria-ined-0636",
-    "categoriaId": "analise-combinatoria",
-    "subtopico": "Combinação",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "De um grupo de 12 funcionários, deseja-se formar uma comissão de 4 pessoas, sem distinção de cargos dentro da comissão. De quantas maneiras diferentes essa comissão pode ser formada?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "48"
-      },
-      {
-        "letra": "B",
-        "texto": "792"
-      },
-      {
-        "letra": "C",
-        "texto": "495"
-      },
-      {
-        "letra": "D",
-        "texto": "220"
-      },
-      {
-        "letra": "E",
-        "texto": "11880"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "Como a ordem não importa, usa-se combinação: C(12,4) = 12! / (4! × 8!) = 495."
-  },
-  {
-    "id": "analise-combinatoria-ined-0637",
-    "categoriaId": "analise-combinatoria",
-    "subtopico": "Princípio Multiplicativo",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um restaurante oferece 4 tipos de entrada, 5 tipos de prato principal e 2 tipos de sobremesa. De quantas formas diferentes um cliente pode montar uma refeição com uma entrada, um prato principal e uma sobremesa?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "40"
-      },
-      {
-        "letra": "B",
-        "texto": "45"
-      },
-      {
-        "letra": "C",
-        "texto": "44"
-      },
-      {
-        "letra": "D",
-        "texto": "20"
-      },
-      {
-        "letra": "E",
-        "texto": "11"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "Pelo princípio fundamental da contagem, o total de combinações é 4 × 5 × 2 = 40."
-  },
-  {
-    "id": "analise-combinatoria-ined-0639",
-    "categoriaId": "analise-combinatoria",
-    "subtopico": "Princípio Multiplicativo",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um restaurante oferece 3 tipos de entrada, 6 tipos de prato principal e 2 tipos de sobremesa. De quantas formas diferentes um cliente pode montar uma refeição com uma entrada, um prato principal e uma sobremesa?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "40"
-      },
-      {
-        "letra": "B",
-        "texto": "11"
-      },
-      {
-        "letra": "C",
-        "texto": "18"
-      },
-      {
-        "letra": "D",
-        "texto": "39"
-      },
-      {
-        "letra": "E",
-        "texto": "36"
-      }
-    ],
-    "correta": "E",
-    "explicacao": "Pelo princípio fundamental da contagem, o total de combinações é 3 × 6 × 2 = 36."
-  },
-  {
-    "id": "analise-combinatoria-ined-0641",
-    "categoriaId": "analise-combinatoria",
-    "subtopico": "Princípio Multiplicativo",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um restaurante oferece 4 tipos de entrada, 4 tipos de prato principal e 4 tipos de sobremesa. De quantas formas diferentes um cliente pode montar uma refeição com uma entrada, um prato principal e uma sobremesa?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "68"
-      },
-      {
-        "letra": "B",
-        "texto": "12"
-      },
-      {
-        "letra": "C",
-        "texto": "69"
-      },
-      {
-        "letra": "D",
-        "texto": "64"
-      },
-      {
-        "letra": "E",
-        "texto": "16"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "Pelo princípio fundamental da contagem, o total de combinações é 4 × 4 × 4 = 64."
-  },
-  {
-    "id": "analise-combinatoria-ined-0642",
-    "categoriaId": "analise-combinatoria",
-    "subtopico": "Combinação",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "De um grupo de 12 funcionários, deseja-se formar uma comissão de 3 pessoas, sem distinção de cargos dentro da comissão. De quantas maneiras diferentes essa comissão pode ser formada?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "36"
-      },
-      {
-        "letra": "B",
-        "texto": "1320"
-      },
-      {
-        "letra": "C",
-        "texto": "495"
-      },
-      {
-        "letra": "D",
-        "texto": "220"
-      },
-      {
-        "letra": "E",
-        "texto": "66"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "Como a ordem não importa, usa-se combinação: C(12,3) = 12! / (3! × 9!) = 220."
-  },
-  {
-    "id": "analise-combinatoria-ined-0643",
-    "categoriaId": "analise-combinatoria",
-    "subtopico": "Princípio Multiplicativo",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um restaurante oferece 2 tipos de entrada, 3 tipos de prato principal e 2 tipos de sobremesa. De quantas formas diferentes um cliente pode montar uma refeição com uma entrada, um prato principal e uma sobremesa?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "6"
-      },
-      {
-        "letra": "B",
-        "texto": "15"
-      },
-      {
-        "letra": "C",
-        "texto": "7"
-      },
-      {
-        "letra": "D",
-        "texto": "12"
-      },
-      {
-        "letra": "E",
-        "texto": "14"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "Pelo princípio fundamental da contagem, o total de combinações é 2 × 3 × 2 = 12."
-  },
-  {
-    "id": "analise-combinatoria-ined-0645",
+    "id": "analise-combinatoria-ined-0591",
     "categoriaId": "analise-combinatoria",
     "subtopico": "Princípio Multiplicativo",
     "dificuldade": "dificil",
@@ -1031,30 +79,30 @@
     "alternativas": [
       {
         "letra": "A",
-        "texto": "91"
+        "texto": "92"
       },
       {
         "letra": "B",
-        "texto": "15"
-      },
-      {
-        "letra": "C",
         "texto": "84"
       },
       {
-        "letra": "D",
+        "letra": "C",
         "texto": "14"
       },
       {
+        "letra": "D",
+        "texto": "91"
+      },
+      {
         "letra": "E",
-        "texto": "92"
+        "texto": "15"
       }
     ],
-    "correta": "C",
+    "correta": "B",
     "explicacao": "Pelo princípio fundamental da contagem, o total de combinações é 7 × 2 × 6 = 84."
   },
   {
-    "id": "analise-combinatoria-ined-0646",
+    "id": "analise-combinatoria-ined-0592",
     "categoriaId": "analise-combinatoria",
     "subtopico": "Combinação",
     "dificuldade": "facil",
@@ -1073,33 +121,169 @@
       },
       {
         "letra": "C",
-        "texto": "15"
-      },
-      {
-        "letra": "D",
         "texto": "5"
       },
       {
-        "letra": "E",
+        "letra": "D",
         "texto": "6"
+      },
+      {
+        "letra": "E",
+        "texto": "15"
       }
     ],
     "correta": "A",
     "explicacao": "Como a ordem não importa, usa-se combinação: C(5,3) = 5! / (3! × 2!) = 10."
   },
   {
-    "id": "analise-combinatoria-ined-0647",
+    "id": "analise-combinatoria-ined-0593",
     "categoriaId": "analise-combinatoria",
     "subtopico": "Princípio Multiplicativo",
     "dificuldade": "medio",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Um restaurante oferece 3 tipos de entrada, 5 tipos de prato principal e 3 tipos de sobremesa. De quantas formas diferentes um cliente pode montar uma refeição com uma entrada, um prato principal e uma sobremesa?",
+    "enunciado": "Um restaurante oferece 5 tipos de entrada, 5 tipos de prato principal e 3 tipos de sobremesa. De quantas formas diferentes um cliente pode montar uma refeição com uma entrada, um prato principal e uma sobremesa?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "49"
+        "texto": "25"
+      },
+      {
+        "letra": "B",
+        "texto": "75"
+      },
+      {
+        "letra": "C",
+        "texto": "80"
+      },
+      {
+        "letra": "D",
+        "texto": "81"
+      },
+      {
+        "letra": "E",
+        "texto": "13"
+      }
+    ],
+    "correta": "B",
+    "explicacao": "Pelo princípio fundamental da contagem, o total de combinações é 5 × 5 × 3 = 75."
+  },
+  {
+    "id": "analise-combinatoria-ined-0594",
+    "categoriaId": "analise-combinatoria",
+    "subtopico": "Combinação",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "De um grupo de 12 funcionários, deseja-se formar uma comissão de 2 pessoas, sem distinção de cargos dentro da comissão. De quantas maneiras diferentes essa comissão pode ser formada?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "24"
+      },
+      {
+        "letra": "B",
+        "texto": "132"
+      },
+      {
+        "letra": "C",
+        "texto": "12"
+      },
+      {
+        "letra": "D",
+        "texto": "66"
+      },
+      {
+        "letra": "E",
+        "texto": "220"
+      }
+    ],
+    "correta": "D",
+    "explicacao": "Como a ordem não importa, usa-se combinação: C(12,2) = 12! / (2! × 10!) = 66."
+  },
+  {
+    "id": "analise-combinatoria-ined-0595",
+    "categoriaId": "analise-combinatoria",
+    "subtopico": "Princípio Multiplicativo",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um restaurante oferece 4 tipos de entrada, 5 tipos de prato principal e 4 tipos de sobremesa. De quantas formas diferentes um cliente pode montar uma refeição com uma entrada, um prato principal e uma sobremesa?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "13"
+      },
+      {
+        "letra": "B",
+        "texto": "85"
+      },
+      {
+        "letra": "C",
+        "texto": "84"
+      },
+      {
+        "letra": "D",
+        "texto": "20"
+      },
+      {
+        "letra": "E",
+        "texto": "80"
+      }
+    ],
+    "correta": "E",
+    "explicacao": "Pelo princípio fundamental da contagem, o total de combinações é 4 × 5 × 4 = 80."
+  },
+  {
+    "id": "analise-combinatoria-ined-0597",
+    "categoriaId": "analise-combinatoria",
+    "subtopico": "Princípio Multiplicativo",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um restaurante oferece 8 tipos de entrada, 3 tipos de prato principal e 2 tipos de sobremesa. De quantas formas diferentes um cliente pode montar uma refeição com uma entrada, um prato principal e uma sobremesa?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "56"
+      },
+      {
+        "letra": "B",
+        "texto": "48"
+      },
+      {
+        "letra": "C",
+        "texto": "24"
+      },
+      {
+        "letra": "D",
+        "texto": "57"
+      },
+      {
+        "letra": "E",
+        "texto": "13"
+      }
+    ],
+    "correta": "B",
+    "explicacao": "Pelo princípio fundamental da contagem, o total de combinações é 8 × 3 × 2 = 48."
+  },
+  {
+    "id": "analise-combinatoria-ined-0598",
+    "categoriaId": "analise-combinatoria",
+    "subtopico": "Combinação",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "De um grupo de 6 funcionários, deseja-se formar uma comissão de 4 pessoas, sem distinção de cargos dentro da comissão. De quantas maneiras diferentes essa comissão pode ser formada?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "24"
       },
       {
         "letra": "B",
@@ -1107,22 +291,600 @@
       },
       {
         "letra": "C",
+        "texto": "6"
+      },
+      {
+        "letra": "D",
+        "texto": "360"
+      },
+      {
+        "letra": "E",
+        "texto": "20"
+      }
+    ],
+    "correta": "B",
+    "explicacao": "Como a ordem não importa, usa-se combinação: C(6,4) = 6! / (4! × 2!) = 15."
+  },
+  {
+    "id": "analise-combinatoria-ined-0599",
+    "categoriaId": "analise-combinatoria",
+    "subtopico": "Princípio Multiplicativo",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um restaurante oferece 3 tipos de entrada, 4 tipos de prato principal e 3 tipos de sobremesa. De quantas formas diferentes um cliente pode montar uma refeição com uma entrada, um prato principal e uma sobremesa?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "40"
+      },
+      {
+        "letra": "B",
+        "texto": "39"
+      },
+      {
+        "letra": "C",
+        "texto": "36"
+      },
+      {
+        "letra": "D",
+        "texto": "12"
+      },
+      {
+        "letra": "E",
+        "texto": "10"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "Pelo princípio fundamental da contagem, o total de combinações é 3 × 4 × 3 = 36."
+  },
+  {
+    "id": "analise-combinatoria-ined-0601",
+    "categoriaId": "analise-combinatoria",
+    "subtopico": "Princípio Multiplicativo",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um restaurante oferece 3 tipos de entrada, 2 tipos de prato principal e 2 tipos de sobremesa. De quantas formas diferentes um cliente pode montar uma refeição com uma entrada, um prato principal e uma sobremesa?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "12"
+      },
+      {
+        "letra": "B",
+        "texto": "16"
+      },
+      {
+        "letra": "C",
+        "texto": "15"
+      },
+      {
+        "letra": "D",
+        "texto": "7"
+      },
+      {
+        "letra": "E",
+        "texto": "6"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "Pelo princípio fundamental da contagem, o total de combinações é 3 × 2 × 2 = 12."
+  },
+  {
+    "id": "analise-combinatoria-ined-0602",
+    "categoriaId": "analise-combinatoria",
+    "subtopico": "Combinação",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "De um grupo de 7 funcionários, deseja-se formar uma comissão de 3 pessoas, sem distinção de cargos dentro da comissão. De quantas maneiras diferentes essa comissão pode ser formada?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "24"
+      },
+      {
+        "letra": "B",
+        "texto": "21"
+      },
+      {
+        "letra": "C",
+        "texto": "210"
+      },
+      {
+        "letra": "D",
+        "texto": "22"
+      },
+      {
+        "letra": "E",
+        "texto": "35"
+      }
+    ],
+    "correta": "E",
+    "explicacao": "Como a ordem não importa, usa-se combinação: C(7,3) = 7! / (3! × 4!) = 35."
+  },
+  {
+    "id": "analise-combinatoria-ined-0603",
+    "categoriaId": "analise-combinatoria",
+    "subtopico": "Princípio Multiplicativo",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um restaurante oferece 5 tipos de entrada, 6 tipos de prato principal e 4 tipos de sobremesa. De quantas formas diferentes um cliente pode montar uma refeição com uma entrada, um prato principal e uma sobremesa?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "125"
+      },
+      {
+        "letra": "B",
+        "texto": "15"
+      },
+      {
+        "letra": "C",
+        "texto": "126"
+      },
+      {
+        "letra": "D",
+        "texto": "120"
+      },
+      {
+        "letra": "E",
+        "texto": "30"
+      }
+    ],
+    "correta": "D",
+    "explicacao": "Pelo princípio fundamental da contagem, o total de combinações é 5 × 6 × 4 = 120."
+  },
+  {
+    "id": "analise-combinatoria-ined-0605",
+    "categoriaId": "analise-combinatoria",
+    "subtopico": "Princípio Multiplicativo",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um restaurante oferece 5 tipos de entrada, 4 tipos de prato principal e 2 tipos de sobremesa. De quantas formas diferentes um cliente pode montar uma refeição com uma entrada, um prato principal e uma sobremesa?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "11"
+      },
+      {
+        "letra": "B",
+        "texto": "46"
+      },
+      {
+        "letra": "C",
+        "texto": "40"
+      },
+      {
+        "letra": "D",
+        "texto": "20"
+      },
+      {
+        "letra": "E",
+        "texto": "45"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "Pelo princípio fundamental da contagem, o total de combinações é 5 × 4 × 2 = 40."
+  },
+  {
+    "id": "analise-combinatoria-ined-0607",
+    "categoriaId": "analise-combinatoria",
+    "subtopico": "Princípio Multiplicativo",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um restaurante oferece 3 tipos de entrada, 5 tipos de prato principal e 2 tipos de sobremesa. De quantas formas diferentes um cliente pode montar uma refeição com uma entrada, um prato principal e uma sobremesa?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "10"
+      },
+      {
+        "letra": "B",
+        "texto": "34"
+      },
+      {
+        "letra": "C",
+        "texto": "30"
+      },
+      {
+        "letra": "D",
+        "texto": "33"
+      },
+      {
+        "letra": "E",
+        "texto": "15"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "Pelo princípio fundamental da contagem, o total de combinações é 3 × 5 × 2 = 30."
+  },
+  {
+    "id": "analise-combinatoria-ined-0608",
+    "categoriaId": "analise-combinatoria",
+    "subtopico": "Combinação",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "De um grupo de 7 funcionários, deseja-se formar uma comissão de 2 pessoas, sem distinção de cargos dentro da comissão. De quantas maneiras diferentes essa comissão pode ser formada?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "42"
+      },
+      {
+        "letra": "B",
+        "texto": "14"
+      },
+      {
+        "letra": "C",
+        "texto": "21"
+      },
+      {
+        "letra": "D",
+        "texto": "7"
+      },
+      {
+        "letra": "E",
+        "texto": "35"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "Como a ordem não importa, usa-se combinação: C(7,2) = 7! / (2! × 5!) = 21."
+  },
+  {
+    "id": "analise-combinatoria-ined-0609",
+    "categoriaId": "analise-combinatoria",
+    "subtopico": "Princípio Multiplicativo",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um restaurante oferece 2 tipos de entrada, 7 tipos de prato principal e 5 tipos de sobremesa. De quantas formas diferentes um cliente pode montar uma refeição com uma entrada, um prato principal e uma sobremesa?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "73"
+      },
+      {
+        "letra": "B",
+        "texto": "72"
+      },
+      {
+        "letra": "C",
+        "texto": "14"
+      },
+      {
+        "letra": "D",
+        "texto": "75"
+      },
+      {
+        "letra": "E",
+        "texto": "70"
+      }
+    ],
+    "correta": "E",
+    "explicacao": "Pelo princípio fundamental da contagem, o total de combinações é 2 × 7 × 5 = 70."
+  },
+  {
+    "id": "analise-combinatoria-ined-0612",
+    "categoriaId": "analise-combinatoria",
+    "subtopico": "Combinação",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "De um grupo de 10 funcionários, deseja-se formar uma comissão de 3 pessoas, sem distinção de cargos dentro da comissão. De quantas maneiras diferentes essa comissão pode ser formada?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "210"
+      },
+      {
+        "letra": "B",
+        "texto": "720"
+      },
+      {
+        "letra": "C",
         "texto": "45"
       },
       {
         "letra": "D",
-        "texto": "48"
+        "texto": "120"
       },
       {
         "letra": "E",
-        "texto": "11"
+        "texto": "30"
+      }
+    ],
+    "correta": "D",
+    "explicacao": "Como a ordem não importa, usa-se combinação: C(10,3) = 10! / (3! × 7!) = 120."
+  },
+  {
+    "id": "analise-combinatoria-ined-0615",
+    "categoriaId": "analise-combinatoria",
+    "subtopico": "Princípio Multiplicativo",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um restaurante oferece 3 tipos de entrada, 3 tipos de prato principal e 3 tipos de sobremesa. De quantas formas diferentes um cliente pode montar uma refeição com uma entrada, um prato principal e uma sobremesa?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "33"
+      },
+      {
+        "letra": "B",
+        "texto": "30"
+      },
+      {
+        "letra": "C",
+        "texto": "9"
+      },
+      {
+        "letra": "D",
+        "texto": "31"
+      },
+      {
+        "letra": "E",
+        "texto": "27"
+      }
+    ],
+    "correta": "E",
+    "explicacao": "Pelo princípio fundamental da contagem, o total de combinações é 3 × 3 × 3 = 27."
+  },
+  {
+    "id": "analise-combinatoria-ined-0617",
+    "categoriaId": "analise-combinatoria",
+    "subtopico": "Princípio Multiplicativo",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um restaurante oferece 2 tipos de entrada, 5 tipos de prato principal e 3 tipos de sobremesa. De quantas formas diferentes um cliente pode montar uma refeição com uma entrada, um prato principal e uma sobremesa?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "35"
+      },
+      {
+        "letra": "B",
+        "texto": "30"
+      },
+      {
+        "letra": "C",
+        "texto": "32"
+      },
+      {
+        "letra": "D",
+        "texto": "33"
+      },
+      {
+        "letra": "E",
+        "texto": "10"
+      }
+    ],
+    "correta": "B",
+    "explicacao": "Pelo princípio fundamental da contagem, o total de combinações é 2 × 5 × 3 = 30."
+  },
+  {
+    "id": "analise-combinatoria-ined-0621",
+    "categoriaId": "analise-combinatoria",
+    "subtopico": "Princípio Multiplicativo",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um restaurante oferece 5 tipos de entrada, 8 tipos de prato principal e 2 tipos de sobremesa. De quantas formas diferentes um cliente pode montar uma refeição com uma entrada, um prato principal e uma sobremesa?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "85"
+      },
+      {
+        "letra": "B",
+        "texto": "40"
+      },
+      {
+        "letra": "C",
+        "texto": "86"
+      },
+      {
+        "letra": "D",
+        "texto": "80"
+      },
+      {
+        "letra": "E",
+        "texto": "15"
+      }
+    ],
+    "correta": "D",
+    "explicacao": "Pelo princípio fundamental da contagem, o total de combinações é 5 × 8 × 2 = 80."
+  },
+  {
+    "id": "analise-combinatoria-ined-0623",
+    "categoriaId": "analise-combinatoria",
+    "subtopico": "Princípio Multiplicativo",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um restaurante oferece 3 tipos de entrada, 5 tipos de prato principal e 4 tipos de sobremesa. De quantas formas diferentes um cliente pode montar uma refeição com uma entrada, um prato principal e uma sobremesa?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "15"
+      },
+      {
+        "letra": "B",
+        "texto": "64"
+      },
+      {
+        "letra": "C",
+        "texto": "12"
+      },
+      {
+        "letra": "D",
+        "texto": "60"
+      },
+      {
+        "letra": "E",
+        "texto": "63"
+      }
+    ],
+    "correta": "D",
+    "explicacao": "Pelo princípio fundamental da contagem, o total de combinações é 3 × 5 × 4 = 60."
+  },
+  {
+    "id": "analise-combinatoria-ined-0624",
+    "categoriaId": "analise-combinatoria",
+    "subtopico": "Combinação",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "De um grupo de 7 funcionários, deseja-se formar uma comissão de 4 pessoas, sem distinção de cargos dentro da comissão. De quantas maneiras diferentes essa comissão pode ser formada?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "840"
+      },
+      {
+        "letra": "B",
+        "texto": "21"
+      },
+      {
+        "letra": "C",
+        "texto": "35"
+      },
+      {
+        "letra": "D",
+        "texto": "22"
+      },
+      {
+        "letra": "E",
+        "texto": "28"
       }
     ],
     "correta": "C",
-    "explicacao": "Pelo princípio fundamental da contagem, o total de combinações é 3 × 5 × 3 = 45."
+    "explicacao": "Como a ordem não importa, usa-se combinação: C(7,4) = 7! / (4! × 3!) = 35."
   },
   {
-    "id": "analise-combinatoria-ined-0651",
+    "id": "analise-combinatoria-ined-0627",
+    "categoriaId": "analise-combinatoria",
+    "subtopico": "Princípio Multiplicativo",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um restaurante oferece 4 tipos de entrada, 5 tipos de prato principal e 2 tipos de sobremesa. De quantas formas diferentes um cliente pode montar uma refeição com uma entrada, um prato principal e uma sobremesa?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "40"
+      },
+      {
+        "letra": "B",
+        "texto": "44"
+      },
+      {
+        "letra": "C",
+        "texto": "45"
+      },
+      {
+        "letra": "D",
+        "texto": "11"
+      },
+      {
+        "letra": "E",
+        "texto": "20"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "Pelo princípio fundamental da contagem, o total de combinações é 4 × 5 × 2 = 40."
+  },
+  {
+    "id": "analise-combinatoria-ined-0630",
+    "categoriaId": "analise-combinatoria",
+    "subtopico": "Combinação",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "De um grupo de 10 funcionários, deseja-se formar uma comissão de 2 pessoas, sem distinção de cargos dentro da comissão. De quantas maneiras diferentes essa comissão pode ser formada?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "10"
+      },
+      {
+        "letra": "B",
+        "texto": "20"
+      },
+      {
+        "letra": "C",
+        "texto": "120"
+      },
+      {
+        "letra": "D",
+        "texto": "45"
+      },
+      {
+        "letra": "E",
+        "texto": "90"
+      }
+    ],
+    "correta": "D",
+    "explicacao": "Como a ordem não importa, usa-se combinação: C(10,2) = 10! / (2! × 8!) = 45."
+  },
+  {
+    "id": "analise-combinatoria-ined-0632",
+    "categoriaId": "analise-combinatoria",
+    "subtopico": "Combinação",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "De um grupo de 6 funcionários, deseja-se formar uma comissão de 2 pessoas, sem distinção de cargos dentro da comissão. De quantas maneiras diferentes essa comissão pode ser formada?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "30"
+      },
+      {
+        "letra": "B",
+        "texto": "6"
+      },
+      {
+        "letra": "C",
+        "texto": "20"
+      },
+      {
+        "letra": "D",
+        "texto": "12"
+      },
+      {
+        "letra": "E",
+        "texto": "15"
+      }
+    ],
+    "correta": "E",
+    "explicacao": "Como a ordem não importa, usa-se combinação: C(6,2) = 6! / (2! × 4!) = 15."
+  },
+  {
+    "id": "analise-combinatoria-ined-0633",
     "categoriaId": "analise-combinatoria",
     "subtopico": "Princípio Multiplicativo",
     "dificuldade": "dificil",
@@ -1137,11 +899,11 @@
       },
       {
         "letra": "B",
-        "texto": "56"
+        "texto": "345"
       },
       {
         "letra": "C",
-        "texto": "345"
+        "texto": "336"
       },
       {
         "letra": "D",
@@ -1149,116 +911,320 @@
       },
       {
         "letra": "E",
-        "texto": "336"
+        "texto": "56"
       }
     ],
-    "correta": "E",
+    "correta": "C",
     "explicacao": "Pelo princípio fundamental da contagem, o total de combinações é 8 × 7 × 6 = 336."
   },
   {
-    "id": "analise-combinatoria-ined-0652",
+    "id": "analise-combinatoria-ined-0635",
     "categoriaId": "analise-combinatoria",
-    "subtopico": "Combinação",
-    "dificuldade": "facil",
+    "subtopico": "Princípio Multiplicativo",
+    "dificuldade": "medio",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "De um grupo de 5 funcionários, deseja-se formar uma comissão de 4 pessoas, sem distinção de cargos dentro da comissão. De quantas maneiras diferentes essa comissão pode ser formada?",
+    "enunciado": "Um restaurante oferece 4 tipos de entrada, 4 tipos de prato principal e 2 tipos de sobremesa. De quantas formas diferentes um cliente pode montar uma refeição com uma entrada, um prato principal e uma sobremesa?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "20"
+        "texto": "32"
       },
       {
         "letra": "B",
-        "texto": "5"
+        "texto": "37"
       },
       {
         "letra": "C",
-        "texto": "120"
+        "texto": "36"
       },
       {
         "letra": "D",
-        "texto": "1"
+        "texto": "10"
       },
       {
         "letra": "E",
-        "texto": "10"
+        "texto": "16"
       }
     ],
-    "correta": "B",
-    "explicacao": "Como a ordem não importa, usa-se combinação: C(5,4) = 5! / (4! × 1!) = 5."
+    "correta": "A",
+    "explicacao": "Pelo princípio fundamental da contagem, o total de combinações é 4 × 4 × 2 = 32."
   },
   {
-    "id": "analise-combinatoria-ined-0655",
+    "id": "analise-combinatoria-ined-0637",
     "categoriaId": "analise-combinatoria",
     "subtopico": "Princípio Multiplicativo",
     "dificuldade": "facil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Um restaurante oferece 4 tipos de entrada, 2 tipos de prato principal e 2 tipos de sobremesa. De quantas formas diferentes um cliente pode montar uma refeição com uma entrada, um prato principal e uma sobremesa?",
+    "enunciado": "Um restaurante oferece 5 tipos de entrada, 3 tipos de prato principal e 2 tipos de sobremesa. De quantas formas diferentes um cliente pode montar uma refeição com uma entrada, um prato principal e uma sobremesa?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "23"
+        "texto": "30"
       },
       {
         "letra": "B",
-        "texto": "8"
+        "texto": "36"
       },
       {
         "letra": "C",
-        "texto": "16"
+        "texto": "10"
       },
       {
         "letra": "D",
-        "texto": "21"
+        "texto": "35"
       },
       {
         "letra": "E",
-        "texto": "20"
+        "texto": "15"
       }
     ],
-    "correta": "C",
-    "explicacao": "Pelo princípio fundamental da contagem, o total de combinações é 4 × 2 × 2 = 16."
+    "correta": "A",
+    "explicacao": "Pelo princípio fundamental da contagem, o total de combinações é 5 × 3 × 2 = 30."
   },
   {
-    "id": "analise-combinatoria-ined-0657",
+    "id": "analise-combinatoria-ined-0639",
     "categoriaId": "analise-combinatoria",
     "subtopico": "Princípio Multiplicativo",
     "dificuldade": "dificil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Um restaurante oferece 4 tipos de entrada, 3 tipos de prato principal e 5 tipos de sobremesa. De quantas formas diferentes um cliente pode montar uma refeição com uma entrada, um prato principal e uma sobremesa?",
+    "enunciado": "Um restaurante oferece 6 tipos de entrada, 3 tipos de prato principal e 5 tipos de sobremesa. De quantas formas diferentes um cliente pode montar uma refeição com uma entrada, um prato principal e uma sobremesa?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "67"
+        "texto": "18"
       },
       {
         "letra": "B",
-        "texto": "12"
+        "texto": "14"
       },
       {
         "letra": "C",
-        "texto": "64"
+        "texto": "97"
       },
       {
         "letra": "D",
-        "texto": "60"
+        "texto": "90"
       },
       {
         "letra": "E",
-        "texto": "65"
+        "texto": "96"
       }
     ],
     "correta": "D",
-    "explicacao": "Pelo princípio fundamental da contagem, o total de combinações é 4 × 3 × 5 = 60."
+    "explicacao": "Pelo princípio fundamental da contagem, o total de combinações é 6 × 3 × 5 = 90."
   },
   {
-    "id": "analise-combinatoria-ined-0658",
+    "id": "analise-combinatoria-ined-0642",
+    "categoriaId": "analise-combinatoria",
+    "subtopico": "Combinação",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "De um grupo de 11 funcionários, deseja-se formar uma comissão de 4 pessoas, sem distinção de cargos dentro da comissão. De quantas maneiras diferentes essa comissão pode ser formada?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "165"
+      },
+      {
+        "letra": "B",
+        "texto": "462"
+      },
+      {
+        "letra": "C",
+        "texto": "330"
+      },
+      {
+        "letra": "D",
+        "texto": "7920"
+      },
+      {
+        "letra": "E",
+        "texto": "44"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "Como a ordem não importa, usa-se combinação: C(11,4) = 11! / (4! × 7!) = 330."
+  },
+  {
+    "id": "analise-combinatoria-ined-0645",
+    "categoriaId": "analise-combinatoria",
+    "subtopico": "Princípio Multiplicativo",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um restaurante oferece 7 tipos de entrada, 8 tipos de prato principal e 2 tipos de sobremesa. De quantas formas diferentes um cliente pode montar uma refeição com uma entrada, um prato principal e uma sobremesa?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "120"
+      },
+      {
+        "letra": "B",
+        "texto": "119"
+      },
+      {
+        "letra": "C",
+        "texto": "56"
+      },
+      {
+        "letra": "D",
+        "texto": "17"
+      },
+      {
+        "letra": "E",
+        "texto": "112"
+      }
+    ],
+    "correta": "E",
+    "explicacao": "Pelo princípio fundamental da contagem, o total de combinações é 7 × 8 × 2 = 112."
+  },
+  {
+    "id": "analise-combinatoria-ined-0646",
+    "categoriaId": "analise-combinatoria",
+    "subtopico": "Combinação",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "De um grupo de 8 funcionários, deseja-se formar uma comissão de 2 pessoas, sem distinção de cargos dentro da comissão. De quantas maneiras diferentes essa comissão pode ser formada?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "16"
+      },
+      {
+        "letra": "B",
+        "texto": "9"
+      },
+      {
+        "letra": "C",
+        "texto": "56"
+      },
+      {
+        "letra": "D",
+        "texto": "28"
+      },
+      {
+        "letra": "E",
+        "texto": "8"
+      }
+    ],
+    "correta": "D",
+    "explicacao": "Como a ordem não importa, usa-se combinação: C(8,2) = 8! / (2! × 6!) = 28."
+  },
+  {
+    "id": "analise-combinatoria-ined-0647",
+    "categoriaId": "analise-combinatoria",
+    "subtopico": "Princípio Multiplicativo",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um restaurante oferece 5 tipos de entrada, 5 tipos de prato principal e 4 tipos de sobremesa. De quantas formas diferentes um cliente pode montar uma refeição com uma entrada, um prato principal e uma sobremesa?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "100"
+      },
+      {
+        "letra": "B",
+        "texto": "25"
+      },
+      {
+        "letra": "C",
+        "texto": "106"
+      },
+      {
+        "letra": "D",
+        "texto": "105"
+      },
+      {
+        "letra": "E",
+        "texto": "14"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "Pelo princípio fundamental da contagem, o total de combinações é 5 × 5 × 4 = 100."
+  },
+  {
+    "id": "analise-combinatoria-ined-0649",
+    "categoriaId": "analise-combinatoria",
+    "subtopico": "Princípio Multiplicativo",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um restaurante oferece 3 tipos de entrada, 5 tipos de prato principal e 3 tipos de sobremesa. De quantas formas diferentes um cliente pode montar uma refeição com uma entrada, um prato principal e uma sobremesa?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "48"
+      },
+      {
+        "letra": "B",
+        "texto": "49"
+      },
+      {
+        "letra": "C",
+        "texto": "15"
+      },
+      {
+        "letra": "D",
+        "texto": "45"
+      },
+      {
+        "letra": "E",
+        "texto": "11"
+      }
+    ],
+    "correta": "D",
+    "explicacao": "Pelo princípio fundamental da contagem, o total de combinações é 3 × 5 × 3 = 45."
+  },
+  {
+    "id": "analise-combinatoria-ined-0651",
+    "categoriaId": "analise-combinatoria",
+    "subtopico": "Princípio Multiplicativo",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um restaurante oferece 2 tipos de entrada, 7 tipos de prato principal e 2 tipos de sobremesa. De quantas formas diferentes um cliente pode montar uma refeição com uma entrada, um prato principal e uma sobremesa?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "30"
+      },
+      {
+        "letra": "B",
+        "texto": "14"
+      },
+      {
+        "letra": "C",
+        "texto": "11"
+      },
+      {
+        "letra": "D",
+        "texto": "28"
+      },
+      {
+        "letra": "E",
+        "texto": "31"
+      }
+    ],
+    "correta": "D",
+    "explicacao": "Pelo princípio fundamental da contagem, o total de combinações é 2 × 7 × 2 = 28."
+  },
+  {
+    "id": "analise-combinatoria-ined-0652",
     "categoriaId": "analise-combinatoria",
     "subtopico": "Combinação",
     "dificuldade": "facil",
@@ -1269,11 +1235,113 @@
     "alternativas": [
       {
         "letra": "A",
-        "texto": "6"
+        "texto": "8"
       },
       {
         "letra": "B",
+        "texto": "20"
+      },
+      {
+        "letra": "C",
+        "texto": "6"
+      },
+      {
+        "letra": "D",
+        "texto": "10"
+      },
+      {
+        "letra": "E",
         "texto": "5"
+      }
+    ],
+    "correta": "D",
+    "explicacao": "Como a ordem não importa, usa-se combinação: C(5,2) = 5! / (2! × 3!) = 10."
+  },
+  {
+    "id": "analise-combinatoria-ined-0653",
+    "categoriaId": "analise-combinatoria",
+    "subtopico": "Princípio Multiplicativo",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um restaurante oferece 5 tipos de entrada, 2 tipos de prato principal e 2 tipos de sobremesa. De quantas formas diferentes um cliente pode montar uma refeição com uma entrada, um prato principal e uma sobremesa?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "25"
+      },
+      {
+        "letra": "B",
+        "texto": "9"
+      },
+      {
+        "letra": "C",
+        "texto": "20"
+      },
+      {
+        "letra": "D",
+        "texto": "10"
+      },
+      {
+        "letra": "E",
+        "texto": "26"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "Pelo princípio fundamental da contagem, o total de combinações é 5 × 2 × 2 = 20."
+  },
+  {
+    "id": "analise-combinatoria-ined-0656",
+    "categoriaId": "analise-combinatoria",
+    "subtopico": "Combinação",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "De um grupo de 8 funcionários, deseja-se formar uma comissão de 4 pessoas, sem distinção de cargos dentro da comissão. De quantas maneiras diferentes essa comissão pode ser formada?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "56"
+      },
+      {
+        "letra": "B",
+        "texto": "57"
+      },
+      {
+        "letra": "C",
+        "texto": "32"
+      },
+      {
+        "letra": "D",
+        "texto": "70"
+      },
+      {
+        "letra": "E",
+        "texto": "1680"
+      }
+    ],
+    "correta": "D",
+    "explicacao": "Como a ordem não importa, usa-se combinação: C(8,4) = 8! / (4! × 4!) = 70."
+  },
+  {
+    "id": "analise-combinatoria-ined-0657",
+    "categoriaId": "analise-combinatoria",
+    "subtopico": "Princípio Multiplicativo",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um restaurante oferece 2 tipos de entrada, 5 tipos de prato principal e 4 tipos de sobremesa. De quantas formas diferentes um cliente pode montar uma refeição com uma entrada, um prato principal e uma sobremesa?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "11"
+      },
+      {
+        "letra": "B",
+        "texto": "40"
       },
       {
         "letra": "C",
@@ -1281,37 +1349,37 @@
       },
       {
         "letra": "D",
-        "texto": "8"
+        "texto": "42"
       },
       {
         "letra": "E",
-        "texto": "20"
+        "texto": "43"
       }
     ],
-    "correta": "C",
-    "explicacao": "Como a ordem não importa, usa-se combinação: C(5,2) = 5! / (2! × 3!) = 10."
+    "correta": "B",
+    "explicacao": "Pelo princípio fundamental da contagem, o total de combinações é 2 × 5 × 4 = 40."
   },
   {
-    "id": "analise-combinatoria-ined-0660",
+    "id": "analise-combinatoria-ined-0659",
     "categoriaId": "analise-combinatoria",
-    "subtopico": "Combinação",
-    "dificuldade": "dificil",
+    "subtopico": "Princípio Multiplicativo",
+    "dificuldade": "medio",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "De um grupo de 12 funcionários, deseja-se formar uma comissão de 2 pessoas, sem distinção de cargos dentro da comissão. De quantas maneiras diferentes essa comissão pode ser formada?",
+    "enunciado": "Um restaurante oferece 2 tipos de entrada, 4 tipos de prato principal e 3 tipos de sobremesa. De quantas formas diferentes um cliente pode montar uma refeição com uma entrada, um prato principal e uma sobremesa?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "220"
+        "texto": "8"
       },
       {
         "letra": "B",
-        "texto": "12"
+        "texto": "27"
       },
       {
         "letra": "C",
-        "texto": "132"
+        "texto": "26"
       },
       {
         "letra": "D",
@@ -1319,78 +1387,10 @@
       },
       {
         "letra": "E",
-        "texto": "66"
+        "texto": "9"
       }
     ],
-    "correta": "E",
-    "explicacao": "Como a ordem não importa, usa-se combinação: C(12,2) = 12! / (2! × 10!) = 66."
-  },
-  {
-    "id": "analise-combinatoria-ined-0661",
-    "categoriaId": "analise-combinatoria",
-    "subtopico": "Princípio Multiplicativo",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um restaurante oferece 5 tipos de entrada, 3 tipos de prato principal e 4 tipos de sobremesa. De quantas formas diferentes um cliente pode montar uma refeição com uma entrada, um prato principal e uma sobremesa?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "66"
-      },
-      {
-        "letra": "B",
-        "texto": "15"
-      },
-      {
-        "letra": "C",
-        "texto": "12"
-      },
-      {
-        "letra": "D",
-        "texto": "65"
-      },
-      {
-        "letra": "E",
-        "texto": "60"
-      }
-    ],
-    "correta": "E",
-    "explicacao": "Pelo princípio fundamental da contagem, o total de combinações é 5 × 3 × 4 = 60."
-  },
-  {
-    "id": "analise-combinatoria-ined-0663",
-    "categoriaId": "analise-combinatoria",
-    "subtopico": "Princípio Multiplicativo",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um restaurante oferece 7 tipos de entrada, 6 tipos de prato principal e 6 tipos de sobremesa. De quantas formas diferentes um cliente pode montar uma refeição com uma entrada, um prato principal e uma sobremesa?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "260"
-      },
-      {
-        "letra": "B",
-        "texto": "252"
-      },
-      {
-        "letra": "C",
-        "texto": "42"
-      },
-      {
-        "letra": "D",
-        "texto": "19"
-      },
-      {
-        "letra": "E",
-        "texto": "259"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "Pelo princípio fundamental da contagem, o total de combinações é 7 × 6 × 6 = 252."
+    "correta": "D",
+    "explicacao": "Pelo princípio fundamental da contagem, o total de combinações é 2 × 4 × 3 = 24."
   }
 ]
