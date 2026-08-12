@@ -1,13 +1,16 @@
 import Link from "next/link";
 import Image from "next/image";
+import type { User } from "@supabase/supabase-js";
+import AuthButton from "@/components/AuthButton";
 
 const links = [
   { href: "/", label: "Início" },
   { href: "/assuntos", label: "Assuntos" },
   { href: "/dificuldade", label: "Dificuldade" },
+  { href: "/desempenho", label: "Meu Desempenho" },
 ];
 
-export default function Navbar() {
+export default function Navbar({ user }: { user: User | null }) {
   return (
     <header className="sticky top-0 z-10 border-b border-white/10 bg-[#0b1120]/95 backdrop-blur">
       <div className="mx-auto flex max-w-6xl items-center gap-6 px-4 py-3">
@@ -40,6 +43,7 @@ export default function Navbar() {
             </Link>
           ))}
         </nav>
+        <AuthButton initialUser={user} />
       </div>
     </header>
   );
