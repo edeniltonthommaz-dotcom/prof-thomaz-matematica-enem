@@ -25,7 +25,6 @@ export default async function DesempenhoPage() {
       <h1 className="mb-6 text-2xl font-bold text-white">Meu Desempenho</h1>
       <DesempenhoView
         nome={nome}
-        logado={!!user}
         questaoIdsGlobal={todasQuestoes.map((q) => q.id)}
         categorias={categoriasComQuestoes}
       />

@@ -1,19 +1,16 @@
 "use client";
 
 import { useMemo, useSyncExternalStore } from "react";
-import Link from "next/link";
 import { calcularEstatisticas, subscribe, getSnapshot, getServerSnapshot } from "@/lib/progress";
 import type { Categoria } from "@/lib/types";
 import ResultShareCard from "@/components/ResultShareCard";
 
 export default function DesempenhoView({
   nome,
-  logado,
   questaoIdsGlobal,
   categorias,
 }: {
   nome: string | null;
-  logado: boolean;
   questaoIdsGlobal: string[];
   categorias: { categoria: Categoria; questaoIds: string[] }[];
 }) {
@@ -37,17 +34,6 @@ export default function DesempenhoView({
 
   return (
     <div className="space-y-8">
-      {!logado && (
-        <p className="rounded-lg border border-white/10 bg-white/[0.03] px-4 py-3 text-sm text-slate-300">
-          Você está praticando como visitante — seu progresso fica salvo só neste
-          navegador.{" "}
-          <Link href="/" className="underline hover:text-white">
-            Entre com Google
-          </Link>{" "}
-          para salvar seu desempenho e acessá-lo de qualquer dispositivo.
-        </p>
-      )}
-
       <div className="grid grid-cols-1 gap-4 sm:grid-cols-3">
         <div className="rounded-xl border border-white/10 bg-white/[0.03] px-5 py-4">
           <p className="text-xs text-slate-400">Resolvidas</p>
