@@ -7,6 +7,10 @@ const links = [
   { href: "/", label: "Início" },
   { href: "/assuntos", label: "Assuntos" },
   { href: "/dificuldade", label: "Dificuldade" },
+  { href: "/simulados", label: "Simulados" },
+  { href: "/flashcards", label: "Flashcards" },
+  { href: "/revisao", label: "Revisão" },
+  { href: "/favoritos", label: "Favoritos" },
   { href: "/desempenho", label: "Meu Desempenho" },
 ];
 
