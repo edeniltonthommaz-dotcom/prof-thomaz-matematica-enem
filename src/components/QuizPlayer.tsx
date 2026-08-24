@@ -1,12 +1,21 @@
 "use client";
 
 import Link from "next/link";
-import { useState } from "react";
+import { useState, useSyncExternalStore } from "react";
+import { Star } from "lucide-react";
 import { Alternativa, Questao } from "@/lib/types";
 import DificuldadeBadge from "@/components/DificuldadeBadge";
 import SolidoDiagram from "@/components/SolidoDiagram";
 import GraficoDiagram from "@/components/GraficoDiagram";
-import { registrarResposta } from "@/lib/progress";
+import CelebracaoModal from "@/components/CelebracaoModal";
+import { registrarResposta, getSnapshot } from "@/lib/progress";
+import { detectarCelebracoes, type Celebracao } from "@/lib/gamificacao";
+import {
+  alternarFavorito,
+  subscribe as subscribeFavoritos,
+  getSnapshot as getFavoritosSnapshot,
+  getServerSnapshot as getFavoritosServerSnapshot,
+} from "@/lib/favoritos";
 
 export default function QuizPlayer({
   questao,
@@ -27,6 +36,9 @@ export default function QuizPlayer({
 }) {
   const [selecionada, setSelecionada] = useState<Alternativa["letra"] | null>(null);
   const [respondida, setRespondida] = useState(false);
+  const [celebracoes, setCelebracoes] = useState<Celebracao[]>([]);
+  const favoritos = useSyncExternalStore(subscribeFavoritos, getFavoritosSnapshot, getFavoritosServerSnapshot);
+  const favoritada = !!favoritos[questao.id];
 
   function escolher(letra: Alternativa["letra"]) {
     if (respondida) return;
@@ -36,7 +48,11 @@ export default function QuizPlayer({
   function responder() {
     if (!selecionada || respondida) return;
     setRespondida(true);
+    const antes = getSnapshot();
     registrarResposta(questao.id, selecionada === questao.correta, selecionada);
+    const depois = getSnapshot();
+    const novas = detectarCelebracoes(antes, depois);
+    if (novas.length > 0) setCelebracoes(novas);
   }
 
   const acertou = respondida && selecionada === questao.correta;
@@ -59,8 +75,19 @@ export default function QuizPlayer({
       <p className="mb-1 text-xs font-semibold uppercase tracking-wide text-gray-400">
         {categoriaNome} › {questao.subtopico}
       </p>
-      <div className="mb-6 flex items-center justify-between">
-        <DificuldadeBadge dificuldade={questao.dificuldade} />
+      <div className="mb-6 flex items-center justify-between gap-3">
+        <div className="flex items-center gap-3">
+          <DificuldadeBadge dificuldade={questao.dificuldade} />
+          <button
+            type="button"
+            onClick={() => alternarFavorito(questao.id)}
+            aria-label={favoritada ? "Remover dos favoritos" : "Adicionar aos favoritos"}
+            aria-pressed={favoritada}
+            className="text-slate-400 transition hover:text-amber-400"
+          >
+            <Star className={`h-4 w-4 ${favoritada ? "fill-amber-400 text-amber-400" : ""}`} />
+          </button>
+        </div>
         <span className="text-xs text-slate-400">
           Questão {posicao} de {total}
           {questao.fonte.tipo === "enem" && questao.fonte.ano
@@ -172,6 +199,13 @@ export default function QuizPlayer({
             </Link>
           </div>
         </div>
+      )}
+
+      {celebracoes[0] && (
+        <CelebracaoModal
+          celebracao={celebracoes[0]}
+          onFechar={() => setCelebracoes((c) => c.slice(1))}
+        />
       )}
     </div>
   );
