@@ -88,3 +88,11 @@ export interface Resumo {
   categoriaId: string;
   subtopicos: ResumoSubtopico[];
 }
+
+export interface Flashcard {
+  id: string;
+  categoriaId: string;
+  subtopico: string;
+  frente: string;
+  verso: string;
+}
