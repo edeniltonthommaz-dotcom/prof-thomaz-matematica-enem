@@ -1,0 +1,429 @@
+[
+  {
+    "id": "fc-numeros-1",
+    "categoriaId": "numeros",
+    "subtopico": "MDC e MMC",
+    "frente": "Relação entre MDC e MMC de dois números a e b",
+    "verso": "MDC(a, b) × MMC(a, b) = a × b"
+  },
+  {
+    "id": "fc-numeros-2",
+    "categoriaId": "numeros",
+    "subtopico": "Potenciação",
+    "frente": "Potência de potência",
+    "verso": "(aᵐ)ⁿ = aᵐ·ⁿ"
+  },
+  {
+    "id": "fc-numeros-3",
+    "categoriaId": "numeros",
+    "subtopico": "Notação Científica",
+    "frente": "Formato da notação científica",
+    "verso": "a × 10ⁿ, com 1 ≤ a < 10 e n inteiro"
+  },
+  {
+    "id": "fc-porcentagem-1",
+    "categoriaId": "porcentagem",
+    "subtopico": "Fator de Multiplicação",
+    "frente": "Fator de multiplicação para um aumento de i%",
+    "verso": "Valor final = Valor inicial × (1 + i)"
+  },
+  {
+    "id": "fc-porcentagem-2",
+    "categoriaId": "porcentagem",
+    "subtopico": "Fator de Multiplicação",
+    "frente": "Fator de multiplicação para um desconto de i%",
+    "verso": "Valor final = Valor inicial × (1 − i)"
+  },
+  {
+    "id": "fc-porcentagem-3",
+    "categoriaId": "porcentagem",
+    "subtopico": "Aumentos e Descontos Sucessivos",
+    "frente": "Fator acumulado de aumentos/descontos sucessivos",
+    "verso": "Fator total = (1 ± i₁) × (1 ± i₂) × ..."
+  },
+  {
+    "id": "fc-razao-proporcao-1",
+    "categoriaId": "razao-proporcao",
+    "subtopico": "Escalas",
+    "frente": "Escala de um mapa ou planta",
+    "verso": "E = comprimento no desenho / comprimento real"
+  },
+  {
+    "id": "fc-razao-proporcao-2",
+    "categoriaId": "razao-proporcao",
+    "subtopico": "Escalas",
+    "frente": "Escala de área a partir da escala linear E",
+    "verso": "Escala de área = E²"
+  },
+  {
+    "id": "fc-razao-proporcao-3",
+    "categoriaId": "razao-proporcao",
+    "subtopico": "Divisão Proporcional",
+    "frente": "Dividir um total em partes proporcionais a a, b, c",
+    "verso": "k = Total / (a + b + c); partes = k·a, k·b, k·c"
+  },
+  {
+    "id": "fc-regra-de-tres-1",
+    "categoriaId": "regra-de-tres",
+    "subtopico": "Regra de Três Simples",
+    "frente": "Regra de três simples (grandezas diretamente proporcionais)",
+    "verso": "a/b = c/x"
+  },
+  {
+    "id": "fc-regra-de-tres-2",
+    "categoriaId": "regra-de-tres",
+    "subtopico": "Regra de Três Simples",
+    "frente": "Regra de três simples (grandezas inversamente proporcionais)",
+    "verso": "a × b = c × x"
+  },
+  {
+    "id": "fc-equacoes-1",
+    "categoriaId": "equacoes",
+    "subtopico": "Equações Quadráticas (Bhaskara)",
+    "frente": "Fórmula de Bhaskara",
+    "verso": "x = (−b ± √Δ) / 2a, com Δ = b² − 4ac"
+  },
+  {
+    "id": "fc-equacoes-2",
+    "categoriaId": "equacoes",
+    "subtopico": "Equações Quadráticas (Bhaskara)",
+    "frente": "Soma e produto das raízes de ax² + bx + c",
+    "verso": "S = −b/a, P = c/a"
+  },
+  {
+    "id": "fc-equacoes-3",
+    "categoriaId": "equacoes",
+    "subtopico": "Equação do 1º Grau",
+    "frente": "Resolução de ax + b = 0",
+    "verso": "x = −b/a"
+  },
+  {
+    "id": "fc-funcao-afim-1",
+    "categoriaId": "funcao-afim",
+    "subtopico": "f(x) = ax + b",
+    "frente": "Significado de a e b em f(x) = ax + b",
+    "verso": "a = coeficiente angular (inclinação); b = coeficiente linear (corta o eixo y)"
+  },
+  {
+    "id": "fc-funcao-afim-2",
+    "categoriaId": "funcao-afim",
+    "subtopico": "Coeficiente Angular",
+    "frente": "Coeficiente angular entre dois pontos",
+    "verso": "a = (y₂ − y₁) / (x₂ − x₁)"
+  },
+  {
+    "id": "fc-funcao-afim-3",
+    "categoriaId": "funcao-afim",
+    "subtopico": "f(x) = ax + b",
+    "frente": "Raiz (zero) da função afim",
+    "verso": "x = −b/a"
+  },
+  {
+    "id": "fc-funcao-quadratica-1",
+    "categoriaId": "funcao-quadratica",
+    "subtopico": "Vértice da Parábola",
+    "frente": "Coordenadas do vértice de f(x) = ax² + bx + c",
+    "verso": "xᵥ = −b/2a; yᵥ = −Δ/4a"
+  },
+  {
+    "id": "fc-funcao-quadratica-2",
+    "categoriaId": "funcao-quadratica",
+    "subtopico": "Raízes e Concavidade",
+    "frente": "Discriminante Δ",
+    "verso": "Δ = b² − 4ac"
+  },
+  {
+    "id": "fc-funcao-quadratica-3",
+    "categoriaId": "funcao-quadratica",
+    "subtopico": "Raízes e Concavidade",
+    "frente": "Concavidade da parábola",
+    "verso": "a > 0 → abre para cima (mínimo); a < 0 → abre para baixo (máximo)"
+  },
+  {
+    "id": "fc-exponenciais-logaritmos-1",
+    "categoriaId": "exponenciais-logaritmos",
+    "subtopico": "Escalas Logarítmicas (pH, Richter)",
+    "frente": "Propriedade do log do produto",
+    "verso": "log(a · b) = log a + log b"
+  },
+  {
+    "id": "fc-exponenciais-logaritmos-2",
+    "categoriaId": "exponenciais-logaritmos",
+    "subtopico": "Escalas Logarítmicas (pH, Richter)",
+    "frente": "Mudança de base de logaritmo",
+    "verso": "logₐ b = log b / log a"
+  },
+  {
+    "id": "fc-exponenciais-logaritmos-3",
+    "categoriaId": "exponenciais-logaritmos",
+    "subtopico": "Crescimento e Decaimento",
+    "frente": "Modelo de crescimento/decaimento exponencial",
+    "verso": "M(t) = M₀ · aᵗ"
+  },
+  {
+    "id": "fc-progressoes-1",
+    "categoriaId": "progressoes",
+    "subtopico": "Progressão Aritmética",
+    "frente": "Termo geral da PA",
+    "verso": "aₙ = a₁ + (n − 1)·r"
+  },
+  {
+    "id": "fc-progressoes-2",
+    "categoriaId": "progressoes",
+    "subtopico": "Soma de Termos",
+    "frente": "Soma dos n primeiros termos de uma PA",
+    "verso": "Sₙ = (a₁ + aₙ) · n / 2"
+  },
+  {
+    "id": "fc-progressoes-3",
+    "categoriaId": "progressoes",
+    "subtopico": "Progressão Geométrica",
+    "frente": "Termo geral da PG",
+    "verso": "aₙ = a₁ · qⁿ⁻¹"
+  },
+  {
+    "id": "fc-progressoes-4",
+    "categoriaId": "progressoes",
+    "subtopico": "Soma de Termos",
+    "frente": "Soma dos n primeiros termos de uma PG finita (q ≠ 1)",
+    "verso": "Sₙ = a₁·(qⁿ − 1) / (q − 1)"
+  },
+  {
+    "id": "fc-geometria-plana-1",
+    "categoriaId": "geometria-plana",
+    "subtopico": "Áreas e Perímetros",
+    "frente": "Área do triângulo",
+    "verso": "A = (base × altura) / 2"
+  },
+  {
+    "id": "fc-geometria-plana-2",
+    "categoriaId": "geometria-plana",
+    "subtopico": "Teorema de Pitágoras",
+    "frente": "Teorema de Pitágoras",
+    "verso": "hipotenusa² = cateto₁² + cateto₂²"
+  },
+  {
+    "id": "fc-geometria-plana-3",
+    "categoriaId": "geometria-plana",
+    "subtopico": "Áreas e Perímetros",
+    "frente": "Área e comprimento do círculo",
+    "verso": "A = π·r²; comprimento = 2·π·r"
+  },
+  {
+    "id": "fc-geometria-espacial-1",
+    "categoriaId": "geometria-espacial",
+    "subtopico": "Prismas e Cilindros",
+    "frente": "Volume do cilindro",
+    "verso": "V = π·r²·h"
+  },
+  {
+    "id": "fc-geometria-espacial-2",
+    "categoriaId": "geometria-espacial",
+    "subtopico": "Cones e Pirâmides",
+    "frente": "Volume do cone",
+    "verso": "V = (π·r²·h) / 3"
+  },
+  {
+    "id": "fc-geometria-espacial-3",
+    "categoriaId": "geometria-espacial",
+    "subtopico": "Esferas",
+    "frente": "Volume da esfera",
+    "verso": "V = (4/3)·π·r³"
+  },
+  {
+    "id": "fc-geometria-espacial-4",
+    "categoriaId": "geometria-espacial",
+    "subtopico": "Prismas e Cilindros",
+    "frente": "Volume de um prisma",
+    "verso": "V = Área da base × altura"
+  },
+  {
+    "id": "fc-geometria-analitica-1",
+    "categoriaId": "geometria-analitica",
+    "subtopico": "Distância entre Pontos",
+    "frente": "Distância entre dois pontos",
+    "verso": "d = √[(x₂ − x₁)² + (y₂ − y₁)²]"
+  },
+  {
+    "id": "fc-geometria-analitica-2",
+    "categoriaId": "geometria-analitica",
+    "subtopico": "Equação da Reta",
+    "frente": "Equação da reta ponto-inclinação",
+    "verso": "y − y₁ = m·(x − x₁)"
+  },
+  {
+    "id": "fc-geometria-analitica-3",
+    "categoriaId": "geometria-analitica",
+    "subtopico": "Equação da Circunferência",
+    "frente": "Equação da circunferência de centro (a,b) e raio r",
+    "verso": "(x − a)² + (y − b)² = r²"
+  },
+  {
+    "id": "fc-trigonometria-1",
+    "categoriaId": "trigonometria",
+    "subtopico": "Triângulo Retângulo",
+    "frente": "Razões trigonométricas no triângulo retângulo",
+    "verso": "sen = oposto/hipotenusa; cos = adjacente/hipotenusa; tg = oposto/adjacente"
+  },
+  {
+    "id": "fc-trigonometria-2",
+    "categoriaId": "trigonometria",
+    "subtopico": "Lei dos Senos",
+    "frente": "Lei dos senos",
+    "verso": "a/sen A = b/sen B = c/sen C"
+  },
+  {
+    "id": "fc-trigonometria-3",
+    "categoriaId": "trigonometria",
+    "subtopico": "Lei dos Cossenos",
+    "frente": "Lei dos cossenos",
+    "verso": "a² = b² + c² − 2·b·c·cos A"
+  },
+  {
+    "id": "fc-estatistica-1",
+    "categoriaId": "estatistica",
+    "subtopico": "Média, Moda e Mediana",
+    "frente": "Média aritmética",
+    "verso": "x̄ = (soma dos valores) / n"
+  },
+  {
+    "id": "fc-estatistica-2",
+    "categoriaId": "estatistica",
+    "subtopico": "Média, Moda e Mediana",
+    "frente": "Moda e mediana",
+    "verso": "Moda = valor mais frequente; Mediana = valor central após ordenar os dados"
+  },
+  {
+    "id": "fc-estatistica-3",
+    "categoriaId": "estatistica",
+    "subtopico": "Desvio Padrão",
+    "frente": "Desvio padrão",
+    "verso": "raiz quadrada da média dos quadrados dos desvios em relação à média"
+  },
+  {
+    "id": "fc-probabilidade-1",
+    "categoriaId": "probabilidade",
+    "subtopico": "Probabilidade Simples",
+    "frente": "Probabilidade de um evento",
+    "verso": "P(A) = casos favoráveis / casos possíveis"
+  },
+  {
+    "id": "fc-probabilidade-2",
+    "categoriaId": "probabilidade",
+    "subtopico": "Eventos Sucessivos",
+    "frente": "Probabilidade de eventos independentes ocorrerem em sequência",
+    "verso": "P(A ∩ B) = P(A) × P(B)"
+  },
+  {
+    "id": "fc-probabilidade-3",
+    "categoriaId": "probabilidade",
+    "subtopico": "Probabilidade Condicional",
+    "frente": "Probabilidade condicional",
+    "verso": "P(A|B) = P(A ∩ B) / P(B)"
+  },
+  {
+    "id": "fc-analise-combinatoria-1",
+    "categoriaId": "analise-combinatoria",
+    "subtopico": "Princípio Multiplicativo",
+    "frente": "Princípio fundamental da contagem",
+    "verso": "Total = n₁ × n₂ × n₃ × ..."
+  },
+  {
+    "id": "fc-analise-combinatoria-2",
+    "categoriaId": "analise-combinatoria",
+    "subtopico": "Combinação",
+    "frente": "Fórmula da combinação (ordem não importa)",
+    "verso": "Cₙ,ₚ = n! / [p!·(n − p)!]"
+  },
+  {
+    "id": "fc-analise-combinatoria-3",
+    "categoriaId": "analise-combinatoria",
+    "subtopico": "Arranjo",
+    "frente": "Fórmula do arranjo (ordem importa)",
+    "verso": "Aₙ,ₚ = n! / (n − p)!"
+  },
+  {
+    "id": "fc-analise-combinatoria-4",
+    "categoriaId": "analise-combinatoria",
+    "subtopico": "Permutação",
+    "frente": "Fórmula da permutação simples",
+    "verso": "Pₙ = n!"
+  },
+  {
+    "id": "fc-matematica-financeira-1",
+    "categoriaId": "matematica-financeira",
+    "subtopico": "Juros Compostos",
+    "frente": "Juros simples",
+    "verso": "J = C · i · t"
+  },
+  {
+    "id": "fc-matematica-financeira-2",
+    "categoriaId": "matematica-financeira",
+    "subtopico": "Juros Compostos",
+    "frente": "Montante em juros compostos",
+    "verso": "M = C · (1 + i)ᵗ"
+  },
+  {
+    "id": "fc-matematica-financeira-3",
+    "categoriaId": "matematica-financeira",
+    "subtopico": "Taxas Equivalentes",
+    "frente": "Relação entre taxa anual e mensal equivalentes",
+    "verso": "(1 + i_ano) = (1 + i_mês)¹²"
+  },
+  {
+    "id": "fc-matrizes-1",
+    "categoriaId": "matrizes",
+    "subtopico": "Determinantes",
+    "frente": "Determinante de uma matriz 2×2 [[a,b],[c,d]]",
+    "verso": "det = a·d − b·c"
+  },
+  {
+    "id": "fc-matrizes-2",
+    "categoriaId": "matrizes",
+    "subtopico": "Determinantes",
+    "frente": "Regra de Sarrus (matriz 3×3)",
+    "verso": "soma das diagonais principais menos a soma das diagonais secundárias"
+  },
+  {
+    "id": "fc-matrizes-3",
+    "categoriaId": "matrizes",
+    "subtopico": "Operações com Matrizes",
+    "frente": "Elemento da matriz produto A×B",
+    "verso": "cᵢⱼ = soma dos produtos da linha i de A pela coluna j de B"
+  },
+  {
+    "id": "fc-logica-1",
+    "categoriaId": "logica",
+    "subtopico": "Sequências e Padrões",
+    "frente": "Como decifrar uma sequência lógica numérica",
+    "verso": "identifique o padrão de diferença ou razão entre termos consecutivos"
+  },
+  {
+    "id": "fc-logica-2",
+    "categoriaId": "logica",
+    "subtopico": "Proposições Lógicas",
+    "frente": "Principais conectivos lógicos",
+    "verso": "E (∧), OU (∨), SE...ENTÃO (→), SE E SOMENTE SE (↔), negação (~)"
+  },
+  {
+    "id": "fc-conjuntos-1",
+    "categoriaId": "conjuntos",
+    "subtopico": "União e Interseção",
+    "frente": "Número de elementos da união de dois conjuntos",
+    "verso": "n(A ∪ B) = n(A) + n(B) − n(A ∩ B)"
+  },
+  {
+    "id": "fc-conjuntos-2",
+    "categoriaId": "conjuntos",
+    "subtopico": "Problemas de Pesquisa",
+    "frente": "Número de elementos apenas em A (diferença)",
+    "verso": "n(A − B) = n(A) − n(A ∩ B)"
+  },
+  {
+    "id": "fc-conjuntos-3",
+    "categoriaId": "conjuntos",
+    "subtopico": "União e Interseção",
+    "frente": "Número de elementos do complementar de A",
+    "verso": "n(Aᶜ) = n(U) − n(A)"
+  }
+]
