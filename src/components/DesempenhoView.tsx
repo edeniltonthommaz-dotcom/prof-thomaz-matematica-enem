@@ -2,8 +2,12 @@
 
 import { useMemo, useSyncExternalStore } from "react";
 import { calcularEstatisticas, subscribe, getSnapshot, getServerSnapshot } from "@/lib/progress";
+import { calcularConquistas, contarDominadas } from "@/lib/gamificacao";
 import type { Categoria } from "@/lib/types";
 import ResultShareCard from "@/components/ResultShareCard";
+import PatenteCard from "@/components/PatenteCard";
+import AtividadeHeatmap from "@/components/AtividadeHeatmap";
+import ConquistasGrid from "@/components/ConquistasGrid";
 
 export default function DesempenhoView({
   nome,
@@ -20,20 +24,33 @@ export default function DesempenhoView({
     [registros, questaoIdsGlobal]
   );
 
+  const desempenhoPorCategoria = useMemo(
+    () =>
+      categorias.map(({ categoria, questaoIds }) => ({
+        categoria,
+        stats: calcularEstatisticas(registros, questaoIds),
+      })),
+    [registros, categorias]
+  );
+
   const porCategoria = useMemo(
     () =>
-      categorias
-        .map(({ categoria, questaoIds }) => ({
-          categoria,
-          stats: calcularEstatisticas(registros, questaoIds),
-        }))
+      desempenhoPorCategoria
         .filter((c) => c.stats.respondidas > 0)
         .sort((a, b) => b.stats.respondidas - a.stats.respondidas),
-    [registros, categorias]
+    [desempenhoPorCategoria]
+  );
+
+  const dominadas = useMemo(() => contarDominadas(desempenhoPorCategoria), [desempenhoPorCategoria]);
+  const conquistas = useMemo(
+    () => calcularConquistas(registros, dominadas, categorias.length),
+    [registros, dominadas, categorias.length]
   );
 
   return (
     <div className="space-y-8">
+      <PatenteCard />
+
       <div className="grid grid-cols-1 gap-4 sm:grid-cols-3">
         <div className="rounded-xl border border-white/10 bg-white/[0.03] px-5 py-4">
           <p className="text-xs text-slate-400">Resolvidas</p>
@@ -57,6 +74,8 @@ export default function DesempenhoView({
 
       <ResultShareCard nome={nome ?? "Visitante"} stats={stats} />
 
+      <AtividadeHeatmap />
+
       {porCategoria.length > 0 && (
         <div>
           <h2 className="mb-3 text-lg font-semibold text-white">Por assunto</h2>
@@ -76,6 +95,11 @@ export default function DesempenhoView({
           </div>
         </div>
       )}
+
+      <div>
+        <h2 className="mb-3 text-lg font-semibold text-white">Conquistas</h2>
+        <ConquistasGrid conquistas={conquistas} />
+      </div>
     </div>
   );
 }
