@@ -1,11 +1,16 @@
 import Link from "next/link";
 import { categorias } from "@/data/categorias";
-import { todasQuestoes, contagemReaisPorAno } from "@/lib/questions";
+import { todasQuestoes, questoesPorCategoria, contagemReaisPorAno } from "@/lib/questions";
 import HomeStats from "@/components/HomeStats";
+import MetaDiariaCard from "@/components/MetaDiariaCard";
 
 export default function Home() {
   const anos = Object.keys(contagemReaisPorAno()).map(Number).sort();
   const totalReais = todasQuestoes.filter((q) => q.fonte.tipo === "enem").length;
+  const categoriasComQuestoes = categorias.map((c) => ({
+    categoria: c,
+    questaoIds: questoesPorCategoria(c.id).map((q) => q.id),
+  }));
 
   return (
     <div className="mx-auto max-w-6xl px-4 py-10">
@@ -31,6 +36,10 @@ export default function Home() {
           </Link>
         </div>
       </section>
+
+      <div className="mb-10">
+        <MetaDiariaCard categorias={categoriasComQuestoes} />
+      </div>
 
       <HomeStats questaoIds={todasQuestoes.map((q) => q.id)} />
 
