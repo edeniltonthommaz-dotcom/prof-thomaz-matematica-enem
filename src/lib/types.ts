@@ -1,11 +1,13 @@
 export type Dificuldade = "facil" | "medio" | "dificil";
 
-export type FonteTipo = "enem" | "inedita";
+export type FonteTipo = "enem" | "inedita" | "banco";
 
 export interface Fonte {
   tipo: FonteTipo;
   /** Ano da prova, apenas quando tipo === "enem" */
   ano?: number;
+  /** Banca examinadora ou compilação de origem, apenas quando tipo === "banco" (ex: "QConcursos", "Fundação Sousândrade") */
+  banca?: string;
   /** Ex: "ENEM 2015 - 2º dia, caderno azul, questão 143" */
   descricao?: string;
   /** URL do gabarito/prova oficial usado para verificar a questão, quando tipo === "enem" */

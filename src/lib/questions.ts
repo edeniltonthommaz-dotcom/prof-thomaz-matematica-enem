@@ -20,6 +20,7 @@ import matrizes from "@/data/questions/matrizes.json";
 import logica from "@/data/questions/logica.json";
 import conjuntos from "@/data/questions/conjuntos.json";
 import real from "@/data/questions/real.json";
+import banco from "@/data/questions/banco.json";
 
 export const todasQuestoes: Questao[] = [
   ...(numeros as Questao[]),
@@ -43,6 +44,7 @@ export const todasQuestoes: Questao[] = [
   ...(logica as Questao[]),
   ...(conjuntos as Questao[]),
   ...(real as Questao[]),
+  ...(banco as Questao[]),
 ];
 
 export function questoesPorCategoria(categoriaId: string): Questao[] {

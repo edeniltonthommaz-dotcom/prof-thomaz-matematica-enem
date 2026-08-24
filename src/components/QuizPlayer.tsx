@@ -63,7 +63,11 @@ export default function QuizPlayer({
         <DificuldadeBadge dificuldade={questao.dificuldade} />
         <span className="text-xs text-slate-400">
           Questão {posicao} de {total}
-          {questao.fonte.tipo === "enem" && questao.fonte.ano ? ` · ENEM ${questao.fonte.ano}` : " · Inédita"}
+          {questao.fonte.tipo === "enem" && questao.fonte.ano
+            ? ` · ENEM ${questao.fonte.ano}`
+            : questao.fonte.tipo === "banco"
+              ? ` · Banco${questao.fonte.banca ? ` (${questao.fonte.banca})` : ""}`
+              : " · Inédita"}
         </span>
       </div>
 
