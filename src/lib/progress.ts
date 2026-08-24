@@ -12,7 +12,7 @@ export interface RegistroResposta {
   timestamp: number;
 }
 
-type ProgressoMap = Record<string, RegistroResposta>;
+export type ProgressoMap = Record<string, RegistroResposta>;
 
 interface LinhaProgresso {
   questao_id: string;
