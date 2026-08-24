@@ -4,18 +4,13 @@ import Link from "next/link";
 import { useMemo, useSyncExternalStore } from "react";
 import { RotateCcw } from "lucide-react";
 import { subscribe, getSnapshot, getServerSnapshot } from "@/lib/progress";
+import { resolverInfoQuestao, type MapaQuestoesCompacto, type InfoQuestao } from "@/lib/mapaQuestoes";
 import EmptyState from "@/components/EmptyState";
-
-interface InfoQuestao {
-  categoriaId: string;
-  categoriaNome: string;
-  subtopico: string;
-}
 
 export default function RevisaoList({
   mapaQuestoes,
 }: {
-  mapaQuestoes: Record<string, InfoQuestao>;
+  mapaQuestoes: MapaQuestoesCompacto;
 }) {
   const registros = useSyncExternalStore(subscribe, getSnapshot, getServerSnapshot);
 
@@ -23,7 +18,7 @@ export default function RevisaoList({
     () =>
       Object.entries(registros)
         .filter(([, r]) => r?.respondida && !r.correta)
-        .map(([id, r]) => ({ id, info: mapaQuestoes[id], timestamp: r.timestamp }))
+        .map(([id, r]) => ({ id, info: resolverInfoQuestao(mapaQuestoes, id), timestamp: r.timestamp }))
         .filter((i): i is { id: string; info: InfoQuestao; timestamp: number } => !!i.info)
         .sort((a, b) => b.timestamp - a.timestamp),
     [registros, mapaQuestoes]
@@ -35,6 +30,7 @@ export default function RevisaoList({
         icon={RotateCcw}
         titulo="Nenhum erro registrado ainda"
         descricao="As questões que você errar aparecem aqui para você revisar rapidamente."
+        acao={{ href: "/assuntos", label: "Explorar assuntos" }}
       />
     );
   }

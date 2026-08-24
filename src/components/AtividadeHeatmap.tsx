@@ -1,11 +1,12 @@
 "use client";
 
-import { useMemo, useSyncExternalStore } from "react";
+import { useEffect, useMemo, useState, useSyncExternalStore } from "react";
 import { Flame } from "lucide-react";
 import { subscribe, getSnapshot, getServerSnapshot } from "@/lib/progress";
-import { diasAtivos, calcularSequencia, construirHeatmap } from "@/lib/gamificacao";
+import { diasAtivos, calcularSequencia, construirHeatmap, type DiaAtividade } from "@/lib/gamificacao";
 
 const MESES = ["jan", "fev", "mar", "abr", "mai", "jun", "jul", "ago", "set", "out", "nov", "dez"];
+const SEMANAS_PADRAO = 27;
 
 function corPorContagem(n: number): string {
   if (n === 0) return "bg-white/5";
@@ -20,11 +21,28 @@ function chunk<T>(arr: T[], size: number): T[][] {
   return out;
 }
 
+const HEATMAP_VAZIO: DiaAtividade[] = Array.from({ length: SEMANAS_PADRAO * 7 }, (_, i) => ({
+  data: `placeholder-${i}`,
+  contagem: 0,
+}));
+
 export default function AtividadeHeatmap() {
   const registros = useSyncExternalStore(subscribe, getSnapshot, getServerSnapshot);
+  const [agora, setAgora] = useState<Date | null>(null);
+
+  useEffect(() => {
+    setAgora(new Date());
+  }, []);
+
   const dias = useMemo(() => diasAtivos(registros), [registros]);
-  const sequencia = useMemo(() => calcularSequencia(dias), [dias]);
-  const heatmapDados = useMemo(() => construirHeatmap(registros), [registros]);
+  const sequencia = useMemo(
+    () => (agora ? calcularSequencia(dias, agora) : { atual: 0, recorde: 0 }),
+    [dias, agora]
+  );
+  const heatmapDados = useMemo(
+    () => (agora ? construirHeatmap(registros, SEMANAS_PADRAO, agora) : HEATMAP_VAZIO),
+    [registros, agora]
+  );
 
   const semanas = chunk(heatmapDados, 7);
 
@@ -48,6 +66,7 @@ export default function AtividadeHeatmap() {
             style={{ gridTemplateColumns: `repeat(${semanas.length}, 12px)` }}
           >
             {semanas.map((semana, i) => {
+              if (!agora) return <span key={i} className="relative overflow-visible whitespace-nowrap" />;
               const dataPrimeiroDia = new Date(`${semana[0].data}T00:00:00`);
               const mesAnterior = i > 0 ? new Date(`${semanas[i - 1][0].data}T00:00:00`).getMonth() : null;
               const mostrarLabel = dataPrimeiroDia.getMonth() !== mesAnterior;
@@ -63,10 +82,10 @@ export default function AtividadeHeatmap() {
             className="grid gap-[3px]"
             style={{ gridTemplateRows: "repeat(7, 12px)", gridAutoFlow: "column", gridAutoColumns: "12px" }}
           >
-            {heatmapDados.map((d) => (
+            {heatmapDados.map((d, i) => (
               <div
-                key={d.data}
-                title={`${d.data}: ${d.contagem} questão${d.contagem === 1 ? "" : "es"}`}
+                key={agora ? d.data : i}
+                title={agora ? `${d.data}: ${d.contagem} questão${d.contagem === 1 ? "" : "es"}` : undefined}
                 className={`h-3 w-3 rounded-sm ${corPorContagem(d.contagem)}`}
               />
             ))}

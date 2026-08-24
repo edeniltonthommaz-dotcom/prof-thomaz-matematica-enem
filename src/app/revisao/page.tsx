@@ -1,19 +1,11 @@
 import { todasQuestoes } from "@/lib/questions";
 import { categorias } from "@/data/categorias";
+import { construirMapaQuestoesCompacto } from "@/lib/mapaQuestoes";
 import RevisaoList from "@/components/RevisaoList";
 
 export default function RevisaoPage() {
   const nomeCategoria = new Map(categorias.map((c) => [c.id, c.nome]));
-  const mapaQuestoes = Object.fromEntries(
-    todasQuestoes.map((q) => [
-      q.id,
-      {
-        categoriaId: q.categoriaId,
-        categoriaNome: nomeCategoria.get(q.categoriaId) ?? q.categoriaId,
-        subtopico: q.subtopico,
-      },
-    ])
-  );
+  const mapaQuestoes = construirMapaQuestoesCompacto(todasQuestoes, nomeCategoria);
 
   return (
     <div className="mx-auto max-w-4xl px-4 py-10">

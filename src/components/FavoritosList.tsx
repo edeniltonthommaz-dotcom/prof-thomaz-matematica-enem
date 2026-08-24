@@ -4,25 +4,20 @@ import Link from "next/link";
 import { useMemo, useSyncExternalStore } from "react";
 import { Star } from "lucide-react";
 import { subscribe, getSnapshot, getServerSnapshot, alternarFavorito } from "@/lib/favoritos";
+import { resolverInfoQuestao, type MapaQuestoesCompacto, type InfoQuestao } from "@/lib/mapaQuestoes";
 import EmptyState from "@/components/EmptyState";
-
-interface InfoQuestao {
-  categoriaId: string;
-  categoriaNome: string;
-  subtopico: string;
-}
 
 export default function FavoritosList({
   mapaQuestoes,
 }: {
-  mapaQuestoes: Record<string, InfoQuestao>;
+  mapaQuestoes: MapaQuestoesCompacto;
 }) {
   const favoritos = useSyncExternalStore(subscribe, getSnapshot, getServerSnapshot);
 
   const itens = useMemo(
     () =>
       Object.keys(favoritos)
-        .map((id) => ({ id, info: mapaQuestoes[id] }))
+        .map((id) => ({ id, info: resolverInfoQuestao(mapaQuestoes, id) }))
         .filter((i): i is { id: string; info: InfoQuestao } => !!i.info),
     [favoritos, mapaQuestoes]
   );
@@ -33,6 +28,7 @@ export default function FavoritosList({
         icon={Star}
         titulo="Nenhuma questão favoritada"
         descricao="Clique na estrela ao responder uma questão para salvá-la aqui e achar rápido depois."
+        acao={{ href: "/assuntos", label: "Explorar assuntos" }}
       />
     );
   }
