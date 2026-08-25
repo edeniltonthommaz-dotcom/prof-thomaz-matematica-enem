@@ -16,6 +16,7 @@ import {
   Star,
   BarChart3,
   Menu,
+  Shuffle,
   type LucideIcon,
 } from "lucide-react";
 import AuthButton from "@/components/AuthButton";
@@ -33,6 +34,7 @@ const NAV_ITEMS: ItemNav[] = [
   { href: "/assuntos", label: "Assuntos", icon: BookOpen },
   { href: "/dificuldade", label: "Dificuldade", icon: Gauge },
   { href: "/simulados", label: "Simulados", icon: ClipboardList },
+  { href: "/aleatoria", label: "Questão Aleatória", icon: Shuffle },
   { href: "/flashcards", label: "Flashcards", icon: Layers },
   { href: "/revisao", label: "Revisão", icon: RotateCcw },
   { href: "/favoritos", label: "Favoritos", icon: Star },

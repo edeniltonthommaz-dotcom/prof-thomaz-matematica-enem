@@ -18,7 +18,7 @@ export default function CircularProgress({
   const corTraco = corDestaque === "amarelo" ? "stroke-amber-500" : "stroke-gray-400";
 
   return (
-    <div className="flex flex-col items-center" role="img" aria-label={label ?? `${pctClamped}% concluído`}>
+    <div className="flex flex-col items-center" role="img" aria-label={`${pctClamped}% ${label ?? "concluído"}`}>
       <svg width={size} height={size} viewBox={`0 0 ${size} ${size}`} className="-rotate-90">
         <circle
           cx={size / 2}

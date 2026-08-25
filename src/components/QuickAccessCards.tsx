@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useMemo, useSyncExternalStore } from "react";
 import { BookOpen, Layers, ClipboardList, PlayCircle, type LucideIcon } from "lucide-react";
 import { subscribe, getSnapshot, getServerSnapshot } from "@/lib/progress";
-import { resolverInfoQuestao, type MapaQuestoesCompacto } from "@/lib/mapaQuestoes";
+import type { Categoria } from "@/lib/types";
 
 interface Atalho {
   icon: LucideIcon;
@@ -15,7 +15,7 @@ interface Atalho {
 
 function ultimaCategoriaRespondida(
   registros: ReturnType<typeof getSnapshot>,
-  mapaQuestoes: MapaQuestoesCompacto
+  categoriaPorQuestaoId: Map<string, { categoriaId: string; categoriaNome: string }>
 ) {
   let melhorId: string | null = null;
   let melhorTimestamp = -Infinity;
@@ -25,14 +25,27 @@ function ultimaCategoriaRespondida(
       melhorTimestamp = r.timestamp;
     }
   }
-  return melhorId ? resolverInfoQuestao(mapaQuestoes, melhorId) : undefined;
+  return melhorId ? categoriaPorQuestaoId.get(melhorId) : undefined;
 }
 
-export default function QuickAccessCards({ mapaQuestoes }: { mapaQuestoes: MapaQuestoesCompacto }) {
+export default function QuickAccessCards({
+  categorias,
+}: {
+  categorias: { categoria: Categoria; questaoIds: string[] }[];
+}) {
   const registros = useSyncExternalStore(subscribe, getSnapshot, getServerSnapshot);
+  const categoriaPorQuestaoId = useMemo(() => {
+    const mapa = new Map<string, { categoriaId: string; categoriaNome: string }>();
+    for (const { categoria, questaoIds } of categorias) {
+      for (const id of questaoIds) {
+        mapa.set(id, { categoriaId: categoria.id, categoriaNome: categoria.nome });
+      }
+    }
+    return mapa;
+  }, [categorias]);
   const ultimaCategoria = useMemo(
-    () => ultimaCategoriaRespondida(registros, mapaQuestoes),
-    [registros, mapaQuestoes]
+    () => ultimaCategoriaRespondida(registros, categoriaPorQuestaoId),
+    [registros, categoriaPorQuestaoId]
   );
 
   const atalhos: Atalho[] = [

@@ -67,13 +67,3 @@ export function contagemPorDificuldade(categoriaId: string): Record<Dificuldade,
     dificil: lista.filter((q) => q.dificuldade === "dificil").length,
   };
 }
-
-export function contagemReaisPorAno(): Record<number, number> {
-  const out: Record<number, number> = {};
-  for (const q of todasQuestoes) {
-    if (q.fonte.tipo === "enem" && q.fonte.ano) {
-      out[q.fonte.ano] = (out[q.fonte.ano] ?? 0) + 1;
-    }
-  }
-  return out;
-}

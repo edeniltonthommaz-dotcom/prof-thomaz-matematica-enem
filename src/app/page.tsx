@@ -1,6 +1,5 @@
 import { categorias } from "@/data/categorias";
-import { todasQuestoes, questoesPorCategoria } from "@/lib/questions";
-import { construirMapaQuestoesCompacto } from "@/lib/mapaQuestoes";
+import { questoesPorCategoria } from "@/lib/questions";
 import { createClient } from "@/lib/supabase/server";
 import DashboardHeader from "@/components/DashboardHeader";
 import PatenteCard from "@/components/PatenteCard";
@@ -20,8 +19,6 @@ export default async function Home() {
     categoria: c,
     questaoIds: questoesPorCategoria(c.id).map((q) => q.id),
   }));
-  const nomeCategoria = new Map(categorias.map((c) => [c.id, c.nome]));
-  const mapaQuestoesCompacto = construirMapaQuestoesCompacto(todasQuestoes, nomeCategoria);
 
   return (
     <div className="mx-auto max-w-6xl space-y-8 px-4 py-10">
@@ -32,7 +29,7 @@ export default async function Home() {
         <ProgressoGeralCard categorias={categoriasComQuestoes} />
       </div>
       <MetricsCarousel categorias={categoriasComQuestoes} />
-      <QuickAccessCards mapaQuestoes={mapaQuestoesCompacto} />
+      <QuickAccessCards categorias={categoriasComQuestoes} />
       <AtividadeHeatmap />
     </div>
   );
