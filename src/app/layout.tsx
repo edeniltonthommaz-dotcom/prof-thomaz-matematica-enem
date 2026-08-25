@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import Navbar from "@/components/Navbar";
+import Sidebar from "@/components/Sidebar";
 import { createClient } from "@/lib/supabase/server";
 import "./globals.css";
 
@@ -32,8 +32,12 @@ export default async function RootLayout({ children }: LayoutProps<"/">) {
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
-        <Navbar user={user} />
-        <main className="flex-1">{children}</main>
+        <div className="flex flex-1 flex-col lg:flex-row">
+          <Sidebar user={user} />
+          <div className="min-w-0 flex-1">
+            <main>{children}</main>
+          </div>
+        </div>
       </body>
     </html>
   );
