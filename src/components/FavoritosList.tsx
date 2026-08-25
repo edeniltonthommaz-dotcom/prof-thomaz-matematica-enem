@@ -18,7 +18,8 @@ export default function FavoritosList({
     () =>
       Object.keys(favoritos)
         .map((id) => ({ id, info: resolverInfoQuestao(mapaQuestoes, id) }))
-        .filter((i): i is { id: string; info: InfoQuestao } => !!i.info),
+        .filter((i): i is { id: string; info: InfoQuestao } => !!i.info)
+        .sort((a, b) => favoritos[b.id] - favoritos[a.id]),
     [favoritos, mapaQuestoes]
   );
 

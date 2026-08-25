@@ -2,9 +2,15 @@
 
 import { useMemo, useSyncExternalStore } from "react";
 import { calcularEstatisticas, subscribe, getSnapshot, getServerSnapshot } from "@/lib/progress";
+import type { Categoria } from "@/lib/types";
 
-export default function HomeStats({ questaoIds }: { questaoIds: string[] }) {
+export default function HomeStats({
+  categorias,
+}: {
+  categorias: { categoria: Categoria; questaoIds: string[] }[];
+}) {
   const registros = useSyncExternalStore(subscribe, getSnapshot, getServerSnapshot);
+  const questaoIds = useMemo(() => categorias.flatMap((c) => c.questaoIds), [categorias]);
   const stats = useMemo(() => calcularEstatisticas(registros, questaoIds), [registros, questaoIds]);
 
   const cards = [

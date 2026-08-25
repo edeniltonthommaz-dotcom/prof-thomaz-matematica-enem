@@ -6,7 +6,7 @@ import { CheckCircle2, RotateCcw } from "lucide-react";
 import type { Alternativa, Questao } from "@/lib/types";
 import DificuldadeBadge from "@/components/DificuldadeBadge";
 import CelebracaoModal from "@/components/CelebracaoModal";
-import { registrarResposta, getSnapshot } from "@/lib/progress";
+import { registrarResposta, getSnapshot, hidratacaoEstaPendente } from "@/lib/progress";
 import { detectarCelebracoes, type Celebracao } from "@/lib/gamificacao";
 
 interface QuestaoComCategoria extends Questao {
@@ -21,6 +21,14 @@ export default function SimuladoPlayer({ questoes }: { questoes: QuestaoComCateg
   const [acertos, setAcertos] = useState(0);
   const [finalizado, setFinalizado] = useState(false);
   const [celebracoes, setCelebracoes] = useState<Celebracao[]>([]);
+
+  if (questoes.length === 0) {
+    return (
+      <div className="mx-auto max-w-2xl px-4 py-10 text-center text-sm text-slate-400">
+        Nenhuma questão disponível para o simulado no momento.
+      </div>
+    );
+  }
 
   const questao = questoes[indice];
   const ultima = indice === questoes.length - 1;
@@ -38,8 +46,10 @@ export default function SimuladoPlayer({ questoes }: { questoes: QuestaoComCateg
     const antes = getSnapshot();
     registrarResposta(questao.id, correta, selecionada);
     const depois = getSnapshot();
-    const novas = detectarCelebracoes(antes, depois);
-    if (novas.length > 0) setCelebracoes(novas);
+    if (!hidratacaoEstaPendente()) {
+      const novas = detectarCelebracoes(antes, depois);
+      if (novas.length > 0) setCelebracoes(novas);
+    }
   }
 
   function proxima() {

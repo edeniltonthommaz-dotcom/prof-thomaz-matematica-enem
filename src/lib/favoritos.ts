@@ -1,6 +1,8 @@
+"use client";
+
 const STORAGE_KEY = "enem-questoes-favoritos-v1";
 
-export type FavoritosSet = Record<string, true>;
+export type FavoritosSet = Record<string, number>;
 
 const EMPTY: FavoritosSet = {};
 let cache: FavoritosSet | null = null;
@@ -38,13 +40,9 @@ export function subscribe(listener: () => void): () => void {
   return () => listeners.delete(listener);
 }
 
-export function isFavorito(questaoId: string): boolean {
-  return !!getSnapshot()[questaoId];
-}
-
 export function alternarFavorito(questaoId: string) {
   const set = { ...getSnapshot() };
   if (set[questaoId]) delete set[questaoId];
-  else set[questaoId] = true;
+  else set[questaoId] = Date.now();
   apply(set);
 }

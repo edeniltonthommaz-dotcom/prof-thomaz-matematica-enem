@@ -41,7 +41,7 @@ export default function Home() {
         <MetaDiariaCard categorias={categoriasComQuestoes} />
       </div>
 
-      <HomeStats questaoIds={todasQuestoes.map((q) => q.id)} />
+      <HomeStats categorias={categoriasComQuestoes} />
 
       <section className="mt-10 rounded-xl border border-white/10 bg-white/[0.03] p-5">
         <p className="mb-1 text-sm font-semibold text-white">Origem das questões</p>

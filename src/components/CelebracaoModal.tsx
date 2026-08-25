@@ -1,5 +1,6 @@
 "use client";
 
+import { useEffect, useRef } from "react";
 import { Trophy, Flame, Star, CheckCircle2, type LucideIcon } from "lucide-react";
 import type { Celebracao } from "@/lib/gamificacao";
 
@@ -49,6 +50,16 @@ export default function CelebracaoModal({
   onFechar: () => void;
 }) {
   const { icone: Icone, rotulo, titulo, descricao } = conteudo(celebracao);
+  const botaoRef = useRef<HTMLButtonElement>(null);
+
+  useEffect(() => {
+    botaoRef.current?.focus();
+    function aoTeclar(e: KeyboardEvent) {
+      if (e.key === "Escape") onFechar();
+    }
+    window.addEventListener("keydown", aoTeclar);
+    return () => window.removeEventListener("keydown", aoTeclar);
+  }, [onFechar]);
 
   return (
     <div
@@ -56,8 +67,12 @@ export default function CelebracaoModal({
       role="dialog"
       aria-modal="true"
       aria-labelledby="celebracao-titulo"
+      onClick={onFechar}
     >
-      <div className="w-full max-w-sm rounded-2xl border border-gray-400/30 bg-[#0f1729] p-6 text-center shadow-2xl shadow-black/40">
+      <div
+        className="w-full max-w-sm rounded-2xl border border-gray-400/30 bg-[#0f1729] p-6 text-center shadow-2xl shadow-black/40"
+        onClick={(e) => e.stopPropagation()}
+      >
         <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-gray-600/20 text-gray-200">
           <Icone className="h-8 w-8" />
         </div>
@@ -67,6 +82,7 @@ export default function CelebracaoModal({
         </h2>
         <p className="mt-2 text-sm text-slate-400">{descricao}</p>
         <button
+          ref={botaoRef}
           onClick={onFechar}
           className="mt-6 w-full rounded-lg bg-gray-600 px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-gray-500"
         >

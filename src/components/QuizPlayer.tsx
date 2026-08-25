@@ -8,7 +8,7 @@ import DificuldadeBadge from "@/components/DificuldadeBadge";
 import SolidoDiagram from "@/components/SolidoDiagram";
 import GraficoDiagram from "@/components/GraficoDiagram";
 import CelebracaoModal from "@/components/CelebracaoModal";
-import { registrarResposta, getSnapshot } from "@/lib/progress";
+import { registrarResposta, getSnapshot, hidratacaoEstaPendente } from "@/lib/progress";
 import { detectarCelebracoes, type Celebracao } from "@/lib/gamificacao";
 import {
   alternarFavorito,
@@ -51,8 +51,10 @@ export default function QuizPlayer({
     const antes = getSnapshot();
     registrarResposta(questao.id, selecionada === questao.correta, selecionada);
     const depois = getSnapshot();
-    const novas = detectarCelebracoes(antes, depois);
-    if (novas.length > 0) setCelebracoes(novas);
+    if (!hidratacaoEstaPendente()) {
+      const novas = detectarCelebracoes(antes, depois);
+      if (novas.length > 0) setCelebracoes(novas);
+    }
   }
 
   const acertou = respondida && selecionada === questao.correta;

@@ -28,6 +28,13 @@ const listeners = new Set<() => void>();
 /** Usuário logado atual. Quando definido, novas respostas vão para o Supabase em vez do localStorage. */
 let currentUserId: string | null = null;
 
+/** true enquanto hydrateFromSupabase está em voo — usado para suprimir celebrações espúrias baseadas num snapshot "antes" que ainda não reflete o histórico remoto do usuário. */
+let hidratacaoPendente = false;
+
+export function hidratacaoEstaPendente(): boolean {
+  return hidratacaoPendente;
+}
+
 function readFromStorage(): ProgressoMap {
   if (typeof window === "undefined") return EMPTY;
   try {
@@ -105,6 +112,7 @@ export function limparProgresso() {
  * conflito) e sobe para o Supabase o que só existia localmente.
  */
 export async function hydrateFromSupabase(userId: string): Promise<void> {
+  hidratacaoPendente = true;
   const supabase = createClient();
   const { data, error } = await supabase
     .from(TABLE)
@@ -113,6 +121,7 @@ export async function hydrateFromSupabase(userId: string): Promise<void> {
 
   if (error) {
     console.error("Falha ao carregar progresso do Supabase:", error);
+    hidratacaoPendente = false;
     return;
   }
 
@@ -145,6 +154,7 @@ export async function hydrateFromSupabase(userId: string): Promise<void> {
   }
 
   currentUserId = userId;
+  hidratacaoPendente = false;
   applyRemote({ ...local, ...remoto });
 }
 
