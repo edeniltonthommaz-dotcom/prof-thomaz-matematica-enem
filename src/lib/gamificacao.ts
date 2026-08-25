@@ -198,6 +198,33 @@ export function calcularProgressoMetaDiaria(
   return { atual, meta: META_DIARIA_QUESTOES, completa: atual >= META_DIARIA_QUESTOES };
 }
 
+export interface ProgressoMetaSemanal {
+  atual: number;
+  meta: number;
+  completa: boolean;
+}
+
+export function calcularProgressoMetaSemanal(
+  registros: ProgressoMap,
+  agora: Date = new Date()
+): ProgressoMetaSemanal {
+  const hoje = new Date(agora.getFullYear(), agora.getMonth(), agora.getDate());
+  const diasDaJanela = new Set<string>();
+  for (let i = 0; i < 7; i++) {
+    const d = new Date(hoje);
+    d.setDate(d.getDate() - i);
+    diasDaJanela.add(timestampParaDiaLocal(d.getTime()));
+  }
+
+  let atual = 0;
+  for (const r of Object.values(registros)) {
+    if (r?.respondida && diasDaJanela.has(timestampParaDiaLocal(r.timestamp))) atual++;
+  }
+
+  const meta = META_DIARIA_QUESTOES * 7;
+  return { atual, meta, completa: atual >= meta };
+}
+
 export interface DesempenhoCategoria {
   categoria: Categoria;
   stats: { respondidas: number; acertos: number; acertoPct: number | null };
