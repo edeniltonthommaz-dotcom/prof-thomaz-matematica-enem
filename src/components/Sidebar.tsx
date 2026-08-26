@@ -57,7 +57,7 @@ export function Logo() {
         <span className="block text-[11px] text-slate-400">
           Matemática ENEM
           <br />
-          1000+ questões
+          1500+ questões
         </span>
       </span>
     </Link>
