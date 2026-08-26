@@ -5,6 +5,11 @@ import { CheckCircle2, XCircle, Percent, Flame, Target, CalendarCheck } from "lu
 import type { LucideIcon } from "lucide-react";
 import { calcularEstatisticas, subscribe, getSnapshot, getServerSnapshot } from "@/lib/progress";
 import { calcularSequencia, diasAtivos, calcularProgressoMetaSemanal } from "@/lib/gamificacao";
+import {
+  subscribe as subscribeMeta,
+  getSnapshot as getMetaSnapshot,
+  getServerSnapshot as getMetaServerSnapshot,
+} from "@/lib/metaDiaria";
 import type { Categoria } from "@/lib/types";
 
 interface Indicador {
@@ -19,10 +24,14 @@ export default function MetricsCarousel({
   categorias: { categoria: Categoria; questaoIds: string[] }[];
 }) {
   const registros = useSyncExternalStore(subscribe, getSnapshot, getServerSnapshot);
+  const metaDiaria = useSyncExternalStore(subscribeMeta, getMetaSnapshot, getMetaServerSnapshot);
   const questaoIds = useMemo(() => categorias.flatMap((c) => c.questaoIds), [categorias]);
   const stats = useMemo(() => calcularEstatisticas(registros, questaoIds), [registros, questaoIds]);
   const sequencia = useMemo(() => calcularSequencia(diasAtivos(registros)), [registros]);
-  const metaSemanal = useMemo(() => calcularProgressoMetaSemanal(registros), [registros]);
+  const metaSemanal = useMemo(
+    () => calcularProgressoMetaSemanal(registros, metaDiaria),
+    [registros, metaDiaria]
+  );
 
   const indicadores: Indicador[] = [
     { icon: CheckCircle2, valor: stats.respondidas.toLocaleString("pt-BR"), label: "Questões respondidas" },

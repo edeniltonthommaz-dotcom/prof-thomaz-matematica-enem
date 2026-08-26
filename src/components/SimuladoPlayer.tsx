@@ -1,13 +1,18 @@
 "use client";
 
 import { useRouter } from "next/navigation";
-import { useState } from "react";
+import { useState, useSyncExternalStore } from "react";
 import { CheckCircle2, RotateCcw } from "lucide-react";
 import type { Alternativa, Questao } from "@/lib/types";
 import DificuldadeBadge from "@/components/DificuldadeBadge";
 import CelebracaoModal from "@/components/CelebracaoModal";
 import { registrarResposta, getSnapshot, hidratacaoEstaPendente } from "@/lib/progress";
 import { detectarCelebracoes, type Celebracao } from "@/lib/gamificacao";
+import {
+  subscribe as subscribeMeta,
+  getSnapshot as getMetaSnapshot,
+  getServerSnapshot as getMetaServerSnapshot,
+} from "@/lib/metaDiaria";
 
 interface QuestaoComCategoria extends Questao {
   categoriaNome: string;
@@ -21,6 +26,7 @@ export default function SimuladoPlayer({ questoes }: { questoes: QuestaoComCateg
   const [acertos, setAcertos] = useState(0);
   const [finalizado, setFinalizado] = useState(false);
   const [celebracoes, setCelebracoes] = useState<Celebracao[]>([]);
+  const metaDiaria = useSyncExternalStore(subscribeMeta, getMetaSnapshot, getMetaServerSnapshot);
 
   if (questoes.length === 0) {
     return (
@@ -47,7 +53,7 @@ export default function SimuladoPlayer({ questoes }: { questoes: QuestaoComCateg
     registrarResposta(questao.id, correta, selecionada);
     const depois = getSnapshot();
     if (!hidratacaoEstaPendente()) {
-      const novas = detectarCelebracoes(antes, depois);
+      const novas = detectarCelebracoes(antes, depois, metaDiaria);
       if (novas.length > 0) setCelebracoes(novas);
     }
   }

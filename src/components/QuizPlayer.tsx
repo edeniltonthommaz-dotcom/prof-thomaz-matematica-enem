@@ -16,6 +16,11 @@ import {
   getSnapshot as getFavoritosSnapshot,
   getServerSnapshot as getFavoritosServerSnapshot,
 } from "@/lib/favoritos";
+import {
+  subscribe as subscribeMeta,
+  getSnapshot as getMetaSnapshot,
+  getServerSnapshot as getMetaServerSnapshot,
+} from "@/lib/metaDiaria";
 
 export default function QuizPlayer({
   questao,
@@ -39,6 +44,7 @@ export default function QuizPlayer({
   const [celebracoes, setCelebracoes] = useState<Celebracao[]>([]);
   const favoritos = useSyncExternalStore(subscribeFavoritos, getFavoritosSnapshot, getFavoritosServerSnapshot);
   const favoritada = !!favoritos[questao.id];
+  const metaDiaria = useSyncExternalStore(subscribeMeta, getMetaSnapshot, getMetaServerSnapshot);
 
   function escolher(letra: Alternativa["letra"]) {
     if (respondida) return;
@@ -52,7 +58,7 @@ export default function QuizPlayer({
     registrarResposta(questao.id, selecionada === questao.correta, selecionada);
     const depois = getSnapshot();
     if (!hidratacaoEstaPendente()) {
-      const novas = detectarCelebracoes(antes, depois);
+      const novas = detectarCelebracoes(antes, depois, metaDiaria);
       if (novas.length > 0) setCelebracoes(novas);
     }
   }

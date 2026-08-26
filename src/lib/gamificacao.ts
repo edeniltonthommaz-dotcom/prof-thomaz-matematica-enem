@@ -174,8 +174,6 @@ export function calcularTotalAcertos(registros: ProgressoMap): number {
   return acertos;
 }
 
-export const META_DIARIA_QUESTOES = 10;
-
 export interface ProgressoMetaDiaria {
   atual: number;
   meta: number;
@@ -190,12 +188,14 @@ export function contarRespondidasNoDia(registros: ProgressoMap, dia: string): nu
   return n;
 }
 
+/** `meta` é o número de questões/dia escolhido pelo aluno — ver "@/lib/metaDiaria". */
 export function calcularProgressoMetaDiaria(
   registros: ProgressoMap,
+  meta: number,
   agora: Date = new Date()
 ): ProgressoMetaDiaria {
   const atual = contarRespondidasNoDia(registros, timestampParaDiaLocal(agora.getTime()));
-  return { atual, meta: META_DIARIA_QUESTOES, completa: atual >= META_DIARIA_QUESTOES };
+  return { atual, meta, completa: atual >= meta };
 }
 
 export interface ProgressoMetaSemanal {
@@ -204,8 +204,10 @@ export interface ProgressoMetaSemanal {
   completa: boolean;
 }
 
+/** `metaDiaria` é o número de questões/dia escolhido pelo aluno — a meta semanal é `metaDiaria * 7`. */
 export function calcularProgressoMetaSemanal(
   registros: ProgressoMap,
+  metaDiaria: number,
   agora: Date = new Date()
 ): ProgressoMetaSemanal {
   const hoje = new Date(agora.getFullYear(), agora.getMonth(), agora.getDate());
@@ -221,7 +223,7 @@ export function calcularProgressoMetaSemanal(
     if (r?.respondida && diasDaJanela.has(timestampParaDiaLocal(r.timestamp))) atual++;
   }
 
-  const meta = META_DIARIA_QUESTOES * 7;
+  const meta = metaDiaria * 7;
   return { atual, meta, completa: atual >= meta };
 }
 
@@ -294,6 +296,7 @@ function marcoCruzado(antes: number, depois: number, marcos: readonly number[]):
 export function detectarCelebracoes(
   antes: ProgressoMap,
   depois: ProgressoMap,
+  metaDiaria: number,
   agora: Date = new Date()
 ): Celebracao[] {
   const celebracoes: Celebracao[] = [];
@@ -332,8 +335,8 @@ export function detectarCelebracoes(
   const hoje = timestampParaDiaLocal(agora.getTime());
   const metaAntes = contarRespondidasNoDia(antes, hoje);
   const metaDepois = contarRespondidasNoDia(depois, hoje);
-  if (metaAntes < META_DIARIA_QUESTOES && metaDepois >= META_DIARIA_QUESTOES) {
-    celebracoes.push({ tipo: "meta", quantidade: META_DIARIA_QUESTOES });
+  if (metaAntes < metaDiaria && metaDepois >= metaDiaria) {
+    celebracoes.push({ tipo: "meta", quantidade: metaDiaria });
   }
 
   return celebracoes;
