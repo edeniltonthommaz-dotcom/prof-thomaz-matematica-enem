@@ -1,516 +1,108 @@
 [
   {
-    "id": "geometria-plana-ined-0337",
+    "id": "geometria-plana-ined-0327",
     "categoriaId": "geometria-plana",
     "subtopico": "Áreas e Perímetros",
     "dificuldade": "facil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Um terreno retangular tem 5 m de largura e 21 m de comprimento. Qual é o perímetro desse terreno?",
+    "enunciado": "Um terreno retangular tem 11 m de largura e 29 m de comprimento. Qual é a área desse terreno?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "21 m"
+        "texto": "80 m²"
       },
       {
         "letra": "B",
-        "texto": "20 m"
+        "texto": "121 m²"
       },
       {
         "letra": "C",
-        "texto": "26 m"
-      },
-      {
-        "letra": "D",
-        "texto": "52 m"
-      },
-      {
-        "letra": "E",
-        "texto": "105 m"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "Perímetro = 2 × (largura + comprimento) = 2 × (5 + 21) = 52 m."
-  },
-  {
-    "id": "geometria-plana-ined-0338",
-    "categoriaId": "geometria-plana",
-    "subtopico": "Teorema de Pitágoras",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma escada está apoiada em uma parede vertical. A base da escada está a 3 m da parede, e o topo da escada toca a parede a 4 m do chão. Qual é o comprimento da escada?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "10 m"
-      },
-      {
-        "letra": "B",
-        "texto": "11 m"
-      },
-      {
-        "letra": "C",
-        "texto": "4 m"
-      },
-      {
-        "letra": "D",
-        "texto": "9 m"
-      },
-      {
-        "letra": "E",
-        "texto": "7 m"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "Pelo Teorema de Pitágoras: escada² = 3² + 4² = 9 + 16 = 100. Logo, escada = √100 = 10 m."
-  },
-  {
-    "id": "geometria-plana-ined-0339",
-    "categoriaId": "geometria-plana",
-    "subtopico": "Áreas e Perímetros",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um terreno retangular tem 29 m de largura e 32 m de comprimento. Qual é a área desse terreno?",
-    "alternativas": [
-      {
-        "letra": "A",
         "texto": "841 m²"
       },
       {
-        "letra": "B",
-        "texto": "464 m²"
-      },
-      {
-        "letra": "C",
-        "texto": "928 m²"
-      },
-      {
         "letra": "D",
-        "texto": "122 m²"
+        "texto": "159.5 m²"
       },
       {
         "letra": "E",
-        "texto": "1024 m²"
+        "texto": "319 m²"
       }
     ],
-    "correta": "C",
-    "explicacao": "Área = largura × comprimento = 29 × 32 = 928 m²."
+    "correta": "E",
+    "explicacao": "Área = largura × comprimento = 11 × 29 = 319 m²."
   },
   {
-    "id": "geometria-plana-ined-0340",
+    "id": "geometria-plana-ined-0328",
     "categoriaId": "geometria-plana",
     "subtopico": "Teorema de Pitágoras",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma escada está apoiada em uma parede vertical. A base da escada está a 10 m da parede, e o topo da escada toca a parede a 24 m do chão. Qual é o comprimento da escada?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "14 m"
-      },
-      {
-        "letra": "B",
-        "texto": "17 m"
-      },
-      {
-        "letra": "C",
-        "texto": "12 m"
-      },
-      {
-        "letra": "D",
-        "texto": "13 m"
-      },
-      {
-        "letra": "E",
-        "texto": "34 m"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "Pelo Teorema de Pitágoras: escada² = 10² + 24² = 100 + 576 = 169. Logo, escada = √169 = 13 m."
-  },
-  {
-    "id": "geometria-plana-ined-0341",
-    "categoriaId": "geometria-plana",
-    "subtopico": "Áreas e Perímetros",
     "dificuldade": "medio",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Um terreno retangular tem 30 m de largura e 36 m de comprimento. Qual é o perímetro desse terreno?",
+    "enunciado": "Uma escada está apoiada em uma parede vertical. A base da escada está a 20 m da parede, e o topo da escada toca a parede a 21 m do chão. Qual é o comprimento da escada?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "120 m"
+        "texto": "30 m"
       },
       {
         "letra": "B",
-        "texto": "132 m"
-      },
-      {
-        "letra": "C",
-        "texto": "66 m"
-      },
-      {
-        "letra": "D",
-        "texto": "1080 m"
-      },
-      {
-        "letra": "E",
-        "texto": "121 m"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "Perímetro = 2 × (largura + comprimento) = 2 × (30 + 36) = 132 m."
-  },
-  {
-    "id": "geometria-plana-ined-0342",
-    "categoriaId": "geometria-plana",
-    "subtopico": "Teorema de Pitágoras",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma escada está apoiada em uma parede vertical. A base da escada está a 5 m da parede, e o topo da escada toca a parede a 36 m do chão. Qual é o comprimento da escada?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "21 m"
-      },
-      {
-        "letra": "B",
-        "texto": "27 m"
-      },
-      {
-        "letra": "C",
-        "texto": "26 m"
-      },
-      {
-        "letra": "D",
         "texto": "41 m"
       },
       {
-        "letra": "E",
-        "texto": "25 m"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "Pelo Teorema de Pitágoras: escada² = 5² + 36² = 25 + 1296 = 676. Logo, escada = √676 = 26 m."
-  },
-  {
-    "id": "geometria-plana-ined-0343",
-    "categoriaId": "geometria-plana",
-    "subtopico": "Áreas e Perímetros",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um terreno retangular tem 29 m de largura e 42 m de comprimento. Qual é a área desse terreno?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "609 m²"
-      },
-      {
-        "letra": "B",
-        "texto": "841 m²"
-      },
-      {
         "letra": "C",
-        "texto": "1218 m²"
+        "texto": "28 m"
       },
       {
         "letra": "D",
-        "texto": "1764 m²"
+        "texto": "21 m"
       },
       {
         "letra": "E",
-        "texto": "142 m²"
+        "texto": "29 m"
       }
     ],
-    "correta": "C",
-    "explicacao": "Área = largura × comprimento = 29 × 42 = 1218 m²."
+    "correta": "E",
+    "explicacao": "Pelo Teorema de Pitágoras: escada² = 20² + 21² = 400 + 441 = 841. Logo, escada = √841 = 29 m."
   },
   {
-    "id": "geometria-plana-ined-0344",
-    "categoriaId": "geometria-plana",
-    "subtopico": "Teorema de Pitágoras",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma escada está apoiada em uma parede vertical. A base da escada está a 20 m da parede, e o topo da escada toca a parede a 42 m do chão. Qual é o comprimento da escada?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "62 m"
-      },
-      {
-        "letra": "B",
-        "texto": "58 m"
-      },
-      {
-        "letra": "C",
-        "texto": "57 m"
-      },
-      {
-        "letra": "D",
-        "texto": "59 m"
-      },
-      {
-        "letra": "E",
-        "texto": "31 m"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "Pelo Teorema de Pitágoras: escada² = 20² + 42² = 400 + 1764 = 3364. Logo, escada = √3364 = 58 m."
-  },
-  {
-    "id": "geometria-plana-ined-0345",
+    "id": "geometria-plana-ined-0329",
     "categoriaId": "geometria-plana",
     "subtopico": "Áreas e Perímetros",
     "dificuldade": "dificil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Um terreno retangular tem 38 m de largura e 43 m de comprimento. Qual é o perímetro desse terreno?",
+    "enunciado": "Um terreno retangular tem 46 m de largura e 59 m de comprimento. Qual é a área desse terreno?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "153 m"
-      },
-      {
-        "letra": "B",
-        "texto": "162 m"
-      },
-      {
-        "letra": "C",
-        "texto": "81 m"
-      },
-      {
-        "letra": "D",
-        "texto": "152 m"
-      },
-      {
-        "letra": "E",
-        "texto": "1634 m"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "Perímetro = 2 × (largura + comprimento) = 2 × (38 + 43) = 162 m."
-  },
-  {
-    "id": "geometria-plana-ined-0346",
-    "categoriaId": "geometria-plana",
-    "subtopico": "Teorema de Pitágoras",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma escada está apoiada em uma parede vertical. A base da escada está a 12 m da parede, e o topo da escada toca a parede a 8 m do chão. Qual é o comprimento da escada?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "20 m"
-      },
-      {
-        "letra": "B",
-        "texto": "11 m"
-      },
-      {
-        "letra": "C",
-        "texto": "10 m"
-      },
-      {
-        "letra": "D",
-        "texto": "19 m"
-      },
-      {
-        "letra": "E",
-        "texto": "21 m"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "Pelo Teorema de Pitágoras: escada² = 12² + 8² = 144 + 64 = 400. Logo, escada = √400 = 20 m."
-  },
-  {
-    "id": "geometria-plana-ined-0347",
-    "categoriaId": "geometria-plana",
-    "subtopico": "Áreas e Perímetros",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um terreno retangular tem 30 m de largura e 46 m de comprimento. Qual é a área desse terreno?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "690 m²"
-      },
-      {
-        "letra": "B",
-        "texto": "1380 m²"
-      },
-      {
-        "letra": "C",
-        "texto": "152 m²"
-      },
-      {
-        "letra": "D",
         "texto": "2116 m²"
       },
       {
-        "letra": "E",
-        "texto": "900 m²"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "Área = largura × comprimento = 30 × 46 = 1380 m²."
-  },
-  {
-    "id": "geometria-plana-ined-0348",
-    "categoriaId": "geometria-plana",
-    "subtopico": "Teorema de Pitágoras",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma escada está apoiada em uma parede vertical. A base da escada está a 60 m da parede, e o topo da escada toca a parede a 63 m do chão. Qual é o comprimento da escada?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "87 m"
-      },
-      {
         "letra": "B",
-        "texto": "62 m"
+        "texto": "3481 m²"
       },
       {
         "letra": "C",
-        "texto": "88 m"
+        "texto": "2714 m²"
       },
       {
         "letra": "D",
-        "texto": "123 m"
+        "texto": "210 m²"
       },
       {
         "letra": "E",
-        "texto": "86 m"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "Pelo Teorema de Pitágoras: escada² = 60² + 63² = 3600 + 3969 = 7569. Logo, escada = √7569 = 87 m."
-  },
-  {
-    "id": "geometria-plana-ined-0349",
-    "categoriaId": "geometria-plana",
-    "subtopico": "Áreas e Perímetros",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um terreno retangular tem 9 m de largura e 27 m de comprimento. Qual é o perímetro desse terreno?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "37 m"
-      },
-      {
-        "letra": "B",
-        "texto": "36 m"
-      },
-      {
-        "letra": "C",
-        "texto": "72 m"
-      },
-      {
-        "letra": "D",
-        "texto": "39 m"
-      },
-      {
-        "letra": "E",
-        "texto": "243 m"
+        "texto": "1357 m²"
       }
     ],
     "correta": "C",
-    "explicacao": "Perímetro = 2 × (largura + comprimento) = 2 × (9 + 27) = 72 m."
+    "explicacao": "Área = largura × comprimento = 46 × 59 = 2714 m²."
   },
   {
-    "id": "geometria-plana-ined-0350",
-    "categoriaId": "geometria-plana",
-    "subtopico": "Teorema de Pitágoras",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma escada está apoiada em uma parede vertical. A base da escada está a 7 m da parede, e o topo da escada toca a parede a 24 m do chão. Qual é o comprimento da escada?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "25 m"
-      },
-      {
-        "letra": "B",
-        "texto": "16 m"
-      },
-      {
-        "letra": "C",
-        "texto": "31 m"
-      },
-      {
-        "letra": "D",
-        "texto": "26 m"
-      },
-      {
-        "letra": "E",
-        "texto": "24 m"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "Pelo Teorema de Pitágoras: escada² = 7² + 24² = 49 + 576 = 625. Logo, escada = √625 = 25 m."
-  },
-  {
-    "id": "geometria-plana-ined-0351",
-    "categoriaId": "geometria-plana",
-    "subtopico": "Áreas e Perímetros",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um terreno retangular tem 51 m de largura e 57 m de comprimento. Qual é a área desse terreno?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "1453.5 m²"
-      },
-      {
-        "letra": "B",
-        "texto": "3249 m²"
-      },
-      {
-        "letra": "C",
-        "texto": "2907 m²"
-      },
-      {
-        "letra": "D",
-        "texto": "2601 m²"
-      },
-      {
-        "letra": "E",
-        "texto": "216 m²"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "Área = largura × comprimento = 51 × 57 = 2907 m²."
-  },
-  {
-    "id": "geometria-plana-ined-0352",
+    "id": "geometria-plana-ined-0330",
     "categoriaId": "geometria-plana",
     "subtopico": "Teorema de Pitágoras",
     "dificuldade": "facil",
@@ -521,11 +113,11 @@
     "alternativas": [
       {
         "letra": "A",
-        "texto": "13 m"
+        "texto": "9 m"
       },
       {
         "letra": "B",
-        "texto": "14 m"
+        "texto": "13 m"
       },
       {
         "letra": "C",
@@ -533,120 +125,120 @@
       },
       {
         "letra": "D",
-        "texto": "12 m"
+        "texto": "14 m"
       },
       {
         "letra": "E",
-        "texto": "9 m"
+        "texto": "12 m"
       }
     ],
-    "correta": "A",
+    "correta": "B",
     "explicacao": "Pelo Teorema de Pitágoras: escada² = 5² + 12² = 25 + 144 = 169. Logo, escada = √169 = 13 m."
   },
   {
-    "id": "geometria-plana-ined-0353",
+    "id": "geometria-plana-ined-0331",
     "categoriaId": "geometria-plana",
     "subtopico": "Áreas e Perímetros",
     "dificuldade": "medio",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Um terreno retangular tem 16 m de largura e 28 m de comprimento. Qual é o perímetro desse terreno?",
+    "enunciado": "Um terreno retangular tem 19 m de largura e 25 m de comprimento. Qual é a área desse terreno?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "44 m"
+        "texto": "475 m²"
       },
       {
         "letra": "B",
-        "texto": "88 m"
+        "texto": "88 m²"
       },
       {
         "letra": "C",
-        "texto": "448 m"
+        "texto": "237.5 m²"
       },
       {
         "letra": "D",
-        "texto": "65 m"
+        "texto": "625 m²"
       },
       {
         "letra": "E",
-        "texto": "64 m"
+        "texto": "361 m²"
       }
     ],
-    "correta": "B",
-    "explicacao": "Perímetro = 2 × (largura + comprimento) = 2 × (16 + 28) = 88 m."
+    "correta": "A",
+    "explicacao": "Área = largura × comprimento = 19 × 25 = 475 m²."
   },
   {
-    "id": "geometria-plana-ined-0354",
+    "id": "geometria-plana-ined-0332",
     "categoriaId": "geometria-plana",
     "subtopico": "Teorema de Pitágoras",
     "dificuldade": "dificil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Uma escada está apoiada em uma parede vertical. A base da escada está a 14 m da parede, e o topo da escada toca a parede a 72 m do chão. Qual é o comprimento da escada?",
+    "enunciado": "Uma escada está apoiada em uma parede vertical. A base da escada está a 8 m da parede, e o topo da escada toca a parede a 30 m do chão. Qual é o comprimento da escada?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "43 m"
+        "texto": "51 m"
       },
       {
         "letra": "B",
-        "texto": "25 m"
+        "texto": "38 m"
       },
       {
         "letra": "C",
-        "texto": "26 m"
+        "texto": "19 m"
       },
       {
         "letra": "D",
-        "texto": "24 m"
+        "texto": "52 m"
       },
       {
         "letra": "E",
-        "texto": "86 m"
+        "texto": "50 m"
       }
     ],
-    "correta": "B",
-    "explicacao": "Pelo Teorema de Pitágoras: escada² = 14² + 72² = 196 + 5184 = 625. Logo, escada = √625 = 25 m."
+    "correta": "A",
+    "explicacao": "Pelo Teorema de Pitágoras: escada² = 8² + 30² = 64 + 900 = 2601. Logo, escada = √2601 = 51 m."
   },
   {
-    "id": "geometria-plana-ined-0355",
+    "id": "geometria-plana-ined-0333",
     "categoriaId": "geometria-plana",
     "subtopico": "Áreas e Perímetros",
     "dificuldade": "facil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Um terreno retangular tem 24 m de largura e 32 m de comprimento. Qual é a área desse terreno?",
+    "enunciado": "Um terreno retangular tem 21 m de largura e 34 m de comprimento. Qual é o perímetro desse terreno?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "384 m²"
+        "texto": "110 m"
       },
       {
         "letra": "B",
-        "texto": "1024 m²"
+        "texto": "714 m"
       },
       {
         "letra": "C",
-        "texto": "576 m²"
+        "texto": "85 m"
       },
       {
         "letra": "D",
-        "texto": "112 m²"
+        "texto": "55 m"
       },
       {
         "letra": "E",
-        "texto": "768 m²"
+        "texto": "84 m"
       }
     ],
-    "correta": "E",
-    "explicacao": "Área = largura × comprimento = 24 × 32 = 768 m²."
+    "correta": "A",
+    "explicacao": "Perímetro = 2 × (largura + comprimento) = 2 × (21 + 34) = 110 m."
   },
   {
-    "id": "geometria-plana-ined-0356",
+    "id": "geometria-plana-ined-0334",
     "categoriaId": "geometria-plana",
     "subtopico": "Teorema de Pitágoras",
     "dificuldade": "medio",
@@ -657,79 +249,147 @@
     "alternativas": [
       {
         "letra": "A",
-        "texto": "14 m"
-      },
-      {
-        "letra": "B",
-        "texto": "15 m"
-      },
-      {
-        "letra": "C",
         "texto": "33 m"
       },
       {
+        "letra": "B",
+        "texto": "17 m"
+      },
+      {
+        "letra": "C",
+        "texto": "31 m"
+      },
+      {
         "letra": "D",
-        "texto": "16 m"
+        "texto": "30 m"
       },
       {
         "letra": "E",
-        "texto": "17 m"
+        "texto": "29 m"
       }
     ],
-    "correta": "B",
-    "explicacao": "Pelo Teorema de Pitágoras: escada² = 9² + 24² = 81 + 576 = 225. Logo, escada = √225 = 15 m."
+    "correta": "D",
+    "explicacao": "Pelo Teorema de Pitágoras: escada² = 9² + 24² = 81 + 576 = 900. Logo, escada = √900 = 30 m."
   },
   {
-    "id": "geometria-plana-ined-0357",
+    "id": "geometria-plana-ined-0335",
     "categoriaId": "geometria-plana",
     "subtopico": "Áreas e Perímetros",
     "dificuldade": "dificil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Um terreno retangular tem 7 m de largura e 9 m de comprimento. Qual é o perímetro desse terreno?",
+    "enunciado": "Um terreno retangular tem 18 m de largura e 29 m de comprimento. Qual é a área desse terreno?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "29 m"
+        "texto": "261 m²"
       },
       {
         "letra": "B",
-        "texto": "28 m"
+        "texto": "324 m²"
       },
       {
         "letra": "C",
-        "texto": "63 m"
+        "texto": "522 m²"
       },
       {
         "letra": "D",
-        "texto": "32 m"
+        "texto": "841 m²"
       },
       {
         "letra": "E",
-        "texto": "16 m"
+        "texto": "94 m²"
       }
     ],
-    "correta": "D",
-    "explicacao": "Perímetro = 2 × (largura + comprimento) = 2 × (7 + 9) = 32 m."
+    "correta": "C",
+    "explicacao": "Área = largura × comprimento = 18 × 29 = 522 m²."
   },
   {
-    "id": "geometria-plana-ined-0358",
+    "id": "geometria-plana-ined-0337",
     "categoriaId": "geometria-plana",
-    "subtopico": "Teorema de Pitágoras",
+    "subtopico": "Áreas e Perímetros",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um terreno retangular tem 28 m de largura e 45 m de comprimento. Qual é o perímetro desse terreno?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "1260 m"
+      },
+      {
+        "letra": "B",
+        "texto": "146 m"
+      },
+      {
+        "letra": "C",
+        "texto": "113 m"
+      },
+      {
+        "letra": "D",
+        "texto": "73 m"
+      },
+      {
+        "letra": "E",
+        "texto": "112 m"
+      }
+    ],
+    "correta": "B",
+    "explicacao": "Perímetro = 2 × (largura + comprimento) = 2 × (28 + 45) = 146 m."
+  },
+  {
+    "id": "geometria-plana-ined-0339",
+    "categoriaId": "geometria-plana",
+    "subtopico": "Áreas e Perímetros",
     "dificuldade": "facil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Uma escada está apoiada em uma parede vertical. A base da escada está a 12 m da parede, e o topo da escada toca a parede a 16 m do chão. Qual é o comprimento da escada?",
+    "enunciado": "Um terreno retangular tem 9 m de largura e 16 m de comprimento. Qual é a área desse terreno?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "9 m"
+        "texto": "72 m²"
       },
       {
         "letra": "B",
-        "texto": "14 m"
+        "texto": "50 m²"
+      },
+      {
+        "letra": "C",
+        "texto": "144 m²"
+      },
+      {
+        "letra": "D",
+        "texto": "256 m²"
+      },
+      {
+        "letra": "E",
+        "texto": "81 m²"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "Área = largura × comprimento = 9 × 16 = 144 m²."
+  },
+  {
+    "id": "geometria-plana-ined-0340",
+    "categoriaId": "geometria-plana",
+    "subtopico": "Teorema de Pitágoras",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma escada está apoiada em uma parede vertical. A base da escada está a 3 m da parede, e o topo da escada toca a parede a 4 m do chão. Qual é o comprimento da escada?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "4 m"
+      },
+      {
+        "letra": "B",
+        "texto": "9 m"
       },
       {
         "letra": "C",
@@ -737,63 +397,29 @@
       },
       {
         "letra": "D",
-        "texto": "11 m"
+        "texto": "7 m"
       },
       {
         "letra": "E",
-        "texto": "28 m"
+        "texto": "11 m"
       }
     ],
     "correta": "C",
-    "explicacao": "Pelo Teorema de Pitágoras: escada² = 12² + 16² = 144 + 256 = 100. Logo, escada = √100 = 10 m."
+    "explicacao": "Pelo Teorema de Pitágoras: escada² = 3² + 4² = 9 + 16 = 100. Logo, escada = √100 = 10 m."
   },
   {
-    "id": "geometria-plana-ined-0359",
+    "id": "geometria-plana-ined-0341",
     "categoriaId": "geometria-plana",
     "subtopico": "Áreas e Perímetros",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um terreno retangular tem 19 m de largura e 38 m de comprimento. Qual é o perímetro desse terreno?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "57 m"
-      },
-      {
-        "letra": "B",
-        "texto": "77 m"
-      },
-      {
-        "letra": "C",
-        "texto": "722 m"
-      },
-      {
-        "letra": "D",
-        "texto": "76 m"
-      },
-      {
-        "letra": "E",
-        "texto": "114 m"
-      }
-    ],
-    "correta": "E",
-    "explicacao": "Perímetro = 2 × (largura + comprimento) = 2 × (19 + 38) = 114 m."
-  },
-  {
-    "id": "geometria-plana-ined-0360",
-    "categoriaId": "geometria-plana",
-    "subtopico": "Teorema de Pitágoras",
     "dificuldade": "dificil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Uma escada está apoiada em uma parede vertical. A base da escada está a 14 m da parede, e o topo da escada toca a parede a 48 m do chão. Qual é o comprimento da escada?",
+    "enunciado": "Um terreno retangular tem 6 m de largura e 16 m de comprimento. Qual é o perímetro desse terreno?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "26 m"
+        "texto": "96 m"
       },
       {
         "letra": "B",
@@ -801,226 +427,22 @@
       },
       {
         "letra": "C",
-        "texto": "62 m"
-      },
-      {
-        "letra": "D",
-        "texto": "31 m"
-      },
-      {
-        "letra": "E",
         "texto": "24 m"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "Pelo Teorema de Pitágoras: escada² = 14² + 48² = 196 + 2304 = 625. Logo, escada = √625 = 25 m."
-  },
-  {
-    "id": "geometria-plana-ined-0361",
-    "categoriaId": "geometria-plana",
-    "subtopico": "Áreas e Perímetros",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um terreno retangular tem 28 m de largura e 39 m de comprimento. Qual é a área desse terreno?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "784 m²"
-      },
-      {
-        "letra": "B",
-        "texto": "546 m²"
-      },
-      {
-        "letra": "C",
-        "texto": "1521 m²"
       },
       {
         "letra": "D",
-        "texto": "1092 m²"
+        "texto": "44 m"
       },
       {
         "letra": "E",
-        "texto": "134 m²"
+        "texto": "22 m"
       }
     ],
     "correta": "D",
-    "explicacao": "Área = largura × comprimento = 28 × 39 = 1092 m²."
+    "explicacao": "Perímetro = 2 × (largura + comprimento) = 2 × (6 + 16) = 44 m."
   },
   {
-    "id": "geometria-plana-ined-0363",
-    "categoriaId": "geometria-plana",
-    "subtopico": "Áreas e Perímetros",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um terreno retangular tem 39 m de largura e 52 m de comprimento. Qual é a área desse terreno?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "1014 m²"
-      },
-      {
-        "letra": "B",
-        "texto": "182 m²"
-      },
-      {
-        "letra": "C",
-        "texto": "2028 m²"
-      },
-      {
-        "letra": "D",
-        "texto": "1521 m²"
-      },
-      {
-        "letra": "E",
-        "texto": "2704 m²"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "Área = largura × comprimento = 39 × 52 = 2028 m²."
-  },
-  {
-    "id": "geometria-plana-ined-0365",
-    "categoriaId": "geometria-plana",
-    "subtopico": "Áreas e Perímetros",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um terreno retangular tem 28 m de largura e 46 m de comprimento. Qual é a área desse terreno?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "2116 m²"
-      },
-      {
-        "letra": "B",
-        "texto": "784 m²"
-      },
-      {
-        "letra": "C",
-        "texto": "148 m²"
-      },
-      {
-        "letra": "D",
-        "texto": "1288 m²"
-      },
-      {
-        "letra": "E",
-        "texto": "644 m²"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "Área = largura × comprimento = 28 × 46 = 1288 m²."
-  },
-  {
-    "id": "geometria-plana-ined-0366",
-    "categoriaId": "geometria-plana",
-    "subtopico": "Teorema de Pitágoras",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma escada está apoiada em uma parede vertical. A base da escada está a 8 m da parede, e o topo da escada toca a parede a 15 m do chão. Qual é o comprimento da escada?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "12 m"
-      },
-      {
-        "letra": "B",
-        "texto": "35 m"
-      },
-      {
-        "letra": "C",
-        "texto": "34 m"
-      },
-      {
-        "letra": "D",
-        "texto": "23 m"
-      },
-      {
-        "letra": "E",
-        "texto": "33 m"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "Pelo Teorema de Pitágoras: escada² = 8² + 15² = 64 + 225 = 1156. Logo, escada = √1156 = 34 m."
-  },
-  {
-    "id": "geometria-plana-ined-0367",
-    "categoriaId": "geometria-plana",
-    "subtopico": "Áreas e Perímetros",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um terreno retangular tem 28 m de largura e 33 m de comprimento. Qual é o perímetro desse terreno?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "924 m"
-      },
-      {
-        "letra": "B",
-        "texto": "112 m"
-      },
-      {
-        "letra": "C",
-        "texto": "61 m"
-      },
-      {
-        "letra": "D",
-        "texto": "122 m"
-      },
-      {
-        "letra": "E",
-        "texto": "113 m"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "Perímetro = 2 × (largura + comprimento) = 2 × (28 + 33) = 122 m."
-  },
-  {
-    "id": "geometria-plana-ined-0369",
-    "categoriaId": "geometria-plana",
-    "subtopico": "Áreas e Perímetros",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um terreno retangular tem 7 m de largura e 20 m de comprimento. Qual é o perímetro desse terreno?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "29 m"
-      },
-      {
-        "letra": "B",
-        "texto": "28 m"
-      },
-      {
-        "letra": "C",
-        "texto": "54 m"
-      },
-      {
-        "letra": "D",
-        "texto": "140 m"
-      },
-      {
-        "letra": "E",
-        "texto": "27 m"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "Perímetro = 2 × (largura + comprimento) = 2 × (7 + 20) = 54 m."
-  },
-  {
-    "id": "geometria-plana-ined-0370",
+    "id": "geometria-plana-ined-0342",
     "categoriaId": "geometria-plana",
     "subtopico": "Teorema de Pitágoras",
     "dificuldade": "facil",
@@ -1031,7 +453,7 @@
     "alternativas": [
       {
         "letra": "A",
-        "texto": "10 m"
+        "texto": "9 m"
       },
       {
         "letra": "B",
@@ -1039,154 +461,732 @@
       },
       {
         "letra": "C",
-        "texto": "9 m"
+        "texto": "11 m"
       },
       {
         "letra": "D",
-        "texto": "11 m"
+        "texto": "10 m"
       },
       {
         "letra": "E",
         "texto": "6 m"
       }
     ],
-    "correta": "A",
+    "correta": "D",
     "explicacao": "Pelo Teorema de Pitágoras: escada² = 6² + 4² = 36 + 16 = 100. Logo, escada = √100 = 10 m."
   },
   {
-    "id": "geometria-plana-ined-0371",
+    "id": "geometria-plana-ined-0343",
     "categoriaId": "geometria-plana",
     "subtopico": "Áreas e Perímetros",
     "dificuldade": "medio",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Um terreno retangular tem 24 m de largura e 39 m de comprimento. Qual é o perímetro desse terreno?",
+    "enunciado": "Um terreno retangular tem 22 m de largura e 42 m de comprimento. Qual é o perímetro desse terreno?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "63 m"
+        "texto": "89 m"
       },
       {
         "letra": "B",
-        "texto": "126 m"
+        "texto": "64 m"
       },
       {
         "letra": "C",
-        "texto": "96 m"
+        "texto": "924 m"
       },
       {
         "letra": "D",
-        "texto": "936 m"
+        "texto": "128 m"
       },
       {
         "letra": "E",
-        "texto": "97 m"
+        "texto": "88 m"
       }
     ],
-    "correta": "B",
-    "explicacao": "Perímetro = 2 × (largura + comprimento) = 2 × (24 + 39) = 126 m."
+    "correta": "D",
+    "explicacao": "Perímetro = 2 × (largura + comprimento) = 2 × (22 + 42) = 128 m."
   },
   {
-    "id": "geometria-plana-ined-0372",
+    "id": "geometria-plana-ined-0344",
     "categoriaId": "geometria-plana",
     "subtopico": "Teorema de Pitágoras",
     "dificuldade": "dificil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Uma escada está apoiada em uma parede vertical. A base da escada está a 7 m da parede, e o topo da escada toca a parede a 48 m do chão. Qual é o comprimento da escada?",
+    "enunciado": "Uma escada está apoiada em uma parede vertical. A base da escada está a 30 m da parede, e o topo da escada toca a parede a 72 m do chão. Qual é o comprimento da escada?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "74 m"
+        "texto": "79 m"
       },
       {
         "letra": "B",
-        "texto": "55 m"
+        "texto": "77 m"
       },
       {
         "letra": "C",
-        "texto": "28 m"
+        "texto": "78 m"
       },
       {
         "letra": "D",
-        "texto": "76 m"
+        "texto": "102 m"
       },
       {
         "letra": "E",
-        "texto": "75 m"
+        "texto": "51 m"
       }
     ],
-    "correta": "E",
-    "explicacao": "Pelo Teorema de Pitágoras: escada² = 7² + 48² = 49 + 2304 = 5625. Logo, escada = √5625 = 75 m."
+    "correta": "C",
+    "explicacao": "Pelo Teorema de Pitágoras: escada² = 30² + 72² = 900 + 5184 = 6084. Logo, escada = √6084 = 78 m."
   },
   {
-    "id": "geometria-plana-ined-0373",
+    "id": "geometria-plana-ined-0345",
     "categoriaId": "geometria-plana",
     "subtopico": "Áreas e Perímetros",
     "dificuldade": "facil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Um terreno retangular tem 5 m de largura e 23 m de comprimento. Qual é a área desse terreno?",
+    "enunciado": "Um terreno retangular tem 15 m de largura e 24 m de comprimento. Qual é o perímetro desse terreno?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "56 m²"
+        "texto": "60 m"
       },
       {
         "letra": "B",
-        "texto": "57.5 m²"
+        "texto": "61 m"
       },
       {
         "letra": "C",
-        "texto": "529 m²"
+        "texto": "360 m"
       },
       {
         "letra": "D",
-        "texto": "115 m²"
+        "texto": "39 m"
       },
       {
         "letra": "E",
-        "texto": "25 m²"
+        "texto": "78 m"
+      }
+    ],
+    "correta": "E",
+    "explicacao": "Perímetro = 2 × (largura + comprimento) = 2 × (15 + 24) = 78 m."
+  },
+  {
+    "id": "geometria-plana-ined-0347",
+    "categoriaId": "geometria-plana",
+    "subtopico": "Áreas e Perímetros",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um terreno retangular tem 49 m de largura e 59 m de comprimento. Qual é o perímetro desse terreno?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "196 m"
+      },
+      {
+        "letra": "B",
+        "texto": "197 m"
+      },
+      {
+        "letra": "C",
+        "texto": "108 m"
+      },
+      {
+        "letra": "D",
+        "texto": "216 m"
+      },
+      {
+        "letra": "E",
+        "texto": "2891 m"
       }
     ],
     "correta": "D",
-    "explicacao": "Área = largura × comprimento = 5 × 23 = 115 m²."
+    "explicacao": "Perímetro = 2 × (largura + comprimento) = 2 × (49 + 59) = 216 m."
   },
   {
-    "id": "geometria-plana-ined-0374",
+    "id": "geometria-plana-ined-0349",
+    "categoriaId": "geometria-plana",
+    "subtopico": "Áreas e Perímetros",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um terreno retangular tem 11 m de largura e 23 m de comprimento. Qual é a área desse terreno?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "121 m²"
+      },
+      {
+        "letra": "B",
+        "texto": "529 m²"
+      },
+      {
+        "letra": "C",
+        "texto": "68 m²"
+      },
+      {
+        "letra": "D",
+        "texto": "126.5 m²"
+      },
+      {
+        "letra": "E",
+        "texto": "253 m²"
+      }
+    ],
+    "correta": "E",
+    "explicacao": "Área = largura × comprimento = 11 × 23 = 253 m²."
+  },
+  {
+    "id": "geometria-plana-ined-0350",
+    "categoriaId": "geometria-plana",
+    "subtopico": "Teorema de Pitágoras",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma escada está apoiada em uma parede vertical. A base da escada está a 60 m da parede, e o topo da escada toca a parede a 21 m do chão. Qual é o comprimento da escada?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "81 m"
+      },
+      {
+        "letra": "B",
+        "texto": "29 m"
+      },
+      {
+        "letra": "C",
+        "texto": "41 m"
+      },
+      {
+        "letra": "D",
+        "texto": "30 m"
+      },
+      {
+        "letra": "E",
+        "texto": "28 m"
+      }
+    ],
+    "correta": "B",
+    "explicacao": "Pelo Teorema de Pitágoras: escada² = 60² + 21² = 3600 + 441 = 841. Logo, escada = √841 = 29 m."
+  },
+  {
+    "id": "geometria-plana-ined-0351",
+    "categoriaId": "geometria-plana",
+    "subtopico": "Áreas e Perímetros",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um terreno retangular tem 11 m de largura e 14 m de comprimento. Qual é o perímetro desse terreno?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "50 m"
+      },
+      {
+        "letra": "B",
+        "texto": "154 m"
+      },
+      {
+        "letra": "C",
+        "texto": "44 m"
+      },
+      {
+        "letra": "D",
+        "texto": "45 m"
+      },
+      {
+        "letra": "E",
+        "texto": "25 m"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "Perímetro = 2 × (largura + comprimento) = 2 × (11 + 14) = 50 m."
+  },
+  {
+    "id": "geometria-plana-ined-0352",
     "categoriaId": "geometria-plana",
     "subtopico": "Teorema de Pitágoras",
     "dificuldade": "medio",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Uma escada está apoiada em uma parede vertical. A base da escada está a 16 m da parede, e o topo da escada toca a parede a 15 m do chão. Qual é o comprimento da escada?",
+    "enunciado": "Uma escada está apoiada em uma parede vertical. A base da escada está a 18 m da parede, e o topo da escada toca a parede a 12 m do chão. Qual é o comprimento da escada?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "17 m"
+        "texto": "31 m"
       },
       {
         "letra": "B",
-        "texto": "18 m"
+        "texto": "29 m"
       },
       {
         "letra": "C",
-        "texto": "19 m"
+        "texto": "30 m"
       },
       {
         "letra": "D",
-        "texto": "31 m"
+        "texto": "15 m"
       },
       {
         "letra": "E",
         "texto": "16 m"
       }
     ],
+    "correta": "C",
+    "explicacao": "Pelo Teorema de Pitágoras: escada² = 18² + 12² = 324 + 144 = 900. Logo, escada = √900 = 30 m."
+  },
+  {
+    "id": "geometria-plana-ined-0353",
+    "categoriaId": "geometria-plana",
+    "subtopico": "Áreas e Perímetros",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um terreno retangular tem 36 m de largura e 38 m de comprimento. Qual é o perímetro desse terreno?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "1368 m"
+      },
+      {
+        "letra": "B",
+        "texto": "74 m"
+      },
+      {
+        "letra": "C",
+        "texto": "144 m"
+      },
+      {
+        "letra": "D",
+        "texto": "145 m"
+      },
+      {
+        "letra": "E",
+        "texto": "148 m"
+      }
+    ],
+    "correta": "E",
+    "explicacao": "Perímetro = 2 × (largura + comprimento) = 2 × (36 + 38) = 148 m."
+  },
+  {
+    "id": "geometria-plana-ined-0354",
+    "categoriaId": "geometria-plana",
+    "subtopico": "Teorema de Pitágoras",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma escada está apoiada em uma parede vertical. A base da escada está a 5 m da parede, e o topo da escada toca a parede a 24 m do chão. Qual é o comprimento da escada?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "15 m"
+      },
+      {
+        "letra": "B",
+        "texto": "29 m"
+      },
+      {
+        "letra": "C",
+        "texto": "27 m"
+      },
+      {
+        "letra": "D",
+        "texto": "25 m"
+      },
+      {
+        "letra": "E",
+        "texto": "26 m"
+      }
+    ],
+    "correta": "E",
+    "explicacao": "Pelo Teorema de Pitágoras: escada² = 5² + 24² = 25 + 576 = 676. Logo, escada = √676 = 26 m."
+  },
+  {
+    "id": "geometria-plana-ined-0355",
+    "categoriaId": "geometria-plana",
+    "subtopico": "Áreas e Perímetros",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um terreno retangular tem 30 m de largura e 41 m de comprimento. Qual é a área desse terreno?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "1230 m²"
+      },
+      {
+        "letra": "B",
+        "texto": "900 m²"
+      },
+      {
+        "letra": "C",
+        "texto": "615 m²"
+      },
+      {
+        "letra": "D",
+        "texto": "1681 m²"
+      },
+      {
+        "letra": "E",
+        "texto": "142 m²"
+      }
+    ],
     "correta": "A",
-    "explicacao": "Pelo Teorema de Pitágoras: escada² = 16² + 15² = 256 + 225 = 289. Logo, escada = √289 = 17 m."
+    "explicacao": "Área = largura × comprimento = 30 × 41 = 1230 m²."
+  },
+  {
+    "id": "geometria-plana-ined-0356",
+    "categoriaId": "geometria-plana",
+    "subtopico": "Teorema de Pitágoras",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma escada está apoiada em uma parede vertical. A base da escada está a 60 m da parede, e o topo da escada toca a parede a 42 m do chão. Qual é o comprimento da escada?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "29 m"
+      },
+      {
+        "letra": "B",
+        "texto": "28 m"
+      },
+      {
+        "letra": "C",
+        "texto": "30 m"
+      },
+      {
+        "letra": "D",
+        "texto": "102 m"
+      },
+      {
+        "letra": "E",
+        "texto": "51 m"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "Pelo Teorema de Pitágoras: escada² = 60² + 42² = 3600 + 1764 = 841. Logo, escada = √841 = 29 m."
+  },
+  {
+    "id": "geometria-plana-ined-0357",
+    "categoriaId": "geometria-plana",
+    "subtopico": "Áreas e Perímetros",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um terreno retangular tem 10 m de largura e 24 m de comprimento. Qual é a área desse terreno?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "100 m²"
+      },
+      {
+        "letra": "B",
+        "texto": "68 m²"
+      },
+      {
+        "letra": "C",
+        "texto": "576 m²"
+      },
+      {
+        "letra": "D",
+        "texto": "240 m²"
+      },
+      {
+        "letra": "E",
+        "texto": "120 m²"
+      }
+    ],
+    "correta": "D",
+    "explicacao": "Área = largura × comprimento = 10 × 24 = 240 m²."
+  },
+  {
+    "id": "geometria-plana-ined-0358",
+    "categoriaId": "geometria-plana",
+    "subtopico": "Teorema de Pitágoras",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma escada está apoiada em uma parede vertical. A base da escada está a 20 m da parede, e o topo da escada toca a parede a 48 m do chão. Qual é o comprimento da escada?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "53 m"
+      },
+      {
+        "letra": "B",
+        "texto": "68 m"
+      },
+      {
+        "letra": "C",
+        "texto": "51 m"
+      },
+      {
+        "letra": "D",
+        "texto": "52 m"
+      },
+      {
+        "letra": "E",
+        "texto": "34 m"
+      }
+    ],
+    "correta": "D",
+    "explicacao": "Pelo Teorema de Pitágoras: escada² = 20² + 48² = 400 + 2304 = 2704. Logo, escada = √2704 = 52 m."
+  },
+  {
+    "id": "geometria-plana-ined-0359",
+    "categoriaId": "geometria-plana",
+    "subtopico": "Áreas e Perímetros",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um terreno retangular tem 15 m de largura e 31 m de comprimento. Qual é a área desse terreno?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "465 m²"
+      },
+      {
+        "letra": "B",
+        "texto": "92 m²"
+      },
+      {
+        "letra": "C",
+        "texto": "961 m²"
+      },
+      {
+        "letra": "D",
+        "texto": "225 m²"
+      },
+      {
+        "letra": "E",
+        "texto": "232.5 m²"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "Área = largura × comprimento = 15 × 31 = 465 m²."
+  },
+  {
+    "id": "geometria-plana-ined-0360",
+    "categoriaId": "geometria-plana",
+    "subtopico": "Teorema de Pitágoras",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma escada está apoiada em uma parede vertical. A base da escada está a 6 m da parede, e o topo da escada toca a parede a 8 m do chão. Qual é o comprimento da escada?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "7 m"
+      },
+      {
+        "letra": "B",
+        "texto": "14 m"
+      },
+      {
+        "letra": "C",
+        "texto": "20 m"
+      },
+      {
+        "letra": "D",
+        "texto": "21 m"
+      },
+      {
+        "letra": "E",
+        "texto": "19 m"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "Pelo Teorema de Pitágoras: escada² = 6² + 8² = 36 + 64 = 400. Logo, escada = √400 = 20 m."
+  },
+  {
+    "id": "geometria-plana-ined-0361",
+    "categoriaId": "geometria-plana",
+    "subtopico": "Áreas e Perímetros",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um terreno retangular tem 18 m de largura e 20 m de comprimento. Qual é a área desse terreno?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "76 m²"
+      },
+      {
+        "letra": "B",
+        "texto": "180 m²"
+      },
+      {
+        "letra": "C",
+        "texto": "400 m²"
+      },
+      {
+        "letra": "D",
+        "texto": "360 m²"
+      },
+      {
+        "letra": "E",
+        "texto": "324 m²"
+      }
+    ],
+    "correta": "D",
+    "explicacao": "Área = largura × comprimento = 18 × 20 = 360 m²."
+  },
+  {
+    "id": "geometria-plana-ined-0362",
+    "categoriaId": "geometria-plana",
+    "subtopico": "Teorema de Pitágoras",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma escada está apoiada em uma parede vertical. A base da escada está a 5 m da parede, e o topo da escada toca a parede a 36 m do chão. Qual é o comprimento da escada?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "13 m"
+      },
+      {
+        "letra": "B",
+        "texto": "14 m"
+      },
+      {
+        "letra": "C",
+        "texto": "21 m"
+      },
+      {
+        "letra": "D",
+        "texto": "41 m"
+      },
+      {
+        "letra": "E",
+        "texto": "12 m"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "Pelo Teorema de Pitágoras: escada² = 5² + 36² = 25 + 1296 = 169. Logo, escada = √169 = 13 m."
+  },
+  {
+    "id": "geometria-plana-ined-0363",
+    "categoriaId": "geometria-plana",
+    "subtopico": "Áreas e Perímetros",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um terreno retangular tem 12 m de largura e 18 m de comprimento. Qual é a área desse terreno?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "108 m²"
+      },
+      {
+        "letra": "B",
+        "texto": "324 m²"
+      },
+      {
+        "letra": "C",
+        "texto": "144 m²"
+      },
+      {
+        "letra": "D",
+        "texto": "216 m²"
+      },
+      {
+        "letra": "E",
+        "texto": "60 m²"
+      }
+    ],
+    "correta": "D",
+    "explicacao": "Área = largura × comprimento = 12 × 18 = 216 m²."
+  },
+  {
+    "id": "geometria-plana-ined-0364",
+    "categoriaId": "geometria-plana",
+    "subtopico": "Teorema de Pitágoras",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma escada está apoiada em uma parede vertical. A base da escada está a 3 m da parede, e o topo da escada toca a parede a 8 m do chão. Qual é o comprimento da escada?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "11 m"
+      },
+      {
+        "letra": "B",
+        "texto": "4 m"
+      },
+      {
+        "letra": "C",
+        "texto": "6 m"
+      },
+      {
+        "letra": "D",
+        "texto": "5 m"
+      },
+      {
+        "letra": "E",
+        "texto": "7 m"
+      }
+    ],
+    "correta": "D",
+    "explicacao": "Pelo Teorema de Pitágoras: escada² = 3² + 8² = 9 + 64 = 25. Logo, escada = √25 = 5 m."
+  },
+  {
+    "id": "geometria-plana-ined-0365",
+    "categoriaId": "geometria-plana",
+    "subtopico": "Áreas e Perímetros",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um terreno retangular tem 37 m de largura e 48 m de comprimento. Qual é a área desse terreno?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "1369 m²"
+      },
+      {
+        "letra": "B",
+        "texto": "2304 m²"
+      },
+      {
+        "letra": "C",
+        "texto": "170 m²"
+      },
+      {
+        "letra": "D",
+        "texto": "888 m²"
+      },
+      {
+        "letra": "E",
+        "texto": "1776 m²"
+      }
+    ],
+    "correta": "E",
+    "explicacao": "Área = largura × comprimento = 37 × 48 = 1776 m²."
   }
 ]

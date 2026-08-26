@@ -1,357 +1,17 @@
 [
   {
-    "id": "funcao-afim-ined-0138",
+    "id": "funcao-afim-ined-0134",
     "categoriaId": "funcao-afim",
     "subtopico": "Tarifas e Planos",
     "dificuldade": "facil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Um aplicativo de transporte cobra uma tarifa fixa de R$ 4,00 mais R$ 2,47 por quilômetro rodado. Qual será o valor cobrado em uma corrida de 23 km?",
+    "enunciado": "Um aplicativo de transporte cobra uma tarifa fixa de R$ 9,00 mais R$ 1,54 por quilômetro rodado. Qual será o valor cobrado em uma corrida de 30 km?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "R$ 56,81"
-      },
-      {
-        "letra": "B",
-        "texto": "R$ 73,16"
-      },
-      {
-        "letra": "C",
-        "texto": "R$ 60,81"
-      },
-      {
-        "letra": "D",
-        "texto": "R$ 4,00"
-      },
-      {
-        "letra": "E",
-        "texto": "R$ 64,81"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "O custo é dado por C(x) = R$ 4,00 + R$ 2,47 × x. Para x = 23: C(23) = R$ 4,00 + R$ 2,47 × 23 = R$ 60,81."
-  },
-  {
-    "id": "funcao-afim-ined-0139",
-    "categoriaId": "funcao-afim",
-    "subtopico": "Coeficiente Angular",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma função afim f(x) = ax + b passa pelos pontos (3, 30) e (6, 45). Qual é o valor do coeficiente angular a?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "4"
-      },
-      {
-        "letra": "B",
-        "texto": "5"
-      },
-      {
-        "letra": "C",
-        "texto": "20"
-      },
-      {
-        "letra": "D",
-        "texto": "15"
-      },
-      {
-        "letra": "E",
-        "texto": "-5"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "O coeficiente angular é a = (y₂ − y₁) / (x₂ − x₁) = (45 − 30) / (6 − 3) = 5."
-  },
-  {
-    "id": "funcao-afim-ined-0140",
-    "categoriaId": "funcao-afim",
-    "subtopico": "Tarifas e Planos",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um aplicativo de transporte cobra uma tarifa fixa de R$ 15,00 mais R$ 2,99 por quilômetro rodado. Qual será o valor cobrado em uma corrida de 60 km?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "R$ 194,40"
-      },
-      {
-        "letra": "B",
-        "texto": "R$ 179,40"
-      },
-      {
-        "letra": "C",
-        "texto": "R$ 15,00"
-      },
-      {
-        "letra": "D",
-        "texto": "R$ 209,40"
-      },
-      {
-        "letra": "E",
-        "texto": "R$ 209,35"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "O custo é dado por C(x) = R$ 15,00 + R$ 2,99 × x. Para x = 60: C(60) = R$ 15,00 + R$ 2,99 × 60 = R$ 194,40."
-  },
-  {
-    "id": "funcao-afim-ined-0141",
-    "categoriaId": "funcao-afim",
-    "subtopico": "Coeficiente Angular",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma função afim f(x) = ax + b passa pelos pontos (3, 33) e (11, 81). Qual é o valor do coeficiente angular a?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "5"
-      },
-      {
-        "letra": "B",
-        "texto": "15"
-      },
-      {
-        "letra": "C",
-        "texto": "21"
-      },
-      {
-        "letra": "D",
-        "texto": "-6"
-      },
-      {
-        "letra": "E",
-        "texto": "6"
-      }
-    ],
-    "correta": "E",
-    "explicacao": "O coeficiente angular é a = (y₂ − y₁) / (x₂ − x₁) = (81 − 33) / (11 − 3) = 6."
-  },
-  {
-    "id": "funcao-afim-ined-0142",
-    "categoriaId": "funcao-afim",
-    "subtopico": "Tarifas e Planos",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um aplicativo de transporte cobra uma tarifa fixa de R$ 5,00 mais R$ 1,86 por quilômetro rodado. Qual será o valor cobrado em uma corrida de 14 km?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "R$ 26,04"
-      },
-      {
-        "letra": "B",
-        "texto": "R$ 36,04"
-      },
-      {
-        "letra": "C",
-        "texto": "R$ 5,00"
-      },
-      {
-        "letra": "D",
-        "texto": "R$ 31,04"
-      },
-      {
-        "letra": "E",
-        "texto": "R$ 40,34"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "O custo é dado por C(x) = R$ 5,00 + R$ 1,86 × x. Para x = 14: C(14) = R$ 5,00 + R$ 1,86 × 14 = R$ 31,04."
-  },
-  {
-    "id": "funcao-afim-ined-0143",
-    "categoriaId": "funcao-afim",
-    "subtopico": "Coeficiente Angular",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma função afim f(x) = ax + b passa pelos pontos (3, 46) e (7, 106). Qual é o valor do coeficiente angular a?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "16"
-      },
-      {
-        "letra": "B",
-        "texto": "1"
-      },
-      {
-        "letra": "C",
-        "texto": "12"
-      },
-      {
-        "letra": "D",
-        "texto": "-15"
-      },
-      {
-        "letra": "E",
-        "texto": "15"
-      }
-    ],
-    "correta": "E",
-    "explicacao": "O coeficiente angular é a = (y₂ − y₁) / (x₂ − x₁) = (106 − 46) / (7 − 3) = 15."
-  },
-  {
-    "id": "funcao-afim-ined-0144",
-    "categoriaId": "funcao-afim",
-    "subtopico": "Tarifas e Planos",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um aplicativo de transporte cobra uma tarifa fixa de R$ 8,00 mais R$ 1,69 por quilômetro rodado. Qual será o valor cobrado em uma corrida de 18 km?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "R$ 46,87"
-      },
-      {
-        "letra": "B",
-        "texto": "R$ 46,42"
-      },
-      {
-        "letra": "C",
-        "texto": "R$ 38,42"
-      },
-      {
-        "letra": "D",
-        "texto": "R$ 8,00"
-      },
-      {
-        "letra": "E",
-        "texto": "R$ 30,42"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "O custo é dado por C(x) = R$ 8,00 + R$ 1,69 × x. Para x = 18: C(18) = R$ 8,00 + R$ 1,69 × 18 = R$ 38,42."
-  },
-  {
-    "id": "funcao-afim-ined-0145",
-    "categoriaId": "funcao-afim",
-    "subtopico": "Coeficiente Angular",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma função afim f(x) = ax + b passa pelos pontos (3, 33) e (11, 97). Qual é o valor do coeficiente angular a?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "17"
-      },
-      {
-        "letra": "B",
-        "texto": "7"
-      },
-      {
-        "letra": "C",
-        "texto": "-8"
-      },
-      {
-        "letra": "D",
-        "texto": "9"
-      },
-      {
-        "letra": "E",
-        "texto": "8"
-      }
-    ],
-    "correta": "E",
-    "explicacao": "O coeficiente angular é a = (y₂ − y₁) / (x₂ − x₁) = (97 − 33) / (11 − 3) = 8."
-  },
-  {
-    "id": "funcao-afim-ined-0146",
-    "categoriaId": "funcao-afim",
-    "subtopico": "Tarifas e Planos",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um aplicativo de transporte cobra uma tarifa fixa de R$ 10,00 mais R$ 2,65 por quilômetro rodado. Qual será o valor cobrado em uma corrida de 14 km?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "R$ 60,35"
-      },
-      {
-        "letra": "B",
-        "texto": "R$ 47,10"
-      },
-      {
-        "letra": "C",
-        "texto": "R$ 57,10"
-      },
-      {
-        "letra": "D",
-        "texto": "R$ 37,10"
-      },
-      {
-        "letra": "E",
-        "texto": "R$ 10,00"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "O custo é dado por C(x) = R$ 10,00 + R$ 2,65 × x. Para x = 14: C(14) = R$ 10,00 + R$ 2,65 × 14 = R$ 47,10."
-  },
-  {
-    "id": "funcao-afim-ined-0147",
-    "categoriaId": "funcao-afim",
-    "subtopico": "Coeficiente Angular",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma função afim f(x) = ax + b passa pelos pontos (4, 52) e (12, 132). Qual é o valor do coeficiente angular a?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "22"
-      },
-      {
-        "letra": "B",
-        "texto": "12"
-      },
-      {
-        "letra": "C",
-        "texto": "9"
-      },
-      {
-        "letra": "D",
-        "texto": "-10"
-      },
-      {
-        "letra": "E",
-        "texto": "10"
-      }
-    ],
-    "correta": "E",
-    "explicacao": "O coeficiente angular é a = (y₂ − y₁) / (x₂ − x₁) = (132 − 52) / (12 − 4) = 10."
-  },
-  {
-    "id": "funcao-afim-ined-0148",
-    "categoriaId": "funcao-afim",
-    "subtopico": "Tarifas e Planos",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um aplicativo de transporte cobra uma tarifa fixa de R$ 9,00 mais R$ 2,69 por quilômetro rodado. Qual será o valor cobrado em uma corrida de 19 km?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "R$ 69,11"
+        "texto": "R$ 55,20"
       },
       {
         "letra": "B",
@@ -359,97 +19,29 @@
       },
       {
         "letra": "C",
-        "texto": "R$ 51,11"
+        "texto": "R$ 64,20"
       },
       {
         "letra": "D",
-        "texto": "R$ 60,11"
+        "texto": "R$ 46,20"
       },
       {
         "letra": "E",
-        "texto": "R$ 73,56"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "O custo é dado por C(x) = R$ 9,00 + R$ 2,69 × x. Para x = 19: C(19) = R$ 9,00 + R$ 2,69 × 19 = R$ 60,11."
-  },
-  {
-    "id": "funcao-afim-ined-0149",
-    "categoriaId": "funcao-afim",
-    "subtopico": "Coeficiente Angular",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma função afim f(x) = ax + b passa pelos pontos (3, 38) e (9, 80). Qual é o valor do coeficiente angular a?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "7"
-      },
-      {
-        "letra": "B",
-        "texto": "24"
-      },
-      {
-        "letra": "C",
-        "texto": "6"
-      },
-      {
-        "letra": "D",
-        "texto": "17"
-      },
-      {
-        "letra": "E",
-        "texto": "-7"
+        "texto": "R$ 62,90"
       }
     ],
     "correta": "A",
-    "explicacao": "O coeficiente angular é a = (y₂ − y₁) / (x₂ − x₁) = (80 − 38) / (9 − 3) = 7."
+    "explicacao": "O custo é dado por C(x) = R$ 9,00 + R$ 1,54 × x. Para x = 30: C(30) = R$ 9,00 + R$ 1,54 × 30 = R$ 55,20."
   },
   {
-    "id": "funcao-afim-ined-0150",
-    "categoriaId": "funcao-afim",
-    "subtopico": "Tarifas e Planos",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um aplicativo de transporte cobra uma tarifa fixa de R$ 4,00 mais R$ 0,84 por quilômetro rodado. Qual será o valor cobrado em uma corrida de 26 km?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "R$ 21,84"
-      },
-      {
-        "letra": "B",
-        "texto": "R$ 25,84"
-      },
-      {
-        "letra": "C",
-        "texto": "R$ 30,04"
-      },
-      {
-        "letra": "D",
-        "texto": "R$ 4,00"
-      },
-      {
-        "letra": "E",
-        "texto": "R$ 29,84"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "O custo é dado por C(x) = R$ 4,00 + R$ 0,84 × x. Para x = 26: C(26) = R$ 4,00 + R$ 0,84 × 26 = R$ 25,84."
-  },
-  {
-    "id": "funcao-afim-ined-0151",
+    "id": "funcao-afim-ined-0135",
     "categoriaId": "funcao-afim",
     "subtopico": "Coeficiente Angular",
     "dificuldade": "medio",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Uma função afim f(x) = ax + b passa pelos pontos (2, 26) e (9, 82). Qual é o valor do coeficiente angular a?",
+    "enunciado": "Uma função afim f(x) = ax + b passa pelos pontos (5, 54) e (9, 90). Qual é o valor do coeficiente angular a?",
     "alternativas": [
       {
         "letra": "A",
@@ -457,215 +49,11 @@
       },
       {
         "letra": "B",
+        "texto": "-9"
+      },
+      {
+        "letra": "C",
         "texto": "7"
-      },
-      {
-        "letra": "C",
-        "texto": "10"
-      },
-      {
-        "letra": "D",
-        "texto": "8"
-      },
-      {
-        "letra": "E",
-        "texto": "-8"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "O coeficiente angular é a = (y₂ − y₁) / (x₂ − x₁) = (82 − 26) / (9 − 2) = 8."
-  },
-  {
-    "id": "funcao-afim-ined-0152",
-    "categoriaId": "funcao-afim",
-    "subtopico": "Tarifas e Planos",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um aplicativo de transporte cobra uma tarifa fixa de R$ 12,00 mais R$ 1,00 por quilômetro rodado. Qual será o valor cobrado em uma corrida de 6 km?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "R$ 23,00"
-      },
-      {
-        "letra": "B",
-        "texto": "R$ 12,00"
-      },
-      {
-        "letra": "C",
-        "texto": "R$ 6,00"
-      },
-      {
-        "letra": "D",
-        "texto": "R$ 18,00"
-      },
-      {
-        "letra": "E",
-        "texto": "R$ 30,00"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "O custo é dado por C(x) = R$ 12,00 + R$ 1,00 × x. Para x = 6: C(6) = R$ 12,00 + R$ 1,00 × 6 = R$ 18,00."
-  },
-  {
-    "id": "funcao-afim-ined-0153",
-    "categoriaId": "funcao-afim",
-    "subtopico": "Coeficiente Angular",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma função afim f(x) = ax + b passa pelos pontos (1, 21) e (8, 56). Qual é o valor do coeficiente angular a?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "16"
-      },
-      {
-        "letra": "B",
-        "texto": "21"
-      },
-      {
-        "letra": "C",
-        "texto": "-5"
-      },
-      {
-        "letra": "D",
-        "texto": "4"
-      },
-      {
-        "letra": "E",
-        "texto": "5"
-      }
-    ],
-    "correta": "E",
-    "explicacao": "O coeficiente angular é a = (y₂ − y₁) / (x₂ − x₁) = (56 − 21) / (8 − 1) = 5."
-  },
-  {
-    "id": "funcao-afim-ined-0154",
-    "categoriaId": "funcao-afim",
-    "subtopico": "Tarifas e Planos",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um aplicativo de transporte cobra uma tarifa fixa de R$ 10,00 mais R$ 2,80 por quilômetro rodado. Qual será o valor cobrado em uma corrida de 5 km?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "R$ 34,00"
-      },
-      {
-        "letra": "B",
-        "texto": "R$ 10,00"
-      },
-      {
-        "letra": "C",
-        "texto": "R$ 14,00"
-      },
-      {
-        "letra": "D",
-        "texto": "R$ 38,00"
-      },
-      {
-        "letra": "E",
-        "texto": "R$ 24,00"
-      }
-    ],
-    "correta": "E",
-    "explicacao": "O custo é dado por C(x) = R$ 10,00 + R$ 2,80 × x. Para x = 5: C(5) = R$ 10,00 + R$ 2,80 × 5 = R$ 24,00."
-  },
-  {
-    "id": "funcao-afim-ined-0155",
-    "categoriaId": "funcao-afim",
-    "subtopico": "Coeficiente Angular",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma função afim f(x) = ax + b passa pelos pontos (0, 15) e (8, 127). Qual é o valor do coeficiente angular a?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "14"
-      },
-      {
-        "letra": "B",
-        "texto": "-14"
-      },
-      {
-        "letra": "C",
-        "texto": "15"
-      },
-      {
-        "letra": "D",
-        "texto": "29"
-      },
-      {
-        "letra": "E",
-        "texto": "12"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "O coeficiente angular é a = (y₂ − y₁) / (x₂ − x₁) = (127 − 15) / (8 − 0) = 14."
-  },
-  {
-    "id": "funcao-afim-ined-0156",
-    "categoriaId": "funcao-afim",
-    "subtopico": "Tarifas e Planos",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um aplicativo de transporte cobra uma tarifa fixa de R$ 3,00 mais R$ 2,90 por quilômetro rodado. Qual será o valor cobrado em uma corrida de 24 km?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "R$ 87,10"
-      },
-      {
-        "letra": "B",
-        "texto": "R$ 69,60"
-      },
-      {
-        "letra": "C",
-        "texto": "R$ 3,00"
-      },
-      {
-        "letra": "D",
-        "texto": "R$ 72,60"
-      },
-      {
-        "letra": "E",
-        "texto": "R$ 75,60"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "O custo é dado por C(x) = R$ 3,00 + R$ 2,90 × x. Para x = 24: C(24) = R$ 3,00 + R$ 2,90 × 24 = R$ 72,60."
-  },
-  {
-    "id": "funcao-afim-ined-0157",
-    "categoriaId": "funcao-afim",
-    "subtopico": "Coeficiente Angular",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma função afim f(x) = ax + b passa pelos pontos (5, 49) e (9, 81). Qual é o valor do coeficiente angular a?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "17"
-      },
-      {
-        "letra": "B",
-        "texto": "-8"
-      },
-      {
-        "letra": "C",
-        "texto": "8"
       },
       {
         "letra": "D",
@@ -673,463 +61,123 @@
       },
       {
         "letra": "E",
-        "texto": "6"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "O coeficiente angular é a = (y₂ − y₁) / (x₂ − x₁) = (81 − 49) / (9 − 5) = 8."
-  },
-  {
-    "id": "funcao-afim-ined-0158",
-    "categoriaId": "funcao-afim",
-    "subtopico": "Tarifas e Planos",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um aplicativo de transporte cobra uma tarifa fixa de R$ 12,00 mais R$ 5,95 por quilômetro rodado. Qual será o valor cobrado em uma corrida de 26 km?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "R$ 178,70"
-      },
-      {
-        "letra": "B",
-        "texto": "R$ 154,70"
-      },
-      {
-        "letra": "C",
-        "texto": "R$ 166,70"
-      },
-      {
-        "letra": "D",
-        "texto": "R$ 12,00"
-      },
-      {
-        "letra": "E",
-        "texto": "R$ 196,45"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "O custo é dado por C(x) = R$ 12,00 + R$ 5,95 × x. Para x = 26: C(26) = R$ 12,00 + R$ 5,95 × 26 = R$ 166,70."
-  },
-  {
-    "id": "funcao-afim-ined-0159",
-    "categoriaId": "funcao-afim",
-    "subtopico": "Coeficiente Angular",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma função afim f(x) = ax + b passa pelos pontos (1, 21) e (9, 77). Qual é o valor do coeficiente angular a?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "6"
-      },
-      {
-        "letra": "B",
-        "texto": "14"
-      },
-      {
-        "letra": "C",
-        "texto": "7"
-      },
-      {
-        "letra": "D",
-        "texto": "21"
-      },
-      {
-        "letra": "E",
-        "texto": "-7"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "O coeficiente angular é a = (y₂ − y₁) / (x₂ − x₁) = (77 − 21) / (9 − 1) = 7."
-  },
-  {
-    "id": "funcao-afim-ined-0160",
-    "categoriaId": "funcao-afim",
-    "subtopico": "Tarifas e Planos",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um aplicativo de transporte cobra uma tarifa fixa de R$ 10,00 mais R$ 1,20 por quilômetro rodado. Qual será o valor cobrado em uma corrida de 27 km?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "R$ 10,00"
-      },
-      {
-        "letra": "B",
-        "texto": "R$ 42,40"
-      },
-      {
-        "letra": "C",
-        "texto": "R$ 48,40"
-      },
-      {
-        "letra": "D",
-        "texto": "R$ 52,40"
-      },
-      {
-        "letra": "E",
-        "texto": "R$ 32,40"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "O custo é dado por C(x) = R$ 10,00 + R$ 1,20 × x. Para x = 27: C(27) = R$ 10,00 + R$ 1,20 × 27 = R$ 42,40."
-  },
-  {
-    "id": "funcao-afim-ined-0161",
-    "categoriaId": "funcao-afim",
-    "subtopico": "Coeficiente Angular",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma função afim f(x) = ax + b passa pelos pontos (2, 26) e (9, 75). Qual é o valor do coeficiente angular a?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "12"
-      },
-      {
-        "letra": "B",
-        "texto": "-7"
-      },
-      {
-        "letra": "C",
-        "texto": "19"
-      },
-      {
-        "letra": "D",
-        "texto": "6"
-      },
-      {
-        "letra": "E",
-        "texto": "7"
-      }
-    ],
-    "correta": "E",
-    "explicacao": "O coeficiente angular é a = (y₂ − y₁) / (x₂ − x₁) = (75 − 26) / (9 − 2) = 7."
-  },
-  {
-    "id": "funcao-afim-ined-0162",
-    "categoriaId": "funcao-afim",
-    "subtopico": "Tarifas e Planos",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um aplicativo de transporte cobra uma tarifa fixa de R$ 8,00 mais R$ 1,00 por quilômetro rodado. Qual será o valor cobrado em uma corrida de 24 km?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "R$ 8,00"
-      },
-      {
-        "letra": "B",
-        "texto": "R$ 40,00"
-      },
-      {
-        "letra": "C",
-        "texto": "R$ 32,00"
-      },
-      {
-        "letra": "D",
-        "texto": "R$ 24,00"
-      },
-      {
-        "letra": "E",
-        "texto": "R$ 37,00"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "O custo é dado por C(x) = R$ 8,00 + R$ 1,00 × x. Para x = 24: C(24) = R$ 8,00 + R$ 1,00 × 24 = R$ 32,00."
-  },
-  {
-    "id": "funcao-afim-ined-0163",
-    "categoriaId": "funcao-afim",
-    "subtopico": "Coeficiente Angular",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma função afim f(x) = ax + b passa pelos pontos (2, 21) e (8, 39). Qual é o valor do coeficiente angular a?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "19"
-      },
-      {
-        "letra": "B",
-        "texto": "18"
-      },
-      {
-        "letra": "C",
-        "texto": "3"
-      },
-      {
-        "letra": "D",
-        "texto": "15"
-      },
-      {
-        "letra": "E",
-        "texto": "-3"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "O coeficiente angular é a = (y₂ − y₁) / (x₂ − x₁) = (39 − 21) / (8 − 2) = 3."
-  },
-  {
-    "id": "funcao-afim-ined-0164",
-    "categoriaId": "funcao-afim",
-    "subtopico": "Tarifas e Planos",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um aplicativo de transporte cobra uma tarifa fixa de R$ 8,00 mais R$ 5,07 por quilômetro rodado. Qual será o valor cobrado em uma corrida de 42 km?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "R$ 8,00"
-      },
-      {
-        "letra": "B",
-        "texto": "R$ 246,29"
-      },
-      {
-        "letra": "C",
-        "texto": "R$ 212,94"
-      },
-      {
-        "letra": "D",
-        "texto": "R$ 220,94"
-      },
-      {
-        "letra": "E",
-        "texto": "R$ 228,94"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "O custo é dado por C(x) = R$ 8,00 + R$ 5,07 × x. Para x = 42: C(42) = R$ 8,00 + R$ 5,07 × 42 = R$ 220,94."
-  },
-  {
-    "id": "funcao-afim-ined-0165",
-    "categoriaId": "funcao-afim",
-    "subtopico": "Coeficiente Angular",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma função afim f(x) = ax + b passa pelos pontos (0, 6) e (7, 62). Qual é o valor do coeficiente angular a?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "14"
-      },
-      {
-        "letra": "B",
-        "texto": "6"
-      },
-      {
-        "letra": "C",
         "texto": "8"
-      },
-      {
-        "letra": "D",
-        "texto": "7"
-      },
-      {
-        "letra": "E",
-        "texto": "-8"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "O coeficiente angular é a = (y₂ − y₁) / (x₂ − x₁) = (62 − 6) / (7 − 0) = 8."
-  },
-  {
-    "id": "funcao-afim-ined-0166",
-    "categoriaId": "funcao-afim",
-    "subtopico": "Tarifas e Planos",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um aplicativo de transporte cobra uma tarifa fixa de R$ 10,00 mais R$ 1,31 por quilômetro rodado. Qual será o valor cobrado em uma corrida de 19 km?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "R$ 24,89"
-      },
-      {
-        "letra": "B",
-        "texto": "R$ 44,89"
-      },
-      {
-        "letra": "C",
-        "texto": "R$ 41,44"
-      },
-      {
-        "letra": "D",
-        "texto": "R$ 34,89"
-      },
-      {
-        "letra": "E",
-        "texto": "R$ 10,00"
       }
     ],
     "correta": "D",
-    "explicacao": "O custo é dado por C(x) = R$ 10,00 + R$ 1,31 × x. Para x = 19: C(19) = R$ 10,00 + R$ 1,31 × 19 = R$ 34,89."
+    "explicacao": "O coeficiente angular é a = (y₂ − y₁) / (x₂ − x₁) = (90 − 54) / (9 − 5) = 9."
   },
   {
-    "id": "funcao-afim-ined-0167",
-    "categoriaId": "funcao-afim",
-    "subtopico": "Coeficiente Angular",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma função afim f(x) = ax + b passa pelos pontos (4, 62) e (9, 127). Qual é o valor do coeficiente angular a?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "11"
-      },
-      {
-        "letra": "B",
-        "texto": "13"
-      },
-      {
-        "letra": "C",
-        "texto": "10"
-      },
-      {
-        "letra": "D",
-        "texto": "-13"
-      },
-      {
-        "letra": "E",
-        "texto": "23"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "O coeficiente angular é a = (y₂ − y₁) / (x₂ − x₁) = (127 − 62) / (9 − 4) = 13."
-  },
-  {
-    "id": "funcao-afim-ined-0168",
-    "categoriaId": "funcao-afim",
-    "subtopico": "Tarifas e Planos",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um aplicativo de transporte cobra uma tarifa fixa de R$ 2,00 mais R$ 1,37 por quilômetro rodado. Qual será o valor cobrado em uma corrida de 13 km?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "R$ 26,66"
-      },
-      {
-        "letra": "B",
-        "texto": "R$ 21,81"
-      },
-      {
-        "letra": "C",
-        "texto": "R$ 2,00"
-      },
-      {
-        "letra": "D",
-        "texto": "R$ 17,81"
-      },
-      {
-        "letra": "E",
-        "texto": "R$ 19,81"
-      }
-    ],
-    "correta": "E",
-    "explicacao": "O custo é dado por C(x) = R$ 2,00 + R$ 1,37 × x. Para x = 13: C(13) = R$ 2,00 + R$ 1,37 × 13 = R$ 19,81."
-  },
-  {
-    "id": "funcao-afim-ined-0169",
-    "categoriaId": "funcao-afim",
-    "subtopico": "Coeficiente Angular",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma função afim f(x) = ax + b passa pelos pontos (0, 15) e (5, 35). Qual é o valor do coeficiente angular a?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "15"
-      },
-      {
-        "letra": "B",
-        "texto": "-4"
-      },
-      {
-        "letra": "C",
-        "texto": "19"
-      },
-      {
-        "letra": "D",
-        "texto": "4"
-      },
-      {
-        "letra": "E",
-        "texto": "3"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "O coeficiente angular é a = (y₂ − y₁) / (x₂ − x₁) = (35 − 15) / (5 − 0) = 4."
-  },
-  {
-    "id": "funcao-afim-ined-0170",
+    "id": "funcao-afim-ined-0136",
     "categoriaId": "funcao-afim",
     "subtopico": "Tarifas e Planos",
     "dificuldade": "dificil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Um aplicativo de transporte cobra uma tarifa fixa de R$ 15,00 mais R$ 2,90 por quilômetro rodado. Qual será o valor cobrado em uma corrida de 43 km?",
+    "enunciado": "Um aplicativo de transporte cobra uma tarifa fixa de R$ 12,00 mais R$ 4,64 por quilômetro rodado. Qual será o valor cobrado em uma corrida de 14 km?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "R$ 139,70"
+        "texto": "R$ 76,96"
       },
       {
         "letra": "B",
-        "texto": "R$ 154,70"
+        "texto": "R$ 100,16"
       },
       {
         "letra": "C",
-        "texto": "R$ 124,70"
+        "texto": "R$ 64,96"
       },
       {
         "letra": "D",
-        "texto": "R$ 15,00"
+        "texto": "R$ 88,96"
       },
       {
         "letra": "E",
-        "texto": "R$ 154,20"
+        "texto": "R$ 12,00"
       }
     ],
     "correta": "A",
-    "explicacao": "O custo é dado por C(x) = R$ 15,00 + R$ 2,90 × x. Para x = 43: C(43) = R$ 15,00 + R$ 2,90 × 43 = R$ 139,70."
+    "explicacao": "O custo é dado por C(x) = R$ 12,00 + R$ 4,64 × x. Para x = 14: C(14) = R$ 12,00 + R$ 4,64 × 14 = R$ 76,96."
   },
   {
-    "id": "funcao-afim-ined-0171",
+    "id": "funcao-afim-ined-0137",
     "categoriaId": "funcao-afim",
     "subtopico": "Coeficiente Angular",
     "dificuldade": "facil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Uma função afim f(x) = ax + b passa pelos pontos (2, 22) e (7, 37). Qual é o valor do coeficiente angular a?",
+    "enunciado": "Uma função afim f(x) = ax + b passa pelos pontos (1, 14) e (4, 32). Qual é o valor do coeficiente angular a?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "8"
+      },
+      {
+        "letra": "B",
+        "texto": "14"
+      },
+      {
+        "letra": "C",
+        "texto": "-6"
+      },
+      {
+        "letra": "D",
+        "texto": "6"
+      },
+      {
+        "letra": "E",
+        "texto": "5"
+      }
+    ],
+    "correta": "D",
+    "explicacao": "O coeficiente angular é a = (y₂ − y₁) / (x₂ − x₁) = (32 − 14) / (4 − 1) = 6."
+  },
+  {
+    "id": "funcao-afim-ined-0138",
+    "categoriaId": "funcao-afim",
+    "subtopico": "Tarifas e Planos",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um aplicativo de transporte cobra uma tarifa fixa de R$ 7,00 mais R$ 2,15 por quilômetro rodado. Qual será o valor cobrado em uma corrida de 8 km?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "R$ 24,20"
+      },
+      {
+        "letra": "B",
+        "texto": "R$ 7,00"
+      },
+      {
+        "letra": "C",
+        "texto": "R$ 31,20"
+      },
+      {
+        "letra": "D",
+        "texto": "R$ 34,95"
+      },
+      {
+        "letra": "E",
+        "texto": "R$ 17,20"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "O custo é dado por C(x) = R$ 7,00 + R$ 2,15 × x. Para x = 8: C(8) = R$ 7,00 + R$ 2,15 × 8 = R$ 24,20."
+  },
+  {
+    "id": "funcao-afim-ined-0139",
+    "categoriaId": "funcao-afim",
+    "subtopico": "Coeficiente Angular",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma função afim f(x) = ax + b passa pelos pontos (4, 85) e (8, 161). Qual é o valor do coeficiente angular a?",
     "alternativas": [
       {
         "letra": "A",
@@ -1137,7 +185,279 @@
       },
       {
         "letra": "B",
+        "texto": "-19"
+      },
+      {
+        "letra": "C",
+        "texto": "15"
+      },
+      {
+        "letra": "D",
+        "texto": "9"
+      },
+      {
+        "letra": "E",
+        "texto": "28"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "O coeficiente angular é a = (y₂ − y₁) / (x₂ − x₁) = (161 − 85) / (8 − 4) = 19."
+  },
+  {
+    "id": "funcao-afim-ined-0140",
+    "categoriaId": "funcao-afim",
+    "subtopico": "Tarifas e Planos",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um aplicativo de transporte cobra uma tarifa fixa de R$ 5,00 mais R$ 3,06 por quilômetro rodado. Qual será o valor cobrado em uma corrida de 19 km?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "R$ 63,14"
+      },
+      {
+        "letra": "B",
+        "texto": "R$ 78,44"
+      },
+      {
+        "letra": "C",
+        "texto": "R$ 5,00"
+      },
+      {
+        "letra": "D",
+        "texto": "R$ 68,14"
+      },
+      {
+        "letra": "E",
+        "texto": "R$ 58,14"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "O custo é dado por C(x) = R$ 5,00 + R$ 3,06 × x. Para x = 19: C(19) = R$ 5,00 + R$ 3,06 × 19 = R$ 63,14."
+  },
+  {
+    "id": "funcao-afim-ined-0141",
+    "categoriaId": "funcao-afim",
+    "subtopico": "Coeficiente Angular",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma função afim f(x) = ax + b passa pelos pontos (5, 46) e (7, 58). Qual é o valor do coeficiente angular a?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "6"
+      },
+      {
+        "letra": "B",
+        "texto": "22"
+      },
+      {
+        "letra": "C",
+        "texto": "4"
+      },
+      {
+        "letra": "D",
+        "texto": "-6"
+      },
+      {
+        "letra": "E",
+        "texto": "16"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "O coeficiente angular é a = (y₂ − y₁) / (x₂ − x₁) = (58 − 46) / (7 − 5) = 6."
+  },
+  {
+    "id": "funcao-afim-ined-0142",
+    "categoriaId": "funcao-afim",
+    "subtopico": "Tarifas e Planos",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um aplicativo de transporte cobra uma tarifa fixa de R$ 10,00 mais R$ 2,63 por quilômetro rodado. Qual será o valor cobrado em uma corrida de 39 km?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "R$ 122,57"
+      },
+      {
+        "letra": "B",
+        "texto": "R$ 102,57"
+      },
+      {
+        "letra": "C",
+        "texto": "R$ 112,57"
+      },
+      {
+        "letra": "D",
+        "texto": "R$ 10,00"
+      },
+      {
+        "letra": "E",
+        "texto": "R$ 125,72"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "O custo é dado por C(x) = R$ 10,00 + R$ 2,63 × x. Para x = 39: C(39) = R$ 10,00 + R$ 2,63 × 39 = R$ 112,57."
+  },
+  {
+    "id": "funcao-afim-ined-0143",
+    "categoriaId": "funcao-afim",
+    "subtopico": "Coeficiente Angular",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma função afim f(x) = ax + b passa pelos pontos (5, 41) e (13, 97). Qual é o valor do coeficiente angular a?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "13"
+      },
+      {
+        "letra": "B",
+        "texto": "-7"
+      },
+      {
+        "letra": "C",
+        "texto": "14"
+      },
+      {
+        "letra": "D",
+        "texto": "7"
+      },
+      {
+        "letra": "E",
+        "texto": "6"
+      }
+    ],
+    "correta": "D",
+    "explicacao": "O coeficiente angular é a = (y₂ − y₁) / (x₂ − x₁) = (97 − 41) / (13 − 5) = 7."
+  },
+  {
+    "id": "funcao-afim-ined-0144",
+    "categoriaId": "funcao-afim",
+    "subtopico": "Tarifas e Planos",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um aplicativo de transporte cobra uma tarifa fixa de R$ 8,00 mais R$ 1,39 por quilômetro rodado. Qual será o valor cobrado em uma corrida de 14 km?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "R$ 35,46"
+      },
+      {
+        "letra": "B",
+        "texto": "R$ 19,46"
+      },
+      {
+        "letra": "C",
+        "texto": "R$ 34,41"
+      },
+      {
+        "letra": "D",
+        "texto": "R$ 8,00"
+      },
+      {
+        "letra": "E",
+        "texto": "R$ 27,46"
+      }
+    ],
+    "correta": "E",
+    "explicacao": "O custo é dado por C(x) = R$ 8,00 + R$ 1,39 × x. Para x = 14: C(14) = R$ 8,00 + R$ 1,39 × 14 = R$ 27,46."
+  },
+  {
+    "id": "funcao-afim-ined-0145",
+    "categoriaId": "funcao-afim",
+    "subtopico": "Coeficiente Angular",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma função afim f(x) = ax + b passa pelos pontos (0, 3) e (3, 42). Qual é o valor do coeficiente angular a?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "10"
+      },
+      {
+        "letra": "B",
+        "texto": "-13"
+      },
+      {
+        "letra": "C",
         "texto": "3"
+      },
+      {
+        "letra": "D",
+        "texto": "13"
+      },
+      {
+        "letra": "E",
+        "texto": "16"
+      }
+    ],
+    "correta": "D",
+    "explicacao": "O coeficiente angular é a = (y₂ − y₁) / (x₂ − x₁) = (42 − 3) / (3 − 0) = 13."
+  },
+  {
+    "id": "funcao-afim-ined-0146",
+    "categoriaId": "funcao-afim",
+    "subtopico": "Tarifas e Planos",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um aplicativo de transporte cobra uma tarifa fixa de R$ 8,00 mais R$ 2,47 por quilômetro rodado. Qual será o valor cobrado em uma corrida de 5 km?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "R$ 12,35"
+      },
+      {
+        "letra": "B",
+        "texto": "R$ 32,70"
+      },
+      {
+        "letra": "C",
+        "texto": "R$ 8,00"
+      },
+      {
+        "letra": "D",
+        "texto": "R$ 20,35"
+      },
+      {
+        "letra": "E",
+        "texto": "R$ 28,35"
+      }
+    ],
+    "correta": "D",
+    "explicacao": "O custo é dado por C(x) = R$ 8,00 + R$ 2,47 × x. Para x = 5: C(5) = R$ 8,00 + R$ 2,47 × 5 = R$ 20,35."
+  },
+  {
+    "id": "funcao-afim-ined-0147",
+    "categoriaId": "funcao-afim",
+    "subtopico": "Coeficiente Angular",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma função afim f(x) = ax + b passa pelos pontos (1, 20) e (4, 38). Qual é o valor do coeficiente angular a?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "6"
+      },
+      {
+        "letra": "B",
+        "texto": "5"
       },
       {
         "letra": "C",
@@ -1145,135 +465,135 @@
       },
       {
         "letra": "D",
-        "texto": "-3"
+        "texto": "14"
       },
       {
         "letra": "E",
-        "texto": "16"
+        "texto": "-6"
       }
     ],
-    "correta": "B",
-    "explicacao": "O coeficiente angular é a = (y₂ − y₁) / (x₂ − x₁) = (37 − 22) / (7 − 2) = 3."
+    "correta": "A",
+    "explicacao": "O coeficiente angular é a = (y₂ − y₁) / (x₂ − x₁) = (38 − 20) / (4 − 1) = 6."
   },
   {
-    "id": "funcao-afim-ined-0172",
+    "id": "funcao-afim-ined-0148",
+    "categoriaId": "funcao-afim",
+    "subtopico": "Tarifas e Planos",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um aplicativo de transporte cobra uma tarifa fixa de R$ 6,00 mais R$ 5,68 por quilômetro rodado. Qual será o valor cobrado em uma corrida de 33 km?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "R$ 187,44"
+      },
+      {
+        "letra": "B",
+        "texto": "R$ 199,44"
+      },
+      {
+        "letra": "C",
+        "texto": "R$ 221,84"
+      },
+      {
+        "letra": "D",
+        "texto": "R$ 6,00"
+      },
+      {
+        "letra": "E",
+        "texto": "R$ 193,44"
+      }
+    ],
+    "correta": "E",
+    "explicacao": "O custo é dado por C(x) = R$ 6,00 + R$ 5,68 × x. Para x = 33: C(33) = R$ 6,00 + R$ 5,68 × 33 = R$ 193,44."
+  },
+  {
+    "id": "funcao-afim-ined-0149",
+    "categoriaId": "funcao-afim",
+    "subtopico": "Coeficiente Angular",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma função afim f(x) = ax + b passa pelos pontos (0, 4) e (4, 28). Qual é o valor do coeficiente angular a?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "-6"
+      },
+      {
+        "letra": "B",
+        "texto": "10"
+      },
+      {
+        "letra": "C",
+        "texto": "5"
+      },
+      {
+        "letra": "D",
+        "texto": "4"
+      },
+      {
+        "letra": "E",
+        "texto": "6"
+      }
+    ],
+    "correta": "E",
+    "explicacao": "O coeficiente angular é a = (y₂ − y₁) / (x₂ − x₁) = (28 − 4) / (4 − 0) = 6."
+  },
+  {
+    "id": "funcao-afim-ined-0150",
     "categoriaId": "funcao-afim",
     "subtopico": "Tarifas e Planos",
     "dificuldade": "medio",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Um aplicativo de transporte cobra uma tarifa fixa de R$ 8,00 mais R$ 2,17 por quilômetro rodado. Qual será o valor cobrado em uma corrida de 24 km?",
+    "enunciado": "Um aplicativo de transporte cobra uma tarifa fixa de R$ 7,00 mais R$ 1,22 por quilômetro rodado. Qual será o valor cobrado em uma corrida de 6 km?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "R$ 60,08"
+        "texto": "R$ 7,32"
       },
       {
         "letra": "B",
-        "texto": "R$ 68,08"
+        "texto": "R$ 21,32"
       },
       {
         "letra": "C",
-        "texto": "R$ 8,00"
+        "texto": "R$ 7,00"
       },
       {
         "letra": "D",
-        "texto": "R$ 70,93"
+        "texto": "R$ 14,32"
       },
       {
         "letra": "E",
-        "texto": "R$ 52,08"
+        "texto": "R$ 20,42"
       }
     ],
-    "correta": "A",
-    "explicacao": "O custo é dado por C(x) = R$ 8,00 + R$ 2,17 × x. Para x = 24: C(24) = R$ 8,00 + R$ 2,17 × 24 = R$ 60,08."
+    "correta": "D",
+    "explicacao": "O custo é dado por C(x) = R$ 7,00 + R$ 1,22 × x. Para x = 6: C(6) = R$ 7,00 + R$ 1,22 × 6 = R$ 14,32."
   },
   {
-    "id": "funcao-afim-ined-0173",
+    "id": "funcao-afim-ined-0151",
     "categoriaId": "funcao-afim",
     "subtopico": "Coeficiente Angular",
     "dificuldade": "dificil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Uma função afim f(x) = ax + b passa pelos pontos (4, 92) e (9, 187). Qual é o valor do coeficiente angular a?",
+    "enunciado": "Uma função afim f(x) = ax + b passa pelos pontos (5, 39) e (9, 63). Qual é o valor do coeficiente angular a?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "35"
+        "texto": "5"
       },
       {
         "letra": "B",
-        "texto": "36"
-      },
-      {
-        "letra": "C",
-        "texto": "16"
-      },
-      {
-        "letra": "D",
-        "texto": "19"
-      },
-      {
-        "letra": "E",
-        "texto": "-19"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "O coeficiente angular é a = (y₂ − y₁) / (x₂ − x₁) = (187 − 92) / (9 − 4) = 19."
-  },
-  {
-    "id": "funcao-afim-ined-0174",
-    "categoriaId": "funcao-afim",
-    "subtopico": "Tarifas e Planos",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um aplicativo de transporte cobra uma tarifa fixa de R$ 6,00 mais R$ 2,10 por quilômetro rodado. Qual será o valor cobrado em uma corrida de 9 km?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "R$ 24,90"
-      },
-      {
-        "letra": "B",
-        "texto": "R$ 6,00"
-      },
-      {
-        "letra": "C",
-        "texto": "R$ 35,40"
-      },
-      {
-        "letra": "D",
-        "texto": "R$ 30,90"
-      },
-      {
-        "letra": "E",
-        "texto": "R$ 18,90"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "O custo é dado por C(x) = R$ 6,00 + R$ 2,10 × x. Para x = 9: C(9) = R$ 6,00 + R$ 2,10 × 9 = R$ 24,90."
-  },
-  {
-    "id": "funcao-afim-ined-0175",
-    "categoriaId": "funcao-afim",
-    "subtopico": "Coeficiente Angular",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma função afim f(x) = ax + b passa pelos pontos (0, 4) e (8, 52). Qual é o valor do coeficiente angular a?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "10"
-      },
-      {
-        "letra": "B",
-        "texto": "-6"
+        "texto": "9"
       },
       {
         "letra": "C",
@@ -1281,48 +601,728 @@
       },
       {
         "letra": "D",
-        "texto": "5"
+        "texto": "-6"
       },
       {
         "letra": "E",
-        "texto": "4"
+        "texto": "15"
       }
     ],
     "correta": "C",
-    "explicacao": "O coeficiente angular é a = (y₂ − y₁) / (x₂ − x₁) = (52 − 4) / (8 − 0) = 6."
+    "explicacao": "O coeficiente angular é a = (y₂ − y₁) / (x₂ − x₁) = (63 − 39) / (9 − 5) = 6."
   },
   {
-    "id": "funcao-afim-ined-0176",
+    "id": "funcao-afim-ined-0152",
+    "categoriaId": "funcao-afim",
+    "subtopico": "Tarifas e Planos",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um aplicativo de transporte cobra uma tarifa fixa de R$ 8,00 mais R$ 1,12 por quilômetro rodado. Qual será o valor cobrado em uma corrida de 12 km?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "R$ 27,04"
+      },
+      {
+        "letra": "B",
+        "texto": "R$ 21,44"
+      },
+      {
+        "letra": "C",
+        "texto": "R$ 8,00"
+      },
+      {
+        "letra": "D",
+        "texto": "R$ 13,44"
+      },
+      {
+        "letra": "E",
+        "texto": "R$ 29,44"
+      }
+    ],
+    "correta": "B",
+    "explicacao": "O custo é dado por C(x) = R$ 8,00 + R$ 1,12 × x. Para x = 12: C(12) = R$ 8,00 + R$ 1,12 × 12 = R$ 21,44."
+  },
+  {
+    "id": "funcao-afim-ined-0153",
+    "categoriaId": "funcao-afim",
+    "subtopico": "Coeficiente Angular",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma função afim f(x) = ax + b passa pelos pontos (1, 25) e (3, 35). Qual é o valor do coeficiente angular a?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "5"
+      },
+      {
+        "letra": "B",
+        "texto": "20"
+      },
+      {
+        "letra": "C",
+        "texto": "25"
+      },
+      {
+        "letra": "D",
+        "texto": "3"
+      },
+      {
+        "letra": "E",
+        "texto": "-5"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "O coeficiente angular é a = (y₂ − y₁) / (x₂ − x₁) = (35 − 25) / (3 − 1) = 5."
+  },
+  {
+    "id": "funcao-afim-ined-0154",
     "categoriaId": "funcao-afim",
     "subtopico": "Tarifas e Planos",
     "dificuldade": "dificil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Um aplicativo de transporte cobra uma tarifa fixa de R$ 14,00 mais R$ 4,89 por quilômetro rodado. Qual será o valor cobrado em uma corrida de 30 km?",
+    "enunciado": "Um aplicativo de transporte cobra uma tarifa fixa de R$ 12,00 mais R$ 1,98 por quilômetro rodado. Qual será o valor cobrado em uma corrida de 43 km?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "R$ 160,70"
+        "texto": "R$ 85,14"
       },
       {
         "letra": "B",
-        "texto": "R$ 185,15"
+        "texto": "R$ 109,14"
       },
       {
         "letra": "C",
-        "texto": "R$ 174,70"
+        "texto": "R$ 12,00"
       },
       {
         "letra": "D",
-        "texto": "R$ 146,70"
+        "texto": "R$ 107,04"
       },
       {
         "letra": "E",
-        "texto": "R$ 14,00"
+        "texto": "R$ 97,14"
+      }
+    ],
+    "correta": "E",
+    "explicacao": "O custo é dado por C(x) = R$ 12,00 + R$ 1,98 × x. Para x = 43: C(43) = R$ 12,00 + R$ 1,98 × 43 = R$ 97,14."
+  },
+  {
+    "id": "funcao-afim-ined-0155",
+    "categoriaId": "funcao-afim",
+    "subtopico": "Coeficiente Angular",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma função afim f(x) = ax + b passa pelos pontos (5, 21) e (7, 29). Qual é o valor do coeficiente angular a?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "-4"
+      },
+      {
+        "letra": "B",
+        "texto": "1"
+      },
+      {
+        "letra": "C",
+        "texto": "3"
+      },
+      {
+        "letra": "D",
+        "texto": "4"
+      },
+      {
+        "letra": "E",
+        "texto": "5"
+      }
+    ],
+    "correta": "D",
+    "explicacao": "O coeficiente angular é a = (y₂ − y₁) / (x₂ − x₁) = (29 − 21) / (7 − 5) = 4."
+  },
+  {
+    "id": "funcao-afim-ined-0156",
+    "categoriaId": "funcao-afim",
+    "subtopico": "Tarifas e Planos",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um aplicativo de transporte cobra uma tarifa fixa de R$ 10,00 mais R$ 2,72 por quilômetro rodado. Qual será o valor cobrado em uma corrida de 16 km?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "R$ 53,52"
+      },
+      {
+        "letra": "B",
+        "texto": "R$ 67,12"
+      },
+      {
+        "letra": "C",
+        "texto": "R$ 63,52"
+      },
+      {
+        "letra": "D",
+        "texto": "R$ 43,52"
+      },
+      {
+        "letra": "E",
+        "texto": "R$ 10,00"
       }
     ],
     "correta": "A",
-    "explicacao": "O custo é dado por C(x) = R$ 14,00 + R$ 4,89 × x. Para x = 30: C(30) = R$ 14,00 + R$ 4,89 × 30 = R$ 160,70."
+    "explicacao": "O custo é dado por C(x) = R$ 10,00 + R$ 2,72 × x. Para x = 16: C(16) = R$ 10,00 + R$ 2,72 × 16 = R$ 53,52."
+  },
+  {
+    "id": "funcao-afim-ined-0157",
+    "categoriaId": "funcao-afim",
+    "subtopico": "Coeficiente Angular",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma função afim f(x) = ax + b passa pelos pontos (1, 31) e (4, 82). Qual é o valor do coeficiente angular a?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "-17"
+      },
+      {
+        "letra": "B",
+        "texto": "13"
+      },
+      {
+        "letra": "C",
+        "texto": "14"
+      },
+      {
+        "letra": "D",
+        "texto": "17"
+      },
+      {
+        "letra": "E",
+        "texto": "31"
+      }
+    ],
+    "correta": "D",
+    "explicacao": "O coeficiente angular é a = (y₂ − y₁) / (x₂ − x₁) = (82 − 31) / (4 − 1) = 17."
+  },
+  {
+    "id": "funcao-afim-ined-0158",
+    "categoriaId": "funcao-afim",
+    "subtopico": "Tarifas e Planos",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um aplicativo de transporte cobra uma tarifa fixa de R$ 5,00 mais R$ 3,00 por quilômetro rodado. Qual será o valor cobrado em uma corrida de 20 km?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "R$ 70,00"
+      },
+      {
+        "letra": "B",
+        "texto": "R$ 80,00"
+      },
+      {
+        "letra": "C",
+        "texto": "R$ 65,00"
+      },
+      {
+        "letra": "D",
+        "texto": "R$ 60,00"
+      },
+      {
+        "letra": "E",
+        "texto": "R$ 5,00"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "O custo é dado por C(x) = R$ 5,00 + R$ 3,00 × x. Para x = 20: C(20) = R$ 5,00 + R$ 3,00 × 20 = R$ 65,00."
+  },
+  {
+    "id": "funcao-afim-ined-0159",
+    "categoriaId": "funcao-afim",
+    "subtopico": "Coeficiente Angular",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma função afim f(x) = ax + b passa pelos pontos (0, 7) e (8, 79). Qual é o valor do coeficiente angular a?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "-9"
+      },
+      {
+        "letra": "B",
+        "texto": "16"
+      },
+      {
+        "letra": "C",
+        "texto": "7"
+      },
+      {
+        "letra": "D",
+        "texto": "9"
+      },
+      {
+        "letra": "E",
+        "texto": "8"
+      }
+    ],
+    "correta": "D",
+    "explicacao": "O coeficiente angular é a = (y₂ − y₁) / (x₂ − x₁) = (79 − 7) / (8 − 0) = 9."
+  },
+  {
+    "id": "funcao-afim-ined-0160",
+    "categoriaId": "funcao-afim",
+    "subtopico": "Tarifas e Planos",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um aplicativo de transporte cobra uma tarifa fixa de R$ 4,00 mais R$ 2,26 por quilômetro rodado. Qual será o valor cobrado em uma corrida de 26 km?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "R$ 62,76"
+      },
+      {
+        "letra": "B",
+        "texto": "R$ 58,76"
+      },
+      {
+        "letra": "C",
+        "texto": "R$ 74,06"
+      },
+      {
+        "letra": "D",
+        "texto": "R$ 4,00"
+      },
+      {
+        "letra": "E",
+        "texto": "R$ 66,76"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "O custo é dado por C(x) = R$ 4,00 + R$ 2,26 × x. Para x = 26: C(26) = R$ 4,00 + R$ 2,26 × 26 = R$ 62,76."
+  },
+  {
+    "id": "funcao-afim-ined-0161",
+    "categoriaId": "funcao-afim",
+    "subtopico": "Coeficiente Angular",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma função afim f(x) = ax + b passa pelos pontos (1, 17) e (4, 32). Qual é o valor do coeficiente angular a?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "17"
+      },
+      {
+        "letra": "B",
+        "texto": "5"
+      },
+      {
+        "letra": "C",
+        "texto": "4"
+      },
+      {
+        "letra": "D",
+        "texto": "-5"
+      },
+      {
+        "letra": "E",
+        "texto": "12"
+      }
+    ],
+    "correta": "B",
+    "explicacao": "O coeficiente angular é a = (y₂ − y₁) / (x₂ − x₁) = (32 − 17) / (4 − 1) = 5."
+  },
+  {
+    "id": "funcao-afim-ined-0162",
+    "categoriaId": "funcao-afim",
+    "subtopico": "Tarifas e Planos",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um aplicativo de transporte cobra uma tarifa fixa de R$ 8,00 mais R$ 2,63 por quilômetro rodado. Qual será o valor cobrado em uma corrida de 27 km?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "R$ 87,01"
+      },
+      {
+        "letra": "B",
+        "texto": "R$ 8,00"
+      },
+      {
+        "letra": "C",
+        "texto": "R$ 71,01"
+      },
+      {
+        "letra": "D",
+        "texto": "R$ 92,16"
+      },
+      {
+        "letra": "E",
+        "texto": "R$ 79,01"
+      }
+    ],
+    "correta": "E",
+    "explicacao": "O custo é dado por C(x) = R$ 8,00 + R$ 2,63 × x. Para x = 27: C(27) = R$ 8,00 + R$ 2,63 × 27 = R$ 79,01."
+  },
+  {
+    "id": "funcao-afim-ined-0163",
+    "categoriaId": "funcao-afim",
+    "subtopico": "Coeficiente Angular",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma função afim f(x) = ax + b passa pelos pontos (0, 7) e (8, 71). Qual é o valor do coeficiente angular a?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "16"
+      },
+      {
+        "letra": "B",
+        "texto": "-8"
+      },
+      {
+        "letra": "C",
+        "texto": "7"
+      },
+      {
+        "letra": "D",
+        "texto": "8"
+      },
+      {
+        "letra": "E",
+        "texto": "15"
+      }
+    ],
+    "correta": "D",
+    "explicacao": "O coeficiente angular é a = (y₂ − y₁) / (x₂ − x₁) = (71 − 7) / (8 − 0) = 8."
+  },
+  {
+    "id": "funcao-afim-ined-0164",
+    "categoriaId": "funcao-afim",
+    "subtopico": "Tarifas e Planos",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um aplicativo de transporte cobra uma tarifa fixa de R$ 5,00 mais R$ 0,81 por quilômetro rodado. Qual será o valor cobrado em uma corrida de 13 km?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "R$ 15,53"
+      },
+      {
+        "letra": "B",
+        "texto": "R$ 19,58"
+      },
+      {
+        "letra": "C",
+        "texto": "R$ 5,00"
+      },
+      {
+        "letra": "D",
+        "texto": "R$ 20,53"
+      },
+      {
+        "letra": "E",
+        "texto": "R$ 10,53"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "O custo é dado por C(x) = R$ 5,00 + R$ 0,81 × x. Para x = 13: C(13) = R$ 5,00 + R$ 0,81 × 13 = R$ 15,53."
+  },
+  {
+    "id": "funcao-afim-ined-0165",
+    "categoriaId": "funcao-afim",
+    "subtopico": "Coeficiente Angular",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma função afim f(x) = ax + b passa pelos pontos (5, 28) e (7, 34). Qual é o valor do coeficiente angular a?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "3"
+      },
+      {
+        "letra": "B",
+        "texto": "2"
+      },
+      {
+        "letra": "C",
+        "texto": "-3"
+      },
+      {
+        "letra": "D",
+        "texto": "16"
+      },
+      {
+        "letra": "E",
+        "texto": "13"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "O coeficiente angular é a = (y₂ − y₁) / (x₂ − x₁) = (34 − 28) / (7 − 5) = 3."
+  },
+  {
+    "id": "funcao-afim-ined-0166",
+    "categoriaId": "funcao-afim",
+    "subtopico": "Tarifas e Planos",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um aplicativo de transporte cobra uma tarifa fixa de R$ 7,00 mais R$ 3,05 por quilômetro rodado. Qual será o valor cobrado em uma corrida de 45 km?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "R$ 151,25"
+      },
+      {
+        "letra": "B",
+        "texto": "R$ 137,25"
+      },
+      {
+        "letra": "C",
+        "texto": "R$ 144,25"
+      },
+      {
+        "letra": "D",
+        "texto": "R$ 159,50"
+      },
+      {
+        "letra": "E",
+        "texto": "R$ 7,00"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "O custo é dado por C(x) = R$ 7,00 + R$ 3,05 × x. Para x = 45: C(45) = R$ 7,00 + R$ 3,05 × 45 = R$ 144,25."
+  },
+  {
+    "id": "funcao-afim-ined-0167",
+    "categoriaId": "funcao-afim",
+    "subtopico": "Coeficiente Angular",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma função afim f(x) = ax + b passa pelos pontos (1, 8) e (6, 28). Qual é o valor do coeficiente angular a?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "4"
+      },
+      {
+        "letra": "B",
+        "texto": "3"
+      },
+      {
+        "letra": "C",
+        "texto": "-4"
+      },
+      {
+        "letra": "D",
+        "texto": "8"
+      },
+      {
+        "letra": "E",
+        "texto": "2"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "O coeficiente angular é a = (y₂ − y₁) / (x₂ − x₁) = (28 − 8) / (6 − 1) = 4."
+  },
+  {
+    "id": "funcao-afim-ined-0168",
+    "categoriaId": "funcao-afim",
+    "subtopico": "Tarifas e Planos",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um aplicativo de transporte cobra uma tarifa fixa de R$ 10,00 mais R$ 2,04 por quilômetro rodado. Qual será o valor cobrado em uma corrida de 5 km?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "R$ 30,20"
+      },
+      {
+        "letra": "B",
+        "texto": "R$ 30,40"
+      },
+      {
+        "letra": "C",
+        "texto": "R$ 10,20"
+      },
+      {
+        "letra": "D",
+        "texto": "R$ 10,00"
+      },
+      {
+        "letra": "E",
+        "texto": "R$ 20,20"
+      }
+    ],
+    "correta": "E",
+    "explicacao": "O custo é dado por C(x) = R$ 10,00 + R$ 2,04 × x. Para x = 5: C(5) = R$ 10,00 + R$ 2,04 × 5 = R$ 20,20."
+  },
+  {
+    "id": "funcao-afim-ined-0169",
+    "categoriaId": "funcao-afim",
+    "subtopico": "Coeficiente Angular",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma função afim f(x) = ax + b passa pelos pontos (0, 2) e (4, 78). Qual é o valor do coeficiente angular a?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "-19"
+      },
+      {
+        "letra": "B",
+        "texto": "19"
+      },
+      {
+        "letra": "C",
+        "texto": "2"
+      },
+      {
+        "letra": "D",
+        "texto": "21"
+      },
+      {
+        "letra": "E",
+        "texto": "15"
+      }
+    ],
+    "correta": "B",
+    "explicacao": "O coeficiente angular é a = (y₂ − y₁) / (x₂ − x₁) = (78 − 2) / (4 − 0) = 19."
+  },
+  {
+    "id": "funcao-afim-ined-0170",
+    "categoriaId": "funcao-afim",
+    "subtopico": "Tarifas e Planos",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um aplicativo de transporte cobra uma tarifa fixa de R$ 4,00 mais R$ 1,16 por quilômetro rodado. Qual será o valor cobrado em uma corrida de 12 km?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "R$ 23,72"
+      },
+      {
+        "letra": "B",
+        "texto": "R$ 13,92"
+      },
+      {
+        "letra": "C",
+        "texto": "R$ 17,92"
+      },
+      {
+        "letra": "D",
+        "texto": "R$ 4,00"
+      },
+      {
+        "letra": "E",
+        "texto": "R$ 21,92"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "O custo é dado por C(x) = R$ 4,00 + R$ 1,16 × x. Para x = 12: C(12) = R$ 4,00 + R$ 1,16 × 12 = R$ 17,92."
+  },
+  {
+    "id": "funcao-afim-ined-0171",
+    "categoriaId": "funcao-afim",
+    "subtopico": "Coeficiente Angular",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma função afim f(x) = ax + b passa pelos pontos (0, 2) e (4, 38). Qual é o valor do coeficiente angular a?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "-9"
+      },
+      {
+        "letra": "B",
+        "texto": "2"
+      },
+      {
+        "letra": "C",
+        "texto": "11"
+      },
+      {
+        "letra": "D",
+        "texto": "7"
+      },
+      {
+        "letra": "E",
+        "texto": "9"
+      }
+    ],
+    "correta": "E",
+    "explicacao": "O coeficiente angular é a = (y₂ − y₁) / (x₂ − x₁) = (38 − 2) / (4 − 0) = 9."
+  },
+  {
+    "id": "funcao-afim-ined-0172",
+    "categoriaId": "funcao-afim",
+    "subtopico": "Tarifas e Planos",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um aplicativo de transporte cobra uma tarifa fixa de R$ 13,00 mais R$ 3,89 por quilômetro rodado. Qual será o valor cobrado em uma corrida de 23 km?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "R$ 115,47"
+      },
+      {
+        "letra": "B",
+        "texto": "R$ 102,47"
+      },
+      {
+        "letra": "C",
+        "texto": "R$ 13,00"
+      },
+      {
+        "letra": "D",
+        "texto": "R$ 121,92"
+      },
+      {
+        "letra": "E",
+        "texto": "R$ 89,47"
+      }
+    ],
+    "correta": "B",
+    "explicacao": "O custo é dado por C(x) = R$ 13,00 + R$ 3,89 × x. Para x = 23: C(23) = R$ 13,00 + R$ 3,89 × 23 = R$ 102,47."
   }
 ]

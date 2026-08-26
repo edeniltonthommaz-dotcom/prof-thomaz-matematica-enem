@@ -6091,43 +6091,6 @@
     "explicacao": "Área no desenho: 16×18,4 − 12×13,4 = 294,4 − 160,8 = 133,6 cm². Em escala 1:50, áreas multiplicam por 50²=2.500: 133,6×2.500=334.000 cm² = 33,40 m²."
   },
   {
-    "id": "enem-2020-139",
-    "categoriaId": "equacoes",
-    "subtopico": "Inequações do 1º grau",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "enem",
-      "ano": 2020,
-      "descricao": "ENEM 2020, 2º dia, Caderno 5 (Amarelo), questão 139",
-      "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_PV_impresso_D2_CD5.pdf"
-    },
-    "enunciado": "Para os degraus de uma escada, usam-se as regras: |2h + b − 63,5| ≤ 1,5 e 16 ≤ h ≤ 19, em que h é a altura do degrau (espelho) e b é a profundidade da pisada, ambos em centímetro. Escolhendo h=16, qual é o intervalo de valores possíveis para b?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "30 ≤ b"
-      },
-      {
-        "letra": "B",
-        "texto": "30 ≤ b ≤ 31,5"
-      },
-      {
-        "letra": "C",
-        "texto": "30 ≤ b ≤ 33"
-      },
-      {
-        "letra": "D",
-        "texto": "31,5 ≤ b ≤ 33"
-      },
-      {
-        "letra": "E",
-        "texto": "b ≤ 33"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "Substituindo h=16: |32+b−63,5|≤1,5 → |b−31,5|≤1,5 → 30≤b≤33."
-  },
-  {
     "id": "enem-2020-140",
     "categoriaId": "razao-proporcao",
     "subtopico": "Grandezas Inversas",
@@ -6163,117 +6126,6 @@
     ],
     "correta": "C",
     "explicacao": "Se X litros são gastos a cada 100 km, então por litro percorre-se 100/X quilômetros."
-  },
-  {
-    "id": "enem-2020-143",
-    "categoriaId": "regra-de-tres",
-    "subtopico": "Regra de Três Composta",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "enem",
-      "ano": 2020,
-      "descricao": "ENEM 2020, 2º dia, Caderno 5 (Amarelo), questão 143",
-      "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_PV_impresso_D2_CD5.pdf"
-    },
-    "enunciado": "Uma pessoa precisa de 15 sacos de cimento. Cinco depósitos oferecem: A) R$23,00/saco, R$1,00/km frete, 10km; B) R$21,50/saco, R$3,00/km, 12km; C) R$22,00/saco, R$1,50/km, 14km; D) R$21,00/saco, R$3,50/km, 18km; E) R$24,00/saco, R$2,50/km, 2km. Qual depósito é mais econômico?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "A."
-      },
-      {
-        "letra": "B",
-        "texto": "B."
-      },
-      {
-        "letra": "C",
-        "texto": "C."
-      },
-      {
-        "letra": "D",
-        "texto": "D."
-      },
-      {
-        "letra": "E",
-        "texto": "E."
-      }
-    ],
-    "correta": "C",
-    "explicacao": "Custo total = 15×preço + frete×distância: A=345+10=355. B=322,5+36=358,5. C=330+21=351. D=315+63=378. E=360+5=365. O menor custo é o do depósito C."
-  },
-  {
-    "id": "enem-2020-144",
-    "categoriaId": "razao-proporcao",
-    "subtopico": "Regra de Três Simples",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "enem",
-      "ano": 2020,
-      "descricao": "ENEM 2020, 2º dia, Caderno 5 (Amarelo), questão 144",
-      "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_PV_impresso_D2_CD5.pdf"
-    },
-    "enunciado": "Um motociclista fará uma viagem de 500 km com tanque de 22L (consumo 5L/100km). Parte com o tanque cheio. O posto Estrela fica a 80km do destino, e ele parará lá na ida e na volta. No reabastecimento de ida, precisa de combustível para: chegar ao destino, rodar 200km no destino, e voltar até o posto Estrela na volta. Qual é a quantidade mínima, em litro, que ele deve reabastecer no posto Estrela na ida?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "13."
-      },
-      {
-        "letra": "B",
-        "texto": "14."
-      },
-      {
-        "letra": "C",
-        "texto": "17."
-      },
-      {
-        "letra": "D",
-        "texto": "18."
-      },
-      {
-        "letra": "E",
-        "texto": "21."
-      }
-    ],
-    "correta": "C",
-    "explicacao": "Do início até o posto Estrela (420 km) ele consome 420×0,05=21L, restando 22−21=1L. A partir de lá, precisa percorrer: 80km (chegar ao destino) + 200km (rodar lá) + 80km (voltar ao posto Estrela) = 360km, consumindo 360×0,05=18L. Como já tem 1L, precisa reabastecer 18−1=17L."
-  },
-  {
-    "id": "enem-2020-145",
-    "categoriaId": "razao-proporcao",
-    "subtopico": "Regra de Três Simples",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "enem",
-      "ano": 2020,
-      "descricao": "ENEM 2020, 2º dia, Caderno 5 (Amarelo), questão 145",
-      "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_PV_impresso_D2_CD5.pdf"
-    },
-    "enunciado": "Um líquido sai de um tanque T1 (base de comprimento c e largura L) e passa por dois aeradores que aumentam seu volume em 15% e depois mais 10%, chegando a um tanque T2 (base de comprimento c/2 e largura 2L). Sendo X a altura da coluna que saiu de T1 e Y a altura que chegou a T2, qual é a relação entre Y e X?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "Y = 1,265X"
-      },
-      {
-        "letra": "B",
-        "texto": "Y = 1,250X"
-      },
-      {
-        "letra": "C",
-        "texto": "Y = 1,150X"
-      },
-      {
-        "letra": "D",
-        "texto": "Y = 1,125X"
-      },
-      {
-        "letra": "E",
-        "texto": "Y = X"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "Área da base de T1 = c×L; área da base de T2 = (c/2)×(2L) = c×L (mesma área). O volume que saiu de T1 (c·L·X) é ampliado por 1,15×1,10=1,265 ao passar pelos aeradores, chegando a T2 com volume c·L·X·1,265 = c·L·Y (mesma área da base), logo Y=1,265X."
   },
   {
     "id": "enem-2020-146",
@@ -6313,43 +6165,6 @@
     "explicacao": "Tempo=distância/velocidade. Comparando ônibus(2/v) com bike(3/v) cada dia: Segunda (0,222 vs 0,200: bike menor); Terça (0,100 vs 0,136: ônibus menor); Quarta (0,133 vs 0,125: bike menor); Quinta (0,167 vs 0,200: ônibus menor); Sexta (0,200 vs 0,167: bike menor); Sábado (0,067 vs 0,188: ônibus menor). A bike é mais rápida às segundas, quartas e sextas."
   },
   {
-    "id": "enem-2020-147",
-    "categoriaId": "numeros",
-    "subtopico": "Notação Científica e Escalas",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "enem",
-      "ano": 2020,
-      "descricao": "ENEM 2020, 2º dia, Caderno 5 (Amarelo), questão 147",
-      "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_PV_impresso_D2_CD5.pdf"
-    },
-    "enunciado": "Uma escultura impressa em 3D de alta precisão, miniatura de um carro de Fórmula 1, mede 100 micrômetros de comprimento (1 micrômetro = milionésima parte de um metro). Qual é essa medida em metro, em notação científica?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "1,0 × 10⁻¹"
-      },
-      {
-        "letra": "B",
-        "texto": "1,0 × 10⁻³"
-      },
-      {
-        "letra": "C",
-        "texto": "1,0 × 10⁻⁴"
-      },
-      {
-        "letra": "D",
-        "texto": "1,0 × 10⁻⁶"
-      },
-      {
-        "letra": "E",
-        "texto": "1,0 × 10⁻⁷"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "100 micrômetros = 100×10⁻⁶ m = 1,0×10⁻⁴ m."
-  },
-  {
     "id": "enem-2020-148",
     "categoriaId": "razao-proporcao",
     "subtopico": "Escalas (Comprimento, Área e Volume)",
@@ -6387,117 +6202,6 @@
     "explicacao": "De 20M≤180, M≤9; de 14M≤150, M≤10,71. O maior M possível é 9 (mais restritivo). Raio do círculo = 3,5×9=31,5cm, diâmetro=63cm. O menor quadrado que contém o círculo tem lado igual ao diâmetro: 63cm."
   },
   {
-    "id": "enem-2020-150",
-    "categoriaId": "razao-proporcao",
-    "subtopico": "Escalas (Comprimento, Área e Volume)",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "enem",
-      "ano": 2020,
-      "descricao": "ENEM 2020, 2º dia, Caderno 5 (Amarelo), questão 150",
-      "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_PV_impresso_D2_CD5.pdf"
-    },
-    "enunciado": "Uma caixa-d'água real tem volume de 28.080 litros. Numa maquete, ela mede 2cm × 3,51cm × 4cm (1 dm³ = 1 L). Qual é a escala usada?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "1 : 10"
-      },
-      {
-        "letra": "B",
-        "texto": "1 : 100"
-      },
-      {
-        "letra": "C",
-        "texto": "1 : 1 000"
-      },
-      {
-        "letra": "D",
-        "texto": "1 : 10 000"
-      },
-      {
-        "letra": "E",
-        "texto": "1 : 100 000"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "Volume da maquete: 2×3,51×4=28,08 cm³. Volume real: 28.080 L = 28.080.000 cm³. Razão dos volumes (=escala³): 28.080.000/28,08=1.000.000=10⁶, logo a escala linear é 1:100."
-  },
-  {
-    "id": "enem-2020-152",
-    "categoriaId": "geometria-plana",
-    "subtopico": "Áreas e Perímetros",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "enem",
-      "ano": 2020,
-      "descricao": "ENEM 2020, 2º dia, Caderno 5 (Amarelo), questão 152",
-      "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_PV_impresso_D2_CD5.pdf"
-    },
-    "enunciado": "Uma sala retangular de 3,2m × 3,6m será revestida com porcelanato de peças quadradas de 80cm de lado, sem espaçamento, aproveitando cortes ao máximo. Caixas tipo A: 4 peças por R$35,00. Caixas tipo B: 3 peças por R$27,00. Qual é a compra que fornece exatamente as peças necessárias com o menor preço?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "5 caixas do tipo A."
-      },
-      {
-        "letra": "B",
-        "texto": "1 caixa do tipo A e 4 caixas do tipo B."
-      },
-      {
-        "letra": "C",
-        "texto": "3 caixas do tipo A e 2 caixas do tipo B."
-      },
-      {
-        "letra": "D",
-        "texto": "5 caixas do tipo A e 1 caixa do tipo B."
-      },
-      {
-        "letra": "E",
-        "texto": "6 caixas do tipo B."
-      }
-    ],
-    "correta": "C",
-    "explicacao": "Área da sala: 3,2×3,6=11,52 m². Área de cada peça: 0,8×0,8=0,64 m². Peças necessárias: 11,52/0,64=18 (exatamente). As combinações inteiras de 4a+3b=18 são (a=0,b=6) por R$162,00 e (a=3,b=2) por R$159,00. A mais barata é 3 caixas A e 2 caixas B."
-  },
-  {
-    "id": "enem-2020-153",
-    "categoriaId": "analise-combinatoria",
-    "subtopico": "Princípio Multiplicativo",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "enem",
-      "ano": 2020,
-      "descricao": "ENEM 2020, 2º dia, Caderno 5 (Amarelo), questão 153",
-      "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_PV_impresso_D2_CD5.pdf"
-    },
-    "enunciado": "Um hotel de 3 andares tem 100 quartos por andar, numerados de 100 a 399, cada dígito identificado por uma peça individual. Qual é a quantidade mínima de peças com o algarismo 2 necessárias para numerar todos os quartos?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "160"
-      },
-      {
-        "letra": "B",
-        "texto": "157"
-      },
-      {
-        "letra": "C",
-        "texto": "130"
-      },
-      {
-        "letra": "D",
-        "texto": "120"
-      },
-      {
-        "letra": "E",
-        "texto": "60"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "O dígito 2 aparece: como centena, em todos os 100 números de 200 a 299 (100 vezes); como dezena, 10 vezes em cada centena (3 centenas × 10 = 30 vezes); como unidade, 1 vez a cada 10 números (300 números ÷ 10 = 30 vezes). Total: 100+30+30=160."
-  },
-  {
     "id": "enem-2020-158",
     "categoriaId": "geometria-espacial",
     "subtopico": "Cones e Pirâmides",
@@ -6533,191 +6237,6 @@
     ],
     "correta": "C",
     "explicacao": "Um tronco de pirâmide de base quadrada tem duas bases quadradas (maior e menor) e 4 faces laterais em forma de trapézio isósceles."
-  },
-  {
-    "id": "enem-2020-160",
-    "categoriaId": "probabilidade",
-    "subtopico": "Probabilidade Condicional",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "enem",
-      "ano": 2020,
-      "descricao": "ENEM 2020, 2º dia, Caderno 5 (Amarelo), questão 160",
-      "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_PV_impresso_D2_CD5.pdf"
-    },
-    "enunciado": "Cinco pneus têm fator de eficiência climática (EC) com chuva e sem chuva: I) 6, 3; II) 7, −4; III) −2, 10; IV) 2, 8; V) −6, 7. O coeficiente CRC = EC(chuva)×P(chuva) + EC(sem chuva)×P(sem chuva). Se a probabilidade de chuva no dia é 70%, qual pneu tem o maior CRC?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "I."
-      },
-      {
-        "letra": "B",
-        "texto": "II."
-      },
-      {
-        "letra": "C",
-        "texto": "III."
-      },
-      {
-        "letra": "D",
-        "texto": "IV."
-      },
-      {
-        "letra": "E",
-        "texto": "V."
-      }
-    ],
-    "correta": "A",
-    "explicacao": "CRC = EC_chuva×0,7 + EC_semchuva×0,3. I: 6×0,7+3×0,3=5,1. II: 7×0,7−4×0,3=3,7. III: −2×0,7+10×0,3=1,6. IV: 2×0,7+8×0,3=3,8. V: −6×0,7+7×0,3=−2,1. O maior CRC é o do pneu I."
-  },
-  {
-    "id": "enem-2020-161",
-    "categoriaId": "razao-proporcao",
-    "subtopico": "Regra de Três Simples",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "enem",
-      "ano": 2020,
-      "descricao": "ENEM 2020, 2º dia, Caderno 5 (Amarelo), questão 161",
-      "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_PV_impresso_D2_CD5.pdf"
-    },
-    "enunciado": "Um pé de eucalipto rende, em média, 20 mil folhas de papel A4. A densidade do papel A4 é 75 g/m², e a área de uma folha é 0,062 m². Quantos quilogramas de papel, em média, rende um pé de eucalipto?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "4 301"
-      },
-      {
-        "letra": "B",
-        "texto": "1 500"
-      },
-      {
-        "letra": "C",
-        "texto": "930"
-      },
-      {
-        "letra": "D",
-        "texto": "267"
-      },
-      {
-        "letra": "E",
-        "texto": "93"
-      }
-    ],
-    "correta": "E",
-    "explicacao": "Área total: 20.000×0,062=1.240 m². Massa: 1.240×75=93.000 g=93 kg."
-  },
-  {
-    "id": "enem-2020-163",
-    "categoriaId": "probabilidade",
-    "subtopico": "Probabilidade Simples",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "enem",
-      "ano": 2020,
-      "descricao": "ENEM 2020, 2º dia, Caderno 5 (Amarelo), questão 163",
-      "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_PV_impresso_D2_CD5.pdf"
-    },
-    "enunciado": "O Estatuto do Idoso concede restituição de imposto de renda em ordem decrescente de idade; em caso de empate na idade, a ordem é sorteada. As idades de 12 idosos são: 89, 86, 86, 85, 84, 82, 75, 75, 75, 75 (inclui João), 72, 70. Qual é a probabilidade de João ser o sétimo a receber a restituição?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "1/12"
-      },
-      {
-        "letra": "B",
-        "texto": "7/12"
-      },
-      {
-        "letra": "C",
-        "texto": "1/8"
-      },
-      {
-        "letra": "D",
-        "texto": "5/6"
-      },
-      {
-        "letra": "E",
-        "texto": "1/4"
-      }
-    ],
-    "correta": "E",
-    "explicacao": "As 6 primeiras posições (idades 89 a 82) já são definidas sem empate. A 7ª posição será ocupada por um dos 4 idosos empatados com 75 anos (sorteio entre eles), incluindo João. A probabilidade de João ser sorteado em 1º lugar entre os 4 é 1/4."
-  },
-  {
-    "id": "enem-2020-164",
-    "categoriaId": "progressoes",
-    "subtopico": "Progressão Aritmética",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "enem",
-      "ano": 2020,
-      "descricao": "ENEM 2020, 2º dia, Caderno 5 (Amarelo), questão 164",
-      "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_PV_impresso_D2_CD5.pdf"
-    },
-    "enunciado": "O tempo médio de estudo de brasileiros acima de 14 anos foi: 1995: 5,2; 1999: 5,8; 2003: 6,4; 2007: 7,0 anos (crescimento constante a cada 4 anos). Um curso superior completo leva 16 anos de estudo. Mantendo esse ritmo até 2050, em que ano o tempo médio atingirá 70% de 16 anos (=11,2 anos)?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "2018."
-      },
-      {
-        "letra": "B",
-        "texto": "2023."
-      },
-      {
-        "letra": "C",
-        "texto": "2031."
-      },
-      {
-        "letra": "D",
-        "texto": "2035."
-      },
-      {
-        "letra": "E",
-        "texto": "2043."
-      }
-    ],
-    "correta": "D",
-    "explicacao": "O incremento é de 0,6 ano a cada período de 4 anos (0,15/ano). De 2007 (7,0) até atingir 11,2, faltam 4,2 anos de estudo, ou seja, 4,2/0,15=28 anos. 2007+28=2035."
-  },
-  {
-    "id": "enem-2020-165",
-    "categoriaId": "razao-proporcao",
-    "subtopico": "Regra de Três Simples",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "enem",
-      "ano": 2020,
-      "descricao": "ENEM 2020, 2º dia, Caderno 5 (Amarelo), questão 165",
-      "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_PV_impresso_D2_CD5.pdf"
-    },
-    "enunciado": "Uma torneira goteja em um balde de 18 litros, atualmente com 50% de sua capacidade. A cada segundo caem 5 gotas, cada uma com 5×10⁻² mL. Quanto tempo, em hora, é necessário para encher completamente o balde?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "2 × 10¹"
-      },
-      {
-        "letra": "B",
-        "texto": "1 × 10¹"
-      },
-      {
-        "letra": "C",
-        "texto": "2 × 10⁻²"
-      },
-      {
-        "letra": "D",
-        "texto": "1 × 10⁻²"
-      },
-      {
-        "letra": "E",
-        "texto": "1 × 10⁻³"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "Falta encher 9L=9.000mL. Vazão: 5 gotas/s × 5×10⁻²mL = 0,25 mL/s. Tempo: 9.000/0,25=36.000s=10h=1×10¹h."
   },
   {
     "id": "enem-2019-136",
@@ -9108,43 +8627,6 @@
     "explicacao": "Orçamento inicial: 10.000+40.000+2.500×40=10.000+40.000+100.000=150.000. Novo projeto: 10.000×0,5=5.000. Nova área: 2.500×1,25×40=125.000. O novo total deve ser 150.000×0,9=135.000. Logo, o novo custo fixo é 135.000−5.000−125.000=5.000. O desconto sobre os custos fixos é (40.000−5.000)/40.000=87,5%."
   },
   {
-    "id": "enem-2020-174",
-    "categoriaId": "porcentagem",
-    "subtopico": "Aumentos e Descontos Sucessivos",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "enem",
-      "ano": 2020,
-      "descricao": "ENEM 2020, 2º dia, Caderno 5 (Amarelo), questão 174",
-      "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_PV_impresso_D2_CD5.pdf"
-    },
-    "enunciado": "O quadro representa os gastos mensais, em real, de uma família com internet, mensalidade escolar e mesada do filho: Internet: R$ 120,00; Mensalidade escolar: R$ 700,00; Mesada do filho: R$ 400,00. No início do ano, a internet e a mensalidade escolar tiveram acréscimos, respectivamente, de 20% e 10%. Necessitando manter o valor da despesa mensal total com os itens citados, a família reduzirá a mesada do filho. Qual será a porcentagem da redução da mesada?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "15,0"
-      },
-      {
-        "letra": "B",
-        "texto": "23,5"
-      },
-      {
-        "letra": "C",
-        "texto": "30,0"
-      },
-      {
-        "letra": "D",
-        "texto": "70,0"
-      },
-      {
-        "letra": "E",
-        "texto": "76,5"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "Total inicial: 120+700+400=1.220. Nova internet: 120×1,2=144. Nova mensalidade: 700×1,1=770. Para manter o total em 1.220, a nova mesada deve ser 1.220−144−770=306. A redução é (400−306)/400=23,5%."
-  },
-  {
     "id": "enem-2021-157",
     "categoriaId": "porcentagem",
     "subtopico": "Fator de Multiplicação",
@@ -9476,5 +8958,1084 @@
     ],
     "correta": "D",
     "explicacao": "9 + 12 = 21 em decimal. Convertendo 21 para base binária: 21 = 16+4+1 = 10101₂."
+  },
+  {
+    "id": "enem-2020-b-137",
+    "categoriaId": "estatistica",
+    "subtopico": "Média, Moda e Mediana",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "enem",
+      "ano": 2020,
+      "descricao": "ENEM 2020, 2º dia, Caderno 12 (Verde), questão 137",
+      "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_PV_impresso_D2_CD12.pdf"
+    },
+    "enunciado": "Suponha que uma equipe de corrida de automóveis disponha de cinco tipos de pneu (I, II, III, IV, V), em que o fator de eficiência climática EC (índice que fornece o comportamento do pneu em uso, dependendo do clima) é apresentado:\n• EC do pneu I: com chuva 6, sem chuva 3;\n• EC do pneu II: com chuva 7, sem chuva −4;\n• EC do pneu III: com chuva −2, sem chuva 10;\n• EC do pneu IV: com chuva 2, sem chuva 8;\n• EC do pneu V: com chuva −6, sem chuva 7.\nO coeficiente de rendimento climático (CRC) de um pneu é calculado como a soma dos produtos dos fatores de EC, com ou sem chuva, pelas correspondentes probabilidades de se ter tais condições climáticas: ele é utilizado para determinar qual pneu deve ser selecionado para uma dada corrida, escolhendo-se o pneu que apresentar o maior CRC naquele dia. No dia de certa corrida, a probabilidade de chover era de 70% e o chefe da equipe calculou o CRC de cada um dos cinco tipos de pneu.\nO pneu escolhido foi",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "I."
+      },
+      {
+        "letra": "B",
+        "texto": "II."
+      },
+      {
+        "letra": "C",
+        "texto": "III."
+      },
+      {
+        "letra": "D",
+        "texto": "IV."
+      },
+      {
+        "letra": "E",
+        "texto": "V."
+      }
+    ],
+    "correta": "A",
+    "explicacao": "O CRC de cada pneu é a média ponderada dos fatores EC pelas probabilidades de chuva (70%) e de não chuva (30%): CRC = 0,7·EC(chuva) + 0,3·EC(sem chuva). Calculando: pneu I = 0,7·6 + 0,3·3 = 5,1; pneu II = 0,7·7 + 0,3·(−4) = 3,7; pneu III = 0,7·(−2) + 0,3·10 = 1,6; pneu IV = 0,7·2 + 0,3·8 = 3,8; pneu V = 0,7·(−6) + 0,3·7 = −2,1. O maior CRC é o do pneu I (5,1), que deve ser escolhido.",
+    "distratores": {
+      "B": "O pneu II tem o maior EC com chuva (7), mas seu EC sem chuva é fortemente negativo (−4), o que derruba sua média ponderada para 3,7 — menor que a do pneu I."
+    }
+  },
+  {
+    "id": "enem-2020-b-138",
+    "categoriaId": "numeros",
+    "subtopico": "Números Decimais",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "enem",
+      "ano": 2020,
+      "descricao": "ENEM 2020, 2º dia, Caderno 12 (Verde), questão 138",
+      "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_PV_impresso_D2_CD12.pdf"
+    },
+    "enunciado": "Um pé de eucalipto em idade adequada para o corte rende, em média, 20 mil folhas de papel A4. A densidade superficial do papel A4, medida pela razão da massa de uma folha desse papel por sua área, é de 75 gramas por metro quadrado, e a área de uma folha de A4 é 0,062 metro quadrado.\nNessas condições, quantos quilogramas de papel rende, em média, um pé de eucalipto?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "4 301"
+      },
+      {
+        "letra": "B",
+        "texto": "1 500"
+      },
+      {
+        "letra": "C",
+        "texto": "930"
+      },
+      {
+        "letra": "D",
+        "texto": "267"
+      },
+      {
+        "letra": "E",
+        "texto": "93"
+      }
+    ],
+    "correta": "E",
+    "explicacao": "A área total de papel rendida é 20 000 × 0,062 = 1 240 m². Como cada metro quadrado tem massa 75 g, a massa total é 1 240 × 75 = 93 000 g = 93 kg."
+  },
+  {
+    "id": "enem-2020-b-139",
+    "categoriaId": "estatistica",
+    "subtopico": "Média, Moda e Mediana",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "enem",
+      "ano": 2020,
+      "descricao": "ENEM 2020, 2º dia, Caderno 12 (Verde), questão 139",
+      "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_PV_impresso_D2_CD12.pdf"
+    },
+    "enunciado": "Com o objetivo de contratar uma empresa responsável pelo serviço de atendimento ao público, os executivos de uma agência bancária realizaram uma pesquisa de satisfação envolvendo cinco empresas especializadas nesse segmento. Os procedimentos analisados (com pesos que medem sua importância para a agência) e as respectivas notas que cada empresa recebeu estão organizados no quadro:\n\nRapidez no atendimento (peso 3): X = 5, Y = 1, Z = 4, W = 3, T = 4\nClareza nas informações passadas aos clientes (peso 5): X = 1, Y = 4, Z = 3, W = 3, T = 2\nCortesia no atendimento (peso 2): X = 2, Y = 2, Z = 2, W = 3, T = 4\n\nA agência bancária contratará a empresa com a maior média ponderada das notas obtidas nos procedimentos analisados.\nApós a análise dos resultados da pesquisa de satisfação, os executivos da agência bancária contrataram a empresa",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "X."
+      },
+      {
+        "letra": "B",
+        "texto": "Y."
+      },
+      {
+        "letra": "C",
+        "texto": "Z."
+      },
+      {
+        "letra": "D",
+        "texto": "W."
+      },
+      {
+        "letra": "E",
+        "texto": "T."
+      }
+    ],
+    "correta": "C",
+    "explicacao": "A média ponderada de cada empresa é (3·rapidez + 5·clareza + 2·cortesia) / 10. X: (15+5+4)/10 = 2,4; Y: (3+20+4)/10 = 2,7; Z: (12+15+4)/10 = 3,1; W: (9+15+6)/10 = 3,0; T: (12+10+8)/10 = 3,0. A maior média é a da empresa Z (3,1), que foi a contratada."
+  },
+  {
+    "id": "enem-2020-b-140",
+    "categoriaId": "estatistica",
+    "subtopico": "Média, Moda e Mediana",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "enem",
+      "ano": 2020,
+      "descricao": "ENEM 2020, 2º dia, Caderno 12 (Verde), questão 140",
+      "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_PV_impresso_D2_CD12.pdf"
+    },
+    "enunciado": "O técnico de um time de basquete pretende aumentar a estatura média de sua equipe de 1,93 m para, no mínimo, 1,99 m. Para tanto, dentre os 15 jogadores que fazem parte de sua equipe, irá substituir os quatro mais baixos, de estaturas: 1,78 m, 1,82 m, 1,84 m e 1,86 m. Para isso, o técnico contratou um novo jogador de 2,02 m. Os outros três jogadores que ele ainda precisa contratar devem satisfazer à sua necessidade de aumentar a média das estaturas da equipe. Ele fixará a média das estaturas para os três jogadores que ainda precisa contratar dentro do critério inicialmente estabelecido.\nQual deverá ser a média mínima das estaturas, em metro, que ele deverá fixar para o grupo de três novos jogadores que ainda irá contratar?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "1,96"
+      },
+      {
+        "letra": "B",
+        "texto": "1,98"
+      },
+      {
+        "letra": "C",
+        "texto": "2,05"
+      },
+      {
+        "letra": "D",
+        "texto": "2,06"
+      },
+      {
+        "letra": "E",
+        "texto": "2,08"
+      }
+    ],
+    "correta": "D",
+    "explicacao": "A soma das estaturas dos 15 jogadores atuais é 15 × 1,93 = 28,95 m. Retirando os quatro mais baixos (1,78+1,82+1,84+1,86 = 7,30 m), sobram 28,95 − 7,30 = 21,65 m para 11 jogadores. Somando o novo jogador de 2,02 m, o total passa a 23,67 m para 12 jogadores. Para a equipe de 15 jogadores atingir a média mínima de 1,99 m, a soma total deve ser pelo menos 15 × 1,99 = 29,85 m. Logo, os três últimos contratados devem somar pelo menos 29,85 − 23,67 = 6,18 m, ou seja, média mínima de 6,18/3 = 2,06 m."
+  },
+  {
+    "id": "enem-2020-b-142",
+    "categoriaId": "porcentagem",
+    "subtopico": "Aumentos e Descontos Sucessivos",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "enem",
+      "ano": 2020,
+      "descricao": "ENEM 2020, 2º dia, Caderno 12 (Verde), questão 142",
+      "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_PV_impresso_D2_CD12.pdf"
+    },
+    "enunciado": "O quadro representa os gastos mensais, em real, de uma família com internet, mensalidade escolar e mesada do filho: internet R$ 120, mensalidade escolar R$ 700, mesada do filho R$ 400.\nNo início do ano, a internet e a mensalidade escolar tiveram acréscimos, respectivamente, de 20% e 10%. Necessitando manter o valor da despesa mensal total com os itens citados, a família reduzirá a mesada do filho.\nQual será a porcentagem da redução da mesada?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "15,0"
+      },
+      {
+        "letra": "B",
+        "texto": "23,5"
+      },
+      {
+        "letra": "C",
+        "texto": "30,0"
+      },
+      {
+        "letra": "D",
+        "texto": "70,0"
+      },
+      {
+        "letra": "E",
+        "texto": "76,5"
+      }
+    ],
+    "correta": "B",
+    "explicacao": "O aumento na internet é 120 × 0,20 = 24 reais, e na mensalidade escolar é 700 × 0,10 = 70 reais, totalizando 94 reais a mais por mês. Para manter o gasto total, a mesada deve cair 94 reais, passando de 400 para 306 reais. A redução percentual é 94/400 = 0,235 = 23,5%."
+  },
+  {
+    "id": "enem-2020-b-145",
+    "categoriaId": "numeros",
+    "subtopico": "Números Decimais",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "enem",
+      "ano": 2020,
+      "descricao": "ENEM 2020, 2º dia, Caderno 12 (Verde), questão 145",
+      "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_PV_impresso_D2_CD12.pdf"
+    },
+    "enunciado": "Uma pessoa precisa comprar 15 sacos de cimento para uma reforma em sua casa. Faz pesquisa de preço em cinco depósitos que vendem o cimento de sua preferência e cobram frete para entrega do material, conforme a distância do depósito à sua casa. As informações sobre preço do cimento, valor do frete por quilômetro e distância do depósito até a casa dessa pessoa estão apresentadas no quadro:\n\nDepósito A: saco R$ 23,00; frete R$ 1,00/km; distância 10 km\nDepósito B: saco R$ 21,50; frete R$ 3,00/km; distância 12 km\nDepósito C: saco R$ 22,00; frete R$ 1,50/km; distância 14 km\nDepósito D: saco R$ 21,00; frete R$ 3,50/km; distância 18 km\nDepósito E: saco R$ 24,00; frete R$ 2,50/km; distância 2 km\n\nA pessoa escolherá um desses depósitos para realizar sua compra, considerando os preços do cimento e do frete oferecidos em cada opção.\nSe a pessoa decidir pela opção mais econômica, o depósito escolhido para a realização dessa compra será o",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "A."
+      },
+      {
+        "letra": "B",
+        "texto": "B."
+      },
+      {
+        "letra": "C",
+        "texto": "C."
+      },
+      {
+        "letra": "D",
+        "texto": "D."
+      },
+      {
+        "letra": "E",
+        "texto": "E."
+      }
+    ],
+    "correta": "C",
+    "explicacao": "O custo total de cada depósito é 15 × (preço do saco) + (frete por km) × (distância). A: 15×23+1×10 = 355. B: 15×21,5+3×12 = 358,5. C: 15×22+1,5×14 = 351. D: 15×21+3,5×18 = 378. E: 15×24+2,5×2 = 365. O menor custo total é o do depósito C (R$ 351,00)."
+  },
+  {
+    "id": "enem-2020-b-146",
+    "categoriaId": "regra-de-tres",
+    "subtopico": "Regra de Três Simples",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "enem",
+      "ano": 2020,
+      "descricao": "ENEM 2020, 2º dia, Caderno 12 (Verde), questão 146",
+      "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_PV_impresso_D2_CD12.pdf"
+    },
+    "enunciado": "Um motociclista planeja realizar uma viagem cujo destino fica a 500 km de sua casa. Sua moto consome 5 litros de gasolina para cada 100 km rodados, e o tanque da moto tem capacidade para 22 litros. Pelo mapa, observou que no trajeto da viagem o último posto disponível para reabastecimento, chamado Estrela, fica a 80 km do seu destino. Ele pretende partir com o tanque da moto cheio e planeja fazer somente duas paradas para reabastecimento, uma na ida e outra na volta, ambas no posto Estrela. No reabastecimento para a viagem de ida, deve considerar também combustível suficiente para se deslocar por 200 km no seu destino.\nA quantidade mínima de combustível, em litro, que esse motociclista deve reabastecer no posto Estrela na viagem de ida, que seja suficiente para fazer o segundo reabastecimento, é",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "13."
+      },
+      {
+        "letra": "B",
+        "texto": "14."
+      },
+      {
+        "letra": "C",
+        "texto": "17."
+      },
+      {
+        "letra": "D",
+        "texto": "18."
+      },
+      {
+        "letra": "E",
+        "texto": "21."
+      }
+    ],
+    "correta": "C",
+    "explicacao": "O consumo é 0,05 L/km. A distância da casa até o posto Estrela é 500 − 80 = 420 km, consumindo 420×0,05 = 21 L. Partindo com o tanque cheio (22 L), sobram 22 − 21 = 1 L ao chegar em Estrela. Dali até o segundo reabastecimento (de volta em Estrela), ele ainda precisa rodar 80 km até o destino (4 L), 200 km no destino (10 L) e mais 80 km de volta até Estrela (4 L), totalizando 18 L. Como já tinha 1 L no tanque, o reabastecimento mínimo é 18 − 1 = 17 L."
+  },
+  {
+    "id": "enem-2020-b-148",
+    "categoriaId": "estatistica",
+    "subtopico": "Leitura de Gráficos e Tabelas",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "enem",
+      "ano": 2020,
+      "descricao": "ENEM 2020, 2º dia, Caderno 12 (Verde), questão 148",
+      "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_PV_impresso_D2_CD12.pdf"
+    },
+    "enunciado": "O gerente de uma loja de cosméticos colocou à venda cinco diferentes tipos de perfume, tendo em estoque na loja as mesmas quantidades de cada um deles. O setor de controle de estoque encaminhou ao gerente registros gráficos descrevendo os preços unitários de cada perfume, em real, e a quantidade vendida de cada um deles, em percentual, ocorrida no mês de novembro:\n\nPreço por unidade: Perfume I = R$ 200; Perfume II = R$ 170; Perfume III = R$ 150; Perfume IV = R$ 100; Perfume V = R$ 80.\nPercentual vendido: Perfume I = 13%; Perfume II = 10%; Perfume III = 16%; Perfume IV = 29%; Perfume V = 32%.\n\nDada a chegada do final de ano e o aumento das vendas, a gerência pretende aumentar a quantidade estocada do perfume do tipo que gerou a maior arrecadação em espécie, em real, no mês de novembro. Nessas condições, qual o tipo de perfume que deverá ter maior reposição no estoque?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "I"
+      },
+      {
+        "letra": "B",
+        "texto": "II"
+      },
+      {
+        "letra": "C",
+        "texto": "III"
+      },
+      {
+        "letra": "D",
+        "texto": "IV"
+      },
+      {
+        "letra": "E",
+        "texto": "V"
+      }
+    ],
+    "correta": "D",
+    "explicacao": "Como as quantidades em estoque eram iguais para os cinco tipos, a arrecadação de cada perfume é proporcional ao produto (preço unitário) × (percentual vendido). Perfume I: 200×13 = 2 600; II: 170×10 = 1 700; III: 150×16 = 2 400; IV: 100×29 = 2 900; V: 80×32 = 2 560. A maior arrecadação foi a do perfume IV, que deve ter maior reposição no estoque.",
+    "distratores": {
+      "E": "O perfume V teve o maior percentual de vendas (32%), mas seu preço unitário é o mais baixo (R$ 80), o que faz sua arrecadação total (2 560) ficar abaixo da do perfume IV (2 900)."
+    }
+  },
+  {
+    "id": "enem-2020-b-150",
+    "categoriaId": "geometria-espacial",
+    "subtopico": "Prismas e Cilindros",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "enem",
+      "ano": 2020,
+      "descricao": "ENEM 2020, 2º dia, Caderno 12 (Verde), questão 150",
+      "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_PV_impresso_D2_CD12.pdf"
+    },
+    "enunciado": "Num recipiente com a forma de paralelepípedo reto-retângulo, cuja base retangular mede 4 cm por 3 cm e cuja altura total é de 17 cm, colocou-se água até a altura de 8 cm, e um objeto ficou flutuando na superfície da água. Para retirar o objeto de dentro do recipiente, a altura da coluna de água deve ser de, pelo menos, 15 cm. Para a coluna de água chegar até essa altura, é necessário colocar dentro do recipiente bolinhas de volume igual a 6 cm³ cada, que ficarão totalmente submersas.\nO número mínimo de bolinhas necessárias para que se possa retirar o objeto que flutua na água, seguindo as instruções dadas, é de",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "14."
+      },
+      {
+        "letra": "B",
+        "texto": "16."
+      },
+      {
+        "letra": "C",
+        "texto": "18."
+      },
+      {
+        "letra": "D",
+        "texto": "30."
+      },
+      {
+        "letra": "E",
+        "texto": "34."
+      }
+    ],
+    "correta": "A",
+    "explicacao": "A base do recipiente tem área 4×3 = 12 cm². Para a água subir de 8 cm para 15 cm, é preciso um aumento de volume de 12×(15−8) = 84 cm³. Como cada bolinha submersa desloca um volume de 6 cm³, são necessárias 84/6 = 14 bolinhas."
+  },
+  {
+    "id": "enem-2020-b-151",
+    "categoriaId": "conjuntos",
+    "subtopico": "Problemas de Pesquisa",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "enem",
+      "ano": 2020,
+      "descricao": "ENEM 2020, 2º dia, Caderno 12 (Verde), questão 151",
+      "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_PV_impresso_D2_CD12.pdf"
+    },
+    "enunciado": "Um grupo sanguíneo, ou tipo sanguíneo, baseia-se na presença ou ausência de dois antígenos, A e B, na superfície das células vermelhas do sangue. Como dois antígenos estão envolvidos, os quatro tipos sanguíneos distintos são:\n• Tipo A: apenas o antígeno A está presente;\n• Tipo B: apenas o antígeno B está presente;\n• Tipo AB: ambos os antígenos estão presentes;\n• Tipo O: nenhum dos antígenos está presente.\nForam coletadas amostras de sangue de 200 pessoas e, após análise laboratorial, foi identificado que em 100 amostras está presente o antígeno A, em 110 amostras há presença do antígeno B e em 20 amostras nenhum dos antígenos está presente.\nDessas pessoas que foram submetidas à coleta de sangue, o número das que possuem o tipo sanguíneo A é igual a",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "30."
+      },
+      {
+        "letra": "B",
+        "texto": "60."
+      },
+      {
+        "letra": "C",
+        "texto": "70."
+      },
+      {
+        "letra": "D",
+        "texto": "90."
+      },
+      {
+        "letra": "E",
+        "texto": "100."
+      }
+    ],
+    "correta": "C",
+    "explicacao": "Pelo princípio da inclusão-exclusão, o número de pessoas com pelo menos um antígeno é 200 − 20 = 180 = |A| + |B| − |A∩B| = 100 + 110 − |A∩B|, logo |A∩B| = 30 (tipo AB). O tipo sanguíneo A puro (só o antígeno A, sem o B) é 100 − 30 = 70 pessoas."
+  },
+  {
+    "id": "enem-2020-b-152",
+    "categoriaId": "razao-proporcao",
+    "subtopico": "Divisão Proporcional",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "enem",
+      "ano": 2020,
+      "descricao": "ENEM 2020, 2º dia, Caderno 12 (Verde), questão 152",
+      "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_PV_impresso_D2_CD12.pdf"
+    },
+    "enunciado": "Antônio, Joaquim e José são sócios de uma empresa cujo capital é dividido, entre os três, em partes proporcionais a: 4, 6 e 6, respectivamente. Com a intenção de igualar a participação dos três sócios no capital da empresa, Antônio pretende adquirir uma fração do capital de cada um dos outros dois sócios.\nA fração do capital de cada sócio que Antônio deverá adquirir é",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "1/2"
+      },
+      {
+        "letra": "B",
+        "texto": "1/3"
+      },
+      {
+        "letra": "C",
+        "texto": "1/9"
+      },
+      {
+        "letra": "D",
+        "texto": "2/3"
+      },
+      {
+        "letra": "E",
+        "texto": "4/3"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "Tomando o capital total como 16k (partes 4k, 6k e 6k), a divisão igualitária dá 16k/3 para cada sócio. Joaquim e José precisam ceder, cada um, 6k − 16k/3 = 2k/3 a Antônio. Essa quantia representa, em relação ao capital original de cada um deles (6k), a fração (2k/3)/6k = 1/9."
+  },
+  {
+    "id": "enem-2020-b-154",
+    "categoriaId": "geometria-espacial",
+    "subtopico": "Prismas e Cilindros",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "enem",
+      "ano": 2020,
+      "descricao": "ENEM 2020, 2º dia, Caderno 12 (Verde), questão 154",
+      "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_PV_impresso_D2_CD12.pdf"
+    },
+    "enunciado": "Uma loja de materiais de construção vende dois tipos de caixas-d'água: tipo A e tipo B. Ambas têm formato cilíndrico e possuem o mesmo volume, e a altura da caixa-d'água do tipo B é igual a 25% da altura da caixa-d'água do tipo A.\nSe R denota o raio da caixa-d'água do tipo A, então o raio da caixa-d'água do tipo B é",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "R/2"
+      },
+      {
+        "letra": "B",
+        "texto": "2R"
+      },
+      {
+        "letra": "C",
+        "texto": "4R"
+      },
+      {
+        "letra": "D",
+        "texto": "5R"
+      },
+      {
+        "letra": "E",
+        "texto": "16R"
+      }
+    ],
+    "correta": "B",
+    "explicacao": "Como os volumes são iguais, πR²·h_A = π r²·h_B, com h_B = 0,25·h_A. Substituindo: R²·h_A = r²·0,25·h_A, logo r² = 4R², ou seja, r = 2R."
+  },
+  {
+    "id": "enem-2020-b-156",
+    "categoriaId": "equacoes",
+    "subtopico": "Sistemas de Equações 2x2",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "enem",
+      "ano": 2020,
+      "descricao": "ENEM 2020, 2º dia, Caderno 12 (Verde), questão 156",
+      "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_PV_impresso_D2_CD12.pdf"
+    },
+    "enunciado": "Em uma cantina escolar são vendidos 3 tipos de barras de chocolate: amargo, branco e com castanhas. Em uma tarde, 20 alunos adentraram a cantina dispostos a consumirem chocolates.\nSoube-se que 4 alunos compraram exatamente uma barra de cada tipo, 2 alunos compraram exatamente uma barra de chocolate branco e uma barra com castanhas, 2 outros alunos compraram exatamente uma barra de chocolate amargo e uma barra com castanhas e, finalmente, cada um dos demais alunos comprou, exatamente, uma única barra de chocolate.\nO proprietário da cantina, com o intuito de repor o estoque, detectou que as quantidades totais vendidas de barras de chocolate amargo e branco foram iguais; além disso, no total, foi vendido o dobro de barras com castanhas em relação às brancas. Nessas condições, quantas barras de chocolate com castanhas foram compradas por esses 20 alunos?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "8"
+      },
+      {
+        "letra": "B",
+        "texto": "10"
+      },
+      {
+        "letra": "C",
+        "texto": "11"
+      },
+      {
+        "letra": "D",
+        "texto": "14"
+      },
+      {
+        "letra": "E",
+        "texto": "16"
+      }
+    ],
+    "correta": "E",
+    "explicacao": "Dos 20 alunos, 4+2+2=8 já estão descritos; os 12 restantes compraram uma única barra cada, sendo a únicos de amargo, b únicos de branco e c únicos de castanhas, com a+b+c=12. O total de amargo é 6+a, o de branco é 6+b e o de castanhas é 8+c. Da igualdade amargo=branco vem a=b. Da condição castanhas=2×branco vem 8+c=2(6+b), ou seja, c=4+2b. Substituindo em a+b+c=12: b+b+4+2b=12, logo 4b=8 e b=2, a=2, c=8. O total de barras com castanhas vendidas é 8+c=8+8=16."
+  },
+  {
+    "id": "enem-2020-b-158",
+    "categoriaId": "razao-proporcao",
+    "subtopico": "Escalas (Comprimento, Área e Volume)",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "enem",
+      "ano": 2020,
+      "descricao": "ENEM 2020, 2º dia, Caderno 12 (Verde), questão 158",
+      "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_PV_impresso_D2_CD12.pdf"
+    },
+    "enunciado": "A caixa-d'água de um edifício terá a forma de um paralelepípedo retângulo reto com volume igual a 28 080 litros. Em uma maquete que representa o edifício, a caixa-d'água tem dimensões 2 cm × 3,51 cm × 4 cm. Dado: 1 dm³ = 1 L.\nA escala usada pelo arquiteto foi",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "1 : 10"
+      },
+      {
+        "letra": "B",
+        "texto": "1 : 100"
+      },
+      {
+        "letra": "C",
+        "texto": "1 : 1 000"
+      },
+      {
+        "letra": "D",
+        "texto": "1 : 10 000"
+      },
+      {
+        "letra": "E",
+        "texto": "1 : 100 000"
+      }
+    ],
+    "correta": "B",
+    "explicacao": "O volume real é 28 080 L = 28 080 dm³ = 28 080 000 cm³. O volume da maquete é 2×3,51×4 = 28,08 cm³. A razão entre os volumes é 28 080 000/28,08 = 1 000 000, que é o cubo da escala linear. Logo, a escala linear é a raiz cúbica de 1 000 000, ou seja, 100, o que dá a escala 1:100."
+  },
+  {
+    "id": "enem-2020-b-160",
+    "categoriaId": "geometria-plana",
+    "subtopico": "Áreas e Perímetros",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "enem",
+      "ano": 2020,
+      "descricao": "ENEM 2020, 2º dia, Caderno 12 (Verde), questão 160",
+      "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_PV_impresso_D2_CD12.pdf"
+    },
+    "enunciado": "O proprietário de um apartamento decidiu instalar porcelanato no piso da sala. Essa sala tem formato retangular com 3,2 m de largura e 3,6 m de comprimento. As peças do porcelanato têm formato de um quadrado com lado medindo 80 cm. Esse porcelanato é vendido em dois tipos de caixas, com os preços indicados a seguir:\n• Caixas do tipo A: 4 unidades de piso, R$ 35,00;\n• Caixas do tipo B: 3 unidades de piso, R$ 27,00.\nNa instalação do porcelanato, as peças podem ser recortadas e devem ser assentadas sem espaçamento entre elas, aproveitando-se ao máximo os recortes feitos.\nA compra que atende às necessidades do proprietário, proporciona a menor sobra de pisos e resulta no menor preço é",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "5 caixas do tipo A."
+      },
+      {
+        "letra": "B",
+        "texto": "1 caixa do tipo A e 4 caixas do tipo B."
+      },
+      {
+        "letra": "C",
+        "texto": "3 caixas do tipo A e 2 caixas do tipo B."
+      },
+      {
+        "letra": "D",
+        "texto": "5 caixas do tipo A e 1 caixa do tipo B."
+      },
+      {
+        "letra": "E",
+        "texto": "6 caixas do tipo B."
+      }
+    ],
+    "correta": "C",
+    "explicacao": "A área da sala é 3,2×3,6 = 11,52 m², e cada peça de porcelanato tem área 0,8×0,8 = 0,64 m². O número mínimo de peças é 11,52/0,64 = 18, exatamente (os recortes se encaixam sem sobra, já que 3,2 m equivale a 4 peças e 3,6 m a 4,5 peças). Entre as combinações de caixas que somam pelo menos 18 peças sem sobra, a única com exatamente 18 peças e menor preço é 3 caixas do tipo A (12 peças) + 2 caixas do tipo B (6 peças) = 18 peças, custando 3×35+2×27 = R$ 159,00 — mais barato que, por exemplo, 6 caixas do tipo B (18 peças, R$ 162,00)."
+  },
+  {
+    "id": "enem-2020-b-161",
+    "categoriaId": "analise-combinatoria",
+    "subtopico": "Princípio Multiplicativo",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "enem",
+      "ano": 2020,
+      "descricao": "ENEM 2020, 2º dia, Caderno 12 (Verde), questão 161",
+      "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_PV_impresso_D2_CD12.pdf"
+    },
+    "enunciado": "Um hotel de 3 andares está sendo construído. Cada andar terá 100 quartos. Os quartos serão numerados de 100 a 399 e cada um terá seu número afixado à porta. Cada número será composto por peças individuais, cada uma simbolizando um único algarismo.\nQual a quantidade mínima de peças, simbolizando o algarismo 2, necessárias para identificar o número de todos os quartos?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "160"
+      },
+      {
+        "letra": "B",
+        "texto": "157"
+      },
+      {
+        "letra": "C",
+        "texto": "130"
+      },
+      {
+        "letra": "D",
+        "texto": "120"
+      },
+      {
+        "letra": "E",
+        "texto": "60"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "Contam-se as ocorrências do algarismo 2 em cada posição. Na casa das centenas, o dígito 2 aparece em todos os 100 números de 200 a 299: 100 ocorrências. Na casa das dezenas, em cada bloco de 100 números (100-199, 200-299, 300-399) há 10 números com dezena 2 (X20 a X29): 3×10 = 30 ocorrências. Na casa das unidades, da mesma forma, há 3×10 = 30 ocorrências. O total é 100+30+30 = 160 peças."
+  },
+  {
+    "id": "enem-2020-b-164",
+    "categoriaId": "equacoes",
+    "subtopico": "Inequações do 1º grau",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "enem",
+      "ano": 2020,
+      "descricao": "ENEM 2020, 2º dia, Caderno 12 (Verde), questão 164",
+      "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_PV_impresso_D2_CD12.pdf"
+    },
+    "enunciado": "Uma casa de dois andares está sendo projetada. É necessário incluir no projeto a construção de uma escada para o acesso ao segundo andar. Para o cálculo das dimensões dos degraus utilizam-se as regras:\n|2h + b − 63,5| ≤ 1,5 e 16 ≤ h ≤ 19,\nnas quais h é a altura do degrau (denominada espelho) e b é a profundidade da pisada, ambas em centímetro. Por conveniência, escolheu-se a altura do degrau como sendo h = 16.\nNesse caso, o mais amplo intervalo numérico ao qual a profundidade da pisada (b) deve pertencer, para que as regras sejam satisfeitas, é",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "30 ≤ b"
+      },
+      {
+        "letra": "B",
+        "texto": "30 ≤ b ≤ 31,5"
+      },
+      {
+        "letra": "C",
+        "texto": "30 ≤ b ≤ 33"
+      },
+      {
+        "letra": "D",
+        "texto": "31,5 ≤ b ≤ 33"
+      },
+      {
+        "letra": "E",
+        "texto": "b ≤ 33"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "Substituindo h = 16 na inequação: |2·16 + b − 63,5| ≤ 1,5, ou seja, |b − 31,5| ≤ 1,5. Isso equivale a −1,5 ≤ b − 31,5 ≤ 1,5, logo 30 ≤ b ≤ 33."
+  },
+  {
+    "id": "enem-2020-b-165",
+    "categoriaId": "razao-proporcao",
+    "subtopico": "Grandezas Inversas",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "enem",
+      "ano": 2020,
+      "descricao": "ENEM 2020, 2º dia, Caderno 12 (Verde), questão 165",
+      "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_PV_impresso_D2_CD12.pdf"
+    },
+    "enunciado": "Muitos modelos atuais de veículos possuem computador de bordo. Os computadores informam em uma tela diversas variações de grandezas associadas ao desempenho do carro, dentre elas o consumo médio de combustível. Um veículo, de um determinado modelo, pode vir munido de um dos dois tipos de computadores de bordo:\n• Tipo A: informa a quantidade X de litro de combustível gasto para percorrer 100 quilômetros;\n• Tipo B: informa a quantidade de quilômetro que o veículo é capaz de percorrer com um litro de combustível.\nUm veículo utiliza o computador do Tipo A, e ao final de uma viagem o condutor viu apresentada na tela a informação \"X/100\". Caso o seu veículo utilizasse o computador do Tipo B, o valor informado na tela seria obtido pela operação",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "X × 100"
+      },
+      {
+        "letra": "B",
+        "texto": "X/100"
+      },
+      {
+        "letra": "C",
+        "texto": "100/X"
+      },
+      {
+        "letra": "D",
+        "texto": "1/X"
+      },
+      {
+        "letra": "E",
+        "texto": "X"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "Se X litros são gastos a cada 100 km, então em 1 litro o veículo percorre 100/X quilômetros. Essa é justamente a grandeza que o computador do Tipo B informa, e ela é o inverso multiplicado da relação do Tipo A: quanto maior o consumo X, menor a autonomia por litro."
+  },
+  {
+    "id": "enem-2020-b-166",
+    "categoriaId": "geometria-espacial",
+    "subtopico": "Cones e Pirâmides",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "enem",
+      "ano": 2020,
+      "descricao": "ENEM 2020, 2º dia, Caderno 12 (Verde), questão 166",
+      "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_PV_impresso_D2_CD12.pdf"
+    },
+    "enunciado": "No período de fim de ano, o síndico de um condomínio resolveu colocar, em um poste, uma iluminação natalina em formato de cone, lembrando uma árvore de Natal. A árvore deverá ser feita colocando-se mangueiras de iluminação, consideradas segmentos de reta de mesmo comprimento, a partir de um ponto situado a 3 m de altura no poste até pontos de uma circunferência de fixação no chão, de tal forma que esta fique dividida em 20 arcos iguais. O poste está fixado no ponto C (centro da circunferência), perpendicularmente ao plano do chão.\nPara economizar, o síndico utilizará mangueiras de iluminação aproveitadas de anos anteriores, que juntas totalizam pouco mais de 100 m de comprimento, dos quais ele decide usar exatamente 100 m, divididos igualmente entre as 20 mangueiras, deixando o restante como reserva.\nPara que ele atinja seu objetivo, o raio, em metro, da circunferência deverá ser de",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "4,00."
+      },
+      {
+        "letra": "B",
+        "texto": "4,87."
+      },
+      {
+        "letra": "C",
+        "texto": "5,00."
+      },
+      {
+        "letra": "D",
+        "texto": "5,83."
+      },
+      {
+        "letra": "E",
+        "texto": "6,26."
+      }
+    ],
+    "correta": "A",
+    "explicacao": "As 20 mangueiras formam as geratrizes de um cone cuja altura é 3 m. Usando exatamente 100 m divididos entre as 20 mangueiras, cada uma mede 100/20 = 5 m (a geratriz do cone). Pelo teorema de Pitágoras, o raio da base satisfaz r² + 3² = 5², logo r² = 25 − 9 = 16 e r = 4 m."
+  },
+  {
+    "id": "enem-2020-b-167",
+    "categoriaId": "trigonometria",
+    "subtopico": "Triângulo Retângulo",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "enem",
+      "ano": 2020,
+      "descricao": "ENEM 2020, 2º dia, Caderno 12 (Verde), questão 167",
+      "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_PV_impresso_D2_CD12.pdf"
+    },
+    "enunciado": "Pergolado é o nome que se dá a um tipo de cobertura projetada por arquitetos, comumente em praças e jardins, para criar um ambiente para pessoas ou plantas, no qual há uma quebra da quantidade de luz, dependendo da posição do sol. É feito como um estrado de vigas iguais, postas paralelas e perfeitamente em fila, com um vão de 30 cm de distância entre elas.\nUm arquiteto projeta esse pergolado de modo que, no solstício de verão, a trajetória do sol durante o dia seja realizada num plano perpendicular à direção das vigas, e que o sol da tarde, no momento em que seus raios fizerem 30° com a posição a pino (vertical), deixe passar pelo vão entre vigas a metade da luz que passa ao meio-dia (quando o sol está a pino).\nPara atender à proposta do projeto elaborado pelo arquiteto, as vigas do pergolado devem ser construídas de maneira que a altura, em centímetro, seja a mais próxima possível de",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "9."
+      },
+      {
+        "letra": "B",
+        "texto": "15."
+      },
+      {
+        "letra": "C",
+        "texto": "26."
+      },
+      {
+        "letra": "D",
+        "texto": "52."
+      },
+      {
+        "letra": "E",
+        "texto": "60."
+      }
+    ],
+    "correta": "C",
+    "explicacao": "Ao meio-dia, com o sol a pino, toda a largura do vão (30 cm) deixa passar luz. A 30° da vertical, a sombra que a altura h da viga projeta sobre o vão reduz a abertura efetiva para (30 − h·tan30°). Essa abertura deve valer a metade de 30 cm, ou seja, 15 cm: 30 − h·tan30° = 15, logo h·tan30° = 15 e h = 15/tan30° = 15√3 ≈ 25,98 cm, ou seja, aproximadamente 26 cm."
+  },
+  {
+    "id": "enem-2020-b-169",
+    "categoriaId": "geometria-espacial",
+    "subtopico": "Prismas e Cilindros",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "enem",
+      "ano": 2020,
+      "descricao": "ENEM 2020, 2º dia, Caderno 12 (Verde), questão 169",
+      "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_PV_impresso_D2_CD12.pdf"
+    },
+    "enunciado": "Um processo de aeração, que consiste na introdução de ar num líquido, acontece do seguinte modo: uma bomba B retira o líquido de um tanque T1 e o faz passar pelo aerador A1, que aumenta o volume do líquido em 15%, e em seguida pelo aerador A2, ganhando novo aumento de volume de 10%. Ao final, ele fica armazenado num tanque T2. Os tanques T1 e T2 são prismas retos de bases retangulares, sendo que a base de T1 tem comprimento c e largura L, e a base de T2 tem comprimento c/2 e largura 2L (ou seja, as duas bases têm a mesma área).\nPara finalizar o processo de aeração sem derramamento do líquido em T2, o responsável deve saber a relação entre a altura da coluna de líquido que já saiu de T1, denotada por x, e a altura da coluna de líquido que chegou a T2, denotada por y.\nA equação que relaciona as medidas das alturas y e x é dada por",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "y = 1,265x"
+      },
+      {
+        "letra": "B",
+        "texto": "y = 1,250x"
+      },
+      {
+        "letra": "C",
+        "texto": "y = 1,150x"
+      },
+      {
+        "letra": "D",
+        "texto": "y = 1,125x"
+      },
+      {
+        "letra": "E",
+        "texto": "y = x"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "O volume que sai de T1 é V = A·x, em que A = c·L é a área da base de T1. Após passar pelos dois aeradores, esse volume aumenta 15% e depois mais 10%, tornando-se V' = A·x·1,15·1,10 = 1,265·A·x. Como a base de T2 tem a mesma área A (comprimento c/2 e largura 2L, cuja área é (c/2)(2L) = cL = A), a altura em T2 satisfaz A·y = 1,265·A·x, ou seja, y = 1,265x."
+  },
+  {
+    "id": "enem-2020-b-171",
+    "categoriaId": "numeros",
+    "subtopico": "Notação Científica e Escalas",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "enem",
+      "ano": 2020,
+      "descricao": "ENEM 2020, 2º dia, Caderno 12 (Verde), questão 171",
+      "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_PV_impresso_D2_CD12.pdf"
+    },
+    "enunciado": "Pesquisadores da Universidade de Tecnologia de Viena, na Áustria, produziram miniaturas de objetos em impressoras 3D de alta precisão. A escultura apresentada é uma miniatura de um carro de Fórmula 1, com 100 micrômetros de comprimento. Um micrômetro é a milionésima parte de um metro.\nUsando notação científica, qual é a representação do comprimento dessa miniatura, em metro?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "1,0 × 10⁻¹"
+      },
+      {
+        "letra": "B",
+        "texto": "1,0 × 10⁻³"
+      },
+      {
+        "letra": "C",
+        "texto": "1,0 × 10⁻⁴"
+      },
+      {
+        "letra": "D",
+        "texto": "1,0 × 10⁻⁶"
+      },
+      {
+        "letra": "E",
+        "texto": "1,0 × 10⁻⁷"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "Um micrômetro equivale a 10⁻⁶ m. Logo, 100 micrômetros = 100 × 10⁻⁶ m = 1,0 × 10² × 10⁻⁶ m = 1,0 × 10⁻⁴ m."
+  },
+  {
+    "id": "enem-2020-b-172",
+    "categoriaId": "probabilidade",
+    "subtopico": "Probabilidade Simples",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "enem",
+      "ano": 2020,
+      "descricao": "ENEM 2020, 2º dia, Caderno 12 (Verde), questão 172",
+      "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_PV_impresso_D2_CD12.pdf"
+    },
+    "enunciado": "O Estatuto do Idoso, no Brasil, prevê certos direitos às pessoas com idade avançada, concedendo a estas, entre outros benefícios, a restituição de imposto de renda antes dos demais contribuintes. A tabela informa os nomes e as idades de 12 idosos que aguardam suas restituições de imposto de renda. Considere que, entre os idosos, a restituição seja concedida em ordem decrescente de idade e que, em subgrupos de pessoas com a mesma idade, a ordem seja decidida por sorteio.\n\nOrlando: 89 anos; Gustavo: 86; Luana: 86; Teresa: 85; Márcia: 84; Roberto: 82; Heloisa: 75; Marisa: 75; Pedro: 75; João: 75; Antônio: 72; Fernanda: 70.\n\nNessas condições, a probabilidade de João ser a sétima pessoa do grupo a receber sua restituição é igual a",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "1/12"
+      },
+      {
+        "letra": "B",
+        "texto": "7/12"
+      },
+      {
+        "letra": "C",
+        "texto": "1/8"
+      },
+      {
+        "letra": "D",
+        "texto": "5/6"
+      },
+      {
+        "letra": "E",
+        "texto": "1/4"
+      }
+    ],
+    "correta": "E",
+    "explicacao": "As seis primeiras posições são ocupadas, em ordem decrescente de idade, por Orlando (89), Gustavo e Luana (86), Teresa (85), Márcia (84) e Roberto (82) — seis pessoas com idade estritamente maior que 75 anos. As posições seguintes são disputadas por sorteio entre os quatro idosos de 75 anos (Heloisa, Marisa, Pedro e João). A probabilidade de João ser sorteado justamente para a 7ª posição, entre esses 4, é 1/4."
+  },
+  {
+    "id": "enem-2020-b-173",
+    "categoriaId": "progressoes",
+    "subtopico": "Progressão Aritmética",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "enem",
+      "ano": 2020,
+      "descricao": "ENEM 2020, 2º dia, Caderno 12 (Verde), questão 173",
+      "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_PV_impresso_D2_CD12.pdf"
+    },
+    "enunciado": "No Brasil, o tempo necessário para um estudante realizar sua formação até a diplomação em um curso superior, considerando os 9 anos de ensino fundamental, os 3 anos do ensino médio e os 4 anos de graduação (tempo médio), é de 16 anos. No entanto, a realidade dos brasileiros mostra que o tempo médio de estudo de pessoas acima de 14 anos é ainda muito pequeno, conforme apresentado na tabela:\n\nTempo médio de estudo de pessoas acima de 14 anos: 1995 → 5,2 anos; 1999 → 5,8 anos; 2003 → 6,4 anos; 2007 → 7,0 anos.\n\nConsidere que o incremento no tempo de estudo, a cada período, para essas pessoas, se mantenha constante até o ano 2050, e que se pretenda chegar ao patamar de 70% do tempo necessário à obtenção do curso superior dado anteriormente.\nO ano em que o tempo médio de estudo de pessoas acima de 14 anos atingirá o percentual pretendido será",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "2018."
+      },
+      {
+        "letra": "B",
+        "texto": "2023."
+      },
+      {
+        "letra": "C",
+        "texto": "2031."
+      },
+      {
+        "letra": "D",
+        "texto": "2035."
+      },
+      {
+        "letra": "E",
+        "texto": "2043."
+      }
+    ],
+    "correta": "D",
+    "explicacao": "O tempo de estudo cresce 0,6 ano a cada período de 4 anos, formando uma progressão aritmética (5,2; 5,8; 6,4; 7,0). A meta é 70% de 16 anos = 11,2 anos. A partir de 2007 (7,0 anos), faltam 11,2 − 7,0 = 4,2 anos, que correspondem a 4,2/0,6 = 7 períodos de 4 anos, ou seja, 28 anos. Logo, 2007 + 28 = 2035."
+  },
+  {
+    "id": "enem-2020-b-174",
+    "categoriaId": "numeros",
+    "subtopico": "Notação Científica e Escalas",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "enem",
+      "ano": 2020,
+      "descricao": "ENEM 2020, 2º dia, Caderno 12 (Verde), questão 174",
+      "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_PV_impresso_D2_CD12.pdf"
+    },
+    "enunciado": "Uma torneira está gotejando água em um balde com capacidade de 18 litros. No instante atual, o balde se encontra com ocupação de 50% de sua capacidade. A cada segundo caem 5 gotas de água da torneira, e uma gota é formada, em média, por 5 × 10⁻² mL de água.\nQuanto tempo, em hora, será necessário para encher completamente o balde, partindo do instante atual?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "2 × 10¹"
+      },
+      {
+        "letra": "B",
+        "texto": "1 × 10¹"
+      },
+      {
+        "letra": "C",
+        "texto": "2 × 10⁻²"
+      },
+      {
+        "letra": "D",
+        "texto": "1 × 10⁻²"
+      },
+      {
+        "letra": "E",
+        "texto": "1 × 10⁻³"
+      }
+    ],
+    "correta": "B",
+    "explicacao": "O balde tem 18 L e está com 50% (9 L), faltando 9 L = 9 000 mL. A cada segundo caem 5 gotas de 5×10⁻² mL, ou seja, 0,25 mL/s. O tempo necessário é 9 000/0,25 = 36 000 s = 36 000/3 600 = 10 horas = 1 × 10¹ h."
+  },
+  {
+    "id": "enem-2020-b-176",
+    "categoriaId": "exponenciais-logaritmos",
+    "subtopico": "Escalas Logarítmicas (pH, Richter)",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "enem",
+      "ano": 2020,
+      "descricao": "ENEM 2020, 2º dia, Caderno 12 (Verde), questão 176",
+      "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_PV_impresso_D2_CD12.pdf"
+    },
+    "enunciado": "A Lei de Zipf, batizada com o nome do linguista americano George Zipf, é uma lei empírica que relaciona a frequência (f) de uma palavra em um dado texto com o seu ranking (r). Ela é dada por f = A/r^B, em que A e B são constantes positivas, e r é a posição da palavra ao ordená-las por ordem decrescente de frequência (r = 1 para a mais frequente, e assim por diante).\nCom base nos valores de X = log(r) e Y = log(f), é possível estimar valores para A e B. No caso hipotético em que a lei é verificada exatamente, a relação entre Y e X é",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Y = log A − B·X"
+      },
+      {
+        "letra": "B",
+        "texto": "Y = log A + B·X"
+      },
+      {
+        "letra": "C",
+        "texto": "Y = B·log A − X"
+      },
+      {
+        "letra": "D",
+        "texto": "Y = (log A)/B − X"
+      },
+      {
+        "letra": "E",
+        "texto": "Y = X − B·log A"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "Aplicando log em ambos os lados de f = A/r^B: log f = log A − B·log r. Substituindo X = log r e Y = log f, obtém-se diretamente Y = log A − B·X, uma reta de coeficiente linear log A e coeficiente angular −B."
+  },
+  {
+    "id": "enem-2020-b-177",
+    "categoriaId": "exponenciais-logaritmos",
+    "subtopico": "Meia-Vida Radioativa",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "enem",
+      "ano": 2020,
+      "descricao": "ENEM 2020, 2º dia, Caderno 12 (Verde), questão 177",
+      "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_PV_impresso_D2_CD12.pdf"
+    },
+    "enunciado": "Enquanto um ser está vivo, a quantidade de carbono 14 nele existente não se altera. Quando ele morre, essa quantidade vai diminuindo. Sabe-se que a meia-vida do carbono 14 é de 5 730 anos, ou seja, num fóssil de um organismo que morreu há 5 730 anos haverá metade do carbono 14 que existia quando ele estava vivo. Assim, cientistas e arqueólogos usam a fórmula Q(t) = Q0 · 2^(−t/5730), em que t é o tempo, medido em ano, Q(t) é a quantidade de carbono 14 medida no instante t e Q0 é a quantidade de carbono 14 no ser vivo correspondente.\nUm grupo de arqueólogos encontrou 5 fósseis de espécies conhecidas e mediram a quantidade de carbono 14 neles existente. Na tabela temos esses valores juntamente com a quantidade de carbono 14 nas referidas espécies vivas:\n\nFóssil 1: Q0 = 128, Q(t) = 32\nFóssil 2: Q0 = 256, Q(t) = 8\nFóssil 3: Q0 = 512, Q(t) = 64\nFóssil 4: Q0 = 1 024, Q(t) = 512\nFóssil 5: Q0 = 2 048, Q(t) = 128\n\nO fóssil mais antigo encontrado nessa expedição foi",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "1."
+      },
+      {
+        "letra": "B",
+        "texto": "2."
+      },
+      {
+        "letra": "C",
+        "texto": "3."
+      },
+      {
+        "letra": "D",
+        "texto": "4."
+      },
+      {
+        "letra": "E",
+        "texto": "5."
+      }
+    ],
+    "correta": "B",
+    "explicacao": "Usando Q(t) = Q0·2^(−t/5730), tem-se t = 5730·log₂(Q0/Q(t)). Calculando a razão Q0/Q(t) para cada fóssil: 1 → 4 = 2²; 2 → 32 = 2⁵; 3 → 8 = 2³; 4 → 2 = 2¹; 5 → 16 = 2⁴. As idades correspondem, portanto, a 2, 5, 3, 1 e 4 meias-vidas, respectivamente. O maior expoente (5) corresponde ao fóssil 2, que é o mais antigo."
+  },
+  {
+    "id": "enem-2020-b-178",
+    "categoriaId": "regra-de-tres",
+    "subtopico": "Regra de Três Simples",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "enem",
+      "ano": 2020,
+      "descricao": "ENEM 2020, 2º dia, Caderno 12 (Verde), questão 178",
+      "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_PV_impresso_D2_CD12.pdf"
+    },
+    "enunciado": "Uma fábrica oferece ônibus gratuito a seus trabalhadores, que devem estar no local de trabalho até 8h05min. Os ônibus trafegam a uma velocidade média de 50 km/h e a distância do local de embarque dos trabalhadores até a fábrica é de 60 km. Um trabalhador embarca num desses ônibus o mais tarde possível, mas de modo que chegue à fábrica com, pelo menos, 5 minutos de antecedência. Os ônibus passam no local de embarque pela primeira vez às 5h20min, a cada 10 minutos depois disso até às 6h30min, e a cada 20 minutos após esse horário.\nPor causa de uma obra numa via próxima à fábrica, o trajeto aumentou em 10 km e sua velocidade média reduziu para 30 km/h. Para que o trabalhador continue chegando à fábrica com 5 minutos de antecedência, ele precisa antecipar seu horário de embarque.\nA antecipação, em minuto, deverá ser de, no mínimo, igual a",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "12."
+      },
+      {
+        "letra": "B",
+        "texto": "18."
+      },
+      {
+        "letra": "C",
+        "texto": "50."
+      },
+      {
+        "letra": "D",
+        "texto": "68."
+      },
+      {
+        "letra": "E",
+        "texto": "70."
+      }
+    ],
+    "correta": "C",
+    "explicacao": "Antes da obra, o percurso de 60 km a 50 km/h leva 72 min. Para chegar até 8h00 (5 min antes das 8h05), o trabalhador deve embarcar até 6h48. O último ônibus disponível até esse horário é o das 6h30 (o intervalo de 10 em 10 min só vale até 6h30; depois disso os ônibus passam a cada 20 min, o próximo sendo às 6h50, tarde demais). Depois da obra, o percurso passa a 70 km a 30 km/h, levando 140 min (2h20min). Para ainda chegar até 8h00, o trabalhador deve embarcar até 5h40, que é exatamente um horário de ônibus (intervalos de 10 em 10 min a partir de 5h20). A antecipação necessária é 6h30 − 5h40 = 50 minutos."
+  },
+  {
+    "id": "enem-2020-b-179",
+    "categoriaId": "porcentagem",
+    "subtopico": "Fator de Multiplicação",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "enem",
+      "ano": 2020,
+      "descricao": "ENEM 2020, 2º dia, Caderno 12 (Verde), questão 179",
+      "url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_PV_impresso_D2_CD12.pdf"
+    },
+    "enunciado": "Uma fábrica produz e comercializa refrigerantes utilizando três tipos de embalagens com as seguintes capacidades: 2 000 mL, 1 600 mL e 400 mL. Sabe-se que as quantidades de embalagens produzidas mensalmente são, inicialmente, iguais para os três tipos. Essa fábrica aumentará o volume total de refrigerantes produzidos em 20%. No entanto, esse objetivo deverá ser obtido apenas aumentando a produção de embalagens de 400 mL.\nPara que isso ocorra, em quantos por cento deverá aumentar a produção de refrigerantes em embalagens de 400 mL?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "60"
+      },
+      {
+        "letra": "B",
+        "texto": "100"
+      },
+      {
+        "letra": "C",
+        "texto": "180"
+      },
+      {
+        "letra": "D",
+        "texto": "200"
+      },
+      {
+        "letra": "E",
+        "texto": "300"
+      }
+    ],
+    "correta": "D",
+    "explicacao": "Sejam x unidades produzidas inicialmente de cada tipo. O volume inicial total é x(2000+1600+400) = 4000x mL, e o volume desejado é 1,2×4000x = 4800x mL. Como as embalagens de 2 000 mL e 1 600 mL continuam com x unidades cada (2000x+1600x = 3600x mL), o volume adicional deve vir das embalagens de 400 mL: 4800x − 3600x = 1200x mL, ou seja, 1200x/400 = 3x unidades — o triplo da quantidade inicial x. Isso representa um aumento de 200% na produção de embalagens de 400 mL."
   }
 ]

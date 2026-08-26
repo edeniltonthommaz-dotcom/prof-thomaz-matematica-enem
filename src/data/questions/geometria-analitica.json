@@ -1,81 +1,81 @@
 [
   {
-    "id": "geometria-analitica-ined-0411",
+    "id": "geometria-analitica-ined-0396",
     "categoriaId": "geometria-analitica",
     "subtopico": "Distância entre Pontos",
     "dificuldade": "facil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "No plano cartesiano, qual é a distância entre os pontos A(5, -3) e B(14, 9)?",
+    "enunciado": "No plano cartesiano, qual é a distância entre os pontos A(-2, 2) e B(3, 14)?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "16"
-      },
-      {
-        "letra": "B",
-        "texto": "15"
-      },
-      {
-        "letra": "C",
-        "texto": "23"
-      },
-      {
-        "letra": "D",
         "texto": "14"
       },
       {
-        "letra": "E",
-        "texto": "21"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "d = √[(14−5)² + (9−-3)²] = √[9² + 12²] = √225 = 15."
-  },
-  {
-    "id": "geometria-analitica-ined-0412",
-    "categoriaId": "geometria-analitica",
-    "subtopico": "Equação da Reta",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma reta no plano cartesiano é definida pela equação y = 3x + 0. Qual é o valor de y quando x = 5?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "-14"
-      },
-      {
         "letra": "B",
-        "texto": "15"
+        "texto": "17"
       },
       {
         "letra": "C",
-        "texto": "-15"
+        "texto": "13"
       },
       {
         "letra": "D",
-        "texto": "18"
+        "texto": "20"
       },
       {
         "letra": "E",
         "texto": "12"
       }
     ],
-    "correta": "B",
-    "explicacao": "Substituindo x = 5 na equação: y = 3×5 + 0 = 15."
+    "correta": "C",
+    "explicacao": "d = √[(3−-2)² + (14−2)²] = √[5² + 12²] = √169 = 13."
   },
   {
-    "id": "geometria-analitica-ined-0413",
+    "id": "geometria-analitica-ined-0397",
+    "categoriaId": "geometria-analitica",
+    "subtopico": "Equação da Reta",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma reta no plano cartesiano é definida pela equação y = 4x + 1. Qual é o valor de y quando x = -5?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "-15"
+      },
+      {
+        "letra": "B",
+        "texto": "-19"
+      },
+      {
+        "letra": "C",
+        "texto": "-20"
+      },
+      {
+        "letra": "D",
+        "texto": "19"
+      },
+      {
+        "letra": "E",
+        "texto": "-23"
+      }
+    ],
+    "correta": "B",
+    "explicacao": "Substituindo x = -5 na equação: y = 4×-5 + 1 = -19."
+  },
+  {
+    "id": "geometria-analitica-ined-0398",
     "categoriaId": "geometria-analitica",
     "subtopico": "Distância entre Pontos",
     "dificuldade": "dificil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "No plano cartesiano, qual é a distância entre os pontos A(1, -5) e B(9, 10)?",
+    "enunciado": "No plano cartesiano, qual é a distância entre os pontos A(4, 5) e B(9, 17)?",
     "alternativas": [
       {
         "letra": "A",
@@ -83,37 +83,37 @@
       },
       {
         "letra": "B",
-        "texto": "16"
+        "texto": "20"
       },
       {
         "letra": "C",
-        "texto": "18"
+        "texto": "13"
       },
       {
         "letra": "D",
-        "texto": "23"
+        "texto": "14"
       },
       {
         "letra": "E",
-        "texto": "26"
+        "texto": "12"
       }
     ],
-    "correta": "A",
-    "explicacao": "d = √[(9−1)² + (10−-5)²] = √[8² + 15²] = √289 = 17."
+    "correta": "C",
+    "explicacao": "d = √[(9−4)² + (17−5)²] = √[5² + 12²] = √169 = 13."
   },
   {
-    "id": "geometria-analitica-ined-0414",
+    "id": "geometria-analitica-ined-0399",
     "categoriaId": "geometria-analitica",
     "subtopico": "Equação da Reta",
     "dificuldade": "facil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Uma reta no plano cartesiano é definida pela equação y = 5x + 0. Qual é o valor de y quando x = 2?",
+    "enunciado": "Uma reta no plano cartesiano é definida pela equação y = 2x + 3. Qual é o valor de y quando x = 3?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "-10"
+        "texto": "11"
       },
       {
         "letra": "B",
@@ -121,67 +121,101 @@
       },
       {
         "letra": "C",
-        "texto": "10"
+        "texto": "9"
       },
       {
         "letra": "D",
-        "texto": "15"
+        "texto": "7"
       },
       {
         "letra": "E",
-        "texto": "5"
+        "texto": "6"
       }
     ],
     "correta": "C",
-    "explicacao": "Substituindo x = 2 na equação: y = 5×2 + 0 = 10."
+    "explicacao": "Substituindo x = 3 na equação: y = 2×3 + 3 = 9."
   },
   {
-    "id": "geometria-analitica-ined-0415",
+    "id": "geometria-analitica-ined-0400",
     "categoriaId": "geometria-analitica",
     "subtopico": "Distância entre Pontos",
     "dificuldade": "medio",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "No plano cartesiano, qual é a distância entre os pontos A(0, 5) e B(6, 13)?",
+    "enunciado": "No plano cartesiano, qual é a distância entre os pontos A(4, 5) e B(7, 9)?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "15"
+        "texto": "6"
       },
       {
         "letra": "B",
-        "texto": "14"
+        "texto": "5"
       },
       {
         "letra": "C",
-        "texto": "11"
+        "texto": "8"
       },
       {
         "letra": "D",
-        "texto": "9"
+        "texto": "7"
       },
       {
         "letra": "E",
-        "texto": "10"
+        "texto": "4"
       }
     ],
-    "correta": "E",
-    "explicacao": "d = √[(6−0)² + (13−5)²] = √[6² + 8²] = √100 = 10."
+    "correta": "B",
+    "explicacao": "d = √[(7−4)² + (9−5)²] = √[3² + 4²] = √25 = 5."
   },
   {
-    "id": "geometria-analitica-ined-0416",
+    "id": "geometria-analitica-ined-0401",
     "categoriaId": "geometria-analitica",
     "subtopico": "Equação da Reta",
     "dificuldade": "dificil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Uma reta no plano cartesiano é definida pela equação y = 7x + 2. Qual é o valor de y quando x = 0?",
+    "enunciado": "Uma reta no plano cartesiano é definida pela equação y = 9x - 2. Qual é o valor de y quando x = 2?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "0"
+        "texto": "25"
+      },
+      {
+        "letra": "B",
+        "texto": "7"
+      },
+      {
+        "letra": "C",
+        "texto": "16"
+      },
+      {
+        "letra": "D",
+        "texto": "18"
+      },
+      {
+        "letra": "E",
+        "texto": "-16"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "Substituindo x = 2 na equação: y = 9×2 - 2 = 16."
+  },
+  {
+    "id": "geometria-analitica-ined-0403",
+    "categoriaId": "geometria-analitica",
+    "subtopico": "Equação da Reta",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma reta no plano cartesiano é definida pela equação y = 5x + 3. Qual é o valor de y quando x = -1?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "2"
       },
       {
         "letra": "B",
@@ -189,33 +223,101 @@
       },
       {
         "letra": "C",
-        "texto": "9"
+        "texto": "-7"
       },
       {
         "letra": "D",
-        "texto": "2"
+        "texto": "3"
       },
       {
         "letra": "E",
         "texto": "-5"
       }
     ],
-    "correta": "D",
-    "explicacao": "Substituindo x = 0 na equação: y = 7×0 + 2 = 2."
+    "correta": "B",
+    "explicacao": "Substituindo x = -1 na equação: y = 5×-1 + 3 = -2."
   },
   {
-    "id": "geometria-analitica-ined-0417",
+    "id": "geometria-analitica-ined-0404",
     "categoriaId": "geometria-analitica",
     "subtopico": "Distância entre Pontos",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "No plano cartesiano, qual é a distância entre os pontos A(-2, 0) e B(6, 15)?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "23"
+      },
+      {
+        "letra": "B",
+        "texto": "16"
+      },
+      {
+        "letra": "C",
+        "texto": "26"
+      },
+      {
+        "letra": "D",
+        "texto": "18"
+      },
+      {
+        "letra": "E",
+        "texto": "17"
+      }
+    ],
+    "correta": "E",
+    "explicacao": "d = √[(6−-2)² + (15−0)²] = √[8² + 15²] = √289 = 17."
+  },
+  {
+    "id": "geometria-analitica-ined-0405",
+    "categoriaId": "geometria-analitica",
+    "subtopico": "Equação da Reta",
     "dificuldade": "facil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "No plano cartesiano, qual é a distância entre os pontos A(4, 2) e B(9, 14)?",
+    "enunciado": "Uma reta no plano cartesiano é definida pela equação y = 2x - 4. Qual é o valor de y quando x = 1?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "20"
+        "texto": "3"
+      },
+      {
+        "letra": "B",
+        "texto": "2"
+      },
+      {
+        "letra": "C",
+        "texto": "-4"
+      },
+      {
+        "letra": "D",
+        "texto": "0"
+      },
+      {
+        "letra": "E",
+        "texto": "-2"
+      }
+    ],
+    "correta": "E",
+    "explicacao": "Substituindo x = 1 na equação: y = 2×1 - 4 = -2."
+  },
+  {
+    "id": "geometria-analitica-ined-0406",
+    "categoriaId": "geometria-analitica",
+    "subtopico": "Distância entre Pontos",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "No plano cartesiano, qual é a distância entre os pontos A(-5, -2) e B(0, 10)?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "17"
       },
       {
         "letra": "B",
@@ -231,55 +333,21 @@
       },
       {
         "letra": "E",
-        "texto": "17"
+        "texto": "20"
       }
     ],
     "correta": "D",
-    "explicacao": "d = √[(9−4)² + (14−2)²] = √[5² + 12²] = √169 = 13."
+    "explicacao": "d = √[(0−-5)² + (10−-2)²] = √[5² + 12²] = √169 = 13."
   },
   {
-    "id": "geometria-analitica-ined-0418",
+    "id": "geometria-analitica-ined-0407",
     "categoriaId": "geometria-analitica",
     "subtopico": "Equação da Reta",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma reta no plano cartesiano é definida pela equação y = 4x - 7. Qual é o valor de y quando x = -3?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "-23"
-      },
-      {
-        "letra": "B",
-        "texto": "19"
-      },
-      {
-        "letra": "C",
-        "texto": "-19"
-      },
-      {
-        "letra": "D",
-        "texto": "-15"
-      },
-      {
-        "letra": "E",
-        "texto": "-12"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "Substituindo x = -3 na equação: y = 4×-3 - 7 = -19."
-  },
-  {
-    "id": "geometria-analitica-ined-0419",
-    "categoriaId": "geometria-analitica",
-    "subtopico": "Distância entre Pontos",
     "dificuldade": "dificil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "No plano cartesiano, qual é a distância entre os pontos A(0, -1) e B(9, 11)?",
+    "enunciado": "Uma reta no plano cartesiano é definida pela equação y = 3x - 4. Qual é o valor de y quando x = 6?",
     "alternativas": [
       {
         "letra": "A",
@@ -287,135 +355,33 @@
       },
       {
         "letra": "B",
-        "texto": "15"
+        "texto": "-14"
       },
       {
         "letra": "C",
-        "texto": "21"
+        "texto": "17"
       },
       {
         "letra": "D",
-        "texto": "16"
-      },
-      {
-        "letra": "E",
-        "texto": "23"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "d = √[(9−0)² + (11−-1)²] = √[9² + 12²] = √225 = 15."
-  },
-  {
-    "id": "geometria-analitica-ined-0420",
-    "categoriaId": "geometria-analitica",
-    "subtopico": "Equação da Reta",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma reta no plano cartesiano é definida pela equação y = 2x + 5. Qual é o valor de y quando x = 2?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "7"
-      },
-      {
-        "letra": "B",
-        "texto": "4"
-      },
-      {
-        "letra": "C",
         "texto": "11"
       },
       {
-        "letra": "D",
-        "texto": "9"
-      },
-      {
         "letra": "E",
-        "texto": "-9"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "Substituindo x = 2 na equação: y = 2×2 + 5 = 9."
-  },
-  {
-    "id": "geometria-analitica-ined-0421",
-    "categoriaId": "geometria-analitica",
-    "subtopico": "Distância entre Pontos",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "No plano cartesiano, qual é a distância entre os pontos A(-2, -5) e B(4, 3)?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "10"
-      },
-      {
-        "letra": "B",
-        "texto": "15"
-      },
-      {
-        "letra": "C",
-        "texto": "14"
-      },
-      {
-        "letra": "D",
-        "texto": "9"
-      },
-      {
-        "letra": "E",
-        "texto": "11"
+        "texto": "18"
       }
     ],
     "correta": "A",
-    "explicacao": "d = √[(4−-2)² + (3−-5)²] = √[6² + 8²] = √100 = 10."
+    "explicacao": "Substituindo x = 6 na equação: y = 3×6 - 4 = 14."
   },
   {
-    "id": "geometria-analitica-ined-0422",
-    "categoriaId": "geometria-analitica",
-    "subtopico": "Equação da Reta",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma reta no plano cartesiano é definida pela equação y = 2x + 7. Qual é o valor de y quando x = 4?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "8"
-      },
-      {
-        "letra": "B",
-        "texto": "15"
-      },
-      {
-        "letra": "C",
-        "texto": "13"
-      },
-      {
-        "letra": "D",
-        "texto": "17"
-      },
-      {
-        "letra": "E",
-        "texto": "-15"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "Substituindo x = 4 na equação: y = 2×4 + 7 = 15."
-  },
-  {
-    "id": "geometria-analitica-ined-0423",
+    "id": "geometria-analitica-ined-0408",
     "categoriaId": "geometria-analitica",
     "subtopico": "Distância entre Pontos",
     "dificuldade": "facil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "No plano cartesiano, qual é a distância entre os pontos A(-1, 5) e B(2, 9)?",
+    "enunciado": "No plano cartesiano, qual é a distância entre os pontos A(0, -5) e B(3, -1)?",
     "alternativas": [
       {
         "letra": "A",
@@ -423,33 +389,237 @@
       },
       {
         "letra": "B",
-        "texto": "5"
-      },
-      {
-        "letra": "C",
-        "texto": "8"
-      },
-      {
-        "letra": "D",
         "texto": "6"
       },
       {
-        "letra": "E",
+        "letra": "C",
         "texto": "4"
+      },
+      {
+        "letra": "D",
+        "texto": "5"
+      },
+      {
+        "letra": "E",
+        "texto": "8"
       }
     ],
-    "correta": "B",
-    "explicacao": "d = √[(2−-1)² + (9−5)²] = √[3² + 4²] = √25 = 5."
+    "correta": "D",
+    "explicacao": "d = √[(3−0)² + (-1−-5)²] = √[3² + 4²] = √25 = 5."
   },
   {
-    "id": "geometria-analitica-ined-0424",
+    "id": "geometria-analitica-ined-0409",
     "categoriaId": "geometria-analitica",
     "subtopico": "Equação da Reta",
     "dificuldade": "medio",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Uma reta no plano cartesiano é definida pela equação y = 6x + 5. Qual é o valor de y quando x = 3?",
+    "enunciado": "Uma reta no plano cartesiano é definida pela equação y = 6x - 7. Qual é o valor de y quando x = 0?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "-13"
+      },
+      {
+        "letra": "B",
+        "texto": "7"
+      },
+      {
+        "letra": "C",
+        "texto": "-7"
+      },
+      {
+        "letra": "D",
+        "texto": "0"
+      },
+      {
+        "letra": "E",
+        "texto": "-1"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "Substituindo x = 0 na equação: y = 6×0 - 7 = -7."
+  },
+  {
+    "id": "geometria-analitica-ined-0410",
+    "categoriaId": "geometria-analitica",
+    "subtopico": "Distância entre Pontos",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "No plano cartesiano, qual é a distância entre os pontos A(0, 2) e B(7, 26)?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "24"
+      },
+      {
+        "letra": "B",
+        "texto": "25"
+      },
+      {
+        "letra": "C",
+        "texto": "26"
+      },
+      {
+        "letra": "D",
+        "texto": "38"
+      },
+      {
+        "letra": "E",
+        "texto": "31"
+      }
+    ],
+    "correta": "B",
+    "explicacao": "d = √[(7−0)² + (26−2)²] = √[7² + 24²] = √625 = 25."
+  },
+  {
+    "id": "geometria-analitica-ined-0411",
+    "categoriaId": "geometria-analitica",
+    "subtopico": "Equação da Reta",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma reta no plano cartesiano é definida pela equação y = 2x - 5. Qual é o valor de y quando x = 7?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "11"
+      },
+      {
+        "letra": "B",
+        "texto": "9"
+      },
+      {
+        "letra": "C",
+        "texto": "-9"
+      },
+      {
+        "letra": "D",
+        "texto": "7"
+      },
+      {
+        "letra": "E",
+        "texto": "14"
+      }
+    ],
+    "correta": "B",
+    "explicacao": "Substituindo x = 7 na equação: y = 2×7 - 5 = 9."
+  },
+  {
+    "id": "geometria-analitica-ined-0412",
+    "categoriaId": "geometria-analitica",
+    "subtopico": "Distância entre Pontos",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "No plano cartesiano, qual é a distância entre os pontos A(-3, -2) e B(0, 2)?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "6"
+      },
+      {
+        "letra": "B",
+        "texto": "7"
+      },
+      {
+        "letra": "C",
+        "texto": "5"
+      },
+      {
+        "letra": "D",
+        "texto": "4"
+      },
+      {
+        "letra": "E",
+        "texto": "8"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "d = √[(0−-3)² + (2−-2)²] = √[3² + 4²] = √25 = 5."
+  },
+  {
+    "id": "geometria-analitica-ined-0413",
+    "categoriaId": "geometria-analitica",
+    "subtopico": "Equação da Reta",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma reta no plano cartesiano é definida pela equação y = 3x - 9. Qual é o valor de y quando x = 0?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "9"
+      },
+      {
+        "letra": "B",
+        "texto": "-9"
+      },
+      {
+        "letra": "C",
+        "texto": "-12"
+      },
+      {
+        "letra": "D",
+        "texto": "0"
+      },
+      {
+        "letra": "E",
+        "texto": "-6"
+      }
+    ],
+    "correta": "B",
+    "explicacao": "Substituindo x = 0 na equação: y = 3×0 - 9 = -9."
+  },
+  {
+    "id": "geometria-analitica-ined-0414",
+    "categoriaId": "geometria-analitica",
+    "subtopico": "Distância entre Pontos",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "No plano cartesiano, qual é a distância entre os pontos A(3, 0) e B(8, 12)?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "13"
+      },
+      {
+        "letra": "B",
+        "texto": "14"
+      },
+      {
+        "letra": "C",
+        "texto": "17"
+      },
+      {
+        "letra": "D",
+        "texto": "12"
+      },
+      {
+        "letra": "E",
+        "texto": "20"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "d = √[(8−3)² + (12−0)²] = √[5² + 12²] = √169 = 13."
+  },
+  {
+    "id": "geometria-analitica-ined-0415",
+    "categoriaId": "geometria-analitica",
+    "subtopico": "Equação da Reta",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma reta no plano cartesiano é definida pela equação y = 5x + 9. Qual é o valor de y quando x = 4?",
     "alternativas": [
       {
         "letra": "A",
@@ -457,11 +627,181 @@
       },
       {
         "letra": "B",
-        "texto": "23"
+        "texto": "20"
       },
       {
         "letra": "C",
-        "texto": "-23"
+        "texto": "24"
+      },
+      {
+        "letra": "D",
+        "texto": "-29"
+      },
+      {
+        "letra": "E",
+        "texto": "34"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "Substituindo x = 4 na equação: y = 5×4 + 9 = 29."
+  },
+  {
+    "id": "geometria-analitica-ined-0416",
+    "categoriaId": "geometria-analitica",
+    "subtopico": "Distância entre Pontos",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "No plano cartesiano, qual é a distância entre os pontos A(2, -1) e B(11, 11)?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "21"
+      },
+      {
+        "letra": "B",
+        "texto": "16"
+      },
+      {
+        "letra": "C",
+        "texto": "15"
+      },
+      {
+        "letra": "D",
+        "texto": "23"
+      },
+      {
+        "letra": "E",
+        "texto": "14"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "d = √[(11−2)² + (11−-1)²] = √[9² + 12²] = √225 = 15."
+  },
+  {
+    "id": "geometria-analitica-ined-0417",
+    "categoriaId": "geometria-analitica",
+    "subtopico": "Equação da Reta",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma reta no plano cartesiano é definida pela equação y = 2x + 7. Qual é o valor de y quando x = 6?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "19"
+      },
+      {
+        "letra": "B",
+        "texto": "17"
+      },
+      {
+        "letra": "C",
+        "texto": "12"
+      },
+      {
+        "letra": "D",
+        "texto": "-19"
+      },
+      {
+        "letra": "E",
+        "texto": "21"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "Substituindo x = 6 na equação: y = 2×6 + 7 = 19."
+  },
+  {
+    "id": "geometria-analitica-ined-0418",
+    "categoriaId": "geometria-analitica",
+    "subtopico": "Distância entre Pontos",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "No plano cartesiano, qual é a distância entre os pontos A(-1, -4) e B(4, 8)?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "17"
+      },
+      {
+        "letra": "B",
+        "texto": "13"
+      },
+      {
+        "letra": "C",
+        "texto": "14"
+      },
+      {
+        "letra": "D",
+        "texto": "12"
+      },
+      {
+        "letra": "E",
+        "texto": "20"
+      }
+    ],
+    "correta": "B",
+    "explicacao": "d = √[(4−-1)² + (8−-4)²] = √[5² + 12²] = √169 = 13."
+  },
+  {
+    "id": "geometria-analitica-ined-0419",
+    "categoriaId": "geometria-analitica",
+    "subtopico": "Equação da Reta",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma reta no plano cartesiano é definida pela equação y = 7x + 8. Qual é o valor de y quando x = 1?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "7"
+      },
+      {
+        "letra": "B",
+        "texto": "22"
+      },
+      {
+        "letra": "C",
+        "texto": "15"
+      },
+      {
+        "letra": "D",
+        "texto": "8"
+      },
+      {
+        "letra": "E",
+        "texto": "-15"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "Substituindo x = 1 na equação: y = 7×1 + 8 = 15."
+  },
+  {
+    "id": "geometria-analitica-ined-0420",
+    "categoriaId": "geometria-analitica",
+    "subtopico": "Distância entre Pontos",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "No plano cartesiano, qual é a distância entre os pontos A(3, 2) e B(8, 14)?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "12"
+      },
+      {
+        "letra": "B",
+        "texto": "20"
+      },
+      {
+        "letra": "C",
+        "texto": "13"
       },
       {
         "letra": "D",
@@ -469,199 +809,335 @@
       },
       {
         "letra": "E",
-        "texto": "18"
+        "texto": "14"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "d = √[(8−3)² + (14−2)²] = √[5² + 12²] = √169 = 13."
+  },
+  {
+    "id": "geometria-analitica-ined-0421",
+    "categoriaId": "geometria-analitica",
+    "subtopico": "Equação da Reta",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma reta no plano cartesiano é definida pela equação y = 2x + 7. Qual é o valor de y quando x = -2?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "5"
+      },
+      {
+        "letra": "B",
+        "texto": "-4"
+      },
+      {
+        "letra": "C",
+        "texto": "1"
+      },
+      {
+        "letra": "D",
+        "texto": "3"
+      },
+      {
+        "letra": "E",
+        "texto": "-3"
+      }
+    ],
+    "correta": "D",
+    "explicacao": "Substituindo x = -2 na equação: y = 2×-2 + 7 = 3."
+  },
+  {
+    "id": "geometria-analitica-ined-0422",
+    "categoriaId": "geometria-analitica",
+    "subtopico": "Distância entre Pontos",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "No plano cartesiano, qual é a distância entre os pontos A(1, -3) e B(11, 21)?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "26"
+      },
+      {
+        "letra": "B",
+        "texto": "34"
+      },
+      {
+        "letra": "C",
+        "texto": "39"
+      },
+      {
+        "letra": "D",
+        "texto": "25"
+      },
+      {
+        "letra": "E",
+        "texto": "27"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "d = √[(11−1)² + (21−-3)²] = √[10² + 24²] = √676 = 26."
+  },
+  {
+    "id": "geometria-analitica-ined-0423",
+    "categoriaId": "geometria-analitica",
+    "subtopico": "Equação da Reta",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma reta no plano cartesiano é definida pela equação y = 4x + 3. Qual é o valor de y quando x = 1?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "-7"
+      },
+      {
+        "letra": "B",
+        "texto": "7"
+      },
+      {
+        "letra": "C",
+        "texto": "4"
+      },
+      {
+        "letra": "D",
+        "texto": "11"
+      },
+      {
+        "letra": "E",
+        "texto": "3"
       }
     ],
     "correta": "B",
-    "explicacao": "Substituindo x = 3 na equação: y = 6×3 + 5 = 23."
+    "explicacao": "Substituindo x = 1 na equação: y = 4×1 + 3 = 7."
+  },
+  {
+    "id": "geometria-analitica-ined-0424",
+    "categoriaId": "geometria-analitica",
+    "subtopico": "Distância entre Pontos",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "No plano cartesiano, qual é a distância entre os pontos A(4, -3) e B(10, 5)?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "15"
+      },
+      {
+        "letra": "B",
+        "texto": "10"
+      },
+      {
+        "letra": "C",
+        "texto": "11"
+      },
+      {
+        "letra": "D",
+        "texto": "9"
+      },
+      {
+        "letra": "E",
+        "texto": "14"
+      }
+    ],
+    "correta": "B",
+    "explicacao": "d = √[(10−4)² + (5−-3)²] = √[6² + 8²] = √100 = 10."
   },
   {
     "id": "geometria-analitica-ined-0425",
     "categoriaId": "geometria-analitica",
-    "subtopico": "Distância entre Pontos",
+    "subtopico": "Equação da Reta",
     "dificuldade": "dificil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "No plano cartesiano, qual é a distância entre os pontos A(1, -1) e B(6, 11)?",
+    "enunciado": "Uma reta no plano cartesiano é definida pela equação y = 8x + 1. Qual é o valor de y quando x = 6?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "14"
+        "texto": "-49"
       },
       {
         "letra": "B",
-        "texto": "13"
+        "texto": "57"
       },
       {
         "letra": "C",
-        "texto": "17"
+        "texto": "41"
       },
       {
         "letra": "D",
-        "texto": "12"
+        "texto": "48"
       },
       {
         "letra": "E",
-        "texto": "20"
+        "texto": "49"
       }
     ],
-    "correta": "B",
-    "explicacao": "d = √[(6−1)² + (11−-1)²] = √[5² + 12²] = √169 = 13."
+    "correta": "E",
+    "explicacao": "Substituindo x = 6 na equação: y = 8×6 + 1 = 49."
   },
   {
     "id": "geometria-analitica-ined-0426",
     "categoriaId": "geometria-analitica",
-    "subtopico": "Equação da Reta",
+    "subtopico": "Distância entre Pontos",
     "dificuldade": "facil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Uma reta no plano cartesiano é definida pela equação y = 6x + 9. Qual é o valor de y quando x = 6?",
+    "enunciado": "No plano cartesiano, qual é a distância entre os pontos A(0, -3) e B(5, 9)?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "-45"
+        "texto": "17"
       },
       {
         "letra": "B",
-        "texto": "45"
+        "texto": "14"
       },
       {
         "letra": "C",
-        "texto": "39"
+        "texto": "20"
       },
       {
         "letra": "D",
-        "texto": "36"
+        "texto": "12"
       },
       {
         "letra": "E",
-        "texto": "51"
+        "texto": "13"
       }
     ],
-    "correta": "B",
-    "explicacao": "Substituindo x = 6 na equação: y = 6×6 + 9 = 45."
+    "correta": "E",
+    "explicacao": "d = √[(5−0)² + (9−-3)²] = √[5² + 12²] = √169 = 13."
   },
   {
     "id": "geometria-analitica-ined-0427",
     "categoriaId": "geometria-analitica",
-    "subtopico": "Distância entre Pontos",
+    "subtopico": "Equação da Reta",
     "dificuldade": "medio",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "No plano cartesiano, qual é a distância entre os pontos A(-2, 3) e B(7, 15)?",
+    "enunciado": "Uma reta no plano cartesiano é definida pela equação y = 4x + 2. Qual é o valor de y quando x = 4?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "16"
+        "texto": "-18"
       },
       {
         "letra": "B",
-        "texto": "23"
+        "texto": "18"
       },
       {
         "letra": "C",
-        "texto": "21"
+        "texto": "14"
       },
       {
         "letra": "D",
-        "texto": "15"
+        "texto": "22"
       },
       {
         "letra": "E",
-        "texto": "14"
+        "texto": "16"
       }
     ],
-    "correta": "D",
-    "explicacao": "d = √[(7−-2)² + (15−3)²] = √[9² + 12²] = √225 = 15."
+    "correta": "B",
+    "explicacao": "Substituindo x = 4 na equação: y = 4×4 + 2 = 18."
   },
   {
     "id": "geometria-analitica-ined-0428",
     "categoriaId": "geometria-analitica",
-    "subtopico": "Equação da Reta",
+    "subtopico": "Distância entre Pontos",
     "dificuldade": "dificil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Uma reta no plano cartesiano é definida pela equação y = 6x - 1. Qual é o valor de y quando x = 0?",
+    "enunciado": "No plano cartesiano, qual é a distância entre os pontos A(-5, 2) e B(-2, 6)?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "5"
+        "texto": "7"
       },
       {
         "letra": "B",
-        "texto": "-1"
+        "texto": "4"
       },
       {
         "letra": "C",
-        "texto": "0"
+        "texto": "6"
       },
       {
         "letra": "D",
-        "texto": "-7"
+        "texto": "5"
       },
       {
         "letra": "E",
-        "texto": "1"
+        "texto": "8"
       }
     ],
-    "correta": "B",
-    "explicacao": "Substituindo x = 0 na equação: y = 6×0 - 1 = -1."
+    "correta": "D",
+    "explicacao": "d = √[(-2−-5)² + (6−2)²] = √[3² + 4²] = √25 = 5."
   },
   {
     "id": "geometria-analitica-ined-0429",
     "categoriaId": "geometria-analitica",
-    "subtopico": "Distância entre Pontos",
+    "subtopico": "Equação da Reta",
     "dificuldade": "facil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "No plano cartesiano, qual é a distância entre os pontos A(2, 3) e B(7, 15)?",
+    "enunciado": "Uma reta no plano cartesiano é definida pela equação y = 4x + 3. Qual é o valor de y quando x = 2?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "13"
+        "texto": "-11"
       },
       {
         "letra": "B",
-        "texto": "20"
+        "texto": "15"
       },
       {
         "letra": "C",
-        "texto": "12"
+        "texto": "8"
       },
       {
         "letra": "D",
-        "texto": "17"
+        "texto": "11"
       },
       {
         "letra": "E",
-        "texto": "14"
+        "texto": "7"
       }
     ],
-    "correta": "A",
-    "explicacao": "d = √[(7−2)² + (15−3)²] = √[5² + 12²] = √169 = 13."
+    "correta": "D",
+    "explicacao": "Substituindo x = 2 na equação: y = 4×2 + 3 = 11."
   },
   {
     "id": "geometria-analitica-ined-0430",
     "categoriaId": "geometria-analitica",
-    "subtopico": "Equação da Reta",
+    "subtopico": "Distância entre Pontos",
     "dificuldade": "medio",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Uma reta no plano cartesiano é definida pela equação y = 4x + 0. Qual é o valor de y quando x = 2?",
+    "enunciado": "No plano cartesiano, qual é a distância entre os pontos A(-5, 2) e B(0, 14)?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "-7"
+        "texto": "17"
       },
       {
         "letra": "B",
-        "texto": "-8"
+        "texto": "20"
       },
       {
         "letra": "C",
@@ -669,607 +1145,335 @@
       },
       {
         "letra": "D",
-        "texto": "8"
+        "texto": "14"
       },
       {
         "letra": "E",
-        "texto": "4"
+        "texto": "13"
       }
     ],
-    "correta": "D",
-    "explicacao": "Substituindo x = 2 na equação: y = 4×2 + 0 = 8."
+    "correta": "E",
+    "explicacao": "d = √[(0−-5)² + (14−2)²] = √[5² + 12²] = √169 = 13."
   },
   {
     "id": "geometria-analitica-ined-0431",
     "categoriaId": "geometria-analitica",
-    "subtopico": "Distância entre Pontos",
+    "subtopico": "Equação da Reta",
     "dificuldade": "dificil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "No plano cartesiano, qual é a distância entre os pontos A(-2, -4) e B(4, 4)?",
+    "enunciado": "Uma reta no plano cartesiano é definida pela equação y = 10x - 2. Qual é o valor de y quando x = -1?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "14"
+        "texto": "12"
       },
       {
         "letra": "B",
-        "texto": "11"
+        "texto": "-22"
       },
       {
         "letra": "C",
-        "texto": "10"
+        "texto": "-12"
       },
       {
         "letra": "D",
-        "texto": "9"
+        "texto": "-2"
       },
       {
         "letra": "E",
-        "texto": "15"
+        "texto": "-10"
       }
     ],
     "correta": "C",
-    "explicacao": "d = √[(4−-2)² + (4−-4)²] = √[6² + 8²] = √100 = 10."
+    "explicacao": "Substituindo x = -1 na equação: y = 10×-1 - 2 = -12."
   },
   {
     "id": "geometria-analitica-ined-0432",
     "categoriaId": "geometria-analitica",
-    "subtopico": "Equação da Reta",
+    "subtopico": "Distância entre Pontos",
     "dificuldade": "facil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Uma reta no plano cartesiano é definida pela equação y = 5x - 6. Qual é o valor de y quando x = 5?",
+    "enunciado": "No plano cartesiano, qual é a distância entre os pontos A(-1, -5) e B(5, 3)?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "25"
+        "texto": "10"
       },
       {
         "letra": "B",
-        "texto": "24"
+        "texto": "11"
       },
       {
         "letra": "C",
-        "texto": "-19"
-      },
-      {
-        "letra": "D",
         "texto": "14"
       },
       {
+        "letra": "D",
+        "texto": "15"
+      },
+      {
         "letra": "E",
-        "texto": "19"
+        "texto": "9"
       }
     ],
-    "correta": "E",
-    "explicacao": "Substituindo x = 5 na equação: y = 5×5 - 6 = 19."
+    "correta": "A",
+    "explicacao": "d = √[(5−-1)² + (3−-5)²] = √[6² + 8²] = √100 = 10."
   },
   {
     "id": "geometria-analitica-ined-0433",
     "categoriaId": "geometria-analitica",
-    "subtopico": "Distância entre Pontos",
+    "subtopico": "Equação da Reta",
     "dificuldade": "medio",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "No plano cartesiano, qual é a distância entre os pontos A(-1, 5) e B(8, 17)?",
+    "enunciado": "Uma reta no plano cartesiano é definida pela equação y = 2x + 4. Qual é o valor de y quando x = 4?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "21"
-      },
-      {
-        "letra": "B",
-        "texto": "16"
-      },
-      {
-        "letra": "C",
-        "texto": "23"
-      },
-      {
-        "letra": "D",
         "texto": "14"
       },
       {
+        "letra": "B",
+        "texto": "-12"
+      },
+      {
+        "letra": "C",
+        "texto": "10"
+      },
+      {
+        "letra": "D",
+        "texto": "12"
+      },
+      {
         "letra": "E",
-        "texto": "15"
+        "texto": "8"
       }
     ],
-    "correta": "E",
-    "explicacao": "d = √[(8−-1)² + (17−5)²] = √[9² + 12²] = √225 = 15."
+    "correta": "D",
+    "explicacao": "Substituindo x = 4 na equação: y = 2×4 + 4 = 12."
   },
   {
     "id": "geometria-analitica-ined-0434",
     "categoriaId": "geometria-analitica",
-    "subtopico": "Equação da Reta",
+    "subtopico": "Distância entre Pontos",
     "dificuldade": "dificil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Uma reta no plano cartesiano é definida pela equação y = 6x + 7. Qual é o valor de y quando x = 4?",
+    "enunciado": "No plano cartesiano, qual é a distância entre os pontos A(1, -4) e B(4, 0)?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "31"
+        "texto": "6"
       },
       {
         "letra": "B",
-        "texto": "25"
+        "texto": "8"
       },
       {
         "letra": "C",
-        "texto": "24"
+        "texto": "4"
       },
       {
         "letra": "D",
-        "texto": "37"
+        "texto": "7"
       },
       {
         "letra": "E",
-        "texto": "-31"
+        "texto": "5"
       }
     ],
-    "correta": "A",
-    "explicacao": "Substituindo x = 4 na equação: y = 6×4 + 7 = 31."
+    "correta": "E",
+    "explicacao": "d = √[(4−1)² + (0−-4)²] = √[3² + 4²] = √25 = 5."
   },
   {
     "id": "geometria-analitica-ined-0435",
     "categoriaId": "geometria-analitica",
-    "subtopico": "Distância entre Pontos",
+    "subtopico": "Equação da Reta",
     "dificuldade": "facil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "No plano cartesiano, qual é a distância entre os pontos A(5, -1) e B(8, 3)?",
+    "enunciado": "Uma reta no plano cartesiano é definida pela equação y = 5x + 8. Qual é o valor de y quando x = 4?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "8"
+        "texto": "33"
       },
       {
         "letra": "B",
-        "texto": "7"
+        "texto": "23"
       },
       {
         "letra": "C",
-        "texto": "5"
+        "texto": "-28"
       },
       {
         "letra": "D",
-        "texto": "6"
+        "texto": "20"
       },
       {
         "letra": "E",
-        "texto": "4"
+        "texto": "28"
       }
     ],
-    "correta": "C",
-    "explicacao": "d = √[(8−5)² + (3−-1)²] = √[3² + 4²] = √25 = 5."
+    "correta": "E",
+    "explicacao": "Substituindo x = 4 na equação: y = 5×4 + 8 = 28."
   },
   {
     "id": "geometria-analitica-ined-0436",
     "categoriaId": "geometria-analitica",
-    "subtopico": "Equação da Reta",
+    "subtopico": "Distância entre Pontos",
     "dificuldade": "medio",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Uma reta no plano cartesiano é definida pela equação y = 2x - 7. Qual é o valor de y quando x = -5?",
+    "enunciado": "No plano cartesiano, qual é a distância entre os pontos A(5, -1) e B(14, 11)?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "17"
+        "texto": "21"
       },
       {
         "letra": "B",
-        "texto": "-15"
+        "texto": "14"
       },
       {
         "letra": "C",
-        "texto": "-17"
+        "texto": "16"
       },
       {
         "letra": "D",
-        "texto": "-10"
+        "texto": "15"
       },
       {
         "letra": "E",
-        "texto": "-19"
+        "texto": "23"
       }
     ],
-    "correta": "C",
-    "explicacao": "Substituindo x = -5 na equação: y = 2×-5 - 7 = -17."
+    "correta": "D",
+    "explicacao": "d = √[(14−5)² + (11−-1)²] = √[9² + 12²] = √225 = 15."
   },
   {
     "id": "geometria-analitica-ined-0437",
     "categoriaId": "geometria-analitica",
-    "subtopico": "Distância entre Pontos",
+    "subtopico": "Equação da Reta",
     "dificuldade": "dificil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "No plano cartesiano, qual é a distância entre os pontos A(-2, -3) e B(3, 9)?",
+    "enunciado": "Uma reta no plano cartesiano é definida pela equação y = 5x - 6. Qual é o valor de y quando x = 2?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "13"
+        "texto": "-4"
       },
       {
         "letra": "B",
-        "texto": "14"
+        "texto": "10"
       },
       {
         "letra": "C",
-        "texto": "20"
+        "texto": "9"
       },
       {
         "letra": "D",
-        "texto": "12"
+        "texto": "-1"
       },
       {
         "letra": "E",
-        "texto": "17"
+        "texto": "4"
       }
     ],
-    "correta": "A",
-    "explicacao": "d = √[(3−-2)² + (9−-3)²] = √[5² + 12²] = √169 = 13."
+    "correta": "E",
+    "explicacao": "Substituindo x = 2 na equação: y = 5×2 - 6 = 4."
   },
   {
     "id": "geometria-analitica-ined-0438",
     "categoriaId": "geometria-analitica",
-    "subtopico": "Equação da Reta",
+    "subtopico": "Distância entre Pontos",
     "dificuldade": "facil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Uma reta no plano cartesiano é definida pela equação y = 6x - 3. Qual é o valor de y quando x = 7?",
+    "enunciado": "No plano cartesiano, qual é a distância entre os pontos A(-1, 4) e B(8, 16)?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "-39"
+        "texto": "23"
       },
       {
         "letra": "B",
-        "texto": "45"
+        "texto": "21"
       },
       {
         "letra": "C",
-        "texto": "39"
+        "texto": "14"
       },
       {
         "letra": "D",
-        "texto": "42"
+        "texto": "15"
       },
       {
         "letra": "E",
-        "texto": "33"
+        "texto": "16"
       }
     ],
-    "correta": "C",
-    "explicacao": "Substituindo x = 7 na equação: y = 6×7 - 3 = 39."
+    "correta": "D",
+    "explicacao": "d = √[(8−-1)² + (16−4)²] = √[9² + 12²] = √225 = 15."
   },
   {
     "id": "geometria-analitica-ined-0439",
     "categoriaId": "geometria-analitica",
-    "subtopico": "Distância entre Pontos",
+    "subtopico": "Equação da Reta",
     "dificuldade": "medio",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "No plano cartesiano, qual é a distância entre os pontos A(5, -4) e B(11, 4)?",
+    "enunciado": "Uma reta no plano cartesiano é definida pela equação y = 3x + 10. Qual é o valor de y quando x = 6?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "9"
+        "texto": "18"
       },
       {
         "letra": "B",
-        "texto": "15"
+        "texto": "-28"
       },
       {
         "letra": "C",
-        "texto": "11"
+        "texto": "31"
       },
       {
         "letra": "D",
-        "texto": "10"
+        "texto": "25"
       },
       {
         "letra": "E",
-        "texto": "14"
+        "texto": "28"
       }
     ],
-    "correta": "D",
-    "explicacao": "d = √[(11−5)² + (4−-4)²] = √[6² + 8²] = √100 = 10."
+    "correta": "E",
+    "explicacao": "Substituindo x = 6 na equação: y = 3×6 + 10 = 28."
   },
   {
     "id": "geometria-analitica-ined-0440",
     "categoriaId": "geometria-analitica",
-    "subtopico": "Equação da Reta",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma reta no plano cartesiano é definida pela equação y = 6x + 5. Qual é o valor de y quando x = 2?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "17"
-      },
-      {
-        "letra": "B",
-        "texto": "23"
-      },
-      {
-        "letra": "C",
-        "texto": "12"
-      },
-      {
-        "letra": "D",
-        "texto": "11"
-      },
-      {
-        "letra": "E",
-        "texto": "-17"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "Substituindo x = 2 na equação: y = 6×2 + 5 = 17."
-  },
-  {
-    "id": "geometria-analitica-ined-0441",
-    "categoriaId": "geometria-analitica",
-    "subtopico": "Distância entre Pontos",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "No plano cartesiano, qual é a distância entre os pontos A(4, 5) e B(13, 17)?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "15"
-      },
-      {
-        "letra": "B",
-        "texto": "21"
-      },
-      {
-        "letra": "C",
-        "texto": "16"
-      },
-      {
-        "letra": "D",
-        "texto": "23"
-      },
-      {
-        "letra": "E",
-        "texto": "14"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "d = √[(13−4)² + (17−5)²] = √[9² + 12²] = √225 = 15."
-  },
-  {
-    "id": "geometria-analitica-ined-0442",
-    "categoriaId": "geometria-analitica",
-    "subtopico": "Equação da Reta",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma reta no plano cartesiano é definida pela equação y = 4x + 4. Qual é o valor de y quando x = 0?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "4"
-      },
-      {
-        "letra": "B",
-        "texto": "8"
-      },
-      {
-        "letra": "C",
-        "texto": "-3"
-      },
-      {
-        "letra": "D",
-        "texto": "-4"
-      },
-      {
-        "letra": "E",
-        "texto": "0"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "Substituindo x = 0 na equação: y = 4×0 + 4 = 4."
-  },
-  {
-    "id": "geometria-analitica-ined-0443",
-    "categoriaId": "geometria-analitica",
     "subtopico": "Distância entre Pontos",
     "dificuldade": "dificil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "No plano cartesiano, qual é a distância entre os pontos A(4, -3) e B(13, 9)?",
+    "enunciado": "No plano cartesiano, qual é a distância entre os pontos A(-1, 0) e B(5, 8)?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "14"
-      },
-      {
-        "letra": "B",
-        "texto": "21"
-      },
-      {
-        "letra": "C",
-        "texto": "16"
-      },
-      {
-        "letra": "D",
         "texto": "15"
-      },
-      {
-        "letra": "E",
-        "texto": "23"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "d = √[(13−4)² + (9−-3)²] = √[9² + 12²] = √225 = 15."
-  },
-  {
-    "id": "geometria-analitica-ined-0444",
-    "categoriaId": "geometria-analitica",
-    "subtopico": "Equação da Reta",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma reta no plano cartesiano é definida pela equação y = 3x - 1. Qual é o valor de y quando x = 7?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "20"
-      },
-      {
-        "letra": "B",
-        "texto": "23"
-      },
-      {
-        "letra": "C",
-        "texto": "21"
-      },
-      {
-        "letra": "D",
-        "texto": "-20"
-      },
-      {
-        "letra": "E",
-        "texto": "17"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "Substituindo x = 7 na equação: y = 3×7 - 1 = 20."
-  },
-  {
-    "id": "geometria-analitica-ined-0445",
-    "categoriaId": "geometria-analitica",
-    "subtopico": "Distância entre Pontos",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "No plano cartesiano, qual é a distância entre os pontos A(-3, -2) e B(6, 10)?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "23"
-      },
-      {
-        "letra": "B",
-        "texto": "15"
-      },
-      {
-        "letra": "C",
-        "texto": "16"
-      },
-      {
-        "letra": "D",
-        "texto": "21"
-      },
-      {
-        "letra": "E",
-        "texto": "14"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "d = √[(6−-3)² + (10−-2)²] = √[9² + 12²] = √225 = 15."
-  },
-  {
-    "id": "geometria-analitica-ined-0446",
-    "categoriaId": "geometria-analitica",
-    "subtopico": "Equação da Reta",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma reta no plano cartesiano é definida pela equação y = 7x + 9. Qual é o valor de y quando x = -3?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "-19"
-      },
-      {
-        "letra": "B",
-        "texto": "12"
-      },
-      {
-        "letra": "C",
-        "texto": "-5"
-      },
-      {
-        "letra": "D",
-        "texto": "-12"
-      },
-      {
-        "letra": "E",
-        "texto": "-21"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "Substituindo x = -3 na equação: y = 7×-3 + 9 = -12."
-  },
-  {
-    "id": "geometria-analitica-ined-0447",
-    "categoriaId": "geometria-analitica",
-    "subtopico": "Distância entre Pontos",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "No plano cartesiano, qual é a distância entre os pontos A(1, -1) e B(4, 3)?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "5"
-      },
-      {
-        "letra": "B",
-        "texto": "6"
-      },
-      {
-        "letra": "C",
-        "texto": "4"
-      },
-      {
-        "letra": "D",
-        "texto": "8"
-      },
-      {
-        "letra": "E",
-        "texto": "7"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "d = √[(4−1)² + (3−-1)²] = √[3² + 4²] = √25 = 5."
-  },
-  {
-    "id": "geometria-analitica-ined-0448",
-    "categoriaId": "geometria-analitica",
-    "subtopico": "Equação da Reta",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma reta no plano cartesiano é definida pela equação y = 6x + 3. Qual é o valor de y quando x = 0?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "1"
       },
       {
         "letra": "B",
@@ -1277,41 +1481,7 @@
       },
       {
         "letra": "C",
-        "texto": "-3"
-      },
-      {
-        "letra": "D",
-        "texto": "3"
-      },
-      {
-        "letra": "E",
-        "texto": "0"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "Substituindo x = 0 na equação: y = 6×0 + 3 = 3."
-  },
-  {
-    "id": "geometria-analitica-ined-0449",
-    "categoriaId": "geometria-analitica",
-    "subtopico": "Distância entre Pontos",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "No plano cartesiano, qual é a distância entre os pontos A(-2, 0) e B(7, 12)?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "21"
-      },
-      {
-        "letra": "B",
-        "texto": "15"
-      },
-      {
-        "letra": "C",
-        "texto": "16"
+        "texto": "10"
       },
       {
         "letra": "D",
@@ -1319,191 +1489,21 @@
       },
       {
         "letra": "E",
-        "texto": "23"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "d = √[(7−-2)² + (12−0)²] = √[9² + 12²] = √225 = 15."
-  },
-  {
-    "id": "geometria-analitica-ined-0450",
-    "categoriaId": "geometria-analitica",
-    "subtopico": "Equação da Reta",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma reta no plano cartesiano é definida pela equação y = 4x + 4. Qual é o valor de y quando x = 6?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "32"
-      },
-      {
-        "letra": "B",
-        "texto": "-27"
-      },
-      {
-        "letra": "C",
-        "texto": "24"
-      },
-      {
-        "letra": "D",
-        "texto": "28"
-      },
-      {
-        "letra": "E",
-        "texto": "-28"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "Substituindo x = 6 na equação: y = 4×6 + 4 = 28."
-  },
-  {
-    "id": "geometria-analitica-ined-0451",
-    "categoriaId": "geometria-analitica",
-    "subtopico": "Distância entre Pontos",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "No plano cartesiano, qual é a distância entre os pontos A(-2, 3) e B(1, 7)?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "4"
-      },
-      {
-        "letra": "B",
-        "texto": "7"
-      },
-      {
-        "letra": "C",
-        "texto": "6"
-      },
-      {
-        "letra": "D",
-        "texto": "5"
-      },
-      {
-        "letra": "E",
-        "texto": "8"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "d = √[(1−-2)² + (7−3)²] = √[3² + 4²] = √25 = 5."
-  },
-  {
-    "id": "geometria-analitica-ined-0452",
-    "categoriaId": "geometria-analitica",
-    "subtopico": "Equação da Reta",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma reta no plano cartesiano é definida pela equação y = 5x + 1. Qual é o valor de y quando x = 4?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "-21"
-      },
-      {
-        "letra": "B",
-        "texto": "26"
-      },
-      {
-        "letra": "C",
-        "texto": "21"
-      },
-      {
-        "letra": "D",
-        "texto": "20"
-      },
-      {
-        "letra": "E",
-        "texto": "16"
+        "texto": "11"
       }
     ],
     "correta": "C",
-    "explicacao": "Substituindo x = 4 na equação: y = 5×4 + 1 = 21."
+    "explicacao": "d = √[(5−-1)² + (8−0)²] = √[6² + 8²] = √100 = 10."
   },
   {
-    "id": "geometria-analitica-ined-0453",
+    "id": "geometria-analitica-ined-0441",
     "categoriaId": "geometria-analitica",
-    "subtopico": "Distância entre Pontos",
+    "subtopico": "Equação da Reta",
     "dificuldade": "facil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "No plano cartesiano, qual é a distância entre os pontos A(-5, 4) e B(0, 16)?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "13"
-      },
-      {
-        "letra": "B",
-        "texto": "20"
-      },
-      {
-        "letra": "C",
-        "texto": "12"
-      },
-      {
-        "letra": "D",
-        "texto": "14"
-      },
-      {
-        "letra": "E",
-        "texto": "17"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "d = √[(0−-5)² + (16−4)²] = √[5² + 12²] = √169 = 13."
-  },
-  {
-    "id": "geometria-analitica-ined-0454",
-    "categoriaId": "geometria-analitica",
-    "subtopico": "Equação da Reta",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma reta no plano cartesiano é definida pela equação y = 4x + 9. Qual é o valor de y quando x = -3?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "-7"
-      },
-      {
-        "letra": "B",
-        "texto": "-12"
-      },
-      {
-        "letra": "C",
-        "texto": "3"
-      },
-      {
-        "letra": "D",
-        "texto": "-3"
-      },
-      {
-        "letra": "E",
-        "texto": "1"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "Substituindo x = -3 na equação: y = 4×-3 + 9 = -3."
-  },
-  {
-    "id": "geometria-analitica-ined-0455",
-    "categoriaId": "geometria-analitica",
-    "subtopico": "Distância entre Pontos",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "No plano cartesiano, qual é a distância entre os pontos A(1, 4) e B(9, 19)?",
+    "enunciado": "Uma reta no plano cartesiano é definida pela equação y = 5x - 9. Qual é o valor de y quando x = 7?",
     "alternativas": [
       {
         "letra": "A",
@@ -1511,56 +1511,56 @@
       },
       {
         "letra": "B",
-        "texto": "17"
+        "texto": "21"
       },
       {
         "letra": "C",
-        "texto": "23"
+        "texto": "-26"
       },
       {
         "letra": "D",
-        "texto": "16"
+        "texto": "31"
       },
       {
         "letra": "E",
-        "texto": "18"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "d = √[(9−1)² + (19−4)²] = √[8² + 15²] = √289 = 17."
-  },
-  {
-    "id": "geometria-analitica-ined-0456",
-    "categoriaId": "geometria-analitica",
-    "subtopico": "Equação da Reta",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma reta no plano cartesiano é definida pela equação y = 5x + 2. Qual é o valor de y quando x = 6?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "32"
-      },
-      {
-        "letra": "B",
-        "texto": "27"
-      },
-      {
-        "letra": "C",
-        "texto": "37"
-      },
-      {
-        "letra": "D",
-        "texto": "-32"
-      },
-      {
-        "letra": "E",
-        "texto": "30"
+        "texto": "35"
       }
     ],
     "correta": "A",
-    "explicacao": "Substituindo x = 6 na equação: y = 5×6 + 2 = 32."
+    "explicacao": "Substituindo x = 7 na equação: y = 5×7 - 9 = 26."
+  },
+  {
+    "id": "geometria-analitica-ined-0442",
+    "categoriaId": "geometria-analitica",
+    "subtopico": "Distância entre Pontos",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "No plano cartesiano, qual é a distância entre os pontos A(4, 4) e B(9, 16)?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "20"
+      },
+      {
+        "letra": "B",
+        "texto": "12"
+      },
+      {
+        "letra": "C",
+        "texto": "17"
+      },
+      {
+        "letra": "D",
+        "texto": "13"
+      },
+      {
+        "letra": "E",
+        "texto": "14"
+      }
+    ],
+    "correta": "D",
+    "explicacao": "d = √[(9−4)² + (16−4)²] = √[5² + 12²] = √169 = 13."
   }
 ]

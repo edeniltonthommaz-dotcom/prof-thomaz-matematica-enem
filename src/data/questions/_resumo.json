@@ -1,32 +1,32 @@
 [
   {
     "categoriaId": "numeros",
-    "real": 30,
-    "inedita": 20,
+    "real": 33,
+    "inedita": 17,
     "total": 50
   },
   {
     "categoriaId": "porcentagem",
-    "real": 45,
+    "real": 46,
     "inedita": 10,
-    "total": 55
+    "total": 56
   },
   {
     "categoriaId": "razao-proporcao",
-    "real": 51,
+    "real": 49,
     "inedita": 10,
-    "total": 61
+    "total": 59
   },
   {
     "categoriaId": "regra-de-tres",
-    "real": 4,
-    "inedita": 46,
+    "real": 5,
+    "inedita": 45,
     "total": 50
   },
   {
     "categoriaId": "equacoes",
-    "real": 7,
-    "inedita": 43,
+    "real": 8,
+    "inedita": 42,
     "total": 50
   },
   {
@@ -43,8 +43,8 @@
   },
   {
     "categoriaId": "exponenciais-logaritmos",
-    "real": 6,
-    "inedita": 44,
+    "real": 8,
+    "inedita": 42,
     "total": 50
   },
   {
@@ -61,8 +61,8 @@
   },
   {
     "categoriaId": "geometria-espacial",
-    "real": 19,
-    "inedita": 31,
+    "real": 23,
+    "inedita": 27,
     "total": 50
   },
   {
@@ -73,20 +73,20 @@
   },
   {
     "categoriaId": "trigonometria",
-    "real": 3,
-    "inedita": 47,
+    "real": 4,
+    "inedita": 46,
     "total": 50
   },
   {
     "categoriaId": "estatistica",
-    "real": 19,
-    "inedita": 31,
+    "real": 23,
+    "inedita": 27,
     "total": 50
   },
   {
     "categoriaId": "probabilidade",
-    "real": 12,
-    "inedita": 38,
+    "real": 11,
+    "inedita": 39,
     "total": 50
   },
   {
@@ -115,8 +115,8 @@
   },
   {
     "categoriaId": "conjuntos",
-    "real": 0,
-    "inedita": 50,
+    "real": 1,
+    "inedita": 49,
     "total": 50
   }
 ]
