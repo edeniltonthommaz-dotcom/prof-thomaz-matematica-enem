@@ -1,1271 +1,81 @@
 [
   {
-    "id": "conjuntos-ined-0793",
+    "id": "conjuntos-ined-0074",
     "categoriaId": "conjuntos",
     "subtopico": "Diagramas de Venn",
     "dificuldade": "facil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Uma pesquisa foi realizada em um clube de leitura com 68 pessoas. Constatou-se que 30 pessoas leem o livro A, 44 pessoas leem o livro B, e 18 pessoas fazem as duas coisas. Quantas pessoas leem o livro A ou leem o livro B (pelo menos um dos dois)?",
+    "enunciado": "Uma pesquisa foi realizada em um bairro com 75 pessoas. Constatou-se que 35 pessoas assinam o jornal A, 49 pessoas assinam o jornal B, e 19 pessoas fazem as duas coisas. Quantas pessoas assinam o jornal A ou assinam o jornal B (pelo menos um dos dois)?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "38"
-      },
-      {
-        "letra": "B",
-        "texto": "68"
-      },
-      {
-        "letra": "C",
-        "texto": "74"
-      },
-      {
-        "letra": "D",
-        "texto": "56"
-      },
-      {
-        "letra": "E",
-        "texto": "12"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "Pelo menos um dos dois = apenas leem o livro A (12) + apenas leem o livro B (26) + ambos (18) = 56. Também pode ser calculado por |A∪B| = |A|+|B|−|A∩B| = 30+44−18 = 56."
-  },
-  {
-    "id": "conjuntos-ined-0794",
-    "categoriaId": "conjuntos",
-    "subtopico": "Problemas de Pesquisa",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Em uma pesquisa com 104 alunos de uma turma, verificou-se que 50 fazem teatro, 48 fazem música, e 16 não se enquadram em nenhuma das duas situações. Quantas pessoas, dentre as pesquisadas, fazem teatro e fazem música ao mesmo tempo?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "88"
-      },
-      {
-        "letra": "B",
-        "texto": "40"
-      },
-      {
-        "letra": "C",
         "texto": "10"
       },
       {
-        "letra": "D",
-        "texto": "38"
-      },
-      {
-        "letra": "E",
-        "texto": "98"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "Quem se enquadra em pelo menos uma situação: 104 − 16 = 88. Pela fórmula |A∪B| = |A|+|B|−|A∩B|, temos 88 = 50+48−|A∩B|, logo |A∩B| = 50+48−88 = 10."
-  },
-  {
-    "id": "conjuntos-ined-0795",
-    "categoriaId": "conjuntos",
-    "subtopico": "Diagramas de Venn",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma pesquisa foi realizada em uma empresa com 72 pessoas. Constatou-se que 38 pessoas usam o aplicativo X, 24 pessoas usam o aplicativo Y. Sabe-se ainda que 18 pessoas não se enquadram em nenhuma das duas situações. Quantas pessoas usam o aplicativo X e usam o aplicativo Y ao mesmo tempo?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "8"
-      },
-      {
         "letra": "B",
-        "texto": "38"
+        "texto": "65"
       },
       {
         "letra": "C",
-        "texto": "16"
-      },
-      {
-        "letra": "D",
-        "texto": "30"
-      },
-      {
-        "letra": "E",
-        "texto": "24"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "Quem faz pelo menos uma das duas coisas: 72 − 18 = 54. Pela fórmula |A∪B| = |A|+|B|−|A∩B|, temos 54 = 38+24−|A∩B|, logo |A∩B| = 38+24−54 = 8."
-  },
-  {
-    "id": "conjuntos-ined-0796",
-    "categoriaId": "conjuntos",
-    "subtopico": "Problemas de Pesquisa",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Em uma pesquisa com 96 moradores de um condomínio, verificou-se que 44 têm carro, 63 têm moto, e 14 não se enquadram em nenhuma das duas situações. Quantas pessoas, dentre as pesquisadas, têm carro e têm moto ao mesmo tempo?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "38"
-      },
-      {
-        "letra": "B",
-        "texto": "19"
-      },
-      {
-        "letra": "C",
-        "texto": "25"
-      },
-      {
-        "letra": "D",
-        "texto": "82"
-      },
-      {
-        "letra": "E",
-        "texto": "107"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "Quem se enquadra em pelo menos uma situação: 96 − 14 = 82. Pela fórmula |A∪B| = |A|+|B|−|A∩B|, temos 82 = 44+63−|A∩B|, logo |A∩B| = 44+63−82 = 25."
-  },
-  {
-    "id": "conjuntos-ined-0797",
-    "categoriaId": "conjuntos",
-    "subtopico": "Diagramas de Venn",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma pesquisa foi realizada em um bairro com 62 pessoas. Constatou-se que 32 pessoas assinam o jornal A, 27 pessoas assinam o jornal B, e 10 pessoas fazem as duas coisas. Quantas pessoas não assinam o jornal A nem assinam o jornal B?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "13"
-      },
-      {
-        "letra": "B",
-        "texto": "49"
-      },
-      {
-        "letra": "C",
-        "texto": "22"
-      },
-      {
-        "letra": "D",
-        "texto": "17"
-      },
-      {
-        "letra": "E",
-        "texto": "62"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "O total pesquisado é 62. Os que fazem pelo menos uma das duas coisas somam 49 (apenas A: 22 + apenas B: 17 + ambos: 10). Logo, não fazem nenhuma das duas: 62 − 49 = 13."
-  },
-  {
-    "id": "conjuntos-ined-0798",
-    "categoriaId": "conjuntos",
-    "subtopico": "Problemas de Pesquisa",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Em uma pesquisa com 136 alunos de uma turma, verificou-se que 78 fazem teatro, 72 fazem música, e 9 não se enquadram em nenhuma das duas situações. Quantas pessoas, dentre as pesquisadas, fazem teatro e fazem música ao mesmo tempo?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "49"
-      },
-      {
-        "letra": "B",
-        "texto": "23"
-      },
-      {
-        "letra": "C",
-        "texto": "127"
-      },
-      {
-        "letra": "D",
-        "texto": "150"
-      },
-      {
-        "letra": "E",
-        "texto": "55"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "Quem se enquadra em pelo menos uma situação: 136 − 9 = 127. Pela fórmula |A∪B| = |A|+|B|−|A∩B|, temos 127 = 78+72−|A∩B|, logo |A∩B| = 78+72−127 = 23."
-  },
-  {
-    "id": "conjuntos-ined-0799",
-    "categoriaId": "conjuntos",
-    "subtopico": "Diagramas de Venn",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma pesquisa foi realizada em uma empresa com 55 pessoas. Constatou-se que 32 pessoas usam o aplicativo X, 28 pessoas usam o aplicativo Y, e 12 pessoas fazem as duas coisas. Quantas pessoas usam o aplicativo X ou usam o aplicativo Y (pelo menos um dos dois)?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "7"
-      },
-      {
-        "letra": "B",
-        "texto": "60"
-      },
-      {
-        "letra": "C",
-        "texto": "48"
-      },
-      {
-        "letra": "D",
-        "texto": "55"
-      },
-      {
-        "letra": "E",
-        "texto": "36"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "Pelo menos um dos dois = apenas usam o aplicativo X (20) + apenas usam o aplicativo Y (16) + ambos (12) = 48. Também pode ser calculado por |A∪B| = |A|+|B|−|A∩B| = 32+28−12 = 48."
-  },
-  {
-    "id": "conjuntos-ined-0800",
-    "categoriaId": "conjuntos",
-    "subtopico": "Problemas de Pesquisa",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Em uma pesquisa com 76 moradores de um condomínio, verificou-se que 32 têm carro, 39 têm moto, e 17 não se enquadram em nenhuma das duas situações. Quantas pessoas, dentre as pesquisadas, têm carro e têm moto ao mesmo tempo?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "12"
-      },
-      {
-        "letra": "B",
-        "texto": "59"
-      },
-      {
-        "letra": "C",
-        "texto": "27"
-      },
-      {
-        "letra": "D",
-        "texto": "71"
-      },
-      {
-        "letra": "E",
-        "texto": "20"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "Quem se enquadra em pelo menos uma situação: 76 − 17 = 59. Pela fórmula |A∪B| = |A|+|B|−|A∩B|, temos 59 = 32+39−|A∩B|, logo |A∩B| = 32+39−59 = 12."
-  },
-  {
-    "id": "conjuntos-ined-0801",
-    "categoriaId": "conjuntos",
-    "subtopico": "Diagramas de Venn",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma pesquisa foi realizada em uma academia com 93 pessoas. Constatou-se que 46 pessoas praticam natação, 38 pessoas praticam musculação. Sabe-se ainda que 22 pessoas não se enquadram em nenhuma das duas situações. Quantas pessoas praticam natação e praticam musculação ao mesmo tempo?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "25"
-      },
-      {
-        "letra": "B",
-        "texto": "46"
-      },
-      {
-        "letra": "C",
-        "texto": "13"
-      },
-      {
-        "letra": "D",
-        "texto": "38"
-      },
-      {
-        "letra": "E",
-        "texto": "33"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "Quem faz pelo menos uma das duas coisas: 93 − 22 = 71. Pela fórmula |A∪B| = |A|+|B|−|A∩B|, temos 71 = 46+38−|A∩B|, logo |A∩B| = 46+38−71 = 13."
-  },
-  {
-    "id": "conjuntos-ined-0802",
-    "categoriaId": "conjuntos",
-    "subtopico": "Problemas de Pesquisa",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Em uma pesquisa com 92 clientes de uma loja, verificou-se que 45 compraram pelo cartão, 45 compraram no débito, e 9 não se enquadram em nenhuma das duas situações. Quantas pessoas, dentre as pesquisadas, compraram pelo cartão e compraram no débito ao mesmo tempo?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "39"
-      },
-      {
-        "letra": "B",
-        "texto": "38"
-      },
-      {
-        "letra": "C",
-        "texto": "83"
-      },
-      {
-        "letra": "D",
-        "texto": "7"
-      },
-      {
-        "letra": "E",
-        "texto": "90"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "Quem se enquadra em pelo menos uma situação: 92 − 9 = 83. Pela fórmula |A∪B| = |A|+|B|−|A∩B|, temos 83 = 45+45−|A∩B|, logo |A∩B| = 45+45−83 = 7."
-  },
-  {
-    "id": "conjuntos-ined-0803",
-    "categoriaId": "conjuntos",
-    "subtopico": "Diagramas de Venn",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma pesquisa foi realizada em uma academia com 63 pessoas. Constatou-se que 33 pessoas praticam natação, 30 pessoas praticam musculação, e 15 pessoas fazem as duas coisas. Quantas pessoas não praticam natação nem praticam musculação?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "15"
-      },
-      {
-        "letra": "B",
-        "texto": "18"
-      },
-      {
-        "letra": "C",
-        "texto": "63"
-      },
-      {
-        "letra": "D",
-        "texto": "48"
-      },
-      {
-        "letra": "E",
-        "texto": "19"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "O total pesquisado é 63. Os que fazem pelo menos uma das duas coisas somam 48 (apenas A: 18 + apenas B: 15 + ambos: 15). Logo, não fazem nenhuma das duas: 63 − 48 = 15."
-  },
-  {
-    "id": "conjuntos-ined-0804",
-    "categoriaId": "conjuntos",
-    "subtopico": "Problemas de Pesquisa",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Em uma pesquisa com 136 alunos de uma turma, verificou-se que 62 fazem teatro, 76 fazem música, e 28 não se enquadram em nenhuma das duas situações. Quantas pessoas, dentre as pesquisadas, fazem teatro e fazem música ao mesmo tempo?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "108"
-      },
-      {
-        "letra": "B",
-        "texto": "32"
-      },
-      {
-        "letra": "C",
-        "texto": "138"
-      },
-      {
-        "letra": "D",
-        "texto": "30"
-      },
-      {
-        "letra": "E",
-        "texto": "46"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "Quem se enquadra em pelo menos uma situação: 136 − 28 = 108. Pela fórmula |A∪B| = |A|+|B|−|A∩B|, temos 108 = 62+76−|A∩B|, logo |A∩B| = 62+76−108 = 30."
-  },
-  {
-    "id": "conjuntos-ined-0805",
-    "categoriaId": "conjuntos",
-    "subtopico": "Diagramas de Venn",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma pesquisa foi realizada em um clube de leitura com 63 pessoas. Constatou-se que 41 pessoas leem o livro A, 29 pessoas leem o livro B, e 13 pessoas fazem as duas coisas. Quantas pessoas leem o livro A ou leem o livro B (pelo menos um dos dois)?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "63"
-      },
-      {
-        "letra": "B",
-        "texto": "6"
-      },
-      {
-        "letra": "C",
-        "texto": "44"
-      },
-      {
-        "letra": "D",
-        "texto": "57"
-      },
-      {
-        "letra": "E",
-        "texto": "70"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "Pelo menos um dos dois = apenas leem o livro A (28) + apenas leem o livro B (16) + ambos (13) = 57. Também pode ser calculado por |A∪B| = |A|+|B|−|A∩B| = 41+29−13 = 57."
-  },
-  {
-    "id": "conjuntos-ined-0806",
-    "categoriaId": "conjuntos",
-    "subtopico": "Problemas de Pesquisa",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Em uma pesquisa com 83 visitantes de um site, verificou-se que 46 acessam pelo celular, 31 acessam pelo computador, e 16 não se enquadram em nenhuma das duas situações. Quantas pessoas, dentre as pesquisadas, acessam pelo celular e acessam pelo computador ao mesmo tempo?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "21"
-      },
-      {
-        "letra": "B",
-        "texto": "36"
-      },
-      {
-        "letra": "C",
-        "texto": "10"
-      },
-      {
-        "letra": "D",
-        "texto": "77"
-      },
-      {
-        "letra": "E",
-        "texto": "67"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "Quem se enquadra em pelo menos uma situação: 83 − 16 = 67. Pela fórmula |A∪B| = |A|+|B|−|A∩B|, temos 67 = 46+31−|A∩B|, logo |A∩B| = 46+31−67 = 10."
-  },
-  {
-    "id": "conjuntos-ined-0807",
-    "categoriaId": "conjuntos",
-    "subtopico": "Diagramas de Venn",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma pesquisa foi realizada em um bairro com 89 pessoas. Constatou-se que 42 pessoas assinam o jornal A, 51 pessoas assinam o jornal B. Sabe-se ainda que 20 pessoas não se enquadram em nenhuma das duas situações. Quantas pessoas assinam o jornal A e assinam o jornal B ao mesmo tempo?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "27"
-      },
-      {
-        "letra": "B",
-        "texto": "24"
-      },
-      {
-        "letra": "C",
-        "texto": "51"
-      },
-      {
-        "letra": "D",
-        "texto": "42"
-      },
-      {
-        "letra": "E",
-        "texto": "18"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "Quem faz pelo menos uma das duas coisas: 89 − 20 = 69. Pela fórmula |A∪B| = |A|+|B|−|A∩B|, temos 69 = 42+51−|A∩B|, logo |A∩B| = 42+51−69 = 24."
-  },
-  {
-    "id": "conjuntos-ined-0808",
-    "categoriaId": "conjuntos",
-    "subtopico": "Problemas de Pesquisa",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Em uma pesquisa com 77 clientes de uma loja, verificou-se que 36 compraram pelo cartão, 30 compraram no débito, e 16 não se enquadram em nenhuma das duas situações. Quantas pessoas, dentre as pesquisadas, compraram pelo cartão e compraram no débito ao mesmo tempo?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "66"
-      },
-      {
-        "letra": "B",
-        "texto": "61"
-      },
-      {
-        "letra": "C",
-        "texto": "25"
-      },
-      {
-        "letra": "D",
-        "texto": "5"
-      },
-      {
-        "letra": "E",
-        "texto": "31"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "Quem se enquadra em pelo menos uma situação: 77 − 16 = 61. Pela fórmula |A∪B| = |A|+|B|−|A∩B|, temos 61 = 36+30−|A∩B|, logo |A∩B| = 36+30−61 = 5."
-  },
-  {
-    "id": "conjuntos-ined-0809",
-    "categoriaId": "conjuntos",
-    "subtopico": "Diagramas de Venn",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma pesquisa foi realizada em uma academia com 70 pessoas. Constatou-se que 34 pessoas praticam natação, 31 pessoas praticam musculação, e 9 pessoas fazem as duas coisas. Quantas pessoas não praticam natação nem praticam musculação?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "25"
-      },
-      {
-        "letra": "B",
-        "texto": "22"
-      },
-      {
-        "letra": "C",
-        "texto": "70"
-      },
-      {
-        "letra": "D",
-        "texto": "14"
-      },
-      {
-        "letra": "E",
-        "texto": "56"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "O total pesquisado é 70. Os que fazem pelo menos uma das duas coisas somam 56 (apenas A: 25 + apenas B: 22 + ambos: 9). Logo, não fazem nenhuma das duas: 70 − 56 = 14."
-  },
-  {
-    "id": "conjuntos-ined-0810",
-    "categoriaId": "conjuntos",
-    "subtopico": "Problemas de Pesquisa",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Em uma pesquisa com 81 alunos de uma turma, verificou-se que 40 fazem teatro, 51 fazem música, e 8 não se enquadram em nenhuma das duas situações. Quantas pessoas, dentre as pesquisadas, fazem teatro e fazem música ao mesmo tempo?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "18"
-      },
-      {
-        "letra": "B",
-        "texto": "22"
-      },
-      {
-        "letra": "C",
-        "texto": "91"
-      },
-      {
-        "letra": "D",
-        "texto": "73"
-      },
-      {
-        "letra": "E",
-        "texto": "33"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "Quem se enquadra em pelo menos uma situação: 81 − 8 = 73. Pela fórmula |A∪B| = |A|+|B|−|A∩B|, temos 73 = 40+51−|A∩B|, logo |A∩B| = 40+51−73 = 18."
-  },
-  {
-    "id": "conjuntos-ined-0811",
-    "categoriaId": "conjuntos",
-    "subtopico": "Diagramas de Venn",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma pesquisa foi realizada em uma empresa com 67 pessoas. Constatou-se que 39 pessoas usam o aplicativo X, 43 pessoas usam o aplicativo Y, e 20 pessoas fazem as duas coisas. Quantas pessoas usam o aplicativo X ou usam o aplicativo Y (pelo menos um dos dois)?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "62"
-      },
-      {
-        "letra": "B",
-        "texto": "67"
-      },
-      {
-        "letra": "C",
-        "texto": "42"
-      },
-      {
-        "letra": "D",
-        "texto": "5"
-      },
-      {
-        "letra": "E",
-        "texto": "82"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "Pelo menos um dos dois = apenas usam o aplicativo X (19) + apenas usam o aplicativo Y (23) + ambos (20) = 62. Também pode ser calculado por |A∪B| = |A|+|B|−|A∩B| = 39+43−20 = 62."
-  },
-  {
-    "id": "conjuntos-ined-0812",
-    "categoriaId": "conjuntos",
-    "subtopico": "Problemas de Pesquisa",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Em uma pesquisa com 100 visitantes de um site, verificou-se que 51 acessam pelo celular, 46 acessam pelo computador, e 18 não se enquadram em nenhuma das duas situações. Quantas pessoas, dentre as pesquisadas, acessam pelo celular e acessam pelo computador ao mesmo tempo?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "15"
-      },
-      {
-        "letra": "B",
-        "texto": "82"
-      },
-      {
-        "letra": "C",
-        "texto": "97"
-      },
-      {
-        "letra": "D",
-        "texto": "31"
-      },
-      {
-        "letra": "E",
-        "texto": "36"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "Quem se enquadra em pelo menos uma situação: 100 − 18 = 82. Pela fórmula |A∪B| = |A|+|B|−|A∩B|, temos 82 = 51+46−|A∩B|, logo |A∩B| = 51+46−82 = 15."
-  },
-  {
-    "id": "conjuntos-ined-0813",
-    "categoriaId": "conjuntos",
-    "subtopico": "Diagramas de Venn",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma pesquisa foi realizada em um clube de leitura com 100 pessoas. Constatou-se que 46 pessoas leem o livro A, 50 pessoas leem o livro B. Sabe-se ainda que 14 pessoas não se enquadram em nenhuma das duas situações. Quantas pessoas leem o livro A e leem o livro B ao mesmo tempo?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "36"
-      },
-      {
-        "letra": "B",
-        "texto": "50"
-      },
-      {
-        "letra": "C",
-        "texto": "46"
-      },
-      {
-        "letra": "D",
-        "texto": "10"
-      },
-      {
-        "letra": "E",
-        "texto": "40"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "Quem faz pelo menos uma das duas coisas: 100 − 14 = 86. Pela fórmula |A∪B| = |A|+|B|−|A∩B|, temos 86 = 46+50−|A∩B|, logo |A∩B| = 46+50−86 = 10."
-  },
-  {
-    "id": "conjuntos-ined-0814",
-    "categoriaId": "conjuntos",
-    "subtopico": "Problemas de Pesquisa",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Em uma pesquisa com 90 alunos de uma turma, verificou-se que 42 fazem teatro, 56 fazem música, e 16 não se enquadram em nenhuma das duas situações. Quantas pessoas, dentre as pesquisadas, fazem teatro e fazem música ao mesmo tempo?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "98"
-      },
-      {
-        "letra": "B",
-        "texto": "18"
-      },
-      {
-        "letra": "C",
-        "texto": "32"
-      },
-      {
-        "letra": "D",
-        "texto": "24"
-      },
-      {
-        "letra": "E",
-        "texto": "74"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "Quem se enquadra em pelo menos uma situação: 90 − 16 = 74. Pela fórmula |A∪B| = |A|+|B|−|A∩B|, temos 74 = 42+56−|A∩B|, logo |A∩B| = 42+56−74 = 24."
-  },
-  {
-    "id": "conjuntos-ined-0815",
-    "categoriaId": "conjuntos",
-    "subtopico": "Diagramas de Venn",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma pesquisa foi realizada em um clube de leitura com 76 pessoas. Constatou-se que 35 pessoas leem o livro A, 39 pessoas leem o livro B, e 10 pessoas fazem as duas coisas. Quantas pessoas não leem o livro A nem leem o livro B?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "12"
-      },
-      {
-        "letra": "B",
-        "texto": "25"
-      },
-      {
-        "letra": "C",
-        "texto": "76"
-      },
-      {
-        "letra": "D",
-        "texto": "64"
-      },
-      {
-        "letra": "E",
-        "texto": "29"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "O total pesquisado é 76. Os que fazem pelo menos uma das duas coisas somam 64 (apenas A: 25 + apenas B: 29 + ambos: 10). Logo, não fazem nenhuma das duas: 76 − 64 = 12."
-  },
-  {
-    "id": "conjuntos-ined-0816",
-    "categoriaId": "conjuntos",
-    "subtopico": "Problemas de Pesquisa",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Em uma pesquisa com 115 alunos de uma turma, verificou-se que 63 fazem teatro, 62 fazem música, e 16 não se enquadram em nenhuma das duas situações. Quantas pessoas, dentre as pesquisadas, fazem teatro e fazem música ao mesmo tempo?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "99"
-      },
-      {
-        "letra": "B",
-        "texto": "36"
-      },
-      {
-        "letra": "C",
-        "texto": "37"
-      },
-      {
-        "letra": "D",
-        "texto": "26"
-      },
-      {
-        "letra": "E",
-        "texto": "125"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "Quem se enquadra em pelo menos uma situação: 115 − 16 = 99. Pela fórmula |A∪B| = |A|+|B|−|A∩B|, temos 99 = 63+62−|A∩B|, logo |A∩B| = 63+62−99 = 26."
-  },
-  {
-    "id": "conjuntos-ined-0817",
-    "categoriaId": "conjuntos",
-    "subtopico": "Diagramas de Venn",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma pesquisa foi realizada em uma escola de idiomas com 50 pessoas. Constatou-se que 21 pessoas estudam inglês, 26 pessoas estudam espanhol, e 5 pessoas fazem as duas coisas. Quantas pessoas estudam inglês ou estudam espanhol (pelo menos um dos dois)?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "8"
-      },
-      {
-        "letra": "B",
-        "texto": "42"
-      },
-      {
-        "letra": "C",
-        "texto": "47"
-      },
-      {
-        "letra": "D",
-        "texto": "50"
-      },
-      {
-        "letra": "E",
-        "texto": "37"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "Pelo menos um dos dois = apenas estudam inglês (16) + apenas estudam espanhol (21) + ambos (5) = 42. Também pode ser calculado por |A∪B| = |A|+|B|−|A∩B| = 21+26−5 = 42."
-  },
-  {
-    "id": "conjuntos-ined-0818",
-    "categoriaId": "conjuntos",
-    "subtopico": "Problemas de Pesquisa",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Em uma pesquisa com 92 alunos de uma turma, verificou-se que 40 fazem teatro, 50 fazem música, e 15 não se enquadram em nenhuma das duas situações. Quantas pessoas, dentre as pesquisadas, fazem teatro e fazem música ao mesmo tempo?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "27"
-      },
-      {
-        "letra": "B",
-        "texto": "37"
-      },
-      {
-        "letra": "C",
-        "texto": "90"
-      },
-      {
-        "letra": "D",
-        "texto": "77"
-      },
-      {
-        "letra": "E",
-        "texto": "13"
-      }
-    ],
-    "correta": "E",
-    "explicacao": "Quem se enquadra em pelo menos uma situação: 92 − 15 = 77. Pela fórmula |A∪B| = |A|+|B|−|A∩B|, temos 77 = 40+50−|A∩B|, logo |A∩B| = 40+50−77 = 13."
-  },
-  {
-    "id": "conjuntos-ined-0819",
-    "categoriaId": "conjuntos",
-    "subtopico": "Diagramas de Venn",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma pesquisa foi realizada em uma empresa com 86 pessoas. Constatou-se que 53 pessoas usam o aplicativo X, 35 pessoas usam o aplicativo Y. Sabe-se ainda que 18 pessoas não se enquadram em nenhuma das duas situações. Quantas pessoas usam o aplicativo X e usam o aplicativo Y ao mesmo tempo?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "20"
-      },
-      {
-        "letra": "B",
-        "texto": "33"
-      },
-      {
-        "letra": "C",
-        "texto": "35"
-      },
-      {
-        "letra": "D",
-        "texto": "53"
-      },
-      {
-        "letra": "E",
-        "texto": "15"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "Quem faz pelo menos uma das duas coisas: 86 − 18 = 68. Pela fórmula |A∪B| = |A|+|B|−|A∩B|, temos 68 = 53+35−|A∩B|, logo |A∩B| = 53+35−68 = 20."
-  },
-  {
-    "id": "conjuntos-ined-0820",
-    "categoriaId": "conjuntos",
-    "subtopico": "Problemas de Pesquisa",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Em uma pesquisa com 90 moradores de um condomínio, verificou-se que 55 têm carro, 47 têm moto, e 9 não se enquadram em nenhuma das duas situações. Quantas pessoas, dentre as pesquisadas, têm carro e têm moto ao mesmo tempo?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "34"
-      },
-      {
-        "letra": "B",
-        "texto": "21"
-      },
-      {
-        "letra": "C",
-        "texto": "102"
-      },
-      {
-        "letra": "D",
-        "texto": "26"
-      },
-      {
-        "letra": "E",
-        "texto": "81"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "Quem se enquadra em pelo menos uma situação: 90 − 9 = 81. Pela fórmula |A∪B| = |A|+|B|−|A∩B|, temos 81 = 55+47−|A∩B|, logo |A∩B| = 55+47−81 = 21."
-  },
-  {
-    "id": "conjuntos-ined-0821",
-    "categoriaId": "conjuntos",
-    "subtopico": "Diagramas de Venn",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma pesquisa foi realizada em um clube de leitura com 67 pessoas. Constatou-se que 30 pessoas leem o livro A, 34 pessoas leem o livro B, e 10 pessoas fazem as duas coisas. Quantas pessoas não leem o livro A nem leem o livro B?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "20"
-      },
-      {
-        "letra": "B",
-        "texto": "54"
-      },
-      {
-        "letra": "C",
-        "texto": "67"
-      },
-      {
-        "letra": "D",
-        "texto": "13"
-      },
-      {
-        "letra": "E",
-        "texto": "24"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "O total pesquisado é 67. Os que fazem pelo menos uma das duas coisas somam 54 (apenas A: 20 + apenas B: 24 + ambos: 10). Logo, não fazem nenhuma das duas: 67 − 54 = 13."
-  },
-  {
-    "id": "conjuntos-ined-0822",
-    "categoriaId": "conjuntos",
-    "subtopico": "Problemas de Pesquisa",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Em uma pesquisa com 163 visitantes de um site, verificou-se que 85 acessam pelo celular, 81 acessam pelo computador, e 30 não se enquadram em nenhuma das duas situações. Quantas pessoas, dentre as pesquisadas, acessam pelo celular e acessam pelo computador ao mesmo tempo?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "52"
-      },
-      {
-        "letra": "B",
-        "texto": "48"
-      },
-      {
-        "letra": "C",
-        "texto": "33"
-      },
-      {
-        "letra": "D",
-        "texto": "133"
-      },
-      {
-        "letra": "E",
-        "texto": "166"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "Quem se enquadra em pelo menos uma situação: 163 − 30 = 133. Pela fórmula |A∪B| = |A|+|B|−|A∩B|, temos 133 = 85+81−|A∩B|, logo |A∩B| = 85+81−133 = 33."
-  },
-  {
-    "id": "conjuntos-ined-0823",
-    "categoriaId": "conjuntos",
-    "subtopico": "Diagramas de Venn",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma pesquisa foi realizada em uma escola de idiomas com 53 pessoas. Constatou-se que 26 pessoas estudam inglês, 23 pessoas estudam espanhol, e 7 pessoas fazem as duas coisas. Quantas pessoas estudam inglês ou estudam espanhol (pelo menos um dos dois)?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "35"
-      },
-      {
-        "letra": "B",
-        "texto": "11"
-      },
-      {
-        "letra": "C",
-        "texto": "53"
-      },
-      {
-        "letra": "D",
-        "texto": "42"
-      },
-      {
-        "letra": "E",
-        "texto": "49"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "Pelo menos um dos dois = apenas estudam inglês (19) + apenas estudam espanhol (16) + ambos (7) = 42. Também pode ser calculado por |A∪B| = |A|+|B|−|A∩B| = 26+23−7 = 42."
-  },
-  {
-    "id": "conjuntos-ined-0824",
-    "categoriaId": "conjuntos",
-    "subtopico": "Problemas de Pesquisa",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Em uma pesquisa com 89 alunos de uma turma, verificou-se que 42 fazem teatro, 50 fazem música, e 15 não se enquadram em nenhuma das duas situações. Quantas pessoas, dentre as pesquisadas, fazem teatro e fazem música ao mesmo tempo?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "18"
-      },
-      {
-        "letra": "B",
-        "texto": "32"
-      },
-      {
-        "letra": "C",
-        "texto": "24"
-      },
-      {
-        "letra": "D",
-        "texto": "74"
-      },
-      {
-        "letra": "E",
-        "texto": "92"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "Quem se enquadra em pelo menos uma situação: 89 − 15 = 74. Pela fórmula |A∪B| = |A|+|B|−|A∩B|, temos 74 = 42+50−|A∩B|, logo |A∩B| = 42+50−74 = 18."
-  },
-  {
-    "id": "conjuntos-ined-0825",
-    "categoriaId": "conjuntos",
-    "subtopico": "Diagramas de Venn",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma pesquisa foi realizada em um clube de leitura com 80 pessoas. Constatou-se que 44 pessoas leem o livro A, 34 pessoas leem o livro B. Sabe-se ainda que 14 pessoas não se enquadram em nenhuma das duas situações. Quantas pessoas leem o livro A e leem o livro B ao mesmo tempo?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "22"
-      },
-      {
-        "letra": "B",
-        "texto": "32"
-      },
-      {
-        "letra": "C",
-        "texto": "34"
-      },
-      {
-        "letra": "D",
-        "texto": "44"
-      },
-      {
-        "letra": "E",
-        "texto": "12"
-      }
-    ],
-    "correta": "E",
-    "explicacao": "Quem faz pelo menos uma das duas coisas: 80 − 14 = 66. Pela fórmula |A∪B| = |A|+|B|−|A∩B|, temos 66 = 44+34−|A∩B|, logo |A∩B| = 44+34−66 = 12."
-  },
-  {
-    "id": "conjuntos-ined-0826",
-    "categoriaId": "conjuntos",
-    "subtopico": "Problemas de Pesquisa",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Em uma pesquisa com 90 clientes de uma loja, verificou-se que 46 compraram pelo cartão, 55 compraram no débito, e 11 não se enquadram em nenhuma das duas situações. Quantas pessoas, dentre as pesquisadas, compraram pelo cartão e compraram no débito ao mesmo tempo?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "24"
-      },
-      {
-        "letra": "B",
-        "texto": "22"
-      },
-      {
-        "letra": "C",
-        "texto": "79"
-      },
-      {
-        "letra": "D",
-        "texto": "101"
-      },
-      {
-        "letra": "E",
-        "texto": "33"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "Quem se enquadra em pelo menos uma situação: 90 − 11 = 79. Pela fórmula |A∪B| = |A|+|B|−|A∩B|, temos 79 = 46+55−|A∩B|, logo |A∩B| = 46+55−79 = 22."
-  },
-  {
-    "id": "conjuntos-ined-0827",
-    "categoriaId": "conjuntos",
-    "subtopico": "Diagramas de Venn",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma pesquisa foi realizada em um clube de leitura com 61 pessoas. Constatou-se que 33 pessoas leem o livro A, 25 pessoas leem o livro B, e 10 pessoas fazem as duas coisas. Quantas pessoas não leem o livro A nem leem o livro B?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "15"
-      },
-      {
-        "letra": "B",
-        "texto": "23"
-      },
-      {
-        "letra": "C",
-        "texto": "13"
-      },
-      {
-        "letra": "D",
-        "texto": "48"
-      },
-      {
-        "letra": "E",
-        "texto": "61"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "O total pesquisado é 61. Os que fazem pelo menos uma das duas coisas somam 48 (apenas A: 23 + apenas B: 15 + ambos: 10). Logo, não fazem nenhuma das duas: 61 − 48 = 13."
-  },
-  {
-    "id": "conjuntos-ined-0828",
-    "categoriaId": "conjuntos",
-    "subtopico": "Problemas de Pesquisa",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Em uma pesquisa com 112 moradores de um condomínio, verificou-se que 58 têm carro, 39 têm moto, e 28 não se enquadram em nenhuma das duas situações. Quantas pessoas, dentre as pesquisadas, têm carro e têm moto ao mesmo tempo?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "45"
-      },
-      {
-        "letra": "B",
-        "texto": "97"
-      },
-      {
-        "letra": "C",
-        "texto": "13"
-      },
-      {
-        "letra": "D",
         "texto": "84"
       },
       {
+        "letra": "D",
+        "texto": "75"
+      },
+      {
         "letra": "E",
-        "texto": "26"
+        "texto": "46"
       }
     ],
-    "correta": "C",
-    "explicacao": "Quem se enquadra em pelo menos uma situação: 112 − 28 = 84. Pela fórmula |A∪B| = |A|+|B|−|A∩B|, temos 84 = 58+39−|A∩B|, logo |A∩B| = 58+39−84 = 13."
+    "correta": "B",
+    "explicacao": "Pelo menos um dos dois = apenas assinam o jornal A (16) + apenas assinam o jornal B (30) + ambos (19) = 65. Também pode ser calculado por |A∪B| = |A|+|B|−|A∩B| = 35+49−19 = 65."
   },
   {
-    "id": "conjuntos-ined-0829",
+    "id": "conjuntos-ined-0075",
     "categoriaId": "conjuntos",
     "subtopico": "Diagramas de Venn",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma pesquisa foi realizada em um clube de leitura com 44 pessoas. Constatou-se que 22 pessoas leem o livro A, 16 pessoas leem o livro B, e 5 pessoas fazem as duas coisas. Quantas pessoas leem o livro A ou leem o livro B (pelo menos um dos dois)?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "28"
-      },
-      {
-        "letra": "B",
-        "texto": "38"
-      },
-      {
-        "letra": "C",
-        "texto": "11"
-      },
-      {
-        "letra": "D",
-        "texto": "33"
-      },
-      {
-        "letra": "E",
-        "texto": "44"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "Pelo menos um dos dois = apenas leem o livro A (17) + apenas leem o livro B (11) + ambos (5) = 33. Também pode ser calculado por |A∪B| = |A|+|B|−|A∩B| = 22+16−5 = 33."
-  },
-  {
-    "id": "conjuntos-ined-0830",
-    "categoriaId": "conjuntos",
-    "subtopico": "Problemas de Pesquisa",
     "dificuldade": "medio",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Em uma pesquisa com 76 visitantes de um site, verificou-se que 48 acessam pelo celular, 30 acessam pelo computador, e 8 não se enquadram em nenhuma das duas situações. Quantas pessoas, dentre as pesquisadas, acessam pelo celular e acessam pelo computador ao mesmo tempo?",
+    "enunciado": "Uma pesquisa foi realizada em uma empresa com 69 pessoas. Constatou-se que 35 pessoas usam o aplicativo X, 36 pessoas usam o aplicativo Y, e 13 pessoas fazem as duas coisas. Quantas pessoas não usam o aplicativo X nem usam o aplicativo Y?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "23"
+      },
+      {
+        "letra": "B",
+        "texto": "69"
+      },
+      {
+        "letra": "C",
+        "texto": "22"
+      },
+      {
+        "letra": "D",
+        "texto": "58"
+      },
+      {
+        "letra": "E",
+        "texto": "11"
+      }
+    ],
+    "correta": "E",
+    "explicacao": "O total pesquisado é 69. Os que fazem pelo menos uma das duas coisas somam 58 (apenas A: 22 + apenas B: 23 + ambos: 13). Logo, não fazem nenhuma das duas: 69 − 58 = 11."
+  },
+  {
+    "id": "conjuntos-ined-0076",
+    "categoriaId": "conjuntos",
+    "subtopico": "Diagramas de Venn",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma pesquisa foi realizada em um bairro com 94 pessoas. Constatou-se que 45 pessoas assinam o jornal A, 52 pessoas assinam o jornal B. Sabe-se ainda que 23 pessoas não se enquadram em nenhuma das duas situações. Quantas pessoas assinam o jornal A e assinam o jornal B ao mesmo tempo?",
     "alternativas": [
       {
         "letra": "A",
@@ -1273,143 +83,7 @@
       },
       {
         "letra": "B",
-        "texto": "10"
-      },
-      {
-        "letra": "C",
-        "texto": "78"
-      },
-      {
-        "letra": "D",
-        "texto": "38"
-      },
-      {
-        "letra": "E",
-        "texto": "68"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "Quem se enquadra em pelo menos uma situação: 76 − 8 = 68. Pela fórmula |A∪B| = |A|+|B|−|A∩B|, temos 68 = 48+30−|A∩B|, logo |A∩B| = 48+30−68 = 10."
-  },
-  {
-    "id": "conjuntos-ined-0831",
-    "categoriaId": "conjuntos",
-    "subtopico": "Diagramas de Venn",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma pesquisa foi realizada em uma academia com 88 pessoas. Constatou-se que 52 pessoas praticam natação, 34 pessoas praticam musculação. Sabe-se ainda que 20 pessoas não se enquadram em nenhuma das duas situações. Quantas pessoas praticam natação e praticam musculação ao mesmo tempo?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "34"
-      },
-      {
-        "letra": "B",
-        "texto": "18"
-      },
-      {
-        "letra": "C",
-        "texto": "52"
-      },
-      {
-        "letra": "D",
-        "texto": "17"
-      },
-      {
-        "letra": "E",
-        "texto": "16"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "Quem faz pelo menos uma das duas coisas: 88 − 20 = 68. Pela fórmula |A∪B| = |A|+|B|−|A∩B|, temos 68 = 52+34−|A∩B|, logo |A∩B| = 52+34−68 = 18."
-  },
-  {
-    "id": "conjuntos-ined-0832",
-    "categoriaId": "conjuntos",
-    "subtopico": "Problemas de Pesquisa",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Em uma pesquisa com 87 visitantes de um site, verificou-se que 61 acessam pelo celular, 36 acessam pelo computador, e 11 não se enquadram em nenhuma das duas situações. Quantas pessoas, dentre as pesquisadas, acessam pelo celular e acessam pelo computador ao mesmo tempo?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "40"
-      },
-      {
-        "letra": "B",
-        "texto": "97"
-      },
-      {
-        "letra": "C",
-        "texto": "21"
-      },
-      {
-        "letra": "D",
-        "texto": "76"
-      },
-      {
-        "letra": "E",
-        "texto": "15"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "Quem se enquadra em pelo menos uma situação: 87 − 11 = 76. Pela fórmula |A∪B| = |A|+|B|−|A∩B|, temos 76 = 61+36−|A∩B|, logo |A∩B| = 61+36−76 = 21."
-  },
-  {
-    "id": "conjuntos-ined-0833",
-    "categoriaId": "conjuntos",
-    "subtopico": "Diagramas de Venn",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma pesquisa foi realizada em uma empresa com 78 pessoas. Constatou-se que 43 pessoas usam o aplicativo X, 40 pessoas usam o aplicativo Y, e 16 pessoas fazem as duas coisas. Quantas pessoas não usam o aplicativo X nem usam o aplicativo Y?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "24"
-      },
-      {
-        "letra": "B",
-        "texto": "11"
-      },
-      {
-        "letra": "C",
-        "texto": "67"
-      },
-      {
-        "letra": "D",
-        "texto": "78"
-      },
-      {
-        "letra": "E",
-        "texto": "27"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "O total pesquisado é 78. Os que fazem pelo menos uma das duas coisas somam 67 (apenas A: 27 + apenas B: 24 + ambos: 16). Logo, não fazem nenhuma das duas: 78 − 67 = 11."
-  },
-  {
-    "id": "conjuntos-ined-0834",
-    "categoriaId": "conjuntos",
-    "subtopico": "Problemas de Pesquisa",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Em uma pesquisa com 102 clientes de uma loja, verificou-se que 46 compraram pelo cartão, 60 compraram no débito, e 15 não se enquadram em nenhuma das duas situações. Quantas pessoas, dentre as pesquisadas, compraram pelo cartão e compraram no débito ao mesmo tempo?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "27"
-      },
-      {
-        "letra": "B",
-        "texto": "87"
+        "texto": "45"
       },
       {
         "letra": "C",
@@ -1417,252 +91,116 @@
       },
       {
         "letra": "D",
-        "texto": "41"
+        "texto": "52"
       },
       {
         "letra": "E",
-        "texto": "106"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "Quem se enquadra em pelo menos uma situação: 102 − 15 = 87. Pela fórmula |A∪B| = |A|+|B|−|A∩B|, temos 87 = 46+60−|A∩B|, logo |A∩B| = 46+60−87 = 19."
-  },
-  {
-    "id": "conjuntos-ined-0835",
-    "categoriaId": "conjuntos",
-    "subtopico": "Diagramas de Venn",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma pesquisa foi realizada em uma empresa com 63 pessoas. Constatou-se que 36 pessoas usam o aplicativo X, 26 pessoas usam o aplicativo Y, e 9 pessoas fazem as duas coisas. Quantas pessoas usam o aplicativo X ou usam o aplicativo Y (pelo menos um dos dois)?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "10"
-      },
-      {
-        "letra": "B",
-        "texto": "53"
-      },
-      {
-        "letra": "C",
-        "texto": "63"
-      },
-      {
-        "letra": "D",
-        "texto": "44"
-      },
-      {
-        "letra": "E",
-        "texto": "62"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "Pelo menos um dos dois = apenas usam o aplicativo X (27) + apenas usam o aplicativo Y (17) + ambos (9) = 53. Também pode ser calculado por |A∪B| = |A|+|B|−|A∩B| = 36+26−9 = 53."
-  },
-  {
-    "id": "conjuntos-ined-0836",
-    "categoriaId": "conjuntos",
-    "subtopico": "Problemas de Pesquisa",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Em uma pesquisa com 109 clientes de uma loja, verificou-se que 58 compraram pelo cartão, 59 compraram no débito, e 16 não se enquadram em nenhuma das duas situações. Quantas pessoas, dentre as pesquisadas, compraram pelo cartão e compraram no débito ao mesmo tempo?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "117"
-      },
-      {
-        "letra": "B",
-        "texto": "93"
-      },
-      {
-        "letra": "C",
-        "texto": "24"
-      },
-      {
-        "letra": "D",
-        "texto": "35"
-      },
-      {
-        "letra": "E",
-        "texto": "34"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "Quem se enquadra em pelo menos uma situação: 109 − 16 = 93. Pela fórmula |A∪B| = |A|+|B|−|A∩B|, temos 93 = 58+59−|A∩B|, logo |A∩B| = 58+59−93 = 24."
-  },
-  {
-    "id": "conjuntos-ined-0837",
-    "categoriaId": "conjuntos",
-    "subtopico": "Diagramas de Venn",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma pesquisa foi realizada em uma empresa com 102 pessoas. Constatou-se que 45 pessoas usam o aplicativo X, 45 pessoas usam o aplicativo Y. Sabe-se ainda que 25 pessoas não se enquadram em nenhuma das duas situações. Quantas pessoas usam o aplicativo X e usam o aplicativo Y ao mesmo tempo?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "35"
-      },
-      {
-        "letra": "B",
-        "texto": "45"
-      },
-      {
-        "letra": "C",
-        "texto": "13"
-      },
-      {
-        "letra": "D",
-        "texto": "32"
-      },
-      {
-        "letra": "E",
-        "texto": "33"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "Quem faz pelo menos uma das duas coisas: 102 − 25 = 77. Pela fórmula |A∪B| = |A|+|B|−|A∩B|, temos 77 = 45+45−|A∩B|, logo |A∩B| = 45+45−77 = 13."
-  },
-  {
-    "id": "conjuntos-ined-0838",
-    "categoriaId": "conjuntos",
-    "subtopico": "Problemas de Pesquisa",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Em uma pesquisa com 73 moradores de um condomínio, verificou-se que 22 têm carro, 38 têm moto, e 18 não se enquadram em nenhuma das duas situações. Quantas pessoas, dentre as pesquisadas, têm carro e têm moto ao mesmo tempo?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "5"
-      },
-      {
-        "letra": "B",
-        "texto": "55"
-      },
-      {
-        "letra": "C",
-        "texto": "17"
-      },
-      {
-        "letra": "D",
-        "texto": "33"
-      },
-      {
-        "letra": "E",
-        "texto": "60"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "Quem se enquadra em pelo menos uma situação: 73 − 18 = 55. Pela fórmula |A∪B| = |A|+|B|−|A∩B|, temos 55 = 22+38−|A∩B|, logo |A∩B| = 22+38−55 = 5."
-  },
-  {
-    "id": "conjuntos-ined-0839",
-    "categoriaId": "conjuntos",
-    "subtopico": "Diagramas de Venn",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma pesquisa foi realizada em uma empresa com 59 pessoas. Constatou-se que 32 pessoas usam o aplicativo X, 26 pessoas usam o aplicativo Y, e 11 pessoas fazem as duas coisas. Quantas pessoas não usam o aplicativo X nem usam o aplicativo Y?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "21"
-      },
-      {
-        "letra": "B",
-        "texto": "59"
-      },
-      {
-        "letra": "C",
-        "texto": "12"
-      },
-      {
-        "letra": "D",
-        "texto": "47"
-      },
-      {
-        "letra": "E",
-        "texto": "15"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "O total pesquisado é 59. Os que fazem pelo menos uma das duas coisas somam 47 (apenas A: 21 + apenas B: 15 + ambos: 11). Logo, não fazem nenhuma das duas: 59 − 47 = 12."
-  },
-  {
-    "id": "conjuntos-ined-0840",
-    "categoriaId": "conjuntos",
-    "subtopico": "Problemas de Pesquisa",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Em uma pesquisa com 148 alunos de uma turma, verificou-se que 77 fazem teatro, 74 fazem música, e 25 não se enquadram em nenhuma das duas situações. Quantas pessoas, dentre as pesquisadas, fazem teatro e fazem música ao mesmo tempo?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "49"
-      },
-      {
-        "letra": "B",
-        "texto": "123"
-      },
-      {
-        "letra": "C",
-        "texto": "28"
-      },
-      {
-        "letra": "D",
-        "texto": "151"
-      },
-      {
-        "letra": "E",
-        "texto": "46"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "Quem se enquadra em pelo menos uma situação: 148 − 25 = 123. Pela fórmula |A∪B| = |A|+|B|−|A∩B|, temos 123 = 77+74−|A∩B|, logo |A∩B| = 77+74−123 = 28."
-  },
-  {
-    "id": "conjuntos-ined-0841",
-    "categoriaId": "conjuntos",
-    "subtopico": "Diagramas de Venn",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma pesquisa foi realizada em uma academia com 62 pessoas. Constatou-se que 33 pessoas praticam natação, 38 pessoas praticam musculação, e 16 pessoas fazem as duas coisas. Quantas pessoas praticam natação ou praticam musculação (pelo menos um dos dois)?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "39"
-      },
-      {
-        "letra": "B",
-        "texto": "7"
-      },
-      {
-        "letra": "C",
-        "texto": "71"
-      },
-      {
-        "letra": "D",
-        "texto": "62"
-      },
-      {
-        "letra": "E",
-        "texto": "55"
+        "texto": "26"
       }
     ],
     "correta": "E",
-    "explicacao": "Pelo menos um dos dois = apenas praticam natação (17) + apenas praticam musculação (22) + ambos (16) = 55. Também pode ser calculado por |A∪B| = |A|+|B|−|A∩B| = 33+38−16 = 55."
+    "explicacao": "Quem faz pelo menos uma das duas coisas: 94 − 23 = 71. Pela fórmula |A∪B| = |A|+|B|−|A∩B|, temos 71 = 45+52−|A∩B|, logo |A∩B| = 45+52−71 = 26."
+  },
+  {
+    "id": "conjuntos-ined-0077",
+    "categoriaId": "conjuntos",
+    "subtopico": "Problemas de Pesquisa",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Em uma pesquisa com 80 clientes de uma loja, verificou-se que 50 compraram pelo cartão, 35 compraram no débito, e 6 não se enquadram em nenhuma das duas situações. Quantas pessoas, dentre as pesquisadas, compraram pelo cartão e compraram no débito ao mesmo tempo?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "11"
+      },
+      {
+        "letra": "B",
+        "texto": "74"
+      },
+      {
+        "letra": "C",
+        "texto": "39"
+      },
+      {
+        "letra": "D",
+        "texto": "85"
+      },
+      {
+        "letra": "E",
+        "texto": "24"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "Quem se enquadra em pelo menos uma situação: 80 − 6 = 74. Pela fórmula |A∪B| = |A|+|B|−|A∩B|, temos 74 = 50+35−|A∩B|, logo |A∩B| = 50+35−74 = 11."
+  },
+  {
+    "id": "conjuntos-ined-0078",
+    "categoriaId": "conjuntos",
+    "subtopico": "Problemas de Pesquisa",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Em uma pesquisa com 77 alunos de uma turma, verificou-se que 40 fazem teatro, 32 fazem música, e 16 não se enquadram em nenhuma das duas situações. Quantas pessoas, dentre as pesquisadas, fazem teatro e fazem música ao mesmo tempo?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "61"
+      },
+      {
+        "letra": "B",
+        "texto": "72"
+      },
+      {
+        "letra": "C",
+        "texto": "29"
+      },
+      {
+        "letra": "D",
+        "texto": "11"
+      },
+      {
+        "letra": "E",
+        "texto": "21"
+      }
+    ],
+    "correta": "D",
+    "explicacao": "Quem se enquadra em pelo menos uma situação: 77 − 16 = 61. Pela fórmula |A∪B| = |A|+|B|−|A∩B|, temos 61 = 40+32−|A∩B|, logo |A∩B| = 40+32−61 = 11."
+  },
+  {
+    "id": "conjuntos-ined-0079",
+    "categoriaId": "conjuntos",
+    "subtopico": "Problemas de Pesquisa",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Em uma pesquisa com 143 visitantes de um site, verificou-se que 92 acessam pelo celular, 63 acessam pelo computador, e 25 não se enquadram em nenhuma das duas situações. Quantas pessoas, dentre as pesquisadas, acessam pelo celular e acessam pelo computador ao mesmo tempo?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "26"
+      },
+      {
+        "letra": "B",
+        "texto": "155"
+      },
+      {
+        "letra": "C",
+        "texto": "55"
+      },
+      {
+        "letra": "D",
+        "texto": "118"
+      },
+      {
+        "letra": "E",
+        "texto": "37"
+      }
+    ],
+    "correta": "E",
+    "explicacao": "Quem se enquadra em pelo menos uma situação: 143 − 25 = 118. Pela fórmula |A∪B| = |A|+|B|−|A∩B|, temos 118 = 92+63−|A∩B|, logo |A∩B| = 92+63−118 = 37."
   }
 ]

@@ -1,346 +1,40 @@
 [
   {
-    "id": "regra-de-tres-ined-0038",
+    "id": "regra-de-tres-ined-0001",
     "categoriaId": "regra-de-tres",
     "subtopico": "Regra de Três Simples",
     "dificuldade": "facil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Uma receita para 6 pessoas usa 150 g de farinha. Mantendo a mesma proporção, quantos gramas de farinha são necessários para 9 pessoas?",
+    "enunciado": "Uma receita para 4 pessoas usa 250 g de farinha. Mantendo a mesma proporção, quantos gramas de farinha são necessários para 8 pessoas?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "112.5 g"
-      },
-      {
-        "letra": "B",
-        "texto": "450 g"
-      },
-      {
-        "letra": "C",
-        "texto": "150 g"
-      },
-      {
-        "letra": "D",
-        "texto": "225 g"
-      },
-      {
-        "letra": "E",
-        "texto": "375 g"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "Como a grandeza é diretamente proporcional: 6 pessoas → 150 g; 9 pessoas → x. x = (150 × 9) ÷ 6 = 225 g."
-  },
-  {
-    "id": "regra-de-tres-ined-0039",
-    "categoriaId": "regra-de-tres",
-    "subtopico": "Regra de Três Composta",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma fábrica com 5 operários produz 60 peças em 3 dias. Trabalhando no mesmo ritmo, quantos dias 9 operários levariam para produzir 120 peças?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "1.7 dias"
-      },
-      {
-        "letra": "B",
-        "texto": "12 dias"
-      },
-      {
-        "letra": "C",
-        "texto": "6.6 dias"
-      },
-      {
-        "letra": "D",
-        "texto": "3.3 dias"
-      },
-      {
-        "letra": "E",
-        "texto": "3 dias"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "Peças por operário-dia = 60 ÷ (5 × 3). Para 9 operários produzirem 120 peças: dias = (120 × 5 × 3) ÷ (60 × 9) = 3.3 dias."
-  },
-  {
-    "id": "regra-de-tres-ined-0040",
-    "categoriaId": "regra-de-tres",
-    "subtopico": "Regra de Três Simples",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma receita para 2 pessoas usa 250 g de farinha. Mantendo a mesma proporção, quantos gramas de farinha são necessários para 3 pessoas?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "750 g"
-      },
-      {
-        "letra": "B",
-        "texto": "250 g"
-      },
-      {
-        "letra": "C",
-        "texto": "187.5 g"
-      },
-      {
-        "letra": "D",
-        "texto": "375 g"
-      },
-      {
-        "letra": "E",
-        "texto": "625 g"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "Como a grandeza é diretamente proporcional: 2 pessoas → 250 g; 3 pessoas → x. x = (250 × 3) ÷ 2 = 375 g."
-  },
-  {
-    "id": "regra-de-tres-ined-0041",
-    "categoriaId": "regra-de-tres",
-    "subtopico": "Regra de Três Composta",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma fábrica com 6 operários produz 36 peças em 2 dias. Trabalhando no mesmo ritmo, quantos dias 10 operários levariam para produzir 72 peças?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "2 dias"
-      },
-      {
-        "letra": "B",
-        "texto": "2.4 dias"
-      },
-      {
-        "letra": "C",
-        "texto": "1.2 dias"
-      },
-      {
-        "letra": "D",
-        "texto": "4.8 dias"
-      },
-      {
-        "letra": "E",
-        "texto": "12 dias"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "Peças por operário-dia = 36 ÷ (6 × 2). Para 10 operários produzirem 72 peças: dias = (72 × 6 × 2) ÷ (36 × 10) = 2.4 dias."
-  },
-  {
-    "id": "regra-de-tres-ined-0042",
-    "categoriaId": "regra-de-tres",
-    "subtopico": "Regra de Três Simples",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma receita para 6 pessoas usa 300 g de farinha. Mantendo a mesma proporção, quantos gramas de farinha são necessários para 18 pessoas?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "300 g"
-      },
-      {
-        "letra": "B",
-        "texto": "450 g"
-      },
-      {
-        "letra": "C",
-        "texto": "900 g"
-      },
-      {
-        "letra": "D",
-        "texto": "1800 g"
-      },
-      {
-        "letra": "E",
-        "texto": "1200 g"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "Como a grandeza é diretamente proporcional: 6 pessoas → 300 g; 18 pessoas → x. x = (300 × 18) ÷ 6 = 900 g."
-  },
-  {
-    "id": "regra-de-tres-ined-0043",
-    "categoriaId": "regra-de-tres",
-    "subtopico": "Regra de Três Composta",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma fábrica com 12 operários produz 432 peças em 9 dias. Trabalhando no mesmo ritmo, quantos dias 16 operários levariam para produzir 864 peças?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "9 dias"
-      },
-      {
-        "letra": "B",
-        "texto": "25 dias"
-      },
-      {
-        "letra": "C",
-        "texto": "13.5 dias"
-      },
-      {
-        "letra": "D",
-        "texto": "6.8 dias"
-      },
-      {
-        "letra": "E",
-        "texto": "27 dias"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "Peças por operário-dia = 432 ÷ (12 × 9). Para 16 operários produzirem 864 peças: dias = (864 × 12 × 9) ÷ (432 × 16) = 13.5 dias."
-  },
-  {
-    "id": "regra-de-tres-ined-0044",
-    "categoriaId": "regra-de-tres",
-    "subtopico": "Regra de Três Simples",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma receita para 4 pessoas usa 200 g de farinha. Mantendo a mesma proporção, quantos gramas de farinha são necessários para 6 pessoas?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "200 g"
-      },
-      {
-        "letra": "B",
-        "texto": "600 g"
-      },
-      {
-        "letra": "C",
-        "texto": "300 g"
-      },
-      {
-        "letra": "D",
         "texto": "500 g"
       },
       {
-        "letra": "E",
-        "texto": "150 g"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "Como a grandeza é diretamente proporcional: 4 pessoas → 200 g; 6 pessoas → x. x = (200 × 6) ÷ 4 = 300 g."
-  },
-  {
-    "id": "regra-de-tres-ined-0045",
-    "categoriaId": "regra-de-tres",
-    "subtopico": "Regra de Três Composta",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma fábrica com 6 operários produz 144 peças em 6 dias. Trabalhando no mesmo ritmo, quantos dias 8 operários levariam para produzir 288 peças?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "18 dias"
-      },
-      {
         "letra": "B",
-        "texto": "14 dias"
-      },
-      {
-        "letra": "C",
-        "texto": "9 dias"
-      },
-      {
-        "letra": "D",
-        "texto": "6 dias"
-      },
-      {
-        "letra": "E",
-        "texto": "4.5 dias"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "Peças por operário-dia = 144 ÷ (6 × 6). Para 8 operários produzirem 288 peças: dias = (288 × 6 × 6) ÷ (144 × 8) = 9 dias."
-  },
-  {
-    "id": "regra-de-tres-ined-0046",
-    "categoriaId": "regra-de-tres",
-    "subtopico": "Regra de Três Simples",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma receita para 4 pessoas usa 250 g de farinha. Mantendo a mesma proporção, quantos gramas de farinha são necessários para 6 pessoas?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "187.5 g"
-      },
-      {
-        "letra": "B",
-        "texto": "625 g"
-      },
-      {
-        "letra": "C",
         "texto": "250 g"
       },
       {
-        "letra": "D",
-        "texto": "375 g"
-      },
-      {
-        "letra": "E",
-        "texto": "750 g"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "Como a grandeza é diretamente proporcional: 4 pessoas → 250 g; 6 pessoas → x. x = (250 × 6) ÷ 4 = 375 g."
-  },
-  {
-    "id": "regra-de-tres-ined-0047",
-    "categoriaId": "regra-de-tres",
-    "subtopico": "Regra de Três Composta",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma fábrica com 6 operários produz 54 peças em 3 dias. Trabalhando no mesmo ritmo, quantos dias 10 operários levariam para produzir 81 peças?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "2.7 dias"
-      },
-      {
-        "letra": "B",
-        "texto": "13 dias"
-      },
-      {
         "letra": "C",
-        "texto": "3 dias"
+        "texto": "750 g"
       },
       {
         "letra": "D",
-        "texto": "5.4 dias"
+        "texto": "1000 g"
       },
       {
         "letra": "E",
-        "texto": "1.4 dias"
+        "texto": "1001 g"
       }
     ],
     "correta": "A",
-    "explicacao": "Peças por operário-dia = 54 ÷ (6 × 3). Para 10 operários produzirem 81 peças: dias = (81 × 6 × 3) ÷ (54 × 10) = 2.7 dias."
+    "explicacao": "Como a grandeza é diretamente proporcional: 4 pessoas → 250 g; 8 pessoas → x. x = (250 × 8) ÷ 4 = 500 g."
   },
   {
-    "id": "regra-de-tres-ined-0048",
+    "id": "regra-de-tres-ined-0002",
     "categoriaId": "regra-de-tres",
     "subtopico": "Regra de Três Simples",
     "dificuldade": "medio",
@@ -351,302 +45,30 @@
     "alternativas": [
       {
         "letra": "A",
+        "texto": "450 g"
+      },
+      {
+        "letra": "B",
         "texto": "1800 g"
       },
       {
-        "letra": "B",
-        "texto": "1200 g"
-      },
-      {
         "letra": "C",
-        "texto": "450 g"
-      },
-      {
-        "letra": "D",
         "texto": "300 g"
       },
       {
-        "letra": "E",
+        "letra": "D",
         "texto": "900 g"
+      },
+      {
+        "letra": "E",
+        "texto": "1200 g"
       }
     ],
-    "correta": "E",
+    "correta": "D",
     "explicacao": "Como a grandeza é diretamente proporcional: 4 pessoas → 300 g; 12 pessoas → x. x = (300 × 12) ÷ 4 = 900 g."
   },
   {
-    "id": "regra-de-tres-ined-0049",
-    "categoriaId": "regra-de-tres",
-    "subtopico": "Regra de Três Composta",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma fábrica com 3 operários produz 36 peças em 2 dias. Trabalhando no mesmo ritmo, quantos dias 6 operários levariam para produzir 54 peças?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "1.5 dias"
-      },
-      {
-        "letra": "B",
-        "texto": "8 dias"
-      },
-      {
-        "letra": "C",
-        "texto": "3 dias"
-      },
-      {
-        "letra": "D",
-        "texto": "0.8 dias"
-      },
-      {
-        "letra": "E",
-        "texto": "2 dias"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "Peças por operário-dia = 36 ÷ (3 × 2). Para 6 operários produzirem 54 peças: dias = (54 × 3 × 2) ÷ (36 × 6) = 1.5 dias."
-  },
-  {
-    "id": "regra-de-tres-ined-0051",
-    "categoriaId": "regra-de-tres",
-    "subtopico": "Regra de Três Composta",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma fábrica com 4 operários produz 280 peças em 10 dias. Trabalhando no mesmo ritmo, quantos dias 8 operários levariam para produzir 560 peças?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "10 dias"
-      },
-      {
-        "letra": "B",
-        "texto": "19 dias"
-      },
-      {
-        "letra": "C",
-        "texto": "18 dias"
-      },
-      {
-        "letra": "D",
-        "texto": "20 dias"
-      },
-      {
-        "letra": "E",
-        "texto": "5 dias"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "Peças por operário-dia = 280 ÷ (4 × 10). Para 8 operários produzirem 560 peças: dias = (560 × 4 × 10) ÷ (280 × 8) = 10 dias."
-  },
-  {
-    "id": "regra-de-tres-ined-0052",
-    "categoriaId": "regra-de-tres",
-    "subtopico": "Regra de Três Simples",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma receita para 6 pessoas usa 300 g de farinha. Mantendo a mesma proporção, quantos gramas de farinha são necessários para 12 pessoas?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "1200 g"
-      },
-      {
-        "letra": "B",
-        "texto": "300 g"
-      },
-      {
-        "letra": "C",
-        "texto": "1201 g"
-      },
-      {
-        "letra": "D",
-        "texto": "600 g"
-      },
-      {
-        "letra": "E",
-        "texto": "900 g"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "Como a grandeza é diretamente proporcional: 6 pessoas → 300 g; 12 pessoas → x. x = (300 × 12) ÷ 6 = 600 g."
-  },
-  {
-    "id": "regra-de-tres-ined-0053",
-    "categoriaId": "regra-de-tres",
-    "subtopico": "Regra de Três Composta",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma fábrica com 6 operários produz 144 peças em 6 dias. Trabalhando no mesmo ritmo, quantos dias 8 operários levariam para produzir 216 peças?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "13.6 dias"
-      },
-      {
-        "letra": "B",
-        "texto": "6 dias"
-      },
-      {
-        "letra": "C",
-        "texto": "14 dias"
-      },
-      {
-        "letra": "D",
-        "texto": "6.8 dias"
-      },
-      {
-        "letra": "E",
-        "texto": "3.4 dias"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "Peças por operário-dia = 144 ÷ (6 × 6). Para 8 operários produzirem 216 peças: dias = (216 × 6 × 6) ÷ (144 × 8) = 6.8 dias."
-  },
-  {
-    "id": "regra-de-tres-ined-0054",
-    "categoriaId": "regra-de-tres",
-    "subtopico": "Regra de Três Simples",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma receita para 4 pessoas usa 300 g de farinha. Mantendo a mesma proporção, quantos gramas de farinha são necessários para 8 pessoas?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "600 g"
-      },
-      {
-        "letra": "B",
-        "texto": "1201 g"
-      },
-      {
-        "letra": "C",
-        "texto": "1200 g"
-      },
-      {
-        "letra": "D",
-        "texto": "900 g"
-      },
-      {
-        "letra": "E",
-        "texto": "300 g"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "Como a grandeza é diretamente proporcional: 4 pessoas → 300 g; 8 pessoas → x. x = (300 × 8) ÷ 4 = 600 g."
-  },
-  {
-    "id": "regra-de-tres-ined-0055",
-    "categoriaId": "regra-de-tres",
-    "subtopico": "Regra de Três Composta",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma fábrica com 7 operários produz 588 peças em 12 dias. Trabalhando no mesmo ritmo, quantos dias 9 operários levariam para produzir 882 peças?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "7 dias"
-      },
-      {
-        "letra": "B",
-        "texto": "12 dias"
-      },
-      {
-        "letra": "C",
-        "texto": "28 dias"
-      },
-      {
-        "letra": "D",
-        "texto": "21 dias"
-      },
-      {
-        "letra": "E",
-        "texto": "14 dias"
-      }
-    ],
-    "correta": "E",
-    "explicacao": "Peças por operário-dia = 588 ÷ (7 × 12). Para 9 operários produzirem 882 peças: dias = (882 × 7 × 12) ÷ (588 × 9) = 14 dias."
-  },
-  {
-    "id": "regra-de-tres-ined-0056",
-    "categoriaId": "regra-de-tres",
-    "subtopico": "Regra de Três Simples",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma receita para 6 pessoas usa 150 g de farinha. Mantendo a mesma proporção, quantos gramas de farinha são necessários para 12 pessoas?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "150 g"
-      },
-      {
-        "letra": "B",
-        "texto": "450 g"
-      },
-      {
-        "letra": "C",
-        "texto": "600 g"
-      },
-      {
-        "letra": "D",
-        "texto": "300 g"
-      },
-      {
-        "letra": "E",
-        "texto": "601 g"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "Como a grandeza é diretamente proporcional: 6 pessoas → 150 g; 12 pessoas → x. x = (150 × 12) ÷ 6 = 300 g."
-  },
-  {
-    "id": "regra-de-tres-ined-0057",
-    "categoriaId": "regra-de-tres",
-    "subtopico": "Regra de Três Composta",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma fábrica com 4 operários produz 72 peças em 3 dias. Trabalhando no mesmo ritmo, quantos dias 5 operários levariam para produzir 108 peças?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "1.8 dias"
-      },
-      {
-        "letra": "B",
-        "texto": "7.2 dias"
-      },
-      {
-        "letra": "C",
-        "texto": "3 dias"
-      },
-      {
-        "letra": "D",
-        "texto": "3.6 dias"
-      },
-      {
-        "letra": "E",
-        "texto": "8 dias"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "Peças por operário-dia = 72 ÷ (4 × 3). Para 5 operários produzirem 108 peças: dias = (108 × 4 × 3) ÷ (72 × 5) = 3.6 dias."
-  },
-  {
-    "id": "regra-de-tres-ined-0058",
+    "id": "regra-de-tres-ined-0003",
     "categoriaId": "regra-de-tres",
     "subtopico": "Regra de Três Simples",
     "dificuldade": "dificil",
@@ -657,11 +79,11 @@
     "alternativas": [
       {
         "letra": "A",
-        "texto": "900 g"
+        "texto": "225 g"
       },
       {
         "letra": "B",
-        "texto": "150 g"
+        "texto": "600 g"
       },
       {
         "letra": "C",
@@ -669,649 +91,37 @@
       },
       {
         "letra": "D",
-        "texto": "225 g"
+        "texto": "900 g"
       },
       {
         "letra": "E",
-        "texto": "600 g"
+        "texto": "150 g"
       }
     ],
     "correta": "C",
     "explicacao": "Como a grandeza é diretamente proporcional: 2 pessoas → 150 g; 6 pessoas → x. x = (150 × 6) ÷ 2 = 450 g."
   },
   {
-    "id": "regra-de-tres-ined-0059",
+    "id": "regra-de-tres-ined-0004",
     "categoriaId": "regra-de-tres",
     "subtopico": "Regra de Três Composta",
     "dificuldade": "facil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Uma fábrica com 5 operários produz 350 peças em 10 dias. Trabalhando no mesmo ritmo, quantos dias 7 operários levariam para produzir 700 peças?",
+    "enunciado": "Uma fábrica com 3 operários produz 120 peças em 5 dias. Trabalhando no mesmo ritmo, quantos dias 5 operários levariam para produzir 240 peças?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "14.3 dias"
+        "texto": "5 dias"
       },
       {
         "letra": "B",
-        "texto": "17 dias"
-      },
-      {
-        "letra": "C",
-        "texto": "7.2 dias"
-      },
-      {
-        "letra": "D",
-        "texto": "10 dias"
-      },
-      {
-        "letra": "E",
-        "texto": "28.6 dias"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "Peças por operário-dia = 350 ÷ (5 × 10). Para 7 operários produzirem 700 peças: dias = (700 × 5 × 10) ÷ (350 × 7) = 14.3 dias."
-  },
-  {
-    "id": "regra-de-tres-ined-0060",
-    "categoriaId": "regra-de-tres",
-    "subtopico": "Regra de Três Simples",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma receita para 6 pessoas usa 250 g de farinha. Mantendo a mesma proporção, quantos gramas de farinha são necessários para 18 pessoas?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "1000 g"
-      },
-      {
-        "letra": "B",
-        "texto": "250 g"
-      },
-      {
-        "letra": "C",
-        "texto": "375 g"
-      },
-      {
-        "letra": "D",
-        "texto": "750 g"
-      },
-      {
-        "letra": "E",
-        "texto": "1500 g"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "Como a grandeza é diretamente proporcional: 6 pessoas → 250 g; 18 pessoas → x. x = (250 × 18) ÷ 6 = 750 g."
-  },
-  {
-    "id": "regra-de-tres-ined-0061",
-    "categoriaId": "regra-de-tres",
-    "subtopico": "Regra de Três Composta",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma fábrica com 5 operários produz 375 peças em 15 dias. Trabalhando no mesmo ritmo, quantos dias 9 operários levariam para produzir 562.5 peças?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "15 dias"
-      },
-      {
-        "letra": "B",
-        "texto": "24 dias"
-      },
-      {
-        "letra": "C",
-        "texto": "25 dias"
-      },
-      {
-        "letra": "D",
-        "texto": "12.5 dias"
-      },
-      {
-        "letra": "E",
-        "texto": "6.3 dias"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "Peças por operário-dia = 375 ÷ (5 × 15). Para 9 operários produzirem 562.5 peças: dias = (562.5 × 5 × 15) ÷ (375 × 9) = 12.5 dias."
-  },
-  {
-    "id": "regra-de-tres-ined-0063",
-    "categoriaId": "regra-de-tres",
-    "subtopico": "Regra de Três Composta",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma fábrica com 3 operários produz 126 peças em 6 dias. Trabalhando no mesmo ritmo, quantos dias 7 operários levariam para produzir 189 peças?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "2 dias"
-      },
-      {
-        "letra": "B",
-        "texto": "13 dias"
-      },
-      {
-        "letra": "C",
-        "texto": "3.9 dias"
-      },
-      {
-        "letra": "D",
         "texto": "6 dias"
       },
       {
-        "letra": "E",
-        "texto": "7.8 dias"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "Peças por operário-dia = 126 ÷ (3 × 6). Para 7 operários produzirem 189 peças: dias = (189 × 3 × 6) ÷ (126 × 7) = 3.9 dias."
-  },
-  {
-    "id": "regra-de-tres-ined-0064",
-    "categoriaId": "regra-de-tres",
-    "subtopico": "Regra de Três Simples",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma receita para 2 pessoas usa 550 g de farinha. Mantendo a mesma proporção, quantos gramas de farinha são necessários para 6 pessoas?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "825 g"
-      },
-      {
-        "letra": "B",
-        "texto": "550 g"
-      },
-      {
         "letra": "C",
-        "texto": "2200 g"
-      },
-      {
-        "letra": "D",
-        "texto": "1650 g"
-      },
-      {
-        "letra": "E",
-        "texto": "3300 g"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "Como a grandeza é diretamente proporcional: 2 pessoas → 550 g; 6 pessoas → x. x = (550 × 6) ÷ 2 = 1650 g."
-  },
-  {
-    "id": "regra-de-tres-ined-0065",
-    "categoriaId": "regra-de-tres",
-    "subtopico": "Regra de Três Composta",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma fábrica com 3 operários produz 180 peças em 10 dias. Trabalhando no mesmo ritmo, quantos dias 5 operários levariam para produzir 270 peças?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "15 dias"
-      },
-      {
-        "letra": "B",
-        "texto": "9 dias"
-      },
-      {
-        "letra": "C",
-        "texto": "4.5 dias"
-      },
-      {
-        "letra": "D",
-        "texto": "10 dias"
-      },
-      {
-        "letra": "E",
-        "texto": "18 dias"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "Peças por operário-dia = 180 ÷ (3 × 10). Para 5 operários produzirem 270 peças: dias = (270 × 3 × 10) ÷ (180 × 5) = 9 dias."
-  },
-  {
-    "id": "regra-de-tres-ined-0067",
-    "categoriaId": "regra-de-tres",
-    "subtopico": "Regra de Três Composta",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma fábrica com 6 operários produz 540 peças em 15 dias. Trabalhando no mesmo ritmo, quantos dias 9 operários levariam para produzir 1080 peças?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "24 dias"
-      },
-      {
-        "letra": "B",
-        "texto": "20 dias"
-      },
-      {
-        "letra": "C",
-        "texto": "40 dias"
-      },
-      {
-        "letra": "D",
-        "texto": "10 dias"
-      },
-      {
-        "letra": "E",
-        "texto": "15 dias"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "Peças por operário-dia = 540 ÷ (6 × 15). Para 9 operários produzirem 1080 peças: dias = (1080 × 6 × 15) ÷ (540 × 9) = 20 dias."
-  },
-  {
-    "id": "regra-de-tres-ined-0068",
-    "categoriaId": "regra-de-tres",
-    "subtopico": "Regra de Três Simples",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma receita para 4 pessoas usa 100 g de farinha. Mantendo a mesma proporção, quantos gramas de farinha são necessários para 6 pessoas?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "150 g"
-      },
-      {
-        "letra": "B",
-        "texto": "250 g"
-      },
-      {
-        "letra": "C",
-        "texto": "75 g"
-      },
-      {
-        "letra": "D",
-        "texto": "100 g"
-      },
-      {
-        "letra": "E",
-        "texto": "300 g"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "Como a grandeza é diretamente proporcional: 4 pessoas → 100 g; 6 pessoas → x. x = (100 × 6) ÷ 4 = 150 g."
-  },
-  {
-    "id": "regra-de-tres-ined-0069",
-    "categoriaId": "regra-de-tres",
-    "subtopico": "Regra de Três Composta",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma fábrica com 6 operários produz 252 peças em 6 dias. Trabalhando no mesmo ritmo, quantos dias 8 operários levariam para produzir 504 peças?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "6 dias"
-      },
-      {
-        "letra": "B",
-        "texto": "9 dias"
-      },
-      {
-        "letra": "C",
-        "texto": "4.5 dias"
-      },
-      {
-        "letra": "D",
-        "texto": "14 dias"
-      },
-      {
-        "letra": "E",
-        "texto": "18 dias"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "Peças por operário-dia = 252 ÷ (6 × 6). Para 8 operários produzirem 504 peças: dias = (504 × 6 × 6) ÷ (252 × 8) = 9 dias."
-  },
-  {
-    "id": "regra-de-tres-ined-0070",
-    "categoriaId": "regra-de-tres",
-    "subtopico": "Regra de Três Simples",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma receita para 2 pessoas usa 100 g de farinha. Mantendo a mesma proporção, quantos gramas de farinha são necessários para 4 pessoas?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "100 g"
-      },
-      {
-        "letra": "B",
-        "texto": "300 g"
-      },
-      {
-        "letra": "C",
-        "texto": "200 g"
-      },
-      {
-        "letra": "D",
-        "texto": "401 g"
-      },
-      {
-        "letra": "E",
-        "texto": "400 g"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "Como a grandeza é diretamente proporcional: 2 pessoas → 100 g; 4 pessoas → x. x = (100 × 4) ÷ 2 = 200 g."
-  },
-  {
-    "id": "regra-de-tres-ined-0071",
-    "categoriaId": "regra-de-tres",
-    "subtopico": "Regra de Três Composta",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma fábrica com 5 operários produz 150 peças em 6 dias. Trabalhando no mesmo ritmo, quantos dias 7 operários levariam para produzir 300 peças?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "13 dias"
-      },
-      {
-        "letra": "B",
-        "texto": "17.2 dias"
-      },
-      {
-        "letra": "C",
-        "texto": "6 dias"
-      },
-      {
-        "letra": "D",
-        "texto": "4.3 dias"
-      },
-      {
-        "letra": "E",
-        "texto": "8.6 dias"
-      }
-    ],
-    "correta": "E",
-    "explicacao": "Peças por operário-dia = 150 ÷ (5 × 6). Para 7 operários produzirem 300 peças: dias = (300 × 5 × 6) ÷ (150 × 7) = 8.6 dias."
-  },
-  {
-    "id": "regra-de-tres-ined-0073",
-    "categoriaId": "regra-de-tres",
-    "subtopico": "Regra de Três Composta",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma fábrica com 5 operários produz 250 peças em 10 dias. Trabalhando no mesmo ritmo, quantos dias 8 operários levariam para produzir 375 peças?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "10 dias"
-      },
-      {
-        "letra": "B",
-        "texto": "4.7 dias"
-      },
-      {
-        "letra": "C",
-        "texto": "9.4 dias"
-      },
-      {
-        "letra": "D",
-        "texto": "18 dias"
-      },
-      {
-        "letra": "E",
-        "texto": "18.8 dias"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "Peças por operário-dia = 250 ÷ (5 × 10). Para 8 operários produzirem 375 peças: dias = (375 × 5 × 10) ÷ (250 × 8) = 9.4 dias."
-  },
-  {
-    "id": "regra-de-tres-ined-0075",
-    "categoriaId": "regra-de-tres",
-    "subtopico": "Regra de Três Composta",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma fábrica com 3 operários produz 54 peças em 3 dias. Trabalhando no mesmo ritmo, quantos dias 5 operários levariam para produzir 108 peças?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "1.8 dias"
-      },
-      {
-        "letra": "B",
-        "texto": "8 dias"
-      },
-      {
-        "letra": "C",
-        "texto": "7.2 dias"
-      },
-      {
-        "letra": "D",
         "texto": "3 dias"
-      },
-      {
-        "letra": "E",
-        "texto": "3.6 dias"
-      }
-    ],
-    "correta": "E",
-    "explicacao": "Peças por operário-dia = 54 ÷ (3 × 3). Para 5 operários produzirem 108 peças: dias = (108 × 3 × 3) ÷ (54 × 5) = 3.6 dias."
-  },
-  {
-    "id": "regra-de-tres-ined-0076",
-    "categoriaId": "regra-de-tres",
-    "subtopico": "Regra de Três Simples",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma receita para 2 pessoas usa 350 g de farinha. Mantendo a mesma proporção, quantos gramas de farinha são necessários para 4 pessoas?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "700 g"
-      },
-      {
-        "letra": "B",
-        "texto": "350 g"
-      },
-      {
-        "letra": "C",
-        "texto": "1401 g"
-      },
-      {
-        "letra": "D",
-        "texto": "1400 g"
-      },
-      {
-        "letra": "E",
-        "texto": "1050 g"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "Como a grandeza é diretamente proporcional: 2 pessoas → 350 g; 4 pessoas → x. x = (350 × 4) ÷ 2 = 700 g."
-  },
-  {
-    "id": "regra-de-tres-ined-0077",
-    "categoriaId": "regra-de-tres",
-    "subtopico": "Regra de Três Composta",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma fábrica com 5 operários produz 140 peças em 4 dias. Trabalhando no mesmo ritmo, quantos dias 9 operários levariam para produzir 210 peças?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "6.6 dias"
-      },
-      {
-        "letra": "B",
-        "texto": "4 dias"
-      },
-      {
-        "letra": "C",
-        "texto": "13 dias"
-      },
-      {
-        "letra": "D",
-        "texto": "1.7 dias"
-      },
-      {
-        "letra": "E",
-        "texto": "3.3 dias"
-      }
-    ],
-    "correta": "E",
-    "explicacao": "Peças por operário-dia = 140 ÷ (5 × 4). Para 9 operários produzirem 210 peças: dias = (210 × 5 × 4) ÷ (140 × 9) = 3.3 dias."
-  },
-  {
-    "id": "regra-de-tres-ined-0078",
-    "categoriaId": "regra-de-tres",
-    "subtopico": "Regra de Três Simples",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma receita para 4 pessoas usa 150 g de farinha. Mantendo a mesma proporção, quantos gramas de farinha são necessários para 6 pessoas?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "450 g"
-      },
-      {
-        "letra": "B",
-        "texto": "150 g"
-      },
-      {
-        "letra": "C",
-        "texto": "375 g"
-      },
-      {
-        "letra": "D",
-        "texto": "112.5 g"
-      },
-      {
-        "letra": "E",
-        "texto": "225 g"
-      }
-    ],
-    "correta": "E",
-    "explicacao": "Como a grandeza é diretamente proporcional: 4 pessoas → 150 g; 6 pessoas → x. x = (150 × 6) ÷ 4 = 225 g."
-  },
-  {
-    "id": "regra-de-tres-ined-0079",
-    "categoriaId": "regra-de-tres",
-    "subtopico": "Regra de Três Composta",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma fábrica com 3 operários produz 75 peças em 5 dias. Trabalhando no mesmo ritmo, quantos dias 4 operários levariam para produzir 150 peças?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "3.8 dias"
-      },
-      {
-        "letra": "B",
-        "texto": "5 dias"
-      },
-      {
-        "letra": "C",
-        "texto": "7.5 dias"
-      },
-      {
-        "letra": "D",
-        "texto": "9 dias"
-      },
-      {
-        "letra": "E",
-        "texto": "15 dias"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "Peças por operário-dia = 75 ÷ (3 × 5). Para 4 operários produzirem 150 peças: dias = (150 × 3 × 5) ÷ (75 × 4) = 7.5 dias."
-  },
-  {
-    "id": "regra-de-tres-ined-0080",
-    "categoriaId": "regra-de-tres",
-    "subtopico": "Regra de Três Simples",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma receita para 6 pessoas usa 250 g de farinha. Mantendo a mesma proporção, quantos gramas de farinha são necessários para 12 pessoas?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "1001 g"
-      },
-      {
-        "letra": "B",
-        "texto": "750 g"
-      },
-      {
-        "letra": "C",
-        "texto": "1000 g"
-      },
-      {
-        "letra": "D",
-        "texto": "500 g"
-      },
-      {
-        "letra": "E",
-        "texto": "250 g"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "Como a grandeza é diretamente proporcional: 6 pessoas → 250 g; 12 pessoas → x. x = (250 × 12) ÷ 6 = 500 g."
-  },
-  {
-    "id": "regra-de-tres-ined-0081",
-    "categoriaId": "regra-de-tres",
-    "subtopico": "Regra de Três Composta",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma fábrica com 3 operários produz 120 peças em 5 dias. Trabalhando no mesmo ritmo, quantos dias 7 operários levariam para produzir 240 peças?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "4.3 dias"
-      },
-      {
-        "letra": "B",
-        "texto": "2.2 dias"
-      },
-      {
-        "letra": "C",
-        "texto": "5 dias"
       },
       {
         "letra": "D",
@@ -1319,214 +129,78 @@
       },
       {
         "letra": "E",
-        "texto": "8.6 dias"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "Peças por operário-dia = 120 ÷ (3 × 5). Para 7 operários produzirem 240 peças: dias = (240 × 3 × 5) ÷ (120 × 7) = 4.3 dias."
-  },
-  {
-    "id": "regra-de-tres-ined-0082",
-    "categoriaId": "regra-de-tres",
-    "subtopico": "Regra de Três Simples",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma receita para 2 pessoas usa 400 g de farinha. Mantendo a mesma proporção, quantos gramas de farinha são necessários para 6 pessoas?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "2400 g"
-      },
-      {
-        "letra": "B",
-        "texto": "400 g"
-      },
-      {
-        "letra": "C",
-        "texto": "600 g"
-      },
-      {
-        "letra": "D",
-        "texto": "1600 g"
-      },
-      {
-        "letra": "E",
-        "texto": "1200 g"
-      }
-    ],
-    "correta": "E",
-    "explicacao": "Como a grandeza é diretamente proporcional: 2 pessoas → 400 g; 6 pessoas → x. x = (400 × 6) ÷ 2 = 1200 g."
-  },
-  {
-    "id": "regra-de-tres-ined-0083",
-    "categoriaId": "regra-de-tres",
-    "subtopico": "Regra de Três Composta",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma fábrica com 5 operários produz 245 peças em 7 dias. Trabalhando no mesmo ritmo, quantos dias 7 operários levariam para produzir 490 peças?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "20 dias"
-      },
-      {
-        "letra": "B",
-        "texto": "14 dias"
-      },
-      {
-        "letra": "C",
         "texto": "10 dias"
-      },
-      {
-        "letra": "D",
-        "texto": "5 dias"
-      },
-      {
-        "letra": "E",
-        "texto": "7 dias"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "Peças por operário-dia = 245 ÷ (5 × 7). Para 7 operários produzirem 490 peças: dias = (490 × 5 × 7) ÷ (245 × 7) = 10 dias."
-  },
-  {
-    "id": "regra-de-tres-ined-0084",
-    "categoriaId": "regra-de-tres",
-    "subtopico": "Regra de Três Simples",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma receita para 6 pessoas usa 250 g de farinha. Mantendo a mesma proporção, quantos gramas de farinha são necessários para 9 pessoas?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "750 g"
-      },
-      {
-        "letra": "B",
-        "texto": "625 g"
-      },
-      {
-        "letra": "C",
-        "texto": "187.5 g"
-      },
-      {
-        "letra": "D",
-        "texto": "375 g"
-      },
-      {
-        "letra": "E",
-        "texto": "250 g"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "Como a grandeza é diretamente proporcional: 6 pessoas → 250 g; 9 pessoas → x. x = (250 × 9) ÷ 6 = 375 g."
-  },
-  {
-    "id": "regra-de-tres-ined-0085",
-    "categoriaId": "regra-de-tres",
-    "subtopico": "Regra de Três Composta",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma fábrica com 7 operários produz 168 peças em 3 dias. Trabalhando no mesmo ritmo, quantos dias 8 operários levariam para produzir 336 peças?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "3 dias"
-      },
-      {
-        "letra": "B",
-        "texto": "5.3 dias"
-      },
-      {
-        "letra": "C",
-        "texto": "10.6 dias"
-      },
-      {
-        "letra": "D",
-        "texto": "2.7 dias"
-      },
-      {
-        "letra": "E",
-        "texto": "11 dias"
       }
     ],
     "correta": "B",
-    "explicacao": "Peças por operário-dia = 168 ÷ (7 × 3). Para 8 operários produzirem 336 peças: dias = (336 × 7 × 3) ÷ (168 × 8) = 5.3 dias."
+    "explicacao": "Peças por operário-dia = 120 ÷ (3 × 5). Para 5 operários produzirem 240 peças: dias = (240 × 3 × 5) ÷ (120 × 5) = 6 dias."
   },
   {
-    "id": "regra-de-tres-ined-0087",
+    "id": "regra-de-tres-ined-0005",
     "categoriaId": "regra-de-tres",
     "subtopico": "Regra de Três Composta",
     "dificuldade": "medio",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Uma fábrica com 2 operários produz 42 peças em 3 dias. Trabalhando no mesmo ritmo, quantos dias 4 operários levariam para produzir 84 peças?",
+    "enunciado": "Uma fábrica com 6 operários produz 72 peças em 3 dias. Trabalhando no mesmo ritmo, quantos dias 10 operários levariam para produzir 144 peças?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "1.5 dias"
-      },
-      {
-        "letra": "B",
-        "texto": "7 dias"
-      },
-      {
-        "letra": "C",
-        "texto": "8 dias"
-      },
-      {
-        "letra": "D",
         "texto": "3 dias"
       },
       {
+        "letra": "B",
+        "texto": "3.6 dias"
+      },
+      {
+        "letra": "C",
+        "texto": "7.2 dias"
+      },
+      {
+        "letra": "D",
+        "texto": "1.8 dias"
+      },
+      {
         "letra": "E",
-        "texto": "6 dias"
+        "texto": "13 dias"
       }
     ],
-    "correta": "D",
-    "explicacao": "Peças por operário-dia = 42 ÷ (2 × 3). Para 4 operários produzirem 84 peças: dias = (84 × 2 × 3) ÷ (42 × 4) = 3 dias."
+    "correta": "B",
+    "explicacao": "Peças por operário-dia = 72 ÷ (6 × 3). Para 10 operários produzirem 144 peças: dias = (144 × 6 × 3) ÷ (72 × 10) = 3.6 dias."
   },
   {
-    "id": "regra-de-tres-ined-0089",
+    "id": "regra-de-tres-ined-0006",
     "categoriaId": "regra-de-tres",
     "subtopico": "Regra de Três Composta",
-    "dificuldade": "facil",
+    "dificuldade": "dificil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Uma fábrica com 6 operários produz 72 peças em 3 dias. Trabalhando no mesmo ritmo, quantos dias 8 operários levariam para produzir 144 peças?",
+    "enunciado": "Uma fábrica com 5 operários produz 600 peças em 20 dias. Trabalhando no mesmo ritmo, quantos dias 8 operários levariam para produzir 1200 peças?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "11 dias"
+        "texto": "12.5 dias"
       },
       {
         "letra": "B",
-        "texto": "3 dias"
+        "texto": "25 dias"
       },
       {
         "letra": "C",
-        "texto": "4.5 dias"
+        "texto": "20 dias"
       },
       {
         "letra": "D",
-        "texto": "9 dias"
+        "texto": "50 dias"
       },
       {
         "letra": "E",
-        "texto": "2.3 dias"
+        "texto": "28 dias"
       }
     ],
-    "correta": "C",
-    "explicacao": "Peças por operário-dia = 72 ÷ (6 × 3). Para 8 operários produzirem 144 peças: dias = (144 × 6 × 3) ÷ (72 × 8) = 4.5 dias."
+    "correta": "B",
+    "explicacao": "Peças por operário-dia = 600 ÷ (5 × 20). Para 8 operários produzirem 1200 peças: dias = (1200 × 5 × 20) ÷ (600 × 8) = 25 dias."
   }
 ]

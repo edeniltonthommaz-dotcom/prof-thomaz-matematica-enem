@@ -1,1165 +1,179 @@
 [
   {
-    "id": "funcao-quadratica-ined-0173",
+    "id": "funcao-quadratica-ined-0013",
     "categoriaId": "funcao-quadratica",
     "subtopico": "Pontos de Máximo e Mínimo",
     "dificuldade": "facil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Uma loja vende 68 unidades de um produto por mês ao preço de R$ 30,00. Estudos mostram que, a cada R$ 1,00 de aumento no preço, 2 unidades deixam de ser vendidas por mês. Qual deve ser o preço de venda para maximizar a receita mensal?",
+    "enunciado": "Uma loja vende 113 unidades de um produto por mês ao preço de R$ 37,00. Estudos mostram que, a cada R$ 1,00 de aumento no preço, 2 unidades deixam de ser vendidas por mês. Qual deve ser o preço de venda para maximizar a receita mensal?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "R$ 30,00"
-      },
-      {
-        "letra": "B",
-        "texto": "R$ 2.048,00"
-      },
-      {
-        "letra": "C",
-        "texto": "R$ 3.048,00"
-      },
-      {
-        "letra": "D",
-        "texto": "R$ 32,00"
-      },
-      {
-        "letra": "E",
-        "texto": "R$ 34,00"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "Sendo x o aumento no preço, a receita é R(x) = (30 + x)(68 − 2x), uma função quadrática com concavidade para baixo. O máximo ocorre no vértice, em x = 2, resultando no preço ótimo de R$ 32,00."
-  },
-  {
-    "id": "funcao-quadratica-ined-0174",
-    "categoriaId": "funcao-quadratica",
-    "subtopico": "Vértice da Parábola",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "A altura h, em metros, de um projétil em função do tempo t, em segundos, é dada por h(t) = -2t² + 60t. Qual é a altura máxima atingida pelo projétil?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "510 m"
-      },
-      {
-        "letra": "B",
-        "texto": "15 m"
-      },
-      {
-        "letra": "C",
-        "texto": "225 m"
-      },
-      {
-        "letra": "D",
-        "texto": "60 m"
-      },
-      {
-        "letra": "E",
-        "texto": "450 m"
-      }
-    ],
-    "correta": "E",
-    "explicacao": "O tempo do ponto de máximo é t = −b/(2a) = −60/(2×-2) = 15 s. Substituindo: h(15) = -2×15² + 60×15 = 450 m."
-  },
-  {
-    "id": "funcao-quadratica-ined-0175",
-    "categoriaId": "funcao-quadratica",
-    "subtopico": "Pontos de Máximo e Mínimo",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma loja vende 209 unidades de um produto por mês ao preço de R$ 55,00. Estudos mostram que, a cada R$ 1,00 de aumento no preço, 2 unidades deixam de ser vendidas por mês. Qual deve ser o preço de venda para maximizar a receita mensal?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "R$ 82,00"
-      },
-      {
-        "letra": "B",
-        "texto": "R$ 78,00"
-      },
-      {
-        "letra": "C",
-        "texto": "R$ 80,00"
-      },
-      {
-        "letra": "D",
-        "texto": "R$ 12.720,00"
-      },
-      {
-        "letra": "E",
-        "texto": "R$ 55,00"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "Sendo x o aumento no preço, a receita é R(x) = (55 + x)(209 − 2x), uma função quadrática com concavidade para baixo. O máximo ocorre no vértice, em x = 25, resultando no preço ótimo de R$ 80,00."
-  },
-  {
-    "id": "funcao-quadratica-ined-0176",
-    "categoriaId": "funcao-quadratica",
-    "subtopico": "Vértice da Parábola",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "A altura h, em metros, de um projétil em função do tempo t, em segundos, é dada por h(t) = -2t² + 28t. Qual é a altura máxima atingida pelo projétil?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "28 m"
-      },
-      {
-        "letra": "B",
-        "texto": "49 m"
-      },
-      {
-        "letra": "C",
-        "texto": "126 m"
-      },
-      {
-        "letra": "D",
-        "texto": "98 m"
-      },
-      {
-        "letra": "E",
-        "texto": "7 m"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "O tempo do ponto de máximo é t = −b/(2a) = −28/(2×-2) = 7 s. Substituindo: h(7) = -2×7² + 28×7 = 98 m."
-  },
-  {
-    "id": "funcao-quadratica-ined-0177",
-    "categoriaId": "funcao-quadratica",
-    "subtopico": "Pontos de Máximo e Mínimo",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma loja vende 130 unidades de um produto por mês ao preço de R$ 41,00. Estudos mostram que, a cada R$ 1,00 de aumento no preço, 2 unidades deixam de ser vendidas por mês. Qual deve ser o preço de venda para maximizar a receita mensal?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "R$ 5.618,00"
-      },
-      {
-        "letra": "B",
-        "texto": "R$ 55,00"
-      },
-      {
-        "letra": "C",
-        "texto": "R$ 53,00"
-      },
-      {
-        "letra": "D",
-        "texto": "R$ 51,00"
-      },
-      {
-        "letra": "E",
-        "texto": "R$ 41,00"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "Sendo x o aumento no preço, a receita é R(x) = (41 + x)(130 − 2x), uma função quadrática com concavidade para baixo. O máximo ocorre no vértice, em x = 12, resultando no preço ótimo de R$ 53,00."
-  },
-  {
-    "id": "funcao-quadratica-ined-0178",
-    "categoriaId": "funcao-quadratica",
-    "subtopico": "Vértice da Parábola",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "A altura h, em metros, de um projétil em função do tempo t, em segundos, é dada por h(t) = -1t² + 60t. Qual é a altura máxima atingida pelo projétil?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "450 m"
-      },
-      {
-        "letra": "B",
-        "texto": "30 m"
-      },
-      {
-        "letra": "C",
-        "texto": "900 m"
-      },
-      {
-        "letra": "D",
-        "texto": "60 m"
-      },
-      {
-        "letra": "E",
-        "texto": "960 m"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "O tempo do ponto de máximo é t = −b/(2a) = −60/(2×-1) = 30 s. Substituindo: h(30) = -1×30² + 60×30 = 900 m."
-  },
-  {
-    "id": "funcao-quadratica-ined-0179",
-    "categoriaId": "funcao-quadratica",
-    "subtopico": "Pontos de Máximo e Mínimo",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma loja vende 104 unidades de um produto por mês ao preço de R$ 18,00. Estudos mostram que, a cada R$ 1,00 de aumento no preço, 5 unidades deixam de ser vendidas por mês. Qual deve ser o preço de venda para maximizar a receita mensal?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "R$ 18,00"
-      },
-      {
-        "letra": "B",
-        "texto": "R$ 14,00"
-      },
-      {
-        "letra": "C",
-        "texto": "R$ 19,00"
-      },
-      {
-        "letra": "D",
-        "texto": "R$ 1.881,00"
-      },
-      {
-        "letra": "E",
-        "texto": "R$ 24,00"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "Sendo x o aumento no preço, a receita é R(x) = (18 + x)(104 − 5x), uma função quadrática com concavidade para baixo. O máximo ocorre no vértice, em x = 1, resultando no preço ótimo de R$ 19,00."
-  },
-  {
-    "id": "funcao-quadratica-ined-0180",
-    "categoriaId": "funcao-quadratica",
-    "subtopico": "Vértice da Parábola",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "A altura h, em metros, de um projétil em função do tempo t, em segundos, é dada por h(t) = -1t² + 58t. Qual é a altura máxima atingida pelo projétil?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "421 m"
-      },
-      {
-        "letra": "B",
-        "texto": "29 m"
-      },
-      {
-        "letra": "C",
-        "texto": "899 m"
-      },
-      {
-        "letra": "D",
-        "texto": "841 m"
-      },
-      {
-        "letra": "E",
-        "texto": "58 m"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "O tempo do ponto de máximo é t = −b/(2a) = −58/(2×-1) = 29 s. Substituindo: h(29) = -1×29² + 58×29 = 841 m."
-  },
-  {
-    "id": "funcao-quadratica-ined-0181",
-    "categoriaId": "funcao-quadratica",
-    "subtopico": "Pontos de Máximo e Mínimo",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma loja vende 84 unidades de um produto por mês ao preço de R$ 29,00. Estudos mostram que, a cada R$ 1,00 de aumento no preço, 2 unidades deixam de ser vendidas por mês. Qual deve ser o preço de venda para maximizar a receita mensal?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "R$ 2.520,00"
-      },
-      {
-        "letra": "B",
-        "texto": "R$ 29,00"
-      },
-      {
-        "letra": "C",
-        "texto": "R$ 38,00"
-      },
-      {
-        "letra": "D",
-        "texto": "R$ 34,00"
-      },
-      {
-        "letra": "E",
-        "texto": "R$ 36,00"
-      }
-    ],
-    "correta": "E",
-    "explicacao": "Sendo x o aumento no preço, a receita é R(x) = (29 + x)(84 − 2x), uma função quadrática com concavidade para baixo. O máximo ocorre no vértice, em x = 7, resultando no preço ótimo de R$ 36,00."
-  },
-  {
-    "id": "funcao-quadratica-ined-0182",
-    "categoriaId": "funcao-quadratica",
-    "subtopico": "Vértice da Parábola",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "A altura h, em metros, de um projétil em função do tempo t, em segundos, é dada por h(t) = -5t² + 20t. Qual é a altura máxima atingida pelo projétil?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "2 m"
-      },
-      {
-        "letra": "B",
-        "texto": "10 m"
-      },
-      {
-        "letra": "C",
-        "texto": "40 m"
-      },
-      {
-        "letra": "D",
-        "texto": "20 m"
-      },
-      {
-        "letra": "E",
-        "texto": "3 m"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "O tempo do ponto de máximo é t = −b/(2a) = −20/(2×-5) = 2 s. Substituindo: h(2) = -5×2² + 20×2 = 20 m."
-  },
-  {
-    "id": "funcao-quadratica-ined-0183",
-    "categoriaId": "funcao-quadratica",
-    "subtopico": "Pontos de Máximo e Mínimo",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma loja vende 152 unidades de um produto por mês ao preço de R$ 22,00. Estudos mostram que, a cada R$ 1,00 de aumento no preço, 2 unidades deixam de ser vendidas por mês. Qual deve ser o preço de venda para maximizar a receita mensal?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "R$ 4.802,00"
-      },
-      {
-        "letra": "B",
         "texto": "R$ 47,00"
       },
       {
+        "letra": "B",
+        "texto": "R$ 45,00"
+      },
+      {
         "letra": "C",
-        "texto": "R$ 22,00"
+        "texto": "R$ 4.371,00"
       },
       {
         "letra": "D",
-        "texto": "R$ 51,00"
+        "texto": "R$ 37,00"
       },
       {
         "letra": "E",
         "texto": "R$ 49,00"
       }
     ],
-    "correta": "E",
-    "explicacao": "Sendo x o aumento no preço, a receita é R(x) = (22 + x)(152 − 2x), uma função quadrática com concavidade para baixo. O máximo ocorre no vértice, em x = 27, resultando no preço ótimo de R$ 49,00."
+    "correta": "A",
+    "explicacao": "Sendo x o aumento no preço, a receita é R(x) = (37 + x)(113 − 2x), uma função quadrática com concavidade para baixo. O máximo ocorre no vértice, em x = 10, resultando no preço ótimo de R$ 47,00."
   },
   {
-    "id": "funcao-quadratica-ined-0184",
-    "categoriaId": "funcao-quadratica",
-    "subtopico": "Vértice da Parábola",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "A altura h, em metros, de um projétil em função do tempo t, em segundos, é dada por h(t) = -1t² + 92t. Qual é a altura máxima atingida pelo projétil?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "2208 m"
-      },
-      {
-        "letra": "B",
-        "texto": "92 m"
-      },
-      {
-        "letra": "C",
-        "texto": "46 m"
-      },
-      {
-        "letra": "D",
-        "texto": "1058 m"
-      },
-      {
-        "letra": "E",
-        "texto": "2116 m"
-      }
-    ],
-    "correta": "E",
-    "explicacao": "O tempo do ponto de máximo é t = −b/(2a) = −92/(2×-1) = 46 s. Substituindo: h(46) = -1×46² + 92×46 = 2116 m."
-  },
-  {
-    "id": "funcao-quadratica-ined-0185",
+    "id": "funcao-quadratica-ined-0014",
     "categoriaId": "funcao-quadratica",
     "subtopico": "Pontos de Máximo e Mínimo",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma loja vende 99 unidades de um produto por mês ao preço de R$ 10,00. Estudos mostram que, a cada R$ 1,00 de aumento no preço, 5 unidades deixam de ser vendidas por mês. Qual deve ser o preço de venda para maximizar a receita mensal?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "R$ 15,00"
-      },
-      {
-        "letra": "B",
-        "texto": "R$ 2.110,00"
-      },
-      {
-        "letra": "C",
-        "texto": "R$ 10,00"
-      },
-      {
-        "letra": "D",
-        "texto": "R$ 20,00"
-      },
-      {
-        "letra": "E",
-        "texto": "R$ 1.110,00"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "Sendo x o aumento no preço, a receita é R(x) = (10 + x)(99 − 5x), uma função quadrática com concavidade para baixo. O máximo ocorre no vértice, em x = 5, resultando no preço ótimo de R$ 15,00."
-  },
-  {
-    "id": "funcao-quadratica-ined-0186",
-    "categoriaId": "funcao-quadratica",
-    "subtopico": "Vértice da Parábola",
     "dificuldade": "medio",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "A altura h, em metros, de um projétil em função do tempo t, em segundos, é dada por h(t) = -1t² + 38t. Qual é a altura máxima atingida pelo projétil?",
+    "enunciado": "Uma loja vende 126 unidades de um produto por mês ao preço de R$ 35,00. Estudos mostram que, a cada R$ 1,00 de aumento no preço, 2 unidades deixam de ser vendidas por mês. Qual deve ser o preço de venda para maximizar a receita mensal?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "38 m"
+        "texto": "R$ 35,00"
       },
       {
         "letra": "B",
-        "texto": "361 m"
-      },
-      {
-        "letra": "C",
-        "texto": "19 m"
-      },
-      {
-        "letra": "D",
-        "texto": "399 m"
-      },
-      {
-        "letra": "E",
-        "texto": "181 m"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "O tempo do ponto de máximo é t = −b/(2a) = −38/(2×-1) = 19 s. Substituindo: h(19) = -1×19² + 38×19 = 361 m."
-  },
-  {
-    "id": "funcao-quadratica-ined-0187",
-    "categoriaId": "funcao-quadratica",
-    "subtopico": "Pontos de Máximo e Mínimo",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma loja vende 184 unidades de um produto por mês ao preço de R$ 47,00. Estudos mostram que, a cada R$ 1,00 de aumento no preço, 2 unidades deixam de ser vendidas por mês. Qual deve ser o preço de venda para maximizar a receita mensal?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "R$ 68,00"
-      },
-      {
-        "letra": "B",
-        "texto": "R$ 72,00"
-      },
-      {
-        "letra": "C",
-        "texto": "R$ 70,00"
-      },
-      {
-        "letra": "D",
         "texto": "R$ 47,00"
       },
       {
+        "letra": "C",
+        "texto": "R$ 49,00"
+      },
+      {
+        "letra": "D",
+        "texto": "R$ 4.802,00"
+      },
+      {
         "letra": "E",
-        "texto": "R$ 9.660,00"
+        "texto": "R$ 51,00"
       }
     ],
     "correta": "C",
-    "explicacao": "Sendo x o aumento no preço, a receita é R(x) = (47 + x)(184 − 2x), uma função quadrática com concavidade para baixo. O máximo ocorre no vértice, em x = 23, resultando no preço ótimo de R$ 70,00."
+    "explicacao": "Sendo x o aumento no preço, a receita é R(x) = (35 + x)(126 − 2x), uma função quadrática com concavidade para baixo. O máximo ocorre no vértice, em x = 14, resultando no preço ótimo de R$ 49,00."
   },
   {
-    "id": "funcao-quadratica-ined-0189",
+    "id": "funcao-quadratica-ined-0015",
     "categoriaId": "funcao-quadratica",
     "subtopico": "Pontos de Máximo e Mínimo",
-    "dificuldade": "medio",
+    "dificuldade": "dificil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Uma loja vende 80 unidades de um produto por mês ao preço de R$ 36,00. Estudos mostram que, a cada R$ 1,00 de aumento no preço, 2 unidades deixam de ser vendidas por mês. Qual deve ser o preço de venda para maximizar a receita mensal?",
+    "enunciado": "Uma loja vende 380 unidades de um produto por mês ao preço de R$ 91,00. Estudos mostram que, a cada R$ 1,00 de aumento no preço, 2 unidades deixam de ser vendidas por mês. Qual deve ser o preço de venda para maximizar a receita mensal?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "R$ 2.888,00"
+        "texto": "R$ 39.480,00"
       },
       {
         "letra": "B",
-        "texto": "R$ 3.888,00"
+        "texto": "R$ 91,00"
       },
       {
         "letra": "C",
-        "texto": "R$ 40,00"
+        "texto": "R$ 143,00"
       },
       {
         "letra": "D",
-        "texto": "R$ 38,00"
+        "texto": "R$ 141,00"
       },
       {
         "letra": "E",
-        "texto": "R$ 36,00"
+        "texto": "R$ 139,00"
       }
     ],
     "correta": "D",
-    "explicacao": "Sendo x o aumento no preço, a receita é R(x) = (36 + x)(80 − 2x), uma função quadrática com concavidade para baixo. O máximo ocorre no vértice, em x = 2, resultando no preço ótimo de R$ 38,00."
+    "explicacao": "Sendo x o aumento no preço, a receita é R(x) = (91 + x)(380 − 2x), uma função quadrática com concavidade para baixo. O máximo ocorre no vértice, em x = 50, resultando no preço ótimo de R$ 141,00."
   },
   {
-    "id": "funcao-quadratica-ined-0190",
+    "id": "funcao-quadratica-ined-0016",
     "categoriaId": "funcao-quadratica",
     "subtopico": "Vértice da Parábola",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "A altura h, em metros, de um projétil em função do tempo t, em segundos, é dada por h(t) = -2t² + 68t. Qual é a altura máxima atingida pelo projétil?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "578 m"
-      },
-      {
-        "letra": "B",
-        "texto": "646 m"
-      },
-      {
-        "letra": "C",
-        "texto": "289 m"
-      },
-      {
-        "letra": "D",
-        "texto": "17 m"
-      },
-      {
-        "letra": "E",
-        "texto": "68 m"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "O tempo do ponto de máximo é t = −b/(2a) = −68/(2×-2) = 17 s. Substituindo: h(17) = -2×17² + 68×17 = 578 m."
-  },
-  {
-    "id": "funcao-quadratica-ined-0191",
-    "categoriaId": "funcao-quadratica",
-    "subtopico": "Pontos de Máximo e Mínimo",
     "dificuldade": "facil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Uma loja vende 118 unidades de um produto por mês ao preço de R$ 45,00. Estudos mostram que, a cada R$ 1,00 de aumento no preço, 2 unidades deixam de ser vendidas por mês. Qual deve ser o preço de venda para maximizar a receita mensal?",
+    "enunciado": "A altura h, em metros, de um projétil em função do tempo t, em segundos, é dada por h(t) = -1t² + 54t. Qual é a altura máxima atingida pelo projétil?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "R$ 52,00"
+        "texto": "729 m"
       },
       {
         "letra": "B",
-        "texto": "R$ 50,00"
+        "texto": "27 m"
       },
       {
         "letra": "C",
-        "texto": "R$ 54,00"
+        "texto": "365 m"
       },
       {
         "letra": "D",
-        "texto": "R$ 45,00"
+        "texto": "783 m"
       },
       {
         "letra": "E",
-        "texto": "R$ 5.408,00"
+        "texto": "54 m"
       }
     ],
     "correta": "A",
-    "explicacao": "Sendo x o aumento no preço, a receita é R(x) = (45 + x)(118 − 2x), uma função quadrática com concavidade para baixo. O máximo ocorre no vértice, em x = 7, resultando no preço ótimo de R$ 52,00."
+    "explicacao": "O tempo do ponto de máximo é t = −b/(2a) = −54/(2×-1) = 27 s. Substituindo: h(27) = -1×27² + 54×27 = 729 m."
   },
   {
-    "id": "funcao-quadratica-ined-0192",
+    "id": "funcao-quadratica-ined-0017",
     "categoriaId": "funcao-quadratica",
     "subtopico": "Vértice da Parábola",
     "dificuldade": "medio",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "A altura h, em metros, de um projétil em função do tempo t, em segundos, é dada por h(t) = -1t² + 30t. Qual é a altura máxima atingida pelo projétil?",
+    "enunciado": "A altura h, em metros, de um projétil em função do tempo t, em segundos, é dada por h(t) = -1t² + 20t. Qual é a altura máxima atingida pelo projétil?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "255 m"
+        "texto": "20 m"
       },
       {
         "letra": "B",
-        "texto": "30 m"
+        "texto": "120 m"
       },
       {
         "letra": "C",
-        "texto": "113 m"
+        "texto": "10 m"
       },
       {
         "letra": "D",
-        "texto": "225 m"
+        "texto": "100 m"
       },
       {
         "letra": "E",
-        "texto": "15 m"
+        "texto": "50 m"
       }
     ],
     "correta": "D",
-    "explicacao": "O tempo do ponto de máximo é t = −b/(2a) = −30/(2×-1) = 15 s. Substituindo: h(15) = -1×15² + 30×15 = 225 m."
+    "explicacao": "O tempo do ponto de máximo é t = −b/(2a) = −20/(2×-1) = 10 s. Substituindo: h(10) = -1×10² + 20×10 = 100 m."
   },
   {
-    "id": "funcao-quadratica-ined-0193",
-    "categoriaId": "funcao-quadratica",
-    "subtopico": "Pontos de Máximo e Mínimo",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma loja vende 377 unidades de um produto por mês ao preço de R$ 31,00. Estudos mostram que, a cada R$ 1,00 de aumento no preço, 10 unidades deixam de ser vendidas por mês. Qual deve ser o preço de venda para maximizar a receita mensal?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "R$ 24,00"
-      },
-      {
-        "letra": "B",
-        "texto": "R$ 44,00"
-      },
-      {
-        "letra": "C",
-        "texto": "R$ 34,00"
-      },
-      {
-        "letra": "D",
-        "texto": "R$ 31,00"
-      },
-      {
-        "letra": "E",
-        "texto": "R$ 11.798,00"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "Sendo x o aumento no preço, a receita é R(x) = (31 + x)(377 − 10x), uma função quadrática com concavidade para baixo. O máximo ocorre no vértice, em x = 3, resultando no preço ótimo de R$ 34,00."
-  },
-  {
-    "id": "funcao-quadratica-ined-0194",
-    "categoriaId": "funcao-quadratica",
-    "subtopico": "Vértice da Parábola",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "A altura h, em metros, de um projétil em função do tempo t, em segundos, é dada por h(t) = -1t² + 16t. Qual é a altura máxima atingida pelo projétil?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "80 m"
-      },
-      {
-        "letra": "B",
-        "texto": "64 m"
-      },
-      {
-        "letra": "C",
-        "texto": "32 m"
-      },
-      {
-        "letra": "D",
-        "texto": "16 m"
-      },
-      {
-        "letra": "E",
-        "texto": "8 m"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "O tempo do ponto de máximo é t = −b/(2a) = −16/(2×-1) = 8 s. Substituindo: h(8) = -1×8² + 16×8 = 64 m."
-  },
-  {
-    "id": "funcao-quadratica-ined-0195",
-    "categoriaId": "funcao-quadratica",
-    "subtopico": "Pontos de Máximo e Mínimo",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma loja vende 185 unidades de um produto por mês ao preço de R$ 38,00. Estudos mostram que, a cada R$ 1,00 de aumento no preço, 2 unidades deixam de ser vendidas por mês. Qual deve ser o preço de venda para maximizar a receita mensal?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "R$ 63,00"
-      },
-      {
-        "letra": "B",
-        "texto": "R$ 65,00"
-      },
-      {
-        "letra": "C",
-        "texto": "R$ 8.515,00"
-      },
-      {
-        "letra": "D",
-        "texto": "R$ 38,00"
-      },
-      {
-        "letra": "E",
-        "texto": "R$ 67,00"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "Sendo x o aumento no preço, a receita é R(x) = (38 + x)(185 − 2x), uma função quadrática com concavidade para baixo. O máximo ocorre no vértice, em x = 27, resultando no preço ótimo de R$ 65,00."
-  },
-  {
-    "id": "funcao-quadratica-ined-0196",
+    "id": "funcao-quadratica-ined-0018",
     "categoriaId": "funcao-quadratica",
     "subtopico": "Vértice da Parábola",
     "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "A altura h, em metros, de um projétil em função do tempo t, em segundos, é dada por h(t) = -1t² + 42t. Qual é a altura máxima atingida pelo projétil?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "483 m"
-      },
-      {
-        "letra": "B",
-        "texto": "21 m"
-      },
-      {
-        "letra": "C",
-        "texto": "221 m"
-      },
-      {
-        "letra": "D",
-        "texto": "42 m"
-      },
-      {
-        "letra": "E",
-        "texto": "441 m"
-      }
-    ],
-    "correta": "E",
-    "explicacao": "O tempo do ponto de máximo é t = −b/(2a) = −42/(2×-1) = 21 s. Substituindo: h(21) = -1×21² + 42×21 = 441 m."
-  },
-  {
-    "id": "funcao-quadratica-ined-0197",
-    "categoriaId": "funcao-quadratica",
-    "subtopico": "Pontos de Máximo e Mínimo",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma loja vende 144 unidades de um produto por mês ao preço de R$ 10,00. Estudos mostram que, a cada R$ 1,00 de aumento no preço, 4 unidades deixam de ser vendidas por mês. Qual deve ser o preço de venda para maximizar a receita mensal?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "R$ 27,00"
-      },
-      {
-        "letra": "B",
-        "texto": "R$ 23,00"
-      },
-      {
-        "letra": "C",
-        "texto": "R$ 2.116,00"
-      },
-      {
-        "letra": "D",
-        "texto": "R$ 10,00"
-      },
-      {
-        "letra": "E",
-        "texto": "R$ 19,00"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "Sendo x o aumento no preço, a receita é R(x) = (10 + x)(144 − 4x), uma função quadrática com concavidade para baixo. O máximo ocorre no vértice, em x = 13, resultando no preço ótimo de R$ 23,00."
-  },
-  {
-    "id": "funcao-quadratica-ined-0198",
-    "categoriaId": "funcao-quadratica",
-    "subtopico": "Vértice da Parábola",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "A altura h, em metros, de um projétil em função do tempo t, em segundos, é dada por h(t) = -1t² + 46t. Qual é a altura máxima atingida pelo projétil?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "529 m"
-      },
-      {
-        "letra": "B",
-        "texto": "46 m"
-      },
-      {
-        "letra": "C",
-        "texto": "23 m"
-      },
-      {
-        "letra": "D",
-        "texto": "575 m"
-      },
-      {
-        "letra": "E",
-        "texto": "265 m"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "O tempo do ponto de máximo é t = −b/(2a) = −46/(2×-1) = 23 s. Substituindo: h(23) = -1×23² + 46×23 = 529 m."
-  },
-  {
-    "id": "funcao-quadratica-ined-0199",
-    "categoriaId": "funcao-quadratica",
-    "subtopico": "Pontos de Máximo e Mínimo",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma loja vende 166 unidades de um produto por mês ao preço de R$ 24,00. Estudos mostram que, a cada R$ 1,00 de aumento no preço, 4 unidades deixam de ser vendidas por mês. Qual deve ser o preço de venda para maximizar a receita mensal?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "R$ 37,00"
-      },
-      {
-        "letra": "B",
-        "texto": "R$ 33,00"
-      },
-      {
-        "letra": "C",
-        "texto": "R$ 4.290,00"
-      },
-      {
-        "letra": "D",
-        "texto": "R$ 29,00"
-      },
-      {
-        "letra": "E",
-        "texto": "R$ 24,00"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "Sendo x o aumento no preço, a receita é R(x) = (24 + x)(166 − 4x), uma função quadrática com concavidade para baixo. O máximo ocorre no vértice, em x = 9, resultando no preço ótimo de R$ 33,00."
-  },
-  {
-    "id": "funcao-quadratica-ined-0200",
-    "categoriaId": "funcao-quadratica",
-    "subtopico": "Vértice da Parábola",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "A altura h, em metros, de um projétil em função do tempo t, em segundos, é dada por h(t) = -1t² + 26t. Qual é a altura máxima atingida pelo projétil?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "195 m"
-      },
-      {
-        "letra": "B",
-        "texto": "85 m"
-      },
-      {
-        "letra": "C",
-        "texto": "26 m"
-      },
-      {
-        "letra": "D",
-        "texto": "13 m"
-      },
-      {
-        "letra": "E",
-        "texto": "169 m"
-      }
-    ],
-    "correta": "E",
-    "explicacao": "O tempo do ponto de máximo é t = −b/(2a) = −26/(2×-1) = 13 s. Substituindo: h(13) = -1×13² + 26×13 = 169 m."
-  },
-  {
-    "id": "funcao-quadratica-ined-0201",
-    "categoriaId": "funcao-quadratica",
-    "subtopico": "Pontos de Máximo e Mínimo",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma loja vende 137 unidades de um produto por mês ao preço de R$ 20,00. Estudos mostram que, a cada R$ 1,00 de aumento no preço, 4 unidades deixam de ser vendidas por mês. Qual deve ser o preço de venda para maximizar a receita mensal?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "R$ 20,00"
-      },
-      {
-        "letra": "B",
-        "texto": "R$ 23,00"
-      },
-      {
-        "letra": "C",
-        "texto": "R$ 31,00"
-      },
-      {
-        "letra": "D",
-        "texto": "R$ 2.943,00"
-      },
-      {
-        "letra": "E",
-        "texto": "R$ 27,00"
-      }
-    ],
-    "correta": "E",
-    "explicacao": "Sendo x o aumento no preço, a receita é R(x) = (20 + x)(137 − 4x), uma função quadrática com concavidade para baixo. O máximo ocorre no vértice, em x = 7, resultando no preço ótimo de R$ 27,00."
-  },
-  {
-    "id": "funcao-quadratica-ined-0202",
-    "categoriaId": "funcao-quadratica",
-    "subtopico": "Vértice da Parábola",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "A altura h, em metros, de um projétil em função do tempo t, em segundos, é dada por h(t) = -1t² + 68t. Qual é a altura máxima atingida pelo projétil?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "1156 m"
-      },
-      {
-        "letra": "B",
-        "texto": "34 m"
-      },
-      {
-        "letra": "C",
-        "texto": "68 m"
-      },
-      {
-        "letra": "D",
-        "texto": "578 m"
-      },
-      {
-        "letra": "E",
-        "texto": "1224 m"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "O tempo do ponto de máximo é t = −b/(2a) = −68/(2×-1) = 34 s. Substituindo: h(34) = -1×34² + 68×34 = 1156 m."
-  },
-  {
-    "id": "funcao-quadratica-ined-0203",
-    "categoriaId": "funcao-quadratica",
-    "subtopico": "Pontos de Máximo e Mínimo",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma loja vende 140 unidades de um produto por mês ao preço de R$ 48,00. Estudos mostram que, a cada R$ 1,00 de aumento no preço, 2 unidades deixam de ser vendidas por mês. Qual deve ser o preço de venda para maximizar a receita mensal?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "R$ 61,00"
-      },
-      {
-        "letra": "B",
-        "texto": "R$ 6.962,00"
-      },
-      {
-        "letra": "C",
-        "texto": "R$ 48,00"
-      },
-      {
-        "letra": "D",
-        "texto": "R$ 59,00"
-      },
-      {
-        "letra": "E",
-        "texto": "R$ 57,00"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "Sendo x o aumento no preço, a receita é R(x) = (48 + x)(140 − 2x), uma função quadrática com concavidade para baixo. O máximo ocorre no vértice, em x = 11, resultando no preço ótimo de R$ 59,00."
-  },
-  {
-    "id": "funcao-quadratica-ined-0205",
-    "categoriaId": "funcao-quadratica",
-    "subtopico": "Pontos de Máximo e Mínimo",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma loja vende 334 unidades de um produto por mês ao preço de R$ 21,00. Estudos mostram que, a cada R$ 1,00 de aumento no preço, 10 unidades deixam de ser vendidas por mês. Qual deve ser o preço de venda para maximizar a receita mensal?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "R$ 37,00"
-      },
-      {
-        "letra": "B",
-        "texto": "R$ 27,00"
-      },
-      {
-        "letra": "C",
-        "texto": "R$ 21,00"
-      },
-      {
-        "letra": "D",
-        "texto": "R$ 7.398,00"
-      },
-      {
-        "letra": "E",
-        "texto": "R$ 17,00"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "Sendo x o aumento no preço, a receita é R(x) = (21 + x)(334 − 10x), uma função quadrática com concavidade para baixo. O máximo ocorre no vértice, em x = 6, resultando no preço ótimo de R$ 27,00."
-  },
-  {
-    "id": "funcao-quadratica-ined-0207",
-    "categoriaId": "funcao-quadratica",
-    "subtopico": "Pontos de Máximo e Mínimo",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma loja vende 187 unidades de um produto por mês ao preço de R$ 34,00. Estudos mostram que, a cada R$ 1,00 de aumento no preço, 4 unidades deixam de ser vendidas por mês. Qual deve ser o preço de venda para maximizar a receita mensal?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "R$ 40,00"
-      },
-      {
-        "letra": "B",
-        "texto": "R$ 36,00"
-      },
-      {
-        "letra": "C",
-        "texto": "R$ 6.520,00"
-      },
-      {
-        "letra": "D",
-        "texto": "R$ 44,00"
-      },
-      {
-        "letra": "E",
-        "texto": "R$ 34,00"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "Sendo x o aumento no preço, a receita é R(x) = (34 + x)(187 − 4x), uma função quadrática com concavidade para baixo. O máximo ocorre no vértice, em x = 6, resultando no preço ótimo de R$ 40,00."
-  },
-  {
-    "id": "funcao-quadratica-ined-0208",
-    "categoriaId": "funcao-quadratica",
-    "subtopico": "Vértice da Parábola",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "A altura h, em metros, de um projétil em função do tempo t, em segundos, é dada por h(t) = -1t² + 62t. Qual é a altura máxima atingida pelo projétil?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "1023 m"
-      },
-      {
-        "letra": "B",
-        "texto": "961 m"
-      },
-      {
-        "letra": "C",
-        "texto": "31 m"
-      },
-      {
-        "letra": "D",
-        "texto": "481 m"
-      },
-      {
-        "letra": "E",
-        "texto": "62 m"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "O tempo do ponto de máximo é t = −b/(2a) = −62/(2×-1) = 31 s. Substituindo: h(31) = -1×31² + 62×31 = 961 m."
-  },
-  {
-    "id": "funcao-quadratica-ined-0209",
-    "categoriaId": "funcao-quadratica",
-    "subtopico": "Pontos de Máximo e Mínimo",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma loja vende 86 unidades de um produto por mês ao preço de R$ 37,00. Estudos mostram que, a cada R$ 1,00 de aumento no preço, 2 unidades deixam de ser vendidas por mês. Qual deve ser o preço de venda para maximizar a receita mensal?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "R$ 3.200,00"
-      },
-      {
-        "letra": "B",
-        "texto": "R$ 37,00"
-      },
-      {
-        "letra": "C",
-        "texto": "R$ 40,00"
-      },
-      {
-        "letra": "D",
-        "texto": "R$ 38,00"
-      },
-      {
-        "letra": "E",
-        "texto": "R$ 42,00"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "Sendo x o aumento no preço, a receita é R(x) = (37 + x)(86 − 2x), uma função quadrática com concavidade para baixo. O máximo ocorre no vértice, em x = 3, resultando no preço ótimo de R$ 40,00."
-  },
-  {
-    "id": "funcao-quadratica-ined-0210",
-    "categoriaId": "funcao-quadratica",
-    "subtopico": "Vértice da Parábola",
-    "dificuldade": "medio",
     "fonte": {
       "tipo": "inedita"
     },
@@ -1171,11 +185,11 @@
       },
       {
         "letra": "B",
-        "texto": "676 m"
+        "texto": "728 m"
       },
       {
         "letra": "C",
-        "texto": "52 m"
+        "texto": "676 m"
       },
       {
         "letra": "D",
@@ -1183,384 +197,10 @@
       },
       {
         "letra": "E",
-        "texto": "728 m"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "O tempo do ponto de máximo é t = −b/(2a) = −52/(2×-1) = 26 s. Substituindo: h(26) = -1×26² + 52×26 = 676 m."
-  },
-  {
-    "id": "funcao-quadratica-ined-0211",
-    "categoriaId": "funcao-quadratica",
-    "subtopico": "Pontos de Máximo e Mínimo",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma loja vende 224 unidades de um produto por mês ao preço de R$ 53,00. Estudos mostram que, a cada R$ 1,00 de aumento no preço, 4 unidades deixam de ser vendidas por mês. Qual deve ser o preço de venda para maximizar a receita mensal?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "R$ 55,00"
-      },
-      {
-        "letra": "B",
-        "texto": "R$ 11.880,00"
-      },
-      {
-        "letra": "C",
-        "texto": "R$ 59,00"
-      },
-      {
-        "letra": "D",
-        "texto": "R$ 51,00"
-      },
-      {
-        "letra": "E",
-        "texto": "R$ 53,00"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "Sendo x o aumento no preço, a receita é R(x) = (53 + x)(224 − 4x), uma função quadrática com concavidade para baixo. O máximo ocorre no vértice, em x = 2, resultando no preço ótimo de R$ 55,00."
-  },
-  {
-    "id": "funcao-quadratica-ined-0212",
-    "categoriaId": "funcao-quadratica",
-    "subtopico": "Vértice da Parábola",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "A altura h, em metros, de um projétil em função do tempo t, em segundos, é dada por h(t) = -1t² + 10t. Qual é a altura máxima atingida pelo projétil?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "10 m"
-      },
-      {
-        "letra": "B",
-        "texto": "35 m"
-      },
-      {
-        "letra": "C",
-        "texto": "5 m"
-      },
-      {
-        "letra": "D",
-        "texto": "25 m"
-      },
-      {
-        "letra": "E",
-        "texto": "13 m"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "O tempo do ponto de máximo é t = −b/(2a) = −10/(2×-1) = 5 s. Substituindo: h(5) = -1×5² + 10×5 = 25 m."
-  },
-  {
-    "id": "funcao-quadratica-ined-0213",
-    "categoriaId": "funcao-quadratica",
-    "subtopico": "Pontos de Máximo e Mínimo",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma loja vende 147 unidades de um produto por mês ao preço de R$ 21,00. Estudos mostram que, a cada R$ 1,00 de aumento no preço, 4 unidades deixam de ser vendidas por mês. Qual deve ser o preço de venda para maximizar a receita mensal?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "R$ 29,00"
-      },
-      {
-        "letra": "B",
-        "texto": "R$ 33,00"
-      },
-      {
-        "letra": "C",
-        "texto": "R$ 21,00"
-      },
-      {
-        "letra": "D",
-        "texto": "R$ 3.335,00"
-      },
-      {
-        "letra": "E",
-        "texto": "R$ 25,00"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "Sendo x o aumento no preço, a receita é R(x) = (21 + x)(147 − 4x), uma função quadrática com concavidade para baixo. O máximo ocorre no vértice, em x = 8, resultando no preço ótimo de R$ 29,00."
-  },
-  {
-    "id": "funcao-quadratica-ined-0214",
-    "categoriaId": "funcao-quadratica",
-    "subtopico": "Vértice da Parábola",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "A altura h, em metros, de um projétil em função do tempo t, em segundos, é dada por h(t) = -5t² + 40t. Qual é a altura máxima atingida pelo projétil?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "80 m"
-      },
-      {
-        "letra": "B",
-        "texto": "4 m"
-      },
-      {
-        "letra": "C",
-        "texto": "120 m"
-      },
-      {
-        "letra": "D",
-        "texto": "40 m"
-      },
-      {
-        "letra": "E",
-        "texto": "5 m"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "O tempo do ponto de máximo é t = −b/(2a) = −40/(2×-5) = 4 s. Substituindo: h(4) = -5×4² + 40×4 = 80 m."
-  },
-  {
-    "id": "funcao-quadratica-ined-0215",
-    "categoriaId": "funcao-quadratica",
-    "subtopico": "Pontos de Máximo e Mínimo",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma loja vende 170 unidades de um produto por mês ao preço de R$ 29,00. Estudos mostram que, a cada R$ 1,00 de aumento no preço, 2 unidades deixam de ser vendidas por mês. Qual deve ser o preço de venda para maximizar a receita mensal?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "R$ 55,00"
-      },
-      {
-        "letra": "B",
-        "texto": "R$ 29,00"
-      },
-      {
-        "letra": "C",
-        "texto": "R$ 57,00"
-      },
-      {
-        "letra": "D",
-        "texto": "R$ 6.498,00"
-      },
-      {
-        "letra": "E",
-        "texto": "R$ 59,00"
+        "texto": "52 m"
       }
     ],
     "correta": "C",
-    "explicacao": "Sendo x o aumento no preço, a receita é R(x) = (29 + x)(170 − 2x), uma função quadrática com concavidade para baixo. O máximo ocorre no vértice, em x = 28, resultando no preço ótimo de R$ 57,00."
-  },
-  {
-    "id": "funcao-quadratica-ined-0216",
-    "categoriaId": "funcao-quadratica",
-    "subtopico": "Vértice da Parábola",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "A altura h, em metros, de um projétil em função do tempo t, em segundos, é dada por h(t) = -1t² + 36t. Qual é a altura máxima atingida pelo projétil?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "36 m"
-      },
-      {
-        "letra": "B",
-        "texto": "18 m"
-      },
-      {
-        "letra": "C",
-        "texto": "162 m"
-      },
-      {
-        "letra": "D",
-        "texto": "360 m"
-      },
-      {
-        "letra": "E",
-        "texto": "324 m"
-      }
-    ],
-    "correta": "E",
-    "explicacao": "O tempo do ponto de máximo é t = −b/(2a) = −36/(2×-1) = 18 s. Substituindo: h(18) = -1×18² + 36×18 = 324 m."
-  },
-  {
-    "id": "funcao-quadratica-ined-0217",
-    "categoriaId": "funcao-quadratica",
-    "subtopico": "Pontos de Máximo e Mínimo",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma loja vende 321 unidades de um produto por mês ao preço de R$ 27,00. Estudos mostram que, a cada R$ 1,00 de aumento no preço, 4 unidades deixam de ser vendidas por mês. Qual deve ser o preço de venda para maximizar a receita mensal?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "R$ 27,00"
-      },
-      {
-        "letra": "B",
-        "texto": "R$ 50,00"
-      },
-      {
-        "letra": "C",
-        "texto": "R$ 58,00"
-      },
-      {
-        "letra": "D",
-        "texto": "R$ 54,00"
-      },
-      {
-        "letra": "E",
-        "texto": "R$ 11.502,00"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "Sendo x o aumento no preço, a receita é R(x) = (27 + x)(321 − 4x), uma função quadrática com concavidade para baixo. O máximo ocorre no vértice, em x = 27, resultando no preço ótimo de R$ 54,00."
-  },
-  {
-    "id": "funcao-quadratica-ined-0219",
-    "categoriaId": "funcao-quadratica",
-    "subtopico": "Pontos de Máximo e Mínimo",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma loja vende 106 unidades de um produto por mês ao preço de R$ 41,00. Estudos mostram que, a cada R$ 1,00 de aumento no preço, 2 unidades deixam de ser vendidas por mês. Qual deve ser o preço de venda para maximizar a receita mensal?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "R$ 49,00"
-      },
-      {
-        "letra": "B",
-        "texto": "R$ 41,00"
-      },
-      {
-        "letra": "C",
-        "texto": "R$ 4.418,00"
-      },
-      {
-        "letra": "D",
-        "texto": "R$ 47,00"
-      },
-      {
-        "letra": "E",
-        "texto": "R$ 45,00"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "Sendo x o aumento no preço, a receita é R(x) = (41 + x)(106 − 2x), uma função quadrática com concavidade para baixo. O máximo ocorre no vértice, em x = 6, resultando no preço ótimo de R$ 47,00."
-  },
-  {
-    "id": "funcao-quadratica-ined-0220",
-    "categoriaId": "funcao-quadratica",
-    "subtopico": "Vértice da Parábola",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "A altura h, em metros, de um projétil em função do tempo t, em segundos, é dada por h(t) = -1t² + 80t. Qual é a altura máxima atingida pelo projétil?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "1600 m"
-      },
-      {
-        "letra": "B",
-        "texto": "1680 m"
-      },
-      {
-        "letra": "C",
-        "texto": "40 m"
-      },
-      {
-        "letra": "D",
-        "texto": "800 m"
-      },
-      {
-        "letra": "E",
-        "texto": "80 m"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "O tempo do ponto de máximo é t = −b/(2a) = −80/(2×-1) = 40 s. Substituindo: h(40) = -1×40² + 80×40 = 1600 m."
-  },
-  {
-    "id": "funcao-quadratica-ined-0221",
-    "categoriaId": "funcao-quadratica",
-    "subtopico": "Pontos de Máximo e Mínimo",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma loja vende 180 unidades de um produto por mês ao preço de R$ 35,00. Estudos mostram que, a cada R$ 1,00 de aumento no preço, 4 unidades deixam de ser vendidas por mês. Qual deve ser o preço de venda para maximizar a receita mensal?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "R$ 35,00"
-      },
-      {
-        "letra": "B",
-        "texto": "R$ 40,00"
-      },
-      {
-        "letra": "C",
-        "texto": "R$ 36,00"
-      },
-      {
-        "letra": "D",
-        "texto": "R$ 44,00"
-      },
-      {
-        "letra": "E",
-        "texto": "R$ 6.400,00"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "Sendo x o aumento no preço, a receita é R(x) = (35 + x)(180 − 4x), uma função quadrática com concavidade para baixo. O máximo ocorre no vértice, em x = 5, resultando no preço ótimo de R$ 40,00."
-  },
-  {
-    "id": "funcao-quadratica-ined-0222",
-    "categoriaId": "funcao-quadratica",
-    "subtopico": "Vértice da Parábola",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "A altura h, em metros, de um projétil em função do tempo t, em segundos, é dada por h(t) = -1t² + 28t. Qual é a altura máxima atingida pelo projétil?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "196 m"
-      },
-      {
-        "letra": "B",
-        "texto": "224 m"
-      },
-      {
-        "letra": "C",
-        "texto": "28 m"
-      },
-      {
-        "letra": "D",
-        "texto": "98 m"
-      },
-      {
-        "letra": "E",
-        "texto": "14 m"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "O tempo do ponto de máximo é t = −b/(2a) = −28/(2×-1) = 14 s. Substituindo: h(14) = -1×14² + 28×14 = 196 m."
+    "explicacao": "O tempo do ponto de máximo é t = −b/(2a) = −52/(2×-1) = 26 s. Substituindo: h(26) = -1×26² + 52×26 = 676 m."
   }
 ]

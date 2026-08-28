@@ -29,3 +29,17 @@ test("shuffle é determinístico após resetRng", () => {
   const b = shuffle([1, 2, 3, 4, 5, 6, 7, 8]);
   assert.deepEqual(a, b);
 });
+
+import { execFileSync } from "node:child_process";
+import fs from "node:fs";
+import path from "node:path";
+
+test("generate.mjs produz saída idêntica em duas execuções", () => {
+  const dir = path.join(import.meta.dirname, "..", "src", "data", "questions");
+  const files = fs.readdirSync(dir).filter((f) => f.endsWith(".json") && f !== "real.json" && f !== "banco.json");
+  const hash = () => files.map((f) => fs.readFileSync(path.join(dir, f), "utf-8")).join(" ");
+  execFileSync("node", ["scripts/generate.mjs"], { cwd: path.join(import.meta.dirname, "..") });
+  const first = hash();
+  execFileSync("node", ["scripts/generate.mjs"], { cwd: path.join(import.meta.dirname, "..") });
+  assert.equal(hash(), first);
+});
