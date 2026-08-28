@@ -1,4 +1,4 @@
-import { randInt, randFloat, pick, brl, pct, makeQuestao, gcd } from "./helpers.mjs";
+import { randInt, randFloat, pick, shuffle, brl, pct, makeQuestao, gcd } from "./helpers.mjs";
 
 function mmc(a, b) {
   return (a * b) / gcd(a, b);
@@ -912,6 +912,370 @@ function matDeterminante(dificuldade) {
   });
 }
 
+// ---------- MATRIZES (moldes adicionais) ----------
+const _MAT_POOL5 = [-5, -4, -3, -2, -1, 1, 2, 3, 4, 5];
+const _MAT_POOL9 = [-9, -8, -7, -6, -5, -4, -3, -2, -1, 1, 2, 3, 4, 5, 6, 7, 8, 9];
+function _matDistintos(valores) {
+  return new Set(valores.map((v) => String(v))).size === valores.length;
+}
+function _matMat2(M) {
+  return `[[${M[0][0]}, ${M[0][1]}], [${M[1][0]}, ${M[1][1]}]]`;
+}
+function _matQuatroValores() {
+  return shuffle(_MAT_POOL9).slice(0, 4);
+}
+
+function matDeterminante3x3(dificuldade, tentativa = 0) {
+  const lin = () => [randInt(-5, 5), randInt(-5, 5), randInt(-5, 5)];
+  const [a, b, c] = lin();
+  const [d, e, f] = lin();
+  const [g, h, i] = lin();
+  const pos = a * e * i + b * f * g + c * d * h;
+  const neg = c * e * g + a * f * h + b * d * i;
+  const det = pos - neg;
+  const naive = a * e * i - c * e * g;
+  if (tentativa < 40 && !_matDistintos([det, -det, pos + neg, naive, pos]))
+    return matDeterminante3x3(dificuldade, tentativa + 1);
+  return makeQuestao({
+    categoriaId: "matrizes",
+    subtopico: "Determinantes",
+    dificuldade,
+    enunciado: `Considere a matriz de ordem 3: A = [[${a}, ${b}, ${c}], [${d}, ${e}, ${f}], [${g}, ${h}, ${i}]]. Aplicando a Regra de Sarrus, qual é o determinante de A?`,
+    correctText: `${det}`,
+    distractorTexts: [`${-det}`, `${pos + neg}`, `${naive}`, `${pos}`],
+    explicacao: `Pela Regra de Sarrus, det(A) é a soma dos produtos das diagonais no sentido principal menos a soma no sentido secundário: (${a}·${e}·${i} + ${b}·${f}·${g} + ${c}·${d}·${h}) − (${c}·${e}·${g} + ${a}·${f}·${h} + ${b}·${d}·${i}) = (${pos}) − (${neg}) = ${det}.`,
+  });
+}
+
+function matSoma(dificuldade, tentativa = 0) {
+  const A = [[pick(_MAT_POOL9), pick(_MAT_POOL9)], [pick(_MAT_POOL9), pick(_MAT_POOL9)]];
+  const B = [[pick(_MAT_POOL9), pick(_MAT_POOL9)], [pick(_MAT_POOL9), pick(_MAT_POOL9)]];
+  const i = randInt(0, 1), j = randInt(0, 1);
+  const x = A[i][j], y = B[i][j];
+  const correct = x + y;
+  const distr = [x - y, y - x, x, y];
+  if (tentativa < 40 && !_matDistintos([correct, ...distr]))
+    return matSoma(dificuldade, tentativa + 1);
+  return makeQuestao({
+    categoriaId: "matrizes",
+    subtopico: "Operações com Matrizes",
+    dificuldade,
+    enunciado: `Sejam as matrizes A = ${_matMat2(A)} e B = ${_matMat2(B)}. Se C = A + B, qual é o elemento da linha ${i + 1}, coluna ${j + 1} da matriz C?`,
+    correctText: `${correct}`,
+    distractorTexts: distr.map((v) => `${v}`),
+    explicacao: `Na soma de matrizes somam-se os elementos de mesma posição: c(${i + 1},${j + 1}) = a(${i + 1},${j + 1}) + b(${i + 1},${j + 1}) = (${x}) + (${y}) = ${correct}.`,
+  });
+}
+
+function matSubtracao(dificuldade, tentativa = 0) {
+  const A = [[pick(_MAT_POOL9), pick(_MAT_POOL9)], [pick(_MAT_POOL9), pick(_MAT_POOL9)]];
+  const B = [[pick(_MAT_POOL9), pick(_MAT_POOL9)], [pick(_MAT_POOL9), pick(_MAT_POOL9)]];
+  const i = randInt(0, 1), j = randInt(0, 1);
+  const x = A[i][j], y = B[i][j];
+  const correct = x - y;
+  const distr = [y - x, x + y, x, y];
+  if (tentativa < 40 && !_matDistintos([correct, ...distr]))
+    return matSubtracao(dificuldade, tentativa + 1);
+  return makeQuestao({
+    categoriaId: "matrizes",
+    subtopico: "Operações com Matrizes",
+    dificuldade,
+    enunciado: `Sejam as matrizes A = ${_matMat2(A)} e B = ${_matMat2(B)}. Se C = A − B, qual é o elemento da linha ${i + 1}, coluna ${j + 1} da matriz C?`,
+    correctText: `${correct}`,
+    distractorTexts: distr.map((v) => `${v}`),
+    explicacao: `Na subtração de matrizes subtraem-se os elementos de mesma posição, na ordem A − B: c(${i + 1},${j + 1}) = a(${i + 1},${j + 1}) − b(${i + 1},${j + 1}) = (${x}) − (${y}) = ${correct}.`,
+  });
+}
+
+function matEscalar(dificuldade, tentativa = 0) {
+  const k = pick([2, 3, 4, 5]);
+  const filt = _MAT_POOL9.filter((v) => Math.abs(v) >= 3);
+  const A = [[pick(filt), pick(filt)], [pick(filt), pick(filt)]];
+  const i = randInt(0, 1), j = randInt(0, 1);
+  const a = A[i][j];
+  const correct = k * a;
+  const distr = [a + k, a, k, -k * a];
+  if (tentativa < 40 && !_matDistintos([correct, ...distr]))
+    return matEscalar(dificuldade, tentativa + 1);
+  return makeQuestao({
+    categoriaId: "matrizes",
+    subtopico: "Operações com Matrizes",
+    dificuldade,
+    enunciado: `Considere a matriz A = ${_matMat2(A)} e o número real k = ${k}. Qual é o elemento da linha ${i + 1}, coluna ${j + 1} da matriz k·A?`,
+    correctText: `${correct}`,
+    distractorTexts: distr.map((v) => `${v}`),
+    explicacao: `Na multiplicação de uma matriz por um escalar, cada elemento é multiplicado por k. O elemento pedido vale ${k} · (${a}) = ${correct}.`,
+  });
+}
+
+function matProduto(dificuldade, tentativa = 0) {
+  const p5 = _MAT_POOL5;
+  const A = [[pick(p5), pick(p5)], [pick(p5), pick(p5)]];
+  const B = [[pick(p5), pick(p5)], [pick(p5), pick(p5)]];
+  const i = randInt(0, 1), j = randInt(0, 1);
+  const correct = A[i][0] * B[0][j] + A[i][1] * B[1][j];
+  const distr = [
+    A[i][j] * B[i][j],
+    A[i][0] * B[0][j],
+    A[i][0] * B[j][0] + A[i][1] * B[j][1],
+    A[i][0] * B[0][j] - A[i][1] * B[1][j],
+  ];
+  if (tentativa < 40 && !_matDistintos([correct, ...distr]))
+    return matProduto(dificuldade, tentativa + 1);
+  return makeQuestao({
+    categoriaId: "matrizes",
+    subtopico: "Operações com Matrizes",
+    dificuldade,
+    enunciado: `Sejam A = ${_matMat2(A)} e B = ${_matMat2(B)}. No produto C = A · B, qual é o elemento da linha ${i + 1}, coluna ${j + 1} de C?`,
+    correctText: `${correct}`,
+    distractorTexts: distr.map((v) => `${v}`),
+    explicacao: `O elemento c(${i + 1},${j + 1}) é a soma dos produtos da linha ${i + 1} de A pela coluna ${j + 1} de B: (${A[i][0]})·(${B[0][j]}) + (${A[i][1]})·(${B[1][j]}) = ${A[i][0] * B[0][j]} + ${A[i][1] * B[1][j]} = ${correct}.`,
+  });
+}
+
+function matTransposta(dificuldade, tentativa = 0) {
+  const [v1, v2, v3, v4] = _matQuatroValores();
+  const A = [[v1, v2], [v3, v4]];
+  const [i, j] = pick([[0, 1], [1, 0]]);
+  const correct = A[j][i];
+  const distr = [A[i][j], A[i][i], A[j][j], -A[j][i]];
+  if (tentativa < 40 && !_matDistintos([correct, ...distr]))
+    return matTransposta(dificuldade, tentativa + 1);
+  return makeQuestao({
+    categoriaId: "matrizes",
+    subtopico: "Operações com Matrizes",
+    dificuldade,
+    enunciado: `Dada a matriz A = ${_matMat2(A)}, seja Aᵀ a sua transposta. Qual é o elemento da linha ${i + 1}, coluna ${j + 1} de Aᵀ?`,
+    correctText: `${correct}`,
+    distractorTexts: distr.map((v) => `${v}`),
+    explicacao: `Na transposta, linhas viram colunas: o elemento da posição (${i + 1},${j + 1}) de Aᵀ é igual ao da posição (${j + 1},${i + 1}) de A, que vale ${correct}.`,
+  });
+}
+
+function matTraco(dificuldade, tentativa = 0) {
+  const m = Array.from({ length: 3 }, () => [randInt(-9, 9), randInt(-9, 9), randInt(-9, 9)]);
+  m[0][0] = pick(_MAT_POOL9);
+  m[1][1] = pick(_MAT_POOL9);
+  m[2][2] = pick(_MAT_POOL9);
+  const tr = m[0][0] + m[1][1] + m[2][2];
+  const somaTudo = m.flat().reduce((s, v) => s + v, 0);
+  const antiDiag = m[0][2] + m[1][1] + m[2][0];
+  const prodDiag = m[0][0] * m[1][1] * m[2][2];
+  const semMeio = m[0][0] + m[2][2];
+  const distr = [somaTudo, antiDiag, prodDiag, semMeio];
+  if (tentativa < 40 && !_matDistintos([tr, ...distr]))
+    return matTraco(dificuldade, tentativa + 1);
+  return makeQuestao({
+    categoriaId: "matrizes",
+    subtopico: "Operações com Matrizes",
+    dificuldade,
+    enunciado: `Considere a matriz quadrada M = [[${m[0][0]}, ${m[0][1]}, ${m[0][2]}], [${m[1][0]}, ${m[1][1]}, ${m[1][2]}], [${m[2][0]}, ${m[2][1]}, ${m[2][2]}]]. O traço de uma matriz é a soma dos elementos de sua diagonal principal. Qual é o traço de M?`,
+    correctText: `${tr}`,
+    distractorTexts: distr.map((v) => `${v}`),
+    explicacao: `A diagonal principal vai do canto superior esquerdo ao inferior direito: traço(M) = (${m[0][0]}) + (${m[1][1]}) + (${m[2][2]}) = ${tr}.`,
+  });
+}
+
+function matIgualdade(dificuldade, tentativa = 0) {
+  const x = randInt(1, 9), y = randInt(1, 9);
+  const p = randInt(2, 9);
+  const b12 = pick(_MAT_POOL9), b21 = pick(_MAT_POOL9);
+  const correct = x + y;
+  const distr = [x - y, x + p + 2 * y, x + 2 * y, x + p + y];
+  if (tentativa < 40 && !_matDistintos([correct, ...distr]))
+    return matIgualdade(dificuldade, tentativa + 1);
+  return makeQuestao({
+    categoriaId: "matrizes",
+    subtopico: "Operações com Matrizes",
+    dificuldade,
+    enunciado: `As matrizes A = [[x + ${p}, ${b12}], [${b21}, 2y]] e B = [[${x + p}, ${b12}], [${b21}, ${2 * y}]] são iguais. Qual é o valor de x + y?`,
+    correctText: `${correct}`,
+    distractorTexts: distr.map((v) => `${v}`),
+    explicacao: `Duas matrizes são iguais quando os elementos de mesma posição são iguais. Posição (1,1): x + ${p} = ${x + p} ⇒ x = ${x}. Posição (2,2): 2y = ${2 * y} ⇒ y = ${y}. Logo x + y = ${correct}.`,
+  });
+}
+
+const _MAT_LEIS = [
+  { txt: "2i − j", f: (i, j) => 2 * i - j, calc: (i, j) => `2·${i} − ${j}` },
+  { txt: "i + 2j", f: (i, j) => i + 2 * j, calc: (i, j) => `${i} + 2·${j}` },
+  { txt: "3i − j", f: (i, j) => 3 * i - j, calc: (i, j) => `3·${i} − ${j}` },
+  { txt: "2j − i", f: (i, j) => 2 * j - i, calc: (i, j) => `2·${j} − ${i}` },
+];
+function matLeiDeFormacao(dificuldade, tentativa = 0) {
+  const lei = pick(_MAT_LEIS);
+  const r = randInt(1, 3), s = randInt(1, 3);
+  const correct = lei.f(r, s);
+  const distr = [lei.f(s, r), r + s, r * s, -correct];
+  if (tentativa < 40 && (r === s || correct === 0 || !_matDistintos([correct, ...distr])))
+    return matLeiDeFormacao(dificuldade, tentativa + 1);
+  return makeQuestao({
+    categoriaId: "matrizes",
+    subtopico: "Operações com Matrizes",
+    dificuldade,
+    enunciado: `Uma matriz A = (a_ij) de ordem 3 tem seus elementos definidos pela lei de formação a_ij = ${lei.txt}, em que i indica a linha e j a coluna. Qual é o elemento a_${r}${s} dessa matriz?`,
+    correctText: `${correct}`,
+    distractorTexts: distr.map((v) => `${v}`),
+    explicacao: `Basta substituir i = ${r} (linha) e j = ${s} (coluna) na lei a_ij = ${lei.txt}: a_${r}${s} = ${lei.calc(r, s)} = ${correct}.`,
+  });
+}
+
+function matSimetrica(dificuldade, tentativa = 0) {
+  const x = randInt(2, 9);
+  const c = pick([-6, -5, -4, -3, -2, -1, 1, 2, 3, 4, 5, 6]);
+  const a21 = x + c;
+  const d1v = pick(_MAT_POOL9), d2v = pick(_MAT_POOL9);
+  const cStr = c >= 0 ? `+ ${c}` : `− ${-c}`;
+  const distr = [x + 2 * c, x + c, -x, c];
+  if (
+    tentativa < 40 &&
+    (x === c || x + c === 0 || 2 * x + c === 0 || a21 === 0 || !_matDistintos([x, ...distr]))
+  )
+    return matSimetrica(dificuldade, tentativa + 1);
+  return makeQuestao({
+    categoriaId: "matrizes",
+    subtopico: "Operações com Matrizes",
+    dificuldade,
+    enunciado: `A matriz A = [[${d1v}, x ${cStr}], [${a21}, ${d2v}]] é simétrica (igual à sua transposta). Qual é o valor de x?`,
+    correctText: `${x}`,
+    distractorTexts: distr.map((v) => `${v}`),
+    explicacao: `Em uma matriz simétrica, o elemento (1,2) é igual ao elemento (2,1). Então x ${cStr} = ${a21}, ou seja x = ${a21} ${c >= 0 ? "− " + c : "+ " + -c} = ${x}.`,
+  });
+}
+
+function matPotencia(dificuldade, tentativa = 0) {
+  const p5 = _MAT_POOL5;
+  const a = pick(p5), b = pick(p5), c = pick(p5), d = pick(p5);
+  const correct = a * a + b * c;
+  const distr = [a * a, a * a - b * c, a * a + b * d, a * a + 2 * b * c];
+  if (tentativa < 40 && (c === d || !_matDistintos([correct, ...distr])))
+    return matPotencia(dificuldade, tentativa + 1);
+  return makeQuestao({
+    categoriaId: "matrizes",
+    subtopico: "Operações com Matrizes",
+    dificuldade,
+    enunciado: `Considere a matriz A = ${_matMat2([[a, b], [c, d]])}. Calculando A² = A · A, qual é o elemento da linha 1, coluna 1 de A²?`,
+    correctText: `${correct}`,
+    distractorTexts: distr.map((v) => `${v}`),
+    explicacao: `O elemento (1,1) de A² é a 1ª linha de A multiplicada pela 1ª coluna de A: (${a})·(${a}) + (${b})·(${c}) = ${a * a} + ${b * c} = ${correct}.`,
+  });
+}
+
+function matInversa(dificuldade, tentativa = 0) {
+  const b = pick([-3, -2, 2, 3]), c = pick([-3, -2, 2, 3]);
+  const d = b * c - 1;
+  const correct = 1 - b * c;
+  const distr = [d, -1, b, b * c];
+  if (tentativa < 40 && !_matDistintos([correct, ...distr]))
+    return matInversa(dificuldade, tentativa + 1);
+  return makeQuestao({
+    categoriaId: "matrizes",
+    subtopico: "Determinantes",
+    dificuldade,
+    enunciado: `A matriz A = [[1, ${b}], [${c}, ${d}]] tem determinante igual a −1. Qual é o elemento da linha 1, coluna 1 da matriz inversa A⁻¹?`,
+    correctText: `${correct}`,
+    distractorTexts: distr.map((v) => `${v}`),
+    explicacao: `Para uma matriz 2×2 [[a, b], [c, d]], a inversa é A⁻¹ = (1/det)·[[d, −b], [−c, a]]. O elemento (1,1) é d/det = (${d})/(−1) = ${correct}.`,
+  });
+}
+
+function matDeterminanteComIncognita(dificuldade, tentativa = 0) {
+  const b = pick([2, 3, 4, 6]), c = pick([2, 3, 4, 6]);
+  const prod = b * c;
+  const cand = [2, 3, 4, 6].filter((k) => prod % k === 0 && prod / k >= 2 && prod / k <= 15);
+  const d = pick(cand);
+  const x = prod / d;
+  const distr = [prod, -x, prod - d, prod + d];
+  if (tentativa < 40 && !_matDistintos([x, ...distr]))
+    return matDeterminanteComIncognita(dificuldade, tentativa + 1);
+  return makeQuestao({
+    categoriaId: "matrizes",
+    subtopico: "Determinantes",
+    dificuldade,
+    enunciado: `O determinante da matriz A = [[x, ${b}], [${c}, ${d}]] é igual a zero. Qual é o valor de x?`,
+    correctText: `${x}`,
+    distractorTexts: distr.map((v) => `${v}`),
+    explicacao: `det(A) = x·${d} − ${b}·${c} = 0 ⇒ ${d}·x = ${prod} ⇒ x = ${prod} ÷ ${d} = ${x}.`,
+  });
+}
+
+function matCramer(dificuldade, tentativa = 0) {
+  const x = randInt(2, 9), y = randInt(2, 9);
+  const a1 = randInt(1, 5), b1 = randInt(1, 5), a2 = randInt(1, 5), b2 = randInt(1, 5);
+  const D = a1 * b2 - a2 * b1;
+  const c1 = a1 * x + b1 * y;
+  const c2 = a2 * x + b2 * y;
+  const Dx = c1 * b2 - c2 * b1;
+  const distr = [y, x + y, Dx, -x];
+  if (
+    tentativa < 40 &&
+    (Math.abs(D) < 2 || x === y || Dx / D !== x || !_matDistintos([x, ...distr]))
+  )
+    return matCramer(dificuldade, tentativa + 1);
+  return makeQuestao({
+    categoriaId: "matrizes",
+    subtopico: "Aplicações Práticas",
+    dificuldade,
+    enunciado: `Considere o sistema linear { ${a1}x + ${b1}y = ${c1} ; ${a2}x + ${b2}y = ${c2} }. Resolvendo-o pela Regra de Cramer, qual é o valor de x?`,
+    correctText: `${x}`,
+    distractorTexts: distr.map((v) => `${v}`),
+    explicacao: `Regra de Cramer: D = ${a1}·${b2} − ${a2}·${b1} = ${D}; Dx = ${c1}·${b2} − ${c2}·${b1} = ${Dx}. Então x = Dx / D = ${Dx} / ${D} = ${x}.`,
+  });
+}
+
+const _MAT_LOJAS = [["Loja Norte", "Loja Sul"], ["Filial Centro", "Filial Bairro"], ["Unidade A", "Unidade B"]];
+const _MAT_PRODUTOS = [
+  ["camisetas", "calças", "bonés"],
+  ["cadernos", "canetas", "mochilas"],
+  ["pães", "bolos", "tortas"],
+];
+function matFaturamento(dificuldade, tentativa = 0) {
+  const [l0, l1] = pick(_MAT_LOJAS);
+  const prods = pick(_MAT_PRODUTOS);
+  const Q = [
+    [randInt(3, 20), randInt(3, 20), randInt(3, 20)],
+    [randInt(3, 20), randInt(3, 20), randInt(3, 20)],
+  ];
+  const precos = [5, 10, 15, 20, 25, 30, 40];
+  const p = [pick(precos), pick(precos), pick(precos)];
+  const s = randInt(0, 1);
+  const rev = (r) => Q[r][0] * p[0] + Q[r][1] * p[1] + Q[r][2] * p[2];
+  const correct = rev(s);
+  const distr = [
+    rev(1 - s),
+    (Q[s][0] + Q[s][1] + Q[s][2]) * p[0],
+    Q[s][0] * p[0] + Q[s][1] * p[1],
+    Q[s][0] + Q[s][1] + Q[s][2] + p[0] + p[1] + p[2],
+  ];
+  if (tentativa < 40 && !_matDistintos([correct, ...distr]))
+    return matFaturamento(dificuldade, tentativa + 1);
+  const loja = s === 0 ? l0 : l1;
+  return makeQuestao({
+    categoriaId: "matrizes",
+    subtopico: "Aplicações Práticas",
+    dificuldade,
+    enunciado: `Uma rede registrou as quantidades vendidas de três produtos (${prods[0]}, ${prods[1]} e ${prods[2]}) em duas lojas na matriz Q = [[${Q[0][0]}, ${Q[0][1]}, ${Q[0][2]}], [${Q[1][0]}, ${Q[1][1]}, ${Q[1][2]}]], em que a linha 1 é a ${l0} e a linha 2 é a ${l1}, e as colunas seguem a ordem dos produtos citada. Os preços unitários, em reais, formam o vetor p = [${p[0]}, ${p[1]}, ${p[2]}]. Qual foi o faturamento da ${loja}?`,
+    correctText: brl(correct),
+    distractorTexts: distr.map((v) => brl(v)),
+    explicacao: `O faturamento de uma loja é o produto da sua linha em Q pelo vetor de preços: ${Q[s][0]}·${p[0]} + ${Q[s][1]}·${p[1]} + ${Q[s][2]}·${p[2]} = ${Q[s][0] * p[0]} + ${Q[s][1] * p[1]} + ${Q[s][2] * p[2]} = ${brl(correct)}.`,
+  });
+}
+
+function matIdentidadePropriedade(dificuldade, tentativa = 0) {
+  const [a, b, c, d] = _matQuatroValores();
+  const distr = [a, a + b, 0, c];
+  if (tentativa < 40 && !_matDistintos([b, ...distr]))
+    return matIdentidadePropriedade(dificuldade, tentativa + 1);
+  return makeQuestao({
+    categoriaId: "matrizes",
+    subtopico: "Aplicações Práticas",
+    dificuldade,
+    enunciado: `Seja I a matriz identidade de ordem 2 e A = ${_matMat2([[a, b], [c, d]])}. Sabendo que A · I = A para qualquer matriz A, qual é o elemento da linha 1, coluna 2 do produto A · I?`,
+    correctText: `${b}`,
+    distractorTexts: distr.map((v) => `${v}`),
+    explicacao: `A identidade é o elemento neutro da multiplicação de matrizes: A · I = A. Logo o produto tem os mesmos elementos de A, e o da linha 1, coluna 2 é ${b}. Conferindo pela definição de produto: (${a})·0 + (${b})·1 = ${b}.`,
+  });
+}
+
 // ---------- LOGICA ----------
 function logSequencia(dificuldade) {
   const a1 = randInt(1, 10);
@@ -1071,7 +1435,7 @@ export const TEMPLATES = {
   probabilidade: [probSimples, probSucessiva],
   "analise-combinatoria": [combMultiplicativo, combComissao],
   "matematica-financeira": [finJurosCompostos],
-  matrizes: [matDeterminante],
+  matrizes: [matDeterminante, matDeterminante3x3, matSoma, matSubtracao, matEscalar, matProduto, matTransposta, matTraco, matIgualdade, matLeiDeFormacao, matSimetrica, matPotencia, matInversa, matDeterminanteComIncognita, matCramer, matFaturamento, matIdentidadePropriedade],
   logica: [logSequencia, logRaciocinioIdade],
   conjuntos: [conjDoisConjuntos, conjDiferenca],
 };

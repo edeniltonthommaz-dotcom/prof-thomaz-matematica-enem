@@ -1,93 +1,195 @@
 [
   {
-    "id": "conjuntos-ined-0074",
+    "id": "conjuntos-ined-0118",
     "categoriaId": "conjuntos",
     "subtopico": "Diagramas de Venn",
     "dificuldade": "facil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Uma pesquisa foi realizada em um bairro com 70 pessoas. Constatou-se que 40 pessoas assinam o jornal A, 28 pessoas assinam o jornal B, e 12 pessoas fazem as duas coisas. Quantas pessoas assinam o jornal A ou assinam o jornal B (pelo menos um dos dois)?",
+    "enunciado": "Uma pesquisa foi realizada em uma escola de idiomas com 64 pessoas. Constatou-se que 36 pessoas estudam inglês, 30 pessoas estudam espanhol, e 8 pessoas fazem as duas coisas. Quantas pessoas estudam inglês ou estudam espanhol (pelo menos um dos dois)?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "14"
+        "texto": "50"
       },
       {
         "letra": "B",
-        "texto": "56"
-      },
-      {
-        "letra": "C",
-        "texto": "44"
-      },
-      {
-        "letra": "D",
-        "texto": "68"
-      },
-      {
-        "letra": "E",
-        "texto": "70"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "Pelo menos um dos dois = apenas assinam o jornal A (28) + apenas assinam o jornal B (16) + ambos (12) = 56. Também pode ser calculado por |A∪B| = |A|+|B|−|A∩B| = 40+28−12 = 56."
-  },
-  {
-    "id": "conjuntos-ined-0075",
-    "categoriaId": "conjuntos",
-    "subtopico": "Diagramas de Venn",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma pesquisa foi realizada em uma academia com 58 pessoas. Constatou-se que 26 pessoas praticam natação, 31 pessoas praticam musculação, e 11 pessoas fazem as duas coisas. Quantas pessoas não praticam natação nem praticam musculação?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "46"
-      },
-      {
-        "letra": "B",
-        "texto": "12"
-      },
-      {
-        "letra": "C",
         "texto": "58"
       },
       {
+        "letra": "C",
+        "texto": "64"
+      },
+      {
         "letra": "D",
-        "texto": "20"
+        "texto": "6"
       },
       {
         "letra": "E",
-        "texto": "15"
+        "texto": "66"
       }
     ],
     "correta": "B",
-    "explicacao": "O total pesquisado é 58. Os que fazem pelo menos uma das duas coisas somam 46 (apenas A: 15 + apenas B: 20 + ambos: 11). Logo, não fazem nenhuma das duas: 58 − 46 = 12."
+    "explicacao": "Pelo menos um dos dois = apenas estudam inglês (28) + apenas estudam espanhol (22) + ambos (8) = 58. Também pode ser calculado por |A∪B| = |A|+|B|−|A∩B| = 36+30−8 = 58."
   },
   {
-    "id": "conjuntos-ined-0076",
+    "id": "conjuntos-ined-0119",
+    "categoriaId": "conjuntos",
+    "subtopico": "Diagramas de Venn",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma pesquisa foi realizada em uma escola de idiomas com 63 pessoas. Constatou-se que 24 pessoas estudam inglês, 37 pessoas estudam espanhol, e 8 pessoas fazem as duas coisas. Quantas pessoas não estudam inglês nem estudam espanhol?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "29"
+      },
+      {
+        "letra": "B",
+        "texto": "16"
+      },
+      {
+        "letra": "C",
+        "texto": "10"
+      },
+      {
+        "letra": "D",
+        "texto": "53"
+      },
+      {
+        "letra": "E",
+        "texto": "63"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "O total pesquisado é 63. Os que fazem pelo menos uma das duas coisas somam 53 (apenas A: 16 + apenas B: 29 + ambos: 8). Logo, não fazem nenhuma das duas: 63 − 53 = 10."
+  },
+  {
+    "id": "conjuntos-ined-0120",
     "categoriaId": "conjuntos",
     "subtopico": "Diagramas de Venn",
     "dificuldade": "dificil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Uma pesquisa foi realizada em uma academia com 99 pessoas. Constatou-se que 46 pessoas praticam natação, 59 pessoas praticam musculação. Sabe-se ainda que 22 pessoas não se enquadram em nenhuma das duas situações. Quantas pessoas praticam natação e praticam musculação ao mesmo tempo?",
+    "enunciado": "Uma pesquisa foi realizada em uma escola de idiomas com 89 pessoas. Constatou-se que 45 pessoas estudam inglês, 37 pessoas estudam espanhol. Sabe-se ainda que 23 pessoas não se enquadram em nenhuma das duas situações. Quantas pessoas estudam inglês e estudam espanhol ao mesmo tempo?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "59"
+        "texto": "16"
       },
       {
         "letra": "B",
-        "texto": "18"
+        "texto": "37"
       },
       {
         "letra": "C",
-        "texto": "28"
+        "texto": "45"
+      },
+      {
+        "letra": "D",
+        "texto": "29"
+      },
+      {
+        "letra": "E",
+        "texto": "21"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "Quem faz pelo menos uma das duas coisas: 89 − 23 = 66. Pela fórmula |A∪B| = |A|+|B|−|A∩B|, temos 66 = 45+37−|A∩B|, logo |A∩B| = 45+37−66 = 16."
+  },
+  {
+    "id": "conjuntos-ined-0121",
+    "categoriaId": "conjuntos",
+    "subtopico": "Problemas de Pesquisa",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Em uma pesquisa com 91 clientes de uma loja, verificou-se que 54 compraram pelo cartão, 40 compraram no débito, e 15 não se enquadram em nenhuma das duas situações. Quantas pessoas, dentre as pesquisadas, compraram pelo cartão e compraram no débito ao mesmo tempo?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "18"
+      },
+      {
+        "letra": "B",
+        "texto": "36"
+      },
+      {
+        "letra": "C",
+        "texto": "76"
+      },
+      {
+        "letra": "D",
+        "texto": "22"
+      },
+      {
+        "letra": "E",
+        "texto": "94"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "Quem se enquadra em pelo menos uma situação: 91 − 15 = 76. Pela fórmula |A∪B| = |A|+|B|−|A∩B|, temos 76 = 54+40−|A∩B|, logo |A∩B| = 54+40−76 = 18."
+  },
+  {
+    "id": "conjuntos-ined-0122",
+    "categoriaId": "conjuntos",
+    "subtopico": "Problemas de Pesquisa",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Em uma pesquisa com 85 moradores de um condomínio, verificou-se que 44 têm carro, 41 têm moto, e 12 não se enquadram em nenhuma das duas situações. Quantas pessoas, dentre as pesquisadas, têm carro e têm moto ao mesmo tempo?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "85"
+      },
+      {
+        "letra": "B",
+        "texto": "32"
+      },
+      {
+        "letra": "C",
+        "texto": "73"
+      },
+      {
+        "letra": "D",
+        "texto": "12"
+      },
+      {
+        "letra": "E",
+        "texto": "29"
+      }
+    ],
+    "correta": "D",
+    "explicacao": "Quem se enquadra em pelo menos uma situação: 85 − 12 = 73. Pela fórmula |A∪B| = |A|+|B|−|A∩B|, temos 73 = 44+41−|A∩B|, logo |A∩B| = 44+41−73 = 12."
+  },
+  {
+    "id": "conjuntos-ined-0123",
+    "categoriaId": "conjuntos",
+    "subtopico": "Problemas de Pesquisa",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Em uma pesquisa com 146 visitantes de um site, verificou-se que 75 acessam pelo celular, 78 acessam pelo computador, e 22 não se enquadram em nenhuma das duas situações. Quantas pessoas, dentre as pesquisadas, acessam pelo celular e acessam pelo computador ao mesmo tempo?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "153"
+      },
+      {
+        "letra": "B",
+        "texto": "124"
+      },
+      {
+        "letra": "C",
+        "texto": "49"
       },
       {
         "letra": "D",
@@ -95,112 +197,10 @@
       },
       {
         "letra": "E",
-        "texto": "31"
+        "texto": "29"
       }
     ],
-    "correta": "C",
-    "explicacao": "Quem faz pelo menos uma das duas coisas: 99 − 22 = 77. Pela fórmula |A∪B| = |A|+|B|−|A∩B|, temos 77 = 46+59−|A∩B|, logo |A∩B| = 46+59−77 = 28."
-  },
-  {
-    "id": "conjuntos-ined-0077",
-    "categoriaId": "conjuntos",
-    "subtopico": "Problemas de Pesquisa",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Em uma pesquisa com 91 clientes de uma loja, verificou-se que 43 compraram pelo cartão, 40 compraram no débito, e 15 não se enquadram em nenhuma das duas situações. Quantas pessoas, dentre as pesquisadas, compraram pelo cartão e compraram no débito ao mesmo tempo?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "76"
-      },
-      {
-        "letra": "B",
-        "texto": "33"
-      },
-      {
-        "letra": "C",
-        "texto": "7"
-      },
-      {
-        "letra": "D",
-        "texto": "83"
-      },
-      {
-        "letra": "E",
-        "texto": "36"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "Quem se enquadra em pelo menos uma situação: 91 − 15 = 76. Pela fórmula |A∪B| = |A|+|B|−|A∩B|, temos 76 = 43+40−|A∩B|, logo |A∩B| = 43+40−76 = 7."
-  },
-  {
-    "id": "conjuntos-ined-0078",
-    "categoriaId": "conjuntos",
-    "subtopico": "Problemas de Pesquisa",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Em uma pesquisa com 94 moradores de um condomínio, verificou-se que 61 têm carro, 45 têm moto, e 9 não se enquadram em nenhuma das duas situações. Quantas pessoas, dentre as pesquisadas, têm carro e têm moto ao mesmo tempo?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "21"
-      },
-      {
-        "letra": "B",
-        "texto": "85"
-      },
-      {
-        "letra": "C",
-        "texto": "24"
-      },
-      {
-        "letra": "D",
-        "texto": "40"
-      },
-      {
-        "letra": "E",
-        "texto": "106"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "Quem se enquadra em pelo menos uma situação: 94 − 9 = 85. Pela fórmula |A∪B| = |A|+|B|−|A∩B|, temos 85 = 61+45−|A∩B|, logo |A∩B| = 61+45−85 = 21."
-  },
-  {
-    "id": "conjuntos-ined-0079",
-    "categoriaId": "conjuntos",
-    "subtopico": "Problemas de Pesquisa",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Em uma pesquisa com 110 moradores de um condomínio, verificou-se que 60 têm carro, 67 têm moto, e 16 não se enquadram em nenhuma das duas situações. Quantas pessoas, dentre as pesquisadas, têm carro e têm moto ao mesmo tempo?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "127"
-      },
-      {
-        "letra": "B",
-        "texto": "27"
-      },
-      {
-        "letra": "C",
-        "texto": "94"
-      },
-      {
-        "letra": "D",
-        "texto": "33"
-      },
-      {
-        "letra": "E",
-        "texto": "34"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "Quem se enquadra em pelo menos uma situação: 110 − 16 = 94. Pela fórmula |A∪B| = |A|+|B|−|A∩B|, temos 94 = 60+67−|A∩B|, logo |A∩B| = 60+67−94 = 33."
+    "correta": "E",
+    "explicacao": "Quem se enquadra em pelo menos uma situação: 146 − 22 = 124. Pela fórmula |A∪B| = |A|+|B|−|A∩B|, temos 124 = 75+78−|A∩B|, logo |A∩B| = 75+78−124 = 29."
   }
 ]
