@@ -428,7 +428,7 @@ function geoAreaPerimetro(dificuldade) {
   const comprimento = largura + randInt(2, 20);
   const area = largura * comprimento;
   const perimetro = 2 * (largura + comprimento);
-  const pedirArea = Math.random() > 0.5;
+  const pedirArea = pick([true, false]);
   const correctText = pedirArea ? `${area} m²` : `${perimetro} m`;
   const distractorTexts = pedirArea
     ? [`${perimetro} m²`, `${largura * largura} m²`, `${comprimento * comprimento} m²`, `${area / 2} m²`]
@@ -916,7 +916,7 @@ function matDeterminante(dificuldade) {
 function logSequencia(dificuldade) {
   const a1 = randInt(1, 10);
   const r = randInt(2, dificuldade === "dificil" ? 12 : 6);
-  const tipo = Math.random() > 0.5 ? "soma" : "razao";
+  const tipo = pick(["soma", "razao"]);
   let seq, next;
   if (tipo === "soma") {
     seq = Array.from({ length: 5 }, (_, i) => a1 + i * r);

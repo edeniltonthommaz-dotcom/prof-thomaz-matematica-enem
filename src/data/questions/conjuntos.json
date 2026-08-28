@@ -7,31 +7,31 @@
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Uma pesquisa foi realizada em um bairro com 75 pessoas. Constatou-se que 35 pessoas assinam o jornal A, 49 pessoas assinam o jornal B, e 19 pessoas fazem as duas coisas. Quantas pessoas assinam o jornal A ou assinam o jornal B (pelo menos um dos dois)?",
+    "enunciado": "Uma pesquisa foi realizada em um bairro com 70 pessoas. Constatou-se que 40 pessoas assinam o jornal A, 28 pessoas assinam o jornal B, e 12 pessoas fazem as duas coisas. Quantas pessoas assinam o jornal A ou assinam o jornal B (pelo menos um dos dois)?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "10"
+        "texto": "14"
       },
       {
         "letra": "B",
-        "texto": "65"
+        "texto": "56"
       },
       {
         "letra": "C",
-        "texto": "84"
+        "texto": "44"
       },
       {
         "letra": "D",
-        "texto": "75"
+        "texto": "68"
       },
       {
         "letra": "E",
-        "texto": "46"
+        "texto": "70"
       }
     ],
     "correta": "B",
-    "explicacao": "Pelo menos um dos dois = apenas assinam o jornal A (16) + apenas assinam o jornal B (30) + ambos (19) = 65. Também pode ser calculado por |A∪B| = |A|+|B|−|A∩B| = 35+49−19 = 65."
+    "explicacao": "Pelo menos um dos dois = apenas assinam o jornal A (28) + apenas assinam o jornal B (16) + ambos (12) = 56. Também pode ser calculado por |A∪B| = |A|+|B|−|A∩B| = 40+28−12 = 56."
   },
   {
     "id": "conjuntos-ined-0075",
@@ -41,31 +41,31 @@
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Uma pesquisa foi realizada em uma empresa com 69 pessoas. Constatou-se que 35 pessoas usam o aplicativo X, 36 pessoas usam o aplicativo Y, e 13 pessoas fazem as duas coisas. Quantas pessoas não usam o aplicativo X nem usam o aplicativo Y?",
+    "enunciado": "Uma pesquisa foi realizada em uma academia com 58 pessoas. Constatou-se que 26 pessoas praticam natação, 31 pessoas praticam musculação, e 11 pessoas fazem as duas coisas. Quantas pessoas não praticam natação nem praticam musculação?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "23"
+        "texto": "46"
       },
       {
         "letra": "B",
-        "texto": "69"
+        "texto": "12"
       },
       {
         "letra": "C",
-        "texto": "22"
-      },
-      {
-        "letra": "D",
         "texto": "58"
       },
       {
+        "letra": "D",
+        "texto": "20"
+      },
+      {
         "letra": "E",
-        "texto": "11"
+        "texto": "15"
       }
     ],
-    "correta": "E",
-    "explicacao": "O total pesquisado é 69. Os que fazem pelo menos uma das duas coisas somam 58 (apenas A: 22 + apenas B: 23 + ambos: 13). Logo, não fazem nenhuma das duas: 69 − 58 = 11."
+    "correta": "B",
+    "explicacao": "O total pesquisado é 58. Os que fazem pelo menos uma das duas coisas somam 46 (apenas A: 15 + apenas B: 20 + ambos: 11). Logo, não fazem nenhuma das duas: 58 − 46 = 12."
   },
   {
     "id": "conjuntos-ined-0076",
@@ -75,31 +75,31 @@
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Uma pesquisa foi realizada em um bairro com 94 pessoas. Constatou-se que 45 pessoas assinam o jornal A, 52 pessoas assinam o jornal B. Sabe-se ainda que 23 pessoas não se enquadram em nenhuma das duas situações. Quantas pessoas assinam o jornal A e assinam o jornal B ao mesmo tempo?",
+    "enunciado": "Uma pesquisa foi realizada em uma academia com 99 pessoas. Constatou-se que 46 pessoas praticam natação, 59 pessoas praticam musculação. Sabe-se ainda que 22 pessoas não se enquadram em nenhuma das duas situações. Quantas pessoas praticam natação e praticam musculação ao mesmo tempo?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "20"
+        "texto": "59"
       },
       {
         "letra": "B",
-        "texto": "45"
+        "texto": "18"
       },
       {
         "letra": "C",
-        "texto": "19"
+        "texto": "28"
       },
       {
         "letra": "D",
-        "texto": "52"
+        "texto": "46"
       },
       {
         "letra": "E",
-        "texto": "26"
+        "texto": "31"
       }
     ],
-    "correta": "E",
-    "explicacao": "Quem faz pelo menos uma das duas coisas: 94 − 23 = 71. Pela fórmula |A∪B| = |A|+|B|−|A∩B|, temos 71 = 45+52−|A∩B|, logo |A∩B| = 45+52−71 = 26."
+    "correta": "C",
+    "explicacao": "Quem faz pelo menos uma das duas coisas: 99 − 22 = 77. Pela fórmula |A∪B| = |A|+|B|−|A∩B|, temos 77 = 46+59−|A∩B|, logo |A∩B| = 46+59−77 = 28."
   },
   {
     "id": "conjuntos-ined-0077",
@@ -109,31 +109,31 @@
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Em uma pesquisa com 80 clientes de uma loja, verificou-se que 50 compraram pelo cartão, 35 compraram no débito, e 6 não se enquadram em nenhuma das duas situações. Quantas pessoas, dentre as pesquisadas, compraram pelo cartão e compraram no débito ao mesmo tempo?",
+    "enunciado": "Em uma pesquisa com 91 clientes de uma loja, verificou-se que 43 compraram pelo cartão, 40 compraram no débito, e 15 não se enquadram em nenhuma das duas situações. Quantas pessoas, dentre as pesquisadas, compraram pelo cartão e compraram no débito ao mesmo tempo?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "11"
+        "texto": "76"
       },
       {
         "letra": "B",
-        "texto": "74"
+        "texto": "33"
       },
       {
         "letra": "C",
-        "texto": "39"
+        "texto": "7"
       },
       {
         "letra": "D",
-        "texto": "85"
+        "texto": "83"
       },
       {
         "letra": "E",
-        "texto": "24"
+        "texto": "36"
       }
     ],
-    "correta": "A",
-    "explicacao": "Quem se enquadra em pelo menos uma situação: 80 − 6 = 74. Pela fórmula |A∪B| = |A|+|B|−|A∩B|, temos 74 = 50+35−|A∩B|, logo |A∩B| = 50+35−74 = 11."
+    "correta": "C",
+    "explicacao": "Quem se enquadra em pelo menos uma situação: 91 − 15 = 76. Pela fórmula |A∪B| = |A|+|B|−|A∩B|, temos 76 = 43+40−|A∩B|, logo |A∩B| = 43+40−76 = 7."
   },
   {
     "id": "conjuntos-ined-0078",
@@ -143,31 +143,31 @@
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Em uma pesquisa com 77 alunos de uma turma, verificou-se que 40 fazem teatro, 32 fazem música, e 16 não se enquadram em nenhuma das duas situações. Quantas pessoas, dentre as pesquisadas, fazem teatro e fazem música ao mesmo tempo?",
+    "enunciado": "Em uma pesquisa com 94 moradores de um condomínio, verificou-se que 61 têm carro, 45 têm moto, e 9 não se enquadram em nenhuma das duas situações. Quantas pessoas, dentre as pesquisadas, têm carro e têm moto ao mesmo tempo?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "61"
+        "texto": "21"
       },
       {
         "letra": "B",
-        "texto": "72"
+        "texto": "85"
       },
       {
         "letra": "C",
-        "texto": "29"
+        "texto": "24"
       },
       {
         "letra": "D",
-        "texto": "11"
+        "texto": "40"
       },
       {
         "letra": "E",
-        "texto": "21"
+        "texto": "106"
       }
     ],
-    "correta": "D",
-    "explicacao": "Quem se enquadra em pelo menos uma situação: 77 − 16 = 61. Pela fórmula |A∪B| = |A|+|B|−|A∩B|, temos 61 = 40+32−|A∩B|, logo |A∩B| = 40+32−61 = 11."
+    "correta": "A",
+    "explicacao": "Quem se enquadra em pelo menos uma situação: 94 − 9 = 85. Pela fórmula |A∪B| = |A|+|B|−|A∩B|, temos 85 = 61+45−|A∩B|, logo |A∩B| = 61+45−85 = 21."
   },
   {
     "id": "conjuntos-ined-0079",
@@ -177,30 +177,30 @@
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Em uma pesquisa com 143 visitantes de um site, verificou-se que 92 acessam pelo celular, 63 acessam pelo computador, e 25 não se enquadram em nenhuma das duas situações. Quantas pessoas, dentre as pesquisadas, acessam pelo celular e acessam pelo computador ao mesmo tempo?",
+    "enunciado": "Em uma pesquisa com 110 moradores de um condomínio, verificou-se que 60 têm carro, 67 têm moto, e 16 não se enquadram em nenhuma das duas situações. Quantas pessoas, dentre as pesquisadas, têm carro e têm moto ao mesmo tempo?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "26"
+        "texto": "127"
       },
       {
         "letra": "B",
-        "texto": "155"
+        "texto": "27"
       },
       {
         "letra": "C",
-        "texto": "55"
+        "texto": "94"
       },
       {
         "letra": "D",
-        "texto": "118"
+        "texto": "33"
       },
       {
         "letra": "E",
-        "texto": "37"
+        "texto": "34"
       }
     ],
-    "correta": "E",
-    "explicacao": "Quem se enquadra em pelo menos uma situação: 143 − 25 = 118. Pela fórmula |A∪B| = |A|+|B|−|A∩B|, temos 118 = 92+63−|A∩B|, logo |A∩B| = 92+63−118 = 37."
+    "correta": "D",
+    "explicacao": "Quem se enquadra em pelo menos uma situação: 110 − 16 = 94. Pela fórmula |A∪B| = |A|+|B|−|A∩B|, temos 94 = 60+67−|A∩B|, logo |A∩B| = 60+67−94 = 33."
   }
 ]

@@ -20,6 +20,16 @@ function subtopicosPorCategoria() {
 
 export function validar() {
   const erros = [];
+
+  // Guard de determinismo: templates.mjs não pode usar Math.random() — todo sorteio
+  // tem que passar pelo PRNG semeado de helpers.mjs, senão a geração deixa de ser
+  // reprodutível byte a byte.
+  const templatesTxt = fs.readFileSync(path.join(__dirname, "templates.mjs"), "utf-8");
+  if (/Math\.random\s*\(/.test(templatesTxt))
+    erros.push(
+      "[MATH.RANDOM EM TEMPLATES] scripts/templates.mjs usa Math.random() — geração deixa de ser determinística",
+    );
+
   const subtopicos = subtopicosPorCategoria();
   const idsGlobais = new Map(); // id -> arquivo
   const enunciadosGlobais = new Map(); // enunciadoNorm -> "arquivo:id"
