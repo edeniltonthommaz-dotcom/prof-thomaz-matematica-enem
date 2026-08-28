@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "validate-all": "node scripts/validate-all.mjs",
+    "regen": "node scripts/generate.mjs && node scripts/validate-all.mjs"
   },
   "dependencies": {
     "@supabase/ssr": "^0.12.4",
