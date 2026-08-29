@@ -1417,6 +1417,476 @@ function conjDiferenca(dificuldade) {
   });
 }
 
+// Helpers locais de Conjuntos ------------------------------------------------
+function _conjOk(correct, distractors) {
+  const all = [String(correct), ...distractors.map((d) => String(d))];
+  if (all.some((s) => s.includes("undefined") || s.includes("NaN"))) return false;
+  return new Set(all).size === all.length;
+}
+function _conjDivs(k) {
+  const d = [];
+  for (let x = 1; x <= k; x++) if (k % x === 0) d.push(x);
+  return d;
+}
+function _conjFat(k) {
+  let r = 1;
+  for (let x = 2; x <= k; x++) r *= x;
+  return r;
+}
+function _conjSet(elems) {
+  return `{${[...elems].sort((a, b) => a - b).join(", ")}}`;
+}
+function _conjMontaAB(dificuldade) {
+  const universo = Array.from({ length: 20 }, (_, i) => i + 1);
+  const hi = dificuldade === "facil" ? 3 : dificuldade === "dificil" ? 5 : 4;
+  const interN = randInt(2, hi);
+  const aOnlyN = randInt(2, hi);
+  const bOnlyN = randInt(2, hi);
+  const sorteados = shuffle(universo).slice(0, interN + aOnlyN + bOnlyN);
+  const inter = sorteados.slice(0, interN);
+  const aOnly = sorteados.slice(interN, interN + aOnlyN);
+  const bOnly = sorteados.slice(interN + aOnlyN);
+  return { interN, aOnlyN, bOnlyN, A: [...inter, ...aOnly], B: [...inter, ...bOnly] };
+}
+
+// 1 — |A ∪ B| = |A| + |B| − |A ∩ B| (e as recíprocas)
+function conjUniaoDeInterseccao(dificuldade, tentativa = 0) {
+  const a = randInt(12, 30);
+  const b = randInt(12, 30);
+  const i = randInt(3, Math.min(a, b) - 3);
+  const u = a + b - i;
+  let enunciado, correctText, distractorTexts, explicacao;
+  if (dificuldade === "facil") {
+    const correct = u;
+    const distr = [a + b, a + b - 2 * i, Math.abs(a - b) + i, Math.max(a, b)];
+    enunciado = `Sejam A e B dois conjuntos finitos tais que |A| = ${a}, |B| = ${b} e |A ∩ B| = ${i}. Qual é o valor de |A ∪ B|?`;
+    correctText = `${correct}`;
+    distractorTexts = distr.map((v) => `${v}`);
+    explicacao = `Pelo princípio da inclusão-exclusão, |A ∪ B| = |A| + |B| − |A ∩ B| = ${a} + ${b} − ${i} = ${correct}.`;
+  } else if (dificuldade === "medio") {
+    const correct = i;
+    const distr = [b - i, a - i, a + b, Math.abs(a - b)];
+    enunciado = `Sejam A e B dois conjuntos finitos com |A| = ${a}, |B| = ${b} e |A ∪ B| = ${u}. Qual é o valor de |A ∩ B|?`;
+    correctText = `${correct}`;
+    distractorTexts = distr.map((v) => `${v}`);
+    explicacao = `De |A ∪ B| = |A| + |B| − |A ∩ B|, isolamos |A ∩ B| = |A| + |B| − |A ∪ B| = ${a} + ${b} − ${u} = ${correct}.`;
+  } else {
+    const correct = b;
+    const distr = [u - a, u - a - i, u + a - i, a + i];
+    enunciado = `Sejam A e B conjuntos finitos com |A ∪ B| = ${u}, |A ∩ B| = ${i} e |A| = ${a}. Qual é o valor de |B|?`;
+    correctText = `${correct}`;
+    distractorTexts = distr.map((v) => `${v}`);
+    explicacao = `De |A ∪ B| = |A| + |B| − |A ∩ B|, isolamos |B| = |A ∪ B| − |A| + |A ∩ B| = ${u} − ${a} + ${i} = ${correct}.`;
+  }
+  if (tentativa < 40 && (a === b || !_conjOk(correctText, distractorTexts)))
+    return conjUniaoDeInterseccao(dificuldade, tentativa + 1);
+  return makeQuestao({ categoriaId: "conjuntos", subtopico: "União e Interseção", dificuldade, enunciado, correctText, distractorTexts, explicacao });
+}
+
+// 2 — complementar: |Aᶜ| = |U| − |A|
+function conjComplementar(dificuldade, tentativa = 0) {
+  const contextos = [
+    ["uma turma", "estudantes", "foram aprovados na primeira fase"],
+    ["um condomínio", "moradores", "possuem vaga de garagem"],
+    ["uma empresa", "funcionários", "aderiram ao plano de saúde"],
+    ["um clube", "sócios", "já disputaram um torneio oficial"],
+  ];
+  const [lugar, unidade, prop] = pick(contextos);
+  let enunciado, correctText, distractorTexts, explicacao, guardExtra = false;
+  if (dificuldade === "facil") {
+    const u = randInt(30, 60);
+    const k = randInt(10, u - 10);
+    const correct = u - k;
+    const distr = [k, u, Math.abs(u - 2 * k), u + k];
+    guardExtra = u === 2 * k;
+    enunciado = `Em ${lugar} há ${u} ${unidade}, dos quais ${k} ${prop}. Quantos ${unidade} não ${prop}?`;
+    correctText = `${correct}`;
+    distractorTexts = distr.map((v) => `${v}`);
+    explicacao = `Basta retirar do total os que ${prop}: ${u} − ${k} = ${correct}.`;
+  } else if (dificuldade === "medio") {
+    const u = randInt(50, 90);
+    const comp = randInt(15, u - 15);
+    const correct = u - comp;
+    const distr = [comp, u, Math.abs(u - 2 * comp), u + comp];
+    guardExtra = u === 2 * comp;
+    enunciado = `Em ${lugar} com ${u} ${unidade}, sabe-se que ${comp} não ${prop}. Quantos ${unidade} ${prop}?`;
+    correctText = `${correct}`;
+    distractorTexts = distr.map((v) => `${v}`);
+    explicacao = `Se ${comp} não ${prop}, os demais ${prop}: ${u} − ${comp} = ${correct}.`;
+  } else {
+    const u = randInt(90, 150);
+    const x1 = randInt(15, 35);
+    const x2 = randInt(15, 35);
+    const correct = u - x1 - x2;
+    const distr = [u - x1, u - x2, x1 + x2, u - Math.max(x1, x2)];
+    enunciado = `Em ${lugar} há ${u} ${unidade}. Sabe-se que ${x1} ${prop} e outros ${x2} têm uma segunda característica, sem que ninguém pertença aos dois grupos ao mesmo tempo. Quantos ${unidade} não pertencem a nenhum dos dois grupos?`;
+    correctText = `${correct}`;
+    distractorTexts = distr.map((v) => `${v}`);
+    explicacao = `Como os dois grupos não têm elementos em comum, retiram-se ambos do total: ${u} − ${x1} − ${x2} = ${correct}.`;
+  }
+  if (tentativa < 40 && (guardExtra || !_conjOk(correctText, distractorTexts)))
+    return conjComplementar(dificuldade, tentativa + 1);
+  return makeQuestao({ categoriaId: "conjuntos", subtopico: "União e Interseção", dificuldade, enunciado, correctText, distractorTexts, explicacao });
+}
+
+// 3 — três conjuntos, inclusão-exclusão (só A / centro / total)
+function conjTresConjuntos(dificuldade, tentativa = 0) {
+  const soA = randInt(10, 16), soB = randInt(10, 16), soC = randInt(10, 16);
+  const abO = randInt(3, 8), acO = randInt(3, 8), bcO = randInt(3, 8);
+  const ce = randInt(2, 4);
+  const A = soA + abO + acO + ce;
+  const B = soB + abO + bcO + ce;
+  const C = soC + acO + bcO + ce;
+  const abT = abO + ce, acT = acO + ce, bcT = bcO + ce;
+  const uni = soA + soB + soC + abO + acO + bcO + ce;
+  let enunciado, correctText, distractorTexts, explicacao;
+  if (dificuldade === "facil") {
+    const correct = soA;
+    const distr = [A - abT - acT, A - abT - acT - ce, A - ce, abO + acO + ce];
+    enunciado = `Considere três conjuntos A, B e C para os quais |A| = ${A}, |A ∩ B| = ${abT}, |A ∩ C| = ${acT} e |A ∩ B ∩ C| = ${ce}. Quantos elementos pertencem apenas ao conjunto A (e a nenhum dos outros dois)?`;
+    correctText = `${correct}`;
+    distractorTexts = distr.map((v) => `${v}`);
+    explicacao = `|A| = (só A) + |A ∩ B| + |A ∩ C| − |A ∩ B ∩ C| (o centro foi contado nas duas interseções). Logo só A = ${A} − ${abT} − ${acT} + ${ce} = ${correct}.`;
+  } else if (dificuldade === "medio") {
+    const correct = ce;
+    const distr = [uni - soA - soB - soC, uni - abO - acO - bcO, abO + acO + bcO, soA + soB + soC];
+    enunciado = `Em um diagrama de Venn de três conjuntos A, B e C, o número de elementos de cada região é: apenas A: ${soA}; apenas B: ${soB}; apenas C: ${soC}; apenas em A e B: ${abO}; apenas em A e C: ${acO}; apenas em B e C: ${bcO}. Se |A ∪ B ∪ C| = ${uni}, quantos elementos estão em A ∩ B ∩ C?`;
+    correctText = `${correct}`;
+    distractorTexts = distr.map((v) => `${v}`);
+    explicacao = `A união é a soma das 7 regiões. As 6 regiões conhecidas somam ${soA} + ${soB} + ${soC} + ${abO} + ${acO} + ${bcO} = ${uni - ce}. O centro é o que falta: ${uni} − ${uni - ce} = ${correct}.`;
+  } else {
+    const correct = uni;
+    const distr = [A + B + C, A + B + C - abT - acT - bcT, A + B + C - abT - acT - bcT - ce, A + B + C + abT + acT + bcT];
+    enunciado = `Sejam A, B e C três conjuntos finitos com |A| = ${A}, |B| = ${B}, |C| = ${C}, |A ∩ B| = ${abT}, |A ∩ C| = ${acT}, |B ∩ C| = ${bcT} e |A ∩ B ∩ C| = ${ce}. Qual é o valor de |A ∪ B ∪ C|?`;
+    correctText = `${correct}`;
+    distractorTexts = distr.map((v) => `${v}`);
+    explicacao = `Inclusão-exclusão: |A ∪ B ∪ C| = |A| + |B| + |C| − |A ∩ B| − |A ∩ C| − |B ∩ C| + |A ∩ B ∩ C| = ${A} + ${B} + ${C} − ${abT} − ${acT} − ${bcT} + ${ce} = ${correct}.`;
+  }
+  if (tentativa < 40 && !_conjOk(correctText, distractorTexts))
+    return conjTresConjuntos(dificuldade, tentativa + 1);
+  return makeQuestao({ categoriaId: "conjuntos", subtopico: "Diagramas de Venn", dificuldade, enunciado, correctText, distractorTexts, explicacao });
+}
+
+// 4 — três conjuntos, contexto esportivo (só um / exatamente dois / os três)
+function conjTresConjuntosEsporte(dificuldade, tentativa = 0) {
+  const contextos = [
+    ["futebol", "vôlei", "basquete"],
+    ["natação", "corrida de rua", "ciclismo"],
+    ["tênis", "handebol", "judô"],
+    ["surfe", "skate", "vôlei de praia"],
+    ["xadrez", "damas", "gamão"],
+  ];
+  const [s1, s2, s3] = pick(contextos);
+  const so1 = randInt(10, 20), so2 = randInt(10, 20), so3 = randInt(10, 20);
+  const p12 = randInt(3, 9), p13 = randInt(3, 9), p23 = randInt(3, 9);
+  const ce = randInt(2, 6);
+  const nenhum = randInt(5, 15);
+  const t1 = so1 + p12 + p13 + ce;
+  const p12T = p12 + ce, p13T = p13 + ce, p23T = p23 + ce;
+  const soma = so1 + so2 + so3 + p12 + p13 + p23;
+  const uni = soma + ce;
+  const total = uni + nenhum;
+  let enunciado, correctText, distractorTexts, explicacao;
+  if (dificuldade === "facil") {
+    const correct = so1;
+    const distr = [t1 - p12T - p13T, t1 - p12T - p13T - ce, t1 - ce, p12 + p13 + ce];
+    enunciado = `Em um levantamento sobre esportes, ${t1} pessoas praticam ${s1}, das quais ${p12T} também praticam ${s2}, ${p13T} também praticam ${s3} e ${ce} praticam os três esportes. Quantas pessoas praticam somente ${s1}?`;
+    correctText = `${correct}`;
+    distractorTexts = distr.map((v) => `${v}`);
+    explicacao = `Somente ${s1} = (praticam ${s1}) − (também ${s2}) − (também ${s3}) + (os três, que foram descontados duas vezes) = ${t1} − ${p12T} − ${p13T} + ${ce} = ${correct}.`;
+  } else if (dificuldade === "medio") {
+    const correct = p12 + p13 + p23;
+    const distr = [p12T + p13T + p23T, p12T + p13T + p23T - ce, p12T + p13T + p23T - 2 * ce, ce];
+    enunciado = `Numa pesquisa esportiva, ${p12T} pessoas praticam ${s1} e ${s2}, ${p13T} praticam ${s1} e ${s3}, ${p23T} praticam ${s2} e ${s3}, e ${ce} praticam os três esportes ${s1}, ${s2} e ${s3}. Quantas pessoas praticam exatamente dois desses esportes?`;
+    correctText = `${correct}`;
+    distractorTexts = distr.map((v) => `${v}`);
+    explicacao = `Cada contagem "dois a dois" inclui quem pratica os três. Exatamente dois = (${p12T} − ${ce}) + (${p13T} − ${ce}) + (${p23T} − ${ce}) = ${correct}.`;
+  } else {
+    const correct = ce;
+    const distr = [total - soma, total - nenhum - (so1 + so2 + so3), total - nenhum - (p12 + p13 + p23), p12 + p13 + p23];
+    enunciado = `Entre ${total} pessoas entrevistadas, ${nenhum} não praticam ${s1}, ${s2} nem ${s3}. Das demais: ${so1} praticam só ${s1}, ${so2} só ${s2}, ${so3} só ${s3}, ${p12} praticam ${s1} e ${s2} (mas não o terceiro), ${p13} praticam ${s1} e ${s3} (mas não o terceiro) e ${p23} praticam ${s2} e ${s3} (mas não o terceiro). Quantas praticam os três esportes?`;
+    correctText = `${correct}`;
+    distractorTexts = distr.map((v) => `${v}`);
+    explicacao = `Tirando os ${nenhum} que não praticam nada, sobram ${uni} pessoas nas 7 regiões. As 6 regiões descritas somam ${soma}. Logo, praticam os três: ${uni} − ${soma} = ${correct}.`;
+  }
+  if (tentativa < 40 && !_conjOk(correctText, distractorTexts))
+    return conjTresConjuntosEsporte(dificuldade, tentativa + 1);
+  return makeQuestao({ categoriaId: "conjuntos", subtopico: "Diagramas de Venn", dificuldade, enunciado, correctText, distractorTexts, explicacao });
+}
+
+// 5 — conjuntos explícitos: contagem de A ∩ B / A ∪ B / A − B
+function conjOperacoesExplicitas(dificuldade, tentativa = 0) {
+  const { interN, aOnlyN, bOnlyN, A, B } = _conjMontaAB(dificuldade);
+  let op, correct, distr, explicacao;
+  if (dificuldade === "facil") {
+    op = "A ∩ B";
+    correct = interN;
+    distr = [interN + aOnlyN + bOnlyN, A.length, B.length, A.length + B.length];
+    explicacao = `A ∩ B é formado pelos elementos que aparecem nos dois conjuntos ao mesmo tempo. Comparando as listas, há ${interN} elemento(s) em comum.`;
+  } else if (dificuldade === "medio") {
+    op = "A ∪ B";
+    correct = interN + aOnlyN + bOnlyN;
+    distr = [A.length + B.length, interN, A.length, B.length];
+    explicacao = `A ∪ B reúne todos os elementos sem repetir os comuns: |A| + |B| − |A ∩ B| = ${A.length} + ${B.length} − ${interN} = ${correct}.`;
+  } else {
+    op = "A − B";
+    correct = aOnlyN;
+    distr = [A.length, bOnlyN, interN, A.length + interN];
+    explicacao = `A − B são os elementos que estão em A mas não em B. Dos ${A.length} elementos de A, ${interN} também estão em B, restando ${aOnlyN}.`;
+  }
+  const correctText = `${correct}`;
+  const distractorTexts = distr.map((v) => `${v}`);
+  const enunciado = `Considere os conjuntos A = ${_conjSet(A)} e B = ${_conjSet(B)}. Quantos elementos tem o conjunto ${op}?`;
+  if (tentativa < 40 && !_conjOk(correctText, distractorTexts))
+    return conjOperacoesExplicitas(dificuldade, tentativa + 1);
+  return makeQuestao({ categoriaId: "conjuntos", subtopico: "União e Interseção", dificuldade, enunciado, correctText, distractorTexts, explicacao });
+}
+
+// 6 — diferença simétrica: |A △ B| = |A| + |B| − 2|A ∩ B|
+function conjDiferencaSimetrica(dificuldade, tentativa = 0) {
+  const { interN, aOnlyN, bOnlyN, A, B } = _conjMontaAB(dificuldade);
+  const correct = aOnlyN + bOnlyN;
+  const distr = [aOnlyN + bOnlyN + interN, aOnlyN + bOnlyN + 2 * interN, interN, Math.abs(aOnlyN - bOnlyN)];
+  const correctText = `${correct}`;
+  const distractorTexts = distr.map((v) => `${v}`);
+  const enunciado = `Dados os conjuntos A = ${_conjSet(A)} e B = ${_conjSet(B)}, a diferença simétrica A △ B é o conjunto dos elementos que pertencem a exatamente um dos dois conjuntos. Quantos elementos tem A △ B?`;
+  const explicacao = `A △ B contém os elementos que estão só em A (${aOnlyN}) e os que estão só em B (${bOnlyN}), sem os ${interN} elementos comuns. Logo |A △ B| = ${aOnlyN} + ${bOnlyN} = ${correct}.`;
+  if (tentativa < 40 && (aOnlyN === bOnlyN || !_conjOk(correctText, distractorTexts)))
+    return conjDiferencaSimetrica(dificuldade, tentativa + 1);
+  return makeQuestao({ categoriaId: "conjuntos", subtopico: "União e Interseção", dificuldade, enunciado, correctText, distractorTexts, explicacao });
+}
+
+// 7 — produto cartesiano: |A × B| = |A| · |B|
+function conjProdutoCartesiano(dificuldade, tentativa = 0) {
+  let enunciado, correct, distr, explicacao;
+  if (dificuldade === "facil") {
+    const m = randInt(3, 8);
+    let n = randInt(3, 8);
+    if (n === m) n = m === 8 ? 3 : n + 1;
+    correct = m * n;
+    distr = [m + n, m * m, n * n, 2 * m * n];
+    enunciado = `Um conjunto A tem ${m} elementos e um conjunto B tem ${n} elementos. Quantos elementos tem o produto cartesiano A × B?`;
+    explicacao = `Cada elemento de A forma um par ordenado com cada elemento de B: |A × B| = |A| · |B| = ${m} · ${n} = ${correct}.`;
+  } else if (dificuldade === "medio") {
+    const { A } = _conjMontaAB("medio");
+    const m = A.length;
+    const n = randInt(4, 9);
+    correct = m * n;
+    distr = [m + n, m * m, n * n, 2 * m * n];
+    enunciado = `Sejam A = ${_conjSet(A)} e B um conjunto com ${n} elementos. Quantos pares ordenados formam o produto cartesiano A × B?`;
+    explicacao = `A tem ${m} elementos e B tem ${n}. O produto cartesiano tem |A| · |B| = ${m} · ${n} = ${correct} pares ordenados.`;
+  } else {
+    const m = randInt(4, 9);
+    const n = randInt(4, 9);
+    const p = m * n;
+    correct = n;
+    distr = [p - m, p + m, 2 * n, p - n];
+    enunciado = `O produto cartesiano A × B tem ${p} elementos. Se o conjunto A tem ${m} elementos, quantos elementos tem o conjunto B?`;
+    explicacao = `Como |A × B| = |A| · |B|, temos |B| = ${p} ÷ ${m} = ${correct}.`;
+  }
+  const correctText = `${correct}`;
+  const distractorTexts = distr.map((v) => `${v}`);
+  if (tentativa < 40 && !_conjOk(correctText, distractorTexts))
+    return conjProdutoCartesiano(dificuldade, tentativa + 1);
+  return makeQuestao({ categoriaId: "conjuntos", subtopico: "União e Interseção", dificuldade, enunciado, correctText, distractorTexts, explicacao });
+}
+
+// 8 — subconjuntos: 2ⁿ (total), 2ⁿ − 1 (próprios), 2ⁿ − 2 (não triviais)
+function conjSubconjuntos(dificuldade, tentativa = 0) {
+  const n = randInt(5, 7);
+  const pot = 2 ** n;
+  let enunciado, correct, distr, explicacao;
+  if (dificuldade === "facil") {
+    correct = pot;
+    distr = [n * n, 2 * n, _conjFat(n), pot - 1];
+    enunciado = `Um conjunto X possui ${n} elementos. Quantos subconjuntos, no total (incluindo o conjunto vazio e o próprio X), esse conjunto tem?`;
+    explicacao = `O número de subconjuntos de um conjunto com n elementos é 2ⁿ. Para n = ${n}: 2^${n} = ${correct}.`;
+  } else if (dificuldade === "medio") {
+    correct = pot - 1;
+    distr = [pot, pot - 2, n * n - 1, 2 * n - 1];
+    enunciado = `Um conjunto Y possui ${n} elementos. Quantos subconjuntos próprios (todos os subconjuntos, exceto o próprio Y) esse conjunto tem?`;
+    explicacao = `São 2ⁿ subconjuntos no total; retirando o próprio conjunto, ficam 2ⁿ − 1. Para n = ${n}: ${pot} − 1 = ${correct}.`;
+  } else {
+    correct = pot - 2;
+    distr = [pot, pot - 1, 2 ** (n - 1), n * n - 2];
+    enunciado = `Um conjunto Z possui ${n} elementos. Quantos subconjuntos de Z são diferentes tanto do conjunto vazio quanto do próprio Z?`;
+    explicacao = `Do total de 2ⁿ subconjuntos, excluem-se 2 casos (o vazio e o próprio Z): 2ⁿ − 2. Para n = ${n}: ${pot} − 2 = ${correct}.`;
+  }
+  const correctText = `${correct}`;
+  const distractorTexts = distr.map((v) => `${v}`);
+  if (tentativa < 40 && !_conjOk(correctText, distractorTexts))
+    return conjSubconjuntos(dificuldade, tentativa + 1);
+  return makeQuestao({ categoriaId: "conjuntos", subtopico: "União e Interseção", dificuldade, enunciado, correctText, distractorTexts, explicacao });
+}
+
+// 9 — interseção/união de intervalos reais que se sobrepõem
+function conjIntervalosReais(dificuldade, tentativa = 0) {
+  const nums = [];
+  while (nums.length < 4) {
+    const v = randInt(-4, 14);
+    if (!nums.includes(v)) nums.push(v);
+  }
+  nums.sort((a, b) => a - b);
+  const [p1, p2, p3, p4] = nums;
+  let enunciado, correctText, distractorTexts, explicacao;
+  if (dificuldade === "facil") {
+    correctText = `[${p2}, ${p3}]`;
+    distractorTexts = [`[${p1}, ${p4}]`, `[${p1}, ${p3}]`, `[${p2}, ${p4}]`, `[${p3}, ${p2}]`];
+    enunciado = `Considere os intervalos reais A = [${p1}, ${p3}] e B = [${p2}, ${p4}]. Qual intervalo representa A ∩ B?`;
+    explicacao = `A interseção contém os números que estão nos dois intervalos: de ${p2} (maior extremo esquerdo) até ${p3} (menor extremo direito), ou seja [${p2}, ${p3}].`;
+  } else if (dificuldade === "medio") {
+    correctText = `[${p1}, ${p4}]`;
+    distractorTexts = [`[${p2}, ${p3}]`, `[${p1}, ${p3}]`, `[${p2}, ${p4}]`, `]${p1}, ${p4}[`];
+    enunciado = `Considere os intervalos reais A = [${p1}, ${p3}] e B = [${p2}, ${p4}]. Qual intervalo representa A ∪ B?`;
+    explicacao = `Como os intervalos se sobrepõem, a união é um único intervalo do menor extremo (${p1}) ao maior extremo (${p4}): [${p1}, ${p4}].`;
+  } else {
+    correctText = `[${p2}, ${p3}]`;
+    distractorTexts = [`[${p1}, ${p4}]`, `[${p1}, ${p3}]`, `[${p2}, ${p4}]`, `∅`];
+    enunciado = `Considere os intervalos reais A = [${p1}, ${p4}] e B = [${p2}, ${p3}]. Qual intervalo representa A ∩ B?`;
+    explicacao = `Como B = [${p2}, ${p3}] está inteiramente contido em A = [${p1}, ${p4}], a interseção é o próprio B: [${p2}, ${p3}].`;
+  }
+  if (tentativa < 40 && !_conjOk(correctText, distractorTexts))
+    return conjIntervalosReais(dificuldade, tentativa + 1);
+  return makeQuestao({ categoriaId: "conjuntos", subtopico: "União e Interseção", dificuldade, enunciado, correctText, distractorTexts, explicacao });
+}
+
+// 10 — múltiplos de p ou de q até N: ⌊N/p⌋ + ⌊N/q⌋ − ⌊N/mmc(p,q)⌋
+function conjMultiplos(dificuldade, tentativa = 0) {
+  const p = pick([2, 3, 4, 5, 6]);
+  let q = pick([3, 4, 5, 6, 7, 8, 9]);
+  if (q === p) q = p === 9 ? 7 : q + 1;
+  if (tentativa < 40 && (q % p === 0 || p % q === 0))
+    return conjMultiplos(dificuldade, tentativa + 1);
+  const N = randInt(dificuldade === "facil" ? 6 : 10, dificuldade === "dificil" ? 40 : 25) * 10;
+  const l = mmc(p, q);
+  const fp = Math.floor(N / p), fq = Math.floor(N / q), fl = Math.floor(N / l);
+  const correct = fp + fq - fl;
+  const distr = [fp + fq, fp + fq + fl, N - correct, fl];
+  const correctText = `${correct}`;
+  const distractorTexts = distr.map((v) => `${v}`);
+  const alcance = dificuldade === "dificil"
+    ? `no conjunto {1, 2, 3, ..., ${N}}`
+    : dificuldade === "medio"
+      ? `menores ou iguais a ${N}`
+      : `de 1 a ${N}`;
+  const enunciado = `Quantos números naturais ${alcance} são múltiplos de ${p} ou múltiplos de ${q}?`;
+  const explicacao = `Múltiplos de ${p}: ⌊${N}/${p}⌋ = ${fp}. Múltiplos de ${q}: ⌊${N}/${q}⌋ = ${fq}. Múltiplos de ${p} e de ${q} ao mesmo tempo (múltiplos de mmc(${p}, ${q}) = ${l}): ${fl}. Por inclusão-exclusão: ${fp} + ${fq} − ${fl} = ${correct}.`;
+  if (tentativa < 40 && !_conjOk(correctText, distractorTexts))
+    return conjMultiplos(dificuldade, tentativa + 1);
+  return makeQuestao({ categoriaId: "conjuntos", subtopico: "União e Interseção", dificuldade, enunciado, correctText, distractorTexts, explicacao });
+}
+
+// 11 — três idiomas: nenhuma / exatamente dois / os três
+function conjTresLinguas(dificuldade, tentativa = 0) {
+  const contextos = [
+    ["inglês", "espanhol", "francês"],
+    ["inglês", "alemão", "italiano"],
+    ["espanhol", "francês", "alemão"],
+  ];
+  const [l1, l2, l3] = pick(contextos);
+  const so1 = randInt(12, 25), so2 = randInt(12, 25), so3 = randInt(12, 25);
+  const o12 = randInt(3, 9), o13 = randInt(3, 9), o23 = randInt(3, 9);
+  const ce = randInt(2, 6);
+  const nenhum = randInt(4, 14);
+  const t12 = o12 + ce, t13 = o13 + ce, t23 = o23 + ce;
+  const somaSo = so1 + so2 + so3;
+  const somaO = o12 + o13 + o23;
+  const uni = somaSo + somaO + ce;
+  const total = uni + nenhum;
+  let enunciado, correct, distr, explicacao;
+  if (dificuldade === "facil") {
+    correct = nenhum;
+    distr = [total - somaSo, uni, total - somaSo - somaO, uni - ce];
+    enunciado = `Uma turma tem ${total} alunos. Sobre os idiomas que estudam: ${so1} estudam apenas ${l1}, ${so2} apenas ${l2}, ${so3} apenas ${l3}, ${o12} apenas ${l1} e ${l2}, ${o13} apenas ${l1} e ${l3}, ${o23} apenas ${l2} e ${l3}, e ${ce} estudam os três idiomas. Quantos alunos não estudam nenhum desses idiomas?`;
+    explicacao = `Somando as 7 regiões: ${so1}+${so2}+${so3}+${o12}+${o13}+${o23}+${ce} = ${uni} alunos estudam ao menos um idioma. Logo, não estudam nenhum: ${total} − ${uni} = ${correct}.`;
+  } else if (dificuldade === "medio") {
+    correct = somaO;
+    distr = [t12 + t13 + t23, t12 + t13 + t23 - ce, t12 + t13 + t23 - 2 * ce, ce];
+    enunciado = `Em um colégio, ${t12} alunos estudam ${l1} e ${l2}, ${t13} estudam ${l1} e ${l3}, ${t23} estudam ${l2} e ${l3}, e ${ce} estudam os três idiomas ${l1}, ${l2} e ${l3}. Quantos alunos estudam exatamente dois desses idiomas?`;
+    explicacao = `Cada total "dois idiomas" inclui os ${ce} que estudam os três. Exatamente dois = (${t12} − ${ce}) + (${t13} − ${ce}) + (${t23} − ${ce}) = ${correct}.`;
+  } else {
+    correct = ce;
+    distr = [total - somaSo - somaO, uni - somaSo, uni - somaO, somaO];
+    enunciado = `Numa escola com ${total} estudantes, ${nenhum} não estudam ${l1}, ${l2} nem ${l3}. Entre os demais: ${so1} estudam somente ${l1}, ${so2} somente ${l2}, ${so3} somente ${l3}, ${o12} estudam ${l1} e ${l2} apenas, ${o13} estudam ${l1} e ${l3} apenas, e ${o23} estudam ${l2} e ${l3} apenas. Quantos estudam os três idiomas?`;
+    explicacao = `Tirando os ${nenhum} que não estudam nada, sobram ${uni} nas 7 regiões. As 6 regiões descritas somam ${somaSo} + ${somaO} = ${uni - ce}. Logo, os três idiomas: ${uni} − ${uni - ce} = ${correct}.`;
+  }
+  const correctText = `${correct}`;
+  const distractorTexts = distr.map((v) => `${v}`);
+  if (tentativa < 40 && !_conjOk(correctText, distractorTexts))
+    return conjTresLinguas(dificuldade, tentativa + 1);
+  return makeQuestao({ categoriaId: "conjuntos", subtopico: "Diagramas de Venn", dificuldade, enunciado, correctText, distractorTexts, explicacao });
+}
+
+// 12 — pesquisa de compra de 3 produtos: quem comprou exatamente um
+function conjPesquisaProduto(dificuldade, tentativa = 0) {
+  const contextos = [
+    ["sabonete", "shampoo", "condicionador"],
+    ["café", "leite", "achocolatado"],
+    ["caderno", "caneta", "mochila"],
+    ["arroz", "feijão", "macarrão"],
+  ];
+  const [x, y, z] = pick(contextos);
+  const t3 = randInt(3, 10);
+  const d2 = randInt(8, 20);
+  const n0 = randInt(6, 16);
+  const u1 = randInt(15, 35);
+  const total = t3 + d2 + n0 + u1;
+  const correct = u1;
+  const distr = [total - n0, total - n0 - t3, total - n0 - d2, d2];
+  const correctText = `${correct}`;
+  const distractorTexts = distr.map((v) => `${v}`);
+  let enunciado, explicacao;
+  if (dificuldade === "facil") {
+    enunciado = `Uma pesquisa de mercado ouviu ${total} consumidores sobre a compra dos produtos ${x}, ${y} e ${z}. Constatou-se que ${t3} compraram os três produtos, ${d2} compraram exatamente dois deles e ${n0} não compraram nenhum. Quantos consumidores compraram exatamente um dos três produtos?`;
+    explicacao = `Do total de ${total}, retiram-se quem não comprou nada (${n0}), quem comprou os três (${t3}) e quem comprou exatamente dois (${d2}). Restam os que compraram exatamente um: ${total} − ${n0} − ${t3} − ${d2} = ${correct}.`;
+  } else if (dificuldade === "medio") {
+    enunciado = `Em uma pesquisa com ${total} clientes sobre os produtos ${x}, ${y} e ${z}, verificou-se que ${n0} não levaram nenhum, ${d2} levaram exatamente dois e ${t3} levaram os três. Quantos clientes levaram exatamente um dos produtos?`;
+    explicacao = `Os clientes formam quatro grupos disjuntos: nenhum (${n0}), exatamente um, exatamente dois (${d2}) e os três (${t3}). Logo, exatamente um = ${total} − ${n0} − ${d2} − ${t3} = ${correct}.`;
+  } else {
+    enunciado = `${total} pessoas foram consultadas sobre ter adquirido ${x}, ${y} e ${z} no último mês. Sabe-se que ${n0} não adquiriram nenhum desses itens, ${t3} adquiriram os três e ${d2} adquiriram exatamente dois deles. Quantas pessoas adquiriram exatamente um item?`;
+    explicacao = `Somando os grupos que não são "exatamente um": ${n0} + ${d2} + ${t3} = ${n0 + d2 + t3}. Subtraindo do total: ${total} − ${n0 + d2 + t3} = ${correct}.`;
+  }
+  if (tentativa < 40 && !_conjOk(correctText, distractorTexts))
+    return conjPesquisaProduto(dificuldade, tentativa + 1);
+  return makeQuestao({ categoriaId: "conjuntos", subtopico: "Problemas de Pesquisa", dificuldade, enunciado, correctText, distractorTexts, explicacao });
+}
+
+// 13 — conjunto dos divisores: quantos / quantos pares / |D(n) ∩ D(m)| = |D(mdc(n,m))|
+function conjDivisores(dificuldade, tentativa = 0) {
+  let enunciado, correct, distr, explicacao;
+  if (dificuldade === "dificil") {
+    const n = randInt(24, 120);
+    const m = randInt(24, 120);
+    const g = gcd(n, m);
+    if (tentativa < 40 && g === 1) return conjDivisores(dificuldade, tentativa + 1);
+    correct = _conjDivs(g).length;
+    distr = [_conjDivs(n).length, _conjDivs(m).length, g, _conjDivs(mmc(n, m)).length];
+    enunciado = `Sejam D(${n}) e D(${m}) os conjuntos dos divisores positivos de ${n} e de ${m}. Quantos elementos tem D(${n}) ∩ D(${m})?`;
+    explicacao = `Um número divide ${n} e ${m} ao mesmo tempo se, e somente se, divide mdc(${n}, ${m}) = ${g}. Os divisores de ${g} são ${_conjDivs(g).join(", ")}: ${correct} no total.`;
+  } else {
+    const n = 2 * randInt(12, 60);
+    const divs = _conjDivs(n);
+    const pares = divs.filter((d) => d % 2 === 0).length;
+    const impares = divs.length - pares;
+    if (dificuldade === "facil") {
+      correct = divs.length;
+      distr = [divs.length - 2, divs.length + 1, pares, impares];
+      enunciado = `Considere o conjunto D formado por todos os divisores positivos de ${n}. Quantos elementos tem D?`;
+      explicacao = `Os divisores positivos de ${n} são ${divs.join(", ")}, num total de ${correct}.`;
+    } else {
+      correct = pares;
+      distr = [divs.length, impares, divs.length - 1, Math.floor(n / 2)];
+      enunciado = `No conjunto dos divisores positivos de ${n}, quantos são números pares?`;
+      explicacao = `Os divisores positivos de ${n} são ${divs.join(", ")}. Os pares são ${divs.filter((d) => d % 2 === 0).join(", ")}: ${correct} divisor(es) par(es).`;
+    }
+  }
+  const correctText = `${correct}`;
+  const distractorTexts = distr.map((v) => `${v}`);
+  if (tentativa < 40 && !_conjOk(correctText, distractorTexts))
+    return conjDivisores(dificuldade, tentativa + 1);
+  return makeQuestao({ categoriaId: "conjuntos", subtopico: "Problemas de Pesquisa", dificuldade, enunciado, correctText, distractorTexts, explicacao });
+}
+
 export const TEMPLATES = {
   numeros: [numFracaoOperacoes, numNotacaoCientifica],
   porcentagem: [pctAumentoDesconto, pctJurosSimples],
@@ -1437,5 +1907,5 @@ export const TEMPLATES = {
   "matematica-financeira": [finJurosCompostos],
   matrizes: [matDeterminante, matDeterminante3x3, matSoma, matSubtracao, matEscalar, matProduto, matTransposta, matTraco, matIgualdade, matLeiDeFormacao, matSimetrica, matPotencia, matInversa, matDeterminanteComIncognita, matCramer, matFaturamento, matIdentidadePropriedade],
   logica: [logSequencia, logRaciocinioIdade],
-  conjuntos: [conjDoisConjuntos, conjDiferenca],
+  conjuntos: [conjDoisConjuntos, conjDiferenca, conjUniaoDeInterseccao, conjComplementar, conjTresConjuntos, conjTresConjuntosEsporte, conjOperacoesExplicitas, conjDiferencaSimetrica, conjProdutoCartesiano, conjSubconjuntos, conjIntervalosReais, conjMultiplos, conjTresLinguas, conjPesquisaProduto, conjDivisores],
 };
