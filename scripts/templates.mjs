@@ -1518,7 +1518,8 @@ function conjComplementar(dificuldade, tentativa = 0) {
     const x1 = randInt(15, 35);
     const x2 = randInt(15, 35);
     const correct = u - x1 - x2;
-    const distr = [u - x1, u - x2, x1 + x2, u - Math.max(x1, x2)];
+    const distr = [u - x1, u - x2, x1 + x2, Math.abs(x1 - x2)];
+    guardExtra = x1 === x2;
     enunciado = `Em ${lugar} há ${u} ${unidade}. Sabe-se que ${x1} ${prop} e outros ${x2} têm uma segunda característica, sem que ninguém pertença aos dois grupos ao mesmo tempo. Quantos ${unidade} não pertencem a nenhum dos dois grupos?`;
     correctText = `${correct}`;
     distractorTexts = distr.map((v) => `${v}`);

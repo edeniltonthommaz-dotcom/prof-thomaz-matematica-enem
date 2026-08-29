@@ -2,62 +2,68 @@
 
 Task 8 / Fase 3 do plano `2026-08-28-dedupe-e-variedade-questoes`.
 
-Método: `resetRng()` e depois `fn(dificuldade)` para cada dificuldade (RNG semeado,
-primeira instância de cada), resolução independente sem olhar o gabarito, comparação
-com a letra que o gerador marcou `correta` e com o texto dessa alternativa.
+Método: as linhas abaixo são as **questões efetivamente gravadas** em
+`src/data/questions/conjuntos.json` pelo pipeline `node scripts/generate.mjs`
+(ids `conjuntos-ined-0124` … `-0162`). Para cada uma: enunciado como ficou no
+arquivo, resolução independente com a aritmética, e a letra + texto que o gerador
+marcou `correta`. Devem concordar.
 
-**Resultado: 39/39 instâncias conferidas (13 moldes × facil/medio/dificil) — a
-aritmética resolvida à mão bate com a alternativa `correta` do gerador em todas.**
+**Resultado: 39/39 questões gravadas conferidas (13 moldes × facil/medio/dificil) —
+a resolução independente bate com a alternativa `correta` do gerador em todas.**
+Todas as 45 questões de `conjuntos.json` têm 5 alternativas distintas, sem placeholder
+e sem "nudge" numérico (verificado por script).
 
-| Molde | subtópico | Instância verificada | Resolução independente | Gerador |
-|-------|-----------|----------------------|------------------------|---------|
-| `conjUniaoDeInterseccao` | União e Interseção | facil: \|A\|=20, \|B\|=24, \|A∩B\|=6, achar \|A∪B\| | 20+24−6 = **38** | A) 38 ✓ |
-| " | " | medio: \|A\|=20, \|B\|=24, \|A∪B\|=38, achar \|A∩B\| | 20+24−38 = **6** | A) 6 ✓ |
-| " | " | dificil: \|A∪B\|=38, \|A∩B\|=6, \|A\|=20, achar \|B\| | 38−20+6 = **24** | A) 24 ✓ |
-| `conjComplementar` | União e Interseção | facil: 59 moradores, 28 com vaga, achar sem vaga | 59−28 = **31** | D) 31 ✓ |
-| " | " | medio: 89 total, 42 não possuem, achar quantos possuem | 89−42 = **47** | D) 47 ✓ |
-| " | " | dificil: 138 sócios, grupos disjuntos de 26 e 27, achar fora dos dois | 138−26−27 = **85** | A) 85 ✓ |
-| `conjTresConjuntos` | Diagramas de Venn | facil: \|A\|=23, \|A∩B\|=7, \|A∩C\|=7, centro=2, achar só A | 23−7−7+2 = **11** | B) 11 ✓ |
-| " | " | medio: regiões 11,10,13,5,5,4; união 50; achar centro | 50−(11+10+13+5+5+4)=50−48 = **2** | B) 2 ✓ |
-| " | " | dificil: \|A\|=29,\|B\|=27,\|C\|=26; pares 11,11,7; centro 3; achar união | 82−29+3 = **56** | A) 56 ✓ |
-| `conjTresConjuntosEsporte` | Diagramas de Venn | facil: 33 praticam xadrez, 9 tb damas, 9 tb gamão, 4 os três; só xadrez | 33−9−9+4 = **19** | B) 19 ✓ |
-| " | " | medio: pares 6,12,7; três=3; exatamente dois | (6−3)+(12−3)+(7−3) = **16** | A) 16 ✓ |
-| " | " | dificil: 88 total, 9 nenhum, 6 regiões somam 76; os três | (88−9)−76 = 79−76 = **3** | E) 3 ✓ |
-| `conjOperacoesExplicitas` | União e Interseção | facil: A={1,2,5,11,15}, B={2,3,5,10}, \|A∩B\| | {2,5} → **2** | C) 2 ✓ |
-| " | " | medio: A(5), B(7), comuns {1,2,15}=3, \|A∪B\| | 5+7−3 = **9** | B) 9 ✓ |
-| " | " | dificil: A={5,8,11,12,16}, B={6,8,12,15,18,20}, \|A−B\| | comuns {8,12}=2 → 5−2 = **3** | C) 3 ✓ |
-| `conjDiferencaSimetrica` | União e Interseção | facil: A(5), B(4), comuns {6,17}=2, \|A△B\| | 3+2 = **5** | D) 5 ✓ |
-| " | " | medio: A(6), B(7), comuns {1,2,7}=3, \|A△B\| | 3+4 = **7** | B) 7 ✓ |
-| " | " | dificil: A(6), B(5), comuns {1,11}=2, \|A△B\| | 4+3 = **7** | A) 7 ✓ |
-| `conjProdutoCartesiano` | União e Interseção | facil: \|A\|=8, \|B\|=3, \|A×B\| | 8·3 = **24** | C) 24 ✓ |
-| " | " | medio: A com 7 elementos, \|B\|=6, \|A×B\| | 7·6 = **42** | C) 42 ✓ |
-| " | " | dificil: \|A×B\|=72, \|A\|=9, achar \|B\| | 72÷9 = **8** | D) 8 ✓ |
-| `conjSubconjuntos` | União e Interseção | facil: n=6, total de subconjuntos | 2⁶ = **64** | A) 64 ✓ |
-| " | " | medio: n=7, subconjuntos próprios | 2⁷−1 = **127** | E) 127 ✓ |
-| " | " | dificil: n=5, subconjuntos ≠ ∅ e ≠ próprio | 2⁵−2 = **30** | C) 30 ✓ |
-| `conjIntervalosReais` | União e Interseção | facil: [−4,3] ∩ [1,10] | **[1, 3]** | E) [1, 3] ✓ |
-| " | " | medio: [−2,6] ∪ [3,13] | **[−2, 13]** | A) [-2, 13] ✓ |
-| " | " | dificil: [−1,12] ∩ [0,8] (B ⊂ A) | **[0, 8]** | C) [0, 8] ✓ |
-| `conjMultiplos` | União e Interseção | facil: N=130, múltiplos de 6 ou 3 | ⌊130/6⌋+⌊130/3⌋−⌊130/6⌋ = 21+43−21 = **43** | C) 43 ✓ |
-| " | " | medio: N=220, múltiplos de 4 ou 9 | 55+24−⌊220/36⌋ = 55+24−6 = **73** | D) 73 ✓ |
-| " | " | dificil: N=140, múltiplos de 3 ou 7 | 46+20−⌊140/21⌋ = 46+20−6 = **60** | C) 60 ✓ |
-| `conjTresLinguas` | Diagramas de Venn | facil: turma 81, 7 regiões somam 77, achar nenhuma | 81−77 = **4** | A) 4 ✓ |
-| " | " | medio: pares 7,9,8; três=4; exatamente dois | (7−4)+(9−4)+(8−4) = **12** | C) 12 ✓ |
-| " | " | dificil: escola 80, 6 nenhum, 6 regiões somam 68; os três | (80−6)−68 = 74−68 = **6** | D) 6 ✓ |
-| `conjPesquisaProduto` | Problemas de Pesquisa | facil: 67 total, nenhum 14, dois 19, três 8; exatamente um | 67−14−19−8 = **26** | A) 26 ✓ |
-| " | " | medio: 65 total, nenhum 8, dois 19, três 4; exatamente um | 65−8−19−4 = **34** | E) 34 ✓ |
-| " | " | dificil: 41 total, nenhum 7, dois 14, três 3; exatamente um | 41−7−14−3 = **17** | B) 17 ✓ |
-| `conjDivisores` | Problemas de Pesquisa | facil: D(108), quantos divisores | 108 = 2²·3³ → (2+1)(3+1) = **12** | B) 12 ✓ |
-| " | " | medio: D(96), quantos pares | 96 = 2⁵·3 → 12 total − 2 ímpares (1,3) = **10** | C) 10 ✓ |
-| " | " | dificil: \|D(63) ∩ D(90)\| | = \|D(mdc(63,90))\| = \|D(9)\| = {1,3,9} → **3** | D) 3 ✓ |
+| id | Molde / dif | Enunciado (como gravado) | Resolução independente | Gerador |
+|----|-------------|--------------------------|------------------------|---------|
+| 0124 | `conjUniaoDeInterseccao` facil | \|A\|=24, \|B\|=18, \|A∩B\|=14, achar \|A∪B\| | 24+18−14 = **28** | B) 28 ✓ |
+| 0125 | " medio | \|A\|=23, \|B\|=30, \|A∪B\|=40, achar \|A∩B\| | 23+30−40 = **13** | B) 13 ✓ |
+| 0126 | " dificil | \|A∪B\|=34, \|A∩B\|=9, \|A\|=16, achar \|B\| | 34−16+9 = **27** | D) 27 ✓ |
+| 0127 | `conjComplementar` facil | 57 moradores, 15 com vaga, achar sem vaga | 57−15 = **42** | B) 42 ✓ |
+| 0128 | " medio | 74 funcionários, 20 não aderiram, achar quantos aderiram | 74−20 = **54** | C) 54 ✓ |
+| 0129 | " dificil | 126 estudantes, grupos disjuntos de 30 e 31, achar fora dos dois | 126−30−31 = **65** | B) 65 ✓ |
+| 0130 | `conjTresConjuntos` facil | \|A\|=27, \|A∩B\|=9, \|A∩C\|=9, centro=4, achar só A | 27−9−9+4 = **13** | E) 13 ✓ |
+| 0131 | " medio | regiões 10,15,14,6,4,4; união 55; achar centro | 55−(10+15+14+6+4+4) = 55−53 = **2** | D) 2 ✓ |
+| 0132 | " dificil | \|A\|=24,\|B\|=23,\|C\|=28; pares 6,9,8; centro 2; achar união | (24+23+28)−(6+9+8)+2 = 75−23+2 = **54** | D) 54 ✓ |
+| 0133 | `conjTresConjuntosEsporte` facil | 36 surfe, 14 tb skate, 14 tb vôlei de praia, 5 os três; só surfe | 36−14−14+5 = **13** | A) 13 ✓ |
+| 0134 | " medio | pares 8,8,12; três=3; exatamente dois | (8−3)+(8−3)+(12−3) = **19** | E) 19 ✓ |
+| 0135 | " dificil | 78 total, 5 nenhum → 73 união; 6 regiões somam 69; os três | 73−69 = **4** | A) 4 ✓ |
+| 0136 | `conjOperacoesExplicitas` facil | A={12,16,18,19}, B={4,10,12,17,18}, \|A∩B\| | comuns {12,18} → **2** | C) 2 ✓ |
+| 0137 | " medio | A={6,9,11,15,19}, B={1,9,12,13,14,15}, \|A∪B\| | comuns {9,15}=2 → 5+6−2 = **9** | C) 9 ✓ |
+| 0138 | " dificil | A (8 elem.), B (9 elem.), \|A−B\| | comuns {2,3,7,9,19}=5 → 8−5 = **3** | B) 3 ✓ |
+| 0139 | `conjDiferencaSimetrica` facil | A={1,2,8,9,15,19}, B={4,8,9,10,19}, \|A△B\| | comuns {8,9,19}=3 → (6−3)+(5−3) = 3+2 = **5** | A) 5 ✓ |
+| 0140 | " medio | A (8 elem.), B (7 elem.), \|A△B\| | comuns {3,5,7,8}=4 → 4+3 = **7** | B) 7 ✓ |
+| 0141 | " dificil | A={3,7,11,12,13,15}, B={5,6,7,9,11,12,15,19}, \|A△B\| | comuns {7,11,12,15}=4 → 2+4 = **6** | B) 6 ✓ |
+| 0142 | `conjProdutoCartesiano` facil | \|A\|=4, \|B\|=6, \|A×B\| | 4·6 = **24** | A) 24 ✓ |
+| 0143 | " medio | A={3,4,6,10,16} (5), \|B\|=8, \|A×B\| | 5·8 = **40** | D) 40 ✓ |
+| 0144 | " dificil | \|A×B\|=48, \|A\|=8, achar \|B\| | 48÷8 = **6** | A) 6 ✓ |
+| 0145 | `conjSubconjuntos` facil | n=5, total de subconjuntos | 2⁵ = **32** | E) 32 ✓ |
+| 0146 | " medio | n=6, subconjuntos próprios | 2⁶−1 = **63** | C) 63 ✓ |
+| 0147 | " dificil | n=5, subconjuntos ≠ ∅ e ≠ próprio | 2⁵−2 = **30** | D) 30 ✓ |
+| 0148 | `conjIntervalosReais` facil | [−4,0] ∩ [−3,12] | **[−3, 0]** | E) [-3, 0] ✓ |
+| 0149 | " medio | [−1,12] ∪ [6,13] | **[−1, 13]** | C) [-1, 13] ✓ |
+| 0150 | " dificil | [−3,6] ∩ [3,4] (B ⊂ A) | **[3, 4]** | E) [3, 4] ✓ |
+| 0151 | `conjMultiplos` facil | N=60, múltiplos de 5 ou 6 | ⌊60/5⌋+⌊60/6⌋−⌊60/30⌋ = 12+10−2 = **20** | E) 20 ✓ |
+| 0152 | " medio | N=130, múltiplos de 5 ou 4 | 26+32−⌊130/20⌋ = 26+32−6 = **52** | A) 52 ✓ |
+| 0153 | " dificil | N=260, múltiplos de 5 ou 4 | 52+65−⌊260/20⌋ = 52+65−13 = **104** | B) 104 ✓ |
+| 0154 | `conjTresLinguas` facil | turma 78, 7 regiões somam 65, achar nenhuma | 78−65 = **13** | D) 13 ✓ |
+| 0155 | " medio | pares 10,7,9; três=3; exatamente dois | (10−3)+(7−3)+(9−3) = **17** | D) 17 ✓ |
+| 0156 | " dificil | escola 99, 7 nenhum → 92 união; 6 regiões somam 88; os três | 92−88 = **4** | D) 4 ✓ |
+| 0157 | `conjPesquisaProduto` facil | 55 total, nenhum 11, dois 15, três 4; exatamente um | 55−11−15−4 = **25** | B) 25 ✓ |
+| 0158 | " medio | 59 total, nenhum 7, dois 16, três 4; exatamente um | 59−7−16−4 = **32** | B) 32 ✓ |
+| 0159 | " dificil | 56 total, nenhum 14, dois 16, três 9; exatamente um | 56−14−16−9 = **17** | A) 17 ✓ |
+| 0160 | `conjDivisores` facil | D(108), quantos divisores | 108 = 2²·3³ → (2+1)(3+1) = **12** | C) 12 ✓ |
+| 0161 | " medio | D(28), quantos pares | 28 = 2²·7 → {1,2,4,7,14,28}, pares {2,4,14,28} = **4** | D) 4 ✓ |
+| 0162 | " dificil | \|D(116) ∩ D(24)\| | = \|D(mdc(116,24))\| = \|D(4)\| = {1,2,4} → **3** | E) 3 ✓ |
 
 ## Distratores
 
 Todos calculados em código como erros clássicos, distintos entre si e da resposta
-(guarda `_conjOk` + recursão com `tentativa` quando algum colide). Exemplos:
+(guarda `_conjOk` + recursão `tentativa < 40` quando algum colide). Exemplos:
 
 - União/interseção: esquecer de subtrair a interseção (`|A|+|B|`), subtrair duas vezes,
   responder o total geral.
+- Complementar (dois grupos disjuntos): subtrair só um grupo (`u−x1` / `u−x2`),
+  responder a soma dos grupos (`x1+x2`), responder a diferença entre eles (`|x1−x2|`).
 - 3 conjuntos: não somar de volta o centro na contagem de "só A"; somar as regiões
   erradas; inclusão-exclusão sem o `+|A∩B∩C|`.
 - Produto cartesiano: `|A|+|B|` em vez de `|A|·|B|`, `|A|²`, `2|A||B|`.
@@ -70,7 +76,8 @@ Todos calculados em código como erros clássicos, distintos entre si e da respo
 ## Gate
 
 - `node scripts/generate.mjs` → `conjuntos: +45 inéditas (realLike 4, total 49)`.
-  Só `conjuntos.json` e `_resumo.json` mudam (categoria é a última do PRNG semeado).
+  Só `conjuntos.json` (e, na 1ª corrida, `_resumo.json`) muda — categoria é a última
+  do PRNG semeado.
 - `node scripts/validate-all.mjs` → `974 questões, 974 enunciados únicos, 0 erros` (exit 0).
 - `node --test scripts/rng.test.mjs` → 5/5 (inclui idempotência); rodado 2×, `git status`
   estável após o 2º `generate`.
@@ -79,6 +86,6 @@ Todos calculados em código como erros clássicos, distintos entre si e da respo
 ## Total real alcançado
 
 **49** (4 realLike + 45 inéditas = 15 moldes × 3 dificuldades, sem dedupe). Abaixo de
-50 por 1, dentro da faixa 35–45+ permitida pela decisão do controlador. Um 14º molde
-não foi adicionado: a diferença é de apenas 1 questão e as 13 estruturas já cobrem os
-casos distintos do catálogo da spec §6.
+50 por 1, dentro da faixa permitida pela decisão do controlador. Um 14º molde não foi
+adicionado: a diferença é de apenas 1 questão e as 13 estruturas já cobrem os casos
+distintos do catálogo da spec §6.
