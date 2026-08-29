@@ -1,206 +1,206 @@
 [
   {
-    "id": "estatistica-ined-0044",
+    "id": "estatistica-ined-0081",
     "categoriaId": "estatistica",
     "subtopico": "Média, Moda e Mediana",
     "dificuldade": "facil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "As notas de um aluno em 4 avaliações foram: 69, 98, 74, 72. Qual é a média aritmética dessas notas?",
+    "enunciado": "As notas de um aluno em 4 avaliações foram: 77, 82, 92, 41. Qual é a média aritmética dessas notas?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "104.33"
+        "texto": "97.33"
       },
       {
         "letra": "B",
-        "texto": "98"
+        "texto": "92"
       },
       {
         "letra": "C",
-        "texto": "78.25"
+        "texto": "146"
       },
       {
         "letra": "D",
-        "texto": "69"
+        "texto": "41"
       },
       {
         "letra": "E",
-        "texto": "157"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "Média = soma dos valores ÷ quantidade = (69 + 98 + 74 + 72) ÷ 4 = 313 ÷ 4 = 78.25."
-  },
-  {
-    "id": "estatistica-ined-0045",
-    "categoriaId": "estatistica",
-    "subtopico": "Média, Moda e Mediana",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "As notas de um aluno em 6 avaliações foram: 46, 84, 58, 69, 70, 87. Qual é a média aritmética dessas notas?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "46"
-      },
-      {
-        "letra": "B",
-        "texto": "87"
-      },
-      {
-        "letra": "C",
-        "texto": "82.8"
-      },
-      {
-        "letra": "D",
-        "texto": "69"
-      },
-      {
-        "letra": "E",
-        "texto": "207"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "Média = soma dos valores ÷ quantidade = (46 + 84 + 58 + 69 + 70 + 87) ÷ 6 = 414 ÷ 6 = 69."
-  },
-  {
-    "id": "estatistica-ined-0046",
-    "categoriaId": "estatistica",
-    "subtopico": "Média, Moda e Mediana",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "As notas de um aluno em 8 avaliações foram: 25, 20, 96, 74, 24, 57, 80, 50. Qual é a média aritmética dessas notas?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "20"
-      },
-      {
-        "letra": "B",
-        "texto": "96"
-      },
-      {
-        "letra": "C",
-        "texto": "213"
-      },
-      {
-        "letra": "D",
-        "texto": "60.86"
-      },
-      {
-        "letra": "E",
-        "texto": "53.25"
+        "texto": "73"
       }
     ],
     "correta": "E",
-    "explicacao": "Média = soma dos valores ÷ quantidade = (25 + 20 + 96 + 74 + 24 + 57 + 80 + 50) ÷ 8 = 426 ÷ 8 = 53.25."
+    "explicacao": "Média = soma dos valores ÷ quantidade = (77 + 82 + 92 + 41) ÷ 4 = 292 ÷ 4 = 73."
   },
   {
-    "id": "estatistica-ined-0047",
-    "categoriaId": "estatistica",
-    "subtopico": "Média, Moda e Mediana",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um pesquisador coletou os seguintes valores em uma amostra: 10, 31, 57, 72, 76 (não ordenados originalmente). Qual é a mediana desse conjunto de dados?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "57"
-      },
-      {
-        "letra": "B",
-        "texto": "76"
-      },
-      {
-        "letra": "C",
-        "texto": "49"
-      },
-      {
-        "letra": "D",
-        "texto": "10"
-      },
-      {
-        "letra": "E",
-        "texto": "31"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "Ordenando os valores: 10, 31, 57, 72, 76. Como há 5 valores (ímpar), a mediana é o valor central, ou seja, 57."
-  },
-  {
-    "id": "estatistica-ined-0048",
+    "id": "estatistica-ined-0082",
     "categoriaId": "estatistica",
     "subtopico": "Média, Moda e Mediana",
     "dificuldade": "medio",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Um pesquisador coletou os seguintes valores em uma amostra: 10, 32, 43, 50, 64 (não ordenados originalmente). Qual é a mediana desse conjunto de dados?",
+    "enunciado": "As notas de um aluno em 6 avaliações foram: 74, 56, 100, 90, 44, 47. Qual é a média aritmética dessas notas?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "64"
+        "texto": "68.5"
       },
       {
         "letra": "B",
-        "texto": "32"
+        "texto": "206"
       },
       {
         "letra": "C",
-        "texto": "10"
+        "texto": "82.2"
       },
       {
         "letra": "D",
-        "texto": "43"
+        "texto": "100"
       },
       {
         "letra": "E",
-        "texto": "40"
+        "texto": "44"
       }
     ],
-    "correta": "D",
-    "explicacao": "Ordenando os valores: 10, 32, 43, 50, 64. Como há 5 valores (ímpar), a mediana é o valor central, ou seja, 43."
+    "correta": "A",
+    "explicacao": "Média = soma dos valores ÷ quantidade = (74 + 56 + 100 + 90 + 44 + 47) ÷ 6 = 411 ÷ 6 = 68.5."
   },
   {
-    "id": "estatistica-ined-0049",
+    "id": "estatistica-ined-0083",
     "categoriaId": "estatistica",
     "subtopico": "Média, Moda e Mediana",
     "dificuldade": "dificil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Um pesquisador coletou os seguintes valores em uma amostra: 49, 53, 63, 68, 75, 87, 97 (não ordenados originalmente). Qual é a mediana desse conjunto de dados?",
+    "enunciado": "As notas de um aluno em 8 avaliações foram: 65, 39, 81, 23, 25, 50, 31, 65. Qual é a média aritmética dessas notas?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "68"
+        "texto": "54.14"
       },
       {
         "letra": "B",
-        "texto": "49"
+        "texto": "47.38"
       },
       {
         "letra": "C",
-        "texto": "63"
+        "texto": "190"
       },
       {
         "letra": "D",
-        "texto": "70"
+        "texto": "23"
       },
       {
         "letra": "E",
-        "texto": "97"
+        "texto": "81"
+      }
+    ],
+    "correta": "B",
+    "explicacao": "Média = soma dos valores ÷ quantidade = (65 + 39 + 81 + 23 + 25 + 50 + 31 + 65) ÷ 8 = 379 ÷ 8 = 47.38."
+  },
+  {
+    "id": "estatistica-ined-0084",
+    "categoriaId": "estatistica",
+    "subtopico": "Média, Moda e Mediana",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um pesquisador coletou os seguintes valores em uma amostra: 29, 32, 62, 83, 90 (não ordenados originalmente). Qual é a mediana desse conjunto de dados?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "62"
+      },
+      {
+        "letra": "B",
+        "texto": "59"
+      },
+      {
+        "letra": "C",
+        "texto": "29"
+      },
+      {
+        "letra": "D",
+        "texto": "90"
+      },
+      {
+        "letra": "E",
+        "texto": "32"
       }
     ],
     "correta": "A",
-    "explicacao": "Ordenando os valores: 49, 53, 63, 68, 75, 87, 97. Como há 7 valores (ímpar), a mediana é o valor central, ou seja, 68."
+    "explicacao": "Ordenando os valores: 29, 32, 62, 83, 90. Como há 5 valores (ímpar), a mediana é o valor central, ou seja, 62."
+  },
+  {
+    "id": "estatistica-ined-0085",
+    "categoriaId": "estatistica",
+    "subtopico": "Média, Moda e Mediana",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um pesquisador coletou os seguintes valores em uma amostra: 22, 26, 40, 83, 83 (não ordenados originalmente). Qual é a mediana desse conjunto de dados?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "83"
+      },
+      {
+        "letra": "B",
+        "texto": "40"
+      },
+      {
+        "letra": "C",
+        "texto": "26"
+      },
+      {
+        "letra": "D",
+        "texto": "51"
+      },
+      {
+        "letra": "E",
+        "texto": "22"
+      }
+    ],
+    "correta": "B",
+    "explicacao": "Ordenando os valores: 22, 26, 40, 83, 83. Como há 5 valores (ímpar), a mediana é o valor central, ou seja, 40."
+  },
+  {
+    "id": "estatistica-ined-0086",
+    "categoriaId": "estatistica",
+    "subtopico": "Média, Moda e Mediana",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um pesquisador coletou os seguintes valores em uma amostra: 16, 25, 30, 50, 73, 74, 75 (não ordenados originalmente). Qual é a mediana desse conjunto de dados?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "50"
+      },
+      {
+        "letra": "B",
+        "texto": "75"
+      },
+      {
+        "letra": "C",
+        "texto": "16"
+      },
+      {
+        "letra": "D",
+        "texto": "30"
+      },
+      {
+        "letra": "E",
+        "texto": "49"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "Ordenando os valores: 16, 25, 30, 50, 73, 74, 75. Como há 7 valores (ímpar), a mediana é o valor central, ou seja, 50."
   }
 ]

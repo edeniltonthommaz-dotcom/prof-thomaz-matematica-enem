@@ -1,104 +1,104 @@
 [
   {
-    "id": "trigonometria-ined-0041",
+    "id": "trigonometria-ined-0078",
     "categoriaId": "trigonometria",
     "subtopico": "Triângulo Retângulo",
     "dificuldade": "facil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Um observador está a 34 m da base de uma torre e vê o topo da torre sob um ângulo de 30° em relação ao chão. Usando tan(30°) ≈ 0.58, qual é aproximadamente a altura da torre?",
+    "enunciado": "Um observador está a 14 m da base de uma torre e vê o topo da torre sob um ângulo de 45° em relação ao chão. Usando tan(45°) ≈ 1, qual é aproximadamente a altura da torre?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "34 m"
+        "texto": "29 m"
       },
       {
         "letra": "B",
-        "texto": "30 m"
+        "texto": "14 m"
       },
       {
         "letra": "C",
-        "texto": "20 m"
+        "texto": "28 m"
       },
       {
         "letra": "D",
-        "texto": "40 m"
+        "texto": "31 m"
       },
       {
         "letra": "E",
-        "texto": "17 m"
+        "texto": "10 m"
       }
     ],
-    "correta": "C",
-    "explicacao": "tan(30°) = altura / distância. Altura = distância × tan(30°) = 34 × 0.58 ≈ 20 m."
+    "correta": "B",
+    "explicacao": "tan(45°) = altura / distância. Altura = distância × tan(45°) = 14 × 1 ≈ 14 m."
   },
   {
-    "id": "trigonometria-ined-0042",
+    "id": "trigonometria-ined-0079",
     "categoriaId": "trigonometria",
     "subtopico": "Triângulo Retângulo",
     "dificuldade": "medio",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Um observador está a 20 m da base de uma torre e vê o topo da torre sob um ângulo de 45° em relação ao chão. Usando tan(45°) ≈ 1, qual é aproximadamente a altura da torre?",
+    "enunciado": "Um observador está a 11 m da base de uma torre e vê o topo da torre sob um ângulo de 30° em relação ao chão. Usando tan(30°) ≈ 0.58, qual é aproximadamente a altura da torre?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "20 m"
+        "texto": "11 m"
       },
       {
         "letra": "B",
-        "texto": "41 m"
+        "texto": "10 m"
       },
       {
         "letra": "C",
-        "texto": "14 m"
+        "texto": "13 m"
       },
       {
         "letra": "D",
-        "texto": "43 m"
+        "texto": "12 m"
       },
       {
         "letra": "E",
-        "texto": "40 m"
+        "texto": "6 m"
       }
     ],
-    "correta": "A",
-    "explicacao": "tan(45°) = altura / distância. Altura = distância × tan(45°) = 20 × 1 ≈ 20 m."
+    "correta": "E",
+    "explicacao": "tan(30°) = altura / distância. Altura = distância × tan(30°) = 11 × 0.58 ≈ 6 m."
   },
   {
-    "id": "trigonometria-ined-0043",
+    "id": "trigonometria-ined-0080",
     "categoriaId": "trigonometria",
     "subtopico": "Triângulo Retângulo",
     "dificuldade": "dificil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Um observador está a 45 m da base de uma torre e vê o topo da torre sob um ângulo de 60° em relação ao chão. Usando tan(60°) ≈ 1.73, qual é aproximadamente a altura da torre?",
+    "enunciado": "Um observador está a 42 m da base de uma torre e vê o topo da torre sob um ângulo de 45° em relação ao chão. Usando tan(45°) ≈ 1, qual é aproximadamente a altura da torre?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "156 m"
+        "texto": "30 m"
       },
       {
         "letra": "B",
-        "texto": "45 m"
+        "texto": "87 m"
       },
       {
         "letra": "C",
-        "texto": "78 m"
+        "texto": "84 m"
       },
       {
         "letra": "D",
-        "texto": "39 m"
+        "texto": "85 m"
       },
       {
         "letra": "E",
-        "texto": "23 m"
+        "texto": "42 m"
       }
     ],
-    "correta": "C",
-    "explicacao": "tan(60°) = altura / distância. Altura = distância × tan(60°) = 45 × 1.73 ≈ 78 m."
+    "correta": "E",
+    "explicacao": "tan(45°) = altura / distância. Altura = distância × tan(45°) = 42 × 1 ≈ 42 m."
   }
 ]

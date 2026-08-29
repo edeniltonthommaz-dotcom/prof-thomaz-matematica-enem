@@ -646,6 +646,489 @@ function geoEquacaoReta(dificuldade) {
   });
 }
 
+// --- Geometria Analítica: +13 moldes (Fase 4) ---
+function _gaCoefX(m) {
+  return m === 1 ? "x" : m === -1 ? "-x" : `${m}x`;
+}
+function _gaReta(m, n) {
+  return `y = ${_gaCoefX(m)}${n > 0 ? ` + ${n}` : n < 0 ? ` - ${-n}` : ""}`;
+}
+function _gaSlopeStr(num, den) {
+  if (den < 0) {
+    num = -num;
+    den = -den;
+  }
+  const g = gcd(num, den);
+  num /= g;
+  den /= g;
+  return den === 1 ? `${num}` : `${num}/${den}`;
+}
+function _gaCircEq(a, b, rhs) {
+  const tx = a < 0 ? `x + ${-a}` : `x - ${a}`;
+  const ty = b < 0 ? `y + ${-b}` : `y - ${b}`;
+  return `(${tx})² + (${ty})² = ${rhs}`;
+}
+function _gaTermo(c, v) {
+  return c === 0 ? "" : c > 0 ? ` + ${c}${v}` : ` - ${-c}${v}`;
+}
+function _gaNum(v) {
+  return Number.isInteger(v) ? `${v}` : `${v}`.replace(".", ",");
+}
+function _gaDistintos(textos) {
+  return new Set(textos).size === textos.length;
+}
+
+function gaPontoMedio(dificuldade, tentativa = 0) {
+  const R = dificuldade === "facil" ? 5 : dificuldade === "dificil" ? 10 : 8;
+  const passos = [-4, -3, -2, -1, 1, 2, 3, 4];
+  const x1 = randInt(-R, R);
+  const y1 = randInt(-R, R);
+  const x2 = x1 + 2 * pick(passos);
+  const y2 = y1 + 2 * pick(passos);
+  const mx = (x1 + x2) / 2;
+  const my = (y1 + y2) / 2;
+  const correctText = `(${mx}, ${my})`;
+  const distractorTexts = [
+    `(${(x1 - x2) / 2}, ${(y1 - y2) / 2})`,
+    `(${x1 + x2}, ${y1 + y2})`,
+    `(${my}, ${mx})`,
+    `(${(x2 - x1) / 2}, ${(y2 - y1) / 2})`,
+  ];
+  if (tentativa < 40 && (mx === my || !_gaDistintos([correctText, ...distractorTexts])))
+    return gaPontoMedio(dificuldade, tentativa + 1);
+  return makeQuestao({
+    categoriaId: "geometria-analitica",
+    subtopico: "Distância entre Pontos",
+    dificuldade,
+    enunciado: `No plano cartesiano, qual é o ponto médio do segmento de extremos A(${x1}, ${y1}) e B(${x2}, ${y2})?`,
+    correctText,
+    distractorTexts,
+    explicacao: `O ponto médio é ((x₁+x₂)/2, (y₁+y₂)/2) = ((${x1}+${x2})/2, (${y1}+${y2})/2) = (${mx}, ${my}).`,
+  });
+}
+
+function gaDistanciaOrigem(dificuldade, tentativa = 0) {
+  const lim = dificuldade === "facil" ? 3 : dificuldade === "dificil" ? 8 : 5;
+  const [a, b, c] = pick(TRIPLAS_PITAGORICAS.slice(0, lim));
+  const px = pick([1, -1]) * a;
+  const py = pick([1, -1]) * b;
+  const correctText = `${c}`;
+  const distractorTexts = [`${a + b}`, `${Math.abs(a - b)}`, `${c * c}`, `${2 * c}`];
+  if (tentativa < 40 && !_gaDistintos([correctText, ...distractorTexts]))
+    return gaDistanciaOrigem(dificuldade, tentativa + 1);
+  return makeQuestao({
+    categoriaId: "geometria-analitica",
+    subtopico: "Distância entre Pontos",
+    dificuldade,
+    enunciado: `No plano cartesiano, qual é a distância do ponto P(${px}, ${py}) à origem?`,
+    correctText,
+    distractorTexts,
+    explicacao: `d = √(x² + y²) = √((${px})² + (${py})²) = √(${px * px} + ${py * py}) = √${px * px + py * py} = ${c}.`,
+  });
+}
+
+function gaCoefAngularDoisPontos(dificuldade, tentativa = 0) {
+  const ms =
+    dificuldade === "facil" ? [2, 3] : dificuldade === "dificil" ? [-4, -3, -2, 2, 3, 4] : [-3, -2, 2, 3];
+  const m = pick(ms);
+  const dx = pick([2, 3].filter((d) => d !== Math.abs(m))) ?? 2;
+  const x1 = randInt(-3, 3);
+  const x2 = x1 + dx;
+  const y1 = randInt(-4, 4);
+  const y2 = y1 + m * dx;
+  const n = y1 - m * x1;
+  const correctText = `${m}`;
+  const distractorTexts = [`${-m}`, `${y2 - y1}`, `${x2 - x1}`, `${n}`];
+  if (tentativa < 40 && !_gaDistintos([correctText, ...distractorTexts]))
+    return gaCoefAngularDoisPontos(dificuldade, tentativa + 1);
+  return makeQuestao({
+    categoriaId: "geometria-analitica",
+    subtopico: "Equação da Reta",
+    dificuldade,
+    enunciado: `No plano cartesiano, qual é o coeficiente angular da reta que passa pelos pontos A(${x1}, ${y1}) e B(${x2}, ${y2})?`,
+    correctText,
+    distractorTexts,
+    explicacao: `m = (y₂ − y₁)/(x₂ − x₁) = (${y2} − (${y1}))/(${x2} − (${x1})) = ${y2 - y1}/${x2 - x1} = ${m}.`,
+  });
+}
+
+function gaEquacaoRetaPorDoisPontos(dificuldade, tentativa = 0) {
+  const ms = dificuldade === "facil" ? [2, 3] : dificuldade === "dificil" ? [-3, -2, 2, 3] : [-2, 2, 3];
+  const m = pick(ms);
+  const dx = pick([1, 2, 3]);
+  const x1 = pick([-3, -2, -1, 1, 2, 3].filter((v) => v + dx !== 0));
+  const x2 = x1 + dx;
+  const y1 = randInt(-4, 4);
+  const y2 = y1 + m * dx;
+  const n = y1 - m * x1;
+  const correctText = `${n}`;
+  const distractorTexts = [`${y1 + m * x1}`, `${y2 + m * x2}`, `${m}`, `${y1}`];
+  if (tentativa < 40 && !_gaDistintos([correctText, ...distractorTexts]))
+    return gaEquacaoRetaPorDoisPontos(dificuldade, tentativa + 1);
+  return makeQuestao({
+    categoriaId: "geometria-analitica",
+    subtopico: "Equação da Reta",
+    dificuldade,
+    enunciado: `A reta r passa pelos pontos A(${x1}, ${y1}) e B(${x2}, ${y2}). Escrevendo a equação de r na forma y = mx + n, qual é o valor de n (coeficiente linear)?`,
+    correctText,
+    distractorTexts,
+    explicacao: `m = (${y2} − (${y1}))/(${x2} − (${x1})) = ${m}. Como n = y − mx, usando A: n = ${y1} − (${m})(${x1}) = ${n}.`,
+  });
+}
+
+function gaParalelaPerpendicular(dificuldade, tentativa = 0) {
+  const paralela = dificuldade === "facil";
+  const ms = dificuldade === "medio" ? [-2, 2] : [-3, -2, 2, 3];
+  const m = pick(ms);
+  const b = pick([-6, -5, -4, -3, -2, -1, 1, 2, 3, 4, 5, 6].filter((v) => v !== m && v !== -m));
+  const perp = _gaSlopeStr(-1, m);
+  const recipSemSinal = _gaSlopeStr(1, m);
+  const correctText = paralela ? `${m}` : perp;
+  const distractorTexts = paralela
+    ? [`${-m}`, perp, recipSemSinal, `${b}`]
+    : [`${m}`, `${-m}`, recipSemSinal, `${b}`];
+  if (tentativa < 40 && !_gaDistintos([correctText, ...distractorTexts]))
+    return gaParalelaPerpendicular(dificuldade, tentativa + 1);
+  const enun = paralela
+    ? `Qual é o coeficiente angular de uma reta paralela à reta ${_gaReta(m, b)}?`
+    : dificuldade === "medio"
+      ? `Qual é o coeficiente angular de uma reta perpendicular à reta de equação ${_gaReta(m, b)}?`
+      : `Uma reta s é perpendicular à reta r: ${_gaReta(m, b)}. Qual é o coeficiente angular de s?`;
+  return makeQuestao({
+    categoriaId: "geometria-analitica",
+    subtopico: "Equação da Reta",
+    dificuldade,
+    enunciado: enun,
+    correctText,
+    distractorTexts,
+    explicacao: paralela
+      ? `Retas paralelas têm o mesmo coeficiente angular. A reta dada tem coeficiente angular ${m}, logo a resposta é ${m}.`
+      : `Retas perpendiculares têm coeficientes angulares com produto −1. Logo o coeficiente é −1/(${m}) = ${perp}.`,
+  });
+}
+
+function gaInterseccaoRetas(dificuldade, tentativa = 0) {
+  const px = pick([-4, -3, -2, -1, 1, 2, 3, 4]);
+  const py = pick([-4, -3, -2, -1, 0, 1, 2, 3, 4].filter((v) => v !== px));
+  const m1 = pick([-3, -2, -1, 1, 2, 3]);
+  const m2 = pick([-3, -2, -1, 1, 2, 3].filter((v) => v !== m1));
+  const n1 = py - m1 * px;
+  const n2 = py - m2 * px;
+  const correctText = `(${px}, ${py})`;
+  const distractorTexts = [
+    `(${-px}, ${py})`,
+    `(${py}, ${px})`,
+    `(${px}, ${m1 * px})`,
+    `(${px}, ${n1})`,
+  ];
+  if (tentativa < 40 && (n1 === 0 || m1 === 0 || !_gaDistintos([correctText, ...distractorTexts])))
+    return gaInterseccaoRetas(dificuldade, tentativa + 1);
+  const rhs1 = n1 >= 0 ? `+ ${n1}` : `- ${-n1}`;
+  return makeQuestao({
+    categoriaId: "geometria-analitica",
+    subtopico: "Equação da Reta",
+    dificuldade,
+    enunciado: `No plano cartesiano, as retas r: ${_gaReta(m1, n1)} e s: ${_gaReta(m2, n2)} se intersectam em um único ponto. Quais são as coordenadas desse ponto?`,
+    correctText,
+    distractorTexts,
+    explicacao: `Igualando as equações e isolando x, obtém-se x = ${px}. Substituindo em r: y = ${m1}·(${px}) ${rhs1} = ${py}. Ponto: (${px}, ${py}).`,
+  });
+}
+
+function gaCircunferenciaCentroRaio(dificuldade, tentativa = 0) {
+  const a = pick([-5, -4, -3, -2, -1, 1, 2, 3, 4, 5]);
+  const b = pick([-5, -4, -3, -2, -1, 1, 2, 3, 4, 5].filter((v) => v !== a && v !== -a));
+  const r = randInt(3, dificuldade === "facil" ? 6 : dificuldade === "dificil" ? 9 : 8);
+  const r2 = r * r;
+  if (dificuldade === "facil") {
+    const correctText = `(${a}, ${b})`;
+    const distractorTexts = [
+      `(${-a}, ${-b})`,
+      `(${b}, ${a})`,
+      `(${-a}, ${b})`,
+      `(${-b}, ${-a})`,
+    ];
+    if (tentativa < 40 && !_gaDistintos([correctText, ...distractorTexts]))
+      return gaCircunferenciaCentroRaio(dificuldade, tentativa + 1);
+    return makeQuestao({
+      categoriaId: "geometria-analitica",
+      subtopico: "Equação da Circunferência",
+      dificuldade,
+      enunciado: `A circunferência λ tem equação ${_gaCircEq(a, b, r2)}. Quais são as coordenadas do seu centro?`,
+      correctText,
+      distractorTexts,
+      explicacao: `Na forma (x − a)² + (y − b)² = r², o centro é (a, b). Aqui a = ${a} e b = ${b}, logo o centro é (${a}, ${b}).`,
+    });
+  }
+  if (dificuldade === "medio") {
+    const correctText = `${r}`;
+    const distractorTexts = [`${r2}`, `${2 * r}`, `${r2 + 1}`, `${r + 1}`];
+    if (tentativa < 40 && !_gaDistintos([correctText, ...distractorTexts]))
+      return gaCircunferenciaCentroRaio(dificuldade, tentativa + 1);
+    return makeQuestao({
+      categoriaId: "geometria-analitica",
+      subtopico: "Equação da Circunferência",
+      dificuldade,
+      enunciado: `Uma circunferência tem equação ${_gaCircEq(a, b, r2)}. Qual é o seu raio?`,
+      correctText,
+      distractorTexts,
+      explicacao: `O número à direita do sinal de igual é r² = ${r2}. Logo r = √${r2} = ${r}.`,
+    });
+  }
+  const correctText = _gaCircEq(a, b, r2);
+  const distractorTexts = [
+    _gaCircEq(-a, -b, r2),
+    _gaCircEq(a, b, r),
+    _gaCircEq(b, a, r2),
+    _gaCircEq(a, b, 2 * r),
+  ];
+  if (tentativa < 40 && !_gaDistintos([correctText, ...distractorTexts]))
+    return gaCircunferenciaCentroRaio(dificuldade, tentativa + 1);
+  return makeQuestao({
+    categoriaId: "geometria-analitica",
+    subtopico: "Equação da Circunferência",
+    dificuldade,
+    enunciado: `Qual é a equação reduzida da circunferência de centro C(${a}, ${b}) e raio ${r}?`,
+    correctText,
+    distractorTexts,
+    explicacao: `A equação reduzida é (x − a)² + (y − b)² = r². Com a = ${a}, b = ${b} e r = ${r}: ${correctText}.`,
+  });
+}
+
+function gaCircunferenciaGeralParaReduzida(dificuldade, tentativa = 0) {
+  const a = pick([-5, -4, -3, -2, -1, 1, 2, 3, 4, 5]);
+  const b = pick([-5, -4, -3, -2, -1, 1, 2, 3, 4, 5].filter((v) => v !== a && v !== -a));
+  const r = randInt(3, dificuldade === "dificil" ? 8 : 6);
+  const D = -2 * a;
+  const E = -2 * b;
+  const F = a * a + b * b - r * r;
+  const eq = `x² + y²${_gaTermo(D, "x")}${_gaTermo(E, "y")}${_gaTermo(F, "")} = 0`;
+  if (dificuldade === "facil") {
+    const correctText = `(${a}, ${b})`;
+    const distractorTexts = [`(${D}, ${E})`, `(${-D}, ${-E})`, `(${-a}, ${b})`, `(${b}, ${a})`];
+    if (tentativa < 40 && !_gaDistintos([correctText, ...distractorTexts]))
+      return gaCircunferenciaGeralParaReduzida(dificuldade, tentativa + 1);
+    return makeQuestao({
+      categoriaId: "geometria-analitica",
+      subtopico: "Equação da Circunferência",
+      dificuldade,
+      enunciado: `A circunferência C tem equação ${eq}. Quais são as coordenadas do seu centro?`,
+      correctText,
+      distractorTexts,
+      explicacao: `O centro é (−D/2, −E/2) = (−(${D})/2, −(${E})/2) = (${a}, ${b}).`,
+    });
+  }
+  if (dificuldade === "medio") {
+    const correctText = `${r}`;
+    const distractorTexts = [`${r * r}`, `${2 * r}`, `${Math.abs(a) + Math.abs(b)}`, `${r + 1}`];
+    if (tentativa < 40 && !_gaDistintos([correctText, ...distractorTexts]))
+      return gaCircunferenciaGeralParaReduzida(dificuldade, tentativa + 1);
+    return makeQuestao({
+      categoriaId: "geometria-analitica",
+      subtopico: "Equação da Circunferência",
+      dificuldade,
+      enunciado: `A circunferência C tem equação ${eq}. Qual é o seu raio?`,
+      correctText,
+      distractorTexts,
+      explicacao: `Centro (−D/2, −E/2) = (${a}, ${b}). Raio: r = √(D²/4 + E²/4 − F) = √(${a * a} + ${b * b} − (${F})) = √${r * r} = ${r}.`,
+    });
+  }
+  const correctText = `centro (${a}, ${b}), raio ${r}`;
+  const distractorTexts = [
+    `centro (${D}, ${E}), raio ${r}`,
+    `centro (${a}, ${b}), raio ${r * r}`,
+    `centro (${-a}, ${-b}), raio ${r}`,
+    `centro (${a}, ${b}), raio ${2 * r}`,
+  ];
+  if (tentativa < 40 && !_gaDistintos([correctText, ...distractorTexts]))
+    return gaCircunferenciaGeralParaReduzida(dificuldade, tentativa + 1);
+  return makeQuestao({
+    categoriaId: "geometria-analitica",
+    subtopico: "Equação da Circunferência",
+    dificuldade,
+    enunciado: `A circunferência C tem equação ${eq}. Determine o centro e o raio.`,
+    correctText,
+    distractorTexts,
+    explicacao: `Centro (−D/2, −E/2) = (${a}, ${b}). Raio: r = √(D²/4 + E²/4 − F) = √(${a * a} + ${b * b} − (${F})) = √${r * r} = ${r}.`,
+  });
+}
+
+function gaPontoNaCircunferencia(dificuldade, tentativa = 0) {
+  const a = randInt(-4, 4);
+  const b = randInt(-4, 4);
+  const opcoes = [
+    "P está no interior de λ.",
+    "P está sobre λ.",
+    "P está no exterior de λ.",
+    "P coincide com o centro de λ.",
+    "P coincide com a origem do plano cartesiano.",
+  ];
+  let px, py, r, correta;
+  if (dificuldade === "facil") {
+    const [l1, l2, hip] = pick(TRIPLAS_PITAGORICAS.slice(0, 4));
+    r = hip;
+    px = a + l1 * pick([1, -1]);
+    py = b + l2 * pick([1, -1]);
+    correta = "P está sobre λ.";
+  } else if (dificuldade === "medio") {
+    r = randInt(5, 9);
+    const off = randInt(1, r - 2);
+    px = a + off * pick([1, -1]);
+    py = b;
+    correta = "P está no interior de λ.";
+  } else {
+    r = randInt(3, 8);
+    const off = r + randInt(1, 3);
+    px = a + off * pick([1, -1]);
+    py = b;
+    correta = "P está no exterior de λ.";
+  }
+  if (tentativa < 40 && ((px === a && py === b) || (px === 0 && py === 0)))
+    return gaPontoNaCircunferencia(dificuldade, tentativa + 1);
+  const d2 = (px - a) * (px - a) + (py - b) * (py - b);
+  const rel = d2 === r * r ? "=" : d2 < r * r ? "<" : ">";
+  return makeQuestao({
+    categoriaId: "geometria-analitica",
+    subtopico: "Equação da Circunferência",
+    dificuldade,
+    enunciado: `A circunferência λ tem centro C(${a}, ${b}) e raio ${r}. Considerando o ponto P(${px}, ${py}), qual das afirmações é verdadeira?`,
+    correctText: correta,
+    distractorTexts: opcoes.filter((o) => o !== correta),
+    explicacao: `d² = (${px} − (${a}))² + (${py} − (${b}))² = ${d2}; r² = ${r * r}. Como d² ${rel} r², conclui-se que ${correta}`,
+  });
+}
+
+function gaAreaTrianguloVertices(dificuldade, tentativa = 0) {
+  const R = dificuldade === "facil" ? 3 : dificuldade === "dificil" ? 6 : 4;
+  const xa = randInt(-R, R), ya = randInt(-R, R);
+  const xb = randInt(-R, R), yb = randInt(-R, R);
+  const xc = randInt(-R, R), yc = randInt(-R, R);
+  const det = xa * (yb - yc) + xb * (yc - ya) + xc * (ya - yb);
+  const area = Math.abs(det) / 2;
+  const detErr = xa * (yb - yc) + xb * (yc - ya) - xc * (ya - yb);
+  const areaErr = Math.abs(detErr) / 2;
+  const bx = Math.max(xa, xb, xc) - Math.min(xa, xb, xc);
+  const by = Math.max(ya, yb, yc) - Math.min(ya, yb, yc);
+  const correctText = _gaNum(area);
+  const distractorTexts = [
+    _gaNum(Math.abs(det)),
+    _gaNum(bx * by),
+    _gaNum((bx * by) / 2),
+    _gaNum(areaErr),
+  ];
+  if (tentativa < 40 && (area === 0 || !_gaDistintos([correctText, ...distractorTexts])))
+    return gaAreaTrianguloVertices(dificuldade, tentativa + 1);
+  return makeQuestao({
+    categoriaId: "geometria-analitica",
+    subtopico: "Distância entre Pontos",
+    dificuldade,
+    enunciado: `Um triângulo tem vértices A(${xa}, ${ya}), B(${xb}, ${yb}) e C(${xc}, ${yc}). Qual é a sua área?`,
+    correctText,
+    distractorTexts,
+    explicacao: `Área = |x_A(y_B − y_C) + x_B(y_C − y_A) + x_C(y_A − y_B)| / 2 = |${det}| / 2 = ${correctText}.`,
+  });
+}
+
+function gaAlinhamento(dificuldade, tentativa = 0) {
+  const ms =
+    dificuldade === "facil" ? [1, 2] : dificuldade === "dificil" ? [-3, -2, -1, 2, 3] : [-2, -1, 2, 3];
+  const m = pick(ms);
+  const [x1, x2, x3] = shuffle([-3, -2, -1, 0, 1, 2, 3]).slice(0, 3);
+  const y1 = randInt(-3, 3);
+  const y2 = y1 + m * (x2 - x1);
+  const k = y1 + m * (x3 - x1);
+  const correctText = `${k}`;
+  const distractorTexts = [
+    `${y1 - m * (x3 - x1)}`,
+    `${m * (x3 - x1)}`,
+    `${y1 + m * (x3 - x2)}`,
+    `${y2 + m * (x3 - x1)}`,
+  ];
+  if (tentativa < 40 && (y1 === 0 || !_gaDistintos([correctText, ...distractorTexts])))
+    return gaAlinhamento(dificuldade, tentativa + 1);
+  return makeQuestao({
+    categoriaId: "geometria-analitica",
+    subtopico: "Equação da Reta",
+    dificuldade,
+    enunciado: `Os pontos A(${x1}, ${y1}), B(${x2}, ${y2}) e C(${x3}, k) estão alinhados. Qual é o valor de k?`,
+    correctText,
+    distractorTexts,
+    explicacao: `A reta por A e B tem coeficiente angular m = (${y2} − (${y1}))/(${x2} − (${x1})) = ${m}. Então k = y_A + m(x_C − x_A) = ${y1} + (${m})(${x3} − (${x1})) = ${k}.`,
+  });
+}
+
+function gaSimetrico(dificuldade, tentativa = 0) {
+  const eixo = dificuldade === "facil" ? "x" : dificuldade === "medio" ? "y" : "origem";
+  const R = dificuldade === "dificil" ? 8 : 6;
+  const vals = [-8, -7, -6, -5, -4, -3, -2, -1, 1, 2, 3, 4, 5, 6, 7, 8].filter((v) => Math.abs(v) <= R);
+  const x = pick(vals);
+  const y = pick(vals.filter((v) => Math.abs(v) !== Math.abs(x)));
+  const correta =
+    eixo === "x" ? `(${x}, ${-y})` : eixo === "y" ? `(${-x}, ${y})` : `(${-x}, ${-y})`;
+  const todas = [
+    `(${x}, ${y})`,
+    `(${x}, ${-y})`,
+    `(${-x}, ${y})`,
+    `(${-x}, ${-y})`,
+    `(${y}, ${x})`,
+  ];
+  const distractorTexts = todas.filter((t) => t !== correta);
+  if (tentativa < 40 && !_gaDistintos([correta, ...distractorTexts]))
+    return gaSimetrico(dificuldade, tentativa + 1);
+  const regra =
+    eixo === "x"
+      ? "troca-se o sinal da ordenada: (x, −y)"
+      : eixo === "y"
+        ? "troca-se o sinal da abscissa: (−x, y)"
+        : "trocam-se os sinais das duas coordenadas: (−x, −y)";
+  const nome = eixo === "origem" ? "à origem" : `ao eixo ${eixo}`;
+  return makeQuestao({
+    categoriaId: "geometria-analitica",
+    subtopico: "Distância entre Pontos",
+    dificuldade,
+    enunciado: `Qual é o ponto simétrico de P(${x}, ${y}) em relação ${nome}?`,
+    correctText: correta,
+    distractorTexts,
+    explicacao: `Na simetria em relação ${nome}, ${regra}. Logo o simétrico de P(${x}, ${y}) é ${correta}.`,
+  });
+}
+
+function gaBaricentro(dificuldade, tentativa = 0) {
+  const R = dificuldade === "facil" ? 4 : dificuldade === "dificil" ? 9 : 6;
+  const x1 = randInt(-R, R), x2 = randInt(-R, R);
+  const y1 = randInt(-R, R), y2 = randInt(-R, R);
+  const gx = randInt(-3, 3), gy = randInt(-3, 3);
+  const x3 = 3 * gx - x1 - x2;
+  const y3 = 3 * gy - y1 - y2;
+  const Sx = x1 + x2 + x3, Sy = y1 + y2 + y3;
+  const correctText = `(${gx}, ${gy})`;
+  const distractorTexts = [
+    `(${Sx}, ${Sy})`,
+    `(${gy}, ${gx})`,
+    `(${2 * gx}, ${2 * gy})`,
+    `(${Sx}, ${gy})`,
+  ];
+  if (
+    tentativa < 40 &&
+    (gx === 0 ||
+      gy === 0 ||
+      gx === gy ||
+      Math.abs(x3) > R + 4 ||
+      Math.abs(y3) > R + 4 ||
+      !_gaDistintos([correctText, ...distractorTexts]))
+  )
+    return gaBaricentro(dificuldade, tentativa + 1);
+  return makeQuestao({
+    categoriaId: "geometria-analitica",
+    subtopico: "Distância entre Pontos",
+    dificuldade,
+    enunciado: `Um triângulo tem vértices A(${x1}, ${y1}), B(${x2}, ${y2}) e C(${x3}, ${y3}). Quais são as coordenadas do seu baricentro?`,
+    correctText,
+    distractorTexts,
+    explicacao: `O baricentro é ((x_A+x_B+x_C)/3, (y_A+y_B+y_C)/3) = (${Sx}/3, ${Sy}/3) = (${gx}, ${gy}).`,
+  });
+}
+
 // ---------- TRIGONOMETRIA ----------
 const ANGULOS = [
   { graus: 30, sin: 0.5, cos: 0.87, tan: 0.58 },
@@ -1900,7 +2383,7 @@ export const TEMPLATES = {
   progressoes: [progPA, progPG],
   "geometria-plana": [geoAreaPerimetro, geoPitagoras],
   "geometria-espacial": [geoVolumePrisma, geoVolumeCilindro, geoVolumeCone, geoVolumePiramide, geoEsfera, geoPlanificacaoCaixa],
-  "geometria-analitica": [geoDistanciaPontos, geoEquacaoReta],
+  "geometria-analitica": [geoDistanciaPontos, geoEquacaoReta, gaPontoMedio, gaDistanciaOrigem, gaCoefAngularDoisPontos, gaEquacaoRetaPorDoisPontos, gaParalelaPerpendicular, gaInterseccaoRetas, gaCircunferenciaCentroRaio, gaCircunferenciaGeralParaReduzida, gaPontoNaCircunferencia, gaAreaTrianguloVertices, gaAlinhamento, gaSimetrico, gaBaricentro],
   trigonometria: [trigTrianguloRetangulo],
   estatistica: [estMedia, estMediana, estLeituraGraficoDiferenca, estLeituraGraficoTotal, estLeituraGraficoPercentual],
   probabilidade: [probSimples, probSucessiva],
