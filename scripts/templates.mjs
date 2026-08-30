@@ -344,6 +344,340 @@ function quadTrajetoria(dificuldade) {
   });
 }
 
+// --- Função Quadrática: +10 moldes (Fase 5) ---
+function _quadOk(correct, distractors) {
+  const all = [correct, ...distractors];
+  return new Set(all).size === all.length;
+}
+function _quadPoli(a, b, c, v = "x") {
+  const ax = a === 1 ? `${v}²` : a === -1 ? `−${v}²` : a < 0 ? `−${-a}${v}²` : `${a}${v}²`;
+  const bx = b === 0 ? "" : b > 0 ? ` + ${b}${v}` : ` − ${-b}${v}`;
+  const cc = c === 0 ? "" : c > 0 ? ` + ${c}` : ` − ${-c}`;
+  return `${ax}${bx}${cc}`;
+}
+
+function quadLucroMaximo(dificuldade, tentativa = 0) {
+  const ctx = pick([
+    ["uma empresa que vende", "unidades de um produto"],
+    ["uma fábrica que produz", "peças por dia"],
+    ["uma confeitaria que vende", "bolos por semana"],
+    ["uma loja que vende", "camisetas por mês"],
+  ]);
+  const faixa =
+    dificuldade === "facil"
+      ? { xv: randInt(13, 18), c: pick([50, 100]) }
+      : dificuldade === "dificil"
+        ? { xv: randInt(25, 40), c: pick([200, 300, 400, 500]) }
+        : { xv: randInt(18, 28), c: pick([100, 150, 200, 250]) };
+  const xv = faixa.xv;
+  const c = faixa.c;
+  const b = 2 * xv; // a = 1
+  const lucroMax = xv * xv - c;
+  const correctText = brl(lucroMax);
+  const distractorTexts = [brl(xv * xv + c), brl(2 * xv * xv - c), brl(xv), brl(2 * xv)];
+  if (tentativa < 40 && (lucroMax < 50 || xv * xv === 2 * c || !_quadOk(correctText, distractorTexts)))
+    return quadLucroMaximo(dificuldade, tentativa + 1);
+  return makeQuestao({
+    categoriaId: "funcao-quadratica",
+    subtopico: "Pontos de Máximo e Mínimo",
+    dificuldade,
+    enunciado: `O lucro mensal L, em reais, de ${ctx[0]} x ${ctx[1]} é dado por L(x) = −x² + ${b}x − ${c}. Qual é o lucro máximo mensal possível?`,
+    correctText,
+    distractorTexts,
+    explicacao: `L é uma função quadrática de concavidade para baixo, então o máximo ocorre no vértice: x = −b/(2a) = ${b}/2 = ${xv} unidades. Substituindo, L(${xv}) = −${xv}² + ${b}·${xv} − ${c} = ${lucroMax}, ou seja, ${correctText}.`,
+  });
+}
+
+function quadRaizesContexto(dificuldade, tentativa = 0) {
+  const abre = pick([
+    "O lucro L, em milhares de reais, de uma empresa em função do preço unitário x (em reais) é",
+    "A margem M, em milhares de reais, de uma operação em função da quantidade x (em lotes) é",
+    "O resultado R, em milhares de reais, de um projeto em função do tempo x (em meses) é",
+  ]);
+  const r1 = randInt(2, dificuldade === "facil" ? 3 : 5);
+  const gap = randInt(2, dificuldade === "dificil" ? 8 : dificuldade === "facil" ? 4 : 6);
+  const r2 = r1 + gap;
+  const S = r1 + r2;
+  const P = r1 * r2;
+  const correctText = `x = ${r1} ou x = ${r2}`;
+  const distractorTexts = [
+    `x = ${-r1} ou x = ${-r2}`,
+    `x = ${S} ou x = ${P}`,
+    `x = ${S} ou x = ${r2 - r1}`,
+    `x = ${-2 * r1} ou x = ${-2 * r2}`,
+  ];
+  if (tentativa < 40 && !_quadOk(correctText, distractorTexts))
+    return quadRaizesContexto(dificuldade, tentativa + 1);
+  return makeQuestao({
+    categoriaId: "funcao-quadratica",
+    subtopico: "Raízes e Concavidade",
+    dificuldade,
+    enunciado: `${abre} dado por f(x) = −x² + ${S}x − ${P}. Para quais valores de x esse valor é nulo?`,
+    correctText,
+    distractorTexts,
+    explicacao: `f(x) = 0 ⇔ x² − ${S}x + ${P} = 0. Por soma e produto, as raízes somam ${S} e têm produto ${P}: são ${r1} e ${r2}. Logo x = ${r1} ou x = ${r2}.`,
+  });
+}
+
+function quadSomaProdutoRaizes(dificuldade, tentativa = 0) {
+  const a = randInt(2, dificuldade === "facil" ? 2 : dificuldade === "dificil" ? 4 : 3);
+  const S = randInt(4, 9);
+  const P = randInt(2, 9);
+  const modo = pick(["soma", "produto", "soma_produto"]);
+  const b = -a * S;
+  const cc = a * P;
+  let pergunta, correct, distr;
+  if (modo === "soma") {
+    pergunta = "a soma das raízes dessa equação";
+    correct = S;
+    distr = [-S, a * S, P, a * P];
+  } else if (modo === "produto") {
+    pergunta = "o produto das raízes dessa equação";
+    correct = P;
+    distr = [-P, a * P, S, -S];
+  } else {
+    pergunta = "a soma das raízes adicionada ao produto das raízes";
+    correct = S + P;
+    distr = [S - P, S * P, S, P];
+  }
+  const correctText = `${correct}`;
+  const distractorTexts = distr.map((v) => `${v}`);
+  const ok =
+    S !== P &&
+    S * S >= 4 * P &&
+    S !== 2 * P &&
+    S + P !== S * P &&
+    a * P !== S &&
+    a * S !== P &&
+    _quadOk(correctText, distractorTexts);
+  if (tentativa < 40 && !ok) return quadSomaProdutoRaizes(dificuldade, tentativa + 1);
+  return makeQuestao({
+    categoriaId: "funcao-quadratica",
+    subtopico: "Raízes e Concavidade",
+    dificuldade,
+    enunciado: `Considere a equação do 2º grau ${a === 1 ? "" : a}x² − ${a * S}x + ${cc} = 0. Sem resolvê-la, determine ${pergunta}.`,
+    correctText,
+    distractorTexts,
+    explicacao: `Pelas relações de Girard, a soma das raízes é S = −b/a = −(${b})/${a} = ${S} e o produto é P = c/a = ${cc}/${a} = ${P}.${modo === "soma_produto" ? ` Logo S + P = ${S} + ${P} = ${S + P}.` : ""}`,
+  });
+}
+
+function quadAreaCercado(dificuldade, tentativa = 0) {
+  const ctx = pick([
+    ["Um agricultor", "cercar um curral retangular, aproveitando um muro reto já existente como um dos lados"],
+    ["Um criador", "cercar um canil retangular encostado na parede de um galpão, que serve como um dos lados"],
+    ["Uma prefeitura", "delimitar uma horta comunitária retangular à margem de um rio, que forma um dos lados"],
+  ]);
+  const k = pick(dificuldade === "facil" ? [3, 5] : dificuldade === "dificil" ? [10] : [6, 7]);
+  const P = 4 * k;
+  const area = 2 * k * k;
+  const correctText = `${area} m²`;
+  const distractorTexts = [`${k * k} m²`, `${4 * k * k} m²`, `${P} m²`, `${2 * k} m²`];
+  if (tentativa < 40 && !_quadOk(correctText, distractorTexts))
+    return quadAreaCercado(dificuldade, tentativa + 1);
+  return makeQuestao({
+    categoriaId: "funcao-quadratica",
+    subtopico: "Pontos de Máximo e Mínimo",
+    dificuldade,
+    enunciado: `${ctx[0]} dispõe de ${P} m de tela para ${ctx[1]}. Apenas três lados serão cercados com a tela. Qual é a maior área, em m², que pode ser cercada?`,
+    correctText,
+    distractorTexts,
+    explicacao: `Sendo x o lado paralelo ao muro e y cada um dos dois lados perpendiculares, x + 2y = ${P}. A área é A(y) = (${P} − 2y)·y, uma parábola com máximo em y = ${P}/4 = ${k}. Então x = ${P} − 2·${k} = ${2 * k} e A = ${2 * k}·${k} = ${area} m².`,
+  });
+}
+
+function quadDoisNumeros(dificuldade, tentativa = 0) {
+  const abre = pick([
+    "A soma de dois números reais positivos é",
+    "Dois números positivos têm soma igual a",
+    "Um fio de arame será cortado em dois pedaços cujos comprimentos, em cm, somam",
+  ]);
+  const h = randInt(
+    dificuldade === "facil" ? 4 : dificuldade === "dificil" ? 12 : 7,
+    dificuldade === "facil" ? 8 : dificuldade === "dificil" ? 20 : 12,
+  );
+  const S = 2 * h;
+  const prod = h * h;
+  const correctText = `${prod}`;
+  const distractorTexts = [`${prod - 1}`, `${S * S}`, `${h}`, `${(S * S) / 2}`];
+  if (tentativa < 40 && !_quadOk(correctText, distractorTexts))
+    return quadDoisNumeros(dificuldade, tentativa + 1);
+  return makeQuestao({
+    categoriaId: "funcao-quadratica",
+    subtopico: "Pontos de Máximo e Mínimo",
+    dificuldade,
+    enunciado: `${abre} ${S}. Qual é o maior valor possível para o produto desses dois números?`,
+    correctText,
+    distractorTexts,
+    explicacao: `Se um número é n, o outro é ${S} − n, e o produto p(n) = n·(${S} − n) = −n² + ${S}n é máximo no vértice, em n = ${S}/2 = ${h}. O outro número também é ${h}, e o produto máximo é ${h}·${h} = ${prod}.`,
+  });
+}
+
+function quadAlcanceProjetil(dificuldade, tentativa = 0) {
+  const ctx = pick([
+    ["Um foguete de brinquedo é lançado do solo", "o foguete"],
+    ["Uma bola é chutada rente ao gramado", "a bola"],
+    ["Um golfinho salta para fora da água", "o golfinho"],
+    ["Um jato de água parte de um chafariz no solo", "o jato"],
+  ]);
+  const a = pick([3, 4, 5]);
+  const tf = pick(dificuldade === "facil" ? [6, 8] : dificuldade === "dificil" ? [10, 12] : [8, 10]);
+  const b = a * tf;
+  const correctText = `${tf} s`;
+  const distractorTexts = [`${tf / 2} s`, `${b} s`, `${2 * tf} s`, `${(a * tf * tf) / 4} s`];
+  if (tentativa < 40 && !_quadOk(correctText, distractorTexts))
+    return quadAlcanceProjetil(dificuldade, tentativa + 1);
+  return makeQuestao({
+    categoriaId: "funcao-quadratica",
+    subtopico: "Raízes e Concavidade",
+    dificuldade,
+    enunciado: `${ctx[0]} e sua altura h, em metros, t segundos após o lançamento é h(t) = −${a}t² + ${b}t. Quantos segundos após o lançamento ${ctx[1]} retorna ao solo (h = 0)?`,
+    correctText,
+    distractorTexts,
+    explicacao: `Fazendo h(t) = 0: t·(−${a}t + ${b}) = 0, então t = 0 (lançamento) ou −${a}t + ${b} = 0 ⇒ t = ${b}/${a} = ${tf} s.`,
+  });
+}
+
+function quadAlturaNoInstante(dificuldade, tentativa = 0) {
+  const ctx = pick([
+    ["Uma bola é lançada verticalmente para cima", "da bola"],
+    ["Uma pedra é atirada de uma sacada", "da pedra"],
+    ["Um projétil é disparado para cima", "do projétil"],
+  ]);
+  const a = pick([1, 2]);
+  const b = randInt(dificuldade === "facil" ? 8 : 10, dificuldade === "dificil" ? 22 : 16);
+  const c = randInt(1, 12);
+  const t0 = randInt(2, dificuldade === "dificil" ? 5 : 4);
+  const A = -a * t0 * t0 + b * t0 + c;
+  const correctText = `${A} m`;
+  const distractorTexts = [
+    `${a * t0 * t0 + b * t0 + c} m`,
+    `${-a * t0 * t0 + b * t0} m`,
+    `${b * t0 + c} m`,
+    `${c} m`,
+  ];
+  const ok = b > a * t0 && A > 0 && A !== 2 * c && _quadOk(correctText, distractorTexts);
+  if (tentativa < 40 && !ok) return quadAlturaNoInstante(dificuldade, tentativa + 1);
+  return makeQuestao({
+    categoriaId: "funcao-quadratica",
+    subtopico: "Pontos de Máximo e Mínimo",
+    dificuldade,
+    enunciado: `${ctx[0]} e sua altura h, em metros, é dada por h(t) = ${_quadPoli(-a, b, c, "t")}, com o tempo t em segundos. Qual é a altura ${ctx[1]} no instante t = ${t0} s?`,
+    correctText,
+    distractorTexts,
+    explicacao: `Basta substituir t = ${t0} em h(t) = ${_quadPoli(-a, b, c, "t")}: −${a * t0 * t0} + ${b * t0} + ${c} = ${A} m.`,
+  });
+}
+
+function quadVerticeCoordenadas(dificuldade, tentativa = 0) {
+  const abre = pick([
+    "A parábola de equação",
+    "O gráfico da função quadrática dada por",
+    "A curva de equação",
+  ]);
+  const R = dificuldade === "facil" ? 3 : dificuldade === "dificil" ? 5 : 4;
+  const a = pick(dificuldade === "facil" ? [1, -1] : [1, 2, -1, -2]);
+  const xv = pick([-R, -R + 1, -1, 1, 2, R].filter((v) => v !== 0));
+  const yv = randInt(-8, 8);
+  const b = -2 * a * xv;
+  const c = a * xv * xv + yv;
+  const correctText = `(${xv}, ${yv})`;
+  const distractorTexts = [
+    `(${2 * xv}, ${yv})`,
+    `(${-xv}, ${yv})`,
+    `(${xv}, ${-yv})`,
+    `(${yv}, ${xv})`,
+  ];
+  const ok = xv !== 0 && yv !== 0 && xv !== yv && xv !== -yv && _quadOk(correctText, distractorTexts);
+  if (tentativa < 40 && !ok) return quadVerticeCoordenadas(dificuldade, tentativa + 1);
+  return makeQuestao({
+    categoriaId: "funcao-quadratica",
+    subtopico: "Vértice da Parábola",
+    dificuldade,
+    enunciado: `${abre} y = ${_quadPoli(a, b, c)} tem vértice em qual ponto do plano cartesiano?`,
+    correctText,
+    distractorTexts,
+    explicacao: `A abscissa do vértice é x_v = −b/(2a) = −(${b})/(2·${a}) = ${xv}. A ordenada é y_v = ${a}·(${xv})² + (${b})·(${xv}) + (${c}) = ${yv}. Logo o vértice é (${xv}, ${yv}).`,
+  });
+}
+
+function quadArcoParabolico(dificuldade, tentativa = 0) {
+  const ctx = pick([
+    "de um túnel rodoviário",
+    "de um arco decorativo de um portal",
+    "da entrada em arco de um estádio",
+    "de uma ponte em arco",
+  ]);
+  const tuplas =
+    dificuldade === "facil"
+      ? [
+          [12, 36, 8],
+          [16, 64, 6],
+        ]
+      : dificuldade === "dificil"
+        ? [
+            [20, 100, 12],
+            [24, 144, 8],
+            [24, 144, 16],
+          ]
+        : [
+            [16, 64, 10],
+            [20, 100, 8],
+            [20, 100, 6],
+          ];
+  const [L, H, d] = pick(tuplas);
+  const altura = H - (d * d) / 4;
+  const correctText = `${altura} m`;
+  const distractorTexts = [
+    `${(d * d) / 4} m`,
+    `${H - (d * d) / 2} m`,
+    `${H - (L * d) / 4} m`,
+    `${H - d} m`,
+  ];
+  if (tentativa < 40 && !_quadOk(correctText, distractorTexts))
+    return quadArcoParabolico(dificuldade, tentativa + 1);
+  return makeQuestao({
+    categoriaId: "funcao-quadratica",
+    subtopico: "Vértice da Parábola",
+    dificuldade,
+    enunciado: `A altura ${ctx} é modelada por uma parábola com o vértice no topo. O vão (largura na base) mede ${2 * L} m e a altura máxima, no centro, é ${H} m. Qual é a altura do arco em um ponto a ${d} m do centro?`,
+    correctText,
+    distractorTexts,
+    explicacao: `Com a origem no centro da base, h(x) = ${H} − k·x², e h(±${L}) = 0 dá k = ${H}/${L}² = 1/4. Então h(${d}) = ${H} − (1/4)·${d}² = ${H} − ${(d * d) / 4} = ${altura} m.`,
+  });
+}
+
+function quadCustoMinimo(dificuldade, tentativa = 0) {
+  const abre = pick([
+    "O custo operacional diário C, em reais, de uma oficina em função do número x de peças usinadas é",
+    "O custo semanal C, em reais, de uma gráfica em função do número x de milheiros impressos é",
+    "O custo mensal C, em reais, de uma transportadora em função do número x de rotas ativas é",
+  ]);
+  const a = dificuldade === "facil" ? 1 : dificuldade === "dificil" ? 2 : pick([1, 2]);
+  const xm = randInt(
+    dificuldade === "facil" ? 4 : dificuldade === "dificil" ? 10 : 7,
+    dificuldade === "facil" ? 7 : dificuldade === "dificil" ? 16 : 11,
+  );
+  const b = 2 * a * xm;
+  const e = pick([50, 100, 150, 200]);
+  const q = a * xm * xm;
+  const c = 2 * q + e;
+  const custoMin = c - q;
+  const correctText = brl(custoMin);
+  const distractorTexts = [brl(c + q), brl(c), brl(c + 3 * q), brl(c - 2 * q)];
+  if (tentativa < 40 && !_quadOk(correctText, distractorTexts))
+    return quadCustoMinimo(dificuldade, tentativa + 1);
+  return makeQuestao({
+    categoriaId: "funcao-quadratica",
+    subtopico: "Pontos de Máximo e Mínimo",
+    dificuldade,
+    enunciado: `${abre} C(x) = ${a === 1 ? "" : a}x² − ${b}x + ${c}. Qual é o menor custo possível?`,
+    correctText,
+    distractorTexts,
+    explicacao: `C é uma parábola de concavidade para cima; o mínimo ocorre em x = −b/(2a) = ${b}/${2 * a} = ${xm}. Então C(${xm}) = ${a}·${xm}² − ${b}·${xm} + ${c} = ${q} − ${b * xm} + ${c} = ${custoMin}, ou seja, ${correctText}.`,
+  });
+}
+
 // ---------- EXPONENCIAIS E LOGARITMOS ----------
 function expCrescimento(dificuldade) {
   const inicial = randInt(dificuldade === "facil" ? 100 : 500, dificuldade === "dificil" ? 5000 : 2000);
@@ -2378,7 +2712,7 @@ export const TEMPLATES = {
   "regra-de-tres": [regraTresSimples, regraTresComposta],
   equacoes: [eqSistemaLinear, eqBhaskaraArea],
   "funcao-afim": [afimTarifa, afimCoeficiente],
-  "funcao-quadratica": [quadVertice, quadTrajetoria],
+  "funcao-quadratica": [quadVertice, quadTrajetoria, quadLucroMaximo, quadRaizesContexto, quadSomaProdutoRaizes, quadAreaCercado, quadDoisNumeros, quadAlcanceProjetil, quadAlturaNoInstante, quadVerticeCoordenadas, quadArcoParabolico, quadCustoMinimo],
   "exponenciais-logaritmos": [expCrescimento, expMeiaVida],
   progressoes: [progPA, progPG],
   "geometria-plana": [geoAreaPerimetro, geoPitagoras],

@@ -1,206 +1,206 @@
 [
   {
-    "id": "progressoes-ined-0019",
+    "id": "progressoes-ined-0047",
     "categoriaId": "progressoes",
     "subtopico": "Progressão Aritmética",
     "dificuldade": "facil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Uma progressão aritmética tem primeiro termo 7 e razão 3. Qual é o valor do 18º termo dessa progressão?",
+    "enunciado": "Uma progressão aritmética tem primeiro termo 10 e razão 5. Qual é o valor do 13º termo dessa progressão?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "61"
+        "texto": "70"
       },
       {
         "letra": "B",
-        "texto": "126"
-      },
-      {
-        "letra": "C",
-        "texto": "127"
-      },
-      {
-        "letra": "D",
-        "texto": "58"
-      },
-      {
-        "letra": "E",
-        "texto": "55"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "O termo geral da PA é aₙ = a₁ + (n−1)r = 7 + (18−1)×3 = 58."
-  },
-  {
-    "id": "progressoes-ined-0020",
-    "categoriaId": "progressoes",
-    "subtopico": "Progressão Aritmética",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma progressão aritmética tem primeiro termo 19 e razão 2. Qual é o valor do 13º termo dessa progressão?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "43"
-      },
-      {
-        "letra": "B",
-        "texto": "45"
-      },
-      {
-        "letra": "C",
-        "texto": "247"
-      },
-      {
-        "letra": "D",
-        "texto": "248"
-      },
-      {
-        "letra": "E",
-        "texto": "41"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "O termo geral da PA é aₙ = a₁ + (n−1)r = 19 + (13−1)×2 = 43."
-  },
-  {
-    "id": "progressoes-ined-0021",
-    "categoriaId": "progressoes",
-    "subtopico": "Progressão Aritmética",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma progressão aritmética tem primeiro termo 36 e razão 2. Qual é o valor do 28º termo dessa progressão?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "90"
-      },
-      {
-        "letra": "B",
-        "texto": "92"
-      },
-      {
-        "letra": "C",
-        "texto": "1009"
-      },
-      {
-        "letra": "D",
-        "texto": "88"
-      },
-      {
-        "letra": "E",
-        "texto": "1008"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "O termo geral da PA é aₙ = a₁ + (n−1)r = 36 + (28−1)×2 = 90."
-  },
-  {
-    "id": "progressoes-ined-0022",
-    "categoriaId": "progressoes",
-    "subtopico": "Progressão Geométrica",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma progressão geométrica tem primeiro termo 5 e razão 3. Qual é o valor do 5º termo dessa progressão?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "405"
-      },
-      {
-        "letra": "B",
-        "texto": "410"
-      },
-      {
-        "letra": "C",
-        "texto": "1215"
-      },
-      {
-        "letra": "D",
         "texto": "75"
       },
       {
+        "letra": "C",
+        "texto": "65"
+      },
+      {
+        "letra": "D",
+        "texto": "131"
+      },
+      {
         "letra": "E",
-        "texto": "135"
+        "texto": "130"
       }
     ],
     "correta": "A",
-    "explicacao": "O termo geral da PG é aₙ = a₁ × q^(n−1) = 5 × 3^4 = 405."
+    "explicacao": "O termo geral da PA é aₙ = a₁ + (n−1)r = 10 + (13−1)×5 = 70."
   },
   {
-    "id": "progressoes-ined-0023",
+    "id": "progressoes-ined-0048",
+    "categoriaId": "progressoes",
+    "subtopico": "Progressão Aritmética",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma progressão aritmética tem primeiro termo 12 e razão 5. Qual é o valor do 14º termo dessa progressão?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "77"
+      },
+      {
+        "letra": "B",
+        "texto": "82"
+      },
+      {
+        "letra": "C",
+        "texto": "72"
+      },
+      {
+        "letra": "D",
+        "texto": "168"
+      },
+      {
+        "letra": "E",
+        "texto": "169"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "O termo geral da PA é aₙ = a₁ + (n−1)r = 12 + (14−1)×5 = 77."
+  },
+  {
+    "id": "progressoes-ined-0049",
+    "categoriaId": "progressoes",
+    "subtopico": "Progressão Aritmética",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma progressão aritmética tem primeiro termo 6 e razão 12. Qual é o valor do 28º termo dessa progressão?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "318"
+      },
+      {
+        "letra": "B",
+        "texto": "168"
+      },
+      {
+        "letra": "C",
+        "texto": "342"
+      },
+      {
+        "letra": "D",
+        "texto": "169"
+      },
+      {
+        "letra": "E",
+        "texto": "330"
+      }
+    ],
+    "correta": "E",
+    "explicacao": "O termo geral da PA é aₙ = a₁ + (n−1)r = 6 + (28−1)×12 = 330."
+  },
+  {
+    "id": "progressoes-ined-0050",
+    "categoriaId": "progressoes",
+    "subtopico": "Progressão Geométrica",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma progressão geométrica tem primeiro termo 2 e razão 2. Qual é o valor do 6º termo dessa progressão?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "66"
+      },
+      {
+        "letra": "B",
+        "texto": "128"
+      },
+      {
+        "letra": "C",
+        "texto": "64"
+      },
+      {
+        "letra": "D",
+        "texto": "24"
+      },
+      {
+        "letra": "E",
+        "texto": "32"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "O termo geral da PG é aₙ = a₁ × q^(n−1) = 2 × 2^5 = 64."
+  },
+  {
+    "id": "progressoes-ined-0051",
     "categoriaId": "progressoes",
     "subtopico": "Progressão Geométrica",
     "dificuldade": "medio",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Uma progressão geométrica tem primeiro termo 1 e razão 2. Qual é o valor do 4º termo dessa progressão?",
+    "enunciado": "Uma progressão geométrica tem primeiro termo 3 e razão 2. Qual é o valor do 6º termo dessa progressão?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "16"
+        "texto": "36"
       },
       {
         "letra": "B",
-        "texto": "4"
+        "texto": "99"
       },
       {
         "letra": "C",
-        "texto": "8"
+        "texto": "96"
       },
       {
         "letra": "D",
-        "texto": "9"
+        "texto": "48"
       },
       {
         "letra": "E",
-        "texto": "10"
+        "texto": "192"
       }
     ],
     "correta": "C",
-    "explicacao": "O termo geral da PG é aₙ = a₁ × q^(n−1) = 1 × 2^3 = 8."
+    "explicacao": "O termo geral da PG é aₙ = a₁ × q^(n−1) = 3 × 2^5 = 96."
   },
   {
-    "id": "progressoes-ined-0024",
+    "id": "progressoes-ined-0052",
     "categoriaId": "progressoes",
     "subtopico": "Progressão Geométrica",
     "dificuldade": "dificil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Uma progressão geométrica tem primeiro termo 2 e razão 3. Qual é o valor do 7º termo dessa progressão?",
+    "enunciado": "Uma progressão geométrica tem primeiro termo 5 e razão 2. Qual é o valor do 4º termo dessa progressão?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "1458"
+        "texto": "46"
       },
       {
         "letra": "B",
-        "texto": "4374"
+        "texto": "20"
       },
       {
         "letra": "C",
-        "texto": "486"
+        "texto": "45"
       },
       {
         "letra": "D",
-        "texto": "1460"
+        "texto": "40"
       },
       {
         "letra": "E",
-        "texto": "42"
+        "texto": "80"
       }
     ],
-    "correta": "A",
-    "explicacao": "O termo geral da PG é aₙ = a₁ × q^(n−1) = 2 × 3^6 = 1458."
+    "correta": "D",
+    "explicacao": "O termo geral da PG é aₙ = a₁ × q^(n−1) = 5 × 2^3 = 40."
   }
 ]

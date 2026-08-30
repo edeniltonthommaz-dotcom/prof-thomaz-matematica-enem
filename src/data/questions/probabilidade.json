@@ -1,195 +1,93 @@
 [
   {
-    "id": "probabilidade-ined-0087",
+    "id": "probabilidade-ined-0115",
     "categoriaId": "probabilidade",
     "subtopico": "Probabilidade Simples",
     "dificuldade": "facil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Uma urna contém 10 bolas numeradas de 1 a 10, todas com a mesma chance de serem sorteadas. Se 1 dessas bolas são vermelhas, qual é a probabilidade de, em um único sorteio, sair uma bola vermelha?",
+    "enunciado": "Uma urna contém 20 bolas numeradas de 1 a 20, todas com a mesma chance de serem sorteadas. Se 3 dessas bolas são vermelhas, qual é a probabilidade de, em um único sorteio, sair uma bola vermelha?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "2/10"
+        "texto": "4/20"
       },
       {
         "letra": "B",
-        "texto": "1/10"
+        "texto": "17/20"
       },
       {
         "letra": "C",
-        "texto": "9/10"
+        "texto": "3/17"
       },
       {
         "letra": "D",
-        "texto": "1/9"
+        "texto": "20/3"
       },
       {
         "letra": "E",
-        "texto": "10/1"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "Probabilidade = casos favoráveis / casos possíveis = 1/10, que simplificado é 1/10."
-  },
-  {
-    "id": "probabilidade-ined-0088",
-    "categoriaId": "probabilidade",
-    "subtopico": "Probabilidade Simples",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma urna contém 20 bolas numeradas de 1 a 20, todas com a mesma chance de serem sorteadas. Se 5 dessas bolas são vermelhas, qual é a probabilidade de, em um único sorteio, sair uma bola vermelha?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "5/15"
-      },
-      {
-        "letra": "B",
-        "texto": "1/4"
-      },
-      {
-        "letra": "C",
-        "texto": "15/20"
-      },
-      {
-        "letra": "D",
-        "texto": "2/4"
-      },
-      {
-        "letra": "E",
-        "texto": "4/1"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "Probabilidade = casos favoráveis / casos possíveis = 5/20, que simplificado é 1/4."
-  },
-  {
-    "id": "probabilidade-ined-0089",
-    "categoriaId": "probabilidade",
-    "subtopico": "Probabilidade Simples",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma urna contém 45 bolas numeradas de 1 a 45, todas com a mesma chance de serem sorteadas. Se 15 dessas bolas são vermelhas, qual é a probabilidade de, em um único sorteio, sair uma bola vermelha?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "15/30"
-      },
-      {
-        "letra": "B",
-        "texto": "1/3"
-      },
-      {
-        "letra": "C",
-        "texto": "30/45"
-      },
-      {
-        "letra": "D",
-        "texto": "3/1"
-      },
-      {
-        "letra": "E",
-        "texto": "2/3"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "Probabilidade = casos favoráveis / casos possíveis = 15/45, que simplificado é 1/3."
-  },
-  {
-    "id": "probabilidade-ined-0090",
-    "categoriaId": "probabilidade",
-    "subtopico": "Eventos Sucessivos",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma caixa tem 3 bolas azuis e 6 bolas vermelhas. Retirando-se duas bolas sucessivamente, sem reposição, qual é a probabilidade de que ambas sejam azuis?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "2/9"
-      },
-      {
-        "letra": "B",
-        "texto": "1/12"
-      },
-      {
-        "letra": "C",
-        "texto": "30/72"
-      },
-      {
-        "letra": "D",
-        "texto": "6/9"
-      },
-      {
-        "letra": "E",
-        "texto": "3/9"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "P(1ª azul) = 3/9. Sem reposição, P(2ª azul | 1ª azul) = 2/8. P(ambas azuis) = (3/9) × (2/8) = 1/12."
-  },
-  {
-    "id": "probabilidade-ined-0091",
-    "categoriaId": "probabilidade",
-    "subtopico": "Eventos Sucessivos",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma caixa tem 5 bolas azuis e 4 bolas vermelhas. Retirando-se duas bolas sucessivamente, sem reposição, qual é a probabilidade de que ambas sejam azuis?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "5/9"
-      },
-      {
-        "letra": "B",
-        "texto": "4/9"
-      },
-      {
-        "letra": "C",
-        "texto": "12/72"
-      },
-      {
-        "letra": "D",
-        "texto": "20/9"
-      },
-      {
-        "letra": "E",
-        "texto": "5/18"
+        "texto": "3/20"
       }
     ],
     "correta": "E",
-    "explicacao": "P(1ª azul) = 5/9. Sem reposição, P(2ª azul | 1ª azul) = 4/8. P(ambas azuis) = (5/9) × (4/8) = 5/18."
+    "explicacao": "Probabilidade = casos favoráveis / casos possíveis = 3/20, que simplificado é 3/20."
   },
   {
-    "id": "probabilidade-ined-0092",
+    "id": "probabilidade-ined-0116",
     "categoriaId": "probabilidade",
-    "subtopico": "Eventos Sucessivos",
+    "subtopico": "Probabilidade Simples",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma urna contém 10 bolas numeradas de 1 a 10, todas com a mesma chance de serem sorteadas. Se 2 dessas bolas são vermelhas, qual é a probabilidade de, em um único sorteio, sair uma bola vermelha?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "1/5"
+      },
+      {
+        "letra": "B",
+        "texto": "5/1"
+      },
+      {
+        "letra": "C",
+        "texto": "2/5"
+      },
+      {
+        "letra": "D",
+        "texto": "2/8"
+      },
+      {
+        "letra": "E",
+        "texto": "8/10"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "Probabilidade = casos favoráveis / casos possíveis = 2/10, que simplificado é 1/5."
+  },
+  {
+    "id": "probabilidade-ined-0117",
+    "categoriaId": "probabilidade",
+    "subtopico": "Probabilidade Simples",
     "dificuldade": "dificil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Uma caixa tem 4 bolas azuis e 6 bolas vermelhas. Retirando-se duas bolas sucessivamente, sem reposição, qual é a probabilidade de que ambas sejam azuis?",
+    "enunciado": "Uma urna contém 45 bolas numeradas de 1 a 45, todas com a mesma chance de serem sorteadas. Se 6 dessas bolas são vermelhas, qual é a probabilidade de, em um único sorteio, sair uma bola vermelha?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "30/90"
+        "texto": "15/2"
       },
       {
         "letra": "B",
-        "texto": "12/10"
+        "texto": "3/15"
       },
       {
         "letra": "C",
-        "texto": "3/10"
+        "texto": "39/45"
       },
       {
         "letra": "D",
@@ -197,10 +95,112 @@
       },
       {
         "letra": "E",
+        "texto": "6/39"
+      }
+    ],
+    "correta": "D",
+    "explicacao": "Probabilidade = casos favoráveis / casos possíveis = 6/45, que simplificado é 2/15."
+  },
+  {
+    "id": "probabilidade-ined-0118",
+    "categoriaId": "probabilidade",
+    "subtopico": "Eventos Sucessivos",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma caixa tem 4 bolas azuis e 2 bolas vermelhas. Retirando-se duas bolas sucessivamente, sem reposição, qual é a probabilidade de que ambas sejam azuis?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "3/6"
+      },
+      {
+        "letra": "B",
+        "texto": "4/6"
+      },
+      {
+        "letra": "C",
+        "texto": "12/6"
+      },
+      {
+        "letra": "D",
+        "texto": "2/5"
+      },
+      {
+        "letra": "E",
+        "texto": "2/30"
+      }
+    ],
+    "correta": "D",
+    "explicacao": "P(1ª azul) = 4/6. Sem reposição, P(2ª azul | 1ª azul) = 3/5. P(ambas azuis) = (4/6) × (3/5) = 2/5."
+  },
+  {
+    "id": "probabilidade-ined-0119",
+    "categoriaId": "probabilidade",
+    "subtopico": "Eventos Sucessivos",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma caixa tem 4 bolas azuis e 6 bolas vermelhas. Retirando-se duas bolas sucessivamente, sem reposição, qual é a probabilidade de que ambas sejam azuis?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "3/10"
+      },
+      {
+        "letra": "B",
+        "texto": "30/90"
+      },
+      {
+        "letra": "C",
         "texto": "4/10"
+      },
+      {
+        "letra": "D",
+        "texto": "2/15"
+      },
+      {
+        "letra": "E",
+        "texto": "12/10"
       }
     ],
     "correta": "D",
     "explicacao": "P(1ª azul) = 4/10. Sem reposição, P(2ª azul | 1ª azul) = 3/9. P(ambas azuis) = (4/10) × (3/9) = 2/15."
+  },
+  {
+    "id": "probabilidade-ined-0120",
+    "categoriaId": "probabilidade",
+    "subtopico": "Eventos Sucessivos",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma caixa tem 5 bolas azuis e 3 bolas vermelhas. Retirando-se duas bolas sucessivamente, sem reposição, qual é a probabilidade de que ambas sejam azuis?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "5/8"
+      },
+      {
+        "letra": "B",
+        "texto": "6/56"
+      },
+      {
+        "letra": "C",
+        "texto": "5/14"
+      },
+      {
+        "letra": "D",
+        "texto": "4/8"
+      },
+      {
+        "letra": "E",
+        "texto": "20/8"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "P(1ª azul) = 5/8. Sem reposição, P(2ª azul | 1ª azul) = 4/7. P(ambas azuis) = (5/8) × (4/7) = 5/14."
   }
 ]
