@@ -1688,6 +1688,305 @@ function combComissao(dificuldade) {
   });
 }
 
+function arranjo(n, k) { return Math.round(fatorial(n) / fatorial(n - k)); }
+function _combDistintos(correct, distractors) {
+  const all = [String(correct), ...distractors.map((d) => String(d))];
+  if (all.some((s) => /undefined|NaN|Infinity/.test(s))) return false;
+  return new Set(all).size === all.length;
+}
+
+// n objetos distintos em fila/sequência ⇒ n!.
+function combPermutacaoSimples(dificuldade, tentativa = 0) {
+  let n, enunciado;
+  if (dificuldade === "facil") {
+    n = 4;
+    const ctx = pick([
+      "entrar no cinema",
+      "tirar uma foto",
+      "serem atendidas em um caixa",
+      "subir em um brinquedo do parque",
+    ]);
+    enunciado = `De quantas maneiras diferentes ${n} pessoas podem formar uma única fila para ${ctx}?`;
+  } else if (dificuldade === "medio") {
+    n = randInt(5, 6);
+    const obj = pick(["livros diferentes", "troféus", "quadros", "vasos decorativos"]);
+    enunciado = `Uma prateleira será usada para expor ${n} ${obj}, lado a lado. De quantas formas distintas esses objetos podem ser dispostos na prateleira?`;
+  } else {
+    n = randInt(6, 7);
+    const grupo = pick(["grupos musicais", "candidatos", "peças de teatro", "atletas na cerimônia"]);
+    enunciado = `Em um evento, ${n} ${grupo} vão se apresentar em sequência, um após o outro. Quantas ordens diferentes de apresentação são possíveis?`;
+  }
+  const correct = fatorial(n);
+  const correctText = `${correct}`;
+  const distractorTexts = [
+    `${fatorial(n - 1)}`,
+    `${n * n}`,
+    `${fatorial(n) / 2}`,
+    `${fatorial(n + 1)}`,
+  ];
+  const explicacao = `São ${n} elementos distintos a serem ordenados em ${n} posições. O total é a permutação P(${n}) = ${n}! = ${correct}.`;
+  if (tentativa < 20 && !_combDistintos(correctText, distractorTexts))
+    return combPermutacaoSimples(dificuldade, tentativa + 1);
+  return makeQuestao({
+    categoriaId: "analise-combinatoria",
+    subtopico: "Permutação",
+    dificuldade,
+    enunciado,
+    correctText,
+    distractorTexts,
+    explicacao,
+  });
+}
+
+// n pessoas em torno de uma mesa redonda ⇒ (n − 1)!.
+function combPermutacaoCircular(dificuldade, tentativa = 0) {
+  let n, enunciado;
+  if (dificuldade === "facil") {
+    n = 4;
+    enunciado = `${n} amigos vão se sentar ao redor de uma mesa redonda. Considerando iguais duas disposições quando uma pode ser obtida da outra por rotação, de quantas maneiras diferentes eles podem ocupar os lugares?`;
+  } else if (dificuldade === "medio") {
+    n = randInt(5, 6);
+    enunciado = `Em uma reunião, ${n} pessoas vão se acomodar em torno de uma mesa circular. Duas acomodações são consideradas a mesma quando diferem apenas por uma rotação da mesa. De quantos modos distintos elas podem se sentar?`;
+  } else {
+    n = randInt(6, 7);
+    enunciado = `${n} convidados serão dispostos ao redor de uma mesa redonda em um jantar. Quantas disposições circulares distintas existem, sabendo que só importam as posições relativas entre os convidados?`;
+  }
+  const correct = fatorial(n - 1);
+  const correctText = `${correct}`;
+  const distractorTexts = [
+    `${fatorial(n)}`,
+    `${fatorial(n - 2)}`,
+    `${fatorial(n - 1) / 2}`,
+    `${n * (n - 1)}`,
+  ];
+  const explicacao = `Em uma permutação circular de ${n} elementos, fixa-se um deles como referência e permutam-se os outros ${n - 1}: (${n} − 1)! = ${n - 1}! = ${correct}.`;
+  if (tentativa < 20 && !_combDistintos(correctText, distractorTexts))
+    return combPermutacaoCircular(dificuldade, tentativa + 1);
+  return makeQuestao({
+    categoriaId: "analise-combinatoria",
+    subtopico: "Permutação",
+    dificuldade,
+    enunciado,
+    correctText,
+    distractorTexts,
+    explicacao,
+  });
+}
+
+// k posições ordenadas com elementos distintos escolhidos entre n ⇒ A(n,k) = n!/(n−k)!.
+function combArranjo(dificuldade, tentativa = 0) {
+  let n, k, enunciado;
+  if (dificuldade === "facil") {
+    k = 2;
+    n = randInt(5, 7);
+    enunciado = `Em uma corrida com ${n} atletas, serão premiados o 1º e o 2º colocados, com medalhas distintas para cada posição. De quantas maneiras diferentes esse pódio pode ser formado?`;
+  } else if (dificuldade === "medio") {
+    k = 3;
+    n = randInt(5, 7);
+    enunciado = `Um cofre é aberto por uma senha de ${k} algarismos distintos, todos escolhidos entre os números de 1 a ${n}. Quantas senhas diferentes podem ser criadas?`;
+  } else {
+    k = 3;
+    n = randInt(7, 9);
+    enunciado = `Uma equipe de ${n} pessoas precisa escolher um presidente, um vice-presidente e um tesoureiro, sendo os três cargos ocupados por pessoas diferentes. De quantas formas distintas essa escolha pode ser feita?`;
+  }
+  const correct = arranjo(n, k);
+  const correctText = `${correct}`;
+  const distractorTexts = [
+    `${Math.pow(n, k)}`,
+    `${combinacao(n, k)}`,
+    `${fatorial(n)}`,
+    `${Math.round(fatorial(n) / fatorial(k))}`,
+  ];
+  const explicacao = `A ordem das posições importa e não há repetição: arranjo A(${n}, ${k}) = ${n}! / (${n} − ${k})! = ${n}!/${n - k}! = ${correct}.`;
+  if (tentativa < 20 && !_combDistintos(correctText, distractorTexts))
+    return combArranjo(dificuldade, tentativa + 1);
+  return makeQuestao({
+    categoriaId: "analise-combinatoria",
+    subtopico: "Arranjo",
+    dificuldade,
+    enunciado,
+    correctText,
+    distractorTexts,
+    explicacao,
+  });
+}
+
+// k posições, m símbolos disponíveis, repetição livre ⇒ m^k.
+function combComRepeticao(dificuldade, tentativa = 0) {
+  let m, k, enunciado;
+  if (dificuldade === "facil") {
+    m = 10;
+    k = 3;
+    enunciado = `O teclado de um cofre é destravado por uma senha de ${k} algarismos, e cada posição pode receber qualquer um dos ${m} algarismos de 0 a 9, inclusive repetidos. Quantas senhas diferentes são possíveis?`;
+  } else if (dificuldade === "medio") {
+    m = 26;
+    k = 2;
+    enunciado = `Um sistema identifica lotes com um código de ${k} letras, cada uma escolhida entre as ${m} letras do alfabeto, podendo haver repetição. Quantos códigos distintos podem ser gerados?`;
+  } else {
+    k = randInt(3, 4);
+    m = randInt(k + 2, k + 4);
+    enunciado = `Um cadeado tem ${k} anéis, e em cada anel estão gravados ${m} símbolos diferentes. O segredo é uma sequência formada por um símbolo de cada anel, e símbolos podem se repetir. Quantos segredos diferentes o cadeado admite?`;
+  }
+  const correct = Math.pow(m, k);
+  const correctText = `${correct}`;
+  const distractorTexts = [
+    `${arranjo(m, k)}`,
+    `${combinacao(m + k - 1, k)}`,
+    `${m * k}`,
+    `${Math.pow(m, k - 1)}`,
+  ];
+  const explicacao = `Cada uma das ${k} posições pode ser preenchida livremente de ${m} formas, independentemente das demais. Pelo princípio multiplicativo: ${m}^${k} = ${correct}.`;
+  if (tentativa < 20 && !_combDistintos(correctText, distractorTexts))
+    return combComRepeticao(dificuldade, tentativa + 1);
+  return makeQuestao({
+    categoriaId: "analise-combinatoria",
+    subtopico: "Princípio Multiplicativo",
+    dificuldade,
+    enunciado,
+    correctText,
+    distractorTexts,
+    explicacao,
+  });
+}
+
+// Anagramas: letras distintas ⇒ n!; uma letra dupla ⇒ n!/2!.
+function combAnagramas(dificuldade, tentativa = 0) {
+  let palavra, n, correct, distractorTexts, enunciado, explicacao;
+  if (dificuldade === "dificil") {
+    palavra = pick(["PANELA", "CAVALO", "PAREDE", "CARETA", "COELHO"]);
+    n = palavra.length;
+    const rep = [...palavra].find((c, i) => palavra.indexOf(c) !== i);
+    correct = Math.round(fatorial(n) / fatorial(2));
+    distractorTexts = [
+      `${fatorial(n)}`,
+      `${Math.round(fatorial(n) / 4)}`,
+      `${n * n}`,
+      `${fatorial(n - 1)}`,
+    ];
+    enunciado = `Quantos anagramas distintos podem ser formados com todas as letras da palavra ${palavra}, observando que uma de suas letras aparece repetida?`;
+    explicacao = `A palavra ${palavra} tem ${n} letras, com a letra ${rep} repetida 2 vezes. O número de anagramas é ${n}! / 2! = ${fatorial(n)} / 2 = ${correct}.`;
+  } else {
+    const facil = dificuldade === "facil";
+    palavra = pick(facil ? ["MESA", "SAPO", "VELA", "LIRA", "PATO"] : ["LIVRO", "PRATO", "TEMPO", "CAMPO", "MUNDO"]);
+    n = palavra.length;
+    correct = fatorial(n);
+    distractorTexts = [
+      `${fatorial(n) / 2}`,
+      `${fatorial(n - 1)}`,
+      `${n * n}`,
+      `${2 * fatorial(n)}`,
+    ];
+    enunciado = facil
+      ? `Quantas "palavras" diferentes (com ou sem significado) podem ser formadas reordenando todas as letras da palavra ${palavra}?`
+      : `Um anagrama é qualquer reordenação das letras de uma palavra. Quantos anagramas distintos a palavra ${palavra} possui?`;
+    explicacao = `Todas as ${n} letras da palavra ${palavra} são distintas, então o número de anagramas é ${n}! = ${correct}.`;
+  }
+  const correctText = `${correct}`;
+  if (tentativa < 20 && !_combDistintos(correctText, distractorTexts))
+    return combAnagramas(dificuldade, tentativa + 1);
+  return makeQuestao({
+    categoriaId: "analise-combinatoria",
+    subtopico: "Permutação",
+    dificuldade,
+    enunciado,
+    correctText,
+    distractorTexts,
+    explicacao,
+  });
+}
+
+// Grupo de x+y com x de um subgrupo de a e y de outro de b ⇒ C(a,x)·C(b,y).
+function combComissaoRestricao(dificuldade, tentativa = 0) {
+  const ctx = pick([
+    { a: "homens", b: "mulheres", aSing: "homem", bSing: "mulher", grupo: "comissão" },
+    { a: "professores", b: "alunos", aSing: "professor", bSing: "aluno", grupo: "comissão organizadora" },
+    { a: "médicos", b: "enfermeiros", aSing: "médico", bSing: "enfermeiro", grupo: "equipe de plantão" },
+    { a: "veteranos", b: "novatos", aSing: "veterano", bSing: "novato", grupo: "equipe" },
+  ]);
+  const nomeA = (q) => (q === 1 ? ctx.aSing : ctx.a);
+  const nomeB = (q) => (q === 1 ? ctx.bSing : ctx.b);
+  let a, b, x, y;
+  if (dificuldade === "facil") {
+    a = 4; b = 4; x = 2; y = 1;
+  } else if (dificuldade === "medio") {
+    a = 5; b = 4; x = 2; y = 2;
+  } else {
+    a = 6; b = 5; x = 3; y = 2;
+  }
+  const correct = combinacao(a, x) * combinacao(b, y);
+  const correctText = `${correct}`;
+  const distractorTexts = [
+    `${combinacao(a, x) + combinacao(b, y)}`,
+    `${combinacao(a + b, x + y)}`,
+    `${combinacao(a, x) * combinacao(b, y === 1 ? 2 : 1)}`,
+    `${arranjo(a, x) * arranjo(b, y)}`,
+  ];
+  const enunciado = `Uma ${ctx.grupo} de ${x + y} pessoas será formada a partir de um grupo com ${a} ${ctx.a} e ${b} ${ctx.b}. De quantas maneiras diferentes ela pode ser composta, sabendo que deve conter exatamente ${x} ${nomeA(x)} e ${y} ${nomeB(y)}?`;
+  const explicacao = `Escolhem-se ${x} entre os ${a} ${ctx.a} — C(${a}, ${x}) = ${combinacao(a, x)} modos — e ${y} entre os ${b} ${ctx.b} — C(${b}, ${y}) = ${combinacao(b, y)} modos. Pelo princípio multiplicativo: ${combinacao(a, x)} × ${combinacao(b, y)} = ${correct}.`;
+  if (tentativa < 20 && !_combDistintos(correctText, distractorTexts))
+    return combComissaoRestricao(dificuldade, tentativa + 1);
+  return makeQuestao({
+    categoriaId: "analise-combinatoria",
+    subtopico: "Combinação",
+    dificuldade,
+    enunciado,
+    correctText,
+    distractorTexts,
+    explicacao,
+  });
+}
+
+// Número de subconjuntos de um conjunto com n elementos ⇒ 2^n (variações: −1, −2).
+function combSubconjuntos(dificuldade, tentativa = 0) {
+  let n, correct, distractorTexts, enunciado, explicacao;
+  if (dificuldade === "facil") {
+    n = randInt(4, 6);
+    correct = Math.pow(2, n);
+    distractorTexts = [
+      `${2 * n}`,
+      `${n * n * n}`,
+      `${Math.pow(2, n) - 1}`,
+      `${Math.pow(2, n) - 2}`,
+    ];
+    enunciado = `De um cardápio com ${n} pratos diferentes, um cliente pode escolher qualquer quantidade de pratos, inclusive nenhum ou todos. De quantas maneiras diferentes ele pode fazer a sua escolha?`;
+    explicacao = `Cada um dos ${n} pratos pode ser incluído ou não na escolha, o que dá 2 opções por prato. Total = 2^${n} = ${correct} (equivale ao número de subconjuntos de um conjunto com ${n} elementos).`;
+  } else if (dificuldade === "medio") {
+    n = randInt(3, 6);
+    correct = Math.pow(2, n) - 1;
+    distractorTexts = [
+      `${Math.pow(2, n)}`,
+      `${Math.pow(2, n) - 2}`,
+      `${2 * n - 1}`,
+      `${n * n * n - 1}`,
+    ];
+    enunciado = `Uma pessoa tem ${n} amigos e quer convidar pelo menos um deles para um jantar. De quantos modos diferentes ela pode formar o grupo de convidados?`;
+    explicacao = `São 2^${n} = ${Math.pow(2, n)} subconjuntos possíveis do conjunto de ${n} amigos. Retirando o caso do grupo vazio (nenhum convidado): 2^${n} − 1 = ${correct}.`;
+  } else {
+    n = randInt(4, 6);
+    correct = Math.pow(2, n) - 2;
+    distractorTexts = [
+      `${Math.pow(2, n) - 1}`,
+      `${Math.pow(2, n)}`,
+      `${n * n * n - 2}`,
+      `${2 * n - 2}`,
+    ];
+    enunciado = `Um conjunto B possui ${n} elementos. Quantos subconjuntos de B são, ao mesmo tempo, não vazios e diferentes do próprio B?`;
+    explicacao = `O conjunto B tem 2^${n} = ${Math.pow(2, n)} subconjuntos. Excluindo o conjunto vazio e o próprio B: 2^${n} − 2 = ${correct}.`;
+  }
+  const correctText = `${correct}`;
+  if (tentativa < 20 && !_combDistintos(correctText, distractorTexts))
+    return combSubconjuntos(dificuldade, tentativa + 1);
+  return makeQuestao({
+    categoriaId: "analise-combinatoria",
+    subtopico: "Combinação",
+    dificuldade,
+    enunciado,
+    correctText,
+    distractorTexts,
+    explicacao,
+  });
+}
+
 // ---------- MATEMATICA FINANCEIRA ----------
 function finJurosCompostos(dificuldade) {
   const capital = randInt(dificuldade === "facil" ? 10 : 20, dificuldade === "dificil" ? 200 : 100) * 100;
@@ -3050,7 +3349,7 @@ export const TEMPLATES = {
   trigonometria: [trigTrianguloRetangulo],
   estatistica: [estMedia, estMediana, estLeituraGraficoDiferenca, estLeituraGraficoTotal, estLeituraGraficoPercentual],
   probabilidade: [probSimples, probSucessiva],
-  "analise-combinatoria": [combMultiplicativo, combComissao],
+  "analise-combinatoria": [combMultiplicativo, combComissao, combPermutacaoSimples, combPermutacaoCircular, combArranjo, combComRepeticao, combAnagramas, combComissaoRestricao, combSubconjuntos],
   "matematica-financeira": [finJurosCompostos],
   matrizes: [matDeterminante, matDeterminante3x3, matSoma, matSubtracao, matEscalar, matProduto, matTransposta, matTraco, matIgualdade, matLeiDeFormacao, matSimetrica, matPotencia, matInversa, matDeterminanteComIncognita, matCramer, matFaturamento, matIdentidadePropriedade],
   logica: [logSequencia, logRaciocinioIdade, logSequenciaSegundaOrdem, logNumeroPensado, logTorneio, logCalendario, logNegacao, logCondicional, logComparacaoTransitiva],

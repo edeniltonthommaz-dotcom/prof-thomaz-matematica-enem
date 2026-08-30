@@ -202,5 +202,651 @@
     ],
     "correta": "A",
     "explicacao": "Como a ordem não importa, usa-se combinação: C(10,2) = 10! / (2! × 8!) = 45."
+  },
+  {
+    "id": "analise-combinatoria-ined-0127",
+    "categoriaId": "analise-combinatoria",
+    "subtopico": "Permutação",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "De quantas maneiras diferentes 4 pessoas podem formar uma única fila para subir em um brinquedo do parque?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "16"
+      },
+      {
+        "letra": "B",
+        "texto": "120"
+      },
+      {
+        "letra": "C",
+        "texto": "6"
+      },
+      {
+        "letra": "D",
+        "texto": "24"
+      },
+      {
+        "letra": "E",
+        "texto": "12"
+      }
+    ],
+    "correta": "D",
+    "explicacao": "São 4 elementos distintos a serem ordenados em 4 posições. O total é a permutação P(4) = 4! = 24."
+  },
+  {
+    "id": "analise-combinatoria-ined-0128",
+    "categoriaId": "analise-combinatoria",
+    "subtopico": "Permutação",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma prateleira será usada para expor 6 troféus, lado a lado. De quantas formas distintas esses objetos podem ser dispostos na prateleira?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "360"
+      },
+      {
+        "letra": "B",
+        "texto": "36"
+      },
+      {
+        "letra": "C",
+        "texto": "720"
+      },
+      {
+        "letra": "D",
+        "texto": "5040"
+      },
+      {
+        "letra": "E",
+        "texto": "120"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "São 6 elementos distintos a serem ordenados em 6 posições. O total é a permutação P(6) = 6! = 720."
+  },
+  {
+    "id": "analise-combinatoria-ined-0129",
+    "categoriaId": "analise-combinatoria",
+    "subtopico": "Permutação",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Em um evento, 6 grupos musicais vão se apresentar em sequência, um após o outro. Quantas ordens diferentes de apresentação são possíveis?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "5040"
+      },
+      {
+        "letra": "B",
+        "texto": "120"
+      },
+      {
+        "letra": "C",
+        "texto": "720"
+      },
+      {
+        "letra": "D",
+        "texto": "360"
+      },
+      {
+        "letra": "E",
+        "texto": "36"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "São 6 elementos distintos a serem ordenados em 6 posições. O total é a permutação P(6) = 6! = 720."
+  },
+  {
+    "id": "analise-combinatoria-ined-0130",
+    "categoriaId": "analise-combinatoria",
+    "subtopico": "Permutação",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "4 amigos vão se sentar ao redor de uma mesa redonda. Considerando iguais duas disposições quando uma pode ser obtida da outra por rotação, de quantas maneiras diferentes eles podem ocupar os lugares?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "12"
+      },
+      {
+        "letra": "B",
+        "texto": "3"
+      },
+      {
+        "letra": "C",
+        "texto": "24"
+      },
+      {
+        "letra": "D",
+        "texto": "2"
+      },
+      {
+        "letra": "E",
+        "texto": "6"
+      }
+    ],
+    "correta": "E",
+    "explicacao": "Em uma permutação circular de 4 elementos, fixa-se um deles como referência e permutam-se os outros 3: (4 − 1)! = 3! = 6."
+  },
+  {
+    "id": "analise-combinatoria-ined-0131",
+    "categoriaId": "analise-combinatoria",
+    "subtopico": "Permutação",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Em uma reunião, 5 pessoas vão se acomodar em torno de uma mesa circular. Duas acomodações são consideradas a mesma quando diferem apenas por uma rotação da mesa. De quantos modos distintos elas podem se sentar?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "24"
+      },
+      {
+        "letra": "B",
+        "texto": "6"
+      },
+      {
+        "letra": "C",
+        "texto": "20"
+      },
+      {
+        "letra": "D",
+        "texto": "12"
+      },
+      {
+        "letra": "E",
+        "texto": "120"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "Em uma permutação circular de 5 elementos, fixa-se um deles como referência e permutam-se os outros 4: (5 − 1)! = 4! = 24."
+  },
+  {
+    "id": "analise-combinatoria-ined-0132",
+    "categoriaId": "analise-combinatoria",
+    "subtopico": "Permutação",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "6 convidados serão dispostos ao redor de uma mesa redonda em um jantar. Quantas disposições circulares distintas existem, sabendo que só importam as posições relativas entre os convidados?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "30"
+      },
+      {
+        "letra": "B",
+        "texto": "24"
+      },
+      {
+        "letra": "C",
+        "texto": "720"
+      },
+      {
+        "letra": "D",
+        "texto": "60"
+      },
+      {
+        "letra": "E",
+        "texto": "120"
+      }
+    ],
+    "correta": "E",
+    "explicacao": "Em uma permutação circular de 6 elementos, fixa-se um deles como referência e permutam-se os outros 5: (6 − 1)! = 5! = 120."
+  },
+  {
+    "id": "analise-combinatoria-ined-0133",
+    "categoriaId": "analise-combinatoria",
+    "subtopico": "Arranjo",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Em uma corrida com 6 atletas, serão premiados o 1º e o 2º colocados, com medalhas distintas para cada posição. De quantas maneiras diferentes esse pódio pode ser formado?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "36"
+      },
+      {
+        "letra": "B",
+        "texto": "15"
+      },
+      {
+        "letra": "C",
+        "texto": "360"
+      },
+      {
+        "letra": "D",
+        "texto": "720"
+      },
+      {
+        "letra": "E",
+        "texto": "30"
+      }
+    ],
+    "correta": "E",
+    "explicacao": "A ordem das posições importa e não há repetição: arranjo A(6, 2) = 6! / (6 − 2)! = 6!/4! = 30."
+  },
+  {
+    "id": "analise-combinatoria-ined-0134",
+    "categoriaId": "analise-combinatoria",
+    "subtopico": "Arranjo",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um cofre é aberto por uma senha de 3 algarismos distintos, todos escolhidos entre os números de 1 a 7. Quantas senhas diferentes podem ser criadas?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "35"
+      },
+      {
+        "letra": "B",
+        "texto": "343"
+      },
+      {
+        "letra": "C",
+        "texto": "840"
+      },
+      {
+        "letra": "D",
+        "texto": "210"
+      },
+      {
+        "letra": "E",
+        "texto": "5040"
+      }
+    ],
+    "correta": "D",
+    "explicacao": "A ordem das posições importa e não há repetição: arranjo A(7, 3) = 7! / (7 − 3)! = 7!/4! = 210."
+  },
+  {
+    "id": "analise-combinatoria-ined-0135",
+    "categoriaId": "analise-combinatoria",
+    "subtopico": "Arranjo",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma equipe de 8 pessoas precisa escolher um presidente, um vice-presidente e um tesoureiro, sendo os três cargos ocupados por pessoas diferentes. De quantas formas distintas essa escolha pode ser feita?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "56"
+      },
+      {
+        "letra": "B",
+        "texto": "6720"
+      },
+      {
+        "letra": "C",
+        "texto": "512"
+      },
+      {
+        "letra": "D",
+        "texto": "40320"
+      },
+      {
+        "letra": "E",
+        "texto": "336"
+      }
+    ],
+    "correta": "E",
+    "explicacao": "A ordem das posições importa e não há repetição: arranjo A(8, 3) = 8! / (8 − 3)! = 8!/5! = 336."
+  },
+  {
+    "id": "analise-combinatoria-ined-0136",
+    "categoriaId": "analise-combinatoria",
+    "subtopico": "Princípio Multiplicativo",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "O teclado de um cofre é destravado por uma senha de 3 algarismos, e cada posição pode receber qualquer um dos 10 algarismos de 0 a 9, inclusive repetidos. Quantas senhas diferentes são possíveis?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "30"
+      },
+      {
+        "letra": "B",
+        "texto": "1000"
+      },
+      {
+        "letra": "C",
+        "texto": "220"
+      },
+      {
+        "letra": "D",
+        "texto": "720"
+      },
+      {
+        "letra": "E",
+        "texto": "100"
+      }
+    ],
+    "correta": "B",
+    "explicacao": "Cada uma das 3 posições pode ser preenchida livremente de 10 formas, independentemente das demais. Pelo princípio multiplicativo: 10^3 = 1000."
+  },
+  {
+    "id": "analise-combinatoria-ined-0137",
+    "categoriaId": "analise-combinatoria",
+    "subtopico": "Princípio Multiplicativo",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um sistema identifica lotes com um código de 2 letras, cada uma escolhida entre as 26 letras do alfabeto, podendo haver repetição. Quantos códigos distintos podem ser gerados?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "676"
+      },
+      {
+        "letra": "B",
+        "texto": "26"
+      },
+      {
+        "letra": "C",
+        "texto": "351"
+      },
+      {
+        "letra": "D",
+        "texto": "650"
+      },
+      {
+        "letra": "E",
+        "texto": "52"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "Cada uma das 2 posições pode ser preenchida livremente de 26 formas, independentemente das demais. Pelo princípio multiplicativo: 26^2 = 676."
+  },
+  {
+    "id": "analise-combinatoria-ined-0138",
+    "categoriaId": "analise-combinatoria",
+    "subtopico": "Princípio Multiplicativo",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um cadeado tem 4 anéis, e em cada anel estão gravados 7 símbolos diferentes. O segredo é uma sequência formada por um símbolo de cada anel, e símbolos podem se repetir. Quantos segredos diferentes o cadeado admite?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "840"
+      },
+      {
+        "letra": "B",
+        "texto": "210"
+      },
+      {
+        "letra": "C",
+        "texto": "2401"
+      },
+      {
+        "letra": "D",
+        "texto": "343"
+      },
+      {
+        "letra": "E",
+        "texto": "28"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "Cada uma das 4 posições pode ser preenchida livremente de 7 formas, independentemente das demais. Pelo princípio multiplicativo: 7^4 = 2401."
+  },
+  {
+    "id": "analise-combinatoria-ined-0139",
+    "categoriaId": "analise-combinatoria",
+    "subtopico": "Permutação",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Quantas \"palavras\" diferentes (com ou sem significado) podem ser formadas reordenando todas as letras da palavra SAPO?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "12"
+      },
+      {
+        "letra": "B",
+        "texto": "16"
+      },
+      {
+        "letra": "C",
+        "texto": "6"
+      },
+      {
+        "letra": "D",
+        "texto": "24"
+      },
+      {
+        "letra": "E",
+        "texto": "48"
+      }
+    ],
+    "correta": "D",
+    "explicacao": "Todas as 4 letras da palavra SAPO são distintas, então o número de anagramas é 4! = 24."
+  },
+  {
+    "id": "analise-combinatoria-ined-0140",
+    "categoriaId": "analise-combinatoria",
+    "subtopico": "Permutação",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um anagrama é qualquer reordenação das letras de uma palavra. Quantos anagramas distintos a palavra TEMPO possui?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "60"
+      },
+      {
+        "letra": "B",
+        "texto": "25"
+      },
+      {
+        "letra": "C",
+        "texto": "240"
+      },
+      {
+        "letra": "D",
+        "texto": "24"
+      },
+      {
+        "letra": "E",
+        "texto": "120"
+      }
+    ],
+    "correta": "E",
+    "explicacao": "Todas as 5 letras da palavra TEMPO são distintas, então o número de anagramas é 5! = 120."
+  },
+  {
+    "id": "analise-combinatoria-ined-0141",
+    "categoriaId": "analise-combinatoria",
+    "subtopico": "Permutação",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Quantos anagramas distintos podem ser formados com todas as letras da palavra PAREDE, observando que uma de suas letras aparece repetida?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "180"
+      },
+      {
+        "letra": "B",
+        "texto": "120"
+      },
+      {
+        "letra": "C",
+        "texto": "36"
+      },
+      {
+        "letra": "D",
+        "texto": "360"
+      },
+      {
+        "letra": "E",
+        "texto": "720"
+      }
+    ],
+    "correta": "D",
+    "explicacao": "A palavra PAREDE tem 6 letras, com a letra E repetida 2 vezes. O número de anagramas é 6! / 2! = 720 / 2 = 360."
+  },
+  {
+    "id": "analise-combinatoria-ined-0142",
+    "categoriaId": "analise-combinatoria",
+    "subtopico": "Combinação",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma equipe de 3 pessoas será formada a partir de um grupo com 4 veteranos e 4 novatos. De quantas maneiras diferentes ela pode ser composta, sabendo que deve conter exatamente 2 veteranos e 1 novato?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "36"
+      },
+      {
+        "letra": "B",
+        "texto": "10"
+      },
+      {
+        "letra": "C",
+        "texto": "48"
+      },
+      {
+        "letra": "D",
+        "texto": "56"
+      },
+      {
+        "letra": "E",
+        "texto": "24"
+      }
+    ],
+    "correta": "E",
+    "explicacao": "Escolhem-se 2 entre os 4 veteranos — C(4, 2) = 6 modos — e 1 entre os 4 novatos — C(4, 1) = 4 modos. Pelo princípio multiplicativo: 6 × 4 = 24."
+  },
+  {
+    "id": "analise-combinatoria-ined-0143",
+    "categoriaId": "analise-combinatoria",
+    "subtopico": "Combinação",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma equipe de 4 pessoas será formada a partir de um grupo com 5 veteranos e 4 novatos. De quantas maneiras diferentes ela pode ser composta, sabendo que deve conter exatamente 2 veteranos e 2 novatos?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "240"
+      },
+      {
+        "letra": "B",
+        "texto": "126"
+      },
+      {
+        "letra": "C",
+        "texto": "40"
+      },
+      {
+        "letra": "D",
+        "texto": "16"
+      },
+      {
+        "letra": "E",
+        "texto": "60"
+      }
+    ],
+    "correta": "E",
+    "explicacao": "Escolhem-se 2 entre os 5 veteranos — C(5, 2) = 10 modos — e 2 entre os 4 novatos — C(4, 2) = 6 modos. Pelo princípio multiplicativo: 10 × 6 = 60."
+  },
+  {
+    "id": "analise-combinatoria-ined-0144",
+    "categoriaId": "analise-combinatoria",
+    "subtopico": "Combinação",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma equipe de 5 pessoas será formada a partir de um grupo com 6 veteranos e 5 novatos. De quantas maneiras diferentes ela pode ser composta, sabendo que deve conter exatamente 3 veteranos e 2 novatos?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "30"
+      },
+      {
+        "letra": "B",
+        "texto": "2400"
+      },
+      {
+        "letra": "C",
+        "texto": "200"
+      },
+      {
+        "letra": "D",
+        "texto": "462"
+      },
+      {
+        "letra": "E",
+        "texto": "100"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "Escolhem-se 3 entre os 6 veteranos — C(6, 3) = 20 modos — e 2 entre os 5 novatos — C(5, 2) = 10 modos. Pelo princípio multiplicativo: 20 × 10 = 200."
+  },
+  {
+    "id": "analise-combinatoria-ined-0145",
+    "categoriaId": "analise-combinatoria",
+    "subtopico": "Combinação",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "De um cardápio com 5 pratos diferentes, um cliente pode escolher qualquer quantidade de pratos, inclusive nenhum ou todos. De quantas maneiras diferentes ele pode fazer a sua escolha?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "32"
+      },
+      {
+        "letra": "B",
+        "texto": "10"
+      },
+      {
+        "letra": "C",
+        "texto": "31"
+      },
+      {
+        "letra": "D",
+        "texto": "125"
+      },
+      {
+        "letra": "E",
+        "texto": "30"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "Cada um dos 5 pratos pode ser incluído ou não na escolha, o que dá 2 opções por prato. Total = 2^5 = 32 (equivale ao número de subconjuntos de um conjunto com 5 elementos)."
   }
 ]
