@@ -1,17 +1,17 @@
 [
   {
-    "id": "conjuntos-ined-0182",
+    "id": "conjuntos-ined-0203",
     "categoriaId": "conjuntos",
     "subtopico": "Diagramas de Venn",
     "dificuldade": "facil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Uma pesquisa foi realizada em um clube de leitura com 60 pessoas. Constatou-se que 38 pessoas leem o livro A, 29 pessoas leem o livro B, e 13 pessoas fazem as duas coisas. Quantas pessoas leem o livro A ou leem o livro B (pelo menos um dos dois)?",
+    "enunciado": "Uma pesquisa foi realizada em um bairro com 58 pessoas. Constatou-se que 28 pessoas assinam o jornal A, 26 pessoas assinam o jornal B, e 6 pessoas fazem as duas coisas. Quantas pessoas assinam o jornal A ou assinam o jornal B (pelo menos um dos dois)?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "6"
+        "texto": "10"
       },
       {
         "letra": "B",
@@ -19,309 +19,105 @@
       },
       {
         "letra": "C",
-        "texto": "41"
+        "texto": "48"
       },
       {
         "letra": "D",
-        "texto": "67"
+        "texto": "42"
       },
       {
         "letra": "E",
-        "texto": "60"
+        "texto": "58"
       }
     ],
-    "correta": "B",
-    "explicacao": "Pelo menos um dos dois = apenas leem o livro A (25) + apenas leem o livro B (16) + ambos (13) = 54. Também pode ser calculado por |A∪B| = |A|+|B|−|A∩B| = 38+29−13 = 54."
+    "correta": "C",
+    "explicacao": "Pelo menos um dos dois = apenas assinam o jornal A (22) + apenas assinam o jornal B (20) + ambos (6) = 48. Também pode ser calculado por |A∪B| = |A|+|B|−|A∩B| = 28+26−6 = 48."
   },
   {
-    "id": "conjuntos-ined-0183",
+    "id": "conjuntos-ined-0204",
     "categoriaId": "conjuntos",
     "subtopico": "Diagramas de Venn",
     "dificuldade": "medio",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Uma pesquisa foi realizada em uma empresa com 80 pessoas. Constatou-se que 38 pessoas usam o aplicativo X, 40 pessoas usam o aplicativo Y, e 13 pessoas fazem as duas coisas. Quantas pessoas não usam o aplicativo X nem usam o aplicativo Y?",
+    "enunciado": "Uma pesquisa foi realizada em uma empresa com 65 pessoas. Constatou-se que 29 pessoas usam o aplicativo X, 37 pessoas usam o aplicativo Y, e 14 pessoas fazem as duas coisas. Quantas pessoas não usam o aplicativo X nem usam o aplicativo Y?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "27"
+        "texto": "13"
       },
       {
         "letra": "B",
-        "texto": "80"
+        "texto": "52"
       },
       {
         "letra": "C",
-        "texto": "15"
+        "texto": "23"
       },
       {
         "letra": "D",
+        "texto": "15"
+      },
+      {
+        "letra": "E",
         "texto": "65"
-      },
-      {
-        "letra": "E",
-        "texto": "25"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "O total pesquisado é 80. Os que fazem pelo menos uma das duas coisas somam 65 (apenas A: 25 + apenas B: 27 + ambos: 13). Logo, não fazem nenhuma das duas: 80 − 65 = 15."
-  },
-  {
-    "id": "conjuntos-ined-0184",
-    "categoriaId": "conjuntos",
-    "subtopico": "Diagramas de Venn",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma pesquisa foi realizada em uma academia com 111 pessoas. Constatou-se que 57 pessoas praticam natação, 57 pessoas praticam musculação. Sabe-se ainda que 23 pessoas não se enquadram em nenhuma das duas situações. Quantas pessoas praticam natação e praticam musculação ao mesmo tempo?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "31"
-      },
-      {
-        "letra": "B",
-        "texto": "32"
-      },
-      {
-        "letra": "C",
-        "texto": "34"
-      },
-      {
-        "letra": "D",
-        "texto": "57"
-      },
-      {
-        "letra": "E",
-        "texto": "26"
-      }
-    ],
-    "correta": "E",
-    "explicacao": "Quem faz pelo menos uma das duas coisas: 111 − 23 = 88. Pela fórmula |A∪B| = |A|+|B|−|A∩B|, temos 88 = 57+57−|A∩B|, logo |A∩B| = 57+57−88 = 26."
-  },
-  {
-    "id": "conjuntos-ined-0185",
-    "categoriaId": "conjuntos",
-    "subtopico": "Problemas de Pesquisa",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Em uma pesquisa com 67 moradores de um condomínio, verificou-se que 44 têm carro, 31 têm moto, e 8 não se enquadram em nenhuma das duas situações. Quantas pessoas, dentre as pesquisadas, têm carro e têm moto ao mesmo tempo?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "59"
-      },
-      {
-        "letra": "B",
-        "texto": "75"
-      },
-      {
-        "letra": "C",
-        "texto": "16"
-      },
-      {
-        "letra": "D",
-        "texto": "28"
-      },
-      {
-        "letra": "E",
-        "texto": "15"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "Quem se enquadra em pelo menos uma situação: 67 − 8 = 59. Pela fórmula |A∪B| = |A|+|B|−|A∩B|, temos 59 = 44+31−|A∩B|, logo |A∩B| = 44+31−59 = 16."
-  },
-  {
-    "id": "conjuntos-ined-0186",
-    "categoriaId": "conjuntos",
-    "subtopico": "Problemas de Pesquisa",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Em uma pesquisa com 94 moradores de um condomínio, verificou-se que 46 têm carro, 46 têm moto, e 17 não se enquadram em nenhuma das duas situações. Quantas pessoas, dentre as pesquisadas, têm carro e têm moto ao mesmo tempo?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "77"
-      },
-      {
-        "letra": "B",
-        "texto": "15"
-      },
-      {
-        "letra": "C",
-        "texto": "32"
-      },
-      {
-        "letra": "D",
-        "texto": "31"
-      },
-      {
-        "letra": "E",
-        "texto": "92"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "Quem se enquadra em pelo menos uma situação: 94 − 17 = 77. Pela fórmula |A∪B| = |A|+|B|−|A∩B|, temos 77 = 46+46−|A∩B|, logo |A∩B| = 46+46−77 = 15."
-  },
-  {
-    "id": "conjuntos-ined-0187",
-    "categoriaId": "conjuntos",
-    "subtopico": "Problemas de Pesquisa",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Em uma pesquisa com 96 alunos de uma turma, verificou-se que 38 fazem teatro, 54 fazem música, e 21 não se enquadram em nenhuma das duas situações. Quantas pessoas, dentre as pesquisadas, fazem teatro e fazem música ao mesmo tempo?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "92"
-      },
-      {
-        "letra": "B",
-        "texto": "37"
-      },
-      {
-        "letra": "C",
-        "texto": "21"
-      },
-      {
-        "letra": "D",
-        "texto": "75"
-      },
-      {
-        "letra": "E",
-        "texto": "17"
-      }
-    ],
-    "correta": "E",
-    "explicacao": "Quem se enquadra em pelo menos uma situação: 96 − 21 = 75. Pela fórmula |A∪B| = |A|+|B|−|A∩B|, temos 75 = 38+54−|A∩B|, logo |A∩B| = 38+54−75 = 17."
-  },
-  {
-    "id": "conjuntos-ined-0188",
-    "categoriaId": "conjuntos",
-    "subtopico": "União e Interseção",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Sejam A e B dois conjuntos finitos tais que |A| = 26, |B| = 20 e |A ∩ B| = 3. Qual é o valor de |A ∪ B|?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "26"
-      },
-      {
-        "letra": "B",
-        "texto": "40"
-      },
-      {
-        "letra": "C",
-        "texto": "46"
-      },
-      {
-        "letra": "D",
-        "texto": "9"
-      },
-      {
-        "letra": "E",
-        "texto": "43"
-      }
-    ],
-    "correta": "E",
-    "explicacao": "Pelo princípio da inclusão-exclusão, |A ∪ B| = |A| + |B| − |A ∩ B| = 26 + 20 − 3 = 43."
-  },
-  {
-    "id": "conjuntos-ined-0189",
-    "categoriaId": "conjuntos",
-    "subtopico": "União e Interseção",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Sejam A e B dois conjuntos finitos com |A| = 24, |B| = 15 e |A ∪ B| = 34. Qual é o valor de |A ∩ B|?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "5"
-      },
-      {
-        "letra": "B",
-        "texto": "9"
-      },
-      {
-        "letra": "C",
-        "texto": "39"
-      },
-      {
-        "letra": "D",
-        "texto": "10"
-      },
-      {
-        "letra": "E",
-        "texto": "19"
       }
     ],
     "correta": "A",
-    "explicacao": "De |A ∪ B| = |A| + |B| − |A ∩ B|, isolamos |A ∩ B| = |A| + |B| − |A ∪ B| = 24 + 15 − 34 = 5."
+    "explicacao": "O total pesquisado é 65. Os que fazem pelo menos uma das duas coisas somam 52 (apenas A: 15 + apenas B: 23 + ambos: 14). Logo, não fazem nenhuma das duas: 65 − 52 = 13."
   },
   {
-    "id": "conjuntos-ined-0190",
+    "id": "conjuntos-ined-0205",
     "categoriaId": "conjuntos",
-    "subtopico": "União e Interseção",
+    "subtopico": "Diagramas de Venn",
     "dificuldade": "dificil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Sejam A e B conjuntos finitos com |A ∪ B| = 27, |A ∩ B| = 9 e |A| = 15. Qual é o valor de |B|?",
+    "enunciado": "Uma pesquisa foi realizada em uma escola de idiomas com 67 pessoas. Constatou-se que 31 pessoas estudam inglês, 30 pessoas estudam espanhol. Sabe-se ainda que 18 pessoas não se enquadram em nenhuma das duas situações. Quantas pessoas estudam inglês e estudam espanhol ao mesmo tempo?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "12"
+        "texto": "19"
       },
       {
         "letra": "B",
-        "texto": "3"
+        "texto": "12"
       },
       {
         "letra": "C",
-        "texto": "21"
+        "texto": "30"
       },
       {
         "letra": "D",
-        "texto": "33"
+        "texto": "18"
       },
       {
         "letra": "E",
-        "texto": "24"
+        "texto": "31"
       }
     ],
-    "correta": "C",
-    "explicacao": "De |A ∪ B| = |A| + |B| − |A ∩ B|, isolamos |B| = |A ∪ B| − |A| + |A ∩ B| = 27 − 15 + 9 = 21."
+    "correta": "B",
+    "explicacao": "Quem faz pelo menos uma das duas coisas: 67 − 18 = 49. Pela fórmula |A∪B| = |A|+|B|−|A∩B|, temos 49 = 31+30−|A∩B|, logo |A∩B| = 31+30−49 = 12."
   },
   {
-    "id": "conjuntos-ined-0191",
+    "id": "conjuntos-ined-0206",
     "categoriaId": "conjuntos",
-    "subtopico": "União e Interseção",
+    "subtopico": "Problemas de Pesquisa",
     "dificuldade": "facil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Em uma turma há 32 estudantes, dos quais 18 foram aprovados na primeira fase. Quantos estudantes não foram aprovados na primeira fase?",
+    "enunciado": "Em uma pesquisa com 87 clientes de uma loja, verificou-se que 51 compraram pelo cartão, 46 compraram no débito, e 8 não se enquadram em nenhuma das duas situações. Quantas pessoas, dentre as pesquisadas, compraram pelo cartão e compraram no débito ao mesmo tempo?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "4"
+        "texto": "97"
       },
       {
         "letra": "B",
-        "texto": "50"
+        "texto": "33"
       },
       {
         "letra": "C",
@@ -329,543 +125,33 @@
       },
       {
         "letra": "D",
-        "texto": "14"
+        "texto": "79"
       },
       {
         "letra": "E",
-        "texto": "32"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "Basta retirar do total os que foram aprovados na primeira fase: 32 − 18 = 14."
-  },
-  {
-    "id": "conjuntos-ined-0192",
-    "categoriaId": "conjuntos",
-    "subtopico": "União e Interseção",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Em um clube com 89 sócios, sabe-se que 24 não já disputaram um torneio oficial. Quantos sócios já disputaram um torneio oficial?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "24"
-      },
-      {
-        "letra": "B",
-        "texto": "41"
-      },
-      {
-        "letra": "C",
-        "texto": "65"
-      },
-      {
-        "letra": "D",
-        "texto": "113"
-      },
-      {
-        "letra": "E",
-        "texto": "89"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "Se 24 não já disputaram um torneio oficial, os demais já disputaram um torneio oficial: 89 − 24 = 65."
-  },
-  {
-    "id": "conjuntos-ined-0193",
-    "categoriaId": "conjuntos",
-    "subtopico": "União e Interseção",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Em uma turma há 138 estudantes. Sabe-se que 28 foram aprovados na primeira fase e outros 19 têm uma segunda característica, sem que ninguém pertença aos dois grupos ao mesmo tempo. Quantos estudantes não pertencem a nenhum dos dois grupos?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "47"
-      },
-      {
-        "letra": "B",
-        "texto": "91"
-      },
-      {
-        "letra": "C",
-        "texto": "9"
-      },
-      {
-        "letra": "D",
-        "texto": "110"
-      },
-      {
-        "letra": "E",
-        "texto": "119"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "Como os dois grupos não têm elementos em comum, retiram-se ambos do total: 138 − 28 − 19 = 91."
-  },
-  {
-    "id": "conjuntos-ined-0194",
-    "categoriaId": "conjuntos",
-    "subtopico": "Diagramas de Venn",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Considere três conjuntos A, B e C para os quais |A| = 25, |A ∩ B| = 9, |A ∩ C| = 10 e |A ∩ B ∩ C| = 4. Quantos elementos pertencem apenas ao conjunto A (e a nenhum dos outros dois)?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "6"
-      },
-      {
-        "letra": "B",
-        "texto": "2"
-      },
-      {
-        "letra": "C",
-        "texto": "10"
-      },
-      {
-        "letra": "D",
-        "texto": "21"
-      },
-      {
-        "letra": "E",
-        "texto": "15"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "|A| = (só A) + |A ∩ B| + |A ∩ C| − |A ∩ B ∩ C| (o centro foi contado nas duas interseções). Logo só A = 25 − 9 − 10 + 4 = 10."
-  },
-  {
-    "id": "conjuntos-ined-0195",
-    "categoriaId": "conjuntos",
-    "subtopico": "Diagramas de Venn",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Em um diagrama de Venn de três conjuntos A, B e C, o número de elementos de cada região é: apenas A: 12; apenas B: 11; apenas C: 11; apenas em A e B: 6; apenas em A e C: 4; apenas em B e C: 7. Se |A ∪ B ∪ C| = 53, quantos elementos estão em A ∩ B ∩ C?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "34"
-      },
-      {
-        "letra": "B",
-        "texto": "2"
-      },
-      {
-        "letra": "C",
-        "texto": "17"
-      },
-      {
-        "letra": "D",
-        "texto": "19"
-      },
-      {
-        "letra": "E",
-        "texto": "36"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "A união é a soma das 7 regiões. As 6 regiões conhecidas somam 12 + 11 + 11 + 6 + 4 + 7 = 51. O centro é o que falta: 53 − 51 = 2."
-  },
-  {
-    "id": "conjuntos-ined-0196",
-    "categoriaId": "conjuntos",
-    "subtopico": "Diagramas de Venn",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Sejam A, B e C três conjuntos finitos com |A| = 28, |B| = 27, |C| = 23, |A ∩ B| = 8, |A ∩ C| = 6, |B ∩ C| = 8 e |A ∩ B ∩ C| = 2. Qual é o valor de |A ∪ B ∪ C|?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "58"
-      },
-      {
-        "letra": "B",
-        "texto": "56"
-      },
-      {
-        "letra": "C",
-        "texto": "54"
-      },
-      {
-        "letra": "D",
-        "texto": "78"
-      },
-      {
-        "letra": "E",
-        "texto": "100"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "Inclusão-exclusão: |A ∪ B ∪ C| = |A| + |B| + |C| − |A ∩ B| − |A ∩ C| − |B ∩ C| + |A ∩ B ∩ C| = 28 + 27 + 23 − 8 − 6 − 8 + 2 = 58."
-  },
-  {
-    "id": "conjuntos-ined-0197",
-    "categoriaId": "conjuntos",
-    "subtopico": "Diagramas de Venn",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Em um levantamento sobre esportes, 30 pessoas praticam natação, das quais 14 também praticam corrida de rua, 9 também praticam ciclismo e 6 praticam os três esportes. Quantas pessoas praticam somente natação?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "24"
-      },
-      {
-        "letra": "B",
-        "texto": "7"
-      },
-      {
-        "letra": "C",
-        "texto": "17"
-      },
-      {
-        "letra": "D",
-        "texto": "13"
-      },
-      {
-        "letra": "E",
-        "texto": "1"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "Somente natação = (praticam natação) − (também corrida de rua) − (também ciclismo) + (os três, que foram descontados duas vezes) = 30 − 14 − 9 + 6 = 13."
-  },
-  {
-    "id": "conjuntos-ined-0198",
-    "categoriaId": "conjuntos",
-    "subtopico": "Diagramas de Venn",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Numa pesquisa esportiva, 12 pessoas praticam tênis e handebol, 13 praticam tênis e judô, 15 praticam handebol e judô, e 6 praticam os três esportes tênis, handebol e judô. Quantas pessoas praticam exatamente dois desses esportes?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "6"
-      },
-      {
-        "letra": "B",
-        "texto": "34"
-      },
-      {
-        "letra": "C",
-        "texto": "22"
-      },
-      {
-        "letra": "D",
         "texto": "28"
-      },
-      {
-        "letra": "E",
-        "texto": "40"
       }
     ],
     "correta": "C",
-    "explicacao": "Cada contagem \"dois a dois\" inclui quem pratica os três. Exatamente dois = (12 − 6) + (13 − 6) + (15 − 6) = 22."
-  },
-  {
-    "id": "conjuntos-ined-0199",
-    "categoriaId": "conjuntos",
-    "subtopico": "Diagramas de Venn",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Entre 81 pessoas entrevistadas, 5 não praticam tênis, handebol nem judô. Das demais: 18 praticam só tênis, 19 só handebol, 15 só judô, 7 praticam tênis e handebol (mas não o terceiro), 3 praticam tênis e judô (mas não o terceiro) e 9 praticam handebol e judô (mas não o terceiro). Quantas praticam os três esportes?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "10"
-      },
-      {
-        "letra": "B",
-        "texto": "19"
-      },
-      {
-        "letra": "C",
-        "texto": "57"
-      },
-      {
-        "letra": "D",
-        "texto": "5"
-      },
-      {
-        "letra": "E",
-        "texto": "24"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "Tirando os 5 que não praticam nada, sobram 76 pessoas nas 7 regiões. As 6 regiões descritas somam 71. Logo, praticam os três: 76 − 71 = 5."
-  },
-  {
-    "id": "conjuntos-ined-0200",
-    "categoriaId": "conjuntos",
-    "subtopico": "União e Interseção",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Considere os conjuntos A = {6, 7, 9, 10, 14, 16} e B = {6, 11, 14, 15, 16}. Quantos elementos tem o conjunto A ∩ B?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "11"
-      },
-      {
-        "letra": "B",
-        "texto": "6"
-      },
-      {
-        "letra": "C",
-        "texto": "3"
-      },
-      {
-        "letra": "D",
-        "texto": "5"
-      },
-      {
-        "letra": "E",
-        "texto": "8"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "A ∩ B é formado pelos elementos que aparecem nos dois conjuntos ao mesmo tempo. Comparando as listas, há 3 elemento(s) em comum."
-  },
-  {
-    "id": "conjuntos-ined-0201",
-    "categoriaId": "conjuntos",
-    "subtopico": "União e Interseção",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Considere os conjuntos A = {4, 5, 7, 11, 15, 16, 19} e B = {5, 6, 7, 11, 13, 14, 16, 18}. Quantos elementos tem o conjunto A ∪ B?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "4"
-      },
-      {
-        "letra": "B",
-        "texto": "15"
-      },
-      {
-        "letra": "C",
-        "texto": "8"
-      },
-      {
-        "letra": "D",
-        "texto": "11"
-      },
-      {
-        "letra": "E",
-        "texto": "7"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "A ∪ B reúne todos os elementos sem repetir os comuns: |A| + |B| − |A ∩ B| = 7 + 8 − 4 = 11."
-  },
-  {
-    "id": "conjuntos-ined-0202",
-    "categoriaId": "conjuntos",
-    "subtopico": "União e Interseção",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Considere os conjuntos A = {5, 7, 9, 12, 13, 16} e B = {1, 5, 8, 11, 12, 13, 16, 17, 20}. Quantos elementos tem o conjunto A − B?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "5"
-      },
-      {
-        "letra": "B",
-        "texto": "10"
-      },
-      {
-        "letra": "C",
-        "texto": "2"
-      },
-      {
-        "letra": "D",
-        "texto": "4"
-      },
-      {
-        "letra": "E",
-        "texto": "6"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "A − B são os elementos que estão em A mas não em B. Dos 6 elementos de A, 4 também estão em B, restando 2."
-  },
-  {
-    "id": "conjuntos-ined-0203",
-    "categoriaId": "conjuntos",
-    "subtopico": "União e Interseção",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Dados os conjuntos A = {2, 5, 10, 13, 20} e B = {2, 3, 5, 15, 17, 20}, a diferença simétrica A △ B é o conjunto dos elementos que pertencem a exatamente um dos dois conjuntos. Quantos elementos tem A △ B?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "8"
-      },
-      {
-        "letra": "B",
-        "texto": "3"
-      },
-      {
-        "letra": "C",
-        "texto": "1"
-      },
-      {
-        "letra": "D",
-        "texto": "5"
-      },
-      {
-        "letra": "E",
-        "texto": "11"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "A △ B contém os elementos que estão só em A (2) e os que estão só em B (3), sem os 3 elementos comuns. Logo |A △ B| = 2 + 3 = 5."
-  },
-  {
-    "id": "conjuntos-ined-0204",
-    "categoriaId": "conjuntos",
-    "subtopico": "União e Interseção",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Dados os conjuntos A = {1, 5, 7, 9, 20} e B = {1, 7, 8, 12, 16, 18, 20}, a diferença simétrica A △ B é o conjunto dos elementos que pertencem a exatamente um dos dois conjuntos. Quantos elementos tem A △ B?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "3"
-      },
-      {
-        "letra": "B",
-        "texto": "12"
-      },
-      {
-        "letra": "C",
-        "texto": "2"
-      },
-      {
-        "letra": "D",
-        "texto": "6"
-      },
-      {
-        "letra": "E",
-        "texto": "9"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "A △ B contém os elementos que estão só em A (2) e os que estão só em B (4), sem os 3 elementos comuns. Logo |A △ B| = 2 + 4 = 6."
-  },
-  {
-    "id": "conjuntos-ined-0205",
-    "categoriaId": "conjuntos",
-    "subtopico": "União e Interseção",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Dados os conjuntos A = {5, 8, 13, 17, 19} e B = {2, 5, 8, 12, 15, 18}, a diferença simétrica A △ B é o conjunto dos elementos que pertencem a exatamente um dos dois conjuntos. Quantos elementos tem A △ B?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "11"
-      },
-      {
-        "letra": "B",
-        "texto": "9"
-      },
-      {
-        "letra": "C",
-        "texto": "1"
-      },
-      {
-        "letra": "D",
-        "texto": "7"
-      },
-      {
-        "letra": "E",
-        "texto": "2"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "A △ B contém os elementos que estão só em A (3) e os que estão só em B (4), sem os 2 elementos comuns. Logo |A △ B| = 3 + 4 = 7."
-  },
-  {
-    "id": "conjuntos-ined-0206",
-    "categoriaId": "conjuntos",
-    "subtopico": "União e Interseção",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um conjunto A tem 6 elementos e um conjunto B tem 7 elementos. Quantos elementos tem o produto cartesiano A × B?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "13"
-      },
-      {
-        "letra": "B",
-        "texto": "36"
-      },
-      {
-        "letra": "C",
-        "texto": "42"
-      },
-      {
-        "letra": "D",
-        "texto": "49"
-      },
-      {
-        "letra": "E",
-        "texto": "84"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "Cada elemento de A forma um par ordenado com cada elemento de B: |A × B| = |A| · |B| = 6 · 7 = 42."
+    "explicacao": "Quem se enquadra em pelo menos uma situação: 87 − 8 = 79. Pela fórmula |A∪B| = |A|+|B|−|A∩B|, temos 79 = 51+46−|A∩B|, logo |A∩B| = 51+46−79 = 18."
   },
   {
     "id": "conjuntos-ined-0207",
     "categoriaId": "conjuntos",
-    "subtopico": "União e Interseção",
+    "subtopico": "Problemas de Pesquisa",
     "dificuldade": "medio",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Sejam A = {2, 6, 9, 14, 17} e B um conjunto com 8 elementos. Quantos pares ordenados formam o produto cartesiano A × B?",
+    "enunciado": "Em uma pesquisa com 95 moradores de um condomínio, verificou-se que 51 têm carro, 41 têm moto, e 16 não se enquadram em nenhuma das duas situações. Quantas pessoas, dentre as pesquisadas, têm carro e têm moto ao mesmo tempo?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "40"
+        "texto": "28"
       },
       {
         "letra": "B",
-        "texto": "80"
+        "texto": "38"
       },
       {
         "letra": "C",
@@ -873,25 +159,161 @@
       },
       {
         "letra": "D",
-        "texto": "64"
+        "texto": "79"
       },
       {
         "letra": "E",
-        "texto": "25"
+        "texto": "92"
       }
     ],
-    "correta": "A",
-    "explicacao": "A tem 5 elementos e B tem 8. O produto cartesiano tem |A| · |B| = 5 · 8 = 40 pares ordenados."
+    "correta": "C",
+    "explicacao": "Quem se enquadra em pelo menos uma situação: 95 − 16 = 79. Pela fórmula |A∪B| = |A|+|B|−|A∩B|, temos 79 = 51+41−|A∩B|, logo |A∩B| = 51+41−79 = 13."
   },
   {
     "id": "conjuntos-ined-0208",
+    "categoriaId": "conjuntos",
+    "subtopico": "Problemas de Pesquisa",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Em uma pesquisa com 110 alunos de uma turma, verificou-se que 65 fazem teatro, 33 fazem música, e 22 não se enquadram em nenhuma das duas situações. Quantas pessoas, dentre as pesquisadas, fazem teatro e fazem música ao mesmo tempo?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "23"
+      },
+      {
+        "letra": "B",
+        "texto": "88"
+      },
+      {
+        "letra": "C",
+        "texto": "55"
+      },
+      {
+        "letra": "D",
+        "texto": "10"
+      },
+      {
+        "letra": "E",
+        "texto": "98"
+      }
+    ],
+    "correta": "D",
+    "explicacao": "Quem se enquadra em pelo menos uma situação: 110 − 22 = 88. Pela fórmula |A∪B| = |A|+|B|−|A∩B|, temos 88 = 65+33−|A∩B|, logo |A∩B| = 65+33−88 = 10."
+  },
+  {
+    "id": "conjuntos-ined-0209",
+    "categoriaId": "conjuntos",
+    "subtopico": "União e Interseção",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Sejam A e B dois conjuntos finitos tais que |A| = 13, |B| = 18 e |A ∩ B| = 8. Qual é o valor de |A ∪ B|?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "15"
+      },
+      {
+        "letra": "B",
+        "texto": "13"
+      },
+      {
+        "letra": "C",
+        "texto": "23"
+      },
+      {
+        "letra": "D",
+        "texto": "31"
+      },
+      {
+        "letra": "E",
+        "texto": "18"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "Pelo princípio da inclusão-exclusão, |A ∪ B| = |A| + |B| − |A ∩ B| = 13 + 18 − 8 = 23."
+  },
+  {
+    "id": "conjuntos-ined-0210",
+    "categoriaId": "conjuntos",
+    "subtopico": "União e Interseção",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Sejam A e B dois conjuntos finitos com |A| = 13, |B| = 12 e |A ∪ B| = 18. Qual é o valor de |A ∩ B|?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "25"
+      },
+      {
+        "letra": "B",
+        "texto": "7"
+      },
+      {
+        "letra": "C",
+        "texto": "6"
+      },
+      {
+        "letra": "D",
+        "texto": "1"
+      },
+      {
+        "letra": "E",
+        "texto": "5"
+      }
+    ],
+    "correta": "B",
+    "explicacao": "De |A ∪ B| = |A| + |B| − |A ∩ B|, isolamos |A ∩ B| = |A| + |B| − |A ∪ B| = 13 + 12 − 18 = 7."
+  },
+  {
+    "id": "conjuntos-ined-0211",
     "categoriaId": "conjuntos",
     "subtopico": "União e Interseção",
     "dificuldade": "dificil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "O produto cartesiano A × B tem 28 elementos. Se o conjunto A tem 7 elementos, quantos elementos tem o conjunto B?",
+    "enunciado": "Sejam A e B conjuntos finitos com |A ∪ B| = 24, |A ∩ B| = 4 e |A| = 15. Qual é o valor de |B|?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "13"
+      },
+      {
+        "letra": "B",
+        "texto": "9"
+      },
+      {
+        "letra": "C",
+        "texto": "35"
+      },
+      {
+        "letra": "D",
+        "texto": "19"
+      },
+      {
+        "letra": "E",
+        "texto": "5"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "De |A ∪ B| = |A| + |B| − |A ∩ B|, isolamos |B| = |A ∪ B| − |A| + |A ∩ B| = 24 − 15 + 4 = 13."
+  },
+  {
+    "id": "conjuntos-ined-0212",
+    "categoriaId": "conjuntos",
+    "subtopico": "União e Interseção",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Em um clube há 38 sócios, dos quais 21 já disputaram um torneio oficial. Quantos sócios não já disputaram um torneio oficial?",
     "alternativas": [
       {
         "letra": "A",
@@ -899,26 +321,604 @@
       },
       {
         "letra": "B",
+        "texto": "59"
+      },
+      {
+        "letra": "C",
+        "texto": "17"
+      },
+      {
+        "letra": "D",
+        "texto": "4"
+      },
+      {
+        "letra": "E",
+        "texto": "38"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "Basta retirar do total os que já disputaram um torneio oficial: 38 − 21 = 17."
+  },
+  {
+    "id": "conjuntos-ined-0213",
+    "categoriaId": "conjuntos",
+    "subtopico": "União e Interseção",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Em uma turma com 50 estudantes, sabe-se que 23 não foram aprovados na primeira fase. Quantos estudantes foram aprovados na primeira fase?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "27"
+      },
+      {
+        "letra": "B",
         "texto": "4"
       },
       {
         "letra": "C",
-        "texto": "24"
+        "texto": "73"
       },
       {
         "letra": "D",
-        "texto": "35"
+        "texto": "23"
+      },
+      {
+        "letra": "E",
+        "texto": "50"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "Se 23 não foram aprovados na primeira fase, os demais foram aprovados na primeira fase: 50 − 23 = 27."
+  },
+  {
+    "id": "conjuntos-ined-0214",
+    "categoriaId": "conjuntos",
+    "subtopico": "União e Interseção",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Em uma empresa há 134 funcionários. Sabe-se que 21 aderiram ao plano de saúde e outros 18 têm uma segunda característica, sem que ninguém pertença aos dois grupos ao mesmo tempo. Quantos funcionários não pertencem a nenhum dos dois grupos?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "113"
+      },
+      {
+        "letra": "B",
+        "texto": "95"
+      },
+      {
+        "letra": "C",
+        "texto": "116"
+      },
+      {
+        "letra": "D",
+        "texto": "39"
+      },
+      {
+        "letra": "E",
+        "texto": "3"
+      }
+    ],
+    "correta": "B",
+    "explicacao": "Como os dois grupos não têm elementos em comum, retiram-se ambos do total: 134 − 21 − 18 = 95."
+  },
+  {
+    "id": "conjuntos-ined-0215",
+    "categoriaId": "conjuntos",
+    "subtopico": "Diagramas de Venn",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Considere três conjuntos A, B e C para os quais |A| = 27, |A ∩ B| = 9, |A ∩ C| = 9 e |A ∩ B ∩ C| = 2. Quantos elementos pertencem apenas ao conjunto A (e a nenhum dos outros dois)?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "7"
+      },
+      {
+        "letra": "B",
+        "texto": "9"
+      },
+      {
+        "letra": "C",
+        "texto": "11"
+      },
+      {
+        "letra": "D",
+        "texto": "25"
+      },
+      {
+        "letra": "E",
+        "texto": "16"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "|A| = (só A) + |A ∩ B| + |A ∩ C| − |A ∩ B ∩ C| (o centro foi contado nas duas interseções). Logo só A = 27 − 9 − 9 + 2 = 11."
+  },
+  {
+    "id": "conjuntos-ined-0216",
+    "categoriaId": "conjuntos",
+    "subtopico": "Diagramas de Venn",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Em um diagrama de Venn de três conjuntos A, B e C, o número de elementos de cada região é: apenas A: 14; apenas B: 10; apenas C: 10; apenas em A e B: 6; apenas em A e C: 4; apenas em B e C: 8. Se |A ∪ B ∪ C| = 55, quantos elementos estão em A ∩ B ∩ C?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "37"
+      },
+      {
+        "letra": "B",
+        "texto": "21"
+      },
+      {
+        "letra": "C",
+        "texto": "3"
+      },
+      {
+        "letra": "D",
+        "texto": "34"
+      },
+      {
+        "letra": "E",
+        "texto": "18"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "A união é a soma das 7 regiões. As 6 regiões conhecidas somam 14 + 10 + 10 + 6 + 4 + 8 = 52. O centro é o que falta: 55 − 52 = 3."
+  },
+  {
+    "id": "conjuntos-ined-0217",
+    "categoriaId": "conjuntos",
+    "subtopico": "Diagramas de Venn",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Sejam A, B e C três conjuntos finitos com |A| = 29, |B| = 26, |C| = 28, |A ∩ B| = 8, |A ∩ C| = 10, |B ∩ C| = 5 e |A ∩ B ∩ C| = 2. Qual é o valor de |A ∪ B ∪ C|?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "83"
+      },
+      {
+        "letra": "B",
+        "texto": "58"
+      },
+      {
+        "letra": "C",
+        "texto": "106"
+      },
+      {
+        "letra": "D",
+        "texto": "60"
+      },
+      {
+        "letra": "E",
+        "texto": "62"
+      }
+    ],
+    "correta": "E",
+    "explicacao": "Inclusão-exclusão: |A ∪ B ∪ C| = |A| + |B| + |C| − |A ∩ B| − |A ∩ C| − |B ∩ C| + |A ∩ B ∩ C| = 29 + 26 + 28 − 8 − 10 − 5 + 2 = 62."
+  },
+  {
+    "id": "conjuntos-ined-0218",
+    "categoriaId": "conjuntos",
+    "subtopico": "Diagramas de Venn",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Em um levantamento sobre esportes, 29 pessoas praticam surfe, das quais 10 também praticam skate, 10 também praticam vôlei de praia e 6 praticam os três esportes. Quantas pessoas praticam somente surfe?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "15"
+      },
+      {
+        "letra": "B",
+        "texto": "14"
+      },
+      {
+        "letra": "C",
+        "texto": "23"
+      },
+      {
+        "letra": "D",
+        "texto": "9"
+      },
+      {
+        "letra": "E",
+        "texto": "3"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "Somente surfe = (praticam surfe) − (também skate) − (também vôlei de praia) + (os três, que foram descontados duas vezes) = 29 − 10 − 10 + 6 = 15."
+  },
+  {
+    "id": "conjuntos-ined-0219",
+    "categoriaId": "conjuntos",
+    "subtopico": "Diagramas de Venn",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Numa pesquisa esportiva, 11 pessoas praticam futebol e vôlei, 8 praticam futebol e basquete, 7 praticam vôlei e basquete, e 3 praticam os três esportes futebol, vôlei e basquete. Quantas pessoas praticam exatamente dois desses esportes?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "20"
+      },
+      {
+        "letra": "B",
+        "texto": "17"
+      },
+      {
+        "letra": "C",
+        "texto": "26"
+      },
+      {
+        "letra": "D",
+        "texto": "3"
+      },
+      {
+        "letra": "E",
+        "texto": "23"
+      }
+    ],
+    "correta": "B",
+    "explicacao": "Cada contagem \"dois a dois\" inclui quem pratica os três. Exatamente dois = (11 − 3) + (8 − 3) + (7 − 3) = 17."
+  },
+  {
+    "id": "conjuntos-ined-0220",
+    "categoriaId": "conjuntos",
+    "subtopico": "Diagramas de Venn",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Entre 82 pessoas entrevistadas, 6 não praticam futebol, vôlei nem basquete. Das demais: 18 praticam só futebol, 17 só vôlei, 20 só basquete, 7 praticam futebol e vôlei (mas não o terceiro), 3 praticam futebol e basquete (mas não o terceiro) e 7 praticam vôlei e basquete (mas não o terceiro). Quantas praticam os três esportes?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "4"
+      },
+      {
+        "letra": "B",
+        "texto": "10"
+      },
+      {
+        "letra": "C",
+        "texto": "17"
+      },
+      {
+        "letra": "D",
+        "texto": "21"
+      },
+      {
+        "letra": "E",
+        "texto": "59"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "Tirando os 6 que não praticam nada, sobram 76 pessoas nas 7 regiões. As 6 regiões descritas somam 72. Logo, praticam os três: 76 − 72 = 4."
+  },
+  {
+    "id": "conjuntos-ined-0221",
+    "categoriaId": "conjuntos",
+    "subtopico": "União e Interseção",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Considere os conjuntos A = {2, 7, 11, 15, 19} e B = {5, 7, 11, 12}. Quantos elementos tem o conjunto A ∩ B?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "9"
+      },
+      {
+        "letra": "B",
+        "texto": "5"
+      },
+      {
+        "letra": "C",
+        "texto": "2"
+      },
+      {
+        "letra": "D",
+        "texto": "4"
+      },
+      {
+        "letra": "E",
+        "texto": "7"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "A ∩ B é formado pelos elementos que aparecem nos dois conjuntos ao mesmo tempo. Comparando as listas, há 2 elemento(s) em comum."
+  },
+  {
+    "id": "conjuntos-ined-0222",
+    "categoriaId": "conjuntos",
+    "subtopico": "União e Interseção",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Considere os conjuntos A = {4, 5, 6, 14, 19, 20} e B = {14, 15, 17, 18, 20}. Quantos elementos tem o conjunto A ∪ B?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "2"
+      },
+      {
+        "letra": "B",
+        "texto": "9"
+      },
+      {
+        "letra": "C",
+        "texto": "6"
+      },
+      {
+        "letra": "D",
+        "texto": "11"
+      },
+      {
+        "letra": "E",
+        "texto": "5"
+      }
+    ],
+    "correta": "B",
+    "explicacao": "A ∪ B reúne todos os elementos sem repetir os comuns: |A| + |B| − |A ∩ B| = 6 + 5 − 2 = 9."
+  },
+  {
+    "id": "conjuntos-ined-0223",
+    "categoriaId": "conjuntos",
+    "subtopico": "União e Interseção",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Considere os conjuntos A = {1, 2, 9, 13, 15, 17} e B = {1, 7, 10, 13, 20}. Quantos elementos tem o conjunto A − B?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "4"
+      },
+      {
+        "letra": "B",
+        "texto": "2"
+      },
+      {
+        "letra": "C",
+        "texto": "6"
+      },
+      {
+        "letra": "D",
+        "texto": "3"
       },
       {
         "letra": "E",
         "texto": "8"
       }
     ],
-    "correta": "B",
-    "explicacao": "Como |A × B| = |A| · |B|, temos |B| = 28 ÷ 7 = 4."
+    "correta": "A",
+    "explicacao": "A − B são os elementos que estão em A mas não em B. Dos 6 elementos de A, 2 também estão em B, restando 4."
   },
   {
-    "id": "conjuntos-ined-0209",
+    "id": "conjuntos-ined-0224",
+    "categoriaId": "conjuntos",
+    "subtopico": "União e Interseção",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Dados os conjuntos A = {5, 6, 7, 16, 19} e B = {3, 5, 13, 16}, a diferença simétrica A △ B é o conjunto dos elementos que pertencem a exatamente um dos dois conjuntos. Quantos elementos tem A △ B?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "7"
+      },
+      {
+        "letra": "B",
+        "texto": "9"
+      },
+      {
+        "letra": "C",
+        "texto": "5"
+      },
+      {
+        "letra": "D",
+        "texto": "2"
+      },
+      {
+        "letra": "E",
+        "texto": "1"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "A △ B contém os elementos que estão só em A (3) e os que estão só em B (2), sem os 2 elementos comuns. Logo |A △ B| = 3 + 2 = 5."
+  },
+  {
+    "id": "conjuntos-ined-0225",
+    "categoriaId": "conjuntos",
+    "subtopico": "União e Interseção",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Dados os conjuntos A = {2, 4, 6, 12, 14, 18} e B = {2, 4, 9, 10, 12, 18, 19}, a diferença simétrica A △ B é o conjunto dos elementos que pertencem a exatamente um dos dois conjuntos. Quantos elementos tem A △ B?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "5"
+      },
+      {
+        "letra": "B",
+        "texto": "13"
+      },
+      {
+        "letra": "C",
+        "texto": "1"
+      },
+      {
+        "letra": "D",
+        "texto": "9"
+      },
+      {
+        "letra": "E",
+        "texto": "4"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "A △ B contém os elementos que estão só em A (2) e os que estão só em B (3), sem os 4 elementos comuns. Logo |A △ B| = 2 + 3 = 5."
+  },
+  {
+    "id": "conjuntos-ined-0226",
+    "categoriaId": "conjuntos",
+    "subtopico": "União e Interseção",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Dados os conjuntos A = {6, 11, 13, 14, 15, 17, 19, 20} e B = {3, 4, 6, 9, 10, 11, 14, 16, 17, 20}, a diferença simétrica A △ B é o conjunto dos elementos que pertencem a exatamente um dos dois conjuntos. Quantos elementos tem A △ B?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "13"
+      },
+      {
+        "letra": "B",
+        "texto": "2"
+      },
+      {
+        "letra": "C",
+        "texto": "18"
+      },
+      {
+        "letra": "D",
+        "texto": "5"
+      },
+      {
+        "letra": "E",
+        "texto": "8"
+      }
+    ],
+    "correta": "E",
+    "explicacao": "A △ B contém os elementos que estão só em A (3) e os que estão só em B (5), sem os 5 elementos comuns. Logo |A △ B| = 3 + 5 = 8."
+  },
+  {
+    "id": "conjuntos-ined-0227",
+    "categoriaId": "conjuntos",
+    "subtopico": "União e Interseção",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um conjunto A tem 6 elementos e um conjunto B tem 8 elementos. Quantos elementos tem o produto cartesiano A × B?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "14"
+      },
+      {
+        "letra": "B",
+        "texto": "96"
+      },
+      {
+        "letra": "C",
+        "texto": "48"
+      },
+      {
+        "letra": "D",
+        "texto": "36"
+      },
+      {
+        "letra": "E",
+        "texto": "64"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "Cada elemento de A forma um par ordenado com cada elemento de B: |A × B| = |A| · |B| = 6 · 8 = 48."
+  },
+  {
+    "id": "conjuntos-ined-0228",
+    "categoriaId": "conjuntos",
+    "subtopico": "União e Interseção",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Sejam A = {1, 3, 6, 14, 16} e B um conjunto com 7 elementos. Quantos pares ordenados formam o produto cartesiano A × B?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "70"
+      },
+      {
+        "letra": "B",
+        "texto": "49"
+      },
+      {
+        "letra": "C",
+        "texto": "35"
+      },
+      {
+        "letra": "D",
+        "texto": "25"
+      },
+      {
+        "letra": "E",
+        "texto": "12"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "A tem 5 elementos e B tem 7. O produto cartesiano tem |A| · |B| = 5 · 7 = 35 pares ordenados."
+  },
+  {
+    "id": "conjuntos-ined-0229",
+    "categoriaId": "conjuntos",
+    "subtopico": "União e Interseção",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "O produto cartesiano A × B tem 72 elementos. Se o conjunto A tem 9 elementos, quantos elementos tem o conjunto B?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "64"
+      },
+      {
+        "letra": "B",
+        "texto": "63"
+      },
+      {
+        "letra": "C",
+        "texto": "81"
+      },
+      {
+        "letra": "D",
+        "texto": "8"
+      },
+      {
+        "letra": "E",
+        "texto": "16"
+      }
+    ],
+    "correta": "D",
+    "explicacao": "Como |A × B| = |A| · |B|, temos |B| = 72 ÷ 9 = 8."
+  },
+  {
+    "id": "conjuntos-ined-0230",
     "categoriaId": "conjuntos",
     "subtopico": "União e Interseção",
     "dificuldade": "facil",
@@ -933,26 +933,26 @@
       },
       {
         "letra": "B",
-        "texto": "120"
-      },
-      {
-        "letra": "C",
-        "texto": "31"
-      },
-      {
-        "letra": "D",
         "texto": "32"
       },
       {
-        "letra": "E",
+        "letra": "C",
+        "texto": "120"
+      },
+      {
+        "letra": "D",
         "texto": "25"
+      },
+      {
+        "letra": "E",
+        "texto": "31"
       }
     ],
-    "correta": "D",
+    "correta": "B",
     "explicacao": "O número de subconjuntos de um conjunto com n elementos é 2ⁿ. Para n = 5: 2^5 = 32."
   },
   {
-    "id": "conjuntos-ined-0210",
+    "id": "conjuntos-ined-0231",
     "categoriaId": "conjuntos",
     "subtopico": "União e Interseção",
     "dificuldade": "medio",
@@ -963,139 +963,71 @@
     "alternativas": [
       {
         "letra": "A",
-        "texto": "11"
-      },
-      {
-        "letra": "B",
         "texto": "35"
       },
       {
+        "letra": "B",
+        "texto": "62"
+      },
+      {
         "letra": "C",
-        "texto": "63"
+        "texto": "11"
       },
       {
         "letra": "D",
-        "texto": "62"
+        "texto": "63"
       },
       {
         "letra": "E",
         "texto": "64"
       }
     ],
-    "correta": "C",
+    "correta": "D",
     "explicacao": "São 2ⁿ subconjuntos no total; retirando o próprio conjunto, ficam 2ⁿ − 1. Para n = 6: 64 − 1 = 63."
   },
   {
-    "id": "conjuntos-ined-0211",
+    "id": "conjuntos-ined-0232",
     "categoriaId": "conjuntos",
     "subtopico": "União e Interseção",
     "dificuldade": "dificil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Um conjunto Z possui 7 elementos. Quantos subconjuntos de Z são diferentes tanto do conjunto vazio quanto do próprio Z?",
+    "enunciado": "Um conjunto Z possui 5 elementos. Quantos subconjuntos de Z são diferentes tanto do conjunto vazio quanto do próprio Z?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "47"
+        "texto": "31"
       },
       {
         "letra": "B",
-        "texto": "128"
+        "texto": "23"
       },
       {
         "letra": "C",
-        "texto": "126"
+        "texto": "16"
       },
       {
         "letra": "D",
-        "texto": "127"
+        "texto": "30"
       },
       {
         "letra": "E",
-        "texto": "64"
+        "texto": "32"
       }
     ],
-    "correta": "C",
-    "explicacao": "Do total de 2ⁿ subconjuntos, excluem-se 2 casos (o vazio e o próprio Z): 2ⁿ − 2. Para n = 7: 128 − 2 = 126."
+    "correta": "D",
+    "explicacao": "Do total de 2ⁿ subconjuntos, excluem-se 2 casos (o vazio e o próprio Z): 2ⁿ − 2. Para n = 5: 32 − 2 = 30."
   },
   {
-    "id": "conjuntos-ined-0212",
+    "id": "conjuntos-ined-0233",
     "categoriaId": "conjuntos",
     "subtopico": "União e Interseção",
     "dificuldade": "facil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Considere os intervalos reais A = [-2, 6] e B = [4, 14]. Qual intervalo representa A ∩ B?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "[-2, 6]"
-      },
-      {
-        "letra": "B",
-        "texto": "[6, 4]"
-      },
-      {
-        "letra": "C",
-        "texto": "[-2, 14]"
-      },
-      {
-        "letra": "D",
-        "texto": "[4, 6]"
-      },
-      {
-        "letra": "E",
-        "texto": "[4, 14]"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "A interseção contém os números que estão nos dois intervalos: de 4 (maior extremo esquerdo) até 6 (menor extremo direito), ou seja [4, 6]."
-  },
-  {
-    "id": "conjuntos-ined-0213",
-    "categoriaId": "conjuntos",
-    "subtopico": "União e Interseção",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Considere os intervalos reais A = [-1, 4] e B = [0, 14]. Qual intervalo representa A ∪ B?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "[-1, 4]"
-      },
-      {
-        "letra": "B",
-        "texto": "]-1, 14["
-      },
-      {
-        "letra": "C",
-        "texto": "[0, 14]"
-      },
-      {
-        "letra": "D",
-        "texto": "[-1, 14]"
-      },
-      {
-        "letra": "E",
-        "texto": "[0, 4]"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "Como os intervalos se sobrepõem, a união é um único intervalo do menor extremo (-1) ao maior extremo (14): [-1, 14]."
-  },
-  {
-    "id": "conjuntos-ined-0214",
-    "categoriaId": "conjuntos",
-    "subtopico": "União e Interseção",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Considere os intervalos reais A = [-3, 14] e B = [9, 10]. Qual intervalo representa A ∩ B?",
+    "enunciado": "Considere os intervalos reais A = [-3, 10] e B = [9, 14]. Qual intervalo representa A ∩ B?",
     "alternativas": [
       {
         "letra": "A",
@@ -1111,7 +1043,7 @@
       },
       {
         "letra": "D",
-        "texto": "∅"
+        "texto": "[10, 9]"
       },
       {
         "letra": "E",
@@ -1119,293 +1051,225 @@
       }
     ],
     "correta": "C",
-    "explicacao": "Como B = [9, 10] está inteiramente contido em A = [-3, 14], a interseção é o próprio B: [9, 10]."
+    "explicacao": "A interseção contém os números que estão nos dois intervalos: de 9 (maior extremo esquerdo) até 10 (menor extremo direito), ou seja [9, 10]."
   },
   {
-    "id": "conjuntos-ined-0215",
-    "categoriaId": "conjuntos",
-    "subtopico": "União e Interseção",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Quantos números naturais de 1 a 170 são múltiplos de 5 ou múltiplos de 9?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "52"
-      },
-      {
-        "letra": "B",
-        "texto": "121"
-      },
-      {
-        "letra": "C",
-        "texto": "3"
-      },
-      {
-        "letra": "D",
-        "texto": "49"
-      },
-      {
-        "letra": "E",
-        "texto": "55"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "Múltiplos de 5: ⌊170/5⌋ = 34. Múltiplos de 9: ⌊170/9⌋ = 18. Múltiplos de 5 e de 9 ao mesmo tempo (múltiplos de mmc(5, 9) = 45): 3. Por inclusão-exclusão: 34 + 18 − 3 = 49."
-  },
-  {
-    "id": "conjuntos-ined-0216",
+    "id": "conjuntos-ined-0234",
     "categoriaId": "conjuntos",
     "subtopico": "União e Interseção",
     "dificuldade": "medio",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Quantos números naturais menores ou iguais a 160 são múltiplos de 5 ou múltiplos de 9?",
+    "enunciado": "Considere os intervalos reais A = [-4, 4] e B = [-1, 12]. Qual intervalo representa A ∪ B?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "46"
+        "texto": "[-4, 12]"
       },
       {
         "letra": "B",
-        "texto": "114"
+        "texto": "[-1, 4]"
       },
       {
         "letra": "C",
-        "texto": "52"
+        "texto": "[-1, 12]"
       },
       {
         "letra": "D",
-        "texto": "3"
+        "texto": "[-4, 4]"
       },
       {
         "letra": "E",
-        "texto": "49"
+        "texto": "]-4, 12["
       }
     ],
     "correta": "A",
-    "explicacao": "Múltiplos de 5: ⌊160/5⌋ = 32. Múltiplos de 9: ⌊160/9⌋ = 17. Múltiplos de 5 e de 9 ao mesmo tempo (múltiplos de mmc(5, 9) = 45): 3. Por inclusão-exclusão: 32 + 17 − 3 = 46."
+    "explicacao": "Como os intervalos se sobrepõem, a união é um único intervalo do menor extremo (-4) ao maior extremo (12): [-4, 12]."
   },
   {
-    "id": "conjuntos-ined-0217",
+    "id": "conjuntos-ined-0235",
     "categoriaId": "conjuntos",
     "subtopico": "União e Interseção",
     "dificuldade": "dificil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Quantos números naturais no conjunto {1, 2, 3, ..., 100} são múltiplos de 6 ou múltiplos de 7?",
+    "enunciado": "Considere os intervalos reais A = [-3, 14] e B = [2, 5]. Qual intervalo representa A ∩ B?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "72"
+        "texto": "[-3, 5]"
       },
       {
         "letra": "B",
-        "texto": "32"
+        "texto": "[2, 5]"
       },
       {
         "letra": "C",
-        "texto": "2"
+        "texto": "[-3, 14]"
       },
       {
         "letra": "D",
-        "texto": "28"
+        "texto": "∅"
       },
       {
         "letra": "E",
-        "texto": "30"
+        "texto": "[2, 14]"
       }
     ],
-    "correta": "D",
-    "explicacao": "Múltiplos de 6: ⌊100/6⌋ = 16. Múltiplos de 7: ⌊100/7⌋ = 14. Múltiplos de 6 e de 7 ao mesmo tempo (múltiplos de mmc(6, 7) = 42): 2. Por inclusão-exclusão: 16 + 14 − 2 = 28."
+    "correta": "B",
+    "explicacao": "Como B = [2, 5] está inteiramente contido em A = [-3, 14], a interseção é o próprio B: [2, 5]."
   },
   {
-    "id": "conjuntos-ined-0218",
+    "id": "conjuntos-ined-0236",
     "categoriaId": "conjuntos",
-    "subtopico": "Diagramas de Venn",
+    "subtopico": "União e Interseção",
     "dificuldade": "facil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Uma turma tem 85 alunos. Sobre os idiomas que estudam: 23 estudam apenas inglês, 15 apenas alemão, 23 apenas italiano, 7 apenas inglês e alemão, 4 apenas inglês e italiano, 3 apenas alemão e italiano, e 5 estudam os três idiomas. Quantos alunos não estudam nenhum desses idiomas?",
+    "enunciado": "Quantos números naturais de 1 a 210 são múltiplos de 3 ou múltiplos de 7?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "5"
+        "texto": "120"
       },
       {
         "letra": "B",
-        "texto": "75"
+        "texto": "110"
       },
       {
         "letra": "C",
-        "texto": "24"
+        "texto": "90"
       },
       {
         "letra": "D",
-        "texto": "80"
+        "texto": "100"
       },
       {
         "letra": "E",
         "texto": "10"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "Somando as 7 regiões: 23+15+23+7+4+3+5 = 80 alunos estudam ao menos um idioma. Logo, não estudam nenhum: 85 − 80 = 5."
-  },
-  {
-    "id": "conjuntos-ined-0219",
-    "categoriaId": "conjuntos",
-    "subtopico": "Diagramas de Venn",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Em um colégio, 10 alunos estudam espanhol e francês, 12 estudam espanhol e alemão, 10 estudam francês e alemão, e 6 estudam os três idiomas espanhol, francês e alemão. Quantos alunos estudam exatamente dois desses idiomas?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "6"
-      },
-      {
-        "letra": "B",
-        "texto": "14"
-      },
-      {
-        "letra": "C",
-        "texto": "20"
-      },
-      {
-        "letra": "D",
-        "texto": "32"
-      },
-      {
-        "letra": "E",
-        "texto": "26"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "Cada total \"dois idiomas\" inclui os 6 que estudam os três. Exatamente dois = (10 − 6) + (12 − 6) + (10 − 6) = 14."
-  },
-  {
-    "id": "conjuntos-ined-0220",
-    "categoriaId": "conjuntos",
-    "subtopico": "Diagramas de Venn",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Numa escola com 82 estudantes, 9 não estudam inglês, alemão nem italiano. Entre os demais: 19 estudam somente inglês, 16 somente alemão, 20 somente italiano, 5 estudam inglês e alemão apenas, 7 estudam inglês e italiano apenas, e 3 estudam alemão e italiano apenas. Quantos estudam os três idiomas?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "15"
-      },
-      {
-        "letra": "B",
-        "texto": "3"
-      },
-      {
-        "letra": "C",
-        "texto": "12"
-      },
-      {
-        "letra": "D",
-        "texto": "58"
-      },
-      {
-        "letra": "E",
-        "texto": "18"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "Tirando os 9 que não estudam nada, sobram 73 nas 7 regiões. As 6 regiões descritas somam 55 + 15 = 70. Logo, os três idiomas: 73 − 70 = 3."
-  },
-  {
-    "id": "conjuntos-ined-0221",
-    "categoriaId": "conjuntos",
-    "subtopico": "Problemas de Pesquisa",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma pesquisa de mercado ouviu 45 consumidores sobre a compra dos produtos sabonete, shampoo e condicionador. Constatou-se que 5 compraram os três produtos, 9 compraram exatamente dois deles e 16 não compraram nenhum. Quantos consumidores compraram exatamente um dos três produtos?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "15"
-      },
-      {
-        "letra": "B",
-        "texto": "24"
-      },
-      {
-        "letra": "C",
-        "texto": "29"
-      },
-      {
-        "letra": "D",
-        "texto": "9"
-      },
-      {
-        "letra": "E",
-        "texto": "20"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "Do total de 45, retiram-se quem não comprou nada (16), quem comprou os três (5) e quem comprou exatamente dois (9). Restam os que compraram exatamente um: 45 − 16 − 5 − 9 = 15."
-  },
-  {
-    "id": "conjuntos-ined-0222",
-    "categoriaId": "conjuntos",
-    "subtopico": "Problemas de Pesquisa",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Em uma pesquisa com 48 clientes sobre os produtos sabonete, shampoo e condicionador, verificou-se que 9 não levaram nenhum, 14 levaram exatamente dois e 3 levaram os três. Quantos clientes levaram exatamente um dos produtos?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "14"
-      },
-      {
-        "letra": "B",
-        "texto": "36"
-      },
-      {
-        "letra": "C",
-        "texto": "22"
-      },
-      {
-        "letra": "D",
-        "texto": "39"
-      },
-      {
-        "letra": "E",
-        "texto": "25"
       }
     ],
     "correta": "C",
-    "explicacao": "Os clientes formam quatro grupos disjuntos: nenhum (9), exatamente um, exatamente dois (14) e os três (3). Logo, exatamente um = 48 − 9 − 14 − 3 = 22."
+    "explicacao": "Múltiplos de 3: ⌊210/3⌋ = 70. Múltiplos de 7: ⌊210/7⌋ = 30. Múltiplos de 3 e de 7 ao mesmo tempo (múltiplos de mmc(3, 7) = 21): 10. Por inclusão-exclusão: 70 + 30 − 10 = 90."
   },
   {
-    "id": "conjuntos-ined-0223",
+    "id": "conjuntos-ined-0237",
     "categoriaId": "conjuntos",
-    "subtopico": "Problemas de Pesquisa",
+    "subtopico": "União e Interseção",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Quantos números naturais menores ou iguais a 230 são múltiplos de 4 ou múltiplos de 5?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "114"
+      },
+      {
+        "letra": "B",
+        "texto": "92"
+      },
+      {
+        "letra": "C",
+        "texto": "11"
+      },
+      {
+        "letra": "D",
+        "texto": "138"
+      },
+      {
+        "letra": "E",
+        "texto": "103"
+      }
+    ],
+    "correta": "B",
+    "explicacao": "Múltiplos de 4: ⌊230/4⌋ = 57. Múltiplos de 5: ⌊230/5⌋ = 46. Múltiplos de 4 e de 5 ao mesmo tempo (múltiplos de mmc(4, 5) = 20): 11. Por inclusão-exclusão: 57 + 46 − 11 = 92."
+  },
+  {
+    "id": "conjuntos-ined-0238",
+    "categoriaId": "conjuntos",
+    "subtopico": "União e Interseção",
     "dificuldade": "dificil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "51 pessoas foram consultadas sobre ter adquirido café, leite e achocolatado no último mês. Sabe-se que 6 não adquiriram nenhum desses itens, 3 adquiriram os três e 20 adquiriram exatamente dois deles. Quantas pessoas adquiriram exatamente um item?",
+    "enunciado": "Quantos números naturais no conjunto {1, 2, 3, ..., 340} são múltiplos de 5 ou múltiplos de 7?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "22"
+        "texto": "9"
+      },
+      {
+        "letra": "B",
+        "texto": "116"
+      },
+      {
+        "letra": "C",
+        "texto": "125"
+      },
+      {
+        "letra": "D",
+        "texto": "107"
+      },
+      {
+        "letra": "E",
+        "texto": "233"
+      }
+    ],
+    "correta": "D",
+    "explicacao": "Múltiplos de 5: ⌊340/5⌋ = 68. Múltiplos de 7: ⌊340/7⌋ = 48. Múltiplos de 5 e de 7 ao mesmo tempo (múltiplos de mmc(5, 7) = 35): 9. Por inclusão-exclusão: 68 + 48 − 9 = 107."
+  },
+  {
+    "id": "conjuntos-ined-0239",
+    "categoriaId": "conjuntos",
+    "subtopico": "Diagramas de Venn",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma turma tem 83 alunos. Sobre os idiomas que estudam: 18 estudam apenas inglês, 15 apenas espanhol, 25 apenas francês, 7 apenas inglês e espanhol, 5 apenas inglês e francês, 5 apenas espanhol e francês, e 4 estudam os três idiomas. Quantos alunos não estudam nenhum desses idiomas?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "4"
+      },
+      {
+        "letra": "B",
+        "texto": "8"
+      },
+      {
+        "letra": "C",
+        "texto": "25"
+      },
+      {
+        "letra": "D",
+        "texto": "75"
+      },
+      {
+        "letra": "E",
+        "texto": "79"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "Somando as 7 regiões: 18+15+25+7+5+5+4 = 79 alunos estudam ao menos um idioma. Logo, não estudam nenhum: 83 − 79 = 4."
+  },
+  {
+    "id": "conjuntos-ined-0240",
+    "categoriaId": "conjuntos",
+    "subtopico": "Diagramas de Venn",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Em um colégio, 10 alunos estudam inglês e alemão, 10 estudam inglês e italiano, 13 estudam alemão e italiano, e 4 estudam os três idiomas inglês, alemão e italiano. Quantos alunos estudam exatamente dois desses idiomas?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "29"
       },
       {
         "letra": "B",
@@ -1413,71 +1277,37 @@
       },
       {
         "letra": "C",
-        "texto": "42"
+        "texto": "21"
       },
       {
         "letra": "D",
-        "texto": "45"
+        "texto": "4"
       },
       {
         "letra": "E",
-        "texto": "20"
+        "texto": "33"
       }
     ],
-    "correta": "A",
-    "explicacao": "Somando os grupos que não são \"exatamente um\": 6 + 20 + 3 = 29. Subtraindo do total: 51 − 29 = 22."
+    "correta": "C",
+    "explicacao": "Cada total \"dois idiomas\" inclui os 4 que estudam os três. Exatamente dois = (10 − 4) + (10 − 4) + (13 − 4) = 21."
   },
   {
-    "id": "conjuntos-ined-0224",
+    "id": "conjuntos-ined-0241",
     "categoriaId": "conjuntos",
-    "subtopico": "Problemas de Pesquisa",
-    "dificuldade": "facil",
+    "subtopico": "Diagramas de Venn",
+    "dificuldade": "dificil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Considere o conjunto D formado por todos os divisores positivos de 72. Quantos elementos tem D?",
+    "enunciado": "Numa escola com 92 estudantes, 7 não estudam inglês, espanhol nem francês. Entre os demais: 23 estudam somente inglês, 24 somente espanhol, 19 somente francês, 8 estudam inglês e espanhol apenas, 4 estudam inglês e francês apenas, e 3 estudam espanhol e francês apenas. Quantos estudam os três idiomas?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "12"
+        "texto": "15"
       },
       {
         "letra": "B",
-        "texto": "13"
-      },
-      {
-        "letra": "C",
-        "texto": "10"
-      },
-      {
-        "letra": "D",
-        "texto": "9"
-      },
-      {
-        "letra": "E",
-        "texto": "3"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "Os divisores positivos de 72 são 1, 2, 3, 4, 6, 8, 9, 12, 18, 24, 36, 72, num total de 12."
-  },
-  {
-    "id": "conjuntos-ined-0225",
-    "categoriaId": "conjuntos",
-    "subtopico": "Problemas de Pesquisa",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "No conjunto dos divisores positivos de 108, quantos são números pares?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "12"
-      },
-      {
-        "letra": "B",
-        "texto": "11"
+        "texto": "70"
       },
       {
         "letra": "C",
@@ -1485,18 +1315,188 @@
       },
       {
         "letra": "D",
-        "texto": "8"
+        "texto": "19"
       },
       {
         "letra": "E",
-        "texto": "54"
+        "texto": "11"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "Tirando os 7 que não estudam nada, sobram 85 nas 7 regiões. As 6 regiões descritas somam 66 + 15 = 81. Logo, os três idiomas: 85 − 81 = 4."
+  },
+  {
+    "id": "conjuntos-ined-0242",
+    "categoriaId": "conjuntos",
+    "subtopico": "Problemas de Pesquisa",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma pesquisa de mercado ouviu 45 consumidores sobre a compra dos produtos café, leite e achocolatado. Constatou-se que 5 compraram os três produtos, 8 compraram exatamente dois deles e 16 não compraram nenhum. Quantos consumidores compraram exatamente um dos três produtos?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "24"
+      },
+      {
+        "letra": "B",
+        "texto": "8"
+      },
+      {
+        "letra": "C",
+        "texto": "16"
+      },
+      {
+        "letra": "D",
+        "texto": "21"
+      },
+      {
+        "letra": "E",
+        "texto": "29"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "Do total de 45, retiram-se quem não comprou nada (16), quem comprou os três (5) e quem comprou exatamente dois (8). Restam os que compraram exatamente um: 45 − 16 − 5 − 8 = 16."
+  },
+  {
+    "id": "conjuntos-ined-0243",
+    "categoriaId": "conjuntos",
+    "subtopico": "Problemas de Pesquisa",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Em uma pesquisa com 74 clientes sobre os produtos arroz, feijão e macarrão, verificou-se que 14 não levaram nenhum, 19 levaram exatamente dois e 8 levaram os três. Quantos clientes levaram exatamente um dos produtos?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "60"
+      },
+      {
+        "letra": "B",
+        "texto": "41"
+      },
+      {
+        "letra": "C",
+        "texto": "52"
+      },
+      {
+        "letra": "D",
+        "texto": "33"
+      },
+      {
+        "letra": "E",
+        "texto": "19"
       }
     ],
     "correta": "D",
-    "explicacao": "Os divisores positivos de 108 são 1, 2, 3, 4, 6, 9, 12, 18, 27, 36, 54, 108. Os pares são 2, 4, 6, 12, 18, 36, 54, 108: 8 divisor(es) par(es)."
+    "explicacao": "Os clientes formam quatro grupos disjuntos: nenhum (14), exatamente um, exatamente dois (19) e os três (8). Logo, exatamente um = 74 − 14 − 19 − 8 = 33."
   },
   {
-    "id": "conjuntos-ined-0226",
+    "id": "conjuntos-ined-0244",
+    "categoriaId": "conjuntos",
+    "subtopico": "Problemas de Pesquisa",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "63 pessoas foram consultadas sobre ter adquirido café, leite e achocolatado no último mês. Sabe-se que 13 não adquiriram nenhum desses itens, 8 adquiriram os três e 15 adquiriram exatamente dois deles. Quantas pessoas adquiriram exatamente um item?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "35"
+      },
+      {
+        "letra": "B",
+        "texto": "42"
+      },
+      {
+        "letra": "C",
+        "texto": "27"
+      },
+      {
+        "letra": "D",
+        "texto": "15"
+      },
+      {
+        "letra": "E",
+        "texto": "50"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "Somando os grupos que não são \"exatamente um\": 13 + 15 + 8 = 36. Subtraindo do total: 63 − 36 = 27."
+  },
+  {
+    "id": "conjuntos-ined-0245",
+    "categoriaId": "conjuntos",
+    "subtopico": "Problemas de Pesquisa",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Considere o conjunto D formado por todos os divisores positivos de 36. Quantos elementos tem D?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "7"
+      },
+      {
+        "letra": "B",
+        "texto": "9"
+      },
+      {
+        "letra": "C",
+        "texto": "3"
+      },
+      {
+        "letra": "D",
+        "texto": "10"
+      },
+      {
+        "letra": "E",
+        "texto": "6"
+      }
+    ],
+    "correta": "B",
+    "explicacao": "Os divisores positivos de 36 são 1, 2, 3, 4, 6, 9, 12, 18, 36, num total de 9."
+  },
+  {
+    "id": "conjuntos-ined-0246",
+    "categoriaId": "conjuntos",
+    "subtopico": "Problemas de Pesquisa",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "No conjunto dos divisores positivos de 104, quantos são números pares?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "52"
+      },
+      {
+        "letra": "B",
+        "texto": "6"
+      },
+      {
+        "letra": "C",
+        "texto": "8"
+      },
+      {
+        "letra": "D",
+        "texto": "2"
+      },
+      {
+        "letra": "E",
+        "texto": "7"
+      }
+    ],
+    "correta": "B",
+    "explicacao": "Os divisores positivos de 104 são 1, 2, 4, 8, 13, 26, 52, 104. Os pares são 2, 4, 8, 26, 52, 104: 6 divisor(es) par(es)."
+  },
+  {
+    "id": "conjuntos-ined-0247",
     "categoriaId": "conjuntos",
     "subtopico": "Problemas de Pesquisa",
     "dificuldade": "dificil",

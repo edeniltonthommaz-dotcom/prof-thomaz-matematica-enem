@@ -2142,6 +2142,335 @@ function logRaciocinioIdade(dificuldade) {
   });
 }
 
+// Helper local de Lógica: exige 5 textos de alternativa distintos e sem lixo.
+function _logDistintos(correct, distractors) {
+  const all = [String(correct), ...distractors.map((d) => String(d))];
+  if (all.some((s) => s.includes("undefined") || s.includes("NaN"))) return false;
+  return new Set(all).size === all.length;
+}
+
+// Sequência de 2ª ordem: as diferenças entre termos consecutivos formam uma PA
+// (fácil/médio) ou a regra é do tipo Fibonacci (difícil). Pede o próximo termo.
+function logSequenciaSegundaOrdem(dificuldade, tentativa = 0) {
+  let seq, next, correctText, distractorTexts, enunciado, explicacao;
+  if (dificuldade === "dificil") {
+    const a = randInt(1, 6);
+    const b = randInt(a + 1, a + 8);
+    const t = [a, b, a + b, a + 2 * b, 2 * a + 3 * b];
+    next = 3 * a + 5 * b; // t[3] + t[4]
+    seq = t;
+    correctText = `${next}`;
+    distractorTexts = [
+      `${3 * a + 4 * b}`, // repetiu a diferença do fim (t4 − t3) como se fosse constante
+      `${4 * a + 6 * b}`, // dobrou o último termo
+      `${2 * a + 4 * b}`, // somou o 5º termo ao 2º
+      `${5 * a + 7 * b}`, // somou os cinco termos exibidos
+    ];
+    enunciado = `Em uma sequência numérica, cada termo, a partir do terceiro, é igual à soma dos dois termos imediatamente anteriores. Os cinco primeiros termos são ${seq.join(", ")}. Qual é o sexto termo dessa sequência?`;
+    explicacao = `O sexto termo é a soma do quarto com o quinto termos: ${t[3]} + ${t[4]} = ${next}.`;
+  } else {
+    const a1 = dificuldade === "facil" ? randInt(1, 5) : randInt(3, 9);
+    const d1 = dificuldade === "facil" ? randInt(1, 4) : randInt(2, 6);
+    const e = dificuldade === "facil" ? randInt(1, 3) : randInt(2, 4);
+    const t = [a1];
+    for (let i = 0; i < 4; i++) t.push(t[i] + (d1 + i * e));
+    next = t[4] + (d1 + 4 * e);
+    seq = t;
+    const difs = [];
+    for (let i = 0; i < 4; i++) difs.push(d1 + i * e);
+    correctText = `${next}`;
+    distractorTexts = [
+      `${t[4] + (d1 + 3 * e)}`, // repetiu a última diferença (diferença constante)
+      `${t[4] + d1}`,           // usou a primeira diferença
+      `${t[4] + (d1 + 5 * e)}`, // avançou duas diferenças de uma vez
+      `${2 * t[4]}`,            // dobrou o último termo
+    ];
+    enunciado = dificuldade === "facil"
+      ? `Observe o padrão de formação da sequência ${seq.join(", ")}. As diferenças entre termos consecutivos são ${difs.join(", ")}, ou seja, aumentam de ${e} em ${e}. Qual é o próximo termo?`
+      : `Na sequência ${seq.join(", ")}, a diferença entre cada termo e o termo anterior cresce sempre ${e} unidade(s). Mantendo esse padrão, qual é o próximo termo?`;
+    explicacao = `As diferenças entre termos consecutivos são ${difs.join(", ")} — uma PA de razão ${e}. A próxima diferença é ${d1 + 4 * e}, logo o próximo termo é ${t[4]} + ${d1 + 4 * e} = ${next}.`;
+  }
+  if (tentativa < 40 && !_logDistintos(correctText, distractorTexts))
+    return logSequenciaSegundaOrdem(dificuldade, tentativa + 1);
+  return makeQuestao({
+    categoriaId: "logica",
+    subtopico: "Sequências e Padrões",
+    dificuldade,
+    enunciado,
+    correctText,
+    distractorTexts,
+    explicacao,
+  });
+}
+
+// "Pensei num número, apliquei operações, deu R" — desfazer na ordem inversa.
+// Os parâmetros são escolhidos para que todo passo intermediário seja inteiro.
+function logNumeroPensado(dificuldade, tentativa = 0) {
+  const a = pick([2, 3, 4, 5]);
+  const x = randInt(3, dificuldade === "facil" ? 12 : dificuldade === "medio" ? 20 : 30);
+  let enunciado, resposta, correctText, distractorTexts, explicacao;
+  if (dificuldade === "facil") {
+    const b = randInt(2, 25);
+    const resultado = a * x + b;
+    resposta = (resultado - b) / a;
+    correctText = `${resposta}`;
+    distractorTexts = [
+      `${resultado - b}`,       // esqueceu de dividir por a
+      `${(resultado - b) * a}`, // multiplicou por a em vez de dividir
+      `${resposta + b}`,        // dividiu certo, mas somou b de novo
+      `${resultado}`,           // não desfez nenhuma operação
+    ];
+    enunciado = `Pensei em um número natural, multipliquei-o por ${a} e somei ${b} ao resultado, obtendo ${resultado}. Em que número pensei?`;
+    explicacao = `Desfazendo as operações de trás para frente: ${resultado} − ${b} = ${resultado - b}; em seguida ${resultado - b} ÷ ${a} = ${resposta}.`;
+  } else if (dificuldade === "medio") {
+    const b = randInt(3, Math.min(20, a * x - 1));
+    const resultado = a * x - b;
+    resposta = (resultado + b) / a;
+    correctText = `${resposta}`;
+    distractorTexts = [
+      `${resultado + b}`,       // esqueceu de dividir por a
+      `${(resultado + b) * a}`, // multiplicou por a em vez de dividir
+      `${resultado}`,           // não desfez nenhuma operação
+      `${resultado - b}`,       // subtraiu b de novo em vez de somar
+    ];
+    enunciado = `Pensei em um número, multipliquei-o por ${a} e subtraí ${b} do resultado, chegando a ${resultado}. Qual é o número em que pensei?`;
+    explicacao = `Desfazendo de trás para frente: ${resultado} + ${b} = ${resultado + b}; depois ${resultado + b} ÷ ${a} = ${resposta}.`;
+  } else {
+    const b = randInt(2, 12);
+    const d = randInt(2, Math.min(15, a * (x + b) - 1));
+    const R = a * (x + b) - d;
+    resposta = (R + d) / a - b;
+    correctText = `${resposta}`;
+    distractorTexts = [
+      `${(R + d) / a}`,     // esqueceu de subtrair b no fim
+      `${R + d - b}`,       // esqueceu de dividir por a
+      `${R + d}`,           // só desfez a subtração final
+      `${(R + d) / a + b}`, // somou b em vez de subtrair no fim
+    ];
+    enunciado = `Pensei em um número, somei ${b} a ele, multipliquei o total por ${a} e, do produto, subtraí ${d}, chegando a ${R}. Qual é o número pensado?`;
+    explicacao = `Desfazendo de trás para frente: ${R} + ${d} = ${R + d}; ${R + d} ÷ ${a} = ${(R + d) / a}; ${(R + d) / a} − ${b} = ${resposta}.`;
+  }
+  if (tentativa < 40 && !_logDistintos(correctText, distractorTexts))
+    return logNumeroPensado(dificuldade, tentativa + 1);
+  return makeQuestao({
+    categoriaId: "logica",
+    subtopico: "Problemas de Raciocínio",
+    dificuldade,
+    enunciado,
+    correctText,
+    distractorTexts,
+    explicacao,
+  });
+}
+
+// Torneio todos contra todos: 1 turno ⇒ C(n,2) = n(n−1)/2; turno e returno ⇒ n(n−1).
+function logTorneio(dificuldade, tentativa = 0) {
+  const esporte = pick(["futebol", "vôlei", "basquete", "handebol", "futsal"]);
+  let n, correct, distr, enunciado, explicacao;
+  if (dificuldade === "dificil") {
+    n = randInt(7, 11);
+    correct = n * (n - 1);
+    distr = [n * (n - 1) / 2, n * (n + 1), 2 * (n - 1), n * n];
+    enunciado = `Um campeonato de ${esporte} tem ${n} equipes e é disputado em turno e returno: cada equipe enfrenta cada uma das outras exatamente duas vezes. Quantas partidas serão disputadas no total?`;
+    explicacao = `Em turno único haveria C(${n}, 2) = ${n}·${n - 1}/2 = ${n * (n - 1) / 2} partidas. Com turno e returno esse número dobra: ${correct}.`;
+  } else {
+    n = dificuldade === "facil" ? randInt(5, 7) : randInt(7, 10);
+    correct = n * (n - 1) / 2;
+    distr = [n * (n - 1), n * (n + 1) / 2, n - 1, n * n];
+    enunciado = `Em um torneio de ${esporte} com ${n} equipes, cada equipe joga uma única vez contra cada uma das outras. Quantas partidas são disputadas ao todo?`;
+    explicacao = `Cada partida corresponde a um par de equipes distintas: C(${n}, 2) = ${n}·${n - 1}/2 = ${correct}.`;
+  }
+  const correctText = `${correct}`;
+  const distractorTexts = distr.map((v) => `${v}`);
+  if (tentativa < 40 && !_logDistintos(correctText, distractorTexts))
+    return logTorneio(dificuldade, tentativa + 1);
+  return makeQuestao({
+    categoriaId: "logica",
+    subtopico: "Problemas de Raciocínio",
+    dificuldade,
+    enunciado,
+    correctText,
+    distractorTexts,
+    explicacao,
+  });
+}
+
+// Calendário: hoje é <dia>; daqui a N dias ⇒ dias[(hoje + N) mod 7].
+function logCalendario(dificuldade, tentativa = 0) {
+  const dias = ["domingo", "segunda-feira", "terça-feira", "quarta-feira", "quinta-feira", "sexta-feira", "sábado"];
+  const eventos = [
+    "a inauguração de uma loja",
+    "a entrega de uma encomenda",
+    "o início de um curso",
+    "uma consulta médica",
+    "a viagem de férias",
+  ];
+  const evento = pick(eventos);
+  const hoje = randInt(0, 6);
+  const N = dificuldade === "facil" ? randInt(10, 25) : dificuldade === "medio" ? randInt(40, 90) : randInt(150, 600);
+  const r = (hoje + N) % 7;
+  const correctText = dias[r];
+  const distractorTexts = [
+    dias[(r + 1) % 7],
+    dias[(r + 6) % 7],
+    dias[N % 7],
+    dias[((hoje - N) % 7 + 7) % 7],
+  ];
+  const enunciado = `Hoje é ${dias[hoje]} e faltam exatamente ${N} dias para ${evento}. Em que dia da semana esse evento vai ocorrer?`;
+  const explicacao = `Como os dias da semana se repetem em ciclos de 7, calcula-se o resto de ${N} por 7: ${N} = 7 · ${Math.floor(N / 7)} + ${N % 7}. Basta então avançar ${N % 7} dia(s) a partir de ${dias[hoje]}, chegando a ${dias[r]}.`;
+  if (tentativa < 40 && !_logDistintos(correctText, distractorTexts))
+    return logCalendario(dificuldade, tentativa + 1);
+  return makeQuestao({
+    categoriaId: "logica",
+    subtopico: "Problemas de Raciocínio",
+    dificuldade,
+    enunciado,
+    correctText,
+    distractorTexts,
+    explicacao,
+  });
+}
+
+// Negação de proposições quantificadas / De Morgan — alternativas textuais.
+function logNegacao(dificuldade) {
+  let enunciado, correctText, distractorTexts, explicacao;
+  if (dificuldade === "facil") {
+    const c = pick([
+      { pl: "os funcionários do setor", sg: "funcionário do setor", vP: "cumpriram a meta", v: "cumpriu a meta", vNeg: "não cumpriu a meta", vNegP: "não cumpriram a meta" },
+      { pl: "as casas do condomínio", sg: "casa do condomínio", vP: "têm garagem", v: "tem garagem", vNeg: "não tem garagem", vNegP: "não têm garagem" },
+      { pl: "os produtos do lote", sg: "produto do lote", vP: "passaram no teste de qualidade", v: "passou no teste de qualidade", vNeg: "não passou no teste de qualidade", vNegP: "não passaram no teste de qualidade" },
+      { pl: "os candidatos inscritos", sg: "candidato inscrito", vP: "enviaram os documentos", v: "enviou os documentos", vNeg: "não enviou os documentos", vNegP: "não enviaram os documentos" },
+    ]);
+    enunciado = `Considere a afirmação: "Todos ${c.pl} ${c.vP}." Qual das alternativas é a negação correta dessa afirmação?`;
+    correctText = `Pelo menos um ${c.sg} ${c.vNeg}.`;
+    distractorTexts = [
+      `Nenhum ${c.sg} ${c.v}.`,
+      `Todos ${c.pl} ${c.vNegP}.`,
+      `Pelo menos um ${c.sg} ${c.v}.`,
+      `Nenhum ${c.sg} ${c.vNeg}.`,
+    ];
+    explicacao = `A negação de "todo A tem a propriedade P" é "existe pelo menos um A que não tem P". Um único contraexemplo já torna a afirmação original falsa — não é preciso que nenhum A tenha a propriedade.`;
+  } else if (dificuldade === "medio") {
+    const c = pick([
+      { sg: "morador do bairro", pl: "os moradores do bairro", v: "usa transporte público", vP: "usam transporte público", vNeg: "não usa transporte público" },
+      { sg: "aluno da turma", pl: "os alunos da turma", v: "foi à excursão", vP: "foram à excursão", vNeg: "não foi à excursão" },
+      { sg: "loja do shopping", pl: "as lojas do shopping", v: "abre aos domingos", vP: "abrem aos domingos", vNeg: "não abre aos domingos" },
+      { sg: "atleta da equipe", pl: "os atletas da equipe", v: "foi convocado", vP: "foram convocados", vNeg: "não foi convocado" },
+    ]);
+    enunciado = `Considere a afirmação: "Algum ${c.sg} ${c.v}." Qual das alternativas é a negação correta dessa afirmação?`;
+    correctText = `Nenhum ${c.sg} ${c.v}.`;
+    distractorTexts = [
+      `Algum ${c.sg} ${c.vNeg}.`,
+      `Todos ${c.pl} ${c.vP}.`,
+      `Nem todos ${c.pl} ${c.vP}.`,
+      `Existe exatamente um ${c.sg} que ${c.v}.`,
+    ];
+    explicacao = `"Algum A é B" afirma que existe ao menos um caso. Negá-la exige dizer que não existe nenhum: "nenhum A é B". Apenas negar o predicado ("algum A não é B") ou trocar por "todos" não nega a afirmação original.`;
+  } else {
+    const c = pick([
+      { p: "O time venceu a partida", np: "O time não venceu a partida", q: "o técnico foi premiado", nq: "o técnico não foi premiado" },
+      { p: "João foi aprovado no vestibular", np: "João não foi aprovado no vestibular", q: "ganhou a bolsa de estudos", nq: "não ganhou a bolsa de estudos" },
+      { p: "A empresa aumentou o faturamento", np: "A empresa não aumentou o faturamento", q: "distribuiu bônus aos funcionários", nq: "não distribuiu bônus aos funcionários" },
+    ]);
+    enunciado = `Considere a afirmação: "${c.p} e ${c.q}." Qual das alternativas é a negação correta dessa afirmação?`;
+    correctText = `${c.np} ou ${c.nq}.`;
+    distractorTexts = [
+      `${c.np} e ${c.nq}.`,
+      `${c.p} ou ${c.q}.`,
+      `${c.np} ou ${c.q}.`,
+      `${c.p} ou ${c.nq}.`,
+    ];
+    explicacao = `Pela lei de De Morgan, a negação de "p e q" é "não p ou não q": basta que uma das duas partes falhe. Manter o conectivo "e" ao negar, ou negar apenas um dos termos, produz afirmações diferentes.`;
+  }
+  return makeQuestao({
+    categoriaId: "logica",
+    subtopico: "Proposições Lógicas",
+    dificuldade,
+    enunciado,
+    correctText,
+    distractorTexts,
+    explicacao,
+  });
+}
+
+// Dada "se p, então q", identificar a contrapositiva "se ¬q, então ¬p".
+function logCondicional(dificuldade) {
+  const c = pick([
+    { se: "chove", entao: "a rua fica molhada", naoSe: "não chove", naoEntao: "a rua não fica molhada", seCap: "Chove" },
+    { se: "hoje é feriado", entao: "o banco não abre", naoSe: "hoje não é feriado", naoEntao: "o banco abre", seCap: "Hoje é feriado" },
+    { se: "a lâmpada está acesa", entao: "há energia elétrica na casa", naoSe: "a lâmpada não está acesa", naoEntao: "não há energia elétrica na casa", seCap: "A lâmpada está acesa" },
+    { se: "Maria está no Brasil", entao: "Maria está na América do Sul", naoSe: "Maria não está no Brasil", naoEntao: "Maria não está na América do Sul", seCap: "Maria está no Brasil" },
+    { se: "o polígono é um quadrado", entao: "o polígono tem quatro lados", naoSe: "o polígono não é um quadrado", naoEntao: "o polígono não tem quatro lados", seCap: "O polígono é um quadrado" },
+  ]);
+  const prop = `Se ${c.se}, então ${c.entao}.`;
+  const correctText = `Se ${c.naoEntao}, então ${c.naoSe}.`;
+  const distractorTexts = [
+    `Se ${c.entao}, então ${c.se}.`,       // recíproca
+    `Se ${c.naoSe}, então ${c.naoEntao}.`, // inversa
+    `Se ${c.se}, então ${c.entao}.`,       // a própria condicional
+    `${c.seCap} e ${c.naoEntao}.`,         // p e não q
+  ];
+  let enunciado;
+  if (dificuldade === "facil") {
+    enunciado = `Considere a proposição condicional: "${prop}" Qual das alternativas é a sua contrapositiva (proposição logicamente equivalente)?`;
+  } else if (dificuldade === "medio") {
+    enunciado = `Uma proposição "se p, então q" é sempre equivalente à sua contrapositiva "se não q, então não p". Qual é a contrapositiva da proposição "${prop}"?`;
+  } else {
+    enunciado = `A contrapositiva de uma proposição condicional é obtida negando-se os dois termos e invertendo-se a ordem entre eles. Determine a contrapositiva de: "${prop}"`;
+  }
+  const explicacao = `A contrapositiva de "se p, então q" é "se não q, então não p", sempre equivalente à original: "${correctText}". A recíproca ("se q, então p") e a inversa ("se não p, então não q") não são equivalentes à condicional dada.`;
+  return makeQuestao({
+    categoriaId: "logica",
+    subtopico: "Proposições Lógicas",
+    dificuldade,
+    enunciado,
+    correctText,
+    distractorTexts,
+    explicacao,
+  });
+}
+
+// Comparações transitivas: ordenar 4–5 nomes, ou achar quem ocupa a k-ésima posição.
+function logComparacaoTransitiva(dificuldade, tentativa = 0) {
+  const nomes = shuffle(["Ana", "Bruno", "Carla", "Diego", "Elisa", "Fábio", "Gabi", "Hugo"]);
+  const ctx = pick([
+    { ordem: "da maior para a menor idade", clausula: (a, b) => `${a} tem mais idade que ${b}` },
+    { ordem: "da maior para a menor altura", clausula: (a, b) => `${a} tem mais altura que ${b}` },
+    { ordem: "da maior para a menor nota", clausula: (a, b) => `${a} tirou uma nota maior que ${b}` },
+  ]);
+  const m = dificuldade === "facil" ? 4 : 5;
+  const ordem = nomes.slice(0, m); // ordem[0] = primeiro colocado
+  const pistas = shuffle(ordem.slice(0, m - 1).map((_, i) => ctx.clausula(ordem[i], ordem[i + 1])));
+  let enunciado, correctText, distractorTexts, explicacao;
+  if (dificuldade === "medio") {
+    correctText = ordem[2];
+    distractorTexts = [ordem[0], ordem[m - 1], ordem[1], ordem[3]];
+    enunciado = `Em um grupo de ${m} pessoas, sabe-se que: ${pistas.join("; ")}. Colocando-as em ordem, ${ctx.ordem}, quem ocupa a 3ª posição?`;
+    explicacao = `Encadeando as comparações: ${ordem.join(" > ")}. Na ordem ${ctx.ordem}, a 3ª posição é de ${ordem[2]}.`;
+  } else {
+    correctText = ordem.join(", ");
+    distractorTexts = [
+      [...ordem].reverse().join(", "),
+      [ordem[1], ordem[0], ...ordem.slice(2)].join(", "),
+      [...ordem.slice(0, m - 2), ordem[m - 1], ordem[m - 2]].join(", "),
+      [...ordem.slice(1), ordem[0]].join(", "),
+    ];
+    enunciado = `${m} amigos foram comparados dois a dois. Sabe-se que: ${pistas.join("; ")}. Qual é a ordenação correta, ${ctx.ordem}?`;
+    explicacao = `Encadeando todas as comparações, obtém-se: ${ordem.join(" > ")}. Essa é a ordem ${ctx.ordem}.`;
+  }
+  if (tentativa < 40 && !_logDistintos(correctText, distractorTexts))
+    return logComparacaoTransitiva(dificuldade, tentativa + 1);
+  return makeQuestao({
+    categoriaId: "logica",
+    subtopico: "Problemas de Raciocínio",
+    dificuldade,
+    enunciado,
+    correctText,
+    distractorTexts,
+    explicacao,
+  });
+}
+
 // ---------- CONJUNTOS ----------
 function conjDoisConjuntos(dificuldade) {
   const contextos = [
@@ -2724,6 +3053,6 @@ export const TEMPLATES = {
   "analise-combinatoria": [combMultiplicativo, combComissao],
   "matematica-financeira": [finJurosCompostos],
   matrizes: [matDeterminante, matDeterminante3x3, matSoma, matSubtracao, matEscalar, matProduto, matTransposta, matTraco, matIgualdade, matLeiDeFormacao, matSimetrica, matPotencia, matInversa, matDeterminanteComIncognita, matCramer, matFaturamento, matIdentidadePropriedade],
-  logica: [logSequencia, logRaciocinioIdade],
+  logica: [logSequencia, logRaciocinioIdade, logSequenciaSegundaOrdem, logNumeroPensado, logTorneio, logCalendario, logNegacao, logCondicional, logComparacaoTransitiva],
   conjuntos: [conjDoisConjuntos, conjDiferenca, conjUniaoDeInterseccao, conjComplementar, conjTresConjuntos, conjTresConjuntosEsporte, conjOperacoesExplicitas, conjDiferencaSimetrica, conjProdutoCartesiano, conjSubconjuntos, conjIntervalosReais, conjMultiplos, conjTresLinguas, conjPesquisaProduto, conjDivisores],
 };
