@@ -202,5 +202,583 @@
     ],
     "correta": "A",
     "explicacao": "P(1ª azul) = 3/8. Sem reposição, P(2ª azul | 1ª azul) = 2/7. P(ambas azuis) = (3/8) × (2/7) = 3/28."
+  },
+  {
+    "id": "probabilidade-ined-0140",
+    "categoriaId": "probabilidade",
+    "subtopico": "Eventos Sucessivos",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma urna contém 10 fichas, das quais 4 são vermelhas. Retira-se uma ficha ao acaso, observa-se sua cor e recoloca-se na urna; em seguida, retira-se outra ficha. Qual é a probabilidade de que ambas as retiradas resultem em fichas vermelhas?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "1/25"
+      },
+      {
+        "letra": "B",
+        "texto": "2/5"
+      },
+      {
+        "letra": "C",
+        "texto": "4/5"
+      },
+      {
+        "letra": "D",
+        "texto": "2/15"
+      },
+      {
+        "letra": "E",
+        "texto": "4/25"
+      }
+    ],
+    "correta": "E",
+    "explicacao": "Com reposição, as duas retiradas são independentes e cada uma tem probabilidade 4/10 = 2/5 de resultar em ficha vermelha. Logo P = (2/5) × (2/5) = 4/25."
+  },
+  {
+    "id": "probabilidade-ined-0141",
+    "categoriaId": "probabilidade",
+    "subtopico": "Eventos Sucessivos",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma urna contém 21 esferas, das quais 6 são amarelas. Retira-se uma esfera ao acaso, observa-se sua cor e recoloca-se na urna; em seguida, retira-se outra esfera. Qual é a probabilidade de que ambas as retiradas resultem em esferas amarelas?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "1/14"
+      },
+      {
+        "letra": "B",
+        "texto": "4/7"
+      },
+      {
+        "letra": "C",
+        "texto": "4/49"
+      },
+      {
+        "letra": "D",
+        "texto": "2/7"
+      },
+      {
+        "letra": "E",
+        "texto": "2/147"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "Com reposição, as duas retiradas são independentes e cada uma tem probabilidade 6/21 = 2/7 de resultar em esfera amarela. Logo P = (2/7) × (2/7) = 4/49."
+  },
+  {
+    "id": "probabilidade-ined-0142",
+    "categoriaId": "probabilidade",
+    "subtopico": "Eventos Sucessivos",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma máquina sorteia bolas, ao acaso e com reposição, de uma caixa que contém 20 delas, sendo 8 verdes. Em dois sorteios consecutivos, qual é a probabilidade de sair uma bola verde nas duas vezes?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "4/25"
+      },
+      {
+        "letra": "B",
+        "texto": "14/95"
+      },
+      {
+        "letra": "C",
+        "texto": "1/50"
+      },
+      {
+        "letra": "D",
+        "texto": "4/5"
+      },
+      {
+        "letra": "E",
+        "texto": "2/5"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "Com reposição, as duas retiradas são independentes e cada uma tem probabilidade 8/20 = 2/5 de resultar em bola verde. Logo P = (2/5) × (2/5) = 4/25."
+  },
+  {
+    "id": "probabilidade-ined-0143",
+    "categoriaId": "probabilidade",
+    "subtopico": "Eventos Sucessivos",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Em um sorteio de brindes, a probabilidade de não contemplar o cliente em cada tentativa é 2/5, de forma independente. Fazendo-se 2 cupons, qual é a probabilidade de o cliente ser contemplado ao menos uma vez?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "9/25"
+      },
+      {
+        "letra": "B",
+        "texto": "21/25"
+      },
+      {
+        "letra": "C",
+        "texto": "4/25"
+      },
+      {
+        "letra": "D",
+        "texto": "12/25"
+      },
+      {
+        "letra": "E",
+        "texto": "3/5"
+      }
+    ],
+    "correta": "B",
+    "explicacao": "P(o cliente ser contemplado ao menos uma vez) = 1 − P(o evento desfavorável ocorrer nas 2 tentativas). Sendo as tentativas independentes, P(desfavorável em todas) = (2/5)^2 = 4/25. Portanto P = 1 − 4/25 = 21/25."
+  },
+  {
+    "id": "probabilidade-ined-0144",
+    "categoriaId": "probabilidade",
+    "subtopico": "Eventos Sucessivos",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Em um controle de qualidade, a probabilidade de não identificar o defeito em cada tentativa é 1/4, de forma independente. Fazendo-se 3 inspeções, qual é a probabilidade de identificar o defeito ao menos uma vez?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "3/4"
+      },
+      {
+        "letra": "B",
+        "texto": "27/64"
+      },
+      {
+        "letra": "C",
+        "texto": "63/64"
+      },
+      {
+        "letra": "D",
+        "texto": "9/64"
+      },
+      {
+        "letra": "E",
+        "texto": "1/64"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "P(identificar o defeito ao menos uma vez) = 1 − P(o evento desfavorável ocorrer nas 3 tentativas). Sendo as tentativas independentes, P(desfavorável em todas) = (1/4)^3 = 1/64. Portanto P = 1 − 1/64 = 63/64."
+  },
+  {
+    "id": "probabilidade-ined-0145",
+    "categoriaId": "probabilidade",
+    "subtopico": "Eventos Sucessivos",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um equipamento possui 4 dispositivos de segurança que funcionam de forma independente. Cada dispositivo deixa de acionar com probabilidade 2/5. O equipamento fica protegido se pelo menos um dispositivo acionar. Qual é a probabilidade de o equipamento ficar protegido?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "96/625"
+      },
+      {
+        "letra": "B",
+        "texto": "16/625"
+      },
+      {
+        "letra": "C",
+        "texto": "609/625"
+      },
+      {
+        "letra": "D",
+        "texto": "81/625"
+      },
+      {
+        "letra": "E",
+        "texto": "3/5"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "P(pelo menos um aciona) = 1 − P(nenhum aciona). Como os dispositivos são independentes, P(nenhum aciona) = (2/5)^4 = 16/625. Logo P = 1 − 16/625 = 609/625."
+  },
+  {
+    "id": "probabilidade-ined-0146",
+    "categoriaId": "probabilidade",
+    "subtopico": "Probabilidade Simples",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um dado comum e honesto é lançado uma única vez. Qual é a probabilidade de sair a face 5 ou a face 6?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "2/3"
+      },
+      {
+        "letra": "B",
+        "texto": "1/2"
+      },
+      {
+        "letra": "C",
+        "texto": "1/3"
+      },
+      {
+        "letra": "D",
+        "texto": "1/6"
+      },
+      {
+        "letra": "E",
+        "texto": "1/36"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "Os eventos \"sair 5\" e \"sair 6\" são mutuamente exclusivos. Como P(sair 5) = 1/6 e P(sair 6) = 1/6, temos P = 1/6 + 1/6 = 2/6 = 1/3."
+  },
+  {
+    "id": "probabilidade-ined-0147",
+    "categoriaId": "probabilidade",
+    "subtopico": "Probabilidade Simples",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um dado comum e honesto é lançado uma única vez. Qual é a probabilidade de o resultado ser um número par ou ser igual a 1?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "1/12"
+      },
+      {
+        "letra": "B",
+        "texto": "2/3"
+      },
+      {
+        "letra": "C",
+        "texto": "1/6"
+      },
+      {
+        "letra": "D",
+        "texto": "1/3"
+      },
+      {
+        "letra": "E",
+        "texto": "1/2"
+      }
+    ],
+    "correta": "B",
+    "explicacao": "Como 1 é ímpar, os eventos \"sair par\" e \"sair 1\" são mutuamente exclusivos. P(par) = 3/6 e P(1) = 1/6, então P = 3/6 + 1/6 = 4/6 = 2/3."
+  },
+  {
+    "id": "probabilidade-ined-0148",
+    "categoriaId": "probabilidade",
+    "subtopico": "Probabilidade Simples",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma roleta é dividida em 20 setores iguais, numerados de 1 a 20, e o ponteiro tem a mesma chance de parar em qualquer setor. Girando-a uma vez, qual é a probabilidade de o ponteiro parar em um número múltiplo de 4 ou no número 7?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "1/80"
+      },
+      {
+        "letra": "B",
+        "texto": "3/7"
+      },
+      {
+        "letra": "C",
+        "texto": "7/10"
+      },
+      {
+        "letra": "D",
+        "texto": "3/10"
+      },
+      {
+        "letra": "E",
+        "texto": "1/4"
+      }
+    ],
+    "correta": "D",
+    "explicacao": "Como 7 não é múltiplo de 4, os dois eventos são mutuamente exclusivos. Entre 1 e 20 há 5 múltiplos de 4, com probabilidade 5/20; o número 7 tem probabilidade 1/20. Logo P = 5/20 + 1/20 = 6/20 = 3/10."
+  },
+  {
+    "id": "probabilidade-ined-0149",
+    "categoriaId": "probabilidade",
+    "subtopico": "Probabilidade Simples",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Dois dados comuns e honestos são lançados simultaneamente. Qual é a probabilidade de a soma dos pontos obtidos ser igual a 9?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "1/18"
+      },
+      {
+        "letra": "B",
+        "texto": "1/8"
+      },
+      {
+        "letra": "C",
+        "texto": "1/9"
+      },
+      {
+        "letra": "D",
+        "texto": "8/9"
+      },
+      {
+        "letra": "E",
+        "texto": "1/3"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "Há 6 × 6 = 36 pares ordenados igualmente prováveis. Os casos (com x ≤ y) em que a soma é 9: (3, 6), (4, 5); contando também os pares simétricos, são 4 pares ordenados. Logo P = 4/36 = 1/9."
+  },
+  {
+    "id": "probabilidade-ined-0150",
+    "categoriaId": "probabilidade",
+    "subtopico": "Probabilidade Simples",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Dois dados comuns e honestos são lançados ao mesmo tempo. Qual é a probabilidade de o maior dos dois valores obtidos ser igual a 3? (Quando os dois dados mostram o mesmo número, esse número é o maior valor.)",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "31/36"
+      },
+      {
+        "letra": "B",
+        "texto": "5/12"
+      },
+      {
+        "letra": "C",
+        "texto": "5/36"
+      },
+      {
+        "letra": "D",
+        "texto": "1/12"
+      },
+      {
+        "letra": "E",
+        "texto": "5/31"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "Há 6 × 6 = 36 pares ordenados igualmente prováveis. Os casos (com x ≤ y) em que o maior valor é 3: (1, 3), (2, 3), (3, 3); contando também os pares simétricos, são 5 pares ordenados. Logo P = 5/36 = 5/36."
+  },
+  {
+    "id": "probabilidade-ined-0151",
+    "categoriaId": "probabilidade",
+    "subtopico": "Probabilidade Simples",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "No lançamento simultâneo de dois dados comuns e honestos, qual é a probabilidade de a soma dos pontos obtidos ser maior ou igual a 9?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "5/6"
+      },
+      {
+        "letra": "B",
+        "texto": "5/18"
+      },
+      {
+        "letra": "C",
+        "texto": "13/18"
+      },
+      {
+        "letra": "D",
+        "texto": "5/13"
+      },
+      {
+        "letra": "E",
+        "texto": "1/6"
+      }
+    ],
+    "correta": "B",
+    "explicacao": "Há 6 × 6 = 36 pares ordenados igualmente prováveis. Os casos (com x ≤ y) em que a soma é maior ou igual a 9: (3, 6), (4, 5), (4, 6), (5, 5), (5, 6), (6, 6); contando também os pares simétricos, são 10 pares ordenados. Logo P = 10/36 = 5/18."
+  },
+  {
+    "id": "probabilidade-ined-0152",
+    "categoriaId": "probabilidade",
+    "subtopico": "Probabilidade Simples",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "De um baralho comum de 52 cartas (13 de cada naipe), retira-se uma carta ao acaso. Qual é a probabilidade de ela ser do naipe de copas?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "3/13"
+      },
+      {
+        "letra": "B",
+        "texto": "1/4"
+      },
+      {
+        "letra": "C",
+        "texto": "1/13"
+      },
+      {
+        "letra": "D",
+        "texto": "1/3"
+      },
+      {
+        "letra": "E",
+        "texto": "1/52"
+      }
+    ],
+    "correta": "B",
+    "explicacao": "São 13 cartas de copas em 52. Logo P = 13/52 = 1/4."
+  },
+  {
+    "id": "probabilidade-ined-0153",
+    "categoriaId": "probabilidade",
+    "subtopico": "Probabilidade Simples",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "De um baralho comum de 52 cartas, retira-se uma carta ao acaso. Qual é a probabilidade de ela ser uma figura, isto é, um valete, uma dama ou um rei?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "3/13"
+      },
+      {
+        "letra": "B",
+        "texto": "3/52"
+      },
+      {
+        "letra": "C",
+        "texto": "1/4"
+      },
+      {
+        "letra": "D",
+        "texto": "1/13"
+      },
+      {
+        "letra": "E",
+        "texto": "3/10"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "Cada naipe tem 3 figuras (valete, dama e rei), num total de 4 × 3 = 12 figuras em 52 cartas. Logo P = 12/52 = 3/13."
+  },
+  {
+    "id": "probabilidade-ined-0154",
+    "categoriaId": "probabilidade",
+    "subtopico": "Probabilidade Simples",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "De um baralho comum de 52 cartas, retira-se uma carta ao acaso. Qual é a probabilidade de ela ser uma carta de copas ou ser um rei?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "4/13"
+      },
+      {
+        "letra": "B",
+        "texto": "17/52"
+      },
+      {
+        "letra": "C",
+        "texto": "4/9"
+      },
+      {
+        "letra": "D",
+        "texto": "1/52"
+      },
+      {
+        "letra": "E",
+        "texto": "1/4"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "P(copas) = 13/52, P(rei) = 4/52 e P(rei de copas) = 1/52. Pela regra da adição, P(copas ou rei) = 13/52 + 4/52 − 1/52 = 16/52 = 4/13."
+  },
+  {
+    "id": "probabilidade-ined-0155",
+    "categoriaId": "probabilidade",
+    "subtopico": "Probabilidade Simples",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma pesquisa com 50 funcionários de uma empresa cruzou o cargo com a preferência entre o regime presencial e o regime remoto. Os técnicos: 15 preferem o regime presencial e 5 preferem o regime remoto (total 20). Os analistas: 10 preferem o regime presencial e 20 preferem o regime remoto (total 30). No total, 25 pessoas preferem o regime presencial e 25 preferem o regime remoto, somando 50 pessoas. Escolhendo-se ao acaso uma dessas 50 pessoas, qual é a probabilidade de que ela pertença ao grupo dos técnicos?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "3/5"
+      },
+      {
+        "letra": "B",
+        "texto": "2/5"
+      },
+      {
+        "letra": "C",
+        "texto": "1/2"
+      },
+      {
+        "letra": "D",
+        "texto": "2/3"
+      },
+      {
+        "letra": "E",
+        "texto": "3/10"
+      }
+    ],
+    "correta": "B",
+    "explicacao": "São 20 técnicos em um total de 50 pessoas. Logo P = 20/50 = 2/5."
+  },
+  {
+    "id": "probabilidade-ined-0156",
+    "categoriaId": "probabilidade",
+    "subtopico": "Probabilidade Condicional",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma pesquisa com 50 estudantes de uma turma cruzou o sexo com a preferência entre estudar de manhã e estudar à noite. Os meninos: 12 preferem estudar de manhã e 8 preferem estudar à noite (total 20). As meninas: 6 preferem estudar de manhã e 24 preferem estudar à noite (total 30). No total, 18 pessoas preferem estudar de manhã e 32 preferem estudar à noite, somando 50 pessoas. Escolhendo-se ao acaso uma pessoa entre os meninos, qual é a probabilidade de que ela prefira estudar de manhã?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "6/25"
+      },
+      {
+        "letra": "B",
+        "texto": "9/25"
+      },
+      {
+        "letra": "C",
+        "texto": "3/5"
+      },
+      {
+        "letra": "D",
+        "texto": "2/5"
+      },
+      {
+        "letra": "E",
+        "texto": "2/3"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "É uma probabilidade condicional. Entre os meninos há 20 pessoas, das quais 12 preferem estudar de manhã. Logo P = 12/20 = 3/5."
   }
 ]

@@ -1,221 +1,17 @@
 [
   {
-    "id": "logica-ined-0215",
+    "id": "logica-ined-0231",
     "categoriaId": "logica",
     "subtopico": "Sequências e Padrões",
     "dificuldade": "facil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Observe a sequência: 9, 12, 15, 18, 21, ... Seguindo o mesmo padrão, qual é o próximo número da sequência?",
+    "enunciado": "Observe a sequência: 4, 8, 12, 16, 20, ... Seguindo o mesmo padrão, qual é o próximo número da sequência?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "24"
-      },
-      {
-        "letra": "B",
-        "texto": "22"
-      },
-      {
-        "letra": "C",
-        "texto": "19"
-      },
-      {
-        "letra": "D",
-        "texto": "18"
-      },
-      {
-        "letra": "E",
-        "texto": "42"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "Cada termo é obtido somando 3 ao anterior. O próximo termo é 21 + 3 = 24."
-  },
-  {
-    "id": "logica-ined-0216",
-    "categoriaId": "logica",
-    "subtopico": "Sequências e Padrões",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Observe a sequência: 5, 10, 20, 40, 80, ... Seguindo o mesmo padrão, qual é o próximo número da sequência?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "81"
-      },
-      {
-        "letra": "B",
-        "texto": "76"
-      },
-      {
-        "letra": "C",
-        "texto": "75"
-      },
-      {
-        "letra": "D",
-        "texto": "120"
-      },
-      {
-        "letra": "E",
-        "texto": "160"
-      }
-    ],
-    "correta": "E",
-    "explicacao": "Cada termo é obtido multiplicando o anterior pela razão. O próximo termo é 80 × 2 = 160."
-  },
-  {
-    "id": "logica-ined-0218",
-    "categoriaId": "logica",
-    "subtopico": "Sequências e Padrões",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Observe a sequência: 2, 4, 8, 16, 32, ... Seguindo o mesmo padrão, qual é o próximo número da sequência?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "64"
-      },
-      {
-        "letra": "B",
-        "texto": "48"
-      },
-      {
-        "letra": "C",
-        "texto": "31"
-      },
-      {
-        "letra": "D",
-        "texto": "33"
-      },
-      {
-        "letra": "E",
-        "texto": "30"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "Cada termo é obtido multiplicando o anterior pela razão. O próximo termo é 32 × 2 = 64."
-  },
-  {
-    "id": "logica-ined-0219",
-    "categoriaId": "logica",
-    "subtopico": "Problemas de Raciocínio",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Hoje, um pai tem 34 anos e seu filho tem 7 anos. Daqui a 2 anos, quais serão as idades do pai e do filho, respectivamente?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "34 e 7 anos"
-      },
-      {
-        "letra": "B",
-        "texto": "36 e 9 anos"
-      },
-      {
-        "letra": "C",
-        "texto": "38 e 9 anos"
-      },
-      {
-        "letra": "D",
-        "texto": "36 e 7 anos"
-      },
-      {
-        "letra": "E",
-        "texto": "37 e 7 anos"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "Basta somar 2 anos à idade atual de cada um: pai = 34 + 2 = 36; filho = 7 + 2 = 9."
-  },
-  {
-    "id": "logica-ined-0220",
-    "categoriaId": "logica",
-    "subtopico": "Problemas de Raciocínio",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Hoje, um pai tem 38 anos e seu filho tem 9 anos. Daqui a 8 anos, quais serão as idades do pai e do filho, respectivamente?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "46 e 9 anos"
-      },
-      {
-        "letra": "B",
-        "texto": "38 e 9 anos"
-      },
-      {
-        "letra": "C",
-        "texto": "54 e 17 anos"
-      },
-      {
-        "letra": "D",
-        "texto": "47 e 9 anos"
-      },
-      {
-        "letra": "E",
-        "texto": "46 e 17 anos"
-      }
-    ],
-    "correta": "E",
-    "explicacao": "Basta somar 8 anos à idade atual de cada um: pai = 38 + 8 = 46; filho = 9 + 8 = 17."
-  },
-  {
-    "id": "logica-ined-0221",
-    "categoriaId": "logica",
-    "subtopico": "Problemas de Raciocínio",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Hoje, um pai tem 46 anos e seu filho tem 18 anos. Daqui a 7 anos, quais serão as idades do pai e do filho, respectivamente?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "46 e 18 anos"
-      },
-      {
-        "letra": "B",
-        "texto": "54 e 18 anos"
-      },
-      {
-        "letra": "C",
-        "texto": "60 e 25 anos"
-      },
-      {
-        "letra": "D",
-        "texto": "53 e 25 anos"
-      },
-      {
-        "letra": "E",
-        "texto": "53 e 18 anos"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "Basta somar 7 anos à idade atual de cada um: pai = 46 + 7 = 53; filho = 18 + 7 = 25."
-  },
-  {
-    "id": "logica-ined-0222",
-    "categoriaId": "logica",
-    "subtopico": "Sequências e Padrões",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Observe o padrão de formação da sequência 2, 3, 7, 14, 24. As diferenças entre termos consecutivos são 1, 4, 7, 10, ou seja, aumentam de 3 em 3. Qual é o próximo termo?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "25"
+        "texto": "16"
       },
       {
         "letra": "B",
@@ -223,29 +19,63 @@
       },
       {
         "letra": "C",
-        "texto": "37"
+        "texto": "17"
       },
       {
         "letra": "D",
-        "texto": "48"
+        "texto": "24"
       },
       {
         "letra": "E",
-        "texto": "34"
+        "texto": "21"
       }
     ],
-    "correta": "C",
-    "explicacao": "As diferenças entre termos consecutivos são 1, 4, 7, 10 — uma PA de razão 3. A próxima diferença é 13, logo o próximo termo é 24 + 13 = 37."
+    "correta": "D",
+    "explicacao": "Cada termo é obtido somando 4 ao anterior. O próximo termo é 20 + 4 = 24."
   },
   {
-    "id": "logica-ined-0223",
+    "id": "logica-ined-0232",
     "categoriaId": "logica",
     "subtopico": "Sequências e Padrões",
     "dificuldade": "medio",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Na sequência 7, 10, 16, 25, 37, a diferença entre cada termo e o termo anterior cresce sempre 3 unidade(s). Mantendo esse padrão, qual é o próximo termo?",
+    "enunciado": "Observe a sequência: 4, 12, 36, 108, 324, ... Seguindo o mesmo padrão, qual é o próximo número da sequência?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "316"
+      },
+      {
+        "letra": "B",
+        "texto": "972"
+      },
+      {
+        "letra": "C",
+        "texto": "325"
+      },
+      {
+        "letra": "D",
+        "texto": "540"
+      },
+      {
+        "letra": "E",
+        "texto": "648"
+      }
+    ],
+    "correta": "B",
+    "explicacao": "Cada termo é obtido multiplicando o anterior pela razão. O próximo termo é 324 × 3 = 972."
+  },
+  {
+    "id": "logica-ined-0233",
+    "categoriaId": "logica",
+    "subtopico": "Sequências e Padrões",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Observe a sequência: 9, 17, 25, 33, 41, ... Seguindo o mesmo padrão, qual é o próximo número da sequência?",
     "alternativas": [
       {
         "letra": "A",
@@ -253,45 +83,11 @@
       },
       {
         "letra": "B",
-        "texto": "55"
+        "texto": "34"
       },
       {
         "letra": "C",
-        "texto": "52"
-      },
-      {
-        "letra": "D",
-        "texto": "74"
-      },
-      {
-        "letra": "E",
-        "texto": "40"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "As diferenças entre termos consecutivos são 3, 6, 9, 12 — uma PA de razão 3. A próxima diferença é 15, logo o próximo termo é 37 + 15 = 52."
-  },
-  {
-    "id": "logica-ined-0224",
-    "categoriaId": "logica",
-    "subtopico": "Sequências e Padrões",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Em uma sequência numérica, cada termo, a partir do terceiro, é igual à soma dos dois termos imediatamente anteriores. Os cinco primeiros termos são 1, 6, 7, 13, 20. Qual é o sexto termo dessa sequência?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "27"
-      },
-      {
-        "letra": "B",
-        "texto": "26"
-      },
-      {
-        "letra": "C",
-        "texto": "40"
+        "texto": "82"
       },
       {
         "letra": "D",
@@ -299,33 +95,339 @@
       },
       {
         "letra": "E",
-        "texto": "47"
+        "texto": "42"
       }
     ],
-    "correta": "D",
-    "explicacao": "O sexto termo é a soma do quarto com o quinto termos: 13 + 20 = 33."
+    "correta": "A",
+    "explicacao": "Cada termo é obtido somando 8 ao anterior. O próximo termo é 41 + 8 = 49."
   },
   {
-    "id": "logica-ined-0225",
+    "id": "logica-ined-0234",
     "categoriaId": "logica",
     "subtopico": "Problemas de Raciocínio",
     "dificuldade": "facil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Pensei em um número natural, multipliquei-o por 2 e somei 22 ao resultado, obtendo 34. Em que número pensei?",
+    "enunciado": "Hoje, um pai tem 35 anos e seu filho tem 5 anos. Daqui a 3 anos, quais serão as idades do pai e do filho, respectivamente?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "6"
+        "texto": "35 e 5 anos"
       },
       {
         "letra": "B",
-        "texto": "24"
+        "texto": "38 e 8 anos"
       },
       {
         "letra": "C",
-        "texto": "12"
+        "texto": "41 e 8 anos"
+      },
+      {
+        "letra": "D",
+        "texto": "38 e 5 anos"
+      },
+      {
+        "letra": "E",
+        "texto": "39 e 5 anos"
+      }
+    ],
+    "correta": "B",
+    "explicacao": "Basta somar 3 anos à idade atual de cada um: pai = 35 + 3 = 38; filho = 5 + 3 = 8."
+  },
+  {
+    "id": "logica-ined-0235",
+    "categoriaId": "logica",
+    "subtopico": "Problemas de Raciocínio",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Hoje, um pai tem 42 anos e seu filho tem 15 anos. Daqui a 4 anos, quais serão as idades do pai e do filho, respectivamente?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "42 e 15 anos"
+      },
+      {
+        "letra": "B",
+        "texto": "47 e 15 anos"
+      },
+      {
+        "letra": "C",
+        "texto": "50 e 19 anos"
+      },
+      {
+        "letra": "D",
+        "texto": "46 e 15 anos"
+      },
+      {
+        "letra": "E",
+        "texto": "46 e 19 anos"
+      }
+    ],
+    "correta": "E",
+    "explicacao": "Basta somar 4 anos à idade atual de cada um: pai = 42 + 4 = 46; filho = 15 + 4 = 19."
+  },
+  {
+    "id": "logica-ined-0236",
+    "categoriaId": "logica",
+    "subtopico": "Problemas de Raciocínio",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Hoje, um pai tem 42 anos e seu filho tem 19 anos. Daqui a 8 anos, quais serão as idades do pai e do filho, respectivamente?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "42 e 19 anos"
+      },
+      {
+        "letra": "B",
+        "texto": "51 e 19 anos"
+      },
+      {
+        "letra": "C",
+        "texto": "50 e 19 anos"
+      },
+      {
+        "letra": "D",
+        "texto": "58 e 27 anos"
+      },
+      {
+        "letra": "E",
+        "texto": "50 e 27 anos"
+      }
+    ],
+    "correta": "E",
+    "explicacao": "Basta somar 8 anos à idade atual de cada um: pai = 42 + 8 = 50; filho = 19 + 8 = 27."
+  },
+  {
+    "id": "logica-ined-0237",
+    "categoriaId": "logica",
+    "subtopico": "Sequências e Padrões",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Observe o padrão de formação da sequência 2, 6, 11, 17, 24. As diferenças entre termos consecutivos são 4, 5, 6, 7, ou seja, aumentam de 1 em 1. Qual é o próximo termo?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "33"
+      },
+      {
+        "letra": "B",
+        "texto": "31"
+      },
+      {
+        "letra": "C",
+        "texto": "32"
+      },
+      {
+        "letra": "D",
+        "texto": "48"
+      },
+      {
+        "letra": "E",
+        "texto": "28"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "As diferenças entre termos consecutivos são 4, 5, 6, 7 — uma PA de razão 1. A próxima diferença é 8, logo o próximo termo é 24 + 8 = 32."
+  },
+  {
+    "id": "logica-ined-0238",
+    "categoriaId": "logica",
+    "subtopico": "Sequências e Padrões",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Na sequência 5, 8, 15, 26, 41, a diferença entre cada termo e o termo anterior cresce sempre 4 unidade(s). Mantendo esse padrão, qual é o próximo termo?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "64"
+      },
+      {
+        "letra": "B",
+        "texto": "56"
+      },
+      {
+        "letra": "C",
+        "texto": "60"
+      },
+      {
+        "letra": "D",
+        "texto": "44"
+      },
+      {
+        "letra": "E",
+        "texto": "82"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "As diferenças entre termos consecutivos são 3, 7, 11, 15 — uma PA de razão 4. A próxima diferença é 19, logo o próximo termo é 41 + 19 = 60."
+  },
+  {
+    "id": "logica-ined-0239",
+    "categoriaId": "logica",
+    "subtopico": "Sequências e Padrões",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Em uma sequência numérica, cada termo, a partir do terceiro, é igual à soma dos dois termos imediatamente anteriores. Os cinco primeiros termos são 3, 6, 9, 15, 24. Qual é o sexto termo dessa sequência?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "39"
+      },
+      {
+        "letra": "B",
+        "texto": "30"
+      },
+      {
+        "letra": "C",
+        "texto": "57"
+      },
+      {
+        "letra": "D",
+        "texto": "33"
+      },
+      {
+        "letra": "E",
+        "texto": "48"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "O sexto termo é a soma do quarto com o quinto termos: 15 + 24 = 39."
+  },
+  {
+    "id": "logica-ined-0240",
+    "categoriaId": "logica",
+    "subtopico": "Problemas de Raciocínio",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Pensei em um número natural, multipliquei-o por 2 e somei 12 ao resultado, obtendo 26. Em que número pensei?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "7"
+      },
+      {
+        "letra": "B",
+        "texto": "28"
+      },
+      {
+        "letra": "C",
+        "texto": "26"
+      },
+      {
+        "letra": "D",
+        "texto": "14"
+      },
+      {
+        "letra": "E",
+        "texto": "19"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "Desfazendo as operações de trás para frente: 26 − 12 = 14; em seguida 14 ÷ 2 = 7."
+  },
+  {
+    "id": "logica-ined-0241",
+    "categoriaId": "logica",
+    "subtopico": "Problemas de Raciocínio",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Pensei em um número, multipliquei-o por 2 e subtraí 10 do resultado, chegando a 28. Qual é o número em que pensei?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "38"
+      },
+      {
+        "letra": "B",
+        "texto": "28"
+      },
+      {
+        "letra": "C",
+        "texto": "18"
+      },
+      {
+        "letra": "D",
+        "texto": "19"
+      },
+      {
+        "letra": "E",
+        "texto": "76"
+      }
+    ],
+    "correta": "D",
+    "explicacao": "Desfazendo de trás para frente: 28 + 10 = 38; depois 38 ÷ 2 = 19."
+  },
+  {
+    "id": "logica-ined-0242",
+    "categoriaId": "logica",
+    "subtopico": "Problemas de Raciocínio",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Pensei em um número, somei 3 a ele, multipliquei o total por 4 e, do produto, subtraí 6, chegando a 98. Qual é o número pensado?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "101"
+      },
+      {
+        "letra": "B",
+        "texto": "104"
+      },
+      {
+        "letra": "C",
+        "texto": "29"
+      },
+      {
+        "letra": "D",
+        "texto": "26"
+      },
+      {
+        "letra": "E",
+        "texto": "23"
+      }
+    ],
+    "correta": "E",
+    "explicacao": "Desfazendo de trás para frente: 98 + 6 = 104; 104 ÷ 4 = 26; 26 − 3 = 23."
+  },
+  {
+    "id": "logica-ined-0243",
+    "categoriaId": "logica",
+    "subtopico": "Problemas de Raciocínio",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Em um torneio de futebol com 7 equipes, cada equipe joga uma única vez contra cada uma das outras. Quantas partidas são disputadas ao todo?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "49"
+      },
+      {
+        "letra": "B",
+        "texto": "21"
+      },
+      {
+        "letra": "C",
+        "texto": "6"
       },
       {
         "letra": "D",
@@ -333,165 +435,29 @@
       },
       {
         "letra": "E",
-        "texto": "34"
+        "texto": "42"
       }
     ],
-    "correta": "A",
-    "explicacao": "Desfazendo as operações de trás para frente: 34 − 22 = 12; em seguida 12 ÷ 2 = 6."
+    "correta": "B",
+    "explicacao": "Cada partida corresponde a um par de equipes distintas: C(7, 2) = 7·6/2 = 21."
   },
   {
-    "id": "logica-ined-0226",
+    "id": "logica-ined-0244",
     "categoriaId": "logica",
     "subtopico": "Problemas de Raciocínio",
     "dificuldade": "medio",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Pensei em um número, multipliquei-o por 5 e subtraí 9 do resultado, chegando a 41. Qual é o número em que pensei?",
+    "enunciado": "Em um torneio de futsal com 10 equipes, cada equipe joga uma única vez contra cada uma das outras. Quantas partidas são disputadas ao todo?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "32"
+        "texto": "100"
       },
       {
         "letra": "B",
-        "texto": "41"
-      },
-      {
-        "letra": "C",
-        "texto": "50"
-      },
-      {
-        "letra": "D",
-        "texto": "10"
-      },
-      {
-        "letra": "E",
-        "texto": "250"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "Desfazendo de trás para frente: 41 + 9 = 50; depois 50 ÷ 5 = 10."
-  },
-  {
-    "id": "logica-ined-0227",
-    "categoriaId": "logica",
-    "subtopico": "Problemas de Raciocínio",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Pensei em um número, somei 4 a ele, multipliquei o total por 4 e, do produto, subtraí 11, chegando a 45. Qual é o número pensado?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "52"
-      },
-      {
-        "letra": "B",
-        "texto": "10"
-      },
-      {
-        "letra": "C",
-        "texto": "56"
-      },
-      {
-        "letra": "D",
-        "texto": "18"
-      },
-      {
-        "letra": "E",
-        "texto": "14"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "Desfazendo de trás para frente: 45 + 11 = 56; 56 ÷ 4 = 14; 14 − 4 = 10."
-  },
-  {
-    "id": "logica-ined-0228",
-    "categoriaId": "logica",
-    "subtopico": "Problemas de Raciocínio",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Em um torneio de handebol com 5 equipes, cada equipe joga uma única vez contra cada uma das outras. Quantas partidas são disputadas ao todo?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "20"
-      },
-      {
-        "letra": "B",
-        "texto": "10"
-      },
-      {
-        "letra": "C",
-        "texto": "4"
-      },
-      {
-        "letra": "D",
-        "texto": "25"
-      },
-      {
-        "letra": "E",
-        "texto": "15"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "Cada partida corresponde a um par de equipes distintas: C(5, 2) = 5·4/2 = 10."
-  },
-  {
-    "id": "logica-ined-0229",
-    "categoriaId": "logica",
-    "subtopico": "Problemas de Raciocínio",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Em um torneio de basquete com 9 equipes, cada equipe joga uma única vez contra cada uma das outras. Quantas partidas são disputadas ao todo?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "36"
-      },
-      {
-        "letra": "B",
-        "texto": "8"
-      },
-      {
-        "letra": "C",
-        "texto": "81"
-      },
-      {
-        "letra": "D",
-        "texto": "72"
-      },
-      {
-        "letra": "E",
         "texto": "45"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "Cada partida corresponde a um par de equipes distintas: C(9, 2) = 9·8/2 = 36."
-  },
-  {
-    "id": "logica-ined-0230",
-    "categoriaId": "logica",
-    "subtopico": "Problemas de Raciocínio",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um campeonato de handebol tem 9 equipes e é disputado em turno e returno: cada equipe enfrenta cada uma das outras exatamente duas vezes. Quantas partidas serão disputadas no total?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "36"
-      },
-      {
-        "letra": "B",
-        "texto": "81"
       },
       {
         "letra": "C",
@@ -499,97 +465,97 @@
       },
       {
         "letra": "D",
-        "texto": "72"
+        "texto": "9"
       },
       {
         "letra": "E",
-        "texto": "16"
+        "texto": "55"
       }
     ],
-    "correta": "D",
-    "explicacao": "Em turno único haveria C(9, 2) = 9·8/2 = 36 partidas. Com turno e returno esse número dobra: 72."
+    "correta": "B",
+    "explicacao": "Cada partida corresponde a um par de equipes distintas: C(10, 2) = 10·9/2 = 45."
   },
   {
-    "id": "logica-ined-0231",
-    "categoriaId": "logica",
-    "subtopico": "Problemas de Raciocínio",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Hoje é sexta-feira e faltam exatamente 16 dias para uma consulta médica. Em que dia da semana esse evento vai ocorrer?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "terça-feira"
-      },
-      {
-        "letra": "B",
-        "texto": "quarta-feira"
-      },
-      {
-        "letra": "C",
-        "texto": "segunda-feira"
-      },
-      {
-        "letra": "D",
-        "texto": "domingo"
-      },
-      {
-        "letra": "E",
-        "texto": "sábado"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "Como os dias da semana se repetem em ciclos de 7, calcula-se o resto de 16 por 7: 16 = 7 · 2 + 2. Basta então avançar 2 dia(s) a partir de sexta-feira, chegando a domingo."
-  },
-  {
-    "id": "logica-ined-0232",
-    "categoriaId": "logica",
-    "subtopico": "Problemas de Raciocínio",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Hoje é quarta-feira e faltam exatamente 62 dias para a entrega de uma encomenda. Em que dia da semana esse evento vai ocorrer?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "quarta-feira"
-      },
-      {
-        "letra": "B",
-        "texto": "segunda-feira"
-      },
-      {
-        "letra": "C",
-        "texto": "terça-feira"
-      },
-      {
-        "letra": "D",
-        "texto": "sábado"
-      },
-      {
-        "letra": "E",
-        "texto": "quinta-feira"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "Como os dias da semana se repetem em ciclos de 7, calcula-se o resto de 62 por 7: 62 = 7 · 8 + 6. Basta então avançar 6 dia(s) a partir de quarta-feira, chegando a terça-feira."
-  },
-  {
-    "id": "logica-ined-0233",
+    "id": "logica-ined-0245",
     "categoriaId": "logica",
     "subtopico": "Problemas de Raciocínio",
     "dificuldade": "dificil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Hoje é quarta-feira e faltam exatamente 323 dias para a entrega de uma encomenda. Em que dia da semana esse evento vai ocorrer?",
+    "enunciado": "Um campeonato de handebol tem 10 equipes e é disputado em turno e returno: cada equipe enfrenta cada uma das outras exatamente duas vezes. Quantas partidas serão disputadas no total?",
     "alternativas": [
       {
         "letra": "A",
+        "texto": "100"
+      },
+      {
+        "letra": "B",
+        "texto": "110"
+      },
+      {
+        "letra": "C",
+        "texto": "18"
+      },
+      {
+        "letra": "D",
+        "texto": "45"
+      },
+      {
+        "letra": "E",
+        "texto": "90"
+      }
+    ],
+    "correta": "E",
+    "explicacao": "Em turno único haveria C(10, 2) = 10·9/2 = 45 partidas. Com turno e returno esse número dobra: 90."
+  },
+  {
+    "id": "logica-ined-0246",
+    "categoriaId": "logica",
+    "subtopico": "Problemas de Raciocínio",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Hoje é quinta-feira e faltam exatamente 15 dias para a entrega de uma encomenda. Em que dia da semana esse evento vai ocorrer?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "quarta-feira"
+      },
+      {
+        "letra": "B",
         "texto": "segunda-feira"
+      },
+      {
+        "letra": "C",
+        "texto": "sábado"
+      },
+      {
+        "letra": "D",
+        "texto": "quinta-feira"
+      },
+      {
+        "letra": "E",
+        "texto": "sexta-feira"
+      }
+    ],
+    "correta": "E",
+    "explicacao": "Como os dias da semana se repetem em ciclos de 7, calcula-se o resto de 15 por 7: 15 = 7 · 2 + 1. Basta então avançar 1 dia(s) a partir de quinta-feira, chegando a sexta-feira."
+  },
+  {
+    "id": "logica-ined-0247",
+    "categoriaId": "logica",
+    "subtopico": "Problemas de Raciocínio",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Hoje é quinta-feira e faltam exatamente 75 dias para a entrega de uma encomenda. Em que dia da semana esse evento vai ocorrer?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "sábado"
       },
       {
         "letra": "B",
@@ -597,192 +563,226 @@
       },
       {
         "letra": "C",
-        "texto": "terça-feira"
+        "texto": "segunda-feira"
       },
       {
         "letra": "D",
-        "texto": "quinta-feira"
+        "texto": "quarta-feira"
       },
       {
         "letra": "E",
-        "texto": "quarta-feira"
+        "texto": "terça-feira"
       }
     ],
-    "correta": "D",
-    "explicacao": "Como os dias da semana se repetem em ciclos de 7, calcula-se o resto de 323 por 7: 323 = 7 · 46 + 1. Basta então avançar 1 dia(s) a partir de quarta-feira, chegando a quinta-feira."
+    "correta": "E",
+    "explicacao": "Como os dias da semana se repetem em ciclos de 7, calcula-se o resto de 75 por 7: 75 = 7 · 10 + 5. Basta então avançar 5 dia(s) a partir de quinta-feira, chegando a terça-feira."
   },
   {
-    "id": "logica-ined-0234",
+    "id": "logica-ined-0248",
+    "categoriaId": "logica",
+    "subtopico": "Problemas de Raciocínio",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Hoje é sexta-feira e faltam exatamente 397 dias para a entrega de uma encomenda. Em que dia da semana esse evento vai ocorrer?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "terça-feira"
+      },
+      {
+        "letra": "B",
+        "texto": "quarta-feira"
+      },
+      {
+        "letra": "C",
+        "texto": "quinta-feira"
+      },
+      {
+        "letra": "D",
+        "texto": "sexta-feira"
+      },
+      {
+        "letra": "E",
+        "texto": "domingo"
+      }
+    ],
+    "correta": "B",
+    "explicacao": "Como os dias da semana se repetem em ciclos de 7, calcula-se o resto de 397 por 7: 397 = 7 · 56 + 5. Basta então avançar 5 dia(s) a partir de sexta-feira, chegando a quarta-feira."
+  },
+  {
+    "id": "logica-ined-0249",
     "categoriaId": "logica",
     "subtopico": "Proposições Lógicas",
     "dificuldade": "facil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Considere a afirmação: \"Todos as casas do condomínio têm garagem.\" Qual das alternativas é a negação correta dessa afirmação?",
+    "enunciado": "Considere a afirmação: \"Todos os funcionários do setor cumpriram a meta.\" Qual das alternativas é a negação correta dessa afirmação?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "Nenhum casa do condomínio não tem garagem."
+        "texto": "Nenhum funcionário do setor cumpriu a meta."
       },
       {
         "letra": "B",
-        "texto": "Pelo menos um casa do condomínio não tem garagem."
+        "texto": "Pelo menos um funcionário do setor cumpriu a meta."
       },
       {
         "letra": "C",
-        "texto": "Nenhum casa do condomínio tem garagem."
+        "texto": "Todos os funcionários do setor não cumpriram a meta."
       },
       {
         "letra": "D",
-        "texto": "Todos as casas do condomínio não têm garagem."
+        "texto": "Nenhum funcionário do setor não cumpriu a meta."
       },
       {
         "letra": "E",
-        "texto": "Pelo menos um casa do condomínio tem garagem."
+        "texto": "Pelo menos um funcionário do setor não cumpriu a meta."
       }
     ],
-    "correta": "B",
+    "correta": "E",
     "explicacao": "A negação de \"todo A tem a propriedade P\" é \"existe pelo menos um A que não tem P\". Um único contraexemplo já torna a afirmação original falsa — não é preciso que nenhum A tenha a propriedade."
   },
   {
-    "id": "logica-ined-0235",
+    "id": "logica-ined-0250",
     "categoriaId": "logica",
     "subtopico": "Proposições Lógicas",
     "dificuldade": "medio",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Considere a afirmação: \"Algum aluno da turma foi à excursão.\" Qual das alternativas é a negação correta dessa afirmação?",
+    "enunciado": "Considere a afirmação: \"Algum loja do shopping abre aos domingos.\" Qual das alternativas é a negação correta dessa afirmação?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "Nem todos os alunos da turma foram à excursão."
+        "texto": "Nenhum loja do shopping abre aos domingos."
       },
       {
         "letra": "B",
-        "texto": "Algum aluno da turma não foi à excursão."
+        "texto": "Existe exatamente um loja do shopping que abre aos domingos."
       },
       {
         "letra": "C",
-        "texto": "Existe exatamente um aluno da turma que foi à excursão."
+        "texto": "Algum loja do shopping não abre aos domingos."
       },
       {
         "letra": "D",
-        "texto": "Nenhum aluno da turma foi à excursão."
+        "texto": "Nem todos as lojas do shopping abrem aos domingos."
       },
       {
         "letra": "E",
-        "texto": "Todos os alunos da turma foram à excursão."
+        "texto": "Todos as lojas do shopping abrem aos domingos."
       }
     ],
-    "correta": "D",
+    "correta": "A",
     "explicacao": "\"Algum A é B\" afirma que existe ao menos um caso. Negá-la exige dizer que não existe nenhum: \"nenhum A é B\". Apenas negar o predicado (\"algum A não é B\") ou trocar por \"todos\" não nega a afirmação original."
   },
   {
-    "id": "logica-ined-0236",
+    "id": "logica-ined-0251",
     "categoriaId": "logica",
     "subtopico": "Proposições Lógicas",
     "dificuldade": "dificil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Considere a afirmação: \"O time venceu a partida e o técnico foi premiado.\" Qual das alternativas é a negação correta dessa afirmação?",
+    "enunciado": "Considere a afirmação: \"João foi aprovado no vestibular e ganhou a bolsa de estudos.\" Qual das alternativas é a negação correta dessa afirmação?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "O time não venceu a partida ou o técnico não foi premiado."
+        "texto": "João foi aprovado no vestibular ou não ganhou a bolsa de estudos."
       },
       {
         "letra": "B",
-        "texto": "O time venceu a partida ou o técnico não foi premiado."
+        "texto": "João foi aprovado no vestibular ou ganhou a bolsa de estudos."
       },
       {
         "letra": "C",
-        "texto": "O time não venceu a partida e o técnico não foi premiado."
+        "texto": "João não foi aprovado no vestibular e não ganhou a bolsa de estudos."
       },
       {
         "letra": "D",
-        "texto": "O time não venceu a partida ou o técnico foi premiado."
+        "texto": "João não foi aprovado no vestibular ou ganhou a bolsa de estudos."
       },
       {
         "letra": "E",
-        "texto": "O time venceu a partida ou o técnico foi premiado."
+        "texto": "João não foi aprovado no vestibular ou não ganhou a bolsa de estudos."
       }
     ],
-    "correta": "A",
+    "correta": "E",
     "explicacao": "Pela lei de De Morgan, a negação de \"p e q\" é \"não p ou não q\": basta que uma das duas partes falhe. Manter o conectivo \"e\" ao negar, ou negar apenas um dos termos, produz afirmações diferentes."
   },
   {
-    "id": "logica-ined-0237",
+    "id": "logica-ined-0252",
     "categoriaId": "logica",
     "subtopico": "Proposições Lógicas",
     "dificuldade": "facil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Considere a proposição condicional: \"Se chove, então a rua fica molhada.\" Qual das alternativas é a sua contrapositiva (proposição logicamente equivalente)?",
+    "enunciado": "Considere a proposição condicional: \"Se a lâmpada está acesa, então há energia elétrica na casa.\" Qual das alternativas é a sua contrapositiva (proposição logicamente equivalente)?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "Se chove, então a rua fica molhada."
+        "texto": "Se a lâmpada está acesa, então há energia elétrica na casa."
       },
       {
         "letra": "B",
-        "texto": "Se a rua fica molhada, então chove."
+        "texto": "Se a lâmpada não está acesa, então não há energia elétrica na casa."
       },
       {
         "letra": "C",
-        "texto": "Se não chove, então a rua não fica molhada."
+        "texto": "Se não há energia elétrica na casa, então a lâmpada não está acesa."
       },
       {
         "letra": "D",
-        "texto": "Se a rua não fica molhada, então não chove."
+        "texto": "A lâmpada está acesa e não há energia elétrica na casa."
       },
       {
         "letra": "E",
-        "texto": "Chove e a rua não fica molhada."
+        "texto": "Se há energia elétrica na casa, então a lâmpada está acesa."
       }
     ],
-    "correta": "D",
-    "explicacao": "A contrapositiva de \"se p, então q\" é \"se não q, então não p\", sempre equivalente à original: \"Se a rua não fica molhada, então não chove.\". A recíproca (\"se q, então p\") e a inversa (\"se não p, então não q\") não são equivalentes à condicional dada."
+    "correta": "C",
+    "explicacao": "A contrapositiva de \"se p, então q\" é \"se não q, então não p\", sempre equivalente à original: \"Se não há energia elétrica na casa, então a lâmpada não está acesa.\". A recíproca (\"se q, então p\") e a inversa (\"se não p, então não q\") não são equivalentes à condicional dada."
   },
   {
-    "id": "logica-ined-0238",
+    "id": "logica-ined-0253",
     "categoriaId": "logica",
     "subtopico": "Proposições Lógicas",
     "dificuldade": "medio",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Uma proposição \"se p, então q\" é sempre equivalente à sua contrapositiva \"se não q, então não p\". Qual é a contrapositiva da proposição \"Se o polígono é um quadrado, então o polígono tem quatro lados.\"?",
+    "enunciado": "Uma proposição \"se p, então q\" é sempre equivalente à sua contrapositiva \"se não q, então não p\". Qual é a contrapositiva da proposição \"Se a lâmpada está acesa, então há energia elétrica na casa.\"?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "Se o polígono não é um quadrado, então o polígono não tem quatro lados."
+        "texto": "A lâmpada está acesa e não há energia elétrica na casa."
       },
       {
         "letra": "B",
-        "texto": "Se o polígono não tem quatro lados, então o polígono não é um quadrado."
+        "texto": "Se não há energia elétrica na casa, então a lâmpada não está acesa."
       },
       {
         "letra": "C",
-        "texto": "O polígono é um quadrado e o polígono não tem quatro lados."
+        "texto": "Se a lâmpada está acesa, então há energia elétrica na casa."
       },
       {
         "letra": "D",
-        "texto": "Se o polígono é um quadrado, então o polígono tem quatro lados."
+        "texto": "Se há energia elétrica na casa, então a lâmpada está acesa."
       },
       {
         "letra": "E",
-        "texto": "Se o polígono tem quatro lados, então o polígono é um quadrado."
+        "texto": "Se a lâmpada não está acesa, então não há energia elétrica na casa."
       }
     ],
     "correta": "B",
-    "explicacao": "A contrapositiva de \"se p, então q\" é \"se não q, então não p\", sempre equivalente à original: \"Se o polígono não tem quatro lados, então o polígono não é um quadrado.\". A recíproca (\"se q, então p\") e a inversa (\"se não p, então não q\") não são equivalentes à condicional dada."
+    "explicacao": "A contrapositiva de \"se p, então q\" é \"se não q, então não p\", sempre equivalente à original: \"Se não há energia elétrica na casa, então a lâmpada não está acesa.\". A recíproca (\"se q, então p\") e a inversa (\"se não p, então não q\") não são equivalentes à condicional dada."
   },
   {
-    "id": "logica-ined-0239",
+    "id": "logica-ined-0254",
     "categoriaId": "logica",
     "subtopico": "Proposições Lógicas",
     "dificuldade": "dificil",
@@ -797,11 +797,11 @@
       },
       {
         "letra": "B",
-        "texto": "Se a rua fica molhada, então chove."
+        "texto": "Se a rua não fica molhada, então não chove."
       },
       {
         "letra": "C",
-        "texto": "Se a rua não fica molhada, então não chove."
+        "texto": "Se a rua fica molhada, então chove."
       },
       {
         "letra": "D",
@@ -812,56 +812,56 @@
         "texto": "Chove e a rua não fica molhada."
       }
     ],
-    "correta": "C",
+    "correta": "B",
     "explicacao": "A contrapositiva de \"se p, então q\" é \"se não q, então não p\", sempre equivalente à original: \"Se a rua não fica molhada, então não chove.\". A recíproca (\"se q, então p\") e a inversa (\"se não p, então não q\") não são equivalentes à condicional dada."
   },
   {
-    "id": "logica-ined-0240",
+    "id": "logica-ined-0255",
     "categoriaId": "logica",
     "subtopico": "Problemas de Raciocínio",
     "dificuldade": "facil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "4 amigos foram comparados dois a dois. Sabe-se que: Ana tirou uma nota maior que Elisa; Hugo tirou uma nota maior que Ana; Fábio tirou uma nota maior que Hugo. Qual é a ordenação correta, da maior para a menor nota?",
+    "enunciado": "4 amigos foram comparados dois a dois. Sabe-se que: Hugo tem mais altura que Gabi; Gabi tem mais altura que Bruno; Carla tem mais altura que Hugo. Qual é a ordenação correta, da maior para a menor altura?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "Elisa, Ana, Hugo, Fábio"
+        "texto": "Bruno, Gabi, Hugo, Carla"
       },
       {
         "letra": "B",
-        "texto": "Hugo, Ana, Elisa, Fábio"
+        "texto": "Hugo, Gabi, Bruno, Carla"
       },
       {
         "letra": "C",
-        "texto": "Hugo, Fábio, Ana, Elisa"
+        "texto": "Carla, Hugo, Gabi, Bruno"
       },
       {
         "letra": "D",
-        "texto": "Fábio, Hugo, Ana, Elisa"
+        "texto": "Carla, Hugo, Bruno, Gabi"
       },
       {
         "letra": "E",
-        "texto": "Fábio, Hugo, Elisa, Ana"
+        "texto": "Hugo, Carla, Gabi, Bruno"
       }
     ],
-    "correta": "D",
-    "explicacao": "Encadeando todas as comparações, obtém-se: Fábio > Hugo > Ana > Elisa. Essa é a ordem da maior para a menor nota."
+    "correta": "C",
+    "explicacao": "Encadeando todas as comparações, obtém-se: Carla > Hugo > Gabi > Bruno. Essa é a ordem da maior para a menor altura."
   },
   {
-    "id": "logica-ined-0241",
+    "id": "logica-ined-0256",
     "categoriaId": "logica",
     "subtopico": "Problemas de Raciocínio",
     "dificuldade": "medio",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Em um grupo de 5 pessoas, sabe-se que: Ana tem mais idade que Hugo; Diego tem mais idade que Elisa; Bruno tem mais idade que Diego; Elisa tem mais idade que Ana. Colocando-as em ordem, da maior para a menor idade, quem ocupa a 3ª posição?",
+    "enunciado": "Em um grupo de 5 pessoas, sabe-se que: Fábio tirou uma nota maior que Diego; Carla tirou uma nota maior que Fábio; Gabi tirou uma nota maior que Hugo; Hugo tirou uma nota maior que Carla. Colocando-as em ordem, da maior para a menor nota, quem ocupa a 3ª posição?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "Hugo"
+        "texto": "Fábio"
       },
       {
         "letra": "B",
@@ -869,52 +869,52 @@
       },
       {
         "letra": "C",
-        "texto": "Bruno"
+        "texto": "Carla"
       },
       {
         "letra": "D",
-        "texto": "Elisa"
+        "texto": "Hugo"
       },
       {
         "letra": "E",
-        "texto": "Ana"
+        "texto": "Gabi"
       }
     ],
-    "correta": "D",
-    "explicacao": "Encadeando as comparações: Bruno > Diego > Elisa > Ana > Hugo. Na ordem da maior para a menor idade, a 3ª posição é de Elisa."
+    "correta": "C",
+    "explicacao": "Encadeando as comparações: Gabi > Hugo > Carla > Fábio > Diego. Na ordem da maior para a menor nota, a 3ª posição é de Carla."
   },
   {
-    "id": "logica-ined-0242",
+    "id": "logica-ined-0257",
     "categoriaId": "logica",
     "subtopico": "Problemas de Raciocínio",
     "dificuldade": "dificil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "5 amigos foram comparados dois a dois. Sabe-se que: Fábio tem mais altura que Elisa; Ana tem mais altura que Hugo; Elisa tem mais altura que Ana; Bruno tem mais altura que Fábio. Qual é a ordenação correta, da maior para a menor altura?",
+    "enunciado": "5 amigos foram comparados dois a dois. Sabe-se que: Ana tem mais idade que Carla; Hugo tem mais idade que Elisa; Carla tem mais idade que Hugo; Elisa tem mais idade que Gabi. Qual é a ordenação correta, da maior para a menor idade?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "Hugo, Ana, Elisa, Fábio, Bruno"
+        "texto": "Ana, Carla, Hugo, Gabi, Elisa"
       },
       {
         "letra": "B",
-        "texto": "Bruno, Fábio, Elisa, Hugo, Ana"
+        "texto": "Carla, Ana, Hugo, Elisa, Gabi"
       },
       {
         "letra": "C",
-        "texto": "Bruno, Fábio, Elisa, Ana, Hugo"
+        "texto": "Ana, Carla, Hugo, Elisa, Gabi"
       },
       {
         "letra": "D",
-        "texto": "Fábio, Elisa, Ana, Hugo, Bruno"
+        "texto": "Gabi, Elisa, Hugo, Carla, Ana"
       },
       {
         "letra": "E",
-        "texto": "Fábio, Bruno, Elisa, Ana, Hugo"
+        "texto": "Carla, Hugo, Elisa, Gabi, Ana"
       }
     ],
     "correta": "C",
-    "explicacao": "Encadeando todas as comparações, obtém-se: Bruno > Fábio > Elisa > Ana > Hugo. Essa é a ordem da maior para a menor altura."
+    "explicacao": "Encadeando todas as comparações, obtém-se: Ana > Carla > Hugo > Elisa > Gabi. Essa é a ordem da maior para a menor idade."
   }
 ]

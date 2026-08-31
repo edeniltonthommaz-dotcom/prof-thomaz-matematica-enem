@@ -1932,6 +1932,386 @@ function probSucessiva(dificuldade) {
   });
 }
 
+// --- Probabilidade: +6 moldes (Fase 7 parte 2) ---
+function _probFr(n, d) {
+  const g = gcd(n, d);
+  return `${n / g}/${d / g}`;
+}
+
+function probComReposicao(dificuldade, tentativa = 0) {
+  const bases = [[1, 3], [1, 4], [1, 5], [2, 5], [2, 7], [3, 7]];
+  const [bn, bd] = pick(bases);
+  const k = dificuldade === "facil" ? 2 : dificuldade === "medio" ? 3 : pick([2, 3, 4]);
+  const a = bn * k;
+  const n = bd * k;
+  const correctText = _probFr(bn * bn, bd * bd);
+  const contextos = [
+    ["bola", "bolas", "verde", "verdes"],
+    ["ficha", "fichas", "vermelha", "vermelhas"],
+    ["esfera", "esferas", "amarela", "amarelas"],
+    ["peça", "peças", "preta", "pretas"],
+  ];
+  const [sing, plur, corS, corP] = pick(contextos);
+  const distractorTexts = [
+    _probFr(bn, bd), // esqueceu de elevar ao quadrado (probabilidade de uma só retirada)
+    _probFr(a * (a - 1), n * (n - 1)), // calculou como se fosse sem reposição
+    _probFr(2 * bn, bd), // somou as probabilidades em vez de multiplicar
+    _probFr(a, n * n), // 1 caso favorável sobre todos os pares ordenados
+  ];
+  if (new Set([correctText, ...distractorTexts]).size < 5 && tentativa < 40)
+    return probComReposicao(dificuldade, tentativa + 1);
+  const enunciado =
+    dificuldade === "dificil"
+      ? `Uma máquina sorteia ${plur}, ao acaso e com reposição, de uma caixa que contém ${n} delas, sendo ${a} ${corP}. Em dois sorteios consecutivos, qual é a probabilidade de sair uma ${sing} ${corS} nas duas vezes?`
+      : `Uma urna contém ${n} ${plur}, das quais ${a} são ${corP}. Retira-se uma ${sing} ao acaso, observa-se sua cor e recoloca-se na urna; em seguida, retira-se outra ${sing}. Qual é a probabilidade de que ambas as retiradas resultem em ${plur} ${corP}?`;
+  return makeQuestao({
+    categoriaId: "probabilidade",
+    subtopico: "Eventos Sucessivos",
+    dificuldade,
+    enunciado,
+    correctText,
+    distractorTexts,
+    explicacao: `Com reposição, as duas retiradas são independentes e cada uma tem probabilidade ${a}/${n} = ${bn}/${bd} de resultar em ${sing} ${corS}. Logo P = (${bn}/${bd}) × (${bn}/${bd}) = ${correctText}.`,
+  });
+}
+
+function probComplementar(dificuldade, tentativa = 0) {
+  const bases = [[1, 3], [2, 3], [1, 4], [3, 4], [1, 5], [2, 5], [3, 5], [4, 5]];
+  const [pn, pd] = pick(bases); // p = probabilidade de o evento desfavorável ocorrer numa tentativa
+  const k = dificuldade === "facil" ? 2 : dificuldade === "medio" ? 3 : pick([3, 4]);
+  const pkN = Math.pow(pn, k);
+  const pkD = Math.pow(pd, k);
+  const correctText = _probFr(pkD - pkN, pkD);
+  const contextos = [
+    ["um jogo de tiro ao alvo", "errar o alvo", "disparos", "acertar o alvo pelo menos uma vez"],
+    ["uma máquina de arcade", "não liberar o prêmio", "tentativas", "liberar o prêmio ao menos uma vez"],
+    ["um controle de qualidade", "não identificar o defeito", "inspeções", "identificar o defeito ao menos uma vez"],
+    ["um sorteio de brindes", "não contemplar o cliente", "cupons", "o cliente ser contemplado ao menos uma vez"],
+  ];
+  const [cenario, ruim, unidade, objetivo] = pick(contextos);
+  const distractorTexts = [
+    _probFr(pkN, pkD), // esqueceu de subtrair de 1 (deu a probabilidade de falhar em todas)
+    _probFr(pd - pn, pd), // usou apenas uma tentativa
+    _probFr(Math.pow(pd - pn, k), pkD), // probabilidade de ter sucesso em TODAS as k tentativas
+    _probFr(k * (pd - pn) * Math.pow(pn, k - 1), pkD), // probabilidade de exatamente um sucesso
+  ];
+  if (new Set([correctText, ...distractorTexts]).size < 5 && tentativa < 40)
+    return probComplementar(dificuldade, tentativa + 1);
+  const enunciado =
+    dificuldade === "dificil"
+      ? `Um equipamento possui ${k} dispositivos de segurança que funcionam de forma independente. Cada dispositivo deixa de acionar com probabilidade ${pn}/${pd}. O equipamento fica protegido se pelo menos um dispositivo acionar. Qual é a probabilidade de o equipamento ficar protegido?`
+      : `Em ${cenario}, a probabilidade de ${ruim} em cada tentativa é ${pn}/${pd}, de forma independente. Fazendo-se ${k} ${unidade}, qual é a probabilidade de ${objetivo}?`;
+  const explicacao =
+    dificuldade === "dificil"
+      ? `P(pelo menos um aciona) = 1 − P(nenhum aciona). Como os dispositivos são independentes, P(nenhum aciona) = (${pn}/${pd})^${k} = ${pkN}/${pkD}. Logo P = 1 − ${pkN}/${pkD} = ${correctText}.`
+      : `P(${objetivo}) = 1 − P(o evento desfavorável ocorrer nas ${k} tentativas). Sendo as tentativas independentes, P(desfavorável em todas) = (${pn}/${pd})^${k} = ${pkN}/${pkD}. Portanto P = 1 − ${pkN}/${pkD} = ${correctText}.`;
+  return makeQuestao({
+    categoriaId: "probabilidade",
+    subtopico: "Eventos Sucessivos",
+    dificuldade,
+    enunciado,
+    correctText,
+    distractorTexts,
+    explicacao,
+  });
+}
+
+function probUniaoExclusiva(dificuldade, tentativa = 0) {
+  const faces = [1, 2, 3, 4, 5, 6];
+  if (dificuldade === "dificil") {
+    const N = pick([10, 12, 15, 20]);
+    const m = pick([3, 4, 5]);
+    let k = randInt(1, N);
+    let guard = 0;
+    while (k % m === 0 && guard < 60) {
+      k = randInt(1, N);
+      guard++;
+    }
+    let favA = 0;
+    for (let x = 1; x <= N; x++) if (x % m === 0) favA++;
+    const fav = favA + 1;
+    const correctText = _probFr(fav, N);
+    const distractorTexts = [
+      _probFr(favA, N), // considerou só os múltiplos de m
+      _probFr(favA, N * N), // multiplicou P(múltiplo)·P(número k)
+      _probFr(fav, N - fav), // razão casos favoráveis : desfavoráveis
+      _probFr(N - fav, N), // probabilidade de NÃO ocorrer nenhum dos dois
+    ];
+    if (new Set([correctText, ...distractorTexts]).size < 5 && tentativa < 40)
+      return probUniaoExclusiva(dificuldade, tentativa + 1);
+    return makeQuestao({
+      categoriaId: "probabilidade",
+      subtopico: "Probabilidade Simples",
+      dificuldade,
+      enunciado: `Uma roleta é dividida em ${N} setores iguais, numerados de 1 a ${N}, e o ponteiro tem a mesma chance de parar em qualquer setor. Girando-a uma vez, qual é a probabilidade de o ponteiro parar em um número múltiplo de ${m} ou no número ${k}?`,
+      correctText,
+      distractorTexts,
+      explicacao: `Como ${k} não é múltiplo de ${m}, os dois eventos são mutuamente exclusivos. Entre 1 e ${N} há ${favA} múltiplos de ${m}, com probabilidade ${favA}/${N}; o número ${k} tem probabilidade 1/${N}. Logo P = ${favA}/${N} + 1/${N} = ${fav}/${N} = ${correctText}.`,
+    });
+  }
+  if (dificuldade === "facil") {
+    const f1 = randInt(1, 5);
+    const f2 = randInt(f1 + 1, 6);
+    let fav = 0;
+    for (const x of faces) if (x === f1 || x === f2) fav++;
+    const correctText = _probFr(fav, 6);
+    const distractorTexts = [
+      `1/6`, // considerou apenas uma das faces
+      `1/36`, // multiplicou P(f1)·P(f2) em vez de somar
+      _probFr(fav, 6 - fav), // razão casos favoráveis : desfavoráveis
+      _probFr(6 - fav, 6), // probabilidade de não sair nenhuma delas
+    ];
+    if (new Set([correctText, ...distractorTexts]).size < 5 && tentativa < 40)
+      return probUniaoExclusiva(dificuldade, tentativa + 1);
+    return makeQuestao({
+      categoriaId: "probabilidade",
+      subtopico: "Probabilidade Simples",
+      dificuldade,
+      enunciado: `Um dado comum e honesto é lançado uma única vez. Qual é a probabilidade de sair a face ${f1} ou a face ${f2}?`,
+      correctText,
+      distractorTexts,
+      explicacao: `Os eventos "sair ${f1}" e "sair ${f2}" são mutuamente exclusivos. Como P(sair ${f1}) = 1/6 e P(sair ${f2}) = 1/6, temos P = 1/6 + 1/6 = ${fav}/6 = ${correctText}.`,
+    });
+  }
+  const k = pick([1, 3, 5]);
+  let favPar = 0;
+  for (const x of faces) if (x % 2 === 0) favPar++;
+  const fav = favPar + 1;
+  const correctText = _probFr(fav, 6);
+  const distractorTexts = [
+    _probFr(favPar, 6), // considerou só os pares
+    `1/6`, // considerou só o número k
+    _probFr(favPar, 36), // multiplicou P(par)·P(k)
+    _probFr(6 - fav, 6), // probabilidade de não ocorrer
+  ];
+  if (new Set([correctText, ...distractorTexts]).size < 5 && tentativa < 40)
+    return probUniaoExclusiva(dificuldade, tentativa + 1);
+  return makeQuestao({
+    categoriaId: "probabilidade",
+    subtopico: "Probabilidade Simples",
+    dificuldade,
+    enunciado: `Um dado comum e honesto é lançado uma única vez. Qual é a probabilidade de o resultado ser um número par ou ser igual a ${k}?`,
+    correctText,
+    distractorTexts,
+    explicacao: `Como ${k} é ímpar, os eventos "sair par" e "sair ${k}" são mutuamente exclusivos. P(par) = 3/6 e P(${k}) = 1/6, então P = 3/6 + 1/6 = ${fav}/6 = ${correctText}.`,
+  });
+}
+
+function probDoisDados(dificuldade, tentativa = 0) {
+  const total = 36;
+  let alvo, testar, enunciado;
+  if (dificuldade === "facil") {
+    alvo = pick([5, 6, 8, 9]);
+    testar = (x, y) => x + y === alvo;
+    enunciado = `Dois dados comuns e honestos são lançados simultaneamente. Qual é a probabilidade de a soma dos pontos obtidos ser igual a ${alvo}?`;
+  } else if (dificuldade === "medio") {
+    alvo = pick([3, 4]);
+    testar = (x, y) => Math.max(x, y) === alvo;
+    enunciado = `Dois dados comuns e honestos são lançados ao mesmo tempo. Qual é a probabilidade de o maior dos dois valores obtidos ser igual a ${alvo}? (Quando os dois dados mostram o mesmo número, esse número é o maior valor.)`;
+  } else {
+    alvo = pick([9, 10]);
+    testar = (x, y) => x + y >= alvo;
+    enunciado = `No lançamento simultâneo de dois dados comuns e honestos, qual é a probabilidade de a soma dos pontos obtidos ser maior ou igual a ${alvo}?`;
+  }
+  let fav = 0;
+  let favNaoOrdenado = 0;
+  const pares = [];
+  for (let x = 1; x <= 6; x++) {
+    for (let y = 1; y <= 6; y++) {
+      if (testar(x, y)) {
+        fav++;
+        if (x <= y) {
+          favNaoOrdenado++;
+          pares.push(`(${x}, ${y})`);
+        }
+      }
+    }
+  }
+  const correctText = _probFr(fav, total);
+  const distractorTexts = [
+    _probFr(total - fav, total), // probabilidade do evento complementar
+    _probFr(favNaoOrdenado, total), // contou apenas os pares não ordenados
+    _probFr(fav, 12), // usou espaço amostral 6 + 6 = 12
+    _probFr(fav, total - fav), // razão casos favoráveis : desfavoráveis
+  ];
+  if (new Set([correctText, ...distractorTexts]).size < 5 && tentativa < 40)
+    return probDoisDados(dificuldade, tentativa + 1);
+  const criterio =
+    dificuldade === "medio"
+      ? `o maior valor é ${alvo}`
+      : dificuldade === "facil"
+        ? `a soma é ${alvo}`
+        : `a soma é maior ou igual a ${alvo}`;
+  return makeQuestao({
+    categoriaId: "probabilidade",
+    subtopico: "Probabilidade Simples",
+    dificuldade,
+    enunciado,
+    correctText,
+    distractorTexts,
+    explicacao: `Há 6 × 6 = 36 pares ordenados igualmente prováveis. Os casos (com x ≤ y) em que ${criterio}: ${pares.join(", ")}; contando também os pares simétricos, são ${fav} pares ordenados. Logo P = ${fav}/36 = ${correctText}.`,
+  });
+}
+
+function probBaralho(dificuldade, tentativa = 0) {
+  const naipes = ["copas", "espadas", "ouros", "paus"];
+  const deck = [];
+  for (const np of naipes) for (let v = 1; v <= 13; v++) deck.push({ naipe: np, valor: v });
+  if (dificuldade === "facil") {
+    const alvo = pick(naipes);
+    const fav = deck.filter((c) => c.naipe === alvo).length;
+    const correctText = _probFr(fav, 52);
+    const distractorTexts = [
+      `1/52`, // uma única carta
+      _probFr(4, 52), // número de naipes sobre o total
+      _probFr(fav, 52 - fav), // favoráveis : restantes
+      _probFr(12, 52), // confundiu naipe com figura
+    ];
+    if (new Set([correctText, ...distractorTexts]).size < 5 && tentativa < 40)
+      return probBaralho(dificuldade, tentativa + 1);
+    return makeQuestao({
+      categoriaId: "probabilidade",
+      subtopico: "Probabilidade Simples",
+      dificuldade,
+      enunciado: `De um baralho comum de 52 cartas (13 de cada naipe), retira-se uma carta ao acaso. Qual é a probabilidade de ela ser do naipe de ${alvo}?`,
+      correctText,
+      distractorTexts,
+      explicacao: `São 13 cartas de ${alvo} em 52. Logo P = 13/52 = ${correctText}.`,
+    });
+  }
+  if (dificuldade === "medio") {
+    const fav = deck.filter((c) => c.valor >= 11).length;
+    const correctText = _probFr(fav, 52);
+    const distractorTexts = [
+      _probFr(3, 52), // apenas as 3 figuras de um naipe
+      _probFr(4, 52), // apenas os 4 reis
+      _probFr(fav, 52 - fav), // favoráveis : restantes
+      _probFr(13, 52), // incluiu o ás entre as figuras
+    ];
+    if (new Set([correctText, ...distractorTexts]).size < 5 && tentativa < 40)
+      return probBaralho(dificuldade, tentativa + 1);
+    return makeQuestao({
+      categoriaId: "probabilidade",
+      subtopico: "Probabilidade Simples",
+      dificuldade,
+      enunciado: `De um baralho comum de 52 cartas, retira-se uma carta ao acaso. Qual é a probabilidade de ela ser uma figura, isto é, um valete, uma dama ou um rei?`,
+      correctText,
+      distractorTexts,
+      explicacao: `Cada naipe tem 3 figuras (valete, dama e rei), num total de 4 × 3 = 12 figuras em 52 cartas. Logo P = 12/52 = ${correctText}.`,
+    });
+  }
+  const favCopas = deck.filter((c) => c.naipe === "copas").length;
+  const favRei = deck.filter((c) => c.valor === 13).length;
+  const favInter = deck.filter((c) => c.naipe === "copas" && c.valor === 13).length;
+  const fav = favCopas + favRei - favInter;
+  const correctText = _probFr(fav, 52);
+  const distractorTexts = [
+    _probFr(favCopas + favRei, 52), // esqueceu de subtrair a carta contada duas vezes
+    _probFr(favCopas, 52), // considerou apenas copas
+    _probFr(favCopas * favRei, 52 * 52), // multiplicou P(copas)·P(rei)
+    _probFr(fav, 52 - fav), // favoráveis : restantes
+  ];
+  if (new Set([correctText, ...distractorTexts]).size < 5 && tentativa < 40)
+    return probBaralho(dificuldade, tentativa + 1);
+  return makeQuestao({
+    categoriaId: "probabilidade",
+    subtopico: "Probabilidade Simples",
+    dificuldade,
+    enunciado: `De um baralho comum de 52 cartas, retira-se uma carta ao acaso. Qual é a probabilidade de ela ser uma carta de copas ou ser um rei?`,
+    correctText,
+    distractorTexts,
+    explicacao: `P(copas) = 13/52, P(rei) = 4/52 e P(rei de copas) = 1/52. Pela regra da adição, P(copas ou rei) = 13/52 + 4/52 − 1/52 = 16/52 = ${correctText}.`,
+  });
+}
+
+function probTabelaContingencia(dificuldade, tentativa = 0) {
+  const tabelas = [
+    { a: 12, b: 8, c: 6, d: 24 },
+    { a: 15, b: 5, c: 10, d: 20 },
+    { a: 9, b: 6, c: 12, d: 3 },
+    { a: 20, b: 10, c: 5, d: 15 },
+    { a: 16, b: 4, c: 12, d: 8 },
+    { a: 18, b: 12, c: 6, d: 24 },
+    { a: 8, b: 12, c: 20, d: 10 },
+    { a: 10, b: 15, c: 9, d: 6 },
+    { a: 24, b: 6, c: 8, d: 12 },
+    { a: 6, b: 9, c: 15, d: 30 },
+  ];
+  const { a, b, c, d } = pick(tabelas);
+  const N = a + b + c + d;
+  const linha1 = a + b;
+  const linha2 = c + d;
+  const col1 = a + c;
+  const col2 = b + d;
+  const contextos = [
+    { pop: "estudantes de uma turma", grp: "o sexo", art1: "os", r1: "meninos", art2: "as", r2: "meninas", it1: "estudar de manhã", it2: "estudar à noite" },
+    { pop: "funcionários de uma empresa", grp: "o cargo", art1: "os", r1: "técnicos", art2: "os", r2: "analistas", it1: "o regime presencial", it2: "o regime remoto" },
+    { pop: "moradores de um bairro", grp: "a faixa etária", art1: "os", r1: "jovens", art2: "os", r2: "idosos", it1: "o transporte público", it2: "o carro particular" },
+  ];
+  const ctx = pick(contextos);
+  const G1 = ctx.art1.charAt(0).toUpperCase() + ctx.art1.slice(1);
+  const G2 = ctx.art2.charAt(0).toUpperCase() + ctx.art2.slice(1);
+  const tabelaTxt = `Uma pesquisa com ${N} ${ctx.pop} cruzou ${ctx.grp} com a preferência entre ${ctx.it1} e ${ctx.it2}. ${G1} ${ctx.r1}: ${a} preferem ${ctx.it1} e ${b} preferem ${ctx.it2} (total ${linha1}). ${G2} ${ctx.r2}: ${c} preferem ${ctx.it1} e ${d} preferem ${ctx.it2} (total ${linha2}). No total, ${col1} pessoas preferem ${ctx.it1} e ${col2} preferem ${ctx.it2}, somando ${N} pessoas.`;
+  if (dificuldade === "medio") {
+    const correctText = _probFr(a, linha1);
+    const distractorTexts = [
+      _probFr(a, N), // dividiu pelo total geral em vez do total do grupo
+      _probFr(a, col1), // dividiu pelo total da coluna
+      _probFr(b, linha1), // usou a outra célula da linha
+      _probFr(col1, N), // deu a probabilidade marginal P(preferir it1)
+    ];
+    if (new Set([correctText, ...distractorTexts]).size < 5 && tentativa < 40)
+      return probTabelaContingencia(dificuldade, tentativa + 1);
+    return makeQuestao({
+      categoriaId: "probabilidade",
+      subtopico: "Probabilidade Condicional",
+      dificuldade,
+      enunciado: `${tabelaTxt} Escolhendo-se ao acaso uma pessoa entre ${ctx.art1} ${ctx.r1}, qual é a probabilidade de que ela prefira ${ctx.it1}?`,
+      correctText,
+      distractorTexts,
+      explicacao: `É uma probabilidade condicional. Entre ${ctx.art1} ${ctx.r1} há ${linha1} pessoas, das quais ${a} preferem ${ctx.it1}. Logo P = ${a}/${linha1} = ${correctText}.`,
+    });
+  }
+  if (dificuldade === "facil") {
+    const correctText = _probFr(linha1, N);
+    const distractorTexts = [
+      _probFr(a, N), // usou só uma célula da linha
+      _probFr(col1, N), // somou a coluna em vez da linha
+      _probFr(linha2, N), // deu a probabilidade do outro grupo
+      _probFr(linha1, linha2), // dividiu pelo total do grupo oposto
+    ];
+    if (new Set([correctText, ...distractorTexts]).size < 5 && tentativa < 40)
+      return probTabelaContingencia(dificuldade, tentativa + 1);
+    return makeQuestao({
+      categoriaId: "probabilidade",
+      subtopico: "Probabilidade Simples",
+      dificuldade,
+      enunciado: `${tabelaTxt} Escolhendo-se ao acaso uma dessas ${N} pessoas, qual é a probabilidade de que ela pertença ao grupo d${ctx.art1} ${ctx.r1}?`,
+      correctText,
+      distractorTexts,
+      explicacao: `São ${linha1} ${ctx.r1} em um total de ${N} pessoas. Logo P = ${linha1}/${N} = ${correctText}.`,
+    });
+  }
+  const correctText = _probFr(b, N);
+  const distractorTexts = [
+    _probFr(b, linha1), // dividiu pelo total da linha (condicional em vez de conjunta)
+    _probFr(b, col2), // dividiu pelo total da coluna
+    _probFr(a, N), // pegou a célula errada da linha
+    _probFr(col2, N), // deu a probabilidade marginal P(preferir it2)
+  ];
+  if (new Set([correctText, ...distractorTexts]).size < 5 && tentativa < 40)
+    return probTabelaContingencia(dificuldade, tentativa + 1);
+  return makeQuestao({
+    categoriaId: "probabilidade",
+    subtopico: "Probabilidade Simples",
+    dificuldade,
+    enunciado: `${tabelaTxt} Escolhendo-se ao acaso uma dessas ${N} pessoas, qual é a probabilidade de que ela pertença ao grupo d${ctx.art1} ${ctx.r1} e prefira ${ctx.it2}?`,
+    correctText,
+    distractorTexts,
+    explicacao: `A probabilidade pedida é a da interseção. Entre as ${N} pessoas, ${b} são d${ctx.art1} ${ctx.r1} e preferem ${ctx.it2}. Logo P = ${b}/${N} = ${correctText}.`,
+  });
+}
+
 // ---------- ANALISE COMBINATORIA ----------
 function combMultiplicativo(dificuldade) {
   const opcoesA = randInt(2, dificuldade === "dificil" ? 8 : 5);
@@ -3630,7 +4010,7 @@ export const TEMPLATES = {
   "geometria-analitica": [geoDistanciaPontos, geoEquacaoReta, gaPontoMedio, gaDistanciaOrigem, gaCoefAngularDoisPontos, gaEquacaoRetaPorDoisPontos, gaParalelaPerpendicular, gaInterseccaoRetas, gaCircunferenciaCentroRaio, gaCircunferenciaGeralParaReduzida, gaPontoNaCircunferencia, gaAreaTrianguloVertices, gaAlinhamento, gaSimetrico, gaBaricentro],
   trigonometria: [trigTrianguloRetangulo],
   estatistica: [estMedia, estMediana, estLeituraGraficoDiferenca, estLeituraGraficoTotal, estLeituraGraficoPercentual],
-  probabilidade: [probSimples, probSucessiva],
+  probabilidade: [probSimples, probSucessiva, probComReposicao, probComplementar, probUniaoExclusiva, probDoisDados, probBaralho, probTabelaContingencia],
   "analise-combinatoria": [combMultiplicativo, combComissao, combPermutacaoSimples, combPermutacaoCircular, combArranjo, combComRepeticao, combAnagramas, combComissaoRestricao, combSubconjuntos],
   "matematica-financeira": [finJurosCompostos],
   matrizes: [matDeterminante, matDeterminante3x3, matSoma, matSubtracao, matEscalar, matProduto, matTransposta, matTraco, matIgualdade, matLeiDeFormacao, matSimetrica, matPotencia, matInversa, matDeterminanteComIncognita, matCramer, matFaturamento, matIdentidadePropriedade],
