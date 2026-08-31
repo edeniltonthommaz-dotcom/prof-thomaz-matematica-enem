@@ -1,6 +1,6 @@
 [
   {
-    "id": "analise-combinatoria-ined-0170",
+    "id": "analise-combinatoria-ined-0173",
     "categoriaId": "analise-combinatoria",
     "subtopico": "Princípio Multiplicativo",
     "dificuldade": "facil",
@@ -34,7 +34,7 @@
     "explicacao": "Pelo princípio fundamental da contagem, o total de combinações é 5 × 3 × 3 = 45."
   },
   {
-    "id": "analise-combinatoria-ined-0171",
+    "id": "analise-combinatoria-ined-0174",
     "categoriaId": "analise-combinatoria",
     "subtopico": "Princípio Multiplicativo",
     "dificuldade": "medio",
@@ -68,7 +68,7 @@
     "explicacao": "Pelo princípio fundamental da contagem, o total de combinações é 3 × 3 × 2 = 18."
   },
   {
-    "id": "analise-combinatoria-ined-0172",
+    "id": "analise-combinatoria-ined-0175",
     "categoriaId": "analise-combinatoria",
     "subtopico": "Princípio Multiplicativo",
     "dificuldade": "dificil",
@@ -102,7 +102,7 @@
     "explicacao": "Pelo princípio fundamental da contagem, o total de combinações é 8 × 7 × 4 = 224."
   },
   {
-    "id": "analise-combinatoria-ined-0173",
+    "id": "analise-combinatoria-ined-0176",
     "categoriaId": "analise-combinatoria",
     "subtopico": "Combinação",
     "dificuldade": "facil",
@@ -136,7 +136,7 @@
     "explicacao": "Como a ordem não importa, usa-se combinação: C(7,3) = 7! / (3! × 4!) = 35."
   },
   {
-    "id": "analise-combinatoria-ined-0174",
+    "id": "analise-combinatoria-ined-0177",
     "categoriaId": "analise-combinatoria",
     "subtopico": "Combinação",
     "dificuldade": "medio",
@@ -170,7 +170,7 @@
     "explicacao": "Como a ordem não importa, usa-se combinação: C(8,3) = 8! / (3! × 5!) = 56."
   },
   {
-    "id": "analise-combinatoria-ined-0175",
+    "id": "analise-combinatoria-ined-0178",
     "categoriaId": "analise-combinatoria",
     "subtopico": "Combinação",
     "dificuldade": "dificil",
@@ -204,7 +204,7 @@
     "explicacao": "Como a ordem não importa, usa-se combinação: C(9,4) = 9! / (4! × 5!) = 126."
   },
   {
-    "id": "analise-combinatoria-ined-0176",
+    "id": "analise-combinatoria-ined-0179",
     "categoriaId": "analise-combinatoria",
     "subtopico": "Permutação",
     "dificuldade": "facil",
@@ -238,7 +238,7 @@
     "explicacao": "São 4 elementos distintos a serem ordenados em 4 posições. O total é a permutação P(4) = 4! = 24."
   },
   {
-    "id": "analise-combinatoria-ined-0177",
+    "id": "analise-combinatoria-ined-0180",
     "categoriaId": "analise-combinatoria",
     "subtopico": "Permutação",
     "dificuldade": "medio",
@@ -272,7 +272,7 @@
     "explicacao": "São 6 elementos distintos a serem ordenados em 6 posições. O total é a permutação P(6) = 6! = 720."
   },
   {
-    "id": "analise-combinatoria-ined-0178",
+    "id": "analise-combinatoria-ined-0181",
     "categoriaId": "analise-combinatoria",
     "subtopico": "Permutação",
     "dificuldade": "dificil",
@@ -306,7 +306,7 @@
     "explicacao": "São 7 elementos distintos a serem ordenados em 7 posições. O total é a permutação P(7) = 7! = 5040."
   },
   {
-    "id": "analise-combinatoria-ined-0179",
+    "id": "analise-combinatoria-ined-0182",
     "categoriaId": "analise-combinatoria",
     "subtopico": "Permutação",
     "dificuldade": "facil",
@@ -340,7 +340,7 @@
     "explicacao": "Em uma permutação circular de 4 elementos, fixa-se um deles como referência e permutam-se os outros 3: (4 − 1)! = 3! = 6."
   },
   {
-    "id": "analise-combinatoria-ined-0180",
+    "id": "analise-combinatoria-ined-0183",
     "categoriaId": "analise-combinatoria",
     "subtopico": "Permutação",
     "dificuldade": "medio",
@@ -374,7 +374,7 @@
     "explicacao": "Em uma permutação circular de 5 elementos, fixa-se um deles como referência e permutam-se os outros 4: (5 − 1)! = 4! = 24."
   },
   {
-    "id": "analise-combinatoria-ined-0181",
+    "id": "analise-combinatoria-ined-0184",
     "categoriaId": "analise-combinatoria",
     "subtopico": "Permutação",
     "dificuldade": "dificil",
@@ -408,7 +408,7 @@
     "explicacao": "Em uma permutação circular de 7 elementos, fixa-se um deles como referência e permutam-se os outros 6: (7 − 1)! = 6! = 720."
   },
   {
-    "id": "analise-combinatoria-ined-0182",
+    "id": "analise-combinatoria-ined-0185",
     "categoriaId": "analise-combinatoria",
     "subtopico": "Arranjo",
     "dificuldade": "facil",
@@ -442,7 +442,7 @@
     "explicacao": "A ordem das posições importa e não há repetição: arranjo A(7, 2) = 7! / (7 − 2)! = 7!/5! = 42."
   },
   {
-    "id": "analise-combinatoria-ined-0183",
+    "id": "analise-combinatoria-ined-0186",
     "categoriaId": "analise-combinatoria",
     "subtopico": "Arranjo",
     "dificuldade": "medio",
@@ -476,7 +476,7 @@
     "explicacao": "A ordem das posições importa e não há repetição: arranjo A(5, 3) = 5! / (5 − 3)! = 5!/2! = 60."
   },
   {
-    "id": "analise-combinatoria-ined-0184",
+    "id": "analise-combinatoria-ined-0187",
     "categoriaId": "analise-combinatoria",
     "subtopico": "Arranjo",
     "dificuldade": "dificil",
@@ -510,7 +510,7 @@
     "explicacao": "A ordem das posições importa e não há repetição: arranjo A(8, 3) = 8! / (8 − 3)! = 8!/5! = 336."
   },
   {
-    "id": "analise-combinatoria-ined-0185",
+    "id": "analise-combinatoria-ined-0188",
     "categoriaId": "analise-combinatoria",
     "subtopico": "Princípio Multiplicativo",
     "dificuldade": "facil",
@@ -544,7 +544,7 @@
     "explicacao": "Cada uma das 3 posições pode ser preenchida livremente de 10 formas, independentemente das demais. Pelo princípio multiplicativo: 10^3 = 1000."
   },
   {
-    "id": "analise-combinatoria-ined-0186",
+    "id": "analise-combinatoria-ined-0189",
     "categoriaId": "analise-combinatoria",
     "subtopico": "Princípio Multiplicativo",
     "dificuldade": "medio",
@@ -578,7 +578,7 @@
     "explicacao": "Cada uma das 2 posições pode ser preenchida livremente de 26 formas, independentemente das demais. Pelo princípio multiplicativo: 26^2 = 676."
   },
   {
-    "id": "analise-combinatoria-ined-0187",
+    "id": "analise-combinatoria-ined-0190",
     "categoriaId": "analise-combinatoria",
     "subtopico": "Princípio Multiplicativo",
     "dificuldade": "dificil",
@@ -612,7 +612,7 @@
     "explicacao": "Cada uma das 3 posições pode ser preenchida livremente de 7 formas, independentemente das demais. Pelo princípio multiplicativo: 7^3 = 343."
   },
   {
-    "id": "analise-combinatoria-ined-0188",
+    "id": "analise-combinatoria-ined-0191",
     "categoriaId": "analise-combinatoria",
     "subtopico": "Permutação",
     "dificuldade": "facil",
@@ -646,7 +646,7 @@
     "explicacao": "Todas as 4 letras da palavra PATO são distintas, então o número de anagramas é 4! = 24."
   },
   {
-    "id": "analise-combinatoria-ined-0189",
+    "id": "analise-combinatoria-ined-0192",
     "categoriaId": "analise-combinatoria",
     "subtopico": "Permutação",
     "dificuldade": "medio",
@@ -680,7 +680,7 @@
     "explicacao": "Todas as 5 letras da palavra MUNDO são distintas, então o número de anagramas é 5! = 120."
   },
   {
-    "id": "analise-combinatoria-ined-0190",
+    "id": "analise-combinatoria-ined-0193",
     "categoriaId": "analise-combinatoria",
     "subtopico": "Permutação",
     "dificuldade": "dificil",
@@ -714,7 +714,7 @@
     "explicacao": "A palavra PANELA tem 6 letras, com a letra A repetida 2 vezes. O número de anagramas é 6! / 2! = 720 / 2 = 360."
   },
   {
-    "id": "analise-combinatoria-ined-0191",
+    "id": "analise-combinatoria-ined-0194",
     "categoriaId": "analise-combinatoria",
     "subtopico": "Combinação",
     "dificuldade": "facil",
@@ -748,7 +748,7 @@
     "explicacao": "Escolhem-se 2 entre os 4 veteranos — C(4, 2) = 6 modos — e 1 entre os 4 novatos — C(4, 1) = 4 modos. Pelo princípio multiplicativo: 6 × 4 = 24."
   },
   {
-    "id": "analise-combinatoria-ined-0192",
+    "id": "analise-combinatoria-ined-0195",
     "categoriaId": "analise-combinatoria",
     "subtopico": "Combinação",
     "dificuldade": "medio",
@@ -782,7 +782,7 @@
     "explicacao": "Escolhem-se 2 entre os 5 homens — C(5, 2) = 10 modos — e 2 entre os 4 mulheres — C(4, 2) = 6 modos. Pelo princípio multiplicativo: 10 × 6 = 60."
   },
   {
-    "id": "analise-combinatoria-ined-0193",
+    "id": "analise-combinatoria-ined-0196",
     "categoriaId": "analise-combinatoria",
     "subtopico": "Combinação",
     "dificuldade": "dificil",
@@ -816,7 +816,7 @@
     "explicacao": "Escolhem-se 3 entre os 6 médicos — C(6, 3) = 20 modos — e 2 entre os 5 enfermeiros — C(5, 2) = 10 modos. Pelo princípio multiplicativo: 20 × 10 = 200."
   },
   {
-    "id": "analise-combinatoria-ined-0194",
+    "id": "analise-combinatoria-ined-0197",
     "categoriaId": "analise-combinatoria",
     "subtopico": "Combinação",
     "dificuldade": "facil",

@@ -1,6 +1,6 @@
 [
   {
-    "id": "matrizes-ined-0213",
+    "id": "matrizes-ined-0216",
     "categoriaId": "matrizes",
     "subtopico": "Determinantes",
     "dificuldade": "facil",
@@ -34,7 +34,7 @@
     "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (-5)(-2) − (3)(-2) = 16."
   },
   {
-    "id": "matrizes-ined-0214",
+    "id": "matrizes-ined-0217",
     "categoriaId": "matrizes",
     "subtopico": "Determinantes",
     "dificuldade": "medio",
@@ -68,7 +68,7 @@
     "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (8)(-9) − (2)(-4) = -64."
   },
   {
-    "id": "matrizes-ined-0215",
+    "id": "matrizes-ined-0218",
     "categoriaId": "matrizes",
     "subtopico": "Determinantes",
     "dificuldade": "dificil",
@@ -102,7 +102,7 @@
     "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (3)(-5) − (7)(-6) = 27."
   },
   {
-    "id": "matrizes-ined-0216",
+    "id": "matrizes-ined-0219",
     "categoriaId": "matrizes",
     "subtopico": "Determinantes",
     "dificuldade": "facil",
@@ -136,7 +136,7 @@
     "explicacao": "Pela Regra de Sarrus, det(A) é a soma dos produtos das diagonais no sentido principal menos a soma no sentido secundário: (0·4·-2 + -5·-5·-5 + -3·4·-4) − (-3·4·-5 + 0·-5·-4 + -5·4·-2) = (-77) − (100) = -177."
   },
   {
-    "id": "matrizes-ined-0217",
+    "id": "matrizes-ined-0220",
     "categoriaId": "matrizes",
     "subtopico": "Determinantes",
     "dificuldade": "medio",
@@ -170,7 +170,7 @@
     "explicacao": "Pela Regra de Sarrus, det(A) é a soma dos produtos das diagonais no sentido principal menos a soma no sentido secundário: (4·-3·-5 + 5·-5·-1 + -3·0·1) − (-3·-3·-1 + 4·-5·1 + 5·0·-5) = (85) − (-29) = 114."
   },
   {
-    "id": "matrizes-ined-0218",
+    "id": "matrizes-ined-0221",
     "categoriaId": "matrizes",
     "subtopico": "Determinantes",
     "dificuldade": "dificil",
@@ -204,7 +204,7 @@
     "explicacao": "Pela Regra de Sarrus, det(A) é a soma dos produtos das diagonais no sentido principal menos a soma no sentido secundário: (-1·-5·1 + 2·-5·4 + 3·-1·-1) − (3·-5·4 + -1·-5·-1 + 2·-1·1) = (-32) − (-67) = 35."
   },
   {
-    "id": "matrizes-ined-0219",
+    "id": "matrizes-ined-0222",
     "categoriaId": "matrizes",
     "subtopico": "Operações com Matrizes",
     "dificuldade": "facil",
@@ -238,7 +238,7 @@
     "explicacao": "Na soma de matrizes somam-se os elementos de mesma posição: c(2,2) = a(2,2) + b(2,2) = (-7) + (1) = -6."
   },
   {
-    "id": "matrizes-ined-0220",
+    "id": "matrizes-ined-0223",
     "categoriaId": "matrizes",
     "subtopico": "Operações com Matrizes",
     "dificuldade": "medio",
@@ -272,7 +272,7 @@
     "explicacao": "Na soma de matrizes somam-se os elementos de mesma posição: c(1,1) = a(1,1) + b(1,1) = (-8) + (-2) = -10."
   },
   {
-    "id": "matrizes-ined-0221",
+    "id": "matrizes-ined-0224",
     "categoriaId": "matrizes",
     "subtopico": "Operações com Matrizes",
     "dificuldade": "dificil",
@@ -306,7 +306,7 @@
     "explicacao": "Na soma de matrizes somam-se os elementos de mesma posição: c(2,2) = a(2,2) + b(2,2) = (-1) + (-8) = -9."
   },
   {
-    "id": "matrizes-ined-0222",
+    "id": "matrizes-ined-0225",
     "categoriaId": "matrizes",
     "subtopico": "Operações com Matrizes",
     "dificuldade": "facil",
@@ -340,7 +340,7 @@
     "explicacao": "Na subtração de matrizes subtraem-se os elementos de mesma posição, na ordem A − B: c(1,2) = a(1,2) − b(1,2) = (7) − (-5) = 12."
   },
   {
-    "id": "matrizes-ined-0223",
+    "id": "matrizes-ined-0226",
     "categoriaId": "matrizes",
     "subtopico": "Operações com Matrizes",
     "dificuldade": "medio",
@@ -374,7 +374,7 @@
     "explicacao": "Na subtração de matrizes subtraem-se os elementos de mesma posição, na ordem A − B: c(2,1) = a(2,1) − b(2,1) = (1) − (3) = -2."
   },
   {
-    "id": "matrizes-ined-0224",
+    "id": "matrizes-ined-0227",
     "categoriaId": "matrizes",
     "subtopico": "Operações com Matrizes",
     "dificuldade": "dificil",
@@ -408,7 +408,7 @@
     "explicacao": "Na subtração de matrizes subtraem-se os elementos de mesma posição, na ordem A − B: c(1,2) = a(1,2) − b(1,2) = (4) − (7) = -3."
   },
   {
-    "id": "matrizes-ined-0225",
+    "id": "matrizes-ined-0228",
     "categoriaId": "matrizes",
     "subtopico": "Operações com Matrizes",
     "dificuldade": "facil",
@@ -442,7 +442,7 @@
     "explicacao": "Na multiplicação de uma matriz por um escalar, cada elemento é multiplicado por k. O elemento pedido vale 2 · (-3) = -6."
   },
   {
-    "id": "matrizes-ined-0226",
+    "id": "matrizes-ined-0229",
     "categoriaId": "matrizes",
     "subtopico": "Operações com Matrizes",
     "dificuldade": "medio",
@@ -476,7 +476,7 @@
     "explicacao": "Na multiplicação de uma matriz por um escalar, cada elemento é multiplicado por k. O elemento pedido vale 4 · (-8) = -32."
   },
   {
-    "id": "matrizes-ined-0227",
+    "id": "matrizes-ined-0230",
     "categoriaId": "matrizes",
     "subtopico": "Operações com Matrizes",
     "dificuldade": "dificil",
@@ -510,7 +510,7 @@
     "explicacao": "Na multiplicação de uma matriz por um escalar, cada elemento é multiplicado por k. O elemento pedido vale 3 · (9) = 27."
   },
   {
-    "id": "matrizes-ined-0228",
+    "id": "matrizes-ined-0231",
     "categoriaId": "matrizes",
     "subtopico": "Operações com Matrizes",
     "dificuldade": "facil",
@@ -544,7 +544,7 @@
     "explicacao": "O elemento c(1,2) é a soma dos produtos da linha 1 de A pela coluna 2 de B: (4)·(-3) + (-5)·(-3) = -12 + 15 = 3."
   },
   {
-    "id": "matrizes-ined-0229",
+    "id": "matrizes-ined-0232",
     "categoriaId": "matrizes",
     "subtopico": "Operações com Matrizes",
     "dificuldade": "medio",
@@ -578,7 +578,7 @@
     "explicacao": "O elemento c(2,1) é a soma dos produtos da linha 2 de A pela coluna 1 de B: (-5)·(2) + (-3)·(1) = -10 + -3 = -13."
   },
   {
-    "id": "matrizes-ined-0230",
+    "id": "matrizes-ined-0233",
     "categoriaId": "matrizes",
     "subtopico": "Operações com Matrizes",
     "dificuldade": "dificil",
@@ -612,7 +612,7 @@
     "explicacao": "O elemento c(1,2) é a soma dos produtos da linha 1 de A pela coluna 2 de B: (4)·(-4) + (-2)·(1) = -16 + -2 = -18."
   },
   {
-    "id": "matrizes-ined-0231",
+    "id": "matrizes-ined-0234",
     "categoriaId": "matrizes",
     "subtopico": "Operações com Matrizes",
     "dificuldade": "facil",
@@ -646,7 +646,7 @@
     "explicacao": "Na transposta, linhas viram colunas: o elemento da posição (1,2) de Aᵀ é igual ao da posição (2,1) de A, que vale 5."
   },
   {
-    "id": "matrizes-ined-0232",
+    "id": "matrizes-ined-0235",
     "categoriaId": "matrizes",
     "subtopico": "Operações com Matrizes",
     "dificuldade": "medio",
@@ -680,7 +680,7 @@
     "explicacao": "Na transposta, linhas viram colunas: o elemento da posição (2,1) de Aᵀ é igual ao da posição (1,2) de A, que vale 5."
   },
   {
-    "id": "matrizes-ined-0233",
+    "id": "matrizes-ined-0236",
     "categoriaId": "matrizes",
     "subtopico": "Operações com Matrizes",
     "dificuldade": "dificil",
@@ -714,7 +714,7 @@
     "explicacao": "Na transposta, linhas viram colunas: o elemento da posição (1,2) de Aᵀ é igual ao da posição (2,1) de A, que vale -8."
   },
   {
-    "id": "matrizes-ined-0234",
+    "id": "matrizes-ined-0237",
     "categoriaId": "matrizes",
     "subtopico": "Operações com Matrizes",
     "dificuldade": "facil",
@@ -748,7 +748,7 @@
     "explicacao": "A diagonal principal vai do canto superior esquerdo ao inferior direito: traço(M) = (-8) + (-4) + (-9) = -21."
   },
   {
-    "id": "matrizes-ined-0235",
+    "id": "matrizes-ined-0238",
     "categoriaId": "matrizes",
     "subtopico": "Operações com Matrizes",
     "dificuldade": "medio",
@@ -782,7 +782,7 @@
     "explicacao": "A diagonal principal vai do canto superior esquerdo ao inferior direito: traço(M) = (-3) + (-3) + (7) = 1."
   },
   {
-    "id": "matrizes-ined-0236",
+    "id": "matrizes-ined-0239",
     "categoriaId": "matrizes",
     "subtopico": "Operações com Matrizes",
     "dificuldade": "dificil",
@@ -816,7 +816,7 @@
     "explicacao": "A diagonal principal vai do canto superior esquerdo ao inferior direito: traço(M) = (1) + (-9) + (-6) = -14."
   },
   {
-    "id": "matrizes-ined-0237",
+    "id": "matrizes-ined-0240",
     "categoriaId": "matrizes",
     "subtopico": "Operações com Matrizes",
     "dificuldade": "facil",
@@ -850,7 +850,7 @@
     "explicacao": "Duas matrizes são iguais quando os elementos de mesma posição são iguais. Posição (1,1): x + 2 = 8 ⇒ x = 6. Posição (2,2): 2y = 18 ⇒ y = 9. Logo x + y = 15."
   },
   {
-    "id": "matrizes-ined-0238",
+    "id": "matrizes-ined-0241",
     "categoriaId": "matrizes",
     "subtopico": "Operações com Matrizes",
     "dificuldade": "medio",
@@ -884,7 +884,7 @@
     "explicacao": "Duas matrizes são iguais quando os elementos de mesma posição são iguais. Posição (1,1): x + 8 = 13 ⇒ x = 5. Posição (2,2): 2y = 4 ⇒ y = 2. Logo x + y = 7."
   },
   {
-    "id": "matrizes-ined-0239",
+    "id": "matrizes-ined-0242",
     "categoriaId": "matrizes",
     "subtopico": "Operações com Matrizes",
     "dificuldade": "dificil",
@@ -918,7 +918,7 @@
     "explicacao": "Duas matrizes são iguais quando os elementos de mesma posição são iguais. Posição (1,1): x + 7 = 16 ⇒ x = 9. Posição (2,2): 2y = 16 ⇒ y = 8. Logo x + y = 17."
   },
   {
-    "id": "matrizes-ined-0240",
+    "id": "matrizes-ined-0243",
     "categoriaId": "matrizes",
     "subtopico": "Operações com Matrizes",
     "dificuldade": "facil",
@@ -952,7 +952,7 @@
     "explicacao": "Basta substituir i = 2 (linha) e j = 3 (coluna) na lei a_ij = 3i − j: a_23 = 3·2 − 3 = 3."
   },
   {
-    "id": "matrizes-ined-0241",
+    "id": "matrizes-ined-0244",
     "categoriaId": "matrizes",
     "subtopico": "Operações com Matrizes",
     "dificuldade": "medio",
@@ -986,7 +986,7 @@
     "explicacao": "Basta substituir i = 3 (linha) e j = 1 (coluna) na lei a_ij = 2i − j: a_31 = 2·3 − 1 = 5."
   },
   {
-    "id": "matrizes-ined-0242",
+    "id": "matrizes-ined-0245",
     "categoriaId": "matrizes",
     "subtopico": "Operações com Matrizes",
     "dificuldade": "dificil",
@@ -1020,7 +1020,7 @@
     "explicacao": "Basta substituir i = 2 (linha) e j = 3 (coluna) na lei a_ij = 2i − j: a_23 = 2·2 − 3 = 1."
   },
   {
-    "id": "matrizes-ined-0243",
+    "id": "matrizes-ined-0246",
     "categoriaId": "matrizes",
     "subtopico": "Operações com Matrizes",
     "dificuldade": "facil",
@@ -1054,7 +1054,7 @@
     "explicacao": "Em uma matriz simétrica, o elemento (1,2) é igual ao elemento (2,1). Então x + 5 = 9, ou seja x = 9 − 5 = 4."
   },
   {
-    "id": "matrizes-ined-0244",
+    "id": "matrizes-ined-0247",
     "categoriaId": "matrizes",
     "subtopico": "Operações com Matrizes",
     "dificuldade": "medio",
@@ -1088,7 +1088,7 @@
     "explicacao": "Em uma matriz simétrica, o elemento (1,2) é igual ao elemento (2,1). Então x − 1 = 4, ou seja x = 4 + 1 = 5."
   },
   {
-    "id": "matrizes-ined-0245",
+    "id": "matrizes-ined-0248",
     "categoriaId": "matrizes",
     "subtopico": "Operações com Matrizes",
     "dificuldade": "dificil",
@@ -1122,7 +1122,7 @@
     "explicacao": "Em uma matriz simétrica, o elemento (1,2) é igual ao elemento (2,1). Então x − 3 = 4, ou seja x = 4 + 3 = 7."
   },
   {
-    "id": "matrizes-ined-0246",
+    "id": "matrizes-ined-0249",
     "categoriaId": "matrizes",
     "subtopico": "Operações com Matrizes",
     "dificuldade": "facil",
@@ -1156,7 +1156,7 @@
     "explicacao": "O elemento (1,1) de A² é a 1ª linha de A multiplicada pela 1ª coluna de A: (1)·(1) + (4)·(-3) = 1 + -12 = -11."
   },
   {
-    "id": "matrizes-ined-0247",
+    "id": "matrizes-ined-0250",
     "categoriaId": "matrizes",
     "subtopico": "Operações com Matrizes",
     "dificuldade": "medio",
@@ -1190,7 +1190,7 @@
     "explicacao": "O elemento (1,1) de A² é a 1ª linha de A multiplicada pela 1ª coluna de A: (4)·(4) + (2)·(1) = 16 + 2 = 18."
   },
   {
-    "id": "matrizes-ined-0248",
+    "id": "matrizes-ined-0251",
     "categoriaId": "matrizes",
     "subtopico": "Operações com Matrizes",
     "dificuldade": "dificil",
@@ -1224,7 +1224,7 @@
     "explicacao": "O elemento (1,1) de A² é a 1ª linha de A multiplicada pela 1ª coluna de A: (3)·(3) + (-1)·(1) = 9 + -1 = 8."
   },
   {
-    "id": "matrizes-ined-0249",
+    "id": "matrizes-ined-0252",
     "categoriaId": "matrizes",
     "subtopico": "Determinantes",
     "dificuldade": "facil",
@@ -1258,7 +1258,7 @@
     "explicacao": "Para uma matriz 2×2 [[a, b], [c, d]], a inversa é A⁻¹ = (1/det)·[[d, −b], [−c, a]]. O elemento (1,1) é d/det = (5)/(−1) = -5."
   },
   {
-    "id": "matrizes-ined-0250",
+    "id": "matrizes-ined-0253",
     "categoriaId": "matrizes",
     "subtopico": "Determinantes",
     "dificuldade": "medio",
@@ -1292,7 +1292,7 @@
     "explicacao": "Para uma matriz 2×2 [[a, b], [c, d]], a inversa é A⁻¹ = (1/det)·[[d, −b], [−c, a]]. O elemento (1,1) é d/det = (3)/(−1) = -3."
   },
   {
-    "id": "matrizes-ined-0251",
+    "id": "matrizes-ined-0254",
     "categoriaId": "matrizes",
     "subtopico": "Determinantes",
     "dificuldade": "dificil",
@@ -1326,7 +1326,7 @@
     "explicacao": "Para uma matriz 2×2 [[a, b], [c, d]], a inversa é A⁻¹ = (1/det)·[[d, −b], [−c, a]]. O elemento (1,1) é d/det = (8)/(−1) = -8."
   },
   {
-    "id": "matrizes-ined-0252",
+    "id": "matrizes-ined-0255",
     "categoriaId": "matrizes",
     "subtopico": "Determinantes",
     "dificuldade": "facil",
@@ -1360,7 +1360,7 @@
     "explicacao": "det(A) = x·6 − 2·6 = 0 ⇒ 6·x = 12 ⇒ x = 12 ÷ 6 = 2."
   },
   {
-    "id": "matrizes-ined-0253",
+    "id": "matrizes-ined-0256",
     "categoriaId": "matrizes",
     "subtopico": "Determinantes",
     "dificuldade": "medio",
@@ -1394,7 +1394,7 @@
     "explicacao": "det(A) = x·3 − 3·3 = 0 ⇒ 3·x = 9 ⇒ x = 9 ÷ 3 = 3."
   },
   {
-    "id": "matrizes-ined-0254",
+    "id": "matrizes-ined-0257",
     "categoriaId": "matrizes",
     "subtopico": "Determinantes",
     "dificuldade": "dificil",
@@ -1428,7 +1428,7 @@
     "explicacao": "det(A) = x·4 − 4·6 = 0 ⇒ 4·x = 24 ⇒ x = 24 ÷ 4 = 6."
   },
   {
-    "id": "matrizes-ined-0255",
+    "id": "matrizes-ined-0258",
     "categoriaId": "matrizes",
     "subtopico": "Aplicações Práticas",
     "dificuldade": "facil",
@@ -1462,7 +1462,7 @@
     "explicacao": "Regra de Cramer: D = 5·4 − 5·2 = 10; Dx = 61·4 − 77·2 = 90. Então x = Dx / D = 90 / 10 = 9."
   },
   {
-    "id": "matrizes-ined-0256",
+    "id": "matrizes-ined-0259",
     "categoriaId": "matrizes",
     "subtopico": "Aplicações Práticas",
     "dificuldade": "medio",
@@ -1496,7 +1496,7 @@
     "explicacao": "Regra de Cramer: D = 2·4 − 1·3 = 5; Dx = 31·4 − 38·3 = 10. Então x = Dx / D = 10 / 5 = 2."
   },
   {
-    "id": "matrizes-ined-0257",
+    "id": "matrizes-ined-0260",
     "categoriaId": "matrizes",
     "subtopico": "Aplicações Práticas",
     "dificuldade": "dificil",
@@ -1530,7 +1530,7 @@
     "explicacao": "Regra de Cramer: D = 5·5 − 1·3 = 22; Dx = 44·5 − 44·3 = 88. Então x = Dx / D = 88 / 22 = 4."
   },
   {
-    "id": "matrizes-ined-0258",
+    "id": "matrizes-ined-0261",
     "categoriaId": "matrizes",
     "subtopico": "Aplicações Práticas",
     "dificuldade": "facil",

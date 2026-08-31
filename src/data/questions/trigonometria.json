@@ -1,6 +1,6 @@
 [
   {
-    "id": "trigonometria-ined-0125",
+    "id": "trigonometria-ined-0128",
     "categoriaId": "trigonometria",
     "subtopico": "Triângulo Retângulo",
     "dificuldade": "facil",
@@ -34,7 +34,7 @@
     "explicacao": "tan(30°) = altura / distância. Altura = distância × tan(30°) = 18 × 0.58 ≈ 10 m."
   },
   {
-    "id": "trigonometria-ined-0126",
+    "id": "trigonometria-ined-0129",
     "categoriaId": "trigonometria",
     "subtopico": "Triângulo Retângulo",
     "dificuldade": "medio",
@@ -68,7 +68,7 @@
     "explicacao": "tan(45°) = altura / distância. Altura = distância × tan(45°) = 8 × 1 ≈ 8 m."
   },
   {
-    "id": "trigonometria-ined-0127",
+    "id": "trigonometria-ined-0130",
     "categoriaId": "trigonometria",
     "subtopico": "Triângulo Retângulo",
     "dificuldade": "dificil",
@@ -102,7 +102,7 @@
     "explicacao": "tan(37°) = altura / distância. Altura = distância × tan(37°) = 11 × 0.75 ≈ 8 m."
   },
   {
-    "id": "trigonometria-ined-0128",
+    "id": "trigonometria-ined-0131",
     "categoriaId": "trigonometria",
     "subtopico": "Triângulo Retângulo",
     "dificuldade": "facil",
@@ -136,7 +136,7 @@
     "explicacao": "A altura é o cateto oposto ao ângulo de 60° e o comprimento da rampa é a hipotenusa. Logo, altura = comprimento × sen 60° = 8 × 0,87 ≈ 7 m."
   },
   {
-    "id": "trigonometria-ined-0129",
+    "id": "trigonometria-ined-0132",
     "categoriaId": "trigonometria",
     "subtopico": "Triângulo Retângulo",
     "dificuldade": "medio",
@@ -170,7 +170,7 @@
     "explicacao": "A altura é o cateto oposto ao ângulo de 53° e o comprimento da rampa é a hipotenusa. Logo, altura = comprimento × sen 53° = 18 × 0,8 ≈ 14 m."
   },
   {
-    "id": "trigonometria-ined-0130",
+    "id": "trigonometria-ined-0133",
     "categoriaId": "trigonometria",
     "subtopico": "Triângulo Retângulo",
     "dificuldade": "dificil",
@@ -204,7 +204,7 @@
     "explicacao": "O desnível é o cateto oposto ao ângulo de 37° e a rampa é a hipotenusa. Como sen 37° = desnível ÷ comprimento, então comprimento = 25 ÷ sen 37° = 25 ÷ 0,6 ≈ 42 m."
   },
   {
-    "id": "trigonometria-ined-0131",
+    "id": "trigonometria-ined-0134",
     "categoriaId": "trigonometria",
     "subtopico": "Triângulo Retângulo",
     "dificuldade": "facil",
@@ -238,7 +238,7 @@
     "explicacao": "A altura é o cateto oposto ao ângulo de elevação e a sombra é o cateto adjacente. Como tg 30° = altura ÷ sombra, então sombra = altura ÷ tg 30° = 15 ÷ 0,58 ≈ 26 m."
   },
   {
-    "id": "trigonometria-ined-0132",
+    "id": "trigonometria-ined-0135",
     "categoriaId": "trigonometria",
     "subtopico": "Triângulo Retângulo",
     "dificuldade": "medio",
@@ -272,7 +272,7 @@
     "explicacao": "A altura é o cateto oposto ao ângulo de elevação e a sombra é o cateto adjacente. Como tg 53° = altura ÷ sombra, então sombra = altura ÷ tg 53° = 20 ÷ 1,33 ≈ 15 m."
   },
   {
-    "id": "trigonometria-ined-0133",
+    "id": "trigonometria-ined-0136",
     "categoriaId": "trigonometria",
     "subtopico": "Triângulo Retângulo",
     "dificuldade": "dificil",
@@ -306,7 +306,7 @@
     "explicacao": "A altura é o cateto oposto ao ângulo de elevação e a sombra é o cateto adjacente. Como tg 53° = altura ÷ sombra, então altura = sombra × tg 53° = 25 × 1,33 ≈ 33 m."
   },
   {
-    "id": "trigonometria-ined-0134",
+    "id": "trigonometria-ined-0137",
     "categoriaId": "trigonometria",
     "subtopico": "Triângulo Retângulo",
     "dificuldade": "facil",
@@ -340,7 +340,7 @@
     "explicacao": "A altura atingida é o cateto oposto ao ângulo de 60° e a escada é a hipotenusa. Logo, altura = escada × sen 60° = 10 × 0,87 ≈ 9 m."
   },
   {
-    "id": "trigonometria-ined-0135",
+    "id": "trigonometria-ined-0138",
     "categoriaId": "trigonometria",
     "subtopico": "Triângulo Retângulo",
     "dificuldade": "medio",
@@ -374,7 +374,7 @@
     "explicacao": "A altura atingida é o cateto oposto ao ângulo de 53° e a escada é a hipotenusa. Logo, altura = escada × sen 53° = 24 × 0,8 ≈ 19 m."
   },
   {
-    "id": "trigonometria-ined-0136",
+    "id": "trigonometria-ined-0139",
     "categoriaId": "trigonometria",
     "subtopico": "Triângulo Retângulo",
     "dificuldade": "dificil",
@@ -408,7 +408,7 @@
     "explicacao": "A distância do pé da escada à parede é o cateto adjacente ao ângulo de 30° e a escada é a hipotenusa. Logo, distância = escada × cos 30° = 24 × 0,87 ≈ 21 m."
   },
   {
-    "id": "trigonometria-ined-0137",
+    "id": "trigonometria-ined-0140",
     "categoriaId": "trigonometria",
     "subtopico": "Lei dos Senos",
     "dificuldade": "facil",
@@ -442,7 +442,7 @@
     "explicacao": "Pela lei dos senos, a ÷ sen A = b ÷ sen B. Logo, b = a × sen B ÷ sen A = 20 × 0,5 ÷ 0,87 ≈ 11 m."
   },
   {
-    "id": "trigonometria-ined-0138",
+    "id": "trigonometria-ined-0141",
     "categoriaId": "trigonometria",
     "subtopico": "Lei dos Senos",
     "dificuldade": "medio",
@@ -476,7 +476,7 @@
     "explicacao": "Pela lei dos senos, a ÷ sen A = b ÷ sen B. Logo, b = a × sen B ÷ sen A = 36 × 0,6 ÷ 0,87 ≈ 25 m."
   },
   {
-    "id": "trigonometria-ined-0139",
+    "id": "trigonometria-ined-0142",
     "categoriaId": "trigonometria",
     "subtopico": "Lei dos Senos",
     "dificuldade": "dificil",
@@ -510,7 +510,7 @@
     "explicacao": "Pela lei dos senos, a ÷ sen A = b ÷ sen B. Logo, b = a × sen B ÷ sen A = 24 × 0,6 ÷ 0,87 ≈ 17 m."
   },
   {
-    "id": "trigonometria-ined-0140",
+    "id": "trigonometria-ined-0143",
     "categoriaId": "trigonometria",
     "subtopico": "Lei dos Cossenos",
     "dificuldade": "facil",

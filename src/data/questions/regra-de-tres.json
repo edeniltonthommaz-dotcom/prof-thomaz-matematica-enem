@@ -202,5 +202,141 @@
     ],
     "correta": "B",
     "explicacao": "Peças por operário-dia = 600 ÷ (5 × 20). Para 8 operários produzirem 1200 peças: dias = (1200 × 5 × 20) ÷ (600 × 8) = 25 dias."
+  },
+  {
+    "id": "regra-de-tres-ined-0007",
+    "categoriaId": "regra-de-tres",
+    "subtopico": "Regra de Três Simples",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um carro percorre um trajeto em 6 horas viajando a uma velocidade média de 120 km/h. Mantido o mesmo trajeto, em quanto tempo passará a fazer o percurso com velocidade média de 80 km/h?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "9 h"
+      },
+      {
+        "letra": "B",
+        "texto": "6 h"
+      },
+      {
+        "letra": "C",
+        "texto": "3 h"
+      },
+      {
+        "letra": "D",
+        "texto": "4 h"
+      },
+      {
+        "letra": "E",
+        "texto": "12 h"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "A distância percorrida é a mesma, então velocidade e tempo são grandezas inversamente proporcionais: v₁ · t₁ = v₂ · t₂. Logo t₂ = (120 × 6) ÷ 80 = 9 h."
+  },
+  {
+    "id": "regra-de-tres-ined-0008",
+    "categoriaId": "regra-de-tres",
+    "subtopico": "Regra de Três Simples",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um motorista costuma cumprir o percurso da rota de entrega em 12 h dirigindo a 80 km/h, em média. Sem alterar a distância, quanto tempo levará se a velocidade média passar a ser de 60 km/h?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "16 h"
+      },
+      {
+        "letra": "B",
+        "texto": "9 h"
+      },
+      {
+        "letra": "C",
+        "texto": "24 h"
+      },
+      {
+        "letra": "D",
+        "texto": "12 h"
+      },
+      {
+        "letra": "E",
+        "texto": "8 h"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "A distância percorrida é a mesma, então velocidade e tempo são grandezas inversamente proporcionais: v₁ · t₁ = v₂ · t₂. Logo t₂ = (80 × 12) ÷ 60 = 16 h."
+  },
+  {
+    "id": "regra-de-tres-ined-0009",
+    "categoriaId": "regra-de-tres",
+    "subtopico": "Regra de Três Simples",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "O setor de logística estima que um veículo de carga leva 18 h para ligar o centro de distribuição a uma filial, a uma velocidade média de 90 km/h. Por causa de novas condições na rodovia, a velocidade média de todo o percurso passará a 60 km/h. Nessa nova situação, quanto tempo o trajeto exigirá?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "27 h"
+      },
+      {
+        "letra": "B",
+        "texto": "18 h"
+      },
+      {
+        "letra": "C",
+        "texto": "9 h"
+      },
+      {
+        "letra": "D",
+        "texto": "12 h"
+      },
+      {
+        "letra": "E",
+        "texto": "36 h"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "A distância percorrida é a mesma, então velocidade e tempo são grandezas inversamente proporcionais: v₁ · t₁ = v₂ · t₂. Logo t₂ = (90 × 18) ÷ 60 = 27 h."
+  },
+  {
+    "id": "regra-de-tres-ined-0010",
+    "categoriaId": "regra-de-tres",
+    "subtopico": "Regra de Três Simples",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "4 torneiras iguais, abertas ao mesmo tempo, enchem um reservatório em 30 minutos. Usando 6 dessas mesmas torneiras, em quanto tempo ele ficará cheio?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "18 min"
+      },
+      {
+        "letra": "B",
+        "texto": "30 min"
+      },
+      {
+        "letra": "C",
+        "texto": "20 min"
+      },
+      {
+        "letra": "D",
+        "texto": "40 min"
+      },
+      {
+        "letra": "E",
+        "texto": "45 min"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "O volume a ser enchido é o mesmo, então a quantidade de torneiras (ou bombas) e o tempo são grandezas inversamente proporcionais: 4 × 30 = 6 × x. Logo x = (4 × 30) ÷ 6 = 20 min."
   }
 ]

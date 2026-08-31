@@ -1,6 +1,6 @@
 [
   {
-    "id": "matematica-financeira-ined-0195",
+    "id": "matematica-financeira-ined-0198",
     "categoriaId": "matematica-financeira",
     "subtopico": "Juros Compostos",
     "dificuldade": "facil",
@@ -34,7 +34,7 @@
     "explicacao": "M = C × (1 + i)^t = R$ 7.000,00 × (1 + 3/100)^4 = R$ 7.878,56."
   },
   {
-    "id": "matematica-financeira-ined-0196",
+    "id": "matematica-financeira-ined-0199",
     "categoriaId": "matematica-financeira",
     "subtopico": "Juros Compostos",
     "dificuldade": "medio",
@@ -68,7 +68,7 @@
     "explicacao": "M = C × (1 + i)^t = R$ 4.100,00 × (1 + 5/100)^2 = R$ 4.520,25."
   },
   {
-    "id": "matematica-financeira-ined-0197",
+    "id": "matematica-financeira-ined-0200",
     "categoriaId": "matematica-financeira",
     "subtopico": "Juros Compostos",
     "dificuldade": "dificil",
@@ -102,7 +102,7 @@
     "explicacao": "M = C × (1 + i)^t = R$ 15.900,00 × (1 + 8/100)^5 = R$ 23.362,32."
   },
   {
-    "id": "matematica-financeira-ined-0198",
+    "id": "matematica-financeira-ined-0201",
     "categoriaId": "matematica-financeira",
     "subtopico": "Financiamentos e Prestações",
     "dificuldade": "facil",
@@ -136,7 +136,7 @@
     "explicacao": "Nos juros simples, J = C · i · t = R$ 4.800,00 × 2/100 × 3 = R$ 288,00."
   },
   {
-    "id": "matematica-financeira-ined-0199",
+    "id": "matematica-financeira-ined-0202",
     "categoriaId": "matematica-financeira",
     "subtopico": "Financiamentos e Prestações",
     "dificuldade": "medio",
@@ -170,7 +170,7 @@
     "explicacao": "J = C · i · t = R$ 5.600,00 × 2/100 × 9 = R$ 1.008,00. Valor pago = capital + juros = R$ 5.600,00 + R$ 1.008,00 = R$ 6.608,00."
   },
   {
-    "id": "matematica-financeira-ined-0200",
+    "id": "matematica-financeira-ined-0203",
     "categoriaId": "matematica-financeira",
     "subtopico": "Financiamentos e Prestações",
     "dificuldade": "dificil",
@@ -204,7 +204,7 @@
     "explicacao": "Juros simples: J = C · i · t = R$ 2.700,00 × 2/100 × 22 = R$ 1.188,00. Total a devolver = C + J = R$ 2.700,00 + R$ 1.188,00 = R$ 3.888,00."
   },
   {
-    "id": "matematica-financeira-ined-0201",
+    "id": "matematica-financeira-ined-0204",
     "categoriaId": "matematica-financeira",
     "subtopico": "Juros Compostos",
     "dificuldade": "facil",
@@ -238,7 +238,7 @@
     "explicacao": "No valor presente a juros compostos, C = M ÷ (1 + i)^t = R$ 5.324,00 ÷ (1 + 10/100)^3 = R$ 5.324,00 ÷ 1,331 = R$ 4.000,00."
   },
   {
-    "id": "matematica-financeira-ined-0202",
+    "id": "matematica-financeira-ined-0205",
     "categoriaId": "matematica-financeira",
     "subtopico": "Juros Compostos",
     "dificuldade": "medio",
@@ -272,7 +272,7 @@
     "explicacao": "No valor presente a juros compostos, C = M ÷ (1 + i)^t = R$ 7.260,00 ÷ (1 + 10/100)^2 = R$ 7.260,00 ÷ 1,21 = R$ 6.000,00."
   },
   {
-    "id": "matematica-financeira-ined-0203",
+    "id": "matematica-financeira-ined-0206",
     "categoriaId": "matematica-financeira",
     "subtopico": "Juros Compostos",
     "dificuldade": "dificil",
@@ -306,7 +306,7 @@
     "explicacao": "No valor presente a juros compostos, C = M ÷ (1 + i)^t = R$ 20.736,00 ÷ (1 + 20/100)^3 = R$ 20.736,00 ÷ 1,728 = R$ 12.000,00."
   },
   {
-    "id": "matematica-financeira-ined-0204",
+    "id": "matematica-financeira-ined-0207",
     "categoriaId": "matematica-financeira",
     "subtopico": "Taxas Equivalentes",
     "dificuldade": "facil",
@@ -340,7 +340,7 @@
     "explicacao": "Taxas equivalentes a juros compostos: i_bimestre = (1 + i)^2 − 1 = (1 + 10/100)^2 − 1 = 1,21 − 1 = 21%."
   },
   {
-    "id": "matematica-financeira-ined-0205",
+    "id": "matematica-financeira-ined-0208",
     "categoriaId": "matematica-financeira",
     "subtopico": "Taxas Equivalentes",
     "dificuldade": "medio",
@@ -374,7 +374,7 @@
     "explicacao": "Taxas equivalentes a juros compostos: i_bimestre = (1 + i)^2 − 1 = (1 + 20/100)^2 − 1 = 1,44 − 1 = 44%."
   },
   {
-    "id": "matematica-financeira-ined-0206",
+    "id": "matematica-financeira-ined-0209",
     "categoriaId": "matematica-financeira",
     "subtopico": "Taxas Equivalentes",
     "dificuldade": "dificil",
@@ -408,7 +408,7 @@
     "explicacao": "A taxa mensal i equivalente satisfaz (1 + i)^2 = 1 + 44/100, ou seja (1 + i)^2 = 1,44. Logo 1 + i = 1,44^(1/2) e i = 20%."
   },
   {
-    "id": "matematica-financeira-ined-0207",
+    "id": "matematica-financeira-ined-0210",
     "categoriaId": "matematica-financeira",
     "subtopico": "Financiamentos e Prestações",
     "dificuldade": "facil",
@@ -442,7 +442,7 @@
     "explicacao": "Preço à vista = preço a prazo × (1 − 10/100) = R$ 2.000,00 − R$ 200,00 = R$ 1.800,00."
   },
   {
-    "id": "matematica-financeira-ined-0208",
+    "id": "matematica-financeira-ined-0211",
     "categoriaId": "matematica-financeira",
     "subtopico": "Financiamentos e Prestações",
     "dificuldade": "medio",
@@ -476,7 +476,7 @@
     "explicacao": "A economia é o desconto sobre o preço a prazo: R$ 800,00 × 25/100 = R$ 200,00."
   },
   {
-    "id": "matematica-financeira-ined-0209",
+    "id": "matematica-financeira-ined-0212",
     "categoriaId": "matematica-financeira",
     "subtopico": "Financiamentos e Prestações",
     "dificuldade": "dificil",
@@ -510,7 +510,7 @@
     "explicacao": "O valor à vista é (1 − 12/100) do preço de tabela P: R$ 3.520,00 = (1 − 12/100) · P ⇒ P = R$ 3.520,00 ÷ 0,88 = R$ 4.000,00."
   },
   {
-    "id": "matematica-financeira-ined-0210",
+    "id": "matematica-financeira-ined-0213",
     "categoriaId": "matematica-financeira",
     "subtopico": "Financiamentos e Prestações",
     "dificuldade": "facil",
@@ -544,7 +544,7 @@
     "explicacao": "Total pago = entrada + (nº de parcelas × valor da parcela) = R$ 300,00 + 3 × R$ 160,00 = R$ 300,00 + R$ 480,00 = R$ 780,00."
   },
   {
-    "id": "matematica-financeira-ined-0211",
+    "id": "matematica-financeira-ined-0214",
     "categoriaId": "matematica-financeira",
     "subtopico": "Financiamentos e Prestações",
     "dificuldade": "medio",
@@ -578,7 +578,7 @@
     "explicacao": "Total pago no parcelamento = R$ 100,00 + 10 × R$ 570,00 = R$ 5.800,00. Juros embutidos = total pago − preço à vista = R$ 5.800,00 − R$ 4.640,00 = R$ 1.160,00."
   },
   {
-    "id": "matematica-financeira-ined-0212",
+    "id": "matematica-financeira-ined-0215",
     "categoriaId": "matematica-financeira",
     "subtopico": "Financiamentos e Prestações",
     "dificuldade": "dificil",

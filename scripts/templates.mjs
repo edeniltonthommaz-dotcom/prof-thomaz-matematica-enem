@@ -225,6 +225,119 @@ function regraTresComposta(dificuldade) {
   });
 }
 
+function regraTresVelocidade(dificuldade, tentativa = 0) {
+  const cenarios = {
+    facil: [
+      { v1: 60, t1: 6, v2: 90 },
+      { v1: 80, t1: 6, v2: 120 },
+      { v1: 40, t1: 6, v2: 60 },
+      { v1: 90, t1: 6, v2: 60 },
+      { v1: 120, t1: 6, v2: 80 },
+    ],
+    medio: [
+      { v1: 60, t1: 12, v2: 90 },
+      { v1: 90, t1: 12, v2: 60 },
+      { v1: 60, t1: 12, v2: 80 },
+      { v1: 80, t1: 12, v2: 60 },
+      { v1: 100, t1: 6, v2: 150 },
+    ],
+    dificil: [
+      { v1: 60, t1: 18, v2: 90 },
+      { v1: 90, t1: 18, v2: 60 },
+      { v1: 80, t1: 12, v2: 120 },
+      { v1: 120, t1: 12, v2: 80 },
+      { v1: 60, t1: 24, v2: 90 },
+    ],
+  };
+  const { v1, t1, v2 } = pick(cenarios[dificuldade]);
+  const t2 = (v1 * t1) / v2; // distância fixa ⇒ velocidade e tempo são inversamente proporcionais: v1·t1 = v2·t2
+  const correctText = `${t2} h`;
+  const distractorTexts = [
+    `${(t1 * v2) / v1} h`, // montou como proporção direta (x/t1 = v2/v1)
+    `${t1} h`, // manteve o tempo original, ignorando a mudança de velocidade
+    `${2 * t1 - t2} h`, // ajustou o tempo para o lado errado
+    `${2 * t1} h`, // apenas dobrou o tempo
+  ];
+  if (new Set([correctText, ...distractorTexts]).size < 5 && tentativa < 40)
+    return regraTresVelocidade(dificuldade, tentativa + 1);
+  let enunciado;
+  if (dificuldade === "facil") {
+    const movel = pick(["Um carro", "Uma van", "Um ônibus"]);
+    enunciado = `${movel} percorre um trajeto em ${t1} horas viajando a uma velocidade média de ${v1} km/h. Mantido o mesmo trajeto, em quanto tempo ${v2 > v1 ? "fará" : "passará a fazer"} o percurso com velocidade média de ${v2} km/h?`;
+  } else if (dificuldade === "medio") {
+    const rota = pick(["a viagem entre duas cidades", "o trecho da capital até o litoral", "o percurso da rota de entrega"]);
+    enunciado = `Um motorista costuma cumprir ${rota} em ${t1} h dirigindo a ${v1} km/h, em média. Sem alterar a distância, quanto tempo levará se a velocidade média passar a ser de ${v2} km/h?`;
+  } else {
+    const orgao = pick(["Uma transportadora calcula que um caminhão", "O setor de logística estima que um veículo de carga"]);
+    enunciado = `${orgao} leva ${t1} h para ligar o centro de distribuição a uma filial, a uma velocidade média de ${v1} km/h. Por causa de novas condições na rodovia, a velocidade média de todo o percurso passará a ${v2} km/h. Nessa nova situação, quanto tempo o trajeto exigirá?`;
+  }
+  return makeQuestao({
+    categoriaId: "regra-de-tres",
+    subtopico: "Regra de Três Simples",
+    dificuldade,
+    enunciado,
+    correctText,
+    distractorTexts,
+    explicacao: `A distância percorrida é a mesma, então velocidade e tempo são grandezas inversamente proporcionais: v₁ · t₁ = v₂ · t₂. Logo t₂ = (${v1} × ${t1}) ÷ ${v2} = ${t2} h.`,
+  });
+}
+
+function regraTresTorneiras(dificuldade, tentativa = 0) {
+  const cenarios = {
+    facil: [
+      { n: 3, t: 48, m: 4 },
+      { n: 3, t: 24, m: 4 },
+      { n: 2, t: 30, m: 3 },
+      { n: 2, t: 18, m: 3 },
+      { n: 4, t: 30, m: 6 },
+    ],
+    medio: [
+      { n: 3, t: 36, m: 4 },
+      { n: 2, t: 42, m: 3 },
+      { n: 4, t: 24, m: 6 },
+      { n: 6, t: 24, m: 8 },
+      { n: 4, t: 36, m: 6 },
+    ],
+    dificil: [
+      { n: 4, t: 54, m: 6 },
+      { n: 6, t: 36, m: 8 },
+      { n: 3, t: 60, m: 4 },
+      { n: 2, t: 54, m: 3 },
+      { n: 4, t: 42, m: 6 },
+    ],
+  };
+  const { n, t, m } = pick(cenarios[dificuldade]);
+  const x = (n * t) / m; // volume fixo ⇒ número de torneiras e tempo são inversamente proporcionais: n·t = m·x
+  const correctText = `${x} min`;
+  const distractorTexts = [
+    `${(t * m) / n} min`, // montou como proporção direta (mais torneiras ⇒ mais tempo)
+    `${t} min`, // manteve o tempo, ignorando a mudança na quantidade de torneiras
+    `${2 * t - x} min`, // ajustou o tempo para o lado errado
+    `${x - (m - n)} min`, // subtraiu 1 minuto por torneira adicionada
+  ];
+  if (new Set([correctText, ...distractorTexts]).size < 5 && tentativa < 40)
+    return regraTresTorneiras(dificuldade, tentativa + 1);
+  let enunciado;
+  if (dificuldade === "facil") {
+    const recipiente = pick(["um tanque", "um reservatório", "um aquário grande", "um bebedouro de animais"]);
+    enunciado = `${n} torneiras iguais, abertas ao mesmo tempo, enchem ${recipiente} em ${t} minutos. Usando ${m} dessas mesmas torneiras, em quanto tempo ele ficará cheio?`;
+  } else if (dificuldade === "medio") {
+    const sistema = pick(["Uma cisterna comunitária", "Uma caixa d'água predial", "Uma estação de captação de água"]);
+    enunciado = `${sistema} é abastecida por ${n} bombas idênticas que, juntas, a enchem em ${t} minutos. Se o número de bombas em operação passar para ${m}, mantida a vazão de cada uma, em quantos minutos o enchimento se completa?`;
+  } else {
+    enunciado = `Para encher um reservatório industrial, ${n} bombas de igual vazão operando simultaneamente levam ${t} minutos. Em uma manutenção, a equipe terá de realizar a mesma tarefa com ${m} bombas de mesma vazão. Desprezando perdas, quanto tempo o enchimento passará a levar?`;
+  }
+  return makeQuestao({
+    categoriaId: "regra-de-tres",
+    subtopico: "Regra de Três Simples",
+    dificuldade,
+    enunciado,
+    correctText,
+    distractorTexts,
+    explicacao: `O volume a ser enchido é o mesmo, então a quantidade de torneiras (ou bombas) e o tempo são grandezas inversamente proporcionais: ${n} × ${t} = ${m} × x. Logo x = (${n} × ${t}) ÷ ${m} = ${x} min.`,
+  });
+}
+
 // ---------- EQUACOES ----------
 function eqSistemaLinear(dificuldade) {
   const precoA = randInt(dificuldade === "facil" ? 2 : 5, dificuldade === "dificil" ? 60 : 30);
@@ -4568,7 +4681,7 @@ export const TEMPLATES = {
   numeros: [numFracaoOperacoes, numNotacaoCientifica],
   porcentagem: [pctAumentoDesconto, pctJurosSimples],
   "razao-proporcao": [razaoEscalaMapa, razaoDivisaoProporcional],
-  "regra-de-tres": [regraTresSimples, regraTresComposta],
+  "regra-de-tres": [regraTresSimples, regraTresComposta, regraTresVelocidade, regraTresTorneiras],
   equacoes: [eqSistemaLinear, eqBhaskaraArea],
   "funcao-afim": [afimTarifa, afimCoeficiente, afimRaiz, afimDepreciacao, afimConversaoTemperatura, afimComissao, afimPontoEquilibrio, afimValorPrevisto],
   "funcao-quadratica": [quadVertice, quadTrajetoria, quadLucroMaximo, quadRaizesContexto, quadSomaProdutoRaizes, quadAreaCercado, quadDoisNumeros, quadAlcanceProjetil, quadAlturaNoInstante, quadVerticeCoordenadas, quadArcoParabolico, quadCustoMinimo],

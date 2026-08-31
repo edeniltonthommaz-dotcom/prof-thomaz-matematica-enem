@@ -1,6 +1,6 @@
 [
   {
-    "id": "conjuntos-ined-0286",
+    "id": "conjuntos-ined-0289",
     "categoriaId": "conjuntos",
     "subtopico": "Diagramas de Venn",
     "dificuldade": "facil",
@@ -34,7 +34,7 @@
     "explicacao": "Pelo menos um dos dois = apenas praticam natação (23) + apenas praticam musculação (21) + ambos (12) = 56. Também pode ser calculado por |A∪B| = |A|+|B|−|A∩B| = 35+33−12 = 56."
   },
   {
-    "id": "conjuntos-ined-0287",
+    "id": "conjuntos-ined-0290",
     "categoriaId": "conjuntos",
     "subtopico": "Diagramas de Venn",
     "dificuldade": "medio",
@@ -68,7 +68,7 @@
     "explicacao": "O total pesquisado é 72. Os que fazem pelo menos uma das duas coisas somam 58 (apenas A: 23 + apenas B: 18 + ambos: 17). Logo, não fazem nenhuma das duas: 72 − 58 = 14."
   },
   {
-    "id": "conjuntos-ined-0288",
+    "id": "conjuntos-ined-0291",
     "categoriaId": "conjuntos",
     "subtopico": "Diagramas de Venn",
     "dificuldade": "dificil",
@@ -102,7 +102,7 @@
     "explicacao": "Quem faz pelo menos uma das duas coisas: 97 − 23 = 74. Pela fórmula |A∪B| = |A|+|B|−|A∩B|, temos 74 = 54+41−|A∩B|, logo |A∩B| = 54+41−74 = 21."
   },
   {
-    "id": "conjuntos-ined-0289",
+    "id": "conjuntos-ined-0292",
     "categoriaId": "conjuntos",
     "subtopico": "Problemas de Pesquisa",
     "dificuldade": "facil",
@@ -136,7 +136,7 @@
     "explicacao": "Quem se enquadra em pelo menos uma situação: 89 − 10 = 79. Pela fórmula |A∪B| = |A|+|B|−|A∩B|, temos 79 = 41+44−|A∩B|, logo |A∩B| = 41+44−79 = 6."
   },
   {
-    "id": "conjuntos-ined-0290",
+    "id": "conjuntos-ined-0293",
     "categoriaId": "conjuntos",
     "subtopico": "Problemas de Pesquisa",
     "dificuldade": "medio",
@@ -170,7 +170,7 @@
     "explicacao": "Quem se enquadra em pelo menos uma situação: 79 − 14 = 65. Pela fórmula |A∪B| = |A|+|B|−|A∩B|, temos 65 = 40+38−|A∩B|, logo |A∩B| = 40+38−65 = 13."
   },
   {
-    "id": "conjuntos-ined-0291",
+    "id": "conjuntos-ined-0294",
     "categoriaId": "conjuntos",
     "subtopico": "Problemas de Pesquisa",
     "dificuldade": "dificil",
@@ -204,7 +204,7 @@
     "explicacao": "Quem se enquadra em pelo menos uma situação: 112 − 21 = 91. Pela fórmula |A∪B| = |A|+|B|−|A∩B|, temos 91 = 63+49−|A∩B|, logo |A∩B| = 63+49−91 = 21."
   },
   {
-    "id": "conjuntos-ined-0292",
+    "id": "conjuntos-ined-0295",
     "categoriaId": "conjuntos",
     "subtopico": "União e Interseção",
     "dificuldade": "facil",
@@ -238,7 +238,7 @@
     "explicacao": "Pelo princípio da inclusão-exclusão, |A ∪ B| = |A| + |B| − |A ∩ B| = 22 + 30 − 3 = 49."
   },
   {
-    "id": "conjuntos-ined-0293",
+    "id": "conjuntos-ined-0296",
     "categoriaId": "conjuntos",
     "subtopico": "União e Interseção",
     "dificuldade": "medio",
@@ -272,7 +272,7 @@
     "explicacao": "De |A ∪ B| = |A| + |B| − |A ∩ B|, isolamos |A ∩ B| = |A| + |B| − |A ∪ B| = 16 + 28 − 31 = 13."
   },
   {
-    "id": "conjuntos-ined-0294",
+    "id": "conjuntos-ined-0297",
     "categoriaId": "conjuntos",
     "subtopico": "União e Interseção",
     "dificuldade": "dificil",
@@ -306,7 +306,7 @@
     "explicacao": "De |A ∪ B| = |A| + |B| − |A ∩ B|, isolamos |B| = |A ∪ B| − |A| + |A ∩ B| = 25 − 15 + 9 = 19."
   },
   {
-    "id": "conjuntos-ined-0295",
+    "id": "conjuntos-ined-0298",
     "categoriaId": "conjuntos",
     "subtopico": "União e Interseção",
     "dificuldade": "facil",
@@ -340,7 +340,7 @@
     "explicacao": "Basta retirar do total os que possuem vaga de garagem: 39 − 18 = 21."
   },
   {
-    "id": "conjuntos-ined-0296",
+    "id": "conjuntos-ined-0299",
     "categoriaId": "conjuntos",
     "subtopico": "União e Interseção",
     "dificuldade": "medio",
@@ -374,7 +374,7 @@
     "explicacao": "Se 34 não aderiram ao plano de saúde, os demais aderiram ao plano de saúde: 64 − 34 = 30."
   },
   {
-    "id": "conjuntos-ined-0297",
+    "id": "conjuntos-ined-0300",
     "categoriaId": "conjuntos",
     "subtopico": "União e Interseção",
     "dificuldade": "dificil",
@@ -408,7 +408,7 @@
     "explicacao": "Como os dois grupos não têm elementos em comum, retiram-se ambos do total: 94 − 35 − 18 = 41."
   },
   {
-    "id": "conjuntos-ined-0298",
+    "id": "conjuntos-ined-0301",
     "categoriaId": "conjuntos",
     "subtopico": "Diagramas de Venn",
     "dificuldade": "facil",
@@ -442,7 +442,7 @@
     "explicacao": "|A| = (só A) + |A ∩ B| + |A ∩ C| − |A ∩ B ∩ C| (o centro foi contado nas duas interseções). Logo só A = 22 − 9 − 6 + 3 = 10."
   },
   {
-    "id": "conjuntos-ined-0299",
+    "id": "conjuntos-ined-0302",
     "categoriaId": "conjuntos",
     "subtopico": "Diagramas de Venn",
     "dificuldade": "medio",
@@ -476,7 +476,7 @@
     "explicacao": "A união é a soma das 7 regiões. As 6 regiões conhecidas somam 13 + 11 + 12 + 8 + 6 + 6 = 56. O centro é o que falta: 60 − 56 = 4."
   },
   {
-    "id": "conjuntos-ined-0300",
+    "id": "conjuntos-ined-0303",
     "categoriaId": "conjuntos",
     "subtopico": "Diagramas de Venn",
     "dificuldade": "dificil",
@@ -510,7 +510,7 @@
     "explicacao": "Inclusão-exclusão: |A ∪ B ∪ C| = |A| + |B| + |C| − |A ∩ B| − |A ∩ C| − |B ∩ C| + |A ∩ B ∩ C| = 27 + 24 + 27 − 7 − 9 − 10 + 3 = 55."
   },
   {
-    "id": "conjuntos-ined-0301",
+    "id": "conjuntos-ined-0304",
     "categoriaId": "conjuntos",
     "subtopico": "Diagramas de Venn",
     "dificuldade": "facil",
@@ -544,7 +544,7 @@
     "explicacao": "Somente tênis = (praticam tênis) − (também handebol) − (também judô) + (os três, que foram descontados duas vezes) = 29 − 13 − 12 + 6 = 10."
   },
   {
-    "id": "conjuntos-ined-0302",
+    "id": "conjuntos-ined-0305",
     "categoriaId": "conjuntos",
     "subtopico": "Diagramas de Venn",
     "dificuldade": "medio",
@@ -578,7 +578,7 @@
     "explicacao": "Cada contagem \"dois a dois\" inclui quem pratica os três. Exatamente dois = (9 − 2) + (11 − 2) + (9 − 2) = 23."
   },
   {
-    "id": "conjuntos-ined-0303",
+    "id": "conjuntos-ined-0306",
     "categoriaId": "conjuntos",
     "subtopico": "Diagramas de Venn",
     "dificuldade": "dificil",
@@ -612,7 +612,7 @@
     "explicacao": "Tirando os 11 que não praticam nada, sobram 61 pessoas nas 7 regiões. As 6 regiões descritas somam 57. Logo, praticam os três: 61 − 57 = 4."
   },
   {
-    "id": "conjuntos-ined-0304",
+    "id": "conjuntos-ined-0307",
     "categoriaId": "conjuntos",
     "subtopico": "União e Interseção",
     "dificuldade": "facil",
@@ -646,7 +646,7 @@
     "explicacao": "A ∩ B é formado pelos elementos que aparecem nos dois conjuntos ao mesmo tempo. Comparando as listas, há 3 elemento(s) em comum."
   },
   {
-    "id": "conjuntos-ined-0305",
+    "id": "conjuntos-ined-0308",
     "categoriaId": "conjuntos",
     "subtopico": "União e Interseção",
     "dificuldade": "medio",
@@ -680,7 +680,7 @@
     "explicacao": "A ∪ B reúne todos os elementos sem repetir os comuns: |A| + |B| − |A ∩ B| = 5 + 4 − 2 = 7."
   },
   {
-    "id": "conjuntos-ined-0306",
+    "id": "conjuntos-ined-0309",
     "categoriaId": "conjuntos",
     "subtopico": "União e Interseção",
     "dificuldade": "dificil",
@@ -714,7 +714,7 @@
     "explicacao": "A − B são os elementos que estão em A mas não em B. Dos 6 elementos de A, 2 também estão em B, restando 4."
   },
   {
-    "id": "conjuntos-ined-0307",
+    "id": "conjuntos-ined-0310",
     "categoriaId": "conjuntos",
     "subtopico": "União e Interseção",
     "dificuldade": "facil",
@@ -748,7 +748,7 @@
     "explicacao": "A △ B contém os elementos que estão só em A (2) e os que estão só em B (3), sem os 2 elementos comuns. Logo |A △ B| = 2 + 3 = 5."
   },
   {
-    "id": "conjuntos-ined-0308",
+    "id": "conjuntos-ined-0311",
     "categoriaId": "conjuntos",
     "subtopico": "União e Interseção",
     "dificuldade": "medio",
@@ -782,7 +782,7 @@
     "explicacao": "A △ B contém os elementos que estão só em A (3) e os que estão só em B (4), sem os 4 elementos comuns. Logo |A △ B| = 3 + 4 = 7."
   },
   {
-    "id": "conjuntos-ined-0309",
+    "id": "conjuntos-ined-0312",
     "categoriaId": "conjuntos",
     "subtopico": "União e Interseção",
     "dificuldade": "dificil",
@@ -816,7 +816,7 @@
     "explicacao": "A △ B contém os elementos que estão só em A (5) e os que estão só em B (4), sem os 2 elementos comuns. Logo |A △ B| = 5 + 4 = 9."
   },
   {
-    "id": "conjuntos-ined-0310",
+    "id": "conjuntos-ined-0313",
     "categoriaId": "conjuntos",
     "subtopico": "União e Interseção",
     "dificuldade": "facil",
@@ -850,7 +850,7 @@
     "explicacao": "Cada elemento de A forma um par ordenado com cada elemento de B: |A × B| = |A| · |B| = 5 · 7 = 35."
   },
   {
-    "id": "conjuntos-ined-0311",
+    "id": "conjuntos-ined-0314",
     "categoriaId": "conjuntos",
     "subtopico": "União e Interseção",
     "dificuldade": "medio",
@@ -884,7 +884,7 @@
     "explicacao": "A tem 4 elementos e B tem 7. O produto cartesiano tem |A| · |B| = 4 · 7 = 28 pares ordenados."
   },
   {
-    "id": "conjuntos-ined-0312",
+    "id": "conjuntos-ined-0315",
     "categoriaId": "conjuntos",
     "subtopico": "União e Interseção",
     "dificuldade": "dificil",
@@ -918,7 +918,7 @@
     "explicacao": "Como |A × B| = |A| · |B|, temos |B| = 24 ÷ 4 = 6."
   },
   {
-    "id": "conjuntos-ined-0313",
+    "id": "conjuntos-ined-0316",
     "categoriaId": "conjuntos",
     "subtopico": "União e Interseção",
     "dificuldade": "facil",
@@ -952,7 +952,7 @@
     "explicacao": "O número de subconjuntos de um conjunto com n elementos é 2ⁿ. Para n = 7: 2^7 = 128."
   },
   {
-    "id": "conjuntos-ined-0314",
+    "id": "conjuntos-ined-0317",
     "categoriaId": "conjuntos",
     "subtopico": "União e Interseção",
     "dificuldade": "medio",
@@ -986,7 +986,7 @@
     "explicacao": "São 2ⁿ subconjuntos no total; retirando o próprio conjunto, ficam 2ⁿ − 1. Para n = 7: 128 − 1 = 127."
   },
   {
-    "id": "conjuntos-ined-0315",
+    "id": "conjuntos-ined-0318",
     "categoriaId": "conjuntos",
     "subtopico": "União e Interseção",
     "dificuldade": "dificil",
@@ -1020,7 +1020,7 @@
     "explicacao": "Do total de 2ⁿ subconjuntos, excluem-se 2 casos (o vazio e o próprio Z): 2ⁿ − 2. Para n = 5: 32 − 2 = 30."
   },
   {
-    "id": "conjuntos-ined-0316",
+    "id": "conjuntos-ined-0319",
     "categoriaId": "conjuntos",
     "subtopico": "União e Interseção",
     "dificuldade": "facil",
@@ -1054,7 +1054,7 @@
     "explicacao": "A interseção contém os números que estão nos dois intervalos: de 5 (maior extremo esquerdo) até 8 (menor extremo direito), ou seja [5, 8]."
   },
   {
-    "id": "conjuntos-ined-0317",
+    "id": "conjuntos-ined-0320",
     "categoriaId": "conjuntos",
     "subtopico": "União e Interseção",
     "dificuldade": "medio",
@@ -1088,7 +1088,7 @@
     "explicacao": "Como os intervalos se sobrepõem, a união é um único intervalo do menor extremo (6) ao maior extremo (9): [6, 9]."
   },
   {
-    "id": "conjuntos-ined-0318",
+    "id": "conjuntos-ined-0321",
     "categoriaId": "conjuntos",
     "subtopico": "União e Interseção",
     "dificuldade": "dificil",
@@ -1122,7 +1122,7 @@
     "explicacao": "Como B = [0, 2] está inteiramente contido em A = [-3, 7], a interseção é o próprio B: [0, 2]."
   },
   {
-    "id": "conjuntos-ined-0319",
+    "id": "conjuntos-ined-0322",
     "categoriaId": "conjuntos",
     "subtopico": "União e Interseção",
     "dificuldade": "facil",
@@ -1156,7 +1156,7 @@
     "explicacao": "Múltiplos de 6: ⌊210/6⌋ = 35. Múltiplos de 8: ⌊210/8⌋ = 26. Múltiplos de 6 e de 8 ao mesmo tempo (múltiplos de mmc(6, 8) = 24): 8. Por inclusão-exclusão: 35 + 26 − 8 = 53."
   },
   {
-    "id": "conjuntos-ined-0320",
+    "id": "conjuntos-ined-0323",
     "categoriaId": "conjuntos",
     "subtopico": "União e Interseção",
     "dificuldade": "medio",
@@ -1190,7 +1190,7 @@
     "explicacao": "Múltiplos de 5: ⌊100/5⌋ = 20. Múltiplos de 9: ⌊100/9⌋ = 11. Múltiplos de 5 e de 9 ao mesmo tempo (múltiplos de mmc(5, 9) = 45): 2. Por inclusão-exclusão: 20 + 11 − 2 = 29."
   },
   {
-    "id": "conjuntos-ined-0321",
+    "id": "conjuntos-ined-0324",
     "categoriaId": "conjuntos",
     "subtopico": "União e Interseção",
     "dificuldade": "dificil",
@@ -1224,7 +1224,7 @@
     "explicacao": "Múltiplos de 4: ⌊230/4⌋ = 57. Múltiplos de 6: ⌊230/6⌋ = 38. Múltiplos de 4 e de 6 ao mesmo tempo (múltiplos de mmc(4, 6) = 12): 19. Por inclusão-exclusão: 57 + 38 − 19 = 76."
   },
   {
-    "id": "conjuntos-ined-0322",
+    "id": "conjuntos-ined-0325",
     "categoriaId": "conjuntos",
     "subtopico": "Diagramas de Venn",
     "dificuldade": "facil",
@@ -1258,7 +1258,7 @@
     "explicacao": "Somando as 7 regiões: 13+19+13+9+5+6+5 = 70 alunos estudam ao menos um idioma. Logo, não estudam nenhum: 79 − 70 = 9."
   },
   {
-    "id": "conjuntos-ined-0323",
+    "id": "conjuntos-ined-0326",
     "categoriaId": "conjuntos",
     "subtopico": "Diagramas de Venn",
     "dificuldade": "medio",
@@ -1292,7 +1292,7 @@
     "explicacao": "Cada total \"dois idiomas\" inclui os 6 que estudam os três. Exatamente dois = (11 − 6) + (10 − 6) + (10 − 6) = 13."
   },
   {
-    "id": "conjuntos-ined-0324",
+    "id": "conjuntos-ined-0327",
     "categoriaId": "conjuntos",
     "subtopico": "Diagramas de Venn",
     "dificuldade": "dificil",
@@ -1326,7 +1326,7 @@
     "explicacao": "Tirando os 6 que não estudam nada, sobram 81 nas 7 regiões. As 6 regiões descritas somam 60 + 18 = 78. Logo, os três idiomas: 81 − 78 = 3."
   },
   {
-    "id": "conjuntos-ined-0325",
+    "id": "conjuntos-ined-0328",
     "categoriaId": "conjuntos",
     "subtopico": "Problemas de Pesquisa",
     "dificuldade": "facil",
@@ -1360,7 +1360,7 @@
     "explicacao": "Do total de 59, retiram-se quem não comprou nada (10), quem comprou os três (7) e quem comprou exatamente dois (17). Restam os que compraram exatamente um: 59 − 10 − 7 − 17 = 25."
   },
   {
-    "id": "conjuntos-ined-0326",
+    "id": "conjuntos-ined-0329",
     "categoriaId": "conjuntos",
     "subtopico": "Problemas de Pesquisa",
     "dificuldade": "medio",
@@ -1394,7 +1394,7 @@
     "explicacao": "Os clientes formam quatro grupos disjuntos: nenhum (8), exatamente um, exatamente dois (8) e os três (5). Logo, exatamente um = 53 − 8 − 8 − 5 = 32."
   },
   {
-    "id": "conjuntos-ined-0327",
+    "id": "conjuntos-ined-0330",
     "categoriaId": "conjuntos",
     "subtopico": "Problemas de Pesquisa",
     "dificuldade": "dificil",
@@ -1428,7 +1428,7 @@
     "explicacao": "Somando os grupos que não são \"exatamente um\": 8 + 8 + 10 = 26. Subtraindo do total: 57 − 26 = 31."
   },
   {
-    "id": "conjuntos-ined-0328",
+    "id": "conjuntos-ined-0331",
     "categoriaId": "conjuntos",
     "subtopico": "Problemas de Pesquisa",
     "dificuldade": "facil",
@@ -1462,7 +1462,7 @@
     "explicacao": "Os divisores positivos de 100 são 1, 2, 4, 5, 10, 20, 25, 50, 100, num total de 9."
   },
   {
-    "id": "conjuntos-ined-0329",
+    "id": "conjuntos-ined-0332",
     "categoriaId": "conjuntos",
     "subtopico": "Problemas de Pesquisa",
     "dificuldade": "medio",
@@ -1496,7 +1496,7 @@
     "explicacao": "Os divisores positivos de 88 são 1, 2, 4, 8, 11, 22, 44, 88. Os pares são 2, 4, 8, 22, 44, 88: 6 divisor(es) par(es)."
   },
   {
-    "id": "conjuntos-ined-0330",
+    "id": "conjuntos-ined-0333",
     "categoriaId": "conjuntos",
     "subtopico": "Problemas de Pesquisa",
     "dificuldade": "dificil",

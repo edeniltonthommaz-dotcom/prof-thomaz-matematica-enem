@@ -1,6 +1,6 @@
 [
   {
-    "id": "estatistica-ined-0141",
+    "id": "estatistica-ined-0144",
     "categoriaId": "estatistica",
     "subtopico": "Média, Moda e Mediana",
     "dificuldade": "facil",
@@ -34,7 +34,7 @@
     "explicacao": "Média = soma dos valores ÷ quantidade = (41 + 99 + 79 + 79) ÷ 4 = 298 ÷ 4 = 74.5."
   },
   {
-    "id": "estatistica-ined-0142",
+    "id": "estatistica-ined-0145",
     "categoriaId": "estatistica",
     "subtopico": "Média, Moda e Mediana",
     "dificuldade": "medio",
@@ -68,7 +68,7 @@
     "explicacao": "Média = soma dos valores ÷ quantidade = (56 + 86 + 80 + 62 + 95 + 90) ÷ 6 = 469 ÷ 6 = 78.17."
   },
   {
-    "id": "estatistica-ined-0143",
+    "id": "estatistica-ined-0146",
     "categoriaId": "estatistica",
     "subtopico": "Média, Moda e Mediana",
     "dificuldade": "dificil",
@@ -102,7 +102,7 @@
     "explicacao": "Média = soma dos valores ÷ quantidade = (99 + 65 + 81 + 66 + 90 + 54 + 37 + 85) ÷ 8 = 577 ÷ 8 = 72.13."
   },
   {
-    "id": "estatistica-ined-0144",
+    "id": "estatistica-ined-0147",
     "categoriaId": "estatistica",
     "subtopico": "Média, Moda e Mediana",
     "dificuldade": "facil",
@@ -136,7 +136,7 @@
     "explicacao": "Ordenando os valores: 23, 50, 79, 88, 98. Como há 5 valores (ímpar), a mediana é o valor central, ou seja, 79."
   },
   {
-    "id": "estatistica-ined-0145",
+    "id": "estatistica-ined-0148",
     "categoriaId": "estatistica",
     "subtopico": "Média, Moda e Mediana",
     "dificuldade": "medio",
@@ -170,7 +170,7 @@
     "explicacao": "Ordenando os valores: 21, 37, 41, 64, 73. Como há 5 valores (ímpar), a mediana é o valor central, ou seja, 41."
   },
   {
-    "id": "estatistica-ined-0146",
+    "id": "estatistica-ined-0149",
     "categoriaId": "estatistica",
     "subtopico": "Média, Moda e Mediana",
     "dificuldade": "dificil",

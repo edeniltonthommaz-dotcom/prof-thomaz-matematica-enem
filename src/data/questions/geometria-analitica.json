@@ -1,13 +1,13 @@
 [
   {
-    "id": "geometria-analitica-ined-0082",
+    "id": "geometria-analitica-ined-0085",
     "categoriaId": "geometria-analitica",
     "subtopico": "Distância entre Pontos",
     "dificuldade": "facil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "No plano cartesiano, qual é a distância entre os pontos A(1, -3) e B(4, 1)?",
+    "enunciado": "No plano cartesiano, qual é a distância entre os pontos A(1, 2) e B(4, 6)?",
     "alternativas": [
       {
         "letra": "A",
@@ -15,41 +15,41 @@
       },
       {
         "letra": "B",
-        "texto": "8"
+        "texto": "4"
       },
       {
         "letra": "C",
-        "texto": "6"
-      },
-      {
-        "letra": "D",
         "texto": "7"
       },
       {
+        "letra": "D",
+        "texto": "6"
+      },
+      {
         "letra": "E",
-        "texto": "4"
+        "texto": "8"
       }
     ],
     "correta": "A",
-    "explicacao": "d = √[(4−1)² + (1−-3)²] = √[3² + 4²] = √25 = 5."
+    "explicacao": "d = √[(4−1)² + (6−2)²] = √[3² + 4²] = √25 = 5."
   },
   {
-    "id": "geometria-analitica-ined-0083",
+    "id": "geometria-analitica-ined-0086",
     "categoriaId": "geometria-analitica",
     "subtopico": "Distância entre Pontos",
     "dificuldade": "medio",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "No plano cartesiano, qual é a distância entre os pontos A(-1, -4) e B(8, 8)?",
+    "enunciado": "No plano cartesiano, qual é a distância entre os pontos A(-5, 1) e B(1, 9)?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "21"
+        "texto": "15"
       },
       {
         "letra": "B",
-        "texto": "15"
+        "texto": "11"
       },
       {
         "letra": "C",
@@ -57,29 +57,63 @@
       },
       {
         "letra": "D",
-        "texto": "16"
+        "texto": "9"
       },
       {
         "letra": "E",
-        "texto": "23"
+        "texto": "10"
       }
     ],
-    "correta": "B",
-    "explicacao": "d = √[(8−-1)² + (8−-4)²] = √[9² + 12²] = √225 = 15."
+    "correta": "E",
+    "explicacao": "d = √[(1−-5)² + (9−1)²] = √[6² + 8²] = √100 = 10."
   },
   {
-    "id": "geometria-analitica-ined-0084",
+    "id": "geometria-analitica-ined-0087",
     "categoriaId": "geometria-analitica",
     "subtopico": "Distância entre Pontos",
     "dificuldade": "dificil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "No plano cartesiano, qual é a distância entre os pontos A(4, 5) e B(24, 26)?",
+    "enunciado": "No plano cartesiano, qual é a distância entre os pontos A(5, -1) e B(13, 14)?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "28"
+        "texto": "26"
+      },
+      {
+        "letra": "B",
+        "texto": "23"
+      },
+      {
+        "letra": "C",
+        "texto": "16"
+      },
+      {
+        "letra": "D",
+        "texto": "18"
+      },
+      {
+        "letra": "E",
+        "texto": "17"
+      }
+    ],
+    "correta": "E",
+    "explicacao": "d = √[(13−5)² + (14−-1)²] = √[8² + 15²] = √289 = 17."
+  },
+  {
+    "id": "geometria-analitica-ined-0088",
+    "categoriaId": "geometria-analitica",
+    "subtopico": "Equação da Reta",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma reta no plano cartesiano é definida pela equação y = 3x + 8. Qual é o valor de y quando x = 7?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "21"
       },
       {
         "letra": "B",
@@ -87,223 +121,87 @@
       },
       {
         "letra": "C",
-        "texto": "44"
+        "texto": "32"
       },
       {
         "letra": "D",
-        "texto": "41"
-      },
-      {
-        "letra": "E",
-        "texto": "30"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "d = √[(24−4)² + (26−5)²] = √[20² + 21²] = √841 = 29."
-  },
-  {
-    "id": "geometria-analitica-ined-0085",
-    "categoriaId": "geometria-analitica",
-    "subtopico": "Equação da Reta",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma reta no plano cartesiano é definida pela equação y = 5x - 9. Qual é o valor de y quando x = 7?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "31"
-      },
-      {
-        "letra": "B",
-        "texto": "21"
-      },
-      {
-        "letra": "C",
         "texto": "26"
       },
       {
-        "letra": "D",
-        "texto": "35"
-      },
-      {
         "letra": "E",
-        "texto": "-26"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "Substituindo x = 7 na equação: y = 5×7 - 9 = 26."
-  },
-  {
-    "id": "geometria-analitica-ined-0086",
-    "categoriaId": "geometria-analitica",
-    "subtopico": "Equação da Reta",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma reta no plano cartesiano é definida pela equação y = 5x - 10. Qual é o valor de y quando x = 4?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "-10"
-      },
-      {
-        "letra": "B",
-        "texto": "10"
-      },
-      {
-        "letra": "C",
-        "texto": "20"
-      },
-      {
-        "letra": "D",
-        "texto": "5"
-      },
-      {
-        "letra": "E",
-        "texto": "15"
+        "texto": "-29"
       }
     ],
     "correta": "B",
-    "explicacao": "Substituindo x = 4 na equação: y = 5×4 - 10 = 10."
-  },
-  {
-    "id": "geometria-analitica-ined-0087",
-    "categoriaId": "geometria-analitica",
-    "subtopico": "Equação da Reta",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma reta no plano cartesiano é definida pela equação y = 4x - 3. Qual é o valor de y quando x = -2?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "-8"
-      },
-      {
-        "letra": "B",
-        "texto": "-15"
-      },
-      {
-        "letra": "C",
-        "texto": "-11"
-      },
-      {
-        "letra": "D",
-        "texto": "-7"
-      },
-      {
-        "letra": "E",
-        "texto": "11"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "Substituindo x = -2 na equação: y = 4×-2 - 3 = -11."
-  },
-  {
-    "id": "geometria-analitica-ined-0088",
-    "categoriaId": "geometria-analitica",
-    "subtopico": "Distância entre Pontos",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "No plano cartesiano, qual é o ponto médio do segmento de extremos A(-4, 3) e B(-10, 1)?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "(-3, -1)"
-      },
-      {
-        "letra": "B",
-        "texto": "(2, -7)"
-      },
-      {
-        "letra": "C",
-        "texto": "(-7, 2)"
-      },
-      {
-        "letra": "D",
-        "texto": "(3, 1)"
-      },
-      {
-        "letra": "E",
-        "texto": "(-14, 4)"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "O ponto médio é ((x₁+x₂)/2, (y₁+y₂)/2) = ((-4+-10)/2, (3+1)/2) = (-7, 2)."
+    "explicacao": "Substituindo x = 7 na equação: y = 3×7 + 8 = 29."
   },
   {
     "id": "geometria-analitica-ined-0089",
     "categoriaId": "geometria-analitica",
-    "subtopico": "Distância entre Pontos",
+    "subtopico": "Equação da Reta",
     "dificuldade": "medio",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "No plano cartesiano, qual é o ponto médio do segmento de extremos A(7, -7) e B(9, -3)?",
+    "enunciado": "Uma reta no plano cartesiano é definida pela equação y = 2x + 4. Qual é o valor de y quando x = -4?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "(16, -10)"
+        "texto": "-2"
       },
       {
         "letra": "B",
-        "texto": "(-1, -2)"
+        "texto": "-4"
       },
       {
         "letra": "C",
-        "texto": "(-5, 8)"
+        "texto": "-6"
       },
       {
         "letra": "D",
-        "texto": "(8, -5)"
+        "texto": "-8"
       },
       {
         "letra": "E",
-        "texto": "(1, 2)"
+        "texto": "4"
       }
     ],
-    "correta": "D",
-    "explicacao": "O ponto médio é ((x₁+x₂)/2, (y₁+y₂)/2) = ((7+9)/2, (-7+-3)/2) = (8, -5)."
+    "correta": "B",
+    "explicacao": "Substituindo x = -4 na equação: y = 2×-4 + 4 = -4."
   },
   {
     "id": "geometria-analitica-ined-0090",
     "categoriaId": "geometria-analitica",
-    "subtopico": "Distância entre Pontos",
+    "subtopico": "Equação da Reta",
     "dificuldade": "dificil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "No plano cartesiano, qual é o ponto médio do segmento de extremos A(-4, 4) e B(-2, 0)?",
+    "enunciado": "Uma reta no plano cartesiano é definida pela equação y = 2x + 6. Qual é o valor de y quando x = -5?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "(-1, 2)"
+        "texto": "-4"
       },
       {
         "letra": "B",
-        "texto": "(-6, 4)"
+        "texto": "-6"
       },
       {
         "letra": "C",
-        "texto": "(-3, 2)"
+        "texto": "4"
       },
       {
         "letra": "D",
-        "texto": "(2, -3)"
+        "texto": "-2"
       },
       {
         "letra": "E",
-        "texto": "(1, -2)"
+        "texto": "-10"
       }
     ],
-    "correta": "C",
-    "explicacao": "O ponto médio é ((x₁+x₂)/2, (y₁+y₂)/2) = ((-4+-2)/2, (4+0)/2) = (-3, 2)."
+    "correta": "A",
+    "explicacao": "Substituindo x = -5 na equação: y = 2×-5 + 6 = -4."
   },
   {
     "id": "geometria-analitica-ined-0091",
@@ -313,31 +211,31 @@
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "No plano cartesiano, qual é a distância do ponto P(6, -8) à origem?",
+    "enunciado": "No plano cartesiano, qual é o ponto médio do segmento de extremos A(-1, -3) e B(-3, -7)?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "20"
+        "texto": "(-5, -2)"
       },
       {
         "letra": "B",
-        "texto": "14"
+        "texto": "(-4, -10)"
       },
       {
         "letra": "C",
-        "texto": "10"
+        "texto": "(-2, -5)"
       },
       {
         "letra": "D",
-        "texto": "2"
+        "texto": "(1, 2)"
       },
       {
         "letra": "E",
-        "texto": "100"
+        "texto": "(-1, -2)"
       }
     ],
     "correta": "C",
-    "explicacao": "d = √(x² + y²) = √((6)² + (-8)²) = √(36 + 64) = √100 = 10."
+    "explicacao": "O ponto médio é ((x₁+x₂)/2, (y₁+y₂)/2) = ((-1+-3)/2, (-3+-7)/2) = (-2, -5)."
   },
   {
     "id": "geometria-analitica-ined-0092",
@@ -347,31 +245,31 @@
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "No plano cartesiano, qual é a distância do ponto P(3, 4) à origem?",
+    "enunciado": "No plano cartesiano, qual é o ponto médio do segmento de extremos A(-6, 5) e B(-12, 3)?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "10"
+        "texto": "(-3, -1)"
       },
       {
         "letra": "B",
-        "texto": "25"
+        "texto": "(4, -9)"
       },
       {
         "letra": "C",
-        "texto": "7"
+        "texto": "(-9, 4)"
       },
       {
         "letra": "D",
-        "texto": "1"
+        "texto": "(3, 1)"
       },
       {
         "letra": "E",
-        "texto": "5"
+        "texto": "(-18, 8)"
       }
     ],
-    "correta": "E",
-    "explicacao": "d = √(x² + y²) = √((3)² + (4)²) = √(9 + 16) = √25 = 5."
+    "correta": "C",
+    "explicacao": "O ponto médio é ((x₁+x₂)/2, (y₁+y₂)/2) = ((-6+-12)/2, (5+3)/2) = (-9, 4)."
   },
   {
     "id": "geometria-analitica-ined-0093",
@@ -381,15 +279,83 @@
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "No plano cartesiano, qual é a distância do ponto P(8, -15) à origem?",
+    "enunciado": "No plano cartesiano, qual é o ponto médio do segmento de extremos A(9, -9) e B(11, -5)?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "23"
+        "texto": "(20, -14)"
       },
       {
         "letra": "B",
-        "texto": "289"
+        "texto": "(-1, -2)"
+      },
+      {
+        "letra": "C",
+        "texto": "(-7, 10)"
+      },
+      {
+        "letra": "D",
+        "texto": "(10, -7)"
+      },
+      {
+        "letra": "E",
+        "texto": "(1, 2)"
+      }
+    ],
+    "correta": "D",
+    "explicacao": "O ponto médio é ((x₁+x₂)/2, (y₁+y₂)/2) = ((9+11)/2, (-9+-5)/2) = (10, -7)."
+  },
+  {
+    "id": "geometria-analitica-ined-0094",
+    "categoriaId": "geometria-analitica",
+    "subtopico": "Distância entre Pontos",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "No plano cartesiano, qual é a distância do ponto P(-3, -4) à origem?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "10"
+      },
+      {
+        "letra": "B",
+        "texto": "5"
+      },
+      {
+        "letra": "C",
+        "texto": "1"
+      },
+      {
+        "letra": "D",
+        "texto": "25"
+      },
+      {
+        "letra": "E",
+        "texto": "7"
+      }
+    ],
+    "correta": "B",
+    "explicacao": "d = √(x² + y²) = √((-3)² + (-4)²) = √(9 + 16) = √25 = 5."
+  },
+  {
+    "id": "geometria-analitica-ined-0095",
+    "categoriaId": "geometria-analitica",
+    "subtopico": "Distância entre Pontos",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "No plano cartesiano, qual é a distância do ponto P(-3, 4) à origem?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "25"
+      },
+      {
+        "letra": "B",
+        "texto": "5"
       },
       {
         "letra": "C",
@@ -397,7 +363,41 @@
       },
       {
         "letra": "D",
-        "texto": "17"
+        "texto": "10"
+      },
+      {
+        "letra": "E",
+        "texto": "1"
+      }
+    ],
+    "correta": "B",
+    "explicacao": "d = √(x² + y²) = √((-3)² + (4)²) = √(9 + 16) = √25 = 5."
+  },
+  {
+    "id": "geometria-analitica-ined-0096",
+    "categoriaId": "geometria-analitica",
+    "subtopico": "Distância entre Pontos",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "No plano cartesiano, qual é a distância do ponto P(10, 24) à origem?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "14"
+      },
+      {
+        "letra": "B",
+        "texto": "676"
+      },
+      {
+        "letra": "C",
+        "texto": "52"
+      },
+      {
+        "letra": "D",
+        "texto": "26"
       },
       {
         "letra": "E",
@@ -405,109 +405,7 @@
       }
     ],
     "correta": "D",
-    "explicacao": "d = √(x² + y²) = √((8)² + (-15)²) = √(64 + 225) = √289 = 17."
-  },
-  {
-    "id": "geometria-analitica-ined-0094",
-    "categoriaId": "geometria-analitica",
-    "subtopico": "Equação da Reta",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "No plano cartesiano, qual é o coeficiente angular da reta que passa pelos pontos A(-1, 3) e B(2, 9)?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "3"
-      },
-      {
-        "letra": "B",
-        "texto": "-2"
-      },
-      {
-        "letra": "C",
-        "texto": "6"
-      },
-      {
-        "letra": "D",
-        "texto": "2"
-      },
-      {
-        "letra": "E",
-        "texto": "5"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "m = (y₂ − y₁)/(x₂ − x₁) = (9 − (3))/(2 − (-1)) = 6/3 = 2."
-  },
-  {
-    "id": "geometria-analitica-ined-0095",
-    "categoriaId": "geometria-analitica",
-    "subtopico": "Equação da Reta",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "No plano cartesiano, qual é o coeficiente angular da reta que passa pelos pontos A(-3, -3) e B(-1, -9)?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "2"
-      },
-      {
-        "letra": "B",
-        "texto": "3"
-      },
-      {
-        "letra": "C",
-        "texto": "-3"
-      },
-      {
-        "letra": "D",
-        "texto": "-12"
-      },
-      {
-        "letra": "E",
-        "texto": "-6"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "m = (y₂ − y₁)/(x₂ − x₁) = (-9 − (-3))/(-1 − (-3)) = -6/2 = -3."
-  },
-  {
-    "id": "geometria-analitica-ined-0096",
-    "categoriaId": "geometria-analitica",
-    "subtopico": "Equação da Reta",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "No plano cartesiano, qual é o coeficiente angular da reta que passa pelos pontos A(2, -2) e B(4, -8)?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "-3"
-      },
-      {
-        "letra": "B",
-        "texto": "-6"
-      },
-      {
-        "letra": "C",
-        "texto": "4"
-      },
-      {
-        "letra": "D",
-        "texto": "3"
-      },
-      {
-        "letra": "E",
-        "texto": "2"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "m = (y₂ − y₁)/(x₂ − x₁) = (-8 − (-2))/(4 − (2)) = -6/2 = -3."
+    "explicacao": "d = √(x² + y²) = √((10)² + (24)²) = √(100 + 576) = √676 = 26."
   },
   {
     "id": "geometria-analitica-ined-0097",
@@ -517,19 +415,19 @@
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "A reta r passa pelos pontos A(3, -4) e B(6, 5). Escrevendo a equação de r na forma y = mx + n, qual é o valor de n (coeficiente linear)?",
+    "enunciado": "No plano cartesiano, qual é o coeficiente angular da reta que passa pelos pontos A(0, 1) e B(2, 7)?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "-13"
+        "texto": "-3"
       },
       {
         "letra": "B",
-        "texto": "5"
+        "texto": "2"
       },
       {
         "letra": "C",
-        "texto": "-4"
+        "texto": "6"
       },
       {
         "letra": "D",
@@ -537,17 +435,153 @@
       },
       {
         "letra": "E",
-        "texto": "23"
+        "texto": "1"
       }
     ],
-    "correta": "A",
-    "explicacao": "m = (5 − (-4))/(6 − (3)) = 3. Como n = y − mx, usando A: n = -4 − (3)(3) = -13."
+    "correta": "D",
+    "explicacao": "m = (y₂ − y₁)/(x₂ − x₁) = (7 − (1))/(2 − (0)) = 6/2 = 3."
   },
   {
     "id": "geometria-analitica-ined-0098",
     "categoriaId": "geometria-analitica",
     "subtopico": "Equação da Reta",
     "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "No plano cartesiano, qual é o coeficiente angular da reta que passa pelos pontos A(-1, 3) e B(1, -3)?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "2"
+      },
+      {
+        "letra": "B",
+        "texto": "3"
+      },
+      {
+        "letra": "C",
+        "texto": "-6"
+      },
+      {
+        "letra": "D",
+        "texto": "-3"
+      },
+      {
+        "letra": "E",
+        "texto": "0"
+      }
+    ],
+    "correta": "D",
+    "explicacao": "m = (y₂ − y₁)/(x₂ − x₁) = (-3 − (3))/(1 − (-1)) = -6/2 = -3."
+  },
+  {
+    "id": "geometria-analitica-ined-0099",
+    "categoriaId": "geometria-analitica",
+    "subtopico": "Equação da Reta",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "No plano cartesiano, qual é o coeficiente angular da reta que passa pelos pontos A(-3, -3) e B(0, -15)?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "3"
+      },
+      {
+        "letra": "B",
+        "texto": "4"
+      },
+      {
+        "letra": "C",
+        "texto": "-4"
+      },
+      {
+        "letra": "D",
+        "texto": "-15"
+      },
+      {
+        "letra": "E",
+        "texto": "-12"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "m = (y₂ − y₁)/(x₂ − x₁) = (-15 − (-3))/(0 − (-3)) = -12/3 = -4."
+  },
+  {
+    "id": "geometria-analitica-ined-0100",
+    "categoriaId": "geometria-analitica",
+    "subtopico": "Equação da Reta",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "A reta r passa pelos pontos A(2, 2) e B(3, 5). Escrevendo a equação de r na forma y = mx + n, qual é o valor de n (coeficiente linear)?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "8"
+      },
+      {
+        "letra": "B",
+        "texto": "-4"
+      },
+      {
+        "letra": "C",
+        "texto": "14"
+      },
+      {
+        "letra": "D",
+        "texto": "2"
+      },
+      {
+        "letra": "E",
+        "texto": "3"
+      }
+    ],
+    "correta": "B",
+    "explicacao": "m = (5 − (2))/(3 − (2)) = 3. Como n = y − mx, usando A: n = 2 − (3)(2) = -4."
+  },
+  {
+    "id": "geometria-analitica-ined-0101",
+    "categoriaId": "geometria-analitica",
+    "subtopico": "Equação da Reta",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "A reta r passa pelos pontos A(3, 4) e B(6, 10). Escrevendo a equação de r na forma y = mx + n, qual é o valor de n (coeficiente linear)?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "22"
+      },
+      {
+        "letra": "B",
+        "texto": "4"
+      },
+      {
+        "letra": "C",
+        "texto": "-2"
+      },
+      {
+        "letra": "D",
+        "texto": "10"
+      },
+      {
+        "letra": "E",
+        "texto": "2"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "m = (10 − (4))/(6 − (3)) = 2. Como n = y − mx, usando A: n = 4 − (2)(3) = -2."
+  },
+  {
+    "id": "geometria-analitica-ined-0102",
+    "categoriaId": "geometria-analitica",
+    "subtopico": "Equação da Reta",
+    "dificuldade": "dificil",
     "fonte": {
       "tipo": "inedita"
     },
@@ -578,48 +612,14 @@
     "explicacao": "m = (1 − (-3))/(-1 − (-3)) = 2. Como n = y − mx, usando A: n = -3 − (2)(-3) = 3."
   },
   {
-    "id": "geometria-analitica-ined-0099",
-    "categoriaId": "geometria-analitica",
-    "subtopico": "Equação da Reta",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "A reta r passa pelos pontos A(2, 3) e B(3, 1). Escrevendo a equação de r na forma y = mx + n, qual é o valor de n (coeficiente linear)?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "-1"
-      },
-      {
-        "letra": "B",
-        "texto": "-2"
-      },
-      {
-        "letra": "C",
-        "texto": "3"
-      },
-      {
-        "letra": "D",
-        "texto": "7"
-      },
-      {
-        "letra": "E",
-        "texto": "-5"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "m = (1 − (3))/(3 − (2)) = -2. Como n = y − mx, usando A: n = 3 − (-2)(2) = 7."
-  },
-  {
-    "id": "geometria-analitica-ined-0100",
+    "id": "geometria-analitica-ined-0103",
     "categoriaId": "geometria-analitica",
     "subtopico": "Equação da Reta",
     "dificuldade": "facil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Qual é o coeficiente angular de uma reta paralela à reta y = 2x - 3?",
+    "enunciado": "Qual é o coeficiente angular de uma reta paralela à reta y = -2x - 4?",
     "alternativas": [
       {
         "letra": "A",
@@ -627,79 +627,79 @@
       },
       {
         "letra": "B",
-        "texto": "-1/2"
-      },
-      {
-        "letra": "C",
         "texto": "-2"
       },
       {
+        "letra": "C",
+        "texto": "2"
+      },
+      {
         "letra": "D",
-        "texto": "-3"
+        "texto": "-4"
       },
       {
         "letra": "E",
-        "texto": "2"
+        "texto": "-1/2"
       }
     ],
-    "correta": "E",
-    "explicacao": "Retas paralelas têm o mesmo coeficiente angular. A reta dada tem coeficiente angular 2, logo a resposta é 2."
+    "correta": "B",
+    "explicacao": "Retas paralelas têm o mesmo coeficiente angular. A reta dada tem coeficiente angular -2, logo a resposta é -2."
   },
   {
-    "id": "geometria-analitica-ined-0101",
+    "id": "geometria-analitica-ined-0104",
     "categoriaId": "geometria-analitica",
     "subtopico": "Equação da Reta",
     "dificuldade": "medio",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Qual é o coeficiente angular de uma reta perpendicular à reta de equação y = -2x + 4?",
+    "enunciado": "Qual é o coeficiente angular de uma reta perpendicular à reta de equação y = 2x - 4?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "-1/2"
+        "texto": "1/2"
       },
       {
         "letra": "B",
-        "texto": "4"
+        "texto": "-4"
       },
       {
         "letra": "C",
-        "texto": "2"
+        "texto": "-1/2"
       },
       {
         "letra": "D",
-        "texto": "-2"
+        "texto": "2"
       },
       {
         "letra": "E",
-        "texto": "1/2"
+        "texto": "-2"
       }
     ],
-    "correta": "E",
-    "explicacao": "Retas perpendiculares têm coeficientes angulares com produto −1. Logo o coeficiente é −1/(-2) = 1/2."
+    "correta": "C",
+    "explicacao": "Retas perpendiculares têm coeficientes angulares com produto −1. Logo o coeficiente é −1/(2) = -1/2."
   },
   {
-    "id": "geometria-analitica-ined-0102",
+    "id": "geometria-analitica-ined-0105",
     "categoriaId": "geometria-analitica",
     "subtopico": "Equação da Reta",
     "dificuldade": "dificil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Uma reta s é perpendicular à reta r: y = -2x + 3. Qual é o coeficiente angular de s?",
+    "enunciado": "Uma reta s é perpendicular à reta r: y = 2x + 1. Qual é o coeficiente angular de s?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "-2"
+        "texto": "2"
       },
       {
         "letra": "B",
-        "texto": "3"
+        "texto": "-2"
       },
       {
         "letra": "C",
-        "texto": "2"
+        "texto": "1"
       },
       {
         "letra": "D",
@@ -710,14 +710,48 @@
         "texto": "-1/2"
       }
     ],
-    "correta": "D",
-    "explicacao": "Retas perpendiculares têm coeficientes angulares com produto −1. Logo o coeficiente é −1/(-2) = 1/2."
+    "correta": "E",
+    "explicacao": "Retas perpendiculares têm coeficientes angulares com produto −1. Logo o coeficiente é −1/(2) = -1/2."
   },
   {
-    "id": "geometria-analitica-ined-0103",
+    "id": "geometria-analitica-ined-0106",
     "categoriaId": "geometria-analitica",
     "subtopico": "Equação da Reta",
     "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "No plano cartesiano, as retas r: y = -x - 1 e s: y = 2x - 7 se intersectam em um único ponto. Quais são as coordenadas desse ponto?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "(-2, -3)"
+      },
+      {
+        "letra": "B",
+        "texto": "(2, -1)"
+      },
+      {
+        "letra": "C",
+        "texto": "(-3, 2)"
+      },
+      {
+        "letra": "D",
+        "texto": "(2, -3)"
+      },
+      {
+        "letra": "E",
+        "texto": "(2, -2)"
+      }
+    ],
+    "correta": "D",
+    "explicacao": "Igualando as equações e isolando x, obtém-se x = 2. Substituindo em r: y = -1·(2) - 1 = -3. Ponto: (2, -3)."
+  },
+  {
+    "id": "geometria-analitica-ined-0107",
+    "categoriaId": "geometria-analitica",
+    "subtopico": "Equação da Reta",
+    "dificuldade": "medio",
     "fonte": {
       "tipo": "inedita"
     },
@@ -748,10 +782,10 @@
     "explicacao": "Igualando as equações e isolando x, obtém-se x = -2. Substituindo em r: y = -2·(-2) - 4 = 0. Ponto: (-2, 0)."
   },
   {
-    "id": "geometria-analitica-ined-0104",
+    "id": "geometria-analitica-ined-0108",
     "categoriaId": "geometria-analitica",
     "subtopico": "Equação da Reta",
-    "dificuldade": "medio",
+    "dificuldade": "dificil",
     "fonte": {
       "tipo": "inedita"
     },
@@ -782,142 +816,6 @@
     "explicacao": "Igualando as equações e isolando x, obtém-se x = -1. Substituindo em r: y = 3·(-1) + 1 = -2. Ponto: (-1, -2)."
   },
   {
-    "id": "geometria-analitica-ined-0105",
-    "categoriaId": "geometria-analitica",
-    "subtopico": "Equação da Reta",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "No plano cartesiano, as retas r: y = -x - 2 e s: y = 2x + 10 se intersectam em um único ponto. Quais são as coordenadas desse ponto?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "(-4, 4)"
-      },
-      {
-        "letra": "B",
-        "texto": "(-4, -2)"
-      },
-      {
-        "letra": "C",
-        "texto": "(2, -4)"
-      },
-      {
-        "letra": "D",
-        "texto": "(-4, 2)"
-      },
-      {
-        "letra": "E",
-        "texto": "(4, 2)"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "Igualando as equações e isolando x, obtém-se x = -4. Substituindo em r: y = -1·(-4) - 2 = 2. Ponto: (-4, 2)."
-  },
-  {
-    "id": "geometria-analitica-ined-0106",
-    "categoriaId": "geometria-analitica",
-    "subtopico": "Equação da Circunferência",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "A circunferência λ tem equação (x + 5)² + (y + 4)² = 16. Quais são as coordenadas do seu centro?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "(5, 4)"
-      },
-      {
-        "letra": "B",
-        "texto": "(-5, -4)"
-      },
-      {
-        "letra": "C",
-        "texto": "(4, 5)"
-      },
-      {
-        "letra": "D",
-        "texto": "(-4, -5)"
-      },
-      {
-        "letra": "E",
-        "texto": "(5, -4)"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "Na forma (x − a)² + (y − b)² = r², o centro é (a, b). Aqui a = -5 e b = -4, logo o centro é (-5, -4)."
-  },
-  {
-    "id": "geometria-analitica-ined-0107",
-    "categoriaId": "geometria-analitica",
-    "subtopico": "Equação da Circunferência",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma circunferência tem equação (x + 4)² + (y + 3)² = 16. Qual é o seu raio?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "17"
-      },
-      {
-        "letra": "B",
-        "texto": "8"
-      },
-      {
-        "letra": "C",
-        "texto": "16"
-      },
-      {
-        "letra": "D",
-        "texto": "5"
-      },
-      {
-        "letra": "E",
-        "texto": "4"
-      }
-    ],
-    "correta": "E",
-    "explicacao": "O número à direita do sinal de igual é r² = 16. Logo r = √16 = 4."
-  },
-  {
-    "id": "geometria-analitica-ined-0108",
-    "categoriaId": "geometria-analitica",
-    "subtopico": "Equação da Circunferência",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Qual é a equação reduzida da circunferência de centro C(1, -3) e raio 6?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "(x - 1)² + (y + 3)² = 36"
-      },
-      {
-        "letra": "B",
-        "texto": "(x + 1)² + (y - 3)² = 36"
-      },
-      {
-        "letra": "C",
-        "texto": "(x + 3)² + (y - 1)² = 36"
-      },
-      {
-        "letra": "D",
-        "texto": "(x - 1)² + (y + 3)² = 6"
-      },
-      {
-        "letra": "E",
-        "texto": "(x - 1)² + (y + 3)² = 12"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "A equação reduzida é (x − a)² + (y − b)² = r². Com a = 1, b = -3 e r = 6: (x - 1)² + (y + 3)² = 36."
-  },
-  {
     "id": "geometria-analitica-ined-0109",
     "categoriaId": "geometria-analitica",
     "subtopico": "Equação da Circunferência",
@@ -925,31 +823,31 @@
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "A circunferência C tem equação x² + y² - 10x + 8y + 16 = 0. Quais são as coordenadas do seu centro?",
+    "enunciado": "A circunferência λ tem equação (x + 5)² + (y - 2)² = 16. Quais são as coordenadas do seu centro?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "(-5, -4)"
+        "texto": "(2, -5)"
       },
       {
         "letra": "B",
-        "texto": "(5, -4)"
+        "texto": "(-2, 5)"
       },
       {
         "letra": "C",
-        "texto": "(10, -8)"
+        "texto": "(-5, 2)"
       },
       {
         "letra": "D",
-        "texto": "(-4, 5)"
+        "texto": "(5, -2)"
       },
       {
         "letra": "E",
-        "texto": "(-10, 8)"
+        "texto": "(5, 2)"
       }
     ],
-    "correta": "B",
-    "explicacao": "O centro é (−D/2, −E/2) = (−(-10)/2, −(8)/2) = (5, -4)."
+    "correta": "C",
+    "explicacao": "Na forma (x − a)² + (y − b)² = r², o centro é (a, b). Aqui a = -5 e b = 2, logo o centro é (-5, 2)."
   },
   {
     "id": "geometria-analitica-ined-0110",
@@ -959,15 +857,15 @@
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "A circunferência C tem equação x² + y² + 8x + 6y + 9 = 0. Qual é o seu raio?",
+    "enunciado": "Uma circunferência tem equação (x - 3)² + (y + 5)² = 9. Qual é o seu raio?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "5"
+        "texto": "3"
       },
       {
         "letra": "B",
-        "texto": "8"
+        "texto": "10"
       },
       {
         "letra": "C",
@@ -975,15 +873,15 @@
       },
       {
         "letra": "D",
-        "texto": "7"
+        "texto": "6"
       },
       {
         "letra": "E",
-        "texto": "16"
+        "texto": "9"
       }
     ],
-    "correta": "C",
-    "explicacao": "Centro (−D/2, −E/2) = (-4, -3). Raio: r = √(D²/4 + E²/4 − F) = √(16 + 9 − (9)) = √16 = 4."
+    "correta": "A",
+    "explicacao": "O número à direita do sinal de igual é r² = 9. Logo r = √9 = 3."
   },
   {
     "id": "geometria-analitica-ined-0111",
@@ -993,31 +891,31 @@
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "A circunferência C tem equação x² + y² - 8x - 2y - 47 = 0. Determine o centro e o raio.",
+    "enunciado": "Qual é a equação reduzida da circunferência de centro C(-5, -3) e raio 4?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "centro (4, 1), raio 16"
+        "texto": "(x + 5)² + (y + 3)² = 8"
       },
       {
         "letra": "B",
-        "texto": "centro (-4, -1), raio 8"
+        "texto": "(x + 5)² + (y + 3)² = 4"
       },
       {
         "letra": "C",
-        "texto": "centro (4, 1), raio 8"
+        "texto": "(x + 3)² + (y + 5)² = 16"
       },
       {
         "letra": "D",
-        "texto": "centro (-8, -2), raio 8"
+        "texto": "(x + 5)² + (y + 3)² = 16"
       },
       {
         "letra": "E",
-        "texto": "centro (4, 1), raio 64"
+        "texto": "(x - 5)² + (y - 3)² = 16"
       }
     ],
-    "correta": "C",
-    "explicacao": "Centro (−D/2, −E/2) = (4, 1). Raio: r = √(D²/4 + E²/4 − F) = √(16 + 1 − (-47)) = √64 = 8."
+    "correta": "D",
+    "explicacao": "A equação reduzida é (x − a)² + (y − b)² = r². Com a = -5, b = -3 e r = 4: (x + 5)² + (y + 3)² = 16."
   },
   {
     "id": "geometria-analitica-ined-0112",
@@ -1027,34 +925,136 @@
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "A circunferência λ tem centro C(-4, -4) e raio 5. Considerando o ponto P(-1, -8), qual das afirmações é verdadeira?",
+    "enunciado": "A circunferência C tem equação x² + y² - 2x - 4y - 11 = 0. Quais são as coordenadas do seu centro?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "P coincide com o centro de λ."
+        "texto": "(1, 2)"
       },
       {
         "letra": "B",
-        "texto": "P coincide com a origem do plano cartesiano."
+        "texto": "(2, 1)"
       },
       {
         "letra": "C",
-        "texto": "P está no interior de λ."
+        "texto": "(-2, -4)"
       },
       {
         "letra": "D",
-        "texto": "P está sobre λ."
+        "texto": "(-1, 2)"
       },
       {
         "letra": "E",
-        "texto": "P está no exterior de λ."
+        "texto": "(2, 4)"
       }
     ],
-    "correta": "D",
-    "explicacao": "d² = (-1 − (-4))² + (-8 − (-4))² = 25; r² = 25. Como d² = r², conclui-se que P está sobre λ."
+    "correta": "A",
+    "explicacao": "O centro é (−D/2, −E/2) = (−(-2)/2, −(-4)/2) = (1, 2)."
   },
   {
     "id": "geometria-analitica-ined-0113",
+    "categoriaId": "geometria-analitica",
+    "subtopico": "Equação da Circunferência",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "A circunferência C tem equação x² + y² - 4x + 2y - 11 = 0. Qual é o seu raio?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "16"
+      },
+      {
+        "letra": "B",
+        "texto": "8"
+      },
+      {
+        "letra": "C",
+        "texto": "3"
+      },
+      {
+        "letra": "D",
+        "texto": "4"
+      },
+      {
+        "letra": "E",
+        "texto": "5"
+      }
+    ],
+    "correta": "D",
+    "explicacao": "Centro (−D/2, −E/2) = (2, -1). Raio: r = √(D²/4 + E²/4 − F) = √(4 + 1 − (-11)) = √16 = 4."
+  },
+  {
+    "id": "geometria-analitica-ined-0114",
+    "categoriaId": "geometria-analitica",
+    "subtopico": "Equação da Circunferência",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "A circunferência C tem equação x² + y² + 2x + 4y - 59 = 0. Determine o centro e o raio.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "centro (-1, -2), raio 16"
+      },
+      {
+        "letra": "B",
+        "texto": "centro (1, 2), raio 8"
+      },
+      {
+        "letra": "C",
+        "texto": "centro (-1, -2), raio 64"
+      },
+      {
+        "letra": "D",
+        "texto": "centro (2, 4), raio 8"
+      },
+      {
+        "letra": "E",
+        "texto": "centro (-1, -2), raio 8"
+      }
+    ],
+    "correta": "E",
+    "explicacao": "Centro (−D/2, −E/2) = (-1, -2). Raio: r = √(D²/4 + E²/4 − F) = √(1 + 4 − (-59)) = √64 = 8."
+  },
+  {
+    "id": "geometria-analitica-ined-0115",
+    "categoriaId": "geometria-analitica",
+    "subtopico": "Equação da Circunferência",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "A circunferência λ tem centro C(4, 1) e raio 10. Considerando o ponto P(10, -7), qual das afirmações é verdadeira?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "P está no interior de λ."
+      },
+      {
+        "letra": "B",
+        "texto": "P está no exterior de λ."
+      },
+      {
+        "letra": "C",
+        "texto": "P coincide com o centro de λ."
+      },
+      {
+        "letra": "D",
+        "texto": "P coincide com a origem do plano cartesiano."
+      },
+      {
+        "letra": "E",
+        "texto": "P está sobre λ."
+      }
+    ],
+    "correta": "E",
+    "explicacao": "d² = (10 − (4))² + (-7 − (1))² = 100; r² = 100. Como d² = r², conclui-se que P está sobre λ."
+  },
+  {
+    "id": "geometria-analitica-ined-0116",
     "categoriaId": "geometria-analitica",
     "subtopico": "Equação da Circunferência",
     "dificuldade": "medio",
@@ -1088,7 +1088,7 @@
     "explicacao": "d² = (7 − (4))² + (-1 − (-1))² = 9; r² = 36. Como d² < r², conclui-se que P está no interior de λ."
   },
   {
-    "id": "geometria-analitica-ined-0114",
+    "id": "geometria-analitica-ined-0117",
     "categoriaId": "geometria-analitica",
     "subtopico": "Equação da Circunferência",
     "dificuldade": "dificil",
@@ -1122,7 +1122,7 @@
     "explicacao": "d² = (-7 − (-3))² + (0 − (0))² = 16; r² = 9. Como d² > r², conclui-se que P está no exterior de λ."
   },
   {
-    "id": "geometria-analitica-ined-0115",
+    "id": "geometria-analitica-ined-0118",
     "categoriaId": "geometria-analitica",
     "subtopico": "Distância entre Pontos",
     "dificuldade": "facil",
@@ -1156,7 +1156,7 @@
     "explicacao": "Área = |x_A(y_B − y_C) + x_B(y_C − y_A) + x_C(y_A − y_B)| / 2 = |18| / 2 = 9."
   },
   {
-    "id": "geometria-analitica-ined-0116",
+    "id": "geometria-analitica-ined-0119",
     "categoriaId": "geometria-analitica",
     "subtopico": "Distância entre Pontos",
     "dificuldade": "medio",
@@ -1190,7 +1190,7 @@
     "explicacao": "Área = |x_A(y_B − y_C) + x_B(y_C − y_A) + x_C(y_A − y_B)| / 2 = |-21| / 2 = 10,5."
   },
   {
-    "id": "geometria-analitica-ined-0117",
+    "id": "geometria-analitica-ined-0120",
     "categoriaId": "geometria-analitica",
     "subtopico": "Distância entre Pontos",
     "dificuldade": "dificil",
@@ -1224,7 +1224,7 @@
     "explicacao": "Área = |x_A(y_B − y_C) + x_B(y_C − y_A) + x_C(y_A − y_B)| / 2 = |-45| / 2 = 22,5."
   },
   {
-    "id": "geometria-analitica-ined-0118",
+    "id": "geometria-analitica-ined-0121",
     "categoriaId": "geometria-analitica",
     "subtopico": "Equação da Reta",
     "dificuldade": "facil",
@@ -1258,7 +1258,7 @@
     "explicacao": "A reta por A e B tem coeficiente angular m = (9 − (3))/(0 − (-3)) = 2. Então k = y_A + m(x_C − x_A) = 3 + (2)(2 − (-3)) = 13."
   },
   {
-    "id": "geometria-analitica-ined-0119",
+    "id": "geometria-analitica-ined-0122",
     "categoriaId": "geometria-analitica",
     "subtopico": "Equação da Reta",
     "dificuldade": "medio",
@@ -1292,7 +1292,7 @@
     "explicacao": "A reta por A e B tem coeficiente angular m = (14 − (-1))/(3 − (-2)) = 3. Então k = y_A + m(x_C − x_A) = -1 + (3)(1 − (-2)) = 8."
   },
   {
-    "id": "geometria-analitica-ined-0120",
+    "id": "geometria-analitica-ined-0123",
     "categoriaId": "geometria-analitica",
     "subtopico": "Equação da Reta",
     "dificuldade": "dificil",
@@ -1326,7 +1326,7 @@
     "explicacao": "A reta por A e B tem coeficiente angular m = (-2 − (1))/(0 − (-1)) = -3. Então k = y_A + m(x_C − x_A) = 1 + (-3)(-2 − (-1)) = 4."
   },
   {
-    "id": "geometria-analitica-ined-0121",
+    "id": "geometria-analitica-ined-0124",
     "categoriaId": "geometria-analitica",
     "subtopico": "Distância entre Pontos",
     "dificuldade": "facil",
@@ -1360,7 +1360,7 @@
     "explicacao": "Na simetria em relação ao eixo x, troca-se o sinal da ordenada: (x, −y). Logo o simétrico de P(4, -5) é (4, 5)."
   },
   {
-    "id": "geometria-analitica-ined-0122",
+    "id": "geometria-analitica-ined-0125",
     "categoriaId": "geometria-analitica",
     "subtopico": "Distância entre Pontos",
     "dificuldade": "medio",
@@ -1394,7 +1394,7 @@
     "explicacao": "Na simetria em relação ao eixo y, troca-se o sinal da abscissa: (−x, y). Logo o simétrico de P(-2, -3) é (2, -3)."
   },
   {
-    "id": "geometria-analitica-ined-0123",
+    "id": "geometria-analitica-ined-0126",
     "categoriaId": "geometria-analitica",
     "subtopico": "Distância entre Pontos",
     "dificuldade": "dificil",
@@ -1428,7 +1428,7 @@
     "explicacao": "Na simetria em relação à origem, trocam-se os sinais das duas coordenadas: (−x, −y). Logo o simétrico de P(1, 7) é (-1, -7)."
   },
   {
-    "id": "geometria-analitica-ined-0124",
+    "id": "geometria-analitica-ined-0127",
     "categoriaId": "geometria-analitica",
     "subtopico": "Distância entre Pontos",
     "dificuldade": "facil",
