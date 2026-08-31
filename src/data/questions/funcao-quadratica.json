@@ -1,293 +1,89 @@
 [
   {
-    "id": "funcao-quadratica-ined-0013",
+    "id": "funcao-quadratica-ined-0031",
     "categoriaId": "funcao-quadratica",
     "subtopico": "Pontos de Máximo e Mínimo",
     "dificuldade": "facil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Uma loja vende 113 unidades de um produto por mês ao preço de R$ 37,00. Estudos mostram que, a cada R$ 1,00 de aumento no preço, 2 unidades deixam de ser vendidas por mês. Qual deve ser o preço de venda para maximizar a receita mensal?",
+    "enunciado": "Uma loja vende 176 unidades de um produto por mês ao preço de R$ 30,00. Estudos mostram que, a cada R$ 1,00 de aumento no preço, 5 unidades deixam de ser vendidas por mês. Qual deve ser o preço de venda para maximizar a receita mensal?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "R$ 47,00"
+        "texto": "R$ 5.313,00"
       },
       {
         "letra": "B",
-        "texto": "R$ 45,00"
+        "texto": "R$ 30,00"
       },
       {
         "letra": "C",
-        "texto": "R$ 4.371,00"
+        "texto": "R$ 38,00"
       },
       {
         "letra": "D",
-        "texto": "R$ 37,00"
+        "texto": "R$ 33,00"
       },
       {
         "letra": "E",
-        "texto": "R$ 49,00"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "Sendo x o aumento no preço, a receita é R(x) = (37 + x)(113 − 2x), uma função quadrática com concavidade para baixo. O máximo ocorre no vértice, em x = 10, resultando no preço ótimo de R$ 47,00."
-  },
-  {
-    "id": "funcao-quadratica-ined-0014",
-    "categoriaId": "funcao-quadratica",
-    "subtopico": "Pontos de Máximo e Mínimo",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma loja vende 126 unidades de um produto por mês ao preço de R$ 35,00. Estudos mostram que, a cada R$ 1,00 de aumento no preço, 2 unidades deixam de ser vendidas por mês. Qual deve ser o preço de venda para maximizar a receita mensal?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "R$ 35,00"
-      },
-      {
-        "letra": "B",
-        "texto": "R$ 47,00"
-      },
-      {
-        "letra": "C",
-        "texto": "R$ 49,00"
-      },
-      {
-        "letra": "D",
-        "texto": "R$ 4.802,00"
-      },
-      {
-        "letra": "E",
-        "texto": "R$ 51,00"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "Sendo x o aumento no preço, a receita é R(x) = (35 + x)(126 − 2x), uma função quadrática com concavidade para baixo. O máximo ocorre no vértice, em x = 14, resultando no preço ótimo de R$ 49,00."
-  },
-  {
-    "id": "funcao-quadratica-ined-0015",
-    "categoriaId": "funcao-quadratica",
-    "subtopico": "Pontos de Máximo e Mínimo",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma loja vende 380 unidades de um produto por mês ao preço de R$ 91,00. Estudos mostram que, a cada R$ 1,00 de aumento no preço, 2 unidades deixam de ser vendidas por mês. Qual deve ser o preço de venda para maximizar a receita mensal?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "R$ 39.480,00"
-      },
-      {
-        "letra": "B",
-        "texto": "R$ 91,00"
-      },
-      {
-        "letra": "C",
-        "texto": "R$ 143,00"
-      },
-      {
-        "letra": "D",
-        "texto": "R$ 141,00"
-      },
-      {
-        "letra": "E",
-        "texto": "R$ 139,00"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "Sendo x o aumento no preço, a receita é R(x) = (91 + x)(380 − 2x), uma função quadrática com concavidade para baixo. O máximo ocorre no vértice, em x = 50, resultando no preço ótimo de R$ 141,00."
-  },
-  {
-    "id": "funcao-quadratica-ined-0016",
-    "categoriaId": "funcao-quadratica",
-    "subtopico": "Vértice da Parábola",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "A altura h, em metros, de um projétil em função do tempo t, em segundos, é dada por h(t) = -1t² + 54t. Qual é a altura máxima atingida pelo projétil?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "729 m"
-      },
-      {
-        "letra": "B",
-        "texto": "27 m"
-      },
-      {
-        "letra": "C",
-        "texto": "365 m"
-      },
-      {
-        "letra": "D",
-        "texto": "783 m"
-      },
-      {
-        "letra": "E",
-        "texto": "54 m"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "O tempo do ponto de máximo é t = −b/(2a) = −54/(2×-1) = 27 s. Substituindo: h(27) = -1×27² + 54×27 = 729 m."
-  },
-  {
-    "id": "funcao-quadratica-ined-0017",
-    "categoriaId": "funcao-quadratica",
-    "subtopico": "Vértice da Parábola",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "A altura h, em metros, de um projétil em função do tempo t, em segundos, é dada por h(t) = -1t² + 20t. Qual é a altura máxima atingida pelo projétil?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "20 m"
-      },
-      {
-        "letra": "B",
-        "texto": "120 m"
-      },
-      {
-        "letra": "C",
-        "texto": "10 m"
-      },
-      {
-        "letra": "D",
-        "texto": "100 m"
-      },
-      {
-        "letra": "E",
-        "texto": "50 m"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "O tempo do ponto de máximo é t = −b/(2a) = −20/(2×-1) = 10 s. Substituindo: h(10) = -1×10² + 20×10 = 100 m."
-  },
-  {
-    "id": "funcao-quadratica-ined-0018",
-    "categoriaId": "funcao-quadratica",
-    "subtopico": "Vértice da Parábola",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "A altura h, em metros, de um projétil em função do tempo t, em segundos, é dada por h(t) = -1t² + 52t. Qual é a altura máxima atingida pelo projétil?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "26 m"
-      },
-      {
-        "letra": "B",
-        "texto": "728 m"
-      },
-      {
-        "letra": "C",
-        "texto": "676 m"
-      },
-      {
-        "letra": "D",
-        "texto": "338 m"
-      },
-      {
-        "letra": "E",
-        "texto": "52 m"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "O tempo do ponto de máximo é t = −b/(2a) = −52/(2×-1) = 26 s. Substituindo: h(26) = -1×26² + 52×26 = 676 m."
-  },
-  {
-    "id": "funcao-quadratica-ined-0019",
-    "categoriaId": "funcao-quadratica",
-    "subtopico": "Pontos de Máximo e Mínimo",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "O lucro mensal L, em reais, de uma fábrica que produz x peças por dia é dado por L(x) = −x² + 28x − 100. Qual é o lucro máximo mensal possível?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "R$ 296,00"
-      },
-      {
-        "letra": "B",
-        "texto": "R$ 14,00"
-      },
-      {
-        "letra": "C",
         "texto": "R$ 28,00"
-      },
-      {
-        "letra": "D",
-        "texto": "R$ 96,00"
-      },
-      {
-        "letra": "E",
-        "texto": "R$ 292,00"
       }
     ],
     "correta": "D",
-    "explicacao": "L é uma função quadrática de concavidade para baixo, então o máximo ocorre no vértice: x = −b/(2a) = 28/2 = 14 unidades. Substituindo, L(14) = −14² + 28·14 − 100 = 96, ou seja, R$ 96,00."
+    "explicacao": "Sendo x o aumento no preço, a receita é R(x) = (30 + x)(176 − 5x), uma função quadrática com concavidade para baixo. O máximo ocorre no vértice, em x = 3, resultando no preço ótimo de R$ 33,00."
   },
   {
-    "id": "funcao-quadratica-ined-0020",
+    "id": "funcao-quadratica-ined-0032",
     "categoriaId": "funcao-quadratica",
     "subtopico": "Pontos de Máximo e Mínimo",
     "dificuldade": "medio",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "O lucro mensal L, em reais, de uma loja que vende x camisetas por mês é dado por L(x) = −x² + 36x − 150. Qual é o lucro máximo mensal possível?",
+    "enunciado": "Uma loja vende 134 unidades de um produto por mês ao preço de R$ 25,00. Estudos mostram que, a cada R$ 1,00 de aumento no preço, 4 unidades deixam de ser vendidas por mês. Qual deve ser o preço de venda para maximizar a receita mensal?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "R$ 174,00"
+        "texto": "R$ 4.422,00"
       },
       {
         "letra": "B",
-        "texto": "R$ 474,00"
+        "texto": "R$ 33,00"
       },
       {
         "letra": "C",
-        "texto": "R$ 18,00"
+        "texto": "R$ 3.422,00"
       },
       {
         "letra": "D",
-        "texto": "R$ 36,00"
+        "texto": "R$ 25,00"
       },
       {
         "letra": "E",
-        "texto": "R$ 498,00"
+        "texto": "R$ 29,00"
       }
     ],
-    "correta": "A",
-    "explicacao": "L é uma função quadrática de concavidade para baixo, então o máximo ocorre no vértice: x = −b/(2a) = 36/2 = 18 unidades. Substituindo, L(18) = −18² + 36·18 − 150 = 174, ou seja, R$ 174,00."
+    "correta": "E",
+    "explicacao": "Sendo x o aumento no preço, a receita é R(x) = (25 + x)(134 − 4x), uma função quadrática com concavidade para baixo. O máximo ocorre no vértice, em x = 4, resultando no preço ótimo de R$ 29,00."
   },
   {
-    "id": "funcao-quadratica-ined-0021",
+    "id": "funcao-quadratica-ined-0033",
     "categoriaId": "funcao-quadratica",
     "subtopico": "Pontos de Máximo e Mínimo",
     "dificuldade": "dificil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "O lucro mensal L, em reais, de uma confeitaria que vende x bolos por semana é dado por L(x) = −x² + 52x − 400. Qual é o lucro máximo mensal possível?",
+    "enunciado": "Uma loja vende 253 unidades de um produto por mês ao preço de R$ 32,00. Estudos mostram que, a cada R$ 1,00 de aumento no preço, 4 unidades deixam de ser vendidas por mês. Qual deve ser o preço de venda para maximizar a receita mensal?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "R$ 276,00"
+        "texto": "R$ 9.072,00"
       },
       {
         "letra": "B",
-        "texto": "R$ 1.076,00"
+        "texto": "R$ 48,00"
       },
       {
         "letra": "C",
@@ -295,290 +91,494 @@
       },
       {
         "letra": "D",
-        "texto": "R$ 952,00"
+        "texto": "R$ 44,00"
       },
       {
         "letra": "E",
-        "texto": "R$ 26,00"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "L é uma função quadrática de concavidade para baixo, então o máximo ocorre no vértice: x = −b/(2a) = 52/2 = 26 unidades. Substituindo, L(26) = −26² + 52·26 − 400 = 276, ou seja, R$ 276,00."
-  },
-  {
-    "id": "funcao-quadratica-ined-0022",
-    "categoriaId": "funcao-quadratica",
-    "subtopico": "Raízes e Concavidade",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "O resultado R, em milhares de reais, de um projeto em função do tempo x (em meses) é dado por f(x) = −x² + 9x − 18. Para quais valores de x esse valor é nulo?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "x = 3 ou x = 6"
-      },
-      {
-        "letra": "B",
-        "texto": "x = 9 ou x = 3"
-      },
-      {
-        "letra": "C",
-        "texto": "x = -3 ou x = -6"
-      },
-      {
-        "letra": "D",
-        "texto": "x = -6 ou x = -12"
-      },
-      {
-        "letra": "E",
-        "texto": "x = 9 ou x = 18"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "f(x) = 0 ⇔ x² − 9x + 18 = 0. Por soma e produto, as raízes somam 9 e têm produto 18: são 3 e 6. Logo x = 3 ou x = 6."
-  },
-  {
-    "id": "funcao-quadratica-ined-0023",
-    "categoriaId": "funcao-quadratica",
-    "subtopico": "Raízes e Concavidade",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "O lucro L, em milhares de reais, de uma empresa em função do preço unitário x (em reais) é dado por f(x) = −x² + 9x − 18. Para quais valores de x esse valor é nulo?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "x = -3 ou x = -6"
-      },
-      {
-        "letra": "B",
-        "texto": "x = 9 ou x = 18"
-      },
-      {
-        "letra": "C",
-        "texto": "x = 3 ou x = 6"
-      },
-      {
-        "letra": "D",
-        "texto": "x = 9 ou x = 3"
-      },
-      {
-        "letra": "E",
-        "texto": "x = -6 ou x = -12"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "f(x) = 0 ⇔ x² − 9x + 18 = 0. Por soma e produto, as raízes somam 9 e têm produto 18: são 3 e 6. Logo x = 3 ou x = 6."
-  },
-  {
-    "id": "funcao-quadratica-ined-0024",
-    "categoriaId": "funcao-quadratica",
-    "subtopico": "Raízes e Concavidade",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "A margem M, em milhares de reais, de uma operação em função da quantidade x (em lotes) é dado por f(x) = −x² + 14x − 40. Para quais valores de x esse valor é nulo?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "x = 4 ou x = 10"
-      },
-      {
-        "letra": "B",
-        "texto": "x = -4 ou x = -10"
-      },
-      {
-        "letra": "C",
-        "texto": "x = 14 ou x = 40"
-      },
-      {
-        "letra": "D",
-        "texto": "x = 14 ou x = 6"
-      },
-      {
-        "letra": "E",
-        "texto": "x = -8 ou x = -20"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "f(x) = 0 ⇔ x² − 14x + 40 = 0. Por soma e produto, as raízes somam 14 e têm produto 40: são 4 e 10. Logo x = 4 ou x = 10."
-  },
-  {
-    "id": "funcao-quadratica-ined-0025",
-    "categoriaId": "funcao-quadratica",
-    "subtopico": "Raízes e Concavidade",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Considere a equação do 2º grau 2x² − 12x + 18 = 0. Sem resolvê-la, determine a soma das raízes adicionada ao produto das raízes.",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "54"
-      },
-      {
-        "letra": "B",
-        "texto": "6"
-      },
-      {
-        "letra": "C",
-        "texto": "15"
-      },
-      {
-        "letra": "D",
-        "texto": "9"
-      },
-      {
-        "letra": "E",
-        "texto": "-3"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "Pelas relações de Girard, a soma das raízes é S = −b/a = −(-12)/2 = 6 e o produto é P = c/a = 18/2 = 9. Logo S + P = 6 + 9 = 15."
-  },
-  {
-    "id": "funcao-quadratica-ined-0026",
-    "categoriaId": "funcao-quadratica",
-    "subtopico": "Raízes e Concavidade",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Considere a equação do 2º grau 3x² − 24x + 9 = 0. Sem resolvê-la, determine o produto das raízes dessa equação.",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "8"
-      },
-      {
-        "letra": "B",
-        "texto": "3"
-      },
-      {
-        "letra": "C",
-        "texto": "-3"
-      },
-      {
-        "letra": "D",
-        "texto": "-8"
-      },
-      {
-        "letra": "E",
-        "texto": "9"
+        "texto": "R$ 32,00"
       }
     ],
     "correta": "B",
-    "explicacao": "Pelas relações de Girard, a soma das raízes é S = −b/a = −(-24)/3 = 8 e o produto é P = c/a = 9/3 = 3."
+    "explicacao": "Sendo x o aumento no preço, a receita é R(x) = (32 + x)(253 − 4x), uma função quadrática com concavidade para baixo. O máximo ocorre no vértice, em x = 16, resultando no preço ótimo de R$ 48,00."
   },
   {
-    "id": "funcao-quadratica-ined-0027",
+    "id": "funcao-quadratica-ined-0034",
     "categoriaId": "funcao-quadratica",
-    "subtopico": "Raízes e Concavidade",
+    "subtopico": "Vértice da Parábola",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "A altura h, em metros, de um projétil em função do tempo t, em segundos, é dada por h(t) = -5t² + 20t. Qual é a altura máxima atingida pelo projétil?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "20 m"
+      },
+      {
+        "letra": "B",
+        "texto": "3 m"
+      },
+      {
+        "letra": "C",
+        "texto": "2 m"
+      },
+      {
+        "letra": "D",
+        "texto": "40 m"
+      },
+      {
+        "letra": "E",
+        "texto": "10 m"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "O tempo do ponto de máximo é t = −b/(2a) = −20/(2×-5) = 2 s. Substituindo: h(2) = -5×2² + 20×2 = 20 m."
+  },
+  {
+    "id": "funcao-quadratica-ined-0035",
+    "categoriaId": "funcao-quadratica",
+    "subtopico": "Vértice da Parábola",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "A altura h, em metros, de um projétil em função do tempo t, em segundos, é dada por h(t) = -1t² + 26t. Qual é a altura máxima atingida pelo projétil?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "26 m"
+      },
+      {
+        "letra": "B",
+        "texto": "195 m"
+      },
+      {
+        "letra": "C",
+        "texto": "13 m"
+      },
+      {
+        "letra": "D",
+        "texto": "85 m"
+      },
+      {
+        "letra": "E",
+        "texto": "169 m"
+      }
+    ],
+    "correta": "E",
+    "explicacao": "O tempo do ponto de máximo é t = −b/(2a) = −26/(2×-1) = 13 s. Substituindo: h(13) = -1×13² + 26×13 = 169 m."
+  },
+  {
+    "id": "funcao-quadratica-ined-0036",
+    "categoriaId": "funcao-quadratica",
+    "subtopico": "Vértice da Parábola",
     "dificuldade": "dificil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Considere a equação do 2º grau 2x² − 8x + 6 = 0. Sem resolvê-la, determine o produto das raízes dessa equação.",
+    "enunciado": "A altura h, em metros, de um projétil em função do tempo t, em segundos, é dada por h(t) = -2t² + 56t. Qual é a altura máxima atingida pelo projétil?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "3"
+        "texto": "392 m"
       },
       {
         "letra": "B",
-        "texto": "-3"
+        "texto": "14 m"
       },
       {
         "letra": "C",
-        "texto": "6"
+        "texto": "196 m"
       },
       {
         "letra": "D",
-        "texto": "-4"
+        "texto": "56 m"
       },
       {
         "letra": "E",
-        "texto": "4"
+        "texto": "448 m"
       }
     ],
     "correta": "A",
-    "explicacao": "Pelas relações de Girard, a soma das raízes é S = −b/a = −(-8)/2 = 4 e o produto é P = c/a = 6/2 = 3."
+    "explicacao": "O tempo do ponto de máximo é t = −b/(2a) = −56/(2×-2) = 14 s. Substituindo: h(14) = -2×14² + 56×14 = 392 m."
   },
   {
-    "id": "funcao-quadratica-ined-0028",
+    "id": "funcao-quadratica-ined-0037",
     "categoriaId": "funcao-quadratica",
     "subtopico": "Pontos de Máximo e Mínimo",
     "dificuldade": "facil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Uma prefeitura dispõe de 20 m de tela para delimitar uma horta comunitária retangular à margem de um rio, que forma um dos lados. Apenas três lados serão cercados com a tela. Qual é a maior área, em m², que pode ser cercada?",
+    "enunciado": "O lucro mensal L, em reais, de uma fábrica que produz x peças por dia é dado por L(x) = −x² + 34x − 100. Qual é o lucro máximo mensal possível?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "50 m²"
+        "texto": "R$ 34,00"
       },
       {
         "letra": "B",
-        "texto": "10 m²"
+        "texto": "R$ 478,00"
       },
       {
         "letra": "C",
-        "texto": "20 m²"
+        "texto": "R$ 389,00"
       },
       {
         "letra": "D",
-        "texto": "100 m²"
+        "texto": "R$ 17,00"
       },
       {
         "letra": "E",
-        "texto": "25 m²"
+        "texto": "R$ 189,00"
       }
     ],
-    "correta": "A",
-    "explicacao": "Sendo x o lado paralelo ao muro e y cada um dos dois lados perpendiculares, x + 2y = 20. A área é A(y) = (20 − 2y)·y, uma parábola com máximo em y = 20/4 = 5. Então x = 20 − 2·5 = 10 e A = 10·5 = 50 m²."
+    "correta": "E",
+    "explicacao": "L é uma função quadrática de concavidade para baixo, então o máximo ocorre no vértice: x = −b/(2a) = 34/2 = 17 unidades. Substituindo, L(17) = −17² + 34·17 − 100 = 189, ou seja, R$ 189,00."
   },
   {
-    "id": "funcao-quadratica-ined-0029",
+    "id": "funcao-quadratica-ined-0038",
     "categoriaId": "funcao-quadratica",
     "subtopico": "Pontos de Máximo e Mínimo",
     "dificuldade": "medio",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Um agricultor dispõe de 28 m de tela para cercar um curral retangular, aproveitando um muro reto já existente como um dos lados. Apenas três lados serão cercados com a tela. Qual é a maior área, em m², que pode ser cercada?",
+    "enunciado": "O lucro mensal L, em reais, de uma confeitaria que vende x bolos por semana é dado por L(x) = −x² + 46x − 250. Qual é o lucro máximo mensal possível?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "98 m²"
+        "texto": "R$ 779,00"
       },
       {
         "letra": "B",
-        "texto": "28 m²"
+        "texto": "R$ 46,00"
       },
       {
         "letra": "C",
-        "texto": "14 m²"
+        "texto": "R$ 808,00"
       },
       {
         "letra": "D",
-        "texto": "196 m²"
+        "texto": "R$ 279,00"
       },
       {
         "letra": "E",
-        "texto": "49 m²"
+        "texto": "R$ 23,00"
+      }
+    ],
+    "correta": "D",
+    "explicacao": "L é uma função quadrática de concavidade para baixo, então o máximo ocorre no vértice: x = −b/(2a) = 46/2 = 23 unidades. Substituindo, L(23) = −23² + 46·23 − 250 = 279, ou seja, R$ 279,00."
+  },
+  {
+    "id": "funcao-quadratica-ined-0039",
+    "categoriaId": "funcao-quadratica",
+    "subtopico": "Pontos de Máximo e Mínimo",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "O lucro mensal L, em reais, de uma confeitaria que vende x bolos por semana é dado por L(x) = −x² + 58x − 300. Qual é o lucro máximo mensal possível?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "R$ 1.141,00"
+      },
+      {
+        "letra": "B",
+        "texto": "R$ 541,00"
+      },
+      {
+        "letra": "C",
+        "texto": "R$ 58,00"
+      },
+      {
+        "letra": "D",
+        "texto": "R$ 29,00"
+      },
+      {
+        "letra": "E",
+        "texto": "R$ 1.382,00"
+      }
+    ],
+    "correta": "B",
+    "explicacao": "L é uma função quadrática de concavidade para baixo, então o máximo ocorre no vértice: x = −b/(2a) = 58/2 = 29 unidades. Substituindo, L(29) = −29² + 58·29 − 300 = 541, ou seja, R$ 541,00."
+  },
+  {
+    "id": "funcao-quadratica-ined-0040",
+    "categoriaId": "funcao-quadratica",
+    "subtopico": "Raízes e Concavidade",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "O lucro L, em milhares de reais, de uma empresa em função do preço unitário x (em reais) é dado por f(x) = −x² + 8x − 15. Para quais valores de x esse valor é nulo?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "x = -3 ou x = -5"
+      },
+      {
+        "letra": "B",
+        "texto": "x = -6 ou x = -10"
+      },
+      {
+        "letra": "C",
+        "texto": "x = 8 ou x = 15"
+      },
+      {
+        "letra": "D",
+        "texto": "x = 8 ou x = 2"
+      },
+      {
+        "letra": "E",
+        "texto": "x = 3 ou x = 5"
+      }
+    ],
+    "correta": "E",
+    "explicacao": "f(x) = 0 ⇔ x² − 8x + 15 = 0. Por soma e produto, as raízes somam 8 e têm produto 15: são 3 e 5. Logo x = 3 ou x = 5."
+  },
+  {
+    "id": "funcao-quadratica-ined-0041",
+    "categoriaId": "funcao-quadratica",
+    "subtopico": "Raízes e Concavidade",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "A margem M, em milhares de reais, de uma operação em função da quantidade x (em lotes) é dado por f(x) = −x² + 11x − 28. Para quais valores de x esse valor é nulo?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "x = 11 ou x = 28"
+      },
+      {
+        "letra": "B",
+        "texto": "x = -4 ou x = -7"
+      },
+      {
+        "letra": "C",
+        "texto": "x = -8 ou x = -14"
+      },
+      {
+        "letra": "D",
+        "texto": "x = 11 ou x = 3"
+      },
+      {
+        "letra": "E",
+        "texto": "x = 4 ou x = 7"
+      }
+    ],
+    "correta": "E",
+    "explicacao": "f(x) = 0 ⇔ x² − 11x + 28 = 0. Por soma e produto, as raízes somam 11 e têm produto 28: são 4 e 7. Logo x = 4 ou x = 7."
+  },
+  {
+    "id": "funcao-quadratica-ined-0042",
+    "categoriaId": "funcao-quadratica",
+    "subtopico": "Raízes e Concavidade",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "O resultado R, em milhares de reais, de um projeto em função do tempo x (em meses) é dado por f(x) = −x² + 10x − 16. Para quais valores de x esse valor é nulo?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "x = -2 ou x = -8"
+      },
+      {
+        "letra": "B",
+        "texto": "x = 10 ou x = 6"
+      },
+      {
+        "letra": "C",
+        "texto": "x = -4 ou x = -16"
+      },
+      {
+        "letra": "D",
+        "texto": "x = 2 ou x = 8"
+      },
+      {
+        "letra": "E",
+        "texto": "x = 10 ou x = 16"
+      }
+    ],
+    "correta": "D",
+    "explicacao": "f(x) = 0 ⇔ x² − 10x + 16 = 0. Por soma e produto, as raízes somam 10 e têm produto 16: são 2 e 8. Logo x = 2 ou x = 8."
+  },
+  {
+    "id": "funcao-quadratica-ined-0043",
+    "categoriaId": "funcao-quadratica",
+    "subtopico": "Raízes e Concavidade",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Considere a equação do 2º grau 2x² − 14x + 4 = 0. Sem resolvê-la, determine a soma das raízes dessa equação.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "7"
+      },
+      {
+        "letra": "B",
+        "texto": "14"
+      },
+      {
+        "letra": "C",
+        "texto": "2"
+      },
+      {
+        "letra": "D",
+        "texto": "4"
+      },
+      {
+        "letra": "E",
+        "texto": "-7"
       }
     ],
     "correta": "A",
-    "explicacao": "Sendo x o lado paralelo ao muro e y cada um dos dois lados perpendiculares, x + 2y = 28. A área é A(y) = (28 − 2y)·y, uma parábola com máximo em y = 28/4 = 7. Então x = 28 − 2·7 = 14 e A = 14·7 = 98 m²."
+    "explicacao": "Pelas relações de Girard, a soma das raízes é S = −b/a = −(-14)/2 = 7 e o produto é P = c/a = 4/2 = 2."
   },
   {
-    "id": "funcao-quadratica-ined-0030",
+    "id": "funcao-quadratica-ined-0044",
+    "categoriaId": "funcao-quadratica",
+    "subtopico": "Raízes e Concavidade",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Considere a equação do 2º grau 2x² − 12x + 10 = 0. Sem resolvê-la, determine o produto das raízes dessa equação.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "5"
+      },
+      {
+        "letra": "B",
+        "texto": "-5"
+      },
+      {
+        "letra": "C",
+        "texto": "10"
+      },
+      {
+        "letra": "D",
+        "texto": "-6"
+      },
+      {
+        "letra": "E",
+        "texto": "6"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "Pelas relações de Girard, a soma das raízes é S = −b/a = −(-12)/2 = 6 e o produto é P = c/a = 10/2 = 5."
+  },
+  {
+    "id": "funcao-quadratica-ined-0045",
+    "categoriaId": "funcao-quadratica",
+    "subtopico": "Raízes e Concavidade",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Considere a equação do 2º grau 4x² − 36x + 28 = 0. Sem resolvê-la, determine a soma das raízes dessa equação.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "-9"
+      },
+      {
+        "letra": "B",
+        "texto": "28"
+      },
+      {
+        "letra": "C",
+        "texto": "9"
+      },
+      {
+        "letra": "D",
+        "texto": "36"
+      },
+      {
+        "letra": "E",
+        "texto": "7"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "Pelas relações de Girard, a soma das raízes é S = −b/a = −(-36)/4 = 9 e o produto é P = c/a = 28/4 = 7."
+  },
+  {
+    "id": "funcao-quadratica-ined-0046",
+    "categoriaId": "funcao-quadratica",
+    "subtopico": "Pontos de Máximo e Mínimo",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um criador dispõe de 12 m de tela para cercar um canil retangular encostado na parede de um galpão, que serve como um dos lados. Apenas três lados serão cercados com a tela. Qual é a maior área, em m², que pode ser cercada?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "12 m²"
+      },
+      {
+        "letra": "B",
+        "texto": "6 m²"
+      },
+      {
+        "letra": "C",
+        "texto": "36 m²"
+      },
+      {
+        "letra": "D",
+        "texto": "18 m²"
+      },
+      {
+        "letra": "E",
+        "texto": "9 m²"
+      }
+    ],
+    "correta": "D",
+    "explicacao": "Sendo x o lado paralelo ao muro e y cada um dos dois lados perpendiculares, x + 2y = 12. A área é A(y) = (12 − 2y)·y, uma parábola com máximo em y = 12/4 = 3. Então x = 12 − 2·3 = 6 e A = 6·3 = 18 m²."
+  },
+  {
+    "id": "funcao-quadratica-ined-0047",
+    "categoriaId": "funcao-quadratica",
+    "subtopico": "Pontos de Máximo e Mínimo",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um criador dispõe de 24 m de tela para cercar um canil retangular encostado na parede de um galpão, que serve como um dos lados. Apenas três lados serão cercados com a tela. Qual é a maior área, em m², que pode ser cercada?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "24 m²"
+      },
+      {
+        "letra": "B",
+        "texto": "36 m²"
+      },
+      {
+        "letra": "C",
+        "texto": "72 m²"
+      },
+      {
+        "letra": "D",
+        "texto": "144 m²"
+      },
+      {
+        "letra": "E",
+        "texto": "12 m²"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "Sendo x o lado paralelo ao muro e y cada um dos dois lados perpendiculares, x + 2y = 24. A área é A(y) = (24 − 2y)·y, uma parábola com máximo em y = 24/4 = 6. Então x = 24 − 2·6 = 12 e A = 12·6 = 72 m²."
+  },
+  {
+    "id": "funcao-quadratica-ined-0048",
     "categoriaId": "funcao-quadratica",
     "subtopico": "Pontos de Máximo e Mínimo",
     "dificuldade": "dificil",
@@ -593,7 +593,7 @@
       },
       {
         "letra": "B",
-        "texto": "20 m²"
+        "texto": "40 m²"
       },
       {
         "letra": "C",
@@ -601,63 +601,63 @@
       },
       {
         "letra": "D",
-        "texto": "200 m²"
+        "texto": "20 m²"
       },
       {
         "letra": "E",
-        "texto": "40 m²"
+        "texto": "200 m²"
       }
     ],
-    "correta": "D",
+    "correta": "E",
     "explicacao": "Sendo x o lado paralelo ao muro e y cada um dos dois lados perpendiculares, x + 2y = 40. A área é A(y) = (40 − 2y)·y, uma parábola com máximo em y = 40/4 = 10. Então x = 40 − 2·10 = 20 e A = 20·10 = 200 m²."
   },
   {
-    "id": "funcao-quadratica-ined-0031",
+    "id": "funcao-quadratica-ined-0049",
     "categoriaId": "funcao-quadratica",
     "subtopico": "Pontos de Máximo e Mínimo",
     "dificuldade": "facil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Dois números positivos têm soma igual a 12. Qual é o maior valor possível para o produto desses dois números?",
+    "enunciado": "A soma de dois números reais positivos é 10. Qual é o maior valor possível para o produto desses dois números?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "6"
+        "texto": "100"
       },
       {
         "letra": "B",
-        "texto": "35"
+        "texto": "5"
       },
       {
         "letra": "C",
-        "texto": "36"
+        "texto": "25"
       },
       {
         "letra": "D",
-        "texto": "72"
+        "texto": "50"
       },
       {
         "letra": "E",
-        "texto": "144"
+        "texto": "24"
       }
     ],
     "correta": "C",
-    "explicacao": "Se um número é n, o outro é 12 − n, e o produto p(n) = n·(12 − n) = −n² + 12n é máximo no vértice, em n = 12/2 = 6. O outro número também é 6, e o produto máximo é 6·6 = 36."
+    "explicacao": "Se um número é n, o outro é 10 − n, e o produto p(n) = n·(10 − n) = −n² + 10n é máximo no vértice, em n = 10/2 = 5. O outro número também é 5, e o produto máximo é 5·5 = 25."
   },
   {
-    "id": "funcao-quadratica-ined-0032",
+    "id": "funcao-quadratica-ined-0050",
     "categoriaId": "funcao-quadratica",
     "subtopico": "Pontos de Máximo e Mínimo",
     "dificuldade": "medio",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Dois números positivos têm soma igual a 22. Qual é o maior valor possível para o produto desses dois números?",
+    "enunciado": "Um fio de arame será cortado em dois pedaços cujos comprimentos, em cm, somam 22. Qual é o maior valor possível para o produto desses dois números?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "121"
+        "texto": "120"
       },
       {
         "letra": "B",
@@ -665,63 +665,63 @@
       },
       {
         "letra": "C",
-        "texto": "120"
+        "texto": "121"
       },
       {
         "letra": "D",
-        "texto": "11"
+        "texto": "484"
       },
       {
         "letra": "E",
-        "texto": "484"
+        "texto": "11"
       }
     ],
-    "correta": "A",
+    "correta": "C",
     "explicacao": "Se um número é n, o outro é 22 − n, e o produto p(n) = n·(22 − n) = −n² + 22n é máximo no vértice, em n = 22/2 = 11. O outro número também é 11, e o produto máximo é 11·11 = 121."
   },
   {
-    "id": "funcao-quadratica-ined-0033",
+    "id": "funcao-quadratica-ined-0051",
     "categoriaId": "funcao-quadratica",
     "subtopico": "Pontos de Máximo e Mínimo",
     "dificuldade": "dificil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "A soma de dois números reais positivos é 36. Qual é o maior valor possível para o produto desses dois números?",
+    "enunciado": "Dois números positivos têm soma igual a 38. Qual é o maior valor possível para o produto desses dois números?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "324"
+        "texto": "1444"
       },
       {
         "letra": "B",
-        "texto": "323"
+        "texto": "722"
       },
       {
         "letra": "C",
-        "texto": "648"
+        "texto": "360"
       },
       {
         "letra": "D",
-        "texto": "18"
+        "texto": "361"
       },
       {
         "letra": "E",
-        "texto": "1296"
+        "texto": "19"
       }
     ],
-    "correta": "A",
-    "explicacao": "Se um número é n, o outro é 36 − n, e o produto p(n) = n·(36 − n) = −n² + 36n é máximo no vértice, em n = 36/2 = 18. O outro número também é 18, e o produto máximo é 18·18 = 324."
+    "correta": "D",
+    "explicacao": "Se um número é n, o outro é 38 − n, e o produto p(n) = n·(38 − n) = −n² + 38n é máximo no vértice, em n = 38/2 = 19. O outro número também é 19, e o produto máximo é 19·19 = 361."
   },
   {
-    "id": "funcao-quadratica-ined-0034",
+    "id": "funcao-quadratica-ined-0052",
     "categoriaId": "funcao-quadratica",
     "subtopico": "Raízes e Concavidade",
     "dificuldade": "facil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Um jato de água parte de um chafariz no solo e sua altura h, em metros, t segundos após o lançamento é h(t) = −3t² + 18t. Quantos segundos após o lançamento o jato retorna ao solo (h = 0)?",
+    "enunciado": "Um jato de água parte de um chafariz no solo e sua altura h, em metros, t segundos após o lançamento é h(t) = −4t² + 24t. Quantos segundos após o lançamento o jato retorna ao solo (h = 0)?",
     "alternativas": [
       {
         "letra": "A",
@@ -729,11 +729,11 @@
       },
       {
         "letra": "B",
-        "texto": "27 s"
+        "texto": "24 s"
       },
       {
         "letra": "C",
-        "texto": "12 s"
+        "texto": "36 s"
       },
       {
         "letra": "D",
@@ -741,418 +741,418 @@
       },
       {
         "letra": "E",
-        "texto": "18 s"
+        "texto": "12 s"
       }
     ],
     "correta": "D",
-    "explicacao": "Fazendo h(t) = 0: t·(−3t + 18) = 0, então t = 0 (lançamento) ou −3t + 18 = 0 ⇒ t = 18/3 = 6 s."
+    "explicacao": "Fazendo h(t) = 0: t·(−4t + 24) = 0, então t = 0 (lançamento) ou −4t + 24 = 0 ⇒ t = 24/4 = 6 s."
   },
   {
-    "id": "funcao-quadratica-ined-0035",
+    "id": "funcao-quadratica-ined-0053",
     "categoriaId": "funcao-quadratica",
     "subtopico": "Raízes e Concavidade",
     "dificuldade": "medio",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Um foguete de brinquedo é lançado do solo e sua altura h, em metros, t segundos após o lançamento é h(t) = −4t² + 40t. Quantos segundos após o lançamento o foguete retorna ao solo (h = 0)?",
+    "enunciado": "Um foguete de brinquedo é lançado do solo e sua altura h, em metros, t segundos após o lançamento é h(t) = −4t² + 32t. Quantos segundos após o lançamento o foguete retorna ao solo (h = 0)?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "100 s"
+        "texto": "64 s"
       },
       {
         "letra": "B",
-        "texto": "40 s"
+        "texto": "4 s"
       },
       {
         "letra": "C",
-        "texto": "10 s"
+        "texto": "16 s"
       },
       {
         "letra": "D",
-        "texto": "20 s"
+        "texto": "32 s"
       },
       {
         "letra": "E",
-        "texto": "5 s"
+        "texto": "8 s"
       }
     ],
-    "correta": "C",
-    "explicacao": "Fazendo h(t) = 0: t·(−4t + 40) = 0, então t = 0 (lançamento) ou −4t + 40 = 0 ⇒ t = 40/4 = 10 s."
+    "correta": "E",
+    "explicacao": "Fazendo h(t) = 0: t·(−4t + 32) = 0, então t = 0 (lançamento) ou −4t + 32 = 0 ⇒ t = 32/4 = 8 s."
   },
   {
-    "id": "funcao-quadratica-ined-0036",
+    "id": "funcao-quadratica-ined-0054",
     "categoriaId": "funcao-quadratica",
     "subtopico": "Raízes e Concavidade",
     "dificuldade": "dificil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Uma bola é chutada rente ao gramado e sua altura h, em metros, t segundos após o lançamento é h(t) = −3t² + 30t. Quantos segundos após o lançamento a bola retorna ao solo (h = 0)?",
+    "enunciado": "Um golfinho salta para fora da água e sua altura h, em metros, t segundos após o lançamento é h(t) = −4t² + 48t. Quantos segundos após o lançamento o golfinho retorna ao solo (h = 0)?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "20 s"
+        "texto": "6 s"
       },
       {
         "letra": "B",
-        "texto": "75 s"
+        "texto": "24 s"
       },
       {
         "letra": "C",
-        "texto": "10 s"
+        "texto": "144 s"
       },
       {
         "letra": "D",
-        "texto": "30 s"
+        "texto": "12 s"
       },
       {
         "letra": "E",
-        "texto": "5 s"
+        "texto": "48 s"
       }
     ],
-    "correta": "C",
-    "explicacao": "Fazendo h(t) = 0: t·(−3t + 30) = 0, então t = 0 (lançamento) ou −3t + 30 = 0 ⇒ t = 30/3 = 10 s."
+    "correta": "D",
+    "explicacao": "Fazendo h(t) = 0: t·(−4t + 48) = 0, então t = 0 (lançamento) ou −4t + 48 = 0 ⇒ t = 48/4 = 12 s."
   },
   {
-    "id": "funcao-quadratica-ined-0037",
+    "id": "funcao-quadratica-ined-0055",
     "categoriaId": "funcao-quadratica",
     "subtopico": "Pontos de Máximo e Mínimo",
     "dificuldade": "facil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Uma bola é lançada verticalmente para cima e sua altura h, em metros, é dada por h(t) = −t² + 15t + 9, com o tempo t em segundos. Qual é a altura da bola no instante t = 2 s?",
+    "enunciado": "Uma bola é lançada verticalmente para cima e sua altura h, em metros, é dada por h(t) = −2t² + 16t + 10, com o tempo t em segundos. Qual é a altura da bola no instante t = 2 s?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "26 m"
+        "texto": "42 m"
       },
       {
         "letra": "B",
-        "texto": "43 m"
+        "texto": "10 m"
       },
       {
         "letra": "C",
-        "texto": "9 m"
-      },
-      {
-        "letra": "D",
-        "texto": "35 m"
-      },
-      {
-        "letra": "E",
-        "texto": "39 m"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "Basta substituir t = 2 em h(t) = −t² + 15t + 9: −4 + 30 + 9 = 35 m."
-  },
-  {
-    "id": "funcao-quadratica-ined-0038",
-    "categoriaId": "funcao-quadratica",
-    "subtopico": "Pontos de Máximo e Mínimo",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um projétil é disparado para cima e sua altura h, em metros, é dada por h(t) = −2t² + 11t + 10, com o tempo t em segundos. Qual é a altura do projétil no instante t = 2 s?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "40 m"
-      },
-      {
-        "letra": "B",
-        "texto": "14 m"
-      },
-      {
-        "letra": "C",
-        "texto": "32 m"
-      },
-      {
-        "letra": "D",
         "texto": "24 m"
       },
       {
-        "letra": "E",
-        "texto": "10 m"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "Basta substituir t = 2 em h(t) = −2t² + 11t + 10: −8 + 22 + 10 = 24 m."
-  },
-  {
-    "id": "funcao-quadratica-ined-0039",
-    "categoriaId": "funcao-quadratica",
-    "subtopico": "Pontos de Máximo e Mínimo",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma pedra é atirada de uma sacada e sua altura h, em metros, é dada por h(t) = −t² + 11t + 10, com o tempo t em segundos. Qual é a altura da pedra no instante t = 3 s?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "52 m"
-      },
-      {
-        "letra": "B",
-        "texto": "10 m"
-      },
-      {
-        "letra": "C",
-        "texto": "43 m"
-      },
-      {
         "letra": "D",
+        "texto": "50 m"
+      },
+      {
+        "letra": "E",
         "texto": "34 m"
-      },
-      {
-        "letra": "E",
-        "texto": "24 m"
       }
     ],
-    "correta": "D",
-    "explicacao": "Basta substituir t = 3 em h(t) = −t² + 11t + 10: −9 + 33 + 10 = 34 m."
+    "correta": "E",
+    "explicacao": "Basta substituir t = 2 em h(t) = −2t² + 16t + 10: −8 + 32 + 10 = 34 m."
   },
   {
-    "id": "funcao-quadratica-ined-0040",
+    "id": "funcao-quadratica-ined-0056",
     "categoriaId": "funcao-quadratica",
-    "subtopico": "Vértice da Parábola",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "A curva de equação y = −x² − 2x + 2 tem vértice em qual ponto do plano cartesiano?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "(-2, 3)"
-      },
-      {
-        "letra": "B",
-        "texto": "(-1, -3)"
-      },
-      {
-        "letra": "C",
-        "texto": "(3, -1)"
-      },
-      {
-        "letra": "D",
-        "texto": "(-1, 3)"
-      },
-      {
-        "letra": "E",
-        "texto": "(1, 3)"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "A abscissa do vértice é x_v = −b/(2a) = −(-2)/(2·-1) = -1. A ordenada é y_v = -1·(-1)² + (-2)·(-1) + (2) = 3. Logo o vértice é (-1, 3)."
-  },
-  {
-    "id": "funcao-quadratica-ined-0041",
-    "categoriaId": "funcao-quadratica",
-    "subtopico": "Vértice da Parábola",
+    "subtopico": "Pontos de Máximo e Mínimo",
     "dificuldade": "medio",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "A curva de equação y = −x² + 2x + 5 tem vértice em qual ponto do plano cartesiano?",
+    "enunciado": "Um projétil é disparado para cima e sua altura h, em metros, é dada por h(t) = −t² + 11t + 8, com o tempo t em segundos. Qual é a altura do projétil no instante t = 4 s?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "(2, 6)"
-      },
-      {
-        "letra": "B",
-        "texto": "(6, 1)"
-      },
-      {
-        "letra": "C",
-        "texto": "(-1, 6)"
-      },
-      {
-        "letra": "D",
-        "texto": "(1, 6)"
-      },
-      {
-        "letra": "E",
-        "texto": "(1, -6)"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "A abscissa do vértice é x_v = −b/(2a) = −(2)/(2·-1) = 1. A ordenada é y_v = -1·(1)² + (2)·(1) + (5) = 6. Logo o vértice é (1, 6)."
-  },
-  {
-    "id": "funcao-quadratica-ined-0042",
-    "categoriaId": "funcao-quadratica",
-    "subtopico": "Vértice da Parábola",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "A curva de equação y = −2x² − 20x − 57 tem vértice em qual ponto do plano cartesiano?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "(5, -7)"
-      },
-      {
-        "letra": "B",
-        "texto": "(-10, -7)"
-      },
-      {
-        "letra": "C",
-        "texto": "(-5, 7)"
-      },
-      {
-        "letra": "D",
-        "texto": "(-5, -7)"
-      },
-      {
-        "letra": "E",
-        "texto": "(-7, -5)"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "A abscissa do vértice é x_v = −b/(2a) = −(-20)/(2·-2) = -5. A ordenada é y_v = -2·(-5)² + (-20)·(-5) + (-57) = -7. Logo o vértice é (-5, -7)."
-  },
-  {
-    "id": "funcao-quadratica-ined-0043",
-    "categoriaId": "funcao-quadratica",
-    "subtopico": "Vértice da Parábola",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "A altura da entrada em arco de um estádio é modelada por uma parábola com o vértice no topo. O vão (largura na base) mede 24 m e a altura máxima, no centro, é 36 m. Qual é a altura do arco em um ponto a 8 m do centro?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "12 m"
-      },
-      {
-        "letra": "B",
-        "texto": "20 m"
-      },
-      {
-        "letra": "C",
-        "texto": "16 m"
-      },
-      {
-        "letra": "D",
         "texto": "28 m"
       },
       {
-        "letra": "E",
-        "texto": "4 m"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "Com a origem no centro da base, h(x) = 36 − k·x², e h(±12) = 0 dá k = 36/12² = 1/4. Então h(8) = 36 − (1/4)·8² = 36 − 16 = 20 m."
-  },
-  {
-    "id": "funcao-quadratica-ined-0044",
-    "categoriaId": "funcao-quadratica",
-    "subtopico": "Vértice da Parábola",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "A altura de uma ponte em arco é modelada por uma parábola com o vértice no topo. O vão (largura na base) mede 32 m e a altura máxima, no centro, é 64 m. Qual é a altura do arco em um ponto a 10 m do centro?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "54 m"
-      },
-      {
         "letra": "B",
-        "texto": "25 m"
+        "texto": "68 m"
       },
       {
         "letra": "C",
-        "texto": "39 m"
-      },
-      {
-        "letra": "D",
-        "texto": "14 m"
-      },
-      {
-        "letra": "E",
-        "texto": "24 m"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "Com a origem no centro da base, h(x) = 64 − k·x², e h(±16) = 0 dá k = 64/16² = 1/4. Então h(10) = 64 − (1/4)·10² = 64 − 25 = 39 m."
-  },
-  {
-    "id": "funcao-quadratica-ined-0045",
-    "categoriaId": "funcao-quadratica",
-    "subtopico": "Vértice da Parábola",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "A altura da entrada em arco de um estádio é modelada por uma parábola com o vértice no topo. O vão (largura na base) mede 40 m e a altura máxima, no centro, é 100 m. Qual é a altura do arco em um ponto a 12 m do centro?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "64 m"
-      },
-      {
-        "letra": "B",
-        "texto": "28 m"
-      },
-      {
-        "letra": "C",
-        "texto": "40 m"
-      },
-      {
-        "letra": "D",
         "texto": "36 m"
       },
       {
+        "letra": "D",
+        "texto": "8 m"
+      },
+      {
         "letra": "E",
-        "texto": "88 m"
+        "texto": "52 m"
       }
     ],
-    "correta": "A",
+    "correta": "C",
+    "explicacao": "Basta substituir t = 4 em h(t) = −t² + 11t + 8: −16 + 44 + 8 = 36 m."
+  },
+  {
+    "id": "funcao-quadratica-ined-0057",
+    "categoriaId": "funcao-quadratica",
+    "subtopico": "Pontos de Máximo e Mínimo",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma bola é lançada verticalmente para cima e sua altura h, em metros, é dada por h(t) = −2t² + 19t + 10, com o tempo t em segundos. Qual é a altura da bola no instante t = 4 s?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "44 m"
+      },
+      {
+        "letra": "B",
+        "texto": "118 m"
+      },
+      {
+        "letra": "C",
+        "texto": "86 m"
+      },
+      {
+        "letra": "D",
+        "texto": "10 m"
+      },
+      {
+        "letra": "E",
+        "texto": "54 m"
+      }
+    ],
+    "correta": "E",
+    "explicacao": "Basta substituir t = 4 em h(t) = −2t² + 19t + 10: −32 + 76 + 10 = 54 m."
+  },
+  {
+    "id": "funcao-quadratica-ined-0058",
+    "categoriaId": "funcao-quadratica",
+    "subtopico": "Vértice da Parábola",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "A curva de equação y = x² + 6x + 15 tem vértice em qual ponto do plano cartesiano?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "(3, 6)"
+      },
+      {
+        "letra": "B",
+        "texto": "(-3, 6)"
+      },
+      {
+        "letra": "C",
+        "texto": "(-3, -6)"
+      },
+      {
+        "letra": "D",
+        "texto": "(-6, 6)"
+      },
+      {
+        "letra": "E",
+        "texto": "(6, -3)"
+      }
+    ],
+    "correta": "B",
+    "explicacao": "A abscissa do vértice é x_v = −b/(2a) = −(6)/(2·1) = -3. A ordenada é y_v = 1·(-3)² + (6)·(-3) + (15) = 6. Logo o vértice é (-3, 6)."
+  },
+  {
+    "id": "funcao-quadratica-ined-0059",
+    "categoriaId": "funcao-quadratica",
+    "subtopico": "Vértice da Parábola",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "A curva de equação y = −x² − 6x − 16 tem vértice em qual ponto do plano cartesiano?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "(-6, -7)"
+      },
+      {
+        "letra": "B",
+        "texto": "(-7, -3)"
+      },
+      {
+        "letra": "C",
+        "texto": "(-3, 7)"
+      },
+      {
+        "letra": "D",
+        "texto": "(-3, -7)"
+      },
+      {
+        "letra": "E",
+        "texto": "(3, -7)"
+      }
+    ],
+    "correta": "D",
+    "explicacao": "A abscissa do vértice é x_v = −b/(2a) = −(-6)/(2·-1) = -3. A ordenada é y_v = -1·(-3)² + (-6)·(-3) + (-16) = -7. Logo o vértice é (-3, -7)."
+  },
+  {
+    "id": "funcao-quadratica-ined-0060",
+    "categoriaId": "funcao-quadratica",
+    "subtopico": "Vértice da Parábola",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "A parábola de equação y = −x² + 10x − 17 tem vértice em qual ponto do plano cartesiano?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "(8, 5)"
+      },
+      {
+        "letra": "B",
+        "texto": "(-5, 8)"
+      },
+      {
+        "letra": "C",
+        "texto": "(5, -8)"
+      },
+      {
+        "letra": "D",
+        "texto": "(10, 8)"
+      },
+      {
+        "letra": "E",
+        "texto": "(5, 8)"
+      }
+    ],
+    "correta": "E",
+    "explicacao": "A abscissa do vértice é x_v = −b/(2a) = −(10)/(2·-1) = 5. A ordenada é y_v = -1·(5)² + (10)·(5) + (-17) = 8. Logo o vértice é (5, 8)."
+  },
+  {
+    "id": "funcao-quadratica-ined-0061",
+    "categoriaId": "funcao-quadratica",
+    "subtopico": "Vértice da Parábola",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "A altura de um arco decorativo de um portal é modelada por uma parábola com o vértice no topo. O vão (largura na base) mede 32 m e a altura máxima, no centro, é 64 m. Qual é a altura do arco em um ponto a 6 m do centro?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "9 m"
+      },
+      {
+        "letra": "B",
+        "texto": "55 m"
+      },
+      {
+        "letra": "C",
+        "texto": "46 m"
+      },
+      {
+        "letra": "D",
+        "texto": "58 m"
+      },
+      {
+        "letra": "E",
+        "texto": "40 m"
+      }
+    ],
+    "correta": "B",
+    "explicacao": "Com a origem no centro da base, h(x) = 64 − k·x², e h(±16) = 0 dá k = 64/16² = 1/4. Então h(6) = 64 − (1/4)·6² = 64 − 9 = 55 m."
+  },
+  {
+    "id": "funcao-quadratica-ined-0062",
+    "categoriaId": "funcao-quadratica",
+    "subtopico": "Vértice da Parábola",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "A altura de uma ponte em arco é modelada por uma parábola com o vértice no topo. O vão (largura na base) mede 40 m e a altura máxima, no centro, é 100 m. Qual é a altura do arco em um ponto a 8 m do centro?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "68 m"
+      },
+      {
+        "letra": "B",
+        "texto": "92 m"
+      },
+      {
+        "letra": "C",
+        "texto": "60 m"
+      },
+      {
+        "letra": "D",
+        "texto": "16 m"
+      },
+      {
+        "letra": "E",
+        "texto": "84 m"
+      }
+    ],
+    "correta": "E",
+    "explicacao": "Com a origem no centro da base, h(x) = 100 − k·x², e h(±20) = 0 dá k = 100/20² = 1/4. Então h(8) = 100 − (1/4)·8² = 100 − 16 = 84 m."
+  },
+  {
+    "id": "funcao-quadratica-ined-0063",
+    "categoriaId": "funcao-quadratica",
+    "subtopico": "Vértice da Parábola",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "A altura de um túnel rodoviário é modelada por uma parábola com o vértice no topo. O vão (largura na base) mede 40 m e a altura máxima, no centro, é 100 m. Qual é a altura do arco em um ponto a 12 m do centro?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "88 m"
+      },
+      {
+        "letra": "B",
+        "texto": "28 m"
+      },
+      {
+        "letra": "C",
+        "texto": "40 m"
+      },
+      {
+        "letra": "D",
+        "texto": "64 m"
+      },
+      {
+        "letra": "E",
+        "texto": "36 m"
+      }
+    ],
+    "correta": "D",
     "explicacao": "Com a origem no centro da base, h(x) = 100 − k·x², e h(±20) = 0 dá k = 100/20² = 1/4. Então h(12) = 100 − (1/4)·12² = 100 − 36 = 64 m."
   },
   {
-    "id": "funcao-quadratica-ined-0046",
+    "id": "funcao-quadratica-ined-0064",
     "categoriaId": "funcao-quadratica",
     "subtopico": "Pontos de Máximo e Mínimo",
     "dificuldade": "facil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "O custo operacional diário C, em reais, de uma oficina em função do número x de peças usinadas é C(x) = x² − 8x + 132. Qual é o menor custo possível?",
+    "enunciado": "O custo mensal C, em reais, de uma transportadora em função do número x de rotas ativas é C(x) = x² − 12x + 122. Qual é o menor custo possível?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "R$ 180,00"
+        "texto": "R$ 122,00"
       },
       {
         "letra": "B",
-        "texto": "R$ 116,00"
+        "texto": "R$ 230,00"
       },
       {
         "letra": "C",
-        "texto": "R$ 148,00"
+        "texto": "R$ 50,00"
       },
       {
         "letra": "D",
-        "texto": "R$ 100,00"
+        "texto": "R$ 158,00"
       },
       {
         "letra": "E",
-        "texto": "R$ 132,00"
+        "texto": "R$ 86,00"
       }
     ],
-    "correta": "B",
-    "explicacao": "C é uma parábola de concavidade para cima; o mínimo ocorre em x = −b/(2a) = 8/2 = 4. Então C(4) = 1·4² − 8·4 + 132 = 16 − 32 + 132 = 116, ou seja, R$ 116,00."
+    "correta": "E",
+    "explicacao": "C é uma parábola de concavidade para cima; o mínimo ocorre em x = −b/(2a) = 12/2 = 6. Então C(6) = 1·6² − 12·6 + 122 = 36 − 72 + 122 = 86, ou seja, R$ 86,00."
   }
 ]

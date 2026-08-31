@@ -301,6 +301,288 @@ function afimCoeficiente(dificuldade) {
   });
 }
 
+function afimRaiz(dificuldade, tentativa = 0) {
+  const contextos = [
+    ["A quantidade de água em um reservatório", "litros", "horas", "o reservatório fica vazio"],
+    ["O saldo devedor de um empréstimo", "reais", "meses", "a dívida é quitada"],
+    ["A carga restante de uma bateria", "quilojoules", "minutos", "a bateria se esgota"],
+    ["O volume de ração em um silo automático", "quilogramas", "dias", "o silo fica vazio"],
+  ];
+  const [obj, unidade, tempo, evento] = pick(contextos);
+  const a = randInt(dificuldade === "facil" ? 2 : 3, dificuldade === "dificil" ? 8 : 6);
+  const q = randInt(dificuldade === "facil" ? 3 : 4, dificuldade === "dificil" ? 12 : 10);
+  const b = a * q;
+  const correctText = `${q} ${tempo}`;
+  const distractorTexts = [
+    `${b * a} ${tempo}`,
+    `${b + a} ${tempo}`,
+    `${b - a} ${tempo}`,
+    `${b} ${tempo}`,
+  ];
+  if (new Set([correctText, ...distractorTexts]).size < 5 && tentativa < 40)
+    return afimRaiz(dificuldade, tentativa + 1);
+  return makeQuestao({
+    categoriaId: "funcao-afim",
+    subtopico: "f(x) = ax + b",
+    dificuldade,
+    enunciado: `${obj}, em ${unidade}, em função do tempo t (em ${tempo}), é modelada pela função afim f(t) = ${b} − ${a}t. Após quantos ${tempo} ${evento}?`,
+    correctText,
+    distractorTexts,
+    explicacao: `O evento ocorre quando f(t) = 0. Resolvendo ${b} − ${a}t = 0, temos ${a}t = ${b}, logo t = ${b} ÷ ${a} = ${q} ${tempo}.`,
+  });
+}
+
+function afimDepreciacao(dificuldade, tentativa = 0) {
+  const contextos = [
+    ["uma máquina industrial", "de uma indústria de embalagens"],
+    ["um caminhão de carga", "de uma transportadora"],
+    ["um trator", "de uma propriedade rural"],
+    ["um aparelho de tomografia", "de uma clínica de diagnóstico"],
+  ];
+  const [bem, dono] = pick(contextos);
+  const d = pick([1000, 1500, 2000, 2500, 3000, 4000, 5000]);
+  let M = randInt(dificuldade === "facil" ? 15 : 18, dificuldade === "dificil" ? 40 : 30);
+  const V0 = d * M;
+  const modo = dificuldade === "dificil" ? "tempo" : "valor";
+  if (modo === "valor") {
+    const t = randInt(3, 9);
+    const valor = V0 - d * t;
+    const correctText = brl(valor);
+    const distractorTexts = [
+      brl(V0 + d * t),
+      brl(V0 - d * (t + 2)),
+      brl(V0 - d * (t - 2)),
+      brl(V0),
+    ];
+    if (new Set([correctText, ...distractorTexts]).size < 5 && tentativa < 40)
+      return afimDepreciacao(dificuldade, tentativa + 1);
+    return makeQuestao({
+      categoriaId: "funcao-afim",
+      subtopico: "f(x) = ax + b",
+      dificuldade,
+      enunciado: `O valor de ${bem} ${dono}, em reais, sofre depreciação linear: era de ${brl(V0)} quando nova e diminui ${brl(d)} a cada ano de uso. Qual será o valor do bem após ${t} anos de uso?`,
+      correctText,
+      distractorTexts,
+      explicacao: `O valor em função do tempo é V(t) = ${brl(V0)} − ${brl(d)}·t. Para t = ${t}: V(${t}) = ${brl(V0)} − ${brl(d)} × ${t} = ${brl(valor)}.`,
+    });
+  }
+  const q = randInt(3, 10);
+  if (M === 2 * q) M += 1;
+  const V0b = d * M;
+  const k = V0b - d * q;
+  const correctText = `${q} anos`;
+  const distractorTexts = [
+    `${V0b - k} anos`,
+    `${-q} anos`,
+    `${M} anos`,
+    `${M - q} anos`,
+  ];
+  if (new Set([correctText, ...distractorTexts]).size < 5 && tentativa < 40)
+    return afimDepreciacao(dificuldade, tentativa + 1);
+  return makeQuestao({
+    categoriaId: "funcao-afim",
+    subtopico: "f(x) = ax + b",
+    dificuldade,
+    enunciado: `O valor de ${bem} ${dono}, em reais, sofre depreciação linear: era de ${brl(V0b)} quando nova e diminui ${brl(d)} a cada ano de uso. Depois de quantos anos o valor do bem será igual a ${brl(k)}?`,
+    correctText,
+    distractorTexts,
+    explicacao: `Queremos V(t) = ${brl(k)}, ou seja ${brl(V0b)} − ${brl(d)}·t = ${brl(k)}. Então ${brl(d)}·t = ${brl(V0b - k)} e t = ${V0b - k} ÷ ${d} = ${q} anos.`,
+  });
+}
+
+function afimConversaoTemperatura(dificuldade, tentativa = 0) {
+  if (dificuldade !== "dificil") {
+    const contextos = [
+      "a temperatura de uma cidade dos Estados Unidos",
+      "a temperatura de um forno industrial",
+      "a temperatura de uma câmara frigorífica",
+      "a temperatura da água de uma piscina aquecida",
+    ];
+    const ctx = pick(contextos);
+    const C = dificuldade === "facil" ? pick([15, 20, 25, 30, 35]) : pick([15, 20, 25, 30, 35, 45, 50, 55, 60, 70, 75, 90]);
+    const F = (9 * C) / 5 + 32;
+    const correctText = `${F} °F`;
+    const distractorTexts = [
+      `${(9 * C) / 5} °F`,
+      `${(9 * C) / 5 - 32} °F`,
+      `${C + 32} °F`,
+      `${2 * C + 32} °F`,
+    ];
+    if (new Set([correctText, ...distractorTexts]).size < 5 && tentativa < 40)
+      return afimConversaoTemperatura(dificuldade, tentativa + 1);
+    return makeQuestao({
+      categoriaId: "funcao-afim",
+      subtopico: "f(x) = ax + b",
+      dificuldade,
+      enunciado: `A conversão de uma temperatura de graus Celsius (C) para graus Fahrenheit (F) é feita pela função afim F = 9C/5 + 32. Se ${ctx} é de ${C} °C, qual é essa temperatura em graus Fahrenheit?`,
+      correctText,
+      distractorTexts,
+      explicacao: `Substituindo C = ${C}: F = 9 × ${C} ÷ 5 + 32 = ${(9 * C) / 5} + 32 = ${F} °F.`,
+    });
+  }
+  const contextos = [
+    "a temperatura de operação de um motor importado",
+    "a previsão do tempo de uma cidade norte-americana",
+    "a temperatura de uma peça recebida do exterior",
+  ];
+  const ctx = pick(contextos);
+  const m = randInt(3, 9);
+  const C = 5 * m;
+  const F = 9 * m + 32;
+  const u = F - 32;
+  const correctText = `${C} °C`;
+  const distractorTexts = [
+    `${u} °C`,
+    `${5 * u} °C`,
+    `${m} °C`,
+    `${-C} °C`,
+  ];
+  if (new Set([correctText, ...distractorTexts]).size < 5 && tentativa < 40)
+    return afimConversaoTemperatura(dificuldade, tentativa + 1);
+  return makeQuestao({
+    categoriaId: "funcao-afim",
+    subtopico: "f(x) = ax + b",
+    dificuldade,
+    enunciado: `A relação entre graus Celsius (C) e graus Fahrenheit (F) é dada pela função afim F = 9C/5 + 32. Se ${ctx} é de ${F} °F, qual é essa temperatura em graus Celsius?`,
+    correctText,
+    distractorTexts,
+    explicacao: `Isolando C em F = 9C/5 + 32: C = 5(F − 32)/9 = 5 × (${F} − 32) ÷ 9 = 5 × ${u} ÷ 9 = ${C} °C.`,
+  });
+}
+
+function afimComissao(dificuldade, tentativa = 0) {
+  const contextos = [
+    ["um vendedor de uma concessionária", "veículos"],
+    ["uma corretora de uma imobiliária", "imóveis"],
+    ["um representante comercial", "mercadorias"],
+    ["um vendedor de uma loja de móveis", "móveis"],
+  ];
+  const [pessoa, mercadoria] = pick(contextos);
+  const fixo = randInt(dificuldade === "facil" ? 10 : 12, dificuldade === "dificil" ? 25 : 20) * 100;
+  const p = pick(dificuldade === "facil" ? [2, 4, 5] : [2, 3, 4, 5, 6, 8]);
+  const vendas = randInt(dificuldade === "facil" ? 10 : 20, dificuldade === "dificil" ? 90 : 60) * 1000;
+  const comissao = (p * vendas) / 100;
+  const total = fixo + comissao;
+  if (dificuldade !== "dificil") {
+    const correctText = brl(total);
+    const distractorTexts = [
+      brl(comissao),
+      brl(fixo + p * vendas),
+      brl(fixo + (p * vendas) / 1000),
+      brl(2 * fixo + comissao),
+    ];
+    if (new Set([correctText, ...distractorTexts]).size < 5 && tentativa < 40)
+      return afimComissao(dificuldade, tentativa + 1);
+    return makeQuestao({
+      categoriaId: "funcao-afim",
+      subtopico: "Tarifas e Planos",
+      dificuldade,
+      enunciado: `O salário mensal de ${pessoa} tem uma parte fixa de ${brl(fixo)} mais uma comissão de ${pct(p)} sobre o valor total das vendas do mês. Em um mês em que vendeu ${brl(vendas)} em ${mercadoria}, qual foi o salário total recebido?`,
+      correctText,
+      distractorTexts,
+      explicacao: `Comissão = ${p}% de ${brl(vendas)} = ${brl(comissao)}. Salário total = parte fixa + comissão = ${brl(fixo)} + ${brl(comissao)} = ${brl(total)}.`,
+    });
+  }
+  const correctText = brl(vendas);
+  const distractorTexts = [
+    brl(vendas / 100),
+    brl(comissao),
+    brl(-vendas),
+    brl(10 * vendas),
+  ];
+  if (new Set([correctText, ...distractorTexts]).size < 5 && tentativa < 40)
+    return afimComissao(dificuldade, tentativa + 1);
+  return makeQuestao({
+    categoriaId: "funcao-afim",
+    subtopico: "Tarifas e Planos",
+    dificuldade,
+    enunciado: `O salário mensal de ${pessoa} tem uma parte fixa de ${brl(fixo)} mais uma comissão de ${pct(p)} sobre o valor total das vendas do mês. Em determinado mês, o salário total recebido foi de ${brl(total)}. Qual foi o valor vendido em ${mercadoria} nesse mês?`,
+    correctText,
+    distractorTexts,
+    explicacao: `Sendo V o valor vendido: ${brl(fixo)} + ${p}%·V = ${brl(total)}. Então ${p}/100·V = ${brl(comissao)} e V = ${brl(comissao)} ÷ (${p}/100) = ${brl(vendas)}.`,
+  });
+}
+
+function afimPontoEquilibrio(dificuldade, tentativa = 0) {
+  const contextos = [
+    ["Duas locadoras de automóveis", "por quilômetro rodado", "km", "de diária"],
+    ["Dois planos de telefonia móvel", "por gigabyte de internet excedente", "GB", "de franquia mensal"],
+    ["Dois buffets para festas", "por convidado", "convidados", "de taxa fixa"],
+    ["Dois estacionamentos do centro", "por hora de permanência", "horas", "de valor fixo"],
+  ];
+  const [contexto, porUnidade, unidade, fixoNome] = pick(contextos);
+  const dd = randInt(2, dificuldade === "dificil" ? 5 : 4);
+  const a = randInt(1, 4);
+  const bb = a + dd;
+  const q = randInt(dificuldade === "facil" ? 5 : 6, dificuldade === "dificil" ? 24 : 16);
+  const t = randInt(5, 15);
+  let g = dd * t;
+  let f = g + q * dd;
+  let somaFixos = (f + g) / dd;
+  if (somaFixos === q * dd) {
+    g += dd;
+    f = g + q * dd;
+    somaFixos = (f + g) / dd;
+  }
+  const correctText = `${q} ${unidade}`;
+  const distractorTexts = [
+    `${-q} ${unidade}`,
+    `${q * dd} ${unidade}`,
+    `${somaFixos} ${unidade}`,
+    `${q + 1} ${unidade}`,
+  ];
+  if (new Set([correctText, ...distractorTexts]).size < 5 && tentativa < 40)
+    return afimPontoEquilibrio(dificuldade, tentativa + 1);
+  return makeQuestao({
+    categoriaId: "funcao-afim",
+    subtopico: "Tarifas e Planos",
+    dificuldade,
+    enunciado: `${contexto} cobram, cada uma, um valor fixo mais um valor ${porUnidade}. A opção I cobra ${brl(f)} ${fixoNome} e ${brl(a)} ${porUnidade}; a opção II cobra ${brl(g)} ${fixoNome} e ${brl(bb)} ${porUnidade}. Para qual quantidade de ${unidade} as duas opções custam o mesmo valor?`,
+    correctText,
+    distractorTexts,
+    explicacao: `Igualando os custos: ${brl(f)} + ${brl(a)}·x = ${brl(g)} + ${brl(bb)}·x. Então ${brl(f)} − ${brl(g)} = (${brl(bb)} − ${brl(a)})·x, ou seja ${f - g} = ${bb - a}·x. Logo x = ${f - g} ÷ ${bb - a} = ${q} ${unidade}.`,
+  });
+}
+
+function afimValorPrevisto(dificuldade, tentativa = 0) {
+  const contextos = [
+    ["O número de assinantes de um serviço de streaming", "o número de meses desde o lançamento", "assinantes"],
+    ["O custo total de impressão em uma gráfica", "o número de centenas de folhetos", "reais"],
+    ["O volume de água em um tanque que enche em ritmo constante", "o tempo em minutos", "litros"],
+    ["A pontuação acumulada por um participante", "o número de rodadas disputadas", "pontos"],
+  ];
+  const [grandeza, tempoDesc, unidade] = pick(contextos);
+  const a = randInt(dificuldade === "facil" ? 2 : 3, dificuldade === "dificil" ? 12 : 8);
+  const x1 = randInt(1, 4);
+  const dx = randInt(2, 6);
+  const x2 = x1 + dx;
+  const b0 = randInt(5, 40);
+  const y1 = a * x1 + b0;
+  const y2 = a * x2 + b0;
+  let dx2 = randInt(2, 8);
+  if (dx2 === dx) dx2 += 3;
+  const x3 = x2 + dx2;
+  const resposta = a * x3 + b0;
+  const correctText = `${resposta} ${unidade}`;
+  const distractorTexts = [
+    `${a * x3} ${unidade}`,
+    `${y1 + a * x3} ${unidade}`,
+    `${y2 + a * dx} ${unidade}`,
+    `${a * dx2} ${unidade}`,
+  ];
+  if (new Set([correctText, ...distractorTexts]).size < 5 && tentativa < 40)
+    return afimValorPrevisto(dificuldade, tentativa + 1);
+  return makeQuestao({
+    categoriaId: "funcao-afim",
+    subtopico: "Coeficiente Angular",
+    dificuldade,
+    enunciado: `${grandeza} varia de forma linear em função de x, sendo x ${tempoDesc}. Quando x = ${x1}, esse valor é ${y1} ${unidade}; quando x = ${x2}, é ${y2} ${unidade}. Qual será o valor quando x = ${x3}?`,
+    correctText,
+    distractorTexts,
+    explicacao: `A taxa de variação é a = (${y2} − ${y1}) ÷ (${x2} − ${x1}) = ${y2 - y1} ÷ ${dx} = ${a}. O coeficiente linear é b = ${y1} − ${a}·${x1} = ${b0}. Assim, para x = ${x3}: y = ${a} × ${x3} + ${b0} = ${resposta} ${unidade}.`,
+  });
+}
+
 // ---------- FUNCAO QUADRATICA ----------
 function quadVertice(dificuldade, tentativa = 0) {
   const precoBase = randInt(dificuldade === "facil" ? 10 : 20, dificuldade === "dificil" ? 100 : 50);
@@ -3339,7 +3621,7 @@ export const TEMPLATES = {
   "razao-proporcao": [razaoEscalaMapa, razaoDivisaoProporcional],
   "regra-de-tres": [regraTresSimples, regraTresComposta],
   equacoes: [eqSistemaLinear, eqBhaskaraArea],
-  "funcao-afim": [afimTarifa, afimCoeficiente],
+  "funcao-afim": [afimTarifa, afimCoeficiente, afimRaiz, afimDepreciacao, afimConversaoTemperatura, afimComissao, afimPontoEquilibrio, afimValorPrevisto],
   "funcao-quadratica": [quadVertice, quadTrajetoria, quadLucroMaximo, quadRaizesContexto, quadSomaProdutoRaizes, quadAreaCercado, quadDoisNumeros, quadAlcanceProjetil, quadAlturaNoInstante, quadVerticeCoordenadas, quadArcoParabolico, quadCustoMinimo],
   "exponenciais-logaritmos": [expCrescimento, expMeiaVida],
   progressoes: [progPA, progPG],

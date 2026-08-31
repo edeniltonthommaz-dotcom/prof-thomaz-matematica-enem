@@ -202,5 +202,617 @@
     ],
     "correta": "A",
     "explicacao": "O coeficiente angular é a = (y₂ − y₁) / (x₂ − x₁) = (143 − 71) / (7 − 3) = 18."
+  },
+  {
+    "id": "funcao-afim-ined-0013",
+    "categoriaId": "funcao-afim",
+    "subtopico": "f(x) = ax + b",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "O volume de ração em um silo automático, em quilogramas, em função do tempo t (em dias), é modelada pela função afim f(t) = 15 − 3t. Após quantos dias o silo fica vazio?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "18 dias"
+      },
+      {
+        "letra": "B",
+        "texto": "15 dias"
+      },
+      {
+        "letra": "C",
+        "texto": "5 dias"
+      },
+      {
+        "letra": "D",
+        "texto": "45 dias"
+      },
+      {
+        "letra": "E",
+        "texto": "12 dias"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "O evento ocorre quando f(t) = 0. Resolvendo 15 − 3t = 0, temos 3t = 15, logo t = 15 ÷ 3 = 5 dias."
+  },
+  {
+    "id": "funcao-afim-ined-0014",
+    "categoriaId": "funcao-afim",
+    "subtopico": "f(x) = ax + b",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "O saldo devedor de um empréstimo, em reais, em função do tempo t (em meses), é modelada pela função afim f(t) = 35 − 5t. Após quantos meses a dívida é quitada?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "30 meses"
+      },
+      {
+        "letra": "B",
+        "texto": "35 meses"
+      },
+      {
+        "letra": "C",
+        "texto": "40 meses"
+      },
+      {
+        "letra": "D",
+        "texto": "7 meses"
+      },
+      {
+        "letra": "E",
+        "texto": "175 meses"
+      }
+    ],
+    "correta": "D",
+    "explicacao": "O evento ocorre quando f(t) = 0. Resolvendo 35 − 5t = 0, temos 5t = 35, logo t = 35 ÷ 5 = 7 meses."
+  },
+  {
+    "id": "funcao-afim-ined-0015",
+    "categoriaId": "funcao-afim",
+    "subtopico": "f(x) = ax + b",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "A quantidade de água em um reservatório, em litros, em função do tempo t (em horas), é modelada pela função afim f(t) = 48 − 6t. Após quantos horas o reservatório fica vazio?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "42 horas"
+      },
+      {
+        "letra": "B",
+        "texto": "54 horas"
+      },
+      {
+        "letra": "C",
+        "texto": "48 horas"
+      },
+      {
+        "letra": "D",
+        "texto": "8 horas"
+      },
+      {
+        "letra": "E",
+        "texto": "288 horas"
+      }
+    ],
+    "correta": "D",
+    "explicacao": "O evento ocorre quando f(t) = 0. Resolvendo 48 − 6t = 0, temos 6t = 48, logo t = 48 ÷ 6 = 8 horas."
+  },
+  {
+    "id": "funcao-afim-ined-0016",
+    "categoriaId": "funcao-afim",
+    "subtopico": "f(x) = ax + b",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "O valor de um caminhão de carga de uma transportadora, em reais, sofre depreciação linear: era de R$ 58.000,00 quando nova e diminui R$ 2.000,00 a cada ano de uso. Qual será o valor do bem após 9 anos de uso?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "R$ 44.000,00"
+      },
+      {
+        "letra": "B",
+        "texto": "R$ 76.000,00"
+      },
+      {
+        "letra": "C",
+        "texto": "R$ 58.000,00"
+      },
+      {
+        "letra": "D",
+        "texto": "R$ 36.000,00"
+      },
+      {
+        "letra": "E",
+        "texto": "R$ 40.000,00"
+      }
+    ],
+    "correta": "E",
+    "explicacao": "O valor em função do tempo é V(t) = R$ 58.000,00 − R$ 2.000,00·t. Para t = 9: V(9) = R$ 58.000,00 − R$ 2.000,00 × 9 = R$ 40.000,00."
+  },
+  {
+    "id": "funcao-afim-ined-0017",
+    "categoriaId": "funcao-afim",
+    "subtopico": "f(x) = ax + b",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "O valor de um aparelho de tomografia de uma clínica de diagnóstico, em reais, sofre depreciação linear: era de R$ 57.500,00 quando nova e diminui R$ 2.500,00 a cada ano de uso. Qual será o valor do bem após 3 anos de uso?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "R$ 50.000,00"
+      },
+      {
+        "letra": "B",
+        "texto": "R$ 55.000,00"
+      },
+      {
+        "letra": "C",
+        "texto": "R$ 45.000,00"
+      },
+      {
+        "letra": "D",
+        "texto": "R$ 65.000,00"
+      },
+      {
+        "letra": "E",
+        "texto": "R$ 57.500,00"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "O valor em função do tempo é V(t) = R$ 57.500,00 − R$ 2.500,00·t. Para t = 3: V(3) = R$ 57.500,00 − R$ 2.500,00 × 3 = R$ 50.000,00."
+  },
+  {
+    "id": "funcao-afim-ined-0018",
+    "categoriaId": "funcao-afim",
+    "subtopico": "f(x) = ax + b",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "O valor de um trator de uma propriedade rural, em reais, sofre depreciação linear: era de R$ 175.000,00 quando nova e diminui R$ 5.000,00 a cada ano de uso. Depois de quantos anos o valor do bem será igual a R$ 150.000,00?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "-5 anos"
+      },
+      {
+        "letra": "B",
+        "texto": "35 anos"
+      },
+      {
+        "letra": "C",
+        "texto": "30 anos"
+      },
+      {
+        "letra": "D",
+        "texto": "25000 anos"
+      },
+      {
+        "letra": "E",
+        "texto": "5 anos"
+      }
+    ],
+    "correta": "E",
+    "explicacao": "Queremos V(t) = R$ 150.000,00, ou seja R$ 175.000,00 − R$ 5.000,00·t = R$ 150.000,00. Então R$ 5.000,00·t = R$ 25.000,00 e t = 25000 ÷ 5000 = 5 anos."
+  },
+  {
+    "id": "funcao-afim-ined-0019",
+    "categoriaId": "funcao-afim",
+    "subtopico": "f(x) = ax + b",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "A conversão de uma temperatura de graus Celsius (C) para graus Fahrenheit (F) é feita pela função afim F = 9C/5 + 32. Se a temperatura de um forno industrial é de 25 °C, qual é essa temperatura em graus Fahrenheit?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "13 °F"
+      },
+      {
+        "letra": "B",
+        "texto": "57 °F"
+      },
+      {
+        "letra": "C",
+        "texto": "45 °F"
+      },
+      {
+        "letra": "D",
+        "texto": "77 °F"
+      },
+      {
+        "letra": "E",
+        "texto": "82 °F"
+      }
+    ],
+    "correta": "D",
+    "explicacao": "Substituindo C = 25: F = 9 × 25 ÷ 5 + 32 = 45 + 32 = 77 °F."
+  },
+  {
+    "id": "funcao-afim-ined-0020",
+    "categoriaId": "funcao-afim",
+    "subtopico": "f(x) = ax + b",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "A conversão de uma temperatura de graus Celsius (C) para graus Fahrenheit (F) é feita pela função afim F = 9C/5 + 32. Se a temperatura de uma câmara frigorífica é de 30 °C, qual é essa temperatura em graus Fahrenheit?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "22 °F"
+      },
+      {
+        "letra": "B",
+        "texto": "62 °F"
+      },
+      {
+        "letra": "C",
+        "texto": "86 °F"
+      },
+      {
+        "letra": "D",
+        "texto": "92 °F"
+      },
+      {
+        "letra": "E",
+        "texto": "54 °F"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "Substituindo C = 30: F = 9 × 30 ÷ 5 + 32 = 54 + 32 = 86 °F."
+  },
+  {
+    "id": "funcao-afim-ined-0021",
+    "categoriaId": "funcao-afim",
+    "subtopico": "f(x) = ax + b",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "A relação entre graus Celsius (C) e graus Fahrenheit (F) é dada pela função afim F = 9C/5 + 32. Se a previsão do tempo de uma cidade norte-americana é de 68 °F, qual é essa temperatura em graus Celsius?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "4 °C"
+      },
+      {
+        "letra": "B",
+        "texto": "20 °C"
+      },
+      {
+        "letra": "C",
+        "texto": "180 °C"
+      },
+      {
+        "letra": "D",
+        "texto": "36 °C"
+      },
+      {
+        "letra": "E",
+        "texto": "-20 °C"
+      }
+    ],
+    "correta": "B",
+    "explicacao": "Isolando C em F = 9C/5 + 32: C = 5(F − 32)/9 = 5 × (68 − 32) ÷ 9 = 5 × 36 ÷ 9 = 20 °C."
+  },
+  {
+    "id": "funcao-afim-ined-0022",
+    "categoriaId": "funcao-afim",
+    "subtopico": "Tarifas e Planos",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "O salário mensal de uma corretora de uma imobiliária tem uma parte fixa de R$ 1.500,00 mais uma comissão de 4% sobre o valor total das vendas do mês. Em um mês em que vendeu R$ 47.000,00 em imóveis, qual foi o salário total recebido?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "R$ 1.688,00"
+      },
+      {
+        "letra": "B",
+        "texto": "R$ 1.880,00"
+      },
+      {
+        "letra": "C",
+        "texto": "R$ 3.380,00"
+      },
+      {
+        "letra": "D",
+        "texto": "R$ 4.880,00"
+      },
+      {
+        "letra": "E",
+        "texto": "R$ 189.500,00"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "Comissão = 4% de R$ 47.000,00 = R$ 1.880,00. Salário total = parte fixa + comissão = R$ 1.500,00 + R$ 1.880,00 = R$ 3.380,00."
+  },
+  {
+    "id": "funcao-afim-ined-0023",
+    "categoriaId": "funcao-afim",
+    "subtopico": "Tarifas e Planos",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "O salário mensal de um representante comercial tem uma parte fixa de R$ 1.700,00 mais uma comissão de 6% sobre o valor total das vendas do mês. Em um mês em que vendeu R$ 57.000,00 em mercadorias, qual foi o salário total recebido?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "R$ 6.820,00"
+      },
+      {
+        "letra": "B",
+        "texto": "R$ 5.120,00"
+      },
+      {
+        "letra": "C",
+        "texto": "R$ 3.420,00"
+      },
+      {
+        "letra": "D",
+        "texto": "R$ 343.700,00"
+      },
+      {
+        "letra": "E",
+        "texto": "R$ 2.042,00"
+      }
+    ],
+    "correta": "B",
+    "explicacao": "Comissão = 6% de R$ 57.000,00 = R$ 3.420,00. Salário total = parte fixa + comissão = R$ 1.700,00 + R$ 3.420,00 = R$ 5.120,00."
+  },
+  {
+    "id": "funcao-afim-ined-0024",
+    "categoriaId": "funcao-afim",
+    "subtopico": "Tarifas e Planos",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "O salário mensal de um representante comercial tem uma parte fixa de R$ 2.000,00 mais uma comissão de 5% sobre o valor total das vendas do mês. Em determinado mês, o salário total recebido foi de R$ 3.200,00. Qual foi o valor vendido em mercadorias nesse mês?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "R$ 24.000,00"
+      },
+      {
+        "letra": "B",
+        "texto": "R$ -24.000,00"
+      },
+      {
+        "letra": "C",
+        "texto": "R$ 1.200,00"
+      },
+      {
+        "letra": "D",
+        "texto": "R$ 240.000,00"
+      },
+      {
+        "letra": "E",
+        "texto": "R$ 240,00"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "Sendo V o valor vendido: R$ 2.000,00 + 5%·V = R$ 3.200,00. Então 5/100·V = R$ 1.200,00 e V = R$ 1.200,00 ÷ (5/100) = R$ 24.000,00."
+  },
+  {
+    "id": "funcao-afim-ined-0025",
+    "categoriaId": "funcao-afim",
+    "subtopico": "Tarifas e Planos",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Dois planos de telefonia móvel cobram, cada uma, um valor fixo mais um valor por gigabyte de internet excedente. A opção I cobra R$ 69,00 de franquia mensal e R$ 2,00 por gigabyte de internet excedente; a opção II cobra R$ 36,00 de franquia mensal e R$ 5,00 por gigabyte de internet excedente. Para qual quantidade de GB as duas opções custam o mesmo valor?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "11 GB"
+      },
+      {
+        "letra": "B",
+        "texto": "-11 GB"
+      },
+      {
+        "letra": "C",
+        "texto": "33 GB"
+      },
+      {
+        "letra": "D",
+        "texto": "35 GB"
+      },
+      {
+        "letra": "E",
+        "texto": "12 GB"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "Igualando os custos: R$ 69,00 + R$ 2,00·x = R$ 36,00 + R$ 5,00·x. Então R$ 69,00 − R$ 36,00 = (R$ 5,00 − R$ 2,00)·x, ou seja 33 = 3·x. Logo x = 33 ÷ 3 = 11 GB."
+  },
+  {
+    "id": "funcao-afim-ined-0026",
+    "categoriaId": "funcao-afim",
+    "subtopico": "Tarifas e Planos",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Dois estacionamentos do centro cobram, cada uma, um valor fixo mais um valor por hora de permanência. A opção I cobra R$ 72,00 de valor fixo e R$ 4,00 por hora de permanência; a opção II cobra R$ 24,00 de valor fixo e R$ 7,00 por hora de permanência. Para qual quantidade de horas as duas opções custam o mesmo valor?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "32 horas"
+      },
+      {
+        "letra": "B",
+        "texto": "17 horas"
+      },
+      {
+        "letra": "C",
+        "texto": "48 horas"
+      },
+      {
+        "letra": "D",
+        "texto": "16 horas"
+      },
+      {
+        "letra": "E",
+        "texto": "-16 horas"
+      }
+    ],
+    "correta": "D",
+    "explicacao": "Igualando os custos: R$ 72,00 + R$ 4,00·x = R$ 24,00 + R$ 7,00·x. Então R$ 72,00 − R$ 24,00 = (R$ 7,00 − R$ 4,00)·x, ou seja 48 = 3·x. Logo x = 48 ÷ 3 = 16 horas."
+  },
+  {
+    "id": "funcao-afim-ined-0027",
+    "categoriaId": "funcao-afim",
+    "subtopico": "Tarifas e Planos",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Dois estacionamentos do centro cobram, cada uma, um valor fixo mais um valor por hora de permanência. A opção I cobra R$ 54,00 de valor fixo e R$ 2,00 por hora de permanência; a opção II cobra R$ 24,00 de valor fixo e R$ 4,00 por hora de permanência. Para qual quantidade de horas as duas opções custam o mesmo valor?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "39 horas"
+      },
+      {
+        "letra": "B",
+        "texto": "15 horas"
+      },
+      {
+        "letra": "C",
+        "texto": "30 horas"
+      },
+      {
+        "letra": "D",
+        "texto": "16 horas"
+      },
+      {
+        "letra": "E",
+        "texto": "-15 horas"
+      }
+    ],
+    "correta": "B",
+    "explicacao": "Igualando os custos: R$ 54,00 + R$ 2,00·x = R$ 24,00 + R$ 4,00·x. Então R$ 54,00 − R$ 24,00 = (R$ 4,00 − R$ 2,00)·x, ou seja 30 = 2·x. Logo x = 30 ÷ 2 = 15 horas."
+  },
+  {
+    "id": "funcao-afim-ined-0028",
+    "categoriaId": "funcao-afim",
+    "subtopico": "Coeficiente Angular",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "O custo total de impressão em uma gráfica varia de forma linear em função de x, sendo x o número de centenas de folhetos. Quando x = 1, esse valor é 19 reais; quando x = 3, é 31 reais. Qual será o valor quando x = 7?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "55 reais"
+      },
+      {
+        "letra": "B",
+        "texto": "42 reais"
+      },
+      {
+        "letra": "C",
+        "texto": "61 reais"
+      },
+      {
+        "letra": "D",
+        "texto": "24 reais"
+      },
+      {
+        "letra": "E",
+        "texto": "43 reais"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "A taxa de variação é a = (31 − 19) ÷ (3 − 1) = 12 ÷ 2 = 6. O coeficiente linear é b = 19 − 6·1 = 13. Assim, para x = 7: y = 6 × 7 + 13 = 55 reais."
+  },
+  {
+    "id": "funcao-afim-ined-0029",
+    "categoriaId": "funcao-afim",
+    "subtopico": "Coeficiente Angular",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "A pontuação acumulada por um participante varia de forma linear em função de x, sendo x o número de rodadas disputadas. Quando x = 1, esse valor é 41 pontos; quando x = 6, é 71 pontos. Qual será o valor quando x = 12?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "113 pontos"
+      },
+      {
+        "letra": "B",
+        "texto": "72 pontos"
+      },
+      {
+        "letra": "C",
+        "texto": "36 pontos"
+      },
+      {
+        "letra": "D",
+        "texto": "101 pontos"
+      },
+      {
+        "letra": "E",
+        "texto": "107 pontos"
+      }
+    ],
+    "correta": "E",
+    "explicacao": "A taxa de variação é a = (71 − 41) ÷ (6 − 1) = 30 ÷ 5 = 6. O coeficiente linear é b = 41 − 6·1 = 35. Assim, para x = 12: y = 6 × 12 + 35 = 107 pontos."
+  },
+  {
+    "id": "funcao-afim-ined-0030",
+    "categoriaId": "funcao-afim",
+    "subtopico": "Coeficiente Angular",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "A pontuação acumulada por um participante varia de forma linear em função de x, sendo x o número de rodadas disputadas. Quando x = 2, esse valor é 35 pontos; quando x = 6, é 59 pontos. Qual será o valor quando x = 12?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "95 pontos"
+      },
+      {
+        "letra": "B",
+        "texto": "107 pontos"
+      },
+      {
+        "letra": "C",
+        "texto": "36 pontos"
+      },
+      {
+        "letra": "D",
+        "texto": "83 pontos"
+      },
+      {
+        "letra": "E",
+        "texto": "72 pontos"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "A taxa de variação é a = (59 − 35) ÷ (6 − 2) = 24 ÷ 4 = 6. O coeficiente linear é b = 35 − 6·2 = 23. Assim, para x = 12: y = 6 × 12 + 23 = 95 pontos."
   }
 ]

@@ -1,51 +1,85 @@
 [
   {
-    "id": "trigonometria-ined-0106",
+    "id": "trigonometria-ined-0125",
     "categoriaId": "trigonometria",
     "subtopico": "Triângulo Retângulo",
     "dificuldade": "facil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Um observador está a 26 m da base de uma torre e vê o topo da torre sob um ângulo de 30° em relação ao chão. Usando tan(30°) ≈ 0.58, qual é aproximadamente a altura da torre?",
+    "enunciado": "Um observador está a 18 m da base de uma torre e vê o topo da torre sob um ângulo de 30° em relação ao chão. Usando tan(30°) ≈ 0.58, qual é aproximadamente a altura da torre?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "26 m"
+        "texto": "18 m"
       },
       {
         "letra": "B",
-        "texto": "30 m"
+        "texto": "16 m"
       },
       {
         "letra": "C",
-        "texto": "15 m"
+        "texto": "9 m"
       },
       {
         "letra": "D",
-        "texto": "23 m"
+        "texto": "10 m"
       },
       {
         "letra": "E",
-        "texto": "13 m"
+        "texto": "20 m"
       }
     ],
-    "correta": "C",
-    "explicacao": "tan(30°) = altura / distância. Altura = distância × tan(30°) = 26 × 0.58 ≈ 15 m."
+    "correta": "D",
+    "explicacao": "tan(30°) = altura / distância. Altura = distância × tan(30°) = 18 × 0.58 ≈ 10 m."
   },
   {
-    "id": "trigonometria-ined-0107",
+    "id": "trigonometria-ined-0126",
     "categoriaId": "trigonometria",
     "subtopico": "Triângulo Retângulo",
     "dificuldade": "medio",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Um observador está a 15 m da base de uma torre e vê o topo da torre sob um ângulo de 30° em relação ao chão. Usando tan(30°) ≈ 0.58, qual é aproximadamente a altura da torre?",
+    "enunciado": "Um observador está a 8 m da base de uma torre e vê o topo da torre sob um ângulo de 45° em relação ao chão. Usando tan(45°) ≈ 1, qual é aproximadamente a altura da torre?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "13 m"
+        "texto": "16 m"
+      },
+      {
+        "letra": "B",
+        "texto": "6 m"
+      },
+      {
+        "letra": "C",
+        "texto": "19 m"
+      },
+      {
+        "letra": "D",
+        "texto": "8 m"
+      },
+      {
+        "letra": "E",
+        "texto": "17 m"
+      }
+    ],
+    "correta": "D",
+    "explicacao": "tan(45°) = altura / distância. Altura = distância × tan(45°) = 8 × 1 ≈ 8 m."
+  },
+  {
+    "id": "trigonometria-ined-0127",
+    "categoriaId": "trigonometria",
+    "subtopico": "Triângulo Retângulo",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um observador está a 11 m da base de uma torre e vê o topo da torre sob um ângulo de 37° em relação ao chão. Usando tan(37°) ≈ 0.75, qual é aproximadamente a altura da torre?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "16 m"
       },
       {
         "letra": "B",
@@ -53,52 +87,18 @@
       },
       {
         "letra": "C",
-        "texto": "15 m"
+        "texto": "7 m"
       },
       {
         "letra": "D",
-        "texto": "18 m"
-      },
-      {
-        "letra": "E",
         "texto": "9 m"
-      }
-    ],
-    "correta": "E",
-    "explicacao": "tan(30°) = altura / distância. Altura = distância × tan(30°) = 15 × 0.58 ≈ 9 m."
-  },
-  {
-    "id": "trigonometria-ined-0108",
-    "categoriaId": "trigonometria",
-    "subtopico": "Triângulo Retângulo",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Um observador está a 37 m da base de uma torre e vê o topo da torre sob um ângulo de 45° em relação ao chão. Usando tan(45°) ≈ 1, qual é aproximadamente a altura da torre?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "37 m"
-      },
-      {
-        "letra": "B",
-        "texto": "77 m"
-      },
-      {
-        "letra": "C",
-        "texto": "26 m"
-      },
-      {
-        "letra": "D",
-        "texto": "75 m"
       },
       {
         "letra": "E",
-        "texto": "74 m"
+        "texto": "11 m"
       }
     ],
-    "correta": "A",
-    "explicacao": "tan(45°) = altura / distância. Altura = distância × tan(45°) = 37 × 1 ≈ 37 m."
+    "correta": "B",
+    "explicacao": "tan(37°) = altura / distância. Altura = distância × tan(37°) = 11 × 0.75 ≈ 8 m."
   }
 ]

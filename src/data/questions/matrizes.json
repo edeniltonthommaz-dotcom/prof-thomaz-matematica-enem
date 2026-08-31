@@ -1,191 +1,191 @@
 [
   {
-    "id": "matrizes-ined-0149",
+    "id": "matrizes-ined-0169",
     "categoriaId": "matrizes",
     "subtopico": "Determinantes",
     "dificuldade": "facil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Considere a matriz A = [[7, 2], [-7, 1]]. Qual é o determinante de A?",
+    "enunciado": "Considere a matriz A = [[-1, -5], [-8, 9]]. Qual é o determinante de A?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "13"
+        "texto": "31"
       },
       {
         "letra": "B",
-        "texto": "-51"
+        "texto": "49"
       },
       {
         "letra": "C",
+        "texto": "53"
+      },
+      {
+        "letra": "D",
+        "texto": "-49"
+      },
+      {
+        "letra": "E",
         "texto": "21"
-      },
-      {
-        "letra": "D",
-        "texto": "-7"
-      },
-      {
-        "letra": "E",
-        "texto": "-21"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (7)(1) − (2)(-7) = 21."
-  },
-  {
-    "id": "matrizes-ined-0150",
-    "categoriaId": "matrizes",
-    "subtopico": "Determinantes",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Considere a matriz A = [[-8, -7], [7, -7]]. Qual é o determinante de A?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "-14"
-      },
-      {
-        "letra": "B",
-        "texto": "-15"
-      },
-      {
-        "letra": "C",
-        "texto": "105"
-      },
-      {
-        "letra": "D",
-        "texto": "7"
-      },
-      {
-        "letra": "E",
-        "texto": "-105"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (-8)(-7) − (-7)(7) = 105."
-  },
-  {
-    "id": "matrizes-ined-0151",
-    "categoriaId": "matrizes",
-    "subtopico": "Determinantes",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Considere a matriz A = [[-3, -2], [1, -5]]. Qual é o determinante de A?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "13"
-      },
-      {
-        "letra": "B",
-        "texto": "17"
-      },
-      {
-        "letra": "C",
-        "texto": "-13"
-      },
-      {
-        "letra": "D",
-        "texto": "-7"
-      },
-      {
-        "letra": "E",
-        "texto": "-17"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (-3)(-5) − (-2)(1) = 17."
-  },
-  {
-    "id": "matrizes-ined-0152",
-    "categoriaId": "matrizes",
-    "subtopico": "Determinantes",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Considere a matriz de ordem 3: A = [[5, -2, 1], [4, -2, 3], [-1, 1, 2]]. Aplicando a Regra de Sarrus, qual é o determinante de A?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "-9"
-      },
-      {
-        "letra": "B",
-        "texto": "11"
-      },
-      {
-        "letra": "C",
-        "texto": "-22"
-      },
-      {
-        "letra": "D",
-        "texto": "-11"
-      },
-      {
-        "letra": "E",
-        "texto": "-10"
       }
     ],
     "correta": "D",
-    "explicacao": "Pela Regra de Sarrus, det(A) é a soma dos produtos das diagonais no sentido principal menos a soma no sentido secundário: (5·-2·2 + -2·3·-1 + 1·4·1) − (1·-2·-1 + 5·3·1 + -2·4·2) = (-10) − (1) = -11."
+    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (-1)(9) − (-5)(-8) = -49."
   },
   {
-    "id": "matrizes-ined-0153",
+    "id": "matrizes-ined-0170",
     "categoriaId": "matrizes",
     "subtopico": "Determinantes",
     "dificuldade": "medio",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Considere a matriz de ordem 3: A = [[0, -1, 4], [-4, -1, -5], [5, 2, 2]]. Aplicando a Regra de Sarrus, qual é o determinante de A?",
+    "enunciado": "Considere a matriz A = [[5, -8], [-4, 9]]. Qual é o determinante de A?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "-7"
+        "texto": "-13"
       },
       {
         "letra": "B",
-        "texto": "-5"
+        "texto": "13"
       },
       {
         "letra": "C",
-        "texto": "5"
+        "texto": "26"
       },
       {
         "letra": "D",
-        "texto": "-19"
+        "texto": "52"
       },
       {
         "letra": "E",
-        "texto": "20"
+        "texto": "77"
       }
     ],
-    "correta": "C",
-    "explicacao": "Pela Regra de Sarrus, det(A) é a soma dos produtos das diagonais no sentido principal menos a soma no sentido secundário: (0·-1·2 + -1·-5·5 + 4·-4·2) − (4·-1·5 + 0·-5·2 + -1·-4·2) = (-7) − (-12) = 5."
+    "correta": "B",
+    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (5)(9) − (-8)(-4) = 13."
   },
   {
-    "id": "matrizes-ined-0154",
+    "id": "matrizes-ined-0171",
     "categoriaId": "matrizes",
     "subtopico": "Determinantes",
     "dificuldade": "dificil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Considere a matriz de ordem 3: A = [[-3, 3, 2], [-1, 4, 4], [1, -1, -4]]. Aplicando a Regra de Sarrus, qual é o determinante de A?",
+    "enunciado": "Considere a matriz A = [[5, -3], [3, 4]]. Qual é o determinante de A?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "30"
+        "texto": "-29"
       },
       {
         "letra": "B",
-        "texto": "94"
+        "texto": "29"
+      },
+      {
+        "letra": "C",
+        "texto": "27"
+      },
+      {
+        "letra": "D",
+        "texto": "11"
+      },
+      {
+        "letra": "E",
+        "texto": "9"
+      }
+    ],
+    "correta": "B",
+    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (5)(4) − (-3)(3) = 29."
+  },
+  {
+    "id": "matrizes-ined-0172",
+    "categoriaId": "matrizes",
+    "subtopico": "Determinantes",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Considere a matriz de ordem 3: A = [[-1, -4, -1], [2, 4, -1], [5, 4, 0]]. Aplicando a Regra de Sarrus, qual é o determinante de A?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "20"
+      },
+      {
+        "letra": "B",
+        "texto": "28"
+      },
+      {
+        "letra": "C",
+        "texto": "-4"
+      },
+      {
+        "letra": "D",
+        "texto": "12"
+      },
+      {
+        "letra": "E",
+        "texto": "-28"
+      }
+    ],
+    "correta": "B",
+    "explicacao": "Pela Regra de Sarrus, det(A) é a soma dos produtos das diagonais no sentido principal menos a soma no sentido secundário: (-1·4·0 + -4·-1·5 + -1·2·4) − (-1·4·5 + -1·-1·4 + -4·2·0) = (12) − (-16) = 28."
+  },
+  {
+    "id": "matrizes-ined-0173",
+    "categoriaId": "matrizes",
+    "subtopico": "Determinantes",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Considere a matriz de ordem 3: A = [[3, -2, -5], [2, 1, -5], [5, -1, 3]]. Aplicando a Regra de Sarrus, qual é o determinante de A?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "91"
+      },
+      {
+        "letra": "B",
+        "texto": "34"
+      },
+      {
+        "letra": "C",
+        "texto": "47"
+      },
+      {
+        "letra": "D",
+        "texto": "69"
+      },
+      {
+        "letra": "E",
+        "texto": "-91"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "Pela Regra de Sarrus, det(A) é a soma dos produtos das diagonais no sentido principal menos a soma no sentido secundário: (3·1·3 + -2·-5·5 + -5·2·-1) − (-5·1·5 + 3·-5·-1 + -2·2·3) = (69) − (-22) = 91."
+  },
+  {
+    "id": "matrizes-ined-0174",
+    "categoriaId": "matrizes",
+    "subtopico": "Determinantes",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Considere a matriz de ordem 3: A = [[3, 1, 4], [3, 0, -3], [0, -1, 3]]. Aplicando a Regra de Sarrus, qual é o determinante de A?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "0"
+      },
+      {
+        "letra": "B",
+        "texto": "30"
       },
       {
         "letra": "C",
@@ -193,101 +193,33 @@
       },
       {
         "letra": "D",
-        "texto": "62"
+        "texto": "-12"
       },
       {
         "letra": "E",
-        "texto": "40"
+        "texto": "6"
       }
     ],
-    "correta": "A",
-    "explicacao": "Pela Regra de Sarrus, det(A) é a soma dos produtos das diagonais no sentido principal menos a soma no sentido secundário: (-3·4·-4 + 3·4·1 + 2·-1·-1) − (2·4·1 + -3·4·-1 + 3·-1·-4) = (62) − (32) = 30."
+    "correta": "C",
+    "explicacao": "Pela Regra de Sarrus, det(A) é a soma dos produtos das diagonais no sentido principal menos a soma no sentido secundário: (3·0·3 + 1·-3·0 + 4·3·-1) − (4·0·0 + 3·-3·-1 + 1·3·3) = (-12) − (18) = -30."
   },
   {
-    "id": "matrizes-ined-0155",
+    "id": "matrizes-ined-0175",
     "categoriaId": "matrizes",
     "subtopico": "Operações com Matrizes",
     "dificuldade": "facil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Sejam as matrizes A = [[2, 7], [-2, -6]] e B = [[6, 3], [8, -5]]. Se C = A + B, qual é o elemento da linha 1, coluna 2 da matriz C?",
+    "enunciado": "Sejam as matrizes A = [[3, -3], [6, 7]] e B = [[-3, -1], [-1, -2]]. Se C = A + B, qual é o elemento da linha 1, coluna 1 da matriz C?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "3"
+        "texto": "-6"
       },
       {
         "letra": "B",
-        "texto": "4"
-      },
-      {
-        "letra": "C",
-        "texto": "10"
-      },
-      {
-        "letra": "D",
-        "texto": "7"
-      },
-      {
-        "letra": "E",
-        "texto": "-4"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "Na soma de matrizes somam-se os elementos de mesma posição: c(1,2) = a(1,2) + b(1,2) = (7) + (3) = 10."
-  },
-  {
-    "id": "matrizes-ined-0156",
-    "categoriaId": "matrizes",
-    "subtopico": "Operações com Matrizes",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Sejam as matrizes A = [[3, 7], [-2, 2]] e B = [[2, -7], [-3, 4]]. Se C = A + B, qual é o elemento da linha 1, coluna 1 da matriz C?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "2"
-      },
-      {
-        "letra": "B",
-        "texto": "1"
-      },
-      {
-        "letra": "C",
-        "texto": "3"
-      },
-      {
-        "letra": "D",
-        "texto": "-1"
-      },
-      {
-        "letra": "E",
-        "texto": "5"
-      }
-    ],
-    "correta": "E",
-    "explicacao": "Na soma de matrizes somam-se os elementos de mesma posição: c(1,1) = a(1,1) + b(1,1) = (3) + (2) = 5."
-  },
-  {
-    "id": "matrizes-ined-0157",
-    "categoriaId": "matrizes",
-    "subtopico": "Operações com Matrizes",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Sejam as matrizes A = [[-3, 2], [6, -4]] e B = [[1, 7], [3, -1]]. Se C = A + B, qual é o elemento da linha 1, coluna 1 da matriz C?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "-4"
-      },
-      {
-        "letra": "B",
-        "texto": "4"
+        "texto": "0"
       },
       {
         "letra": "C",
@@ -295,127 +227,161 @@
       },
       {
         "letra": "D",
-        "texto": "-2"
-      },
-      {
-        "letra": "E",
-        "texto": "1"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "Na soma de matrizes somam-se os elementos de mesma posição: c(1,1) = a(1,1) + b(1,1) = (-3) + (1) = -2."
-  },
-  {
-    "id": "matrizes-ined-0158",
-    "categoriaId": "matrizes",
-    "subtopico": "Operações com Matrizes",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Sejam as matrizes A = [[6, -7], [7, 2]] e B = [[2, -4], [-4, -8]]. Se C = A − B, qual é o elemento da linha 1, coluna 1 da matriz C?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "-4"
-      },
-      {
-        "letra": "B",
-        "texto": "2"
-      },
-      {
-        "letra": "C",
-        "texto": "4"
-      },
-      {
-        "letra": "D",
-        "texto": "8"
-      },
-      {
-        "letra": "E",
         "texto": "6"
+      },
+      {
+        "letra": "E",
+        "texto": "3"
       }
     ],
-    "correta": "C",
-    "explicacao": "Na subtração de matrizes subtraem-se os elementos de mesma posição, na ordem A − B: c(1,1) = a(1,1) − b(1,1) = (6) − (2) = 4."
+    "correta": "B",
+    "explicacao": "Na soma de matrizes somam-se os elementos de mesma posição: c(1,1) = a(1,1) + b(1,1) = (3) + (-3) = 0."
   },
   {
-    "id": "matrizes-ined-0159",
+    "id": "matrizes-ined-0176",
     "categoriaId": "matrizes",
     "subtopico": "Operações com Matrizes",
     "dificuldade": "medio",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Sejam as matrizes A = [[-5, -9], [-3, 9]] e B = [[8, -7], [4, 1]]. Se C = A − B, qual é o elemento da linha 2, coluna 2 da matriz C?",
+    "enunciado": "Sejam as matrizes A = [[-5, -9], [3, 3]] e B = [[3, -2], [6, 3]]. Se C = A + B, qual é o elemento da linha 1, coluna 2 da matriz C?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "8"
+        "texto": "-9"
       },
       {
         "letra": "B",
-        "texto": "-8"
+        "texto": "7"
       },
       {
         "letra": "C",
-        "texto": "1"
+        "texto": "-7"
       },
       {
         "letra": "D",
-        "texto": "9"
+        "texto": "-11"
       },
       {
         "letra": "E",
-        "texto": "10"
+        "texto": "-2"
       }
     ],
-    "correta": "A",
-    "explicacao": "Na subtração de matrizes subtraem-se os elementos de mesma posição, na ordem A − B: c(2,2) = a(2,2) − b(2,2) = (9) − (1) = 8."
+    "correta": "D",
+    "explicacao": "Na soma de matrizes somam-se os elementos de mesma posição: c(1,2) = a(1,2) + b(1,2) = (-9) + (-2) = -11."
   },
   {
-    "id": "matrizes-ined-0160",
+    "id": "matrizes-ined-0177",
     "categoriaId": "matrizes",
     "subtopico": "Operações com Matrizes",
     "dificuldade": "dificil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Sejam as matrizes A = [[6, -3], [7, 9]] e B = [[2, -6], [3, 2]]. Se C = A − B, qual é o elemento da linha 1, coluna 1 da matriz C?",
+    "enunciado": "Sejam as matrizes A = [[-8, -2], [5, 3]] e B = [[-4, 1], [8, 8]]. Se C = A + B, qual é o elemento da linha 2, coluna 2 da matriz C?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "-4"
+        "texto": "5"
       },
       {
         "letra": "B",
-        "texto": "4"
+        "texto": "11"
       },
       {
         "letra": "C",
-        "texto": "6"
+        "texto": "-5"
       },
       {
         "letra": "D",
-        "texto": "2"
+        "texto": "8"
       },
       {
         "letra": "E",
-        "texto": "8"
+        "texto": "3"
       }
     ],
     "correta": "B",
-    "explicacao": "Na subtração de matrizes subtraem-se os elementos de mesma posição, na ordem A − B: c(1,1) = a(1,1) − b(1,1) = (6) − (2) = 4."
+    "explicacao": "Na soma de matrizes somam-se os elementos de mesma posição: c(2,2) = a(2,2) + b(2,2) = (3) + (8) = 11."
   },
   {
-    "id": "matrizes-ined-0161",
+    "id": "matrizes-ined-0178",
     "categoriaId": "matrizes",
     "subtopico": "Operações com Matrizes",
     "dificuldade": "facil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Considere a matriz A = [[8, 3], [-5, -4]] e o número real k = 3. Qual é o elemento da linha 2, coluna 2 da matriz k·A?",
+    "enunciado": "Sejam as matrizes A = [[7, -2], [-6, 8]] e B = [[-9, 4], [6, -3]]. Se C = A − B, qual é o elemento da linha 2, coluna 1 da matriz C?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "-12"
+      },
+      {
+        "letra": "B",
+        "texto": "-6"
+      },
+      {
+        "letra": "C",
+        "texto": "12"
+      },
+      {
+        "letra": "D",
+        "texto": "0"
+      },
+      {
+        "letra": "E",
+        "texto": "6"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "Na subtração de matrizes subtraem-se os elementos de mesma posição, na ordem A − B: c(2,1) = a(2,1) − b(2,1) = (-6) − (6) = -12."
+  },
+  {
+    "id": "matrizes-ined-0179",
+    "categoriaId": "matrizes",
+    "subtopico": "Operações com Matrizes",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Sejam as matrizes A = [[-8, 8], [-5, 8]] e B = [[8, -6], [-9, 5]]. Se C = A − B, qual é o elemento da linha 1, coluna 2 da matriz C?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "14"
+      },
+      {
+        "letra": "B",
+        "texto": "2"
+      },
+      {
+        "letra": "C",
+        "texto": "-14"
+      },
+      {
+        "letra": "D",
+        "texto": "-6"
+      },
+      {
+        "letra": "E",
+        "texto": "8"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "Na subtração de matrizes subtraem-se os elementos de mesma posição, na ordem A − B: c(1,2) = a(1,2) − b(1,2) = (8) − (-6) = 14."
+  },
+  {
+    "id": "matrizes-ined-0180",
+    "categoriaId": "matrizes",
+    "subtopico": "Operações com Matrizes",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Sejam as matrizes A = [[8, 2], [-9, 4]] e B = [[3, 5], [-7, 4]]. Se C = A − B, qual é o elemento da linha 1, coluna 1 da matriz C?",
     "alternativas": [
       {
         "letra": "A",
@@ -423,33 +389,271 @@
       },
       {
         "letra": "B",
-        "texto": "-4"
+        "texto": "11"
       },
       {
         "letra": "C",
-        "texto": "-12"
+        "texto": "-5"
       },
       {
         "letra": "D",
-        "texto": "-1"
+        "texto": "5"
       },
       {
         "letra": "E",
-        "texto": "12"
+        "texto": "8"
       }
     ],
-    "correta": "C",
-    "explicacao": "Na multiplicação de uma matriz por um escalar, cada elemento é multiplicado por k. O elemento pedido vale 3 · (-4) = -12."
+    "correta": "D",
+    "explicacao": "Na subtração de matrizes subtraem-se os elementos de mesma posição, na ordem A − B: c(1,1) = a(1,1) − b(1,1) = (8) − (3) = 5."
   },
   {
-    "id": "matrizes-ined-0162",
+    "id": "matrizes-ined-0181",
+    "categoriaId": "matrizes",
+    "subtopico": "Operações com Matrizes",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Considere a matriz A = [[-5, 6], [5, -6]] e o número real k = 3. Qual é o elemento da linha 2, coluna 2 da matriz k·A?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "-6"
+      },
+      {
+        "letra": "B",
+        "texto": "-18"
+      },
+      {
+        "letra": "C",
+        "texto": "3"
+      },
+      {
+        "letra": "D",
+        "texto": "18"
+      },
+      {
+        "letra": "E",
+        "texto": "-3"
+      }
+    ],
+    "correta": "B",
+    "explicacao": "Na multiplicação de uma matriz por um escalar, cada elemento é multiplicado por k. O elemento pedido vale 3 · (-6) = -18."
+  },
+  {
+    "id": "matrizes-ined-0182",
     "categoriaId": "matrizes",
     "subtopico": "Operações com Matrizes",
     "dificuldade": "medio",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Considere a matriz A = [[-8, 9], [-5, -9]] e o número real k = 4. Qual é o elemento da linha 2, coluna 1 da matriz k·A?",
+    "enunciado": "Considere a matriz A = [[-5, -8], [3, 5]] e o número real k = 4. Qual é o elemento da linha 1, coluna 2 da matriz k·A?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "-32"
+      },
+      {
+        "letra": "B",
+        "texto": "-4"
+      },
+      {
+        "letra": "C",
+        "texto": "32"
+      },
+      {
+        "letra": "D",
+        "texto": "-8"
+      },
+      {
+        "letra": "E",
+        "texto": "4"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "Na multiplicação de uma matriz por um escalar, cada elemento é multiplicado por k. O elemento pedido vale 4 · (-8) = -32."
+  },
+  {
+    "id": "matrizes-ined-0183",
+    "categoriaId": "matrizes",
+    "subtopico": "Operações com Matrizes",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Considere a matriz A = [[-7, 3], [6, -5]] e o número real k = 4. Qual é o elemento da linha 1, coluna 2 da matriz k·A?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "-12"
+      },
+      {
+        "letra": "B",
+        "texto": "7"
+      },
+      {
+        "letra": "C",
+        "texto": "12"
+      },
+      {
+        "letra": "D",
+        "texto": "3"
+      },
+      {
+        "letra": "E",
+        "texto": "4"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "Na multiplicação de uma matriz por um escalar, cada elemento é multiplicado por k. O elemento pedido vale 4 · (3) = 12."
+  },
+  {
+    "id": "matrizes-ined-0184",
+    "categoriaId": "matrizes",
+    "subtopico": "Operações com Matrizes",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Sejam A = [[2, 3], [-1, -3]] e B = [[2, 5], [-1, -1]]. No produto C = A · B, qual é o elemento da linha 2, coluna 2 de C?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "-8"
+      },
+      {
+        "letra": "B",
+        "texto": "-2"
+      },
+      {
+        "letra": "C",
+        "texto": "3"
+      },
+      {
+        "letra": "D",
+        "texto": "4"
+      },
+      {
+        "letra": "E",
+        "texto": "-5"
+      }
+    ],
+    "correta": "B",
+    "explicacao": "O elemento c(2,2) é a soma dos produtos da linha 2 de A pela coluna 2 de B: (-1)·(5) + (-3)·(-1) = -5 + 3 = -2."
+  },
+  {
+    "id": "matrizes-ined-0185",
+    "categoriaId": "matrizes",
+    "subtopico": "Operações com Matrizes",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Sejam A = [[-4, -1], [-1, 2]] e B = [[5, -3], [3, 2]]. No produto C = A · B, qual é o elemento da linha 1, coluna 2 de C?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "14"
+      },
+      {
+        "letra": "B",
+        "texto": "3"
+      },
+      {
+        "letra": "C",
+        "texto": "12"
+      },
+      {
+        "letra": "D",
+        "texto": "10"
+      },
+      {
+        "letra": "E",
+        "texto": "-14"
+      }
+    ],
+    "correta": "D",
+    "explicacao": "O elemento c(1,2) é a soma dos produtos da linha 1 de A pela coluna 2 de B: (-4)·(-3) + (-1)·(2) = 12 + -2 = 10."
+  },
+  {
+    "id": "matrizes-ined-0186",
+    "categoriaId": "matrizes",
+    "subtopico": "Operações com Matrizes",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Sejam A = [[4, -1], [2, 2]] e B = [[4, -3], [-5, 4]]. No produto C = A · B, qual é o elemento da linha 1, coluna 2 de C?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "-24"
+      },
+      {
+        "letra": "B",
+        "texto": "-16"
+      },
+      {
+        "letra": "C",
+        "texto": "-8"
+      },
+      {
+        "letra": "D",
+        "texto": "3"
+      },
+      {
+        "letra": "E",
+        "texto": "-12"
+      }
+    ],
+    "correta": "B",
+    "explicacao": "O elemento c(1,2) é a soma dos produtos da linha 1 de A pela coluna 2 de B: (4)·(-3) + (-1)·(4) = -12 + -4 = -16."
+  },
+  {
+    "id": "matrizes-ined-0187",
+    "categoriaId": "matrizes",
+    "subtopico": "Operações com Matrizes",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Dada a matriz A = [[4, 2], [-8, 8]], seja Aᵀ a sua transposta. Qual é o elemento da linha 2, coluna 1 de Aᵀ?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "-8"
+      },
+      {
+        "letra": "B",
+        "texto": "4"
+      },
+      {
+        "letra": "C",
+        "texto": "-2"
+      },
+      {
+        "letra": "D",
+        "texto": "2"
+      },
+      {
+        "letra": "E",
+        "texto": "8"
+      }
+    ],
+    "correta": "D",
+    "explicacao": "Na transposta, linhas viram colunas: o elemento da posição (2,1) de Aᵀ é igual ao da posição (1,2) de A, que vale 2."
+  },
+  {
+    "id": "matrizes-ined-0188",
+    "categoriaId": "matrizes",
+    "subtopico": "Operações com Matrizes",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Dada a matriz A = [[-3, 8], [4, 9]], seja Aᵀ a sua transposta. Qual é o elemento da linha 1, coluna 2 de Aᵀ?",
     "alternativas": [
       {
         "letra": "A",
@@ -457,37 +661,309 @@
       },
       {
         "letra": "B",
-        "texto": "-5"
+        "texto": "9"
       },
       {
         "letra": "C",
-        "texto": "-20"
+        "texto": "-3"
       },
       {
         "letra": "D",
-        "texto": "20"
+        "texto": "-4"
       },
       {
         "letra": "E",
-        "texto": "-1"
+        "texto": "8"
       }
     ],
-    "correta": "C",
-    "explicacao": "Na multiplicação de uma matriz por um escalar, cada elemento é multiplicado por k. O elemento pedido vale 4 · (-5) = -20."
+    "correta": "A",
+    "explicacao": "Na transposta, linhas viram colunas: o elemento da posição (1,2) de Aᵀ é igual ao da posição (2,1) de A, que vale 4."
   },
   {
-    "id": "matrizes-ined-0163",
+    "id": "matrizes-ined-0189",
     "categoriaId": "matrizes",
     "subtopico": "Operações com Matrizes",
     "dificuldade": "dificil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Considere a matriz A = [[-6, -7], [-6, 4]] e o número real k = 5. Qual é o elemento da linha 2, coluna 2 da matriz k·A?",
+    "enunciado": "Dada a matriz A = [[4, -2], [8, -5]], seja Aᵀ a sua transposta. Qual é o elemento da linha 2, coluna 1 de Aᵀ?",
     "alternativas": [
       {
         "letra": "A",
+        "texto": "-2"
+      },
+      {
+        "letra": "B",
+        "texto": "2"
+      },
+      {
+        "letra": "C",
+        "texto": "8"
+      },
+      {
+        "letra": "D",
         "texto": "4"
+      },
+      {
+        "letra": "E",
+        "texto": "-5"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "Na transposta, linhas viram colunas: o elemento da posição (2,1) de Aᵀ é igual ao da posição (1,2) de A, que vale -2."
+  },
+  {
+    "id": "matrizes-ined-0190",
+    "categoriaId": "matrizes",
+    "subtopico": "Operações com Matrizes",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Considere a matriz quadrada M = [[-2, -6, 1], [-5, -9, -2], [1, -8, -9]]. O traço de uma matriz é a soma dos elementos de sua diagonal principal. Qual é o traço de M?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "-39"
+      },
+      {
+        "letra": "B",
+        "texto": "-20"
+      },
+      {
+        "letra": "C",
+        "texto": "-162"
+      },
+      {
+        "letra": "D",
+        "texto": "-11"
+      },
+      {
+        "letra": "E",
+        "texto": "-7"
+      }
+    ],
+    "correta": "B",
+    "explicacao": "A diagonal principal vai do canto superior esquerdo ao inferior direito: traço(M) = (-2) + (-9) + (-9) = -20."
+  },
+  {
+    "id": "matrizes-ined-0191",
+    "categoriaId": "matrizes",
+    "subtopico": "Operações com Matrizes",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Considere a matriz quadrada M = [[-3, -9, 7], [-2, -2, 3], [-6, -5, 6]]. O traço de uma matriz é a soma dos elementos de sua diagonal principal. Qual é o traço de M?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "36"
+      },
+      {
+        "letra": "B",
+        "texto": "3"
+      },
+      {
+        "letra": "C",
+        "texto": "-11"
+      },
+      {
+        "letra": "D",
+        "texto": "-1"
+      },
+      {
+        "letra": "E",
+        "texto": "1"
+      }
+    ],
+    "correta": "E",
+    "explicacao": "A diagonal principal vai do canto superior esquerdo ao inferior direito: traço(M) = (-3) + (-2) + (6) = 1."
+  },
+  {
+    "id": "matrizes-ined-0192",
+    "categoriaId": "matrizes",
+    "subtopico": "Operações com Matrizes",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Considere a matriz quadrada M = [[8, -3, 8], [-2, 8, 8], [4, -2, 7]]. O traço de uma matriz é a soma dos elementos de sua diagonal principal. Qual é o traço de M?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "20"
+      },
+      {
+        "letra": "B",
+        "texto": "448"
+      },
+      {
+        "letra": "C",
+        "texto": "36"
+      },
+      {
+        "letra": "D",
+        "texto": "23"
+      },
+      {
+        "letra": "E",
+        "texto": "15"
+      }
+    ],
+    "correta": "D",
+    "explicacao": "A diagonal principal vai do canto superior esquerdo ao inferior direito: traço(M) = (8) + (8) + (7) = 23."
+  },
+  {
+    "id": "matrizes-ined-0193",
+    "categoriaId": "matrizes",
+    "subtopico": "Operações com Matrizes",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "As matrizes A = [[x + 6, -5], [4, 2y]] e B = [[9, -5], [4, 4]] são iguais. Qual é o valor de x + y?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "7"
+      },
+      {
+        "letra": "B",
+        "texto": "11"
+      },
+      {
+        "letra": "C",
+        "texto": "1"
+      },
+      {
+        "letra": "D",
+        "texto": "13"
+      },
+      {
+        "letra": "E",
+        "texto": "5"
+      }
+    ],
+    "correta": "E",
+    "explicacao": "Duas matrizes são iguais quando os elementos de mesma posição são iguais. Posição (1,1): x + 6 = 9 ⇒ x = 3. Posição (2,2): 2y = 4 ⇒ y = 2. Logo x + y = 5."
+  },
+  {
+    "id": "matrizes-ined-0194",
+    "categoriaId": "matrizes",
+    "subtopico": "Operações com Matrizes",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "As matrizes A = [[x + 6, -6], [3, 2y]] e B = [[9, -6], [3, 16]] são iguais. Qual é o valor de x + y?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "19"
+      },
+      {
+        "letra": "B",
+        "texto": "17"
+      },
+      {
+        "letra": "C",
+        "texto": "11"
+      },
+      {
+        "letra": "D",
+        "texto": "25"
+      },
+      {
+        "letra": "E",
+        "texto": "-5"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "Duas matrizes são iguais quando os elementos de mesma posição são iguais. Posição (1,1): x + 6 = 9 ⇒ x = 3. Posição (2,2): 2y = 16 ⇒ y = 8. Logo x + y = 11."
+  },
+  {
+    "id": "matrizes-ined-0195",
+    "categoriaId": "matrizes",
+    "subtopico": "Operações com Matrizes",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "As matrizes A = [[x + 7, -4], [-3, 2y]] e B = [[10, -4], [-3, 12]] são iguais. Qual é o valor de x + y?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "-3"
+      },
+      {
+        "letra": "B",
+        "texto": "9"
+      },
+      {
+        "letra": "C",
+        "texto": "15"
+      },
+      {
+        "letra": "D",
+        "texto": "22"
+      },
+      {
+        "letra": "E",
+        "texto": "16"
+      }
+    ],
+    "correta": "B",
+    "explicacao": "Duas matrizes são iguais quando os elementos de mesma posição são iguais. Posição (1,1): x + 7 = 10 ⇒ x = 3. Posição (2,2): 2y = 12 ⇒ y = 6. Logo x + y = 9."
+  },
+  {
+    "id": "matrizes-ined-0196",
+    "categoriaId": "matrizes",
+    "subtopico": "Operações com Matrizes",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma matriz A = (a_ij) de ordem 3 tem seus elementos definidos pela lei de formação a_ij = i + 2j, em que i indica a linha e j a coluna. Qual é o elemento a_13 dessa matriz?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "3"
+      },
+      {
+        "letra": "B",
+        "texto": "4"
+      },
+      {
+        "letra": "C",
+        "texto": "5"
+      },
+      {
+        "letra": "D",
+        "texto": "-7"
+      },
+      {
+        "letra": "E",
+        "texto": "7"
+      }
+    ],
+    "correta": "E",
+    "explicacao": "Basta substituir i = 1 (linha) e j = 3 (coluna) na lei a_ij = i + 2j: a_13 = 1 + 2·3 = 7."
+  },
+  {
+    "id": "matrizes-ined-0197",
+    "categoriaId": "matrizes",
+    "subtopico": "Operações com Matrizes",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma matriz A = (a_ij) de ordem 3 tem seus elementos definidos pela lei de formação a_ij = 2i − j, em que i indica a linha e j a coluna. Qual é o elemento a_32 dessa matriz?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "6"
       },
       {
         "letra": "B",
@@ -495,29 +971,29 @@
       },
       {
         "letra": "C",
-        "texto": "9"
+        "texto": "-4"
       },
       {
         "letra": "D",
-        "texto": "-20"
+        "texto": "1"
       },
       {
         "letra": "E",
-        "texto": "20"
+        "texto": "4"
       }
     ],
     "correta": "E",
-    "explicacao": "Na multiplicação de uma matriz por um escalar, cada elemento é multiplicado por k. O elemento pedido vale 5 · (4) = 20."
+    "explicacao": "Basta substituir i = 3 (linha) e j = 2 (coluna) na lei a_ij = 2i − j: a_32 = 2·3 − 2 = 4."
   },
   {
-    "id": "matrizes-ined-0164",
+    "id": "matrizes-ined-0198",
     "categoriaId": "matrizes",
     "subtopico": "Operações com Matrizes",
-    "dificuldade": "facil",
+    "dificuldade": "dificil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Sejam A = [[5, 3], [-5, 3]] e B = [[-3, 3], [-4, -2]]. No produto C = A · B, qual é o elemento da linha 2, coluna 1 de C?",
+    "enunciado": "Uma matriz A = (a_ij) de ordem 3 tem seus elementos definidos pela lei de formação a_ij = i + 2j, em que i indica a linha e j a coluna. Qual é o elemento a_31 dessa matriz?",
     "alternativas": [
       {
         "letra": "A",
@@ -525,7 +1001,381 @@
       },
       {
         "letra": "B",
-        "texto": "27"
+        "texto": "-5"
+      },
+      {
+        "letra": "C",
+        "texto": "7"
+      },
+      {
+        "letra": "D",
+        "texto": "4"
+      },
+      {
+        "letra": "E",
+        "texto": "5"
+      }
+    ],
+    "correta": "E",
+    "explicacao": "Basta substituir i = 3 (linha) e j = 1 (coluna) na lei a_ij = i + 2j: a_31 = 3 + 2·1 = 5."
+  },
+  {
+    "id": "matrizes-ined-0199",
+    "categoriaId": "matrizes",
+    "subtopico": "Operações com Matrizes",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "A matriz A = [[6, x − 3], [2, 8]] é simétrica (igual à sua transposta). Qual é o valor de x?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "2"
+      },
+      {
+        "letra": "B",
+        "texto": "-5"
+      },
+      {
+        "letra": "C",
+        "texto": "-1"
+      },
+      {
+        "letra": "D",
+        "texto": "5"
+      },
+      {
+        "letra": "E",
+        "texto": "-3"
+      }
+    ],
+    "correta": "D",
+    "explicacao": "Em uma matriz simétrica, o elemento (1,2) é igual ao elemento (2,1). Então x − 3 = 2, ou seja x = 2 + 3 = 5."
+  },
+  {
+    "id": "matrizes-ined-0200",
+    "categoriaId": "matrizes",
+    "subtopico": "Operações com Matrizes",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "A matriz A = [[-3, x − 4], [2, -5]] é simétrica (igual à sua transposta). Qual é o valor de x?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "-6"
+      },
+      {
+        "letra": "B",
+        "texto": "6"
+      },
+      {
+        "letra": "C",
+        "texto": "-4"
+      },
+      {
+        "letra": "D",
+        "texto": "2"
+      },
+      {
+        "letra": "E",
+        "texto": "-2"
+      }
+    ],
+    "correta": "B",
+    "explicacao": "Em uma matriz simétrica, o elemento (1,2) é igual ao elemento (2,1). Então x − 4 = 2, ou seja x = 2 + 4 = 6."
+  },
+  {
+    "id": "matrizes-ined-0201",
+    "categoriaId": "matrizes",
+    "subtopico": "Operações com Matrizes",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "A matriz A = [[-2, x + 1], [7, 9]] é simétrica (igual à sua transposta). Qual é o valor de x?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "8"
+      },
+      {
+        "letra": "B",
+        "texto": "-6"
+      },
+      {
+        "letra": "C",
+        "texto": "6"
+      },
+      {
+        "letra": "D",
+        "texto": "7"
+      },
+      {
+        "letra": "E",
+        "texto": "1"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "Em uma matriz simétrica, o elemento (1,2) é igual ao elemento (2,1). Então x + 1 = 7, ou seja x = 7 − 1 = 6."
+  },
+  {
+    "id": "matrizes-ined-0202",
+    "categoriaId": "matrizes",
+    "subtopico": "Operações com Matrizes",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Considere a matriz A = [[-4, -4], [1, -2]]. Calculando A² = A · A, qual é o elemento da linha 1, coluna 1 de A²?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "8"
+      },
+      {
+        "letra": "B",
+        "texto": "20"
+      },
+      {
+        "letra": "C",
+        "texto": "12"
+      },
+      {
+        "letra": "D",
+        "texto": "24"
+      },
+      {
+        "letra": "E",
+        "texto": "16"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "O elemento (1,1) de A² é a 1ª linha de A multiplicada pela 1ª coluna de A: (-4)·(-4) + (-4)·(1) = 16 + -4 = 12."
+  },
+  {
+    "id": "matrizes-ined-0203",
+    "categoriaId": "matrizes",
+    "subtopico": "Operações com Matrizes",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Considere a matriz A = [[2, 3], [1, -3]]. Calculando A² = A · A, qual é o elemento da linha 1, coluna 1 de A²?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "1"
+      },
+      {
+        "letra": "B",
+        "texto": "-5"
+      },
+      {
+        "letra": "C",
+        "texto": "7"
+      },
+      {
+        "letra": "D",
+        "texto": "4"
+      },
+      {
+        "letra": "E",
+        "texto": "10"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "O elemento (1,1) de A² é a 1ª linha de A multiplicada pela 1ª coluna de A: (2)·(2) + (3)·(1) = 4 + 3 = 7."
+  },
+  {
+    "id": "matrizes-ined-0204",
+    "categoriaId": "matrizes",
+    "subtopico": "Operações com Matrizes",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Considere a matriz A = [[-3, -3], [4, -2]]. Calculando A² = A · A, qual é o elemento da linha 1, coluna 1 de A²?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "21"
+      },
+      {
+        "letra": "B",
+        "texto": "-3"
+      },
+      {
+        "letra": "C",
+        "texto": "-15"
+      },
+      {
+        "letra": "D",
+        "texto": "9"
+      },
+      {
+        "letra": "E",
+        "texto": "15"
+      }
+    ],
+    "correta": "B",
+    "explicacao": "O elemento (1,1) de A² é a 1ª linha de A multiplicada pela 1ª coluna de A: (-3)·(-3) + (-3)·(4) = 9 + -12 = -3."
+  },
+  {
+    "id": "matrizes-ined-0205",
+    "categoriaId": "matrizes",
+    "subtopico": "Determinantes",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "A matriz A = [[1, 3], [2, 5]] tem determinante igual a −1. Qual é o elemento da linha 1, coluna 1 da matriz inversa A⁻¹?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "-1"
+      },
+      {
+        "letra": "B",
+        "texto": "5"
+      },
+      {
+        "letra": "C",
+        "texto": "6"
+      },
+      {
+        "letra": "D",
+        "texto": "3"
+      },
+      {
+        "letra": "E",
+        "texto": "-5"
+      }
+    ],
+    "correta": "E",
+    "explicacao": "Para uma matriz 2×2 [[a, b], [c, d]], a inversa é A⁻¹ = (1/det)·[[d, −b], [−c, a]]. O elemento (1,1) é d/det = (5)/(−1) = -5."
+  },
+  {
+    "id": "matrizes-ined-0206",
+    "categoriaId": "matrizes",
+    "subtopico": "Determinantes",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "A matriz A = [[1, -2], [-3, 5]] tem determinante igual a −1. Qual é o elemento da linha 1, coluna 1 da matriz inversa A⁻¹?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "6"
+      },
+      {
+        "letra": "B",
+        "texto": "-1"
+      },
+      {
+        "letra": "C",
+        "texto": "-5"
+      },
+      {
+        "letra": "D",
+        "texto": "-2"
+      },
+      {
+        "letra": "E",
+        "texto": "5"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "Para uma matriz 2×2 [[a, b], [c, d]], a inversa é A⁻¹ = (1/det)·[[d, −b], [−c, a]]. O elemento (1,1) é d/det = (5)/(−1) = -5."
+  },
+  {
+    "id": "matrizes-ined-0207",
+    "categoriaId": "matrizes",
+    "subtopico": "Determinantes",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "A matriz A = [[1, 2], [3, 5]] tem determinante igual a −1. Qual é o elemento da linha 1, coluna 1 da matriz inversa A⁻¹?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "6"
+      },
+      {
+        "letra": "B",
+        "texto": "2"
+      },
+      {
+        "letra": "C",
+        "texto": "-1"
+      },
+      {
+        "letra": "D",
+        "texto": "-5"
+      },
+      {
+        "letra": "E",
+        "texto": "5"
+      }
+    ],
+    "correta": "D",
+    "explicacao": "Para uma matriz 2×2 [[a, b], [c, d]], a inversa é A⁻¹ = (1/det)·[[d, −b], [−c, a]]. O elemento (1,1) é d/det = (5)/(−1) = -5."
+  },
+  {
+    "id": "matrizes-ined-0208",
+    "categoriaId": "matrizes",
+    "subtopico": "Determinantes",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "O determinante da matriz A = [[x, 2], [4, 2]] é igual a zero. Qual é o valor de x?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "10"
+      },
+      {
+        "letra": "B",
+        "texto": "-4"
+      },
+      {
+        "letra": "C",
+        "texto": "4"
+      },
+      {
+        "letra": "D",
+        "texto": "6"
+      },
+      {
+        "letra": "E",
+        "texto": "8"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "det(A) = x·2 − 2·4 = 0 ⇒ 2·x = 8 ⇒ x = 8 ÷ 2 = 4."
+  },
+  {
+    "id": "matrizes-ined-0209",
+    "categoriaId": "matrizes",
+    "subtopico": "Determinantes",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "O determinante da matriz A = [[x, 4], [6, 4]] é igual a zero. Qual é o valor de x?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "6"
+      },
+      {
+        "letra": "B",
+        "texto": "-6"
       },
       {
         "letra": "C",
@@ -537,1030 +1387,180 @@
       },
       {
         "letra": "E",
-        "texto": "15"
+        "texto": "28"
       }
     ],
     "correta": "A",
-    "explicacao": "O elemento c(2,1) é a soma dos produtos da linha 2 de A pela coluna 1 de B: (-5)·(-3) + (3)·(-4) = 15 + -12 = 3."
+    "explicacao": "det(A) = x·4 − 4·6 = 0 ⇒ 4·x = 24 ⇒ x = 24 ÷ 4 = 6."
   },
   {
-    "id": "matrizes-ined-0165",
+    "id": "matrizes-ined-0210",
     "categoriaId": "matrizes",
-    "subtopico": "Operações com Matrizes",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Sejam A = [[2, 4], [-2, 5]] e B = [[4, 1], [-3, -3]]. No produto C = A · B, qual é o elemento da linha 2, coluna 1 de C?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "-8"
-      },
-      {
-        "letra": "B",
-        "texto": "7"
-      },
-      {
-        "letra": "C",
-        "texto": "-23"
-      },
-      {
-        "letra": "D",
-        "texto": "6"
-      },
-      {
-        "letra": "E",
-        "texto": "-3"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "O elemento c(2,1) é a soma dos produtos da linha 2 de A pela coluna 1 de B: (-2)·(4) + (5)·(-3) = -8 + -15 = -23."
-  },
-  {
-    "id": "matrizes-ined-0166",
-    "categoriaId": "matrizes",
-    "subtopico": "Operações com Matrizes",
+    "subtopico": "Determinantes",
     "dificuldade": "dificil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Sejam A = [[2, -5], [5, -2]] e B = [[4, -2], [-1, 4]]. No produto C = A · B, qual é o elemento da linha 2, coluna 2 de C?",
+    "enunciado": "O determinante da matriz A = [[x, 6], [2, 3]] é igual a zero. Qual é o valor de x?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "-8"
+        "texto": "15"
       },
       {
         "letra": "B",
-        "texto": "-18"
+        "texto": "4"
       },
       {
         "letra": "C",
-        "texto": "-2"
+        "texto": "12"
       },
       {
         "letra": "D",
-        "texto": "-13"
+        "texto": "9"
       },
       {
         "letra": "E",
-        "texto": "-10"
+        "texto": "-4"
       }
     ],
     "correta": "B",
-    "explicacao": "O elemento c(2,2) é a soma dos produtos da linha 2 de A pela coluna 2 de B: (5)·(-2) + (-2)·(4) = -10 + -8 = -18."
+    "explicacao": "det(A) = x·3 − 6·2 = 0 ⇒ 3·x = 12 ⇒ x = 12 ÷ 3 = 4."
   },
   {
-    "id": "matrizes-ined-0167",
+    "id": "matrizes-ined-0211",
     "categoriaId": "matrizes",
-    "subtopico": "Operações com Matrizes",
+    "subtopico": "Aplicações Práticas",
     "dificuldade": "facil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Dada a matriz A = [[9, -9], [5, 6]], seja Aᵀ a sua transposta. Qual é o elemento da linha 1, coluna 2 de Aᵀ?",
+    "enunciado": "Considere o sistema linear { 3x + 3y = 21 ; 5x + 4y = 30 }. Resolvendo-o pela Regra de Cramer, qual é o valor de x?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "9"
-      },
-      {
-        "letra": "B",
         "texto": "5"
       },
       {
-        "letra": "C",
-        "texto": "-5"
-      },
-      {
-        "letra": "D",
-        "texto": "-9"
-      },
-      {
-        "letra": "E",
-        "texto": "6"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "Na transposta, linhas viram colunas: o elemento da posição (1,2) de Aᵀ é igual ao da posição (2,1) de A, que vale 5."
-  },
-  {
-    "id": "matrizes-ined-0168",
-    "categoriaId": "matrizes",
-    "subtopico": "Operações com Matrizes",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Dada a matriz A = [[9, 3], [-8, -1]], seja Aᵀ a sua transposta. Qual é o elemento da linha 2, coluna 1 de Aᵀ?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "3"
-      },
-      {
         "letra": "B",
-        "texto": "-3"
-      },
-      {
-        "letra": "C",
-        "texto": "9"
-      },
-      {
-        "letra": "D",
-        "texto": "-1"
-      },
-      {
-        "letra": "E",
-        "texto": "-8"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "Na transposta, linhas viram colunas: o elemento da posição (2,1) de Aᵀ é igual ao da posição (1,2) de A, que vale 3."
-  },
-  {
-    "id": "matrizes-ined-0169",
-    "categoriaId": "matrizes",
-    "subtopico": "Operações com Matrizes",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Dada a matriz A = [[1, -4], [-2, -6]], seja Aᵀ a sua transposta. Qual é o elemento da linha 2, coluna 1 de Aᵀ?",
-    "alternativas": [
-      {
-        "letra": "A",
         "texto": "-6"
       },
       {
-        "letra": "B",
-        "texto": "4"
-      },
-      {
         "letra": "C",
-        "texto": "-4"
+        "texto": "2"
       },
       {
         "letra": "D",
-        "texto": "1"
+        "texto": "-2"
       },
       {
         "letra": "E",
-        "texto": "-2"
+        "texto": "7"
       }
     ],
     "correta": "C",
-    "explicacao": "Na transposta, linhas viram colunas: o elemento da posição (2,1) de Aᵀ é igual ao da posição (1,2) de A, que vale -4."
+    "explicacao": "Regra de Cramer: D = 3·4 − 5·3 = -3; Dx = 21·4 − 30·3 = -6. Então x = Dx / D = -6 / -3 = 2."
   },
   {
-    "id": "matrizes-ined-0170",
+    "id": "matrizes-ined-0212",
     "categoriaId": "matrizes",
-    "subtopico": "Operações com Matrizes",
-    "dificuldade": "facil",
+    "subtopico": "Aplicações Práticas",
+    "dificuldade": "medio",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Considere a matriz quadrada M = [[7, 8, 8], [-6, 1, 5], [0, 1, 8]]. O traço de uma matriz é a soma dos elementos de sua diagonal principal. Qual é o traço de M?",
+    "enunciado": "Considere o sistema linear { 5x + 4y = 42 ; 4x + 5y = 39 }. Resolvendo-o pela Regra de Cramer, qual é o valor de x?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "56"
+        "texto": "6"
       },
       {
         "letra": "B",
-        "texto": "32"
-      },
-      {
-        "letra": "C",
-        "texto": "16"
-      },
-      {
-        "letra": "D",
         "texto": "9"
       },
       {
-        "letra": "E",
-        "texto": "15"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "A diagonal principal vai do canto superior esquerdo ao inferior direito: traço(M) = (7) + (1) + (8) = 16."
-  },
-  {
-    "id": "matrizes-ined-0171",
-    "categoriaId": "matrizes",
-    "subtopico": "Operações com Matrizes",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Considere a matriz quadrada M = [[9, 5, -7], [4, -2, -9], [2, -8, -4]]. O traço de uma matriz é a soma dos elementos de sua diagonal principal. Qual é o traço de M?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "5"
-      },
-      {
-        "letra": "B",
-        "texto": "-10"
-      },
-      {
         "letra": "C",
+        "texto": "-6"
+      },
+      {
+        "letra": "D",
+        "texto": "54"
+      },
+      {
+        "letra": "E",
         "texto": "3"
-      },
-      {
-        "letra": "D",
-        "texto": "-7"
-      },
-      {
-        "letra": "E",
-        "texto": "72"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "A diagonal principal vai do canto superior esquerdo ao inferior direito: traço(M) = (9) + (-2) + (-4) = 3."
-  },
-  {
-    "id": "matrizes-ined-0172",
-    "categoriaId": "matrizes",
-    "subtopico": "Operações com Matrizes",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Considere a matriz quadrada M = [[3, -3, -1], [-3, -8, 1], [-4, -8, 5]]. O traço de uma matriz é a soma dos elementos de sua diagonal principal. Qual é o traço de M?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "0"
-      },
-      {
-        "letra": "B",
-        "texto": "-18"
-      },
-      {
-        "letra": "C",
-        "texto": "8"
-      },
-      {
-        "letra": "D",
-        "texto": "-13"
-      },
-      {
-        "letra": "E",
-        "texto": "-120"
       }
     ],
     "correta": "A",
-    "explicacao": "A diagonal principal vai do canto superior esquerdo ao inferior direito: traço(M) = (3) + (-8) + (5) = 0."
+    "explicacao": "Regra de Cramer: D = 5·5 − 4·4 = 9; Dx = 42·5 − 39·4 = 54. Então x = Dx / D = 54 / 9 = 6."
   },
   {
-    "id": "matrizes-ined-0173",
+    "id": "matrizes-ined-0213",
     "categoriaId": "matrizes",
-    "subtopico": "Operações com Matrizes",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "As matrizes A = [[x + 6, 5], [-3, 2y]] e B = [[12, 5], [-3, 4]] são iguais. Qual é o valor de x + y?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "14"
-      },
-      {
-        "letra": "B",
-        "texto": "4"
-      },
-      {
-        "letra": "C",
-        "texto": "10"
-      },
-      {
-        "letra": "D",
-        "texto": "16"
-      },
-      {
-        "letra": "E",
-        "texto": "8"
-      }
-    ],
-    "correta": "E",
-    "explicacao": "Duas matrizes são iguais quando os elementos de mesma posição são iguais. Posição (1,1): x + 6 = 12 ⇒ x = 6. Posição (2,2): 2y = 4 ⇒ y = 2. Logo x + y = 8."
-  },
-  {
-    "id": "matrizes-ined-0174",
-    "categoriaId": "matrizes",
-    "subtopico": "Operações com Matrizes",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "As matrizes A = [[x + 9, -6], [1, 2y]] e B = [[11, -6], [1, 12]] são iguais. Qual é o valor de x + y?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "17"
-      },
-      {
-        "letra": "B",
-        "texto": "-4"
-      },
-      {
-        "letra": "C",
-        "texto": "23"
-      },
-      {
-        "letra": "D",
-        "texto": "14"
-      },
-      {
-        "letra": "E",
-        "texto": "8"
-      }
-    ],
-    "correta": "E",
-    "explicacao": "Duas matrizes são iguais quando os elementos de mesma posição são iguais. Posição (1,1): x + 9 = 11 ⇒ x = 2. Posição (2,2): 2y = 12 ⇒ y = 6. Logo x + y = 8."
-  },
-  {
-    "id": "matrizes-ined-0175",
-    "categoriaId": "matrizes",
-    "subtopico": "Operações com Matrizes",
+    "subtopico": "Aplicações Práticas",
     "dificuldade": "dificil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "As matrizes A = [[x + 9, -2], [1, 2y]] e B = [[15, -2], [1, 14]] são iguais. Qual é o valor de x + y?",
+    "enunciado": "Considere o sistema linear { 5x + 1y = 41 ; 2x + 1y = 20 }. Resolvendo-o pela Regra de Cramer, qual é o valor de x?",
     "alternativas": [
       {
         "letra": "A",
+        "texto": "7"
+      },
+      {
+        "letra": "B",
+        "texto": "-7"
+      },
+      {
+        "letra": "C",
+        "texto": "21"
+      },
+      {
+        "letra": "D",
+        "texto": "6"
+      },
+      {
+        "letra": "E",
         "texto": "13"
-      },
-      {
-        "letra": "B",
-        "texto": "22"
-      },
-      {
-        "letra": "C",
-        "texto": "20"
-      },
-      {
-        "letra": "D",
-        "texto": "29"
-      },
-      {
-        "letra": "E",
-        "texto": "-1"
       }
     ],
     "correta": "A",
-    "explicacao": "Duas matrizes são iguais quando os elementos de mesma posição são iguais. Posição (1,1): x + 9 = 15 ⇒ x = 6. Posição (2,2): 2y = 14 ⇒ y = 7. Logo x + y = 13."
+    "explicacao": "Regra de Cramer: D = 5·1 − 2·1 = 3; Dx = 41·1 − 20·1 = 21. Então x = Dx / D = 21 / 3 = 7."
   },
   {
-    "id": "matrizes-ined-0176",
+    "id": "matrizes-ined-0214",
     "categoriaId": "matrizes",
-    "subtopico": "Operações com Matrizes",
+    "subtopico": "Aplicações Práticas",
     "dificuldade": "facil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Uma matriz A = (a_ij) de ordem 3 tem seus elementos definidos pela lei de formação a_ij = 3i − j, em que i indica a linha e j a coluna. Qual é o elemento a_32 dessa matriz?",
+    "enunciado": "Uma rede registrou as quantidades vendidas de três produtos (camisetas, calças e bonés) em duas lojas na matriz Q = [[19, 8, 6], [15, 17, 14]], em que a linha 1 é a Filial Centro e a linha 2 é a Filial Bairro, e as colunas seguem a ordem dos produtos citada. Os preços unitários, em reais, formam o vetor p = [20, 15, 15]. Qual foi o faturamento da Filial Bairro?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "7"
+        "texto": "R$ 96,00"
       },
       {
         "letra": "B",
-        "texto": "3"
+        "texto": "R$ 590,00"
       },
       {
         "letra": "C",
-        "texto": "6"
+        "texto": "R$ 555,00"
       },
       {
         "letra": "D",
-        "texto": "-7"
+        "texto": "R$ 920,00"
       },
       {
         "letra": "E",
-        "texto": "5"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "Basta substituir i = 3 (linha) e j = 2 (coluna) na lei a_ij = 3i − j: a_32 = 3·3 − 2 = 7."
-  },
-  {
-    "id": "matrizes-ined-0177",
-    "categoriaId": "matrizes",
-    "subtopico": "Operações com Matrizes",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma matriz A = (a_ij) de ordem 3 tem seus elementos definidos pela lei de formação a_ij = i + 2j, em que i indica a linha e j a coluna. Qual é o elemento a_12 dessa matriz?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "5"
-      },
-      {
-        "letra": "B",
-        "texto": "3"
-      },
-      {
-        "letra": "C",
-        "texto": "-5"
-      },
-      {
-        "letra": "D",
-        "texto": "2"
-      },
-      {
-        "letra": "E",
-        "texto": "4"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "Basta substituir i = 1 (linha) e j = 2 (coluna) na lei a_ij = i + 2j: a_12 = 1 + 2·2 = 5."
-  },
-  {
-    "id": "matrizes-ined-0178",
-    "categoriaId": "matrizes",
-    "subtopico": "Operações com Matrizes",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma matriz A = (a_ij) de ordem 3 tem seus elementos definidos pela lei de formação a_ij = 3i − j, em que i indica a linha e j a coluna. Qual é o elemento a_31 dessa matriz?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "-8"
-      },
-      {
-        "letra": "B",
-        "texto": "4"
-      },
-      {
-        "letra": "C",
-        "texto": "3"
-      },
-      {
-        "letra": "D",
-        "texto": "0"
-      },
-      {
-        "letra": "E",
-        "texto": "8"
+        "texto": "R$ 765,00"
       }
     ],
     "correta": "E",
-    "explicacao": "Basta substituir i = 3 (linha) e j = 1 (coluna) na lei a_ij = 3i − j: a_31 = 3·3 − 1 = 8."
-  },
-  {
-    "id": "matrizes-ined-0179",
-    "categoriaId": "matrizes",
-    "subtopico": "Operações com Matrizes",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "A matriz A = [[5, x − 4], [5, 2]] é simétrica (igual à sua transposta). Qual é o valor de x?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "-9"
-      },
-      {
-        "letra": "B",
-        "texto": "9"
-      },
-      {
-        "letra": "C",
-        "texto": "-4"
-      },
-      {
-        "letra": "D",
-        "texto": "5"
-      },
-      {
-        "letra": "E",
-        "texto": "1"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "Em uma matriz simétrica, o elemento (1,2) é igual ao elemento (2,1). Então x − 4 = 5, ou seja x = 5 + 4 = 9."
-  },
-  {
-    "id": "matrizes-ined-0180",
-    "categoriaId": "matrizes",
-    "subtopico": "Operações com Matrizes",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "A matriz A = [[7, x + 6], [15, -2]] é simétrica (igual à sua transposta). Qual é o valor de x?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "21"
-      },
-      {
-        "letra": "B",
-        "texto": "9"
-      },
-      {
-        "letra": "C",
-        "texto": "6"
-      },
-      {
-        "letra": "D",
-        "texto": "15"
-      },
-      {
-        "letra": "E",
-        "texto": "-9"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "Em uma matriz simétrica, o elemento (1,2) é igual ao elemento (2,1). Então x + 6 = 15, ou seja x = 15 − 6 = 9."
-  },
-  {
-    "id": "matrizes-ined-0181",
-    "categoriaId": "matrizes",
-    "subtopico": "Operações com Matrizes",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "A matriz A = [[-3, x + 5], [7, 3]] é simétrica (igual à sua transposta). Qual é o valor de x?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "-2"
-      },
-      {
-        "letra": "B",
-        "texto": "2"
-      },
-      {
-        "letra": "C",
-        "texto": "5"
-      },
-      {
-        "letra": "D",
-        "texto": "12"
-      },
-      {
-        "letra": "E",
-        "texto": "7"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "Em uma matriz simétrica, o elemento (1,2) é igual ao elemento (2,1). Então x + 5 = 7, ou seja x = 7 − 5 = 2."
-  },
-  {
-    "id": "matrizes-ined-0182",
-    "categoriaId": "matrizes",
-    "subtopico": "Operações com Matrizes",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Considere a matriz A = [[-5, -4], [2, 1]]. Calculando A² = A · A, qual é o elemento da linha 1, coluna 1 de A²?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "9"
-      },
-      {
-        "letra": "B",
-        "texto": "33"
-      },
-      {
-        "letra": "C",
-        "texto": "25"
-      },
-      {
-        "letra": "D",
-        "texto": "21"
-      },
-      {
-        "letra": "E",
-        "texto": "17"
-      }
-    ],
-    "correta": "E",
-    "explicacao": "O elemento (1,1) de A² é a 1ª linha de A multiplicada pela 1ª coluna de A: (-5)·(-5) + (-4)·(2) = 25 + -8 = 17."
-  },
-  {
-    "id": "matrizes-ined-0183",
-    "categoriaId": "matrizes",
-    "subtopico": "Operações com Matrizes",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Considere a matriz A = [[1, 5], [-4, -1]]. Calculando A² = A · A, qual é o elemento da linha 1, coluna 1 de A²?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "-4"
-      },
-      {
-        "letra": "B",
-        "texto": "-39"
-      },
-      {
-        "letra": "C",
-        "texto": "1"
-      },
-      {
-        "letra": "D",
-        "texto": "21"
-      },
-      {
-        "letra": "E",
-        "texto": "-19"
-      }
-    ],
-    "correta": "E",
-    "explicacao": "O elemento (1,1) de A² é a 1ª linha de A multiplicada pela 1ª coluna de A: (1)·(1) + (5)·(-4) = 1 + -20 = -19."
-  },
-  {
-    "id": "matrizes-ined-0184",
-    "categoriaId": "matrizes",
-    "subtopico": "Operações com Matrizes",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Considere a matriz A = [[3, -4], [3, -5]]. Calculando A² = A · A, qual é o elemento da linha 1, coluna 1 de A²?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "9"
-      },
-      {
-        "letra": "B",
-        "texto": "29"
-      },
-      {
-        "letra": "C",
-        "texto": "-3"
-      },
-      {
-        "letra": "D",
-        "texto": "-15"
-      },
-      {
-        "letra": "E",
-        "texto": "21"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "O elemento (1,1) de A² é a 1ª linha de A multiplicada pela 1ª coluna de A: (3)·(3) + (-4)·(3) = 9 + -12 = -3."
-  },
-  {
-    "id": "matrizes-ined-0185",
-    "categoriaId": "matrizes",
-    "subtopico": "Determinantes",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "A matriz A = [[1, -3], [2, -7]] tem determinante igual a −1. Qual é o elemento da linha 1, coluna 1 da matriz inversa A⁻¹?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "-3"
-      },
-      {
-        "letra": "B",
-        "texto": "7"
-      },
-      {
-        "letra": "C",
-        "texto": "-1"
-      },
-      {
-        "letra": "D",
-        "texto": "-6"
-      },
-      {
-        "letra": "E",
-        "texto": "-7"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "Para uma matriz 2×2 [[a, b], [c, d]], a inversa é A⁻¹ = (1/det)·[[d, −b], [−c, a]]. O elemento (1,1) é d/det = (-7)/(−1) = 7."
-  },
-  {
-    "id": "matrizes-ined-0186",
-    "categoriaId": "matrizes",
-    "subtopico": "Determinantes",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "A matriz A = [[1, 2], [3, 5]] tem determinante igual a −1. Qual é o elemento da linha 1, coluna 1 da matriz inversa A⁻¹?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "5"
-      },
-      {
-        "letra": "B",
-        "texto": "2"
-      },
-      {
-        "letra": "C",
-        "texto": "-5"
-      },
-      {
-        "letra": "D",
-        "texto": "-1"
-      },
-      {
-        "letra": "E",
-        "texto": "6"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "Para uma matriz 2×2 [[a, b], [c, d]], a inversa é A⁻¹ = (1/det)·[[d, −b], [−c, a]]. O elemento (1,1) é d/det = (5)/(−1) = -5."
-  },
-  {
-    "id": "matrizes-ined-0187",
-    "categoriaId": "matrizes",
-    "subtopico": "Determinantes",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "A matriz A = [[1, -2], [-2, 3]] tem determinante igual a −1. Qual é o elemento da linha 1, coluna 1 da matriz inversa A⁻¹?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "-3"
-      },
-      {
-        "letra": "B",
-        "texto": "4"
-      },
-      {
-        "letra": "C",
-        "texto": "3"
-      },
-      {
-        "letra": "D",
-        "texto": "-1"
-      },
-      {
-        "letra": "E",
-        "texto": "-2"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "Para uma matriz 2×2 [[a, b], [c, d]], a inversa é A⁻¹ = (1/det)·[[d, −b], [−c, a]]. O elemento (1,1) é d/det = (3)/(−1) = -3."
-  },
-  {
-    "id": "matrizes-ined-0188",
-    "categoriaId": "matrizes",
-    "subtopico": "Determinantes",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "O determinante da matriz A = [[x, 2], [3, 2]] é igual a zero. Qual é o valor de x?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "4"
-      },
-      {
-        "letra": "B",
-        "texto": "-3"
-      },
-      {
-        "letra": "C",
-        "texto": "6"
-      },
-      {
-        "letra": "D",
-        "texto": "3"
-      },
-      {
-        "letra": "E",
-        "texto": "8"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "det(A) = x·2 − 2·3 = 0 ⇒ 2·x = 6 ⇒ x = 6 ÷ 2 = 3."
-  },
-  {
-    "id": "matrizes-ined-0189",
-    "categoriaId": "matrizes",
-    "subtopico": "Determinantes",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "O determinante da matriz A = [[x, 2], [3, 3]] é igual a zero. Qual é o valor de x?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "6"
-      },
-      {
-        "letra": "B",
-        "texto": "-2"
-      },
-      {
-        "letra": "C",
-        "texto": "3"
-      },
-      {
-        "letra": "D",
-        "texto": "2"
-      },
-      {
-        "letra": "E",
-        "texto": "9"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "det(A) = x·3 − 2·3 = 0 ⇒ 3·x = 6 ⇒ x = 6 ÷ 3 = 2."
-  },
-  {
-    "id": "matrizes-ined-0190",
-    "categoriaId": "matrizes",
-    "subtopico": "Determinantes",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "O determinante da matriz A = [[x, 3], [4, 4]] é igual a zero. Qual é o valor de x?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "3"
-      },
-      {
-        "letra": "B",
-        "texto": "12"
-      },
-      {
-        "letra": "C",
-        "texto": "8"
-      },
-      {
-        "letra": "D",
-        "texto": "-3"
-      },
-      {
-        "letra": "E",
-        "texto": "16"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "det(A) = x·4 − 3·4 = 0 ⇒ 4·x = 12 ⇒ x = 12 ÷ 4 = 3."
-  },
-  {
-    "id": "matrizes-ined-0191",
-    "categoriaId": "matrizes",
-    "subtopico": "Aplicações Práticas",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Considere o sistema linear { 2x + 1y = 9 ; 1x + 3y = 17 }. Resolvendo-o pela Regra de Cramer, qual é o valor de x?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "7"
-      },
-      {
-        "letra": "B",
-        "texto": "2"
-      },
-      {
-        "letra": "C",
-        "texto": "5"
-      },
-      {
-        "letra": "D",
-        "texto": "-2"
-      },
-      {
-        "letra": "E",
-        "texto": "10"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "Regra de Cramer: D = 2·3 − 1·1 = 5; Dx = 9·3 − 17·1 = 10. Então x = Dx / D = 10 / 5 = 2."
-  },
-  {
-    "id": "matrizes-ined-0192",
-    "categoriaId": "matrizes",
-    "subtopico": "Aplicações Práticas",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Considere o sistema linear { 2x + 3y = 28 ; 4x + 1y = 16 }. Resolvendo-o pela Regra de Cramer, qual é o valor de x?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "10"
-      },
-      {
-        "letra": "B",
-        "texto": "2"
-      },
-      {
-        "letra": "C",
-        "texto": "-20"
-      },
-      {
-        "letra": "D",
-        "texto": "-2"
-      },
-      {
-        "letra": "E",
-        "texto": "8"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "Regra de Cramer: D = 2·1 − 4·3 = -10; Dx = 28·1 − 16·3 = -20. Então x = Dx / D = -20 / -10 = 2."
-  },
-  {
-    "id": "matrizes-ined-0193",
-    "categoriaId": "matrizes",
-    "subtopico": "Aplicações Práticas",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Considere o sistema linear { 3x + 4y = 36 ; 1x + 3y = 17 }. Resolvendo-o pela Regra de Cramer, qual é o valor de x?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "3"
-      },
-      {
-        "letra": "B",
-        "texto": "8"
-      },
-      {
-        "letra": "C",
-        "texto": "11"
-      },
-      {
-        "letra": "D",
-        "texto": "-8"
-      },
-      {
-        "letra": "E",
-        "texto": "40"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "Regra de Cramer: D = 3·3 − 1·4 = 5; Dx = 36·3 − 17·4 = 40. Então x = Dx / D = 40 / 5 = 8."
-  },
-  {
-    "id": "matrizes-ined-0194",
-    "categoriaId": "matrizes",
-    "subtopico": "Aplicações Práticas",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Uma rede registrou as quantidades vendidas de três produtos (camisetas, calças e bonés) em duas lojas na matriz Q = [[4, 14, 13], [4, 10, 15]], em que a linha 1 é a Loja Norte e a linha 2 é a Loja Sul, e as colunas seguem a ordem dos produtos citada. Os preços unitários, em reais, formam o vetor p = [30, 40, 10]. Qual foi o faturamento da Loja Norte?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "R$ 670,00"
-      },
-      {
-        "letra": "B",
-        "texto": "R$ 930,00"
-      },
-      {
-        "letra": "C",
-        "texto": "R$ 111,00"
-      },
-      {
-        "letra": "D",
-        "texto": "R$ 810,00"
-      },
-      {
-        "letra": "E",
-        "texto": "R$ 680,00"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "O faturamento de uma loja é o produto da sua linha em Q pelo vetor de preços: 4·30 + 14·40 + 13·10 = 120 + 560 + 130 = R$ 810,00."
+    "explicacao": "O faturamento de uma loja é o produto da sua linha em Q pelo vetor de preços: 15·20 + 17·15 + 14·15 = 300 + 255 + 210 = R$ 765,00."
   }
 ]
