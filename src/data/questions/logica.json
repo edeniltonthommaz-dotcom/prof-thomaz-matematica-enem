@@ -1,6 +1,6 @@
 [
   {
-    "id": "logica-ined-0231",
+    "id": "logica-ined-0244",
     "categoriaId": "logica",
     "subtopico": "Sequências e Padrões",
     "dificuldade": "facil",
@@ -34,7 +34,7 @@
     "explicacao": "Cada termo é obtido somando 4 ao anterior. O próximo termo é 20 + 4 = 24."
   },
   {
-    "id": "logica-ined-0232",
+    "id": "logica-ined-0245",
     "categoriaId": "logica",
     "subtopico": "Sequências e Padrões",
     "dificuldade": "medio",
@@ -68,7 +68,7 @@
     "explicacao": "Cada termo é obtido multiplicando o anterior pela razão. O próximo termo é 324 × 3 = 972."
   },
   {
-    "id": "logica-ined-0233",
+    "id": "logica-ined-0246",
     "categoriaId": "logica",
     "subtopico": "Sequências e Padrões",
     "dificuldade": "dificil",
@@ -102,7 +102,7 @@
     "explicacao": "Cada termo é obtido somando 8 ao anterior. O próximo termo é 41 + 8 = 49."
   },
   {
-    "id": "logica-ined-0234",
+    "id": "logica-ined-0247",
     "categoriaId": "logica",
     "subtopico": "Problemas de Raciocínio",
     "dificuldade": "facil",
@@ -136,7 +136,7 @@
     "explicacao": "Basta somar 3 anos à idade atual de cada um: pai = 35 + 3 = 38; filho = 5 + 3 = 8."
   },
   {
-    "id": "logica-ined-0235",
+    "id": "logica-ined-0248",
     "categoriaId": "logica",
     "subtopico": "Problemas de Raciocínio",
     "dificuldade": "medio",
@@ -170,7 +170,7 @@
     "explicacao": "Basta somar 4 anos à idade atual de cada um: pai = 42 + 4 = 46; filho = 15 + 4 = 19."
   },
   {
-    "id": "logica-ined-0236",
+    "id": "logica-ined-0249",
     "categoriaId": "logica",
     "subtopico": "Problemas de Raciocínio",
     "dificuldade": "dificil",
@@ -204,7 +204,7 @@
     "explicacao": "Basta somar 8 anos à idade atual de cada um: pai = 42 + 8 = 50; filho = 19 + 8 = 27."
   },
   {
-    "id": "logica-ined-0237",
+    "id": "logica-ined-0250",
     "categoriaId": "logica",
     "subtopico": "Sequências e Padrões",
     "dificuldade": "facil",
@@ -238,7 +238,7 @@
     "explicacao": "As diferenças entre termos consecutivos são 4, 5, 6, 7 — uma PA de razão 1. A próxima diferença é 8, logo o próximo termo é 24 + 8 = 32."
   },
   {
-    "id": "logica-ined-0238",
+    "id": "logica-ined-0251",
     "categoriaId": "logica",
     "subtopico": "Sequências e Padrões",
     "dificuldade": "medio",
@@ -272,7 +272,7 @@
     "explicacao": "As diferenças entre termos consecutivos são 3, 7, 11, 15 — uma PA de razão 4. A próxima diferença é 19, logo o próximo termo é 41 + 19 = 60."
   },
   {
-    "id": "logica-ined-0239",
+    "id": "logica-ined-0252",
     "categoriaId": "logica",
     "subtopico": "Sequências e Padrões",
     "dificuldade": "dificil",
@@ -306,7 +306,7 @@
     "explicacao": "O sexto termo é a soma do quarto com o quinto termos: 15 + 24 = 39."
   },
   {
-    "id": "logica-ined-0240",
+    "id": "logica-ined-0253",
     "categoriaId": "logica",
     "subtopico": "Problemas de Raciocínio",
     "dificuldade": "facil",
@@ -340,7 +340,7 @@
     "explicacao": "Desfazendo as operações de trás para frente: 26 − 12 = 14; em seguida 14 ÷ 2 = 7."
   },
   {
-    "id": "logica-ined-0241",
+    "id": "logica-ined-0254",
     "categoriaId": "logica",
     "subtopico": "Problemas de Raciocínio",
     "dificuldade": "medio",
@@ -374,7 +374,7 @@
     "explicacao": "Desfazendo de trás para frente: 28 + 10 = 38; depois 38 ÷ 2 = 19."
   },
   {
-    "id": "logica-ined-0242",
+    "id": "logica-ined-0255",
     "categoriaId": "logica",
     "subtopico": "Problemas de Raciocínio",
     "dificuldade": "dificil",
@@ -408,7 +408,7 @@
     "explicacao": "Desfazendo de trás para frente: 98 + 6 = 104; 104 ÷ 4 = 26; 26 − 3 = 23."
   },
   {
-    "id": "logica-ined-0243",
+    "id": "logica-ined-0256",
     "categoriaId": "logica",
     "subtopico": "Problemas de Raciocínio",
     "dificuldade": "facil",
@@ -442,7 +442,7 @@
     "explicacao": "Cada partida corresponde a um par de equipes distintas: C(7, 2) = 7·6/2 = 21."
   },
   {
-    "id": "logica-ined-0244",
+    "id": "logica-ined-0257",
     "categoriaId": "logica",
     "subtopico": "Problemas de Raciocínio",
     "dificuldade": "medio",
@@ -476,7 +476,7 @@
     "explicacao": "Cada partida corresponde a um par de equipes distintas: C(10, 2) = 10·9/2 = 45."
   },
   {
-    "id": "logica-ined-0245",
+    "id": "logica-ined-0258",
     "categoriaId": "logica",
     "subtopico": "Problemas de Raciocínio",
     "dificuldade": "dificil",
@@ -510,7 +510,7 @@
     "explicacao": "Em turno único haveria C(10, 2) = 10·9/2 = 45 partidas. Com turno e returno esse número dobra: 90."
   },
   {
-    "id": "logica-ined-0246",
+    "id": "logica-ined-0259",
     "categoriaId": "logica",
     "subtopico": "Problemas de Raciocínio",
     "dificuldade": "facil",
@@ -544,7 +544,7 @@
     "explicacao": "Como os dias da semana se repetem em ciclos de 7, calcula-se o resto de 15 por 7: 15 = 7 · 2 + 1. Basta então avançar 1 dia(s) a partir de quinta-feira, chegando a sexta-feira."
   },
   {
-    "id": "logica-ined-0247",
+    "id": "logica-ined-0260",
     "categoriaId": "logica",
     "subtopico": "Problemas de Raciocínio",
     "dificuldade": "medio",
@@ -578,7 +578,7 @@
     "explicacao": "Como os dias da semana se repetem em ciclos de 7, calcula-se o resto de 75 por 7: 75 = 7 · 10 + 5. Basta então avançar 5 dia(s) a partir de quinta-feira, chegando a terça-feira."
   },
   {
-    "id": "logica-ined-0248",
+    "id": "logica-ined-0261",
     "categoriaId": "logica",
     "subtopico": "Problemas de Raciocínio",
     "dificuldade": "dificil",
@@ -612,7 +612,7 @@
     "explicacao": "Como os dias da semana se repetem em ciclos de 7, calcula-se o resto de 397 por 7: 397 = 7 · 56 + 5. Basta então avançar 5 dia(s) a partir de sexta-feira, chegando a quarta-feira."
   },
   {
-    "id": "logica-ined-0249",
+    "id": "logica-ined-0262",
     "categoriaId": "logica",
     "subtopico": "Proposições Lógicas",
     "dificuldade": "facil",
@@ -646,7 +646,7 @@
     "explicacao": "A negação de \"todo A tem a propriedade P\" é \"existe pelo menos um A que não tem P\". Um único contraexemplo já torna a afirmação original falsa — não é preciso que nenhum A tenha a propriedade."
   },
   {
-    "id": "logica-ined-0250",
+    "id": "logica-ined-0263",
     "categoriaId": "logica",
     "subtopico": "Proposições Lógicas",
     "dificuldade": "medio",
@@ -680,7 +680,7 @@
     "explicacao": "\"Algum A é B\" afirma que existe ao menos um caso. Negá-la exige dizer que não existe nenhum: \"nenhum A é B\". Apenas negar o predicado (\"algum A não é B\") ou trocar por \"todos\" não nega a afirmação original."
   },
   {
-    "id": "logica-ined-0251",
+    "id": "logica-ined-0264",
     "categoriaId": "logica",
     "subtopico": "Proposições Lógicas",
     "dificuldade": "dificil",
@@ -714,7 +714,7 @@
     "explicacao": "Pela lei de De Morgan, a negação de \"p e q\" é \"não p ou não q\": basta que uma das duas partes falhe. Manter o conectivo \"e\" ao negar, ou negar apenas um dos termos, produz afirmações diferentes."
   },
   {
-    "id": "logica-ined-0252",
+    "id": "logica-ined-0265",
     "categoriaId": "logica",
     "subtopico": "Proposições Lógicas",
     "dificuldade": "facil",
@@ -748,7 +748,7 @@
     "explicacao": "A contrapositiva de \"se p, então q\" é \"se não q, então não p\", sempre equivalente à original: \"Se não há energia elétrica na casa, então a lâmpada não está acesa.\". A recíproca (\"se q, então p\") e a inversa (\"se não p, então não q\") não são equivalentes à condicional dada."
   },
   {
-    "id": "logica-ined-0253",
+    "id": "logica-ined-0266",
     "categoriaId": "logica",
     "subtopico": "Proposições Lógicas",
     "dificuldade": "medio",
@@ -782,7 +782,7 @@
     "explicacao": "A contrapositiva de \"se p, então q\" é \"se não q, então não p\", sempre equivalente à original: \"Se não há energia elétrica na casa, então a lâmpada não está acesa.\". A recíproca (\"se q, então p\") e a inversa (\"se não p, então não q\") não são equivalentes à condicional dada."
   },
   {
-    "id": "logica-ined-0254",
+    "id": "logica-ined-0267",
     "categoriaId": "logica",
     "subtopico": "Proposições Lógicas",
     "dificuldade": "dificil",
@@ -816,7 +816,7 @@
     "explicacao": "A contrapositiva de \"se p, então q\" é \"se não q, então não p\", sempre equivalente à original: \"Se a rua não fica molhada, então não chove.\". A recíproca (\"se q, então p\") e a inversa (\"se não p, então não q\") não são equivalentes à condicional dada."
   },
   {
-    "id": "logica-ined-0255",
+    "id": "logica-ined-0268",
     "categoriaId": "logica",
     "subtopico": "Problemas de Raciocínio",
     "dificuldade": "facil",
@@ -850,7 +850,7 @@
     "explicacao": "Encadeando todas as comparações, obtém-se: Carla > Hugo > Gabi > Bruno. Essa é a ordem da maior para a menor altura."
   },
   {
-    "id": "logica-ined-0256",
+    "id": "logica-ined-0269",
     "categoriaId": "logica",
     "subtopico": "Problemas de Raciocínio",
     "dificuldade": "medio",
@@ -884,7 +884,7 @@
     "explicacao": "Encadeando as comparações: Gabi > Hugo > Carla > Fábio > Diego. Na ordem da maior para a menor nota, a 3ª posição é de Carla."
   },
   {
-    "id": "logica-ined-0257",
+    "id": "logica-ined-0270",
     "categoriaId": "logica",
     "subtopico": "Problemas de Raciocínio",
     "dificuldade": "dificil",

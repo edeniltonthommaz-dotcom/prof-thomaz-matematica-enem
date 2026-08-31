@@ -100,5 +100,447 @@
     ],
     "correta": "B",
     "explicacao": "tan(37°) = altura / distância. Altura = distância × tan(37°) = 11 × 0.75 ≈ 8 m."
+  },
+  {
+    "id": "trigonometria-ined-0128",
+    "categoriaId": "trigonometria",
+    "subtopico": "Triângulo Retângulo",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma rampa de acesso para cadeirantes tem 8 m de comprimento e forma um ângulo de 60° com o piso. Usando sen 60° = 0,87, qual é aproximadamente a altura vencida pela rampa?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "8 m"
+      },
+      {
+        "letra": "B",
+        "texto": "4 m"
+      },
+      {
+        "letra": "C",
+        "texto": "7 m"
+      },
+      {
+        "letra": "D",
+        "texto": "14 m"
+      },
+      {
+        "letra": "E",
+        "texto": "9 m"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "A altura é o cateto oposto ao ângulo de 60° e o comprimento da rampa é a hipotenusa. Logo, altura = comprimento × sen 60° = 8 × 0,87 ≈ 7 m."
+  },
+  {
+    "id": "trigonometria-ined-0129",
+    "categoriaId": "trigonometria",
+    "subtopico": "Triângulo Retângulo",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Para embarcar veículos, um caminhão-cegonha usa uma rampa reta de 18 m que faz um ângulo de 53° com o solo. Adotando sen 53° = 0,8, a que altura do chão fica a extremidade superior da rampa?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "24 m"
+      },
+      {
+        "letra": "B",
+        "texto": "14 m"
+      },
+      {
+        "letra": "C",
+        "texto": "18 m"
+      },
+      {
+        "letra": "D",
+        "texto": "11 m"
+      },
+      {
+        "letra": "E",
+        "texto": "23 m"
+      }
+    ],
+    "correta": "B",
+    "explicacao": "A altura é o cateto oposto ao ângulo de 53° e o comprimento da rampa é a hipotenusa. Logo, altura = comprimento × sen 53° = 18 × 0,8 ≈ 14 m."
+  },
+  {
+    "id": "trigonometria-ined-0130",
+    "categoriaId": "trigonometria",
+    "subtopico": "Triângulo Retângulo",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um projeto de acessibilidade prevê uma rampa reta que deve vencer um desnível vertical de 25 m, formando um ângulo de 37° com o plano horizontal. Usando sen 37° = 0,6, qual deve ser aproximadamente o comprimento da rampa?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "42 m"
+      },
+      {
+        "letra": "B",
+        "texto": "25 m"
+      },
+      {
+        "letra": "C",
+        "texto": "33 m"
+      },
+      {
+        "letra": "D",
+        "texto": "15 m"
+      },
+      {
+        "letra": "E",
+        "texto": "31 m"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "O desnível é o cateto oposto ao ângulo de 37° e a rampa é a hipotenusa. Como sen 37° = desnível ÷ comprimento, então comprimento = 25 ÷ sen 37° = 25 ÷ 0,6 ≈ 42 m."
+  },
+  {
+    "id": "trigonometria-ined-0131",
+    "categoriaId": "trigonometria",
+    "subtopico": "Triângulo Retângulo",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um poste vertical de 15 m de altura projeta uma sombra no chão quando os raios solares formam um ângulo de 30° com o solo. Usando tg 30° = 0,58, qual é o comprimento aproximado da sombra?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "30 m"
+      },
+      {
+        "letra": "B",
+        "texto": "15 m"
+      },
+      {
+        "letra": "C",
+        "texto": "26 m"
+      },
+      {
+        "letra": "D",
+        "texto": "9 m"
+      },
+      {
+        "letra": "E",
+        "texto": "17 m"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "A altura é o cateto oposto ao ângulo de elevação e a sombra é o cateto adjacente. Como tg 30° = altura ÷ sombra, então sombra = altura ÷ tg 30° = 15 ÷ 0,58 ≈ 26 m."
+  },
+  {
+    "id": "trigonometria-ined-0132",
+    "categoriaId": "trigonometria",
+    "subtopico": "Triângulo Retângulo",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "No fim da tarde, os raios de sol chegam a 53° de elevação e uma antena de 20 m projeta sombra sobre um pátio plano e horizontal. Adotando tg 53° = 1,33, qual é aproximadamente o comprimento dessa sombra?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "15 m"
+      },
+      {
+        "letra": "B",
+        "texto": "20 m"
+      },
+      {
+        "letra": "C",
+        "texto": "25 m"
+      },
+      {
+        "letra": "D",
+        "texto": "27 m"
+      },
+      {
+        "letra": "E",
+        "texto": "33 m"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "A altura é o cateto oposto ao ângulo de elevação e a sombra é o cateto adjacente. Como tg 53° = altura ÷ sombra, então sombra = altura ÷ tg 53° = 20 ÷ 1,33 ≈ 15 m."
+  },
+  {
+    "id": "trigonometria-ined-0133",
+    "categoriaId": "trigonometria",
+    "subtopico": "Triângulo Retângulo",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "A sombra de uma torre em terreno plano mede 25 m no instante em que os raios solares fazem um ângulo de 53° com o chão. Usando tg 53° = 1,33, qual é aproximadamente a altura da torre?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "15 m"
+      },
+      {
+        "letra": "B",
+        "texto": "33 m"
+      },
+      {
+        "letra": "C",
+        "texto": "25 m"
+      },
+      {
+        "letra": "D",
+        "texto": "20 m"
+      },
+      {
+        "letra": "E",
+        "texto": "19 m"
+      }
+    ],
+    "correta": "B",
+    "explicacao": "A altura é o cateto oposto ao ângulo de elevação e a sombra é o cateto adjacente. Como tg 53° = altura ÷ sombra, então altura = sombra × tg 53° = 25 × 1,33 ≈ 33 m."
+  },
+  {
+    "id": "trigonometria-ined-0134",
+    "categoriaId": "trigonometria",
+    "subtopico": "Triângulo Retângulo",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma escada de 10 m está apoiada em uma parede vertical e forma um ângulo de 60° com o chão. Usando sen 60° = 0,87, a que altura da parede a escada se apoia?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "5 m"
+      },
+      {
+        "letra": "B",
+        "texto": "11 m"
+      },
+      {
+        "letra": "C",
+        "texto": "10 m"
+      },
+      {
+        "letra": "D",
+        "texto": "17 m"
+      },
+      {
+        "letra": "E",
+        "texto": "9 m"
+      }
+    ],
+    "correta": "E",
+    "explicacao": "A altura atingida é o cateto oposto ao ângulo de 60° e a escada é a hipotenusa. Logo, altura = escada × sen 60° = 10 × 0,87 ≈ 9 m."
+  },
+  {
+    "id": "trigonometria-ined-0135",
+    "categoriaId": "trigonometria",
+    "subtopico": "Triângulo Retângulo",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um pintor apoia uma escada de 24 m contra um muro, formando um ângulo de 53° com o piso horizontal. Adotando sen 53° = 0,8, qual é aproximadamente a altura atingida pelo topo da escada?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "30 m"
+      },
+      {
+        "letra": "B",
+        "texto": "14 m"
+      },
+      {
+        "letra": "C",
+        "texto": "32 m"
+      },
+      {
+        "letra": "D",
+        "texto": "19 m"
+      },
+      {
+        "letra": "E",
+        "texto": "24 m"
+      }
+    ],
+    "correta": "D",
+    "explicacao": "A altura atingida é o cateto oposto ao ângulo de 53° e a escada é a hipotenusa. Logo, altura = escada × sen 53° = 24 × 0,8 ≈ 19 m."
+  },
+  {
+    "id": "trigonometria-ined-0136",
+    "categoriaId": "trigonometria",
+    "subtopico": "Triângulo Retângulo",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma escada de 24 m está encostada em uma parede vertical e forma um ângulo de 30° com o chão. Usando cos 30° = 0,87, qual é aproximadamente a distância do pé da escada até a parede?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "12 m"
+      },
+      {
+        "letra": "B",
+        "texto": "28 m"
+      },
+      {
+        "letra": "C",
+        "texto": "14 m"
+      },
+      {
+        "letra": "D",
+        "texto": "24 m"
+      },
+      {
+        "letra": "E",
+        "texto": "21 m"
+      }
+    ],
+    "correta": "E",
+    "explicacao": "A distância do pé da escada à parede é o cateto adjacente ao ângulo de 30° e a escada é a hipotenusa. Logo, distância = escada × cos 30° = 24 × 0,87 ≈ 21 m."
+  },
+  {
+    "id": "trigonometria-ined-0137",
+    "categoriaId": "trigonometria",
+    "subtopico": "Lei dos Senos",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Em um triângulo ABC, o ângulo A mede 60° e o ângulo B mede 30°. O lado a, oposto ao ângulo A, mede 20 m. Usando sen 60° = 0,87 e sen 30° = 0,5, quanto mede aproximadamente o lado b, oposto ao ângulo B?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "20 m"
+      },
+      {
+        "letra": "B",
+        "texto": "35 m"
+      },
+      {
+        "letra": "C",
+        "texto": "9 m"
+      },
+      {
+        "letra": "D",
+        "texto": "11 m"
+      },
+      {
+        "letra": "E",
+        "texto": "10 m"
+      }
+    ],
+    "correta": "D",
+    "explicacao": "Pela lei dos senos, a ÷ sen A = b ÷ sen B. Logo, b = a × sen B ÷ sen A = 20 × 0,5 ÷ 0,87 ≈ 11 m."
+  },
+  {
+    "id": "trigonometria-ined-0138",
+    "categoriaId": "trigonometria",
+    "subtopico": "Lei dos Senos",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um terreno tem a forma de um triângulo ABC no qual o ângulo A mede 60° e o ângulo B mede 37°. O lado oposto ao ângulo A mede 36 m. Adotando sen 60° = 0,87 e sen 37° = 0,6, qual é a medida aproximada do lado oposto ao ângulo B?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "19 m"
+      },
+      {
+        "letra": "B",
+        "texto": "25 m"
+      },
+      {
+        "letra": "C",
+        "texto": "36 m"
+      },
+      {
+        "letra": "D",
+        "texto": "22 m"
+      },
+      {
+        "letra": "E",
+        "texto": "52 m"
+      }
+    ],
+    "correta": "B",
+    "explicacao": "Pela lei dos senos, a ÷ sen A = b ÷ sen B. Logo, b = a × sen B ÷ sen A = 36 × 0,6 ÷ 0,87 ≈ 25 m."
+  },
+  {
+    "id": "trigonometria-ined-0139",
+    "categoriaId": "trigonometria",
+    "subtopico": "Lei dos Senos",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Para estimar a distância entre dois pontos A e B em margens opostas de um lago, um topógrafo mede, de um terceiro ponto C, um triângulo em que o ângulo A vale 60° e o ângulo B vale 37°. O lado oposto ao ângulo A mede 24 m. Usando sen 60° = 0,87 e sen 37° = 0,6, qual é aproximadamente a medida do lado oposto ao ângulo B?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "35 m"
+      },
+      {
+        "letra": "B",
+        "texto": "14 m"
+      },
+      {
+        "letra": "C",
+        "texto": "17 m"
+      },
+      {
+        "letra": "D",
+        "texto": "13 m"
+      },
+      {
+        "letra": "E",
+        "texto": "24 m"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "Pela lei dos senos, a ÷ sen A = b ÷ sen B. Logo, b = a × sen B ÷ sen A = 24 × 0,6 ÷ 0,87 ≈ 17 m."
+  },
+  {
+    "id": "trigonometria-ined-0140",
+    "categoriaId": "trigonometria",
+    "subtopico": "Lei dos Cossenos",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Em um triângulo, dois lados medem 9 m e 5 m e o ângulo entre eles mede 60°. Usando cos 60° = 0,5, qual é a medida aproximada do terceiro lado?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "5 m"
+      },
+      {
+        "letra": "B",
+        "texto": "12 m"
+      },
+      {
+        "letra": "C",
+        "texto": "8 m"
+      },
+      {
+        "letra": "D",
+        "texto": "14 m"
+      },
+      {
+        "letra": "E",
+        "texto": "10 m"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "Pela lei dos cossenos, a² = b² + c² − 2·b·c·cos 60° = 9² + 5² − 2·9·5·0,5 = 61. Logo, a = √61 ≈ 8 m."
   }
 ]

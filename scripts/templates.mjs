@@ -1770,6 +1770,255 @@ function trigTrianguloRetangulo(dificuldade) {
   });
 }
 
+// --- Trigonometria: +5 moldes (Fase 8 parte 1) ---
+// Todos usam a tabela ANGULOS (valores APROXIMADOS) e a MESMA regra de
+// arredondamento do gerador (Math.round). A aproximação usada é sempre
+// declarada no enunciado e repetida na explicação, como em trigTrianguloRetangulo.
+function _trigNum(v) {
+  return String(v).replace(".", ",");
+}
+
+function trigRampa(dificuldade, tentativa = 0) {
+  const angs =
+    dificuldade === "facil"
+      ? ANGULOS.filter((a) => a.graus === 30 || a.graus === 60)
+      : ANGULOS.filter((a) => a.graus !== 45);
+  const ang = pick(angs);
+  if (dificuldade === "dificil") {
+    const h = pick([10, 15, 20, 25, 30]);
+    const comprimento = Math.round(h / ang.sin);
+    const correctText = `${comprimento} m`;
+    const distractorTexts = [
+      `${h} m`, // usou o desnível como se fosse o comprimento
+      `${Math.round(h * ang.sin)} m`, // multiplicou em vez de dividir
+      `${Math.round(h / ang.tan)} m`, // usou tangente
+      `${Math.round(h / ang.cos)} m`, // usou cosseno
+    ];
+    if (new Set([correctText, ...distractorTexts]).size < 5 && tentativa < 40)
+      return trigRampa(dificuldade, tentativa + 1);
+    return makeQuestao({
+      categoriaId: "trigonometria",
+      subtopico: "Triângulo Retângulo",
+      dificuldade,
+      enunciado: `Um projeto de acessibilidade prevê uma rampa reta que deve vencer um desnível vertical de ${h} m, formando um ângulo de ${ang.graus}° com o plano horizontal. Usando sen ${ang.graus}° = ${_trigNum(ang.sin)}, qual deve ser aproximadamente o comprimento da rampa?`,
+      correctText,
+      distractorTexts,
+      explicacao: `O desnível é o cateto oposto ao ângulo de ${ang.graus}° e a rampa é a hipotenusa. Como sen ${ang.graus}° = desnível ÷ comprimento, então comprimento = ${h} ÷ sen ${ang.graus}° = ${h} ÷ ${_trigNum(ang.sin)} ≈ ${correctText}.`,
+    });
+  }
+  const c = pick(dificuldade === "facil" ? [8, 10, 12] : [10, 12, 15, 18, 20, 24]);
+  const altura = Math.round(c * ang.sin);
+  const correctText = `${altura} m`;
+  const distractorTexts = [
+    `${c} m`, // confundiu a hipotenusa (comprimento) com a altura
+    `${Math.round(c * ang.cos)} m`, // usou cosseno (dá o afastamento horizontal)
+    `${Math.round(c * ang.tan)} m`, // usou tangente
+    `${Math.round(c / ang.sin)} m`, // dividiu em vez de multiplicar
+  ];
+  if (new Set([correctText, ...distractorTexts]).size < 5 && tentativa < 40)
+    return trigRampa(dificuldade, tentativa + 1);
+  const enunciado =
+    dificuldade === "facil"
+      ? `Uma rampa de acesso para cadeirantes tem ${c} m de comprimento e forma um ângulo de ${ang.graus}° com o piso. Usando sen ${ang.graus}° = ${_trigNum(ang.sin)}, qual é aproximadamente a altura vencida pela rampa?`
+      : `Para embarcar veículos, um caminhão-cegonha usa uma rampa reta de ${c} m que faz um ângulo de ${ang.graus}° com o solo. Adotando sen ${ang.graus}° = ${_trigNum(ang.sin)}, a que altura do chão fica a extremidade superior da rampa?`;
+  return makeQuestao({
+    categoriaId: "trigonometria",
+    subtopico: "Triângulo Retângulo",
+    dificuldade,
+    enunciado,
+    correctText,
+    distractorTexts,
+    explicacao: `A altura é o cateto oposto ao ângulo de ${ang.graus}° e o comprimento da rampa é a hipotenusa. Logo, altura = comprimento × sen ${ang.graus}° = ${c} × ${_trigNum(ang.sin)} ≈ ${correctText}.`,
+  });
+}
+
+function trigSombra(dificuldade, tentativa = 0) {
+  const angs =
+    dificuldade === "facil"
+      ? ANGULOS.filter((a) => a.graus === 30 || a.graus === 60)
+      : ANGULOS.filter((a) => a.graus !== 45);
+  const ang = pick(angs);
+  if (dificuldade === "dificil") {
+    const s = pick([15, 20, 25, 30, 40]);
+    const altura = Math.round(s * ang.tan);
+    const correctText = `${altura} m`;
+    const distractorTexts = [
+      `${Math.round(s / ang.tan)} m`, // dividiu em vez de multiplicar
+      `${s} m`, // repetiu o comprimento da sombra
+      `${Math.round(s * ang.sin)} m`, // usou seno
+      `${Math.round(s * ang.cos)} m`, // usou cosseno
+    ];
+    if (new Set([correctText, ...distractorTexts]).size < 5 && tentativa < 40)
+      return trigSombra(dificuldade, tentativa + 1);
+    return makeQuestao({
+      categoriaId: "trigonometria",
+      subtopico: "Triângulo Retângulo",
+      dificuldade,
+      enunciado: `A sombra de uma torre em terreno plano mede ${s} m no instante em que os raios solares fazem um ângulo de ${ang.graus}° com o chão. Usando tg ${ang.graus}° = ${_trigNum(ang.tan)}, qual é aproximadamente a altura da torre?`,
+      correctText,
+      distractorTexts,
+      explicacao: `A altura é o cateto oposto ao ângulo de elevação e a sombra é o cateto adjacente. Como tg ${ang.graus}° = altura ÷ sombra, então altura = sombra × tg ${ang.graus}° = ${s} × ${_trigNum(ang.tan)} ≈ ${correctText}.`,
+    });
+  }
+  const h = pick(dificuldade === "facil" ? [12, 15, 18] : [20, 24, 30, 36, 40, 45]);
+  const sombra = Math.round(h / ang.tan);
+  const correctText = `${sombra} m`;
+  const distractorTexts = [
+    `${Math.round(h * ang.tan)} m`, // multiplicou em vez de dividir
+    `${h} m`, // repetiu a altura
+    `${Math.round(h / ang.sin)} m`, // usou seno
+    `${Math.round(h / ang.cos)} m`, // usou cosseno
+  ];
+  if (new Set([correctText, ...distractorTexts]).size < 5 && tentativa < 40)
+    return trigSombra(dificuldade, tentativa + 1);
+  const enunciado =
+    dificuldade === "facil"
+      ? `Um poste vertical de ${h} m de altura projeta uma sombra no chão quando os raios solares formam um ângulo de ${ang.graus}° com o solo. Usando tg ${ang.graus}° = ${_trigNum(ang.tan)}, qual é o comprimento aproximado da sombra?`
+      : `No fim da tarde, os raios de sol chegam a ${ang.graus}° de elevação e uma antena de ${h} m projeta sombra sobre um pátio plano e horizontal. Adotando tg ${ang.graus}° = ${_trigNum(ang.tan)}, qual é aproximadamente o comprimento dessa sombra?`;
+  return makeQuestao({
+    categoriaId: "trigonometria",
+    subtopico: "Triângulo Retângulo",
+    dificuldade,
+    enunciado,
+    correctText,
+    distractorTexts,
+    explicacao: `A altura é o cateto oposto ao ângulo de elevação e a sombra é o cateto adjacente. Como tg ${ang.graus}° = altura ÷ sombra, então sombra = altura ÷ tg ${ang.graus}° = ${h} ÷ ${_trigNum(ang.tan)} ≈ ${correctText}.`,
+  });
+}
+
+function trigEscada(dificuldade, tentativa = 0) {
+  const angs =
+    dificuldade === "facil"
+      ? ANGULOS.filter((a) => a.graus === 30 || a.graus === 60)
+      : ANGULOS.filter((a) => a.graus !== 45);
+  const ang = pick(angs);
+  const L = pick(dificuldade === "facil" ? [8, 10, 12] : [10, 12, 15, 18, 20, 24]);
+  if (dificuldade === "dificil") {
+    const base = Math.round(L * ang.cos);
+    const correctText = `${base} m`;
+    const distractorTexts = [
+      `${L} m`, // usou o comprimento da escada
+      `${Math.round(L * ang.sin)} m`, // usou seno (dá a altura alcançada)
+      `${Math.round(L * ang.tan)} m`, // usou tangente
+      `${Math.round(L / ang.cos)} m`, // dividiu em vez de multiplicar
+    ];
+    if (new Set([correctText, ...distractorTexts]).size < 5 && tentativa < 40)
+      return trigEscada(dificuldade, tentativa + 1);
+    return makeQuestao({
+      categoriaId: "trigonometria",
+      subtopico: "Triângulo Retângulo",
+      dificuldade,
+      enunciado: `Uma escada de ${L} m está encostada em uma parede vertical e forma um ângulo de ${ang.graus}° com o chão. Usando cos ${ang.graus}° = ${_trigNum(ang.cos)}, qual é aproximadamente a distância do pé da escada até a parede?`,
+      correctText,
+      distractorTexts,
+      explicacao: `A distância do pé da escada à parede é o cateto adjacente ao ângulo de ${ang.graus}° e a escada é a hipotenusa. Logo, distância = escada × cos ${ang.graus}° = ${L} × ${_trigNum(ang.cos)} ≈ ${correctText}.`,
+    });
+  }
+  const altura = Math.round(L * ang.sin);
+  const correctText = `${altura} m`;
+  const distractorTexts = [
+    `${L} m`, // usou o comprimento da escada
+    `${Math.round(L * ang.cos)} m`, // usou cosseno (dá a distância à parede)
+    `${Math.round(L * ang.tan)} m`, // usou tangente
+    `${Math.round(L / ang.sin)} m`, // dividiu em vez de multiplicar
+  ];
+  if (new Set([correctText, ...distractorTexts]).size < 5 && tentativa < 40)
+    return trigEscada(dificuldade, tentativa + 1);
+  const enunciado =
+    dificuldade === "facil"
+      ? `Uma escada de ${L} m está apoiada em uma parede vertical e forma um ângulo de ${ang.graus}° com o chão. Usando sen ${ang.graus}° = ${_trigNum(ang.sin)}, a que altura da parede a escada se apoia?`
+      : `Um pintor apoia uma escada de ${L} m contra um muro, formando um ângulo de ${ang.graus}° com o piso horizontal. Adotando sen ${ang.graus}° = ${_trigNum(ang.sin)}, qual é aproximadamente a altura atingida pelo topo da escada?`;
+  return makeQuestao({
+    categoriaId: "trigonometria",
+    subtopico: "Triângulo Retângulo",
+    dificuldade,
+    enunciado,
+    correctText,
+    distractorTexts,
+    explicacao: `A altura atingida é o cateto oposto ao ângulo de ${ang.graus}° e a escada é a hipotenusa. Logo, altura = escada × sen ${ang.graus}° = ${L} × ${_trigNum(ang.sin)} ≈ ${correctText}.`,
+  });
+}
+
+function trigLeiSenos(dificuldade, tentativa = 0) {
+  const opcoes = dificuldade === "facil" ? [30, 60] : [30, 37, 53, 60];
+  const gA = pick(opcoes);
+  const gB = pick(opcoes.filter((g) => g !== gA));
+  const angA = ANGULOS.find((a) => a.graus === gA);
+  const angB = ANGULOS.find((a) => a.graus === gB);
+  const a = pick(dificuldade === "facil" ? [10, 20, 30] : [12, 15, 18, 24, 30, 36]);
+  const b = Math.round((a * angB.sin) / angA.sin);
+  const correctText = `${b} m`;
+  const distractorTexts = [
+    `${Math.round((a * angA.sin) / angB.sin)} m`, // inverteu a razão dos senos
+    `${Math.round(a * angB.sin)} m`, // esqueceu de dividir por sen A
+    `${a} m`, // repetiu o lado dado
+    `${Math.round(a * angA.sin * angB.sin)} m`, // multiplicou os senos em vez de dividir
+  ];
+  if (new Set([correctText, ...distractorTexts]).size < 5 && tentativa < 40)
+    return trigLeiSenos(dificuldade, tentativa + 1);
+  const enunciado =
+    dificuldade === "facil"
+      ? `Em um triângulo ABC, o ângulo A mede ${gA}° e o ângulo B mede ${gB}°. O lado a, oposto ao ângulo A, mede ${a} m. Usando sen ${gA}° = ${_trigNum(angA.sin)} e sen ${gB}° = ${_trigNum(angB.sin)}, quanto mede aproximadamente o lado b, oposto ao ângulo B?`
+      : dificuldade === "medio"
+      ? `Um terreno tem a forma de um triângulo ABC no qual o ângulo A mede ${gA}° e o ângulo B mede ${gB}°. O lado oposto ao ângulo A mede ${a} m. Adotando sen ${gA}° = ${_trigNum(angA.sin)} e sen ${gB}° = ${_trigNum(angB.sin)}, qual é a medida aproximada do lado oposto ao ângulo B?`
+      : `Para estimar a distância entre dois pontos A e B em margens opostas de um lago, um topógrafo mede, de um terceiro ponto C, um triângulo em que o ângulo A vale ${gA}° e o ângulo B vale ${gB}°. O lado oposto ao ângulo A mede ${a} m. Usando sen ${gA}° = ${_trigNum(angA.sin)} e sen ${gB}° = ${_trigNum(angB.sin)}, qual é aproximadamente a medida do lado oposto ao ângulo B?`;
+  return makeQuestao({
+    categoriaId: "trigonometria",
+    subtopico: "Lei dos Senos",
+    dificuldade,
+    enunciado,
+    correctText,
+    distractorTexts,
+    explicacao: `Pela lei dos senos, a ÷ sen A = b ÷ sen B. Logo, b = a × sen B ÷ sen A = ${a} × ${_trigNum(angB.sin)} ÷ ${_trigNum(angA.sin)} ≈ ${correctText}.`,
+  });
+}
+
+function trigLeiCossenos(dificuldade, tentativa = 0) {
+  const opcoes = dificuldade === "facil" ? [60] : [30, 37, 53, 60];
+  const gA = pick(opcoes);
+  const angA = ANGULOS.find((a) => a.graus === gA);
+  const pares = [
+    [8, 5],
+    [8, 3],
+    [7, 4],
+    [9, 5],
+    [6, 5],
+    [10, 6],
+    [7, 6],
+  ];
+  let [b, c] = pick(pares);
+  const k = dificuldade === "dificil" ? pick([1, 2, 3]) : dificuldade === "medio" ? pick([1, 2]) : 1;
+  b *= k;
+  c *= k;
+  const disc = b * b + c * c - 2 * b * c * angA.cos;
+  const a = Math.round(Math.sqrt(disc));
+  const correctText = `${a} m`;
+  const distractorTexts = [
+    `${Math.round(Math.sqrt(b * b + c * c))} m`, // esqueceu o termo −2·b·c·cos A (usou Pitágoras)
+    `${Math.round(Math.sqrt(b * b + c * c + 2 * b * c * angA.cos))} m`, // trocou o sinal do termo
+    `${b + c} m`, // somou os dois lados
+    `${Math.round(Math.sqrt(Math.abs(b * b + c * c - 2 * b * c * angA.sin)))} m`, // usou seno no lugar do cosseno
+  ];
+  if (new Set([correctText, ...distractorTexts]).size < 5 && tentativa < 40)
+    return trigLeiCossenos(dificuldade, tentativa + 1);
+  const discFmt = _trigNum(Math.round(disc * 100) / 100);
+  const enunciado =
+    dificuldade === "facil"
+      ? `Em um triângulo, dois lados medem ${b} m e ${c} m e o ângulo entre eles mede ${gA}°. Usando cos ${gA}° = ${_trigNum(angA.cos)}, qual é a medida aproximada do terceiro lado?`
+      : dificuldade === "medio"
+      ? `Um terreno triangular tem dois lados que medem ${b} m e ${c} m e formam entre si um ângulo de ${gA}°. Adotando cos ${gA}° = ${_trigNum(angA.cos)}, qual é o comprimento aproximado do terceiro lado?`
+      : `Dois trechos retos de uma trilha, de ${b} m e ${c} m, partem de um mesmo ponto formando um ângulo de ${gA}° entre si. Usando cos ${gA}° = ${_trigNum(angA.cos)}, qual é aproximadamente a distância em linha reta entre as extremidades dos dois trechos?`;
+  return makeQuestao({
+    categoriaId: "trigonometria",
+    subtopico: "Lei dos Cossenos",
+    dificuldade,
+    enunciado,
+    correctText,
+    distractorTexts,
+    explicacao: `Pela lei dos cossenos, a² = b² + c² − 2·b·c·cos ${gA}° = ${b}² + ${c}² − 2·${b}·${c}·${_trigNum(angA.cos)} = ${discFmt}. Logo, a = √${discFmt} ≈ ${correctText}.`,
+  });
+}
+
 // ---------- ESTATISTICA ----------
 function estMedia(dificuldade) {
   const n = dificuldade === "facil" ? 4 : dificuldade === "dificil" ? 8 : 6;
@@ -4008,7 +4257,7 @@ export const TEMPLATES = {
   "geometria-plana": [geoAreaPerimetro, geoPitagoras],
   "geometria-espacial": [geoVolumePrisma, geoVolumeCilindro, geoVolumeCone, geoVolumePiramide, geoEsfera, geoPlanificacaoCaixa],
   "geometria-analitica": [geoDistanciaPontos, geoEquacaoReta, gaPontoMedio, gaDistanciaOrigem, gaCoefAngularDoisPontos, gaEquacaoRetaPorDoisPontos, gaParalelaPerpendicular, gaInterseccaoRetas, gaCircunferenciaCentroRaio, gaCircunferenciaGeralParaReduzida, gaPontoNaCircunferencia, gaAreaTrianguloVertices, gaAlinhamento, gaSimetrico, gaBaricentro],
-  trigonometria: [trigTrianguloRetangulo],
+  trigonometria: [trigTrianguloRetangulo, trigRampa, trigSombra, trigEscada, trigLeiSenos, trigLeiCossenos],
   estatistica: [estMedia, estMediana, estLeituraGraficoDiferenca, estLeituraGraficoTotal, estLeituraGraficoPercentual],
   probabilidade: [probSimples, probSucessiva, probComReposicao, probComplementar, probUniaoExclusiva, probDoisDados, probBaralho, probTabelaContingencia],
   "analise-combinatoria": [combMultiplicativo, combComissao, combPermutacaoSimples, combPermutacaoCircular, combArranjo, combComRepeticao, combAnagramas, combComissaoRestricao, combSubconjuntos],
