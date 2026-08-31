@@ -100,5 +100,515 @@
     ],
     "correta": "B",
     "explicacao": "M = C × (1 + i)^t = R$ 15.900,00 × (1 + 8/100)^5 = R$ 23.362,32."
+  },
+  {
+    "id": "matematica-financeira-ined-0198",
+    "categoriaId": "matematica-financeira",
+    "subtopico": "Financiamentos e Prestações",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma loja financia um sofá de R$ 4.800,00 cobrando juros simples de 2% ao mês durante 3 meses. Qual é o total de juros cobrado nesse financiamento?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "R$ 192,00"
+      },
+      {
+        "letra": "B",
+        "texto": "R$ 288,00"
+      },
+      {
+        "letra": "C",
+        "texto": "R$ 5.088,00"
+      },
+      {
+        "letra": "D",
+        "texto": "R$ 293,80"
+      },
+      {
+        "letra": "E",
+        "texto": "R$ 96,00"
+      }
+    ],
+    "correta": "B",
+    "explicacao": "Nos juros simples, J = C · i · t = R$ 4.800,00 × 2/100 × 3 = R$ 288,00."
+  },
+  {
+    "id": "matematica-financeira-ined-0199",
+    "categoriaId": "matematica-financeira",
+    "subtopico": "Financiamentos e Prestações",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um cliente financiou um sofá no valor de R$ 5.600,00 a juros simples de 2% ao mês, com pagamento único após 9 meses. Qual será o valor desse pagamento?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "R$ 5.600,00"
+      },
+      {
+        "letra": "B",
+        "texto": "R$ 1.008,00"
+      },
+      {
+        "letra": "C",
+        "texto": "R$ 6.692,52"
+      },
+      {
+        "letra": "D",
+        "texto": "R$ 6.720,00"
+      },
+      {
+        "letra": "E",
+        "texto": "R$ 6.608,00"
+      }
+    ],
+    "correta": "E",
+    "explicacao": "J = C · i · t = R$ 5.600,00 × 2/100 × 9 = R$ 1.008,00. Valor pago = capital + juros = R$ 5.600,00 + R$ 1.008,00 = R$ 6.608,00."
+  },
+  {
+    "id": "matematica-financeira-ined-0200",
+    "categoriaId": "matematica-financeira",
+    "subtopico": "Financiamentos e Prestações",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Para quitar um débito, uma pessoa pegou um empréstimo de R$ 2.700,00 a juros simples de 2% ao mês, para pagar tudo de uma só vez após 22 meses. Qual será o valor total a devolver?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "R$ 3.888,00"
+      },
+      {
+        "letra": "B",
+        "texto": "R$ 5.076,00"
+      },
+      {
+        "letra": "C",
+        "texto": "R$ 3.834,00"
+      },
+      {
+        "letra": "D",
+        "texto": "R$ 4.174,15"
+      },
+      {
+        "letra": "E",
+        "texto": "R$ 1.188,00"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "Juros simples: J = C · i · t = R$ 2.700,00 × 2/100 × 22 = R$ 1.188,00. Total a devolver = C + J = R$ 2.700,00 + R$ 1.188,00 = R$ 3.888,00."
+  },
+  {
+    "id": "matematica-financeira-ined-0201",
+    "categoriaId": "matematica-financeira",
+    "subtopico": "Juros Compostos",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Quanto uma pessoa precisa depositar hoje em uma aplicação que rende 10% ao mês a juros compostos para resgatar R$ 5.324,00 daqui a 3 meses?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "R$ 4.000,00"
+      },
+      {
+        "letra": "B",
+        "texto": "R$ 4.840,00"
+      },
+      {
+        "letra": "C",
+        "texto": "R$ 7.086,24"
+      },
+      {
+        "letra": "D",
+        "texto": "R$ 4.095,38"
+      },
+      {
+        "letra": "E",
+        "texto": "R$ 3.726,80"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "No valor presente a juros compostos, C = M ÷ (1 + i)^t = R$ 5.324,00 ÷ (1 + 10/100)^3 = R$ 5.324,00 ÷ 1,331 = R$ 4.000,00."
+  },
+  {
+    "id": "matematica-financeira-ined-0202",
+    "categoriaId": "matematica-financeira",
+    "subtopico": "Juros Compostos",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma família quer ter R$ 7.260,00 daqui a 2 meses para dar entrada em um imóvel. Aplicando o dinheiro a juros compostos de 10% ao mês, quanto precisa investir agora?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "R$ 6.000,00"
+      },
+      {
+        "letra": "B",
+        "texto": "R$ 6.050,00"
+      },
+      {
+        "letra": "C",
+        "texto": "R$ 5.808,00"
+      },
+      {
+        "letra": "D",
+        "texto": "R$ 8.784,60"
+      },
+      {
+        "letra": "E",
+        "texto": "R$ 6.600,00"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "No valor presente a juros compostos, C = M ÷ (1 + i)^t = R$ 7.260,00 ÷ (1 + 10/100)^2 = R$ 7.260,00 ÷ 1,21 = R$ 6.000,00."
+  },
+  {
+    "id": "matematica-financeira-ined-0203",
+    "categoriaId": "matematica-financeira",
+    "subtopico": "Juros Compostos",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um título de dívida será resgatado por R$ 20.736,00 daqui a 3 meses. Considerando juros compostos de 20% ao mês, qual é o valor presente (valor justo hoje) desse título?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "R$ 12.960,00"
+      },
+      {
+        "letra": "B",
+        "texto": "R$ 17.280,00"
+      },
+      {
+        "letra": "C",
+        "texto": "R$ 35.831,81"
+      },
+      {
+        "letra": "D",
+        "texto": "R$ 12.000,00"
+      },
+      {
+        "letra": "E",
+        "texto": "R$ 8.294,40"
+      }
+    ],
+    "correta": "D",
+    "explicacao": "No valor presente a juros compostos, C = M ÷ (1 + i)^t = R$ 20.736,00 ÷ (1 + 20/100)^3 = R$ 20.736,00 ÷ 1,728 = R$ 12.000,00."
+  },
+  {
+    "id": "matematica-financeira-ined-0204",
+    "categoriaId": "matematica-financeira",
+    "subtopico": "Taxas Equivalentes",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "A que taxa ao bimestre equivale uma taxa de juros compostos de 10% ao mês?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "21%"
+      },
+      {
+        "letra": "B",
+        "texto": "33.1%"
+      },
+      {
+        "letra": "C",
+        "texto": "121%"
+      },
+      {
+        "letra": "D",
+        "texto": "20%"
+      },
+      {
+        "letra": "E",
+        "texto": "10%"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "Taxas equivalentes a juros compostos: i_bimestre = (1 + i)^2 − 1 = (1 + 10/100)^2 − 1 = 1,21 − 1 = 21%."
+  },
+  {
+    "id": "matematica-financeira-ined-0205",
+    "categoriaId": "matematica-financeira",
+    "subtopico": "Taxas Equivalentes",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um banco cobra juros compostos de 20% ao mês no cheque especial. Qual é a taxa equivalente para um bimestre (2 meses)?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "20%"
+      },
+      {
+        "letra": "B",
+        "texto": "144%"
+      },
+      {
+        "letra": "C",
+        "texto": "72.8%"
+      },
+      {
+        "letra": "D",
+        "texto": "40%"
+      },
+      {
+        "letra": "E",
+        "texto": "44%"
+      }
+    ],
+    "correta": "E",
+    "explicacao": "Taxas equivalentes a juros compostos: i_bimestre = (1 + i)^2 − 1 = (1 + 20/100)^2 − 1 = 1,44 − 1 = 44%."
+  },
+  {
+    "id": "matematica-financeira-ined-0206",
+    "categoriaId": "matematica-financeira",
+    "subtopico": "Taxas Equivalentes",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Um empréstimo cobra juros compostos de 44% ao bimestre. Qual é a taxa mensal equivalente?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "20%"
+      },
+      {
+        "letra": "B",
+        "texto": "88%"
+      },
+      {
+        "letra": "C",
+        "texto": "22%"
+      },
+      {
+        "letra": "D",
+        "texto": "44%"
+      },
+      {
+        "letra": "E",
+        "texto": "12.9%"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "A taxa mensal i equivalente satisfaz (1 + i)^2 = 1 + 44/100, ou seja (1 + i)^2 = 1,44. Logo 1 + i = 1,44^(1/2) e i = 20%."
+  },
+  {
+    "id": "matematica-financeira-ined-0207",
+    "categoriaId": "matematica-financeira",
+    "subtopico": "Financiamentos e Prestações",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Na loja, um micro-ondas custa R$ 2.000,00 no cartão. Pagando à vista, o cliente recebe 10% de desconto. Qual é o preço à vista?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "R$ 1.800,00"
+      },
+      {
+        "letra": "B",
+        "texto": "R$ 2.200,00"
+      },
+      {
+        "letra": "C",
+        "texto": "R$ 200,00"
+      },
+      {
+        "letra": "D",
+        "texto": "R$ 2.000,00"
+      },
+      {
+        "letra": "E",
+        "texto": "R$ 1.600,00"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "Preço à vista = preço a prazo × (1 − 10/100) = R$ 2.000,00 − R$ 200,00 = R$ 1.800,00."
+  },
+  {
+    "id": "matematica-financeira-ined-0208",
+    "categoriaId": "matematica-financeira",
+    "subtopico": "Financiamentos e Prestações",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma loja anuncia um micro-ondas por R$ 800,00 a prazo e concede 25% de desconto para pagamento à vista. Quanto o cliente economiza pagando à vista?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "R$ 150,00"
+      },
+      {
+        "letra": "B",
+        "texto": "R$ 800,00"
+      },
+      {
+        "letra": "C",
+        "texto": "R$ 600,00"
+      },
+      {
+        "letra": "D",
+        "texto": "R$ 1.000,00"
+      },
+      {
+        "letra": "E",
+        "texto": "R$ 200,00"
+      }
+    ],
+    "correta": "E",
+    "explicacao": "A economia é o desconto sobre o preço a prazo: R$ 800,00 × 25/100 = R$ 200,00."
+  },
+  {
+    "id": "matematica-financeira-ined-0209",
+    "categoriaId": "matematica-financeira",
+    "subtopico": "Financiamentos e Prestações",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Pagando à vista, um micro-ondas sai por R$ 3.520,00, valor que já embute um desconto de 12% sobre o preço de tabela (valor a prazo). Qual é o preço de tabela?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "R$ 4.480,00"
+      },
+      {
+        "letra": "B",
+        "texto": "R$ 3.142,86"
+      },
+      {
+        "letra": "C",
+        "texto": "R$ 3.942,40"
+      },
+      {
+        "letra": "D",
+        "texto": "R$ 3.097,60"
+      },
+      {
+        "letra": "E",
+        "texto": "R$ 4.000,00"
+      }
+    ],
+    "correta": "E",
+    "explicacao": "O valor à vista é (1 − 12/100) do preço de tabela P: R$ 3.520,00 = (1 − 12/100) · P ⇒ P = R$ 3.520,00 ÷ 0,88 = R$ 4.000,00."
+  },
+  {
+    "id": "matematica-financeira-ined-0210",
+    "categoriaId": "matematica-financeira",
+    "subtopico": "Financiamentos e Prestações",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "No plano parcelado, uma geladeira tem entrada de R$ 300,00 e mais 3 parcelas de R$ 160,00. Qual é o valor total pago nesse plano?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "R$ 940,00"
+      },
+      {
+        "letra": "B",
+        "texto": "R$ 480,00"
+      },
+      {
+        "letra": "C",
+        "texto": "R$ 180,00"
+      },
+      {
+        "letra": "D",
+        "texto": "R$ 780,00"
+      },
+      {
+        "letra": "E",
+        "texto": "R$ 620,00"
+      }
+    ],
+    "correta": "D",
+    "explicacao": "Total pago = entrada + (nº de parcelas × valor da parcela) = R$ 300,00 + 3 × R$ 160,00 = R$ 300,00 + R$ 480,00 = R$ 780,00."
+  },
+  {
+    "id": "matematica-financeira-ined-0211",
+    "categoriaId": "matematica-financeira",
+    "subtopico": "Financiamentos e Prestações",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "À vista, um sofá retrátil custa R$ 4.640,00. Parcelado, sai por uma entrada de R$ 100,00 mais 10 prestações de R$ 570,00. Quanto de juros está embutido no parcelamento?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "R$ 1.060,00"
+      },
+      {
+        "letra": "B",
+        "texto": "R$ 116,00"
+      },
+      {
+        "letra": "C",
+        "texto": "R$ 5.800,00"
+      },
+      {
+        "letra": "D",
+        "texto": "R$ 4.640,00"
+      },
+      {
+        "letra": "E",
+        "texto": "R$ 1.160,00"
+      }
+    ],
+    "correta": "E",
+    "explicacao": "Total pago no parcelamento = R$ 100,00 + 10 × R$ 570,00 = R$ 5.800,00. Juros embutidos = total pago − preço à vista = R$ 5.800,00 − R$ 4.640,00 = R$ 1.160,00."
+  },
+  {
+    "id": "matematica-financeira-ined-0212",
+    "categoriaId": "matematica-financeira",
+    "subtopico": "Financiamentos e Prestações",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma loja vende um sofá retrátil por R$ 3.390,00 à vista ou em 11 parcelas iguais de R$ 370,00, sem entrada. Quem parcela paga quanto a mais do que quem compra à vista?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "R$ 4.070,00"
+      },
+      {
+        "letra": "B",
+        "texto": "R$ 310,00"
+      },
+      {
+        "letra": "C",
+        "texto": "R$ 680,00"
+      },
+      {
+        "letra": "D",
+        "texto": "R$ 61,82"
+      },
+      {
+        "letra": "E",
+        "texto": "R$ 3.390,00"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "Parcelado paga-se 11 × R$ 370,00 = R$ 4.070,00. A diferença para o preço à vista é R$ 4.070,00 − R$ 3.390,00 = R$ 680,00."
   }
 ]

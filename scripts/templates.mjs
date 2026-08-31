@@ -2922,6 +2922,326 @@ function finJurosCompostos(dificuldade) {
   });
 }
 
+// ---------- MATEMATICA FINANCEIRA (moldes adicionais) ----------
+function finJurosSimples(dificuldade, tentativa = 0) {
+  const bem = pick(["uma geladeira", "um notebook", "uma máquina de lavar", "um sofá", "uma bicicleta elétrica", "uma smart TV"]);
+  const capital = randInt(dificuldade === "facil" ? 8 : 15, dificuldade === "dificil" ? 120 : 60) * 100;
+  const taxa = pick(dificuldade === "facil" ? [1, 2, 3] : [2, 3, 4, 5]);
+  const meses = randInt(dificuldade === "facil" ? 3 : 5, dificuldade === "dificil" ? 24 : 12);
+  const juros = Math.round(capital * (taxa / 100) * meses * 100) / 100; // inteiro por construção
+  const montante = Math.round((capital + juros) * 100) / 100;
+  const montanteComposto = Math.round(capital * Math.pow(1 + taxa / 100, meses) * 100) / 100;
+  const jurosComposto = Math.round((montanteComposto - capital) * 100) / 100;
+
+  if (dificuldade === "dificil") {
+    const correctText = brl(montante);
+    const distractorTexts = [
+      brl(juros), // esqueceu de somar o capital
+      brl(montanteComposto), // usou juros compostos
+      brl(Math.round((capital + capital * (taxa / 100) * (meses - 1)) * 100) / 100), // um mês a menos
+      brl(Math.round((capital + 2 * juros) * 100) / 100), // contou os juros em dobro
+    ];
+    if (new Set([correctText, ...distractorTexts]).size < 5 && tentativa < 40)
+      return finJurosSimples(dificuldade, tentativa + 1);
+    return makeQuestao({
+      categoriaId: "matematica-financeira",
+      subtopico: "Financiamentos e Prestações",
+      dificuldade,
+      enunciado: `Para quitar um débito, uma pessoa pegou um empréstimo de ${brl(capital)} a juros simples de ${pct(taxa)} ao mês, para pagar tudo de uma só vez após ${meses} meses. Qual será o valor total a devolver?`,
+      correctText,
+      distractorTexts,
+      explicacao: `Juros simples: J = C · i · t = ${brl(capital)} × ${taxa}/100 × ${meses} = ${brl(juros)}. Total a devolver = C + J = ${brl(capital)} + ${brl(juros)} = ${correctText}.`,
+    });
+  }
+
+  if (dificuldade === "medio") {
+    const correctText = brl(montante);
+    const distractorTexts = [
+      brl(juros), // esqueceu de somar o capital
+      brl(montanteComposto), // usou juros compostos
+      brl(Math.round((capital + capital * (taxa / 100) * (meses + 1)) * 100) / 100), // um mês a mais
+      brl(capital), // ignorou os juros
+    ];
+    if (new Set([correctText, ...distractorTexts]).size < 5 && tentativa < 40)
+      return finJurosSimples(dificuldade, tentativa + 1);
+    return makeQuestao({
+      categoriaId: "matematica-financeira",
+      subtopico: "Financiamentos e Prestações",
+      dificuldade,
+      enunciado: `Um cliente financiou ${bem} no valor de ${brl(capital)} a juros simples de ${pct(taxa)} ao mês, com pagamento único após ${meses} meses. Qual será o valor desse pagamento?`,
+      correctText,
+      distractorTexts,
+      explicacao: `J = C · i · t = ${brl(capital)} × ${taxa}/100 × ${meses} = ${brl(juros)}. Valor pago = capital + juros = ${brl(capital)} + ${brl(juros)} = ${correctText}.`,
+    });
+  }
+
+  // facil — pede o total de juros
+  const correctText = brl(juros);
+  const distractorTexts = [
+    brl(montante), // deu o total, não os juros
+    brl(jurosComposto), // usou juros compostos
+    brl(Math.round(capital * (taxa / 100) * 100) / 100), // considerou só um mês
+    brl(Math.round(capital * (taxa / 100) * (meses - 1) * 100) / 100), // um mês a menos
+  ];
+  if (new Set([correctText, ...distractorTexts]).size < 5 && tentativa < 40)
+    return finJurosSimples(dificuldade, tentativa + 1);
+  return makeQuestao({
+    categoriaId: "matematica-financeira",
+    subtopico: "Financiamentos e Prestações",
+    dificuldade,
+    enunciado: `Uma loja financia ${bem} de ${brl(capital)} cobrando juros simples de ${pct(taxa)} ao mês durante ${meses} meses. Qual é o total de juros cobrado nesse financiamento?`,
+    correctText,
+    distractorTexts,
+    explicacao: `Nos juros simples, J = C · i · t = ${brl(capital)} × ${taxa}/100 × ${meses} = ${correctText}.`,
+  });
+}
+
+function finValorPresente(dificuldade, tentativa = 0) {
+  const i = pick([10, 20]);
+  const t = pick([2, 3]);
+  const fator = Math.pow(1 + i / 100, t);
+  const fatorTxt = String(Math.round(fator * 1000) / 1000).replace(".", ",");
+  const base = randInt(dificuldade === "facil" ? 2 : 3, dificuldade === "dificil" ? 12 : 8);
+  const capital = base * 1000; // fator × 1000 é inteiro para i ∈ {10, 20}
+  const montante = Math.round(capital * fator * 100) / 100; // inteiro por construção
+
+  const correctText = brl(capital);
+  const distractorTexts = [
+    brl(Math.round(montante * fator * 100) / 100), // multiplicou em vez de dividir
+    brl(Math.round((montante / (1 + (i / 100) * t)) * 100) / 100), // usou juros simples
+    brl(Math.round(montante * (1 - (i / 100) * t) * 100) / 100), // descontou juros simples do montante
+    brl(Math.round((montante / (1 + i / 100)) * 100) / 100), // descontou apenas um período
+  ];
+  if (new Set([correctText, ...distractorTexts]).size < 5 && tentativa < 40)
+    return finValorPresente(dificuldade, tentativa + 1);
+
+  let enunciado;
+  if (dificuldade === "facil") {
+    enunciado = `Quanto uma pessoa precisa depositar hoje em uma aplicação que rende ${pct(i)} ao mês a juros compostos para resgatar ${brl(montante)} daqui a ${t} meses?`;
+  } else if (dificuldade === "medio") {
+    enunciado = `Uma família quer ter ${brl(montante)} daqui a ${t} meses para dar entrada em um imóvel. Aplicando o dinheiro a juros compostos de ${pct(i)} ao mês, quanto precisa investir agora?`;
+  } else {
+    enunciado = `Um título de dívida será resgatado por ${brl(montante)} daqui a ${t} meses. Considerando juros compostos de ${pct(i)} ao mês, qual é o valor presente (valor justo hoje) desse título?`;
+  }
+  return makeQuestao({
+    categoriaId: "matematica-financeira",
+    subtopico: "Juros Compostos",
+    dificuldade,
+    enunciado,
+    correctText,
+    distractorTexts,
+    explicacao: `No valor presente a juros compostos, C = M ÷ (1 + i)^t = ${brl(montante)} ÷ (1 + ${i}/100)^${t} = ${brl(montante)} ÷ ${fatorTxt} = ${correctText}.`,
+  });
+}
+
+function finTaxaEquivalente(dificuldade, tentativa = 0) {
+  const i = pick([10, 20]);
+  const k = pick([2, 3]);
+  const periodo = k === 2 ? "bimestre" : "trimestre";
+  const fator = Math.pow(1 + i / 100, k);
+  const fatorTxt = String(Math.round(fator * 1000) / 1000).replace(".", ",");
+  const equiv = Math.round((fator - 1) * 100 * 100) / 100; // taxa do período, em %
+
+  if (dificuldade === "dificil") {
+    const correctText = pct(i);
+    const distractorTexts = [
+      pct(Math.round((equiv / k) * 100) / 100), // dividiu proporcionalmente (juros simples)
+      pct(equiv), // não converteu
+      pct(Math.round((Math.pow(fator, 1 / (k + 1)) - 1) * 100 * 100) / 100), // extraiu a raiz errada
+      pct(Math.round(equiv * k * 100) / 100), // multiplicou em vez de dividir
+    ];
+    if (new Set([correctText, ...distractorTexts]).size < 5 && tentativa < 40)
+      return finTaxaEquivalente(dificuldade, tentativa + 1);
+    return makeQuestao({
+      categoriaId: "matematica-financeira",
+      subtopico: "Taxas Equivalentes",
+      dificuldade,
+      enunciado: `Um empréstimo cobra juros compostos de ${pct(equiv)} ao ${periodo}. Qual é a taxa mensal equivalente?`,
+      correctText,
+      distractorTexts,
+      explicacao: `A taxa mensal i equivalente satisfaz (1 + i)^${k} = 1 + ${String(equiv).replace(".", ",")}/100, ou seja (1 + i)^${k} = ${fatorTxt}. Logo 1 + i = ${fatorTxt}^(1/${k}) e i = ${correctText}.`,
+    });
+  }
+
+  const correctText = pct(equiv);
+  const distractorTexts = [
+    pct(Math.round(i * k * 100) / 100), // proporcional (juros simples)
+    pct(Math.round(fator * 100 * 100) / 100), // esqueceu de subtrair 1
+    pct(Math.round((Math.pow(1 + i / 100, k + 1) - 1) * 100 * 100) / 100), // um período a mais
+    pct(i), // manteve a taxa mensal
+  ];
+  if (new Set([correctText, ...distractorTexts]).size < 5 && tentativa < 40)
+    return finTaxaEquivalente(dificuldade, tentativa + 1);
+  const enunciado =
+    dificuldade === "facil"
+      ? `A que taxa ao ${periodo} equivale uma taxa de juros compostos de ${pct(i)} ao mês?`
+      : `Um banco cobra juros compostos de ${pct(i)} ao mês no cheque especial. Qual é a taxa equivalente para um ${periodo} (${k} meses)?`;
+  return makeQuestao({
+    categoriaId: "matematica-financeira",
+    subtopico: "Taxas Equivalentes",
+    dificuldade,
+    enunciado,
+    correctText,
+    distractorTexts,
+    explicacao: `Taxas equivalentes a juros compostos: i_${periodo} = (1 + i)^${k} − 1 = (1 + ${i}/100)^${k} − 1 = ${fatorTxt} − 1 = ${correctText}.`,
+  });
+}
+
+function finDescontoAVista(dificuldade, tentativa = 0) {
+  const bem = pick(["uma televisão", "um guarda-roupa", "uma bicicleta", "um micro-ondas", "um celular", "uma cama box"]);
+  const d = pick(dificuldade === "facil" ? [10, 20] : [5, 10, 12, 15, 20, 25]);
+  const preco = randInt(dificuldade === "facil" ? 3 : 5, dificuldade === "dificil" ? 40 : 20) * 100;
+  const economia = Math.round(((preco * d) / 100) * 100) / 100; // inteiro (preço múltiplo de 100)
+  const aVista = Math.round((preco - economia) * 100) / 100;
+
+  if (dificuldade === "dificil") {
+    const correctText = brl(preco);
+    const distractorTexts = [
+      brl(Math.round(aVista * (1 + d / 100) * 100) / 100), // acrescentou d% ao valor à vista
+      brl(Math.round(aVista * (1 - d / 100) * 100) / 100), // descontou d% de novo
+      brl(Math.round((preco + economia) * 100) / 100), // somou o desconto ao preço de tabela
+      brl(Math.round((aVista / (1 + d / 100)) * 100) / 100), // dividiu por (1 + d)
+    ];
+    if (new Set([correctText, ...distractorTexts]).size < 5 && tentativa < 40)
+      return finDescontoAVista(dificuldade, tentativa + 1);
+    return makeQuestao({
+      categoriaId: "matematica-financeira",
+      subtopico: "Financiamentos e Prestações",
+      dificuldade,
+      enunciado: `Pagando à vista, ${bem} sai por ${brl(aVista)}, valor que já embute um desconto de ${pct(d)} sobre o preço de tabela (valor a prazo). Qual é o preço de tabela?`,
+      correctText,
+      distractorTexts,
+      explicacao: `O valor à vista é (1 − ${d}/100) do preço de tabela P: ${brl(aVista)} = (1 − ${d}/100) · P ⇒ P = ${brl(aVista)} ÷ ${String(Math.round((1 - d / 100) * 1000) / 1000).replace(".", ",")} = ${correctText}.`,
+    });
+  }
+
+  if (dificuldade === "medio") {
+    const correctText = brl(economia);
+    const distractorTexts = [
+      brl(aVista), // deu o preço à vista em vez da economia
+      brl(preco), // deu o preço a prazo
+      brl(Math.round(preco * (1 + d / 100) * 100) / 100), // somou o percentual ao preço
+      brl(Math.round(aVista * (d / 100) * 100) / 100), // aplicou o desconto sobre o valor já descontado
+    ];
+    if (new Set([correctText, ...distractorTexts]).size < 5 && tentativa < 40)
+      return finDescontoAVista(dificuldade, tentativa + 1);
+    return makeQuestao({
+      categoriaId: "matematica-financeira",
+      subtopico: "Financiamentos e Prestações",
+      dificuldade,
+      enunciado: `Uma loja anuncia ${bem} por ${brl(preco)} a prazo e concede ${pct(d)} de desconto para pagamento à vista. Quanto o cliente economiza pagando à vista?`,
+      correctText,
+      distractorTexts,
+      explicacao: `A economia é o desconto sobre o preço a prazo: ${brl(preco)} × ${d}/100 = ${correctText}.`,
+    });
+  }
+
+  // facil — pede o preço à vista
+  const correctText = brl(aVista);
+  const distractorTexts = [
+    brl(economia), // deu o valor do desconto, não o preço
+    brl(Math.round(preco * (1 + d / 100) * 100) / 100), // somou em vez de subtrair
+    brl(preco), // não aplicou o desconto
+    brl(Math.round((preco - 2 * economia) * 100) / 100), // aplicou o desconto duas vezes
+  ];
+  if (new Set([correctText, ...distractorTexts]).size < 5 && tentativa < 40)
+    return finDescontoAVista(dificuldade, tentativa + 1);
+  return makeQuestao({
+    categoriaId: "matematica-financeira",
+    subtopico: "Financiamentos e Prestações",
+    dificuldade,
+    enunciado: `Na loja, ${bem} custa ${brl(preco)} no cartão. Pagando à vista, o cliente recebe ${pct(d)} de desconto. Qual é o preço à vista?`,
+    correctText,
+    distractorTexts,
+    explicacao: `Preço à vista = preço a prazo × (1 − ${d}/100) = ${brl(preco)} − ${brl(economia)} = ${correctText}.`,
+  });
+}
+
+function finParcelamento(dificuldade, tentativa = 0) {
+  const bem = pick(["um notebook", "uma smart TV", "um celular", "uma geladeira", "um sofá retrátil", "uma bicicleta"]);
+
+  if (dificuldade === "facil") {
+    const parcela = randInt(15, 60) * 10;
+    const n = randInt(3, 8);
+    const entrada = randInt(1, 4) * 100;
+    const total = entrada + n * parcela;
+    const correctText = brl(total);
+    const distractorTexts = [
+      brl(n * parcela), // esqueceu a entrada
+      brl(entrada + (n - 1) * parcela), // uma parcela a menos
+      brl(entrada + (n + 1) * parcela), // uma parcela a mais
+      brl(n * parcela - entrada), // subtraiu a entrada em vez de somar
+    ];
+    if ((new Set([correctText, ...distractorTexts]).size < 5 || n * parcela <= entrada) && tentativa < 40)
+      return finParcelamento(dificuldade, tentativa + 1);
+    return makeQuestao({
+      categoriaId: "matematica-financeira",
+      subtopico: "Financiamentos e Prestações",
+      dificuldade,
+      enunciado: `No plano parcelado, ${bem} tem entrada de ${brl(entrada)} e mais ${n} parcelas de ${brl(parcela)}. Qual é o valor total pago nesse plano?`,
+      correctText,
+      distractorTexts,
+      explicacao: `Total pago = entrada + (nº de parcelas × valor da parcela) = ${brl(entrada)} + ${n} × ${brl(parcela)} = ${brl(entrada)} + ${brl(n * parcela)} = ${correctText}.`,
+    });
+  }
+
+  if (dificuldade === "medio") {
+    const parcela = randInt(20, 90) * 10;
+    const n = randInt(5, 10);
+    const entrada = randInt(1, 3) * 100;
+    const total = entrada + n * parcela;
+    const jurosPct = pick([20, 25, 30, 35]);
+    const juros = Math.round((total * jurosPct) / (100 + jurosPct) / 10) * 10;
+    const aVista = total - juros;
+    const correctText = brl(juros);
+    const distractorTexts = [
+      brl(total), // deu o total pago, não os juros
+      brl(aVista), // deu o preço à vista
+      brl(juros - entrada), // esqueceu que a entrada também é paga
+      brl(Math.round((juros / n) * 100) / 100), // juros divididos pelas parcelas
+    ];
+    const ok =
+      juros > entrada && juros > 0 && aVista > 0 && juros < aVista && new Set([correctText, ...distractorTexts]).size === 5;
+    if (!ok && tentativa < 40) return finParcelamento(dificuldade, tentativa + 1);
+    return makeQuestao({
+      categoriaId: "matematica-financeira",
+      subtopico: "Financiamentos e Prestações",
+      dificuldade,
+      enunciado: `À vista, ${bem} custa ${brl(aVista)}. Parcelado, sai por uma entrada de ${brl(entrada)} mais ${n} prestações de ${brl(parcela)}. Quanto de juros está embutido no parcelamento?`,
+      correctText,
+      distractorTexts,
+      explicacao: `Total pago no parcelamento = ${brl(entrada)} + ${n} × ${brl(parcela)} = ${brl(total)}. Juros embutidos = total pago − preço à vista = ${brl(total)} − ${brl(aVista)} = ${correctText}.`,
+    });
+  }
+
+  // dificil — sem entrada, pede quanto se paga a mais
+  const parcela = randInt(20, 120) * 10;
+  const n = randInt(5, 12);
+  const total = n * parcela;
+  const jurosPct = pick([20, 25, 30, 35, 40]);
+  const juros = Math.round((total * jurosPct) / (100 + jurosPct) / 10) * 10;
+  const aVista = total - juros;
+  const correctText = brl(juros);
+  const distractorTexts = [
+    brl(total), // confundiu o total pago com a diferença
+    brl(aVista), // deu o preço à vista
+    brl((n - 1) * parcela - aVista), // contou uma parcela a menos
+    brl(Math.round((juros / n) * 100) / 100), // juros por prestação
+  ];
+  const ok =
+    juros > parcela && juros > 0 && aVista > 0 && juros < aVista && new Set([correctText, ...distractorTexts]).size === 5;
+  if (!ok && tentativa < 40) return finParcelamento(dificuldade, tentativa + 1);
+  return makeQuestao({
+    categoriaId: "matematica-financeira",
+    subtopico: "Financiamentos e Prestações",
+    dificuldade,
+    enunciado: `Uma loja vende ${bem} por ${brl(aVista)} à vista ou em ${n} parcelas iguais de ${brl(parcela)}, sem entrada. Quem parcela paga quanto a mais do que quem compra à vista?`,
+    correctText,
+    distractorTexts,
+    explicacao: `Parcelado paga-se ${n} × ${brl(parcela)} = ${brl(total)}. A diferença para o preço à vista é ${brl(total)} − ${brl(aVista)} = ${correctText}.`,
+  });
+}
+
 // ---------- MATRIZES ----------
 function matDeterminante(dificuldade) {
   const a = randInt(-9, 9), b = randInt(-9, 9), c = randInt(-9, 9), d = randInt(-9, 9);
@@ -4261,7 +4581,7 @@ export const TEMPLATES = {
   estatistica: [estMedia, estMediana, estLeituraGraficoDiferenca, estLeituraGraficoTotal, estLeituraGraficoPercentual],
   probabilidade: [probSimples, probSucessiva, probComReposicao, probComplementar, probUniaoExclusiva, probDoisDados, probBaralho, probTabelaContingencia],
   "analise-combinatoria": [combMultiplicativo, combComissao, combPermutacaoSimples, combPermutacaoCircular, combArranjo, combComRepeticao, combAnagramas, combComissaoRestricao, combSubconjuntos],
-  "matematica-financeira": [finJurosCompostos],
+  "matematica-financeira": [finJurosCompostos, finJurosSimples, finValorPresente, finTaxaEquivalente, finDescontoAVista, finParcelamento],
   matrizes: [matDeterminante, matDeterminante3x3, matSoma, matSubtracao, matEscalar, matProduto, matTransposta, matTraco, matIgualdade, matLeiDeFormacao, matSimetrica, matPotencia, matInversa, matDeterminanteComIncognita, matCramer, matFaturamento, matIdentidadePropriedade],
   logica: [logSequencia, logRaciocinioIdade, logSequenciaSegundaOrdem, logNumeroPensado, logTorneio, logCalendario, logNegacao, logCondicional, logComparacaoTransitiva],
   conjuntos: [conjDoisConjuntos, conjDiferenca, conjUniaoDeInterseccao, conjComplementar, conjTresConjuntos, conjTresConjuntosEsporte, conjOperacoesExplicitas, conjDiferencaSimetrica, conjProdutoCartesiano, conjSubconjuntos, conjIntervalosReais, conjMultiplos, conjTresLinguas, conjPesquisaProduto, conjDivisores],
