@@ -42,7 +42,7 @@ export default function MobileSidebar({
         role="dialog"
         aria-modal="true"
         aria-label="Menu de navegação"
-        className="relative flex h-full w-72 max-w-[85vw] flex-col gap-6 overflow-y-auto border-r border-white/10 bg-[#0b1120] px-4 py-6"
+        className="relative flex h-full w-72 max-w-[85vw] flex-col gap-6 overflow-y-auto border-r border-white/10 bg-[#070b12] px-4 py-6"
       >
         <div className="flex items-center justify-between">
           <Logo />

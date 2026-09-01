@@ -46,7 +46,7 @@ export default function ResultShareCard({
   }
 
   return (
-    <div className="rounded-xl border border-white/10 bg-gradient-to-br from-gray-700 to-gray-900 p-6">
+    <div className="rounded-2xl border border-accent/20 bg-gradient-to-br from-accent/[0.12] to-accent/[0.02] p-6">
       <p className="text-sm text-slate-300">Compartilhe seu desempenho</p>
       <p className="mt-1 text-lg font-semibold text-white">
         {stats.acertoPct}% de acerto em {stats.respondidas} questões
@@ -55,7 +55,7 @@ export default function ResultShareCard({
         {podeCompartilharNativo && (
           <button
             onClick={compartilhar}
-            className="rounded-md bg-white px-3 py-1.5 text-sm font-medium text-gray-800 hover:bg-gray-100"
+            className="rounded-full bg-accent-pale px-4 py-1.5 text-sm font-semibold text-accent-deep transition hover:bg-accent-soft"
           >
             Compartilhar
           </button>

@@ -1,10 +1,10 @@
 import { DiagramaGrafico } from "@/lib/types";
 
-const CATEGORICAL = ["#3987e5", "#d95926", "#199e70", "#c98500", "#d55181", "#008300", "#9085e9", "#e66767"];
+const CATEGORICAL = ["#22c9dd", "#d95926", "#199e70", "#c98500", "#d55181", "#008300", "#9085e9", "#e66767"];
 const MUTED = "#94a3b8";
 const AXIS = "rgba(255,255,255,0.22)";
 const GRID = "rgba(255,255,255,0.08)";
-const VALUE_INK = "#e5e7eb";
+const VALUE_INK = "#eef3f9";
 
 function roundedTopBarPath(x: number, y: number, w: number, h: number, r: number) {
   const rr = Math.min(r, w / 2, h);
@@ -123,7 +123,7 @@ function PieChart({ titulo, categorias, valores }: { titulo?: string; categorias
       )}
 
       {slices.map((s, i) => (
-        <path key={i} d={s.path} fill={s.color} stroke="#0b1120" strokeWidth={2} />
+        <path key={i} d={s.path} fill={s.color} stroke="#070b12" strokeWidth={2} />
       ))}
 
       {slices.map(
@@ -133,7 +133,7 @@ function PieChart({ titulo, categorias, valores }: { titulo?: string; categorias
               key={"label" + i}
               x={s.labelPos.x}
               y={s.labelPos.y}
-              fill="#0b1120"
+              fill="#070b12"
               fontSize={11}
               fontWeight={700}
               textAnchor="middle"

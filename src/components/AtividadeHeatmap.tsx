@@ -10,9 +10,10 @@ const SEMANAS_PADRAO = 27;
 
 function corPorContagem(n: number): string {
   if (n === 0) return "bg-white/5";
-  if (n === 1) return "bg-gray-400/30";
-  if (n <= 3) return "bg-gray-400/60";
-  return "bg-gray-400";
+  if (n === 1) return "bg-accent/25";
+  if (n <= 3) return "bg-accent/45";
+  if (n <= 6) return "bg-accent/70";
+  return "bg-emerald-400/75";
 }
 
 function chunk<T>(arr: T[], size: number): T[][] {
@@ -47,7 +48,7 @@ export default function AtividadeHeatmap() {
   const semanas = chunk(heatmapDados, 7);
 
   return (
-    <div className="rounded-xl border border-white/10 bg-white/[0.03] p-5">
+    <div className="rounded-2xl border border-white/10 bg-white/[0.03] p-5">
       <div className="mb-4 flex flex-wrap items-center justify-between gap-2">
         <h2 className="text-lg font-semibold text-white">Dias de Estudo</h2>
         <div className="flex items-center gap-3 text-xs text-slate-400">
@@ -96,9 +97,10 @@ export default function AtividadeHeatmap() {
       <div className="mt-3 flex items-center gap-1.5 text-[10px] text-slate-400">
         menos
         <span className="h-3 w-3 rounded-sm bg-white/5" />
-        <span className="h-3 w-3 rounded-sm bg-gray-400/30" />
-        <span className="h-3 w-3 rounded-sm bg-gray-400/60" />
-        <span className="h-3 w-3 rounded-sm bg-gray-400" />
+        <span className="h-3 w-3 rounded-sm bg-accent/25" />
+        <span className="h-3 w-3 rounded-sm bg-accent/45" />
+        <span className="h-3 w-3 rounded-sm bg-accent/70" />
+        <span className="h-3 w-3 rounded-sm bg-emerald-400/75" />
         mais
       </div>
     </div>

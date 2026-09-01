@@ -26,7 +26,7 @@ export default function CategoryCard({
   const progressoPct = total > 0 ? Math.round((stats.respondidas / total) * 100) : 0;
 
   return (
-    <div className="flex flex-col rounded-xl border border-white/10 bg-white/[0.03] p-5">
+    <div className="flex flex-col rounded-2xl border border-white/10 bg-white/[0.03] p-5">
       <div className="mb-2 flex items-start justify-between gap-2">
         <h3 className="text-lg font-semibold text-white">{categoria.nome}</h3>
       </div>
@@ -53,7 +53,7 @@ export default function CategoryCard({
         <span>{progressoPct}%</span>
       </div>
       <div className="mb-4 h-1.5 w-full overflow-hidden rounded-full bg-white/10">
-        <div className="h-full rounded-full bg-gray-400" style={{ width: `${progressoPct}%` }} />
+        <div className="h-full rounded-full bg-accent" style={{ width: `${progressoPct}%` }} />
       </div>
       <div className="mt-auto flex items-center justify-between">
         <span className="text-xs text-slate-400">
@@ -61,7 +61,7 @@ export default function CategoryCard({
         </span>
         <Link
           href={`/assuntos/${categoria.id}`}
-          className="rounded-md bg-gray-600 px-3 py-1.5 text-sm font-medium text-white hover:bg-gray-500"
+          className="inline-flex items-center rounded-full bg-accent-pale px-4 py-1.5 text-sm font-semibold text-accent-deep transition hover:bg-accent-soft"
         >
           Praticar →
         </Link>

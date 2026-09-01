@@ -79,9 +79,9 @@ export default function QuickAccessCards({
             <Link
               key={a.titulo}
               href={a.href}
-              className="flex items-start gap-3 rounded-xl border border-white/10 bg-white/[0.03] p-4 transition hover:bg-white/[0.06]"
+              className="flex items-start gap-3 rounded-2xl border border-white/10 bg-white/[0.03] p-4 transition hover:bg-white/[0.06]"
             >
-              <Icon className="mt-0.5 h-5 w-5 shrink-0 text-gray-400" />
+              <Icon className="mt-0.5 h-5 w-5 shrink-0 text-accent" />
               <div>
                 <p className="text-sm font-semibold text-white">{a.titulo}</p>
                 <p className="text-xs text-slate-400">{a.descricao}</p>

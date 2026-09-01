@@ -61,7 +61,7 @@ export default async function CompartilharPage({
       </p>
       <Link
         href="/"
-        className="mt-8 inline-block rounded-lg bg-white px-5 py-2.5 text-sm font-semibold text-gray-800 hover:bg-gray-100"
+        className="btn-primary mt-8"
       >
         Praticar também →
       </Link>

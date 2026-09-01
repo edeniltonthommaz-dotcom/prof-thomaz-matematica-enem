@@ -68,10 +68,10 @@ export default function MetricsCarousel({
           return (
             <div
               key={ind.label}
-              className="max-sm:w-[85vw] max-sm:shrink-0 max-sm:snap-center rounded-xl border border-white/10 bg-white/[0.03] px-5 py-4"
+              className="max-sm:w-[85vw] max-sm:shrink-0 max-sm:snap-center rounded-2xl border border-white/10 bg-white/[0.03] px-5 py-4"
             >
-              <Icon className="mb-2 h-4 w-4 text-gray-400" />
-              <p className="text-2xl font-bold text-white">{ind.valor}</p>
+              <Icon className="mb-2 h-4 w-4 text-accent" />
+              <p className="font-display text-2xl font-bold text-white tabular-nums">{ind.valor}</p>
               <p className="text-xs text-slate-400">{ind.label}</p>
             </div>
           );
@@ -81,7 +81,7 @@ export default function MetricsCarousel({
         {indicadores.map((_, i) => (
           <span
             key={i}
-            className={`h-1.5 w-1.5 rounded-full ${i === indiceAtivo ? "bg-gray-400" : "bg-white/15"}`}
+            className={`h-1.5 w-1.5 rounded-full ${i === indiceAtivo ? "bg-accent" : "bg-white/15"}`}
           />
         ))}
       </div>

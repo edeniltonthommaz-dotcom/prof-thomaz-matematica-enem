@@ -41,7 +41,7 @@ export default function RevisaoList({
         <Link
           key={id}
           href={`/assuntos/${info.categoriaId}/${id}`}
-          className="flex items-center justify-between gap-3 rounded-lg border border-white/10 bg-white/[0.03] p-4 transition hover:border-gray-400"
+          className="flex items-center justify-between gap-3 rounded-xl border border-white/10 bg-white/[0.03] p-4 transition hover:border-accent/40 hover:bg-white/[0.05]"
         >
           <div className="min-w-0">
             <p className="truncate text-sm font-semibold text-white">{info.categoriaNome}</p>

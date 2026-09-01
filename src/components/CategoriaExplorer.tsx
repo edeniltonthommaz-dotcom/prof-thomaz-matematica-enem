@@ -36,9 +36,9 @@ export default function CategoriaExplorer({
       <div className="mb-6 flex flex-wrap gap-2">
         <button
           onClick={() => setAba("teoria")}
-          className={`rounded-lg border px-4 py-2 text-sm transition ${
+          className={`rounded-full border px-4 py-2 text-sm transition ${
             aba === "teoria"
-              ? "border-gray-400 bg-gray-400/10 text-white"
+              ? "border-accent/40 bg-accent/10 text-white"
               : "border-white/10 bg-white/[0.02] text-slate-300 hover:bg-white/5"
           }`}
         >
@@ -52,9 +52,9 @@ export default function CategoriaExplorer({
             <button
               key={d}
               onClick={() => setAba(d)}
-              className={`rounded-lg border px-4 py-2 text-sm transition ${
+              className={`rounded-full border px-4 py-2 text-sm transition ${
                 ativa
-                  ? "border-gray-400 bg-gray-400/10 text-white"
+                  ? "border-accent/40 bg-accent/10 text-white"
                   : "border-white/10 bg-white/[0.02] text-slate-300 hover:bg-white/5"
               }`}
             >
@@ -76,7 +76,7 @@ export default function CategoriaExplorer({
           {primeiraPendente && (
             <Link
               href={`/assuntos/${categoria.id}/${primeiraPendente.id}`}
-              className="mb-6 inline-flex items-center rounded-lg bg-gray-600 px-4 py-2 text-sm font-medium text-white hover:bg-gray-500"
+              className="btn-primary mb-6"
             >
               Praticar nível {DIFICULDADE_LABEL[aba].toLowerCase()} →
             </Link>
@@ -87,7 +87,7 @@ export default function CategoriaExplorer({
               const r = registros[q.id];
               const base = "flex h-10 w-10 items-center justify-center rounded-lg border text-sm font-medium";
               const estilo = !r?.respondida
-                ? "border-white/10 bg-white/[0.03] text-slate-300 hover:bg-white/10"
+                ? "border-white/10 bg-white/[0.03] text-slate-300 transition hover:border-accent/40 hover:bg-white/10"
                 : r.correta
                 ? "border-emerald-500/40 bg-emerald-500/15 text-emerald-400"
                 : "border-rose-500/40 bg-rose-500/15 text-rose-400";

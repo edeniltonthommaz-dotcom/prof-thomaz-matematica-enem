@@ -10,17 +10,17 @@ export default function PatenteCard() {
   const statusPatente = useMemo(() => calcularPatente(xpTotal), [xpTotal]);
 
   return (
-    <div className="rounded-xl border border-white/10 bg-white/[0.03] p-5">
+    <div className="rounded-2xl border border-white/10 bg-white/[0.03] p-5">
       <div className="flex flex-wrap items-center justify-between gap-4">
         <div className="flex items-center gap-4">
-          <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-full bg-gray-600/30 text-xl font-bold text-gray-200">
+          <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-full border border-accent/25 bg-accent/12 font-display text-xl font-bold text-accent-soft">
             {statusPatente.patente.numero}
           </div>
           <div>
             <p className="text-xs font-semibold uppercase tracking-wide text-slate-400">
               Patente {statusPatente.patente.numero}
             </p>
-            <p className="text-xl font-bold text-white">{statusPatente.patente.titulo}</p>
+            <p className="font-display text-xl font-bold text-white">{statusPatente.patente.titulo}</p>
           </div>
         </div>
         <div className="min-w-[14rem] flex-1">
@@ -34,7 +34,7 @@ export default function PatenteCard() {
           </div>
           <div className="h-1.5 w-full overflow-hidden rounded-full bg-white/10">
             <div
-              className="h-full rounded-full bg-gray-400"
+              className="h-full rounded-full bg-accent"
               style={{ width: `${statusPatente.progressoPct}%` }}
             />
           </div>
@@ -56,7 +56,7 @@ export default function PatenteCard() {
               key={p.numero}
               title={`Patente ${p.numero}: ${p.titulo}`}
               className={`h-3 w-3 rounded-full ${
-                atingida ? "bg-gray-400" : "border border-white/15 bg-white/5"
+                atingida ? "bg-accent" : "border border-white/15 bg-white/5"
               }`}
             />
           );

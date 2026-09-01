@@ -57,7 +57,7 @@ export default function MetaDiariaCard({
   const hrefComecar = categoriaRecomendada ? `/assuntos/${categoriaRecomendada.id}` : "/assuntos";
 
   return (
-    <div id="meta-diaria" className="scroll-mt-4 rounded-xl border border-white/10 bg-white/[0.03] p-5">
+    <div id="meta-diaria" className="scroll-mt-4 rounded-2xl border border-white/10 bg-white/[0.03] p-5">
       <div className="flex items-center gap-4">
         <div
           className={`flex h-12 w-12 shrink-0 items-center justify-center rounded-full ${
@@ -74,7 +74,7 @@ export default function MetaDiariaCard({
                 type="button"
                 onClick={abrirEdicao}
                 aria-label="Editar meta diária"
-                className="text-slate-500 transition hover:text-amber-400"
+                className="text-slate-500 transition hover:text-accent"
               >
                 <Pencil className="h-3.5 w-3.5" />
               </button>
@@ -103,11 +103,11 @@ export default function MetaDiariaCard({
                 value={rascunho}
                 onChange={(e) => setRascunho(e.target.value)}
                 autoFocus
-                className="w-16 rounded-md border border-white/10 bg-white/5 px-2 py-1 text-sm text-white focus:border-amber-400 focus:outline-none"
+                className="w-16 rounded-md border border-white/10 bg-white/5 px-2 py-1 text-sm text-white focus:border-accent focus:outline-none"
               />
               <button
                 type="submit"
-                className="rounded-md bg-amber-500 px-3 py-1 text-xs font-semibold text-gray-950 hover:opacity-90"
+                className="rounded-full bg-accent-pale px-3 py-1 text-xs font-semibold text-accent-deep transition hover:bg-accent-soft"
               >
                 Salvar
               </button>
@@ -128,7 +128,7 @@ export default function MetaDiariaCard({
                 <span>Tempo estimado: {tempoEstimadoMin} min</span>
               </div>
               <div className="h-1.5 w-full overflow-hidden rounded-full bg-white/10">
-                <div className="h-full rounded-full bg-amber-500" style={{ width: `${pct}%` }} />
+                <div className="h-full rounded-full bg-accent" style={{ width: `${pct}%` }} />
               </div>
             </>
           )}
@@ -137,7 +137,7 @@ export default function MetaDiariaCard({
 
       <Link
         href={hrefComecar}
-        className="mt-4 inline-block rounded-lg bg-amber-500 px-5 py-2.5 text-sm font-semibold text-gray-950 transition hover:opacity-90"
+        className="btn-primary mt-4"
       >
         {progresso.atual > 0 ? "Continuar estudando" : "Começar agora"}
       </Link>

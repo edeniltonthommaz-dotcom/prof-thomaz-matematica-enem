@@ -19,7 +19,7 @@ export async function GET(request: Request) {
           justifyContent: "center",
           alignItems: "flex-start",
           padding: "80px",
-          background: "linear-gradient(135deg, #1f2937 0%, #0b1120 100%)",
+          background: "linear-gradient(135deg, #1f2937 0%, #070b12 100%)",
         }}
       >
         <div

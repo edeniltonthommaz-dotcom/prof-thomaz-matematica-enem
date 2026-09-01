@@ -39,7 +39,7 @@ export default function FavoritosList({
       {itens.map(({ id, info }) => (
         <div
           key={id}
-          className="flex items-center justify-between gap-3 rounded-lg border border-white/10 bg-white/[0.03] p-4"
+          className="flex items-center justify-between gap-3 rounded-xl border border-white/10 bg-white/[0.03] p-4"
         >
           <div className="min-w-0">
             <p className="truncate text-sm font-semibold text-white">{info.categoriaNome}</p>
@@ -48,7 +48,7 @@ export default function FavoritosList({
           <div className="flex shrink-0 items-center gap-3">
             <Link
               href={`/assuntos/${info.categoriaId}/${id}`}
-              className="rounded-lg border border-white/10 px-3 py-1.5 text-xs font-semibold text-slate-200 hover:bg-white/5"
+              className="rounded-full border border-white/15 px-3 py-1.5 text-xs font-semibold text-slate-200 transition hover:border-white/25 hover:bg-white/5"
             >
               Abrir
             </Link>

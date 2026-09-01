@@ -33,14 +33,14 @@ export default function ConquistasGrid({ conquistas }: { conquistas: StatusConqu
                 <div
                   key={c.id}
                   title={c.descricao}
-                  className={`flex items-center gap-2.5 rounded-lg border px-3 py-2.5 ${
+                  className={`flex items-center gap-2.5 rounded-xl border px-3 py-2.5 ${
                     c.desbloqueada
-                      ? "border-gray-400/40 bg-gray-400/10"
+                      ? "border-accent/40 bg-accent/10"
                       : "border-white/10 bg-white/[0.02] opacity-60"
                   }`}
                 >
                   <Icone
-                    className={`h-5 w-5 shrink-0 ${c.desbloqueada ? "text-gray-200" : "text-slate-500"}`}
+                    className={`h-5 w-5 shrink-0 ${c.desbloqueada ? "text-accent-soft" : "text-slate-500"}`}
                   />
                   <div className="min-w-0">
                     <p

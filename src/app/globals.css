@@ -1,19 +1,74 @@
 @import "tailwindcss";
 
 :root {
-  --background: #0b1120;
-  --foreground: #e5e7eb;
+  --background: #070b12;
+  --foreground: #eef3f9;
+
+  --accent: #22d3ee;
+  --accent-soft: #7fe4f4;
+  --accent-pale: #cffafe;
+  --accent-deep: #06222a;
+
+  --font-display: var(--font-jakarta), var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+
+  --color-accent: var(--accent);
+  --color-accent-soft: var(--accent-soft);
+  --color-accent-pale: var(--accent-pale);
+  --color-accent-deep: var(--accent-deep);
+
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --font-display: var(--font-jakarta), var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: var(--font-sans), Arial, Helvetica, sans-serif;
+@layer base {
+  body {
+    background:
+      radial-gradient(circle at 50% -15%, rgba(56, 189, 248, 0.12), transparent 42%),
+      radial-gradient(circle at 85% 3%, rgba(45, 212, 191, 0.06), transparent 34%),
+      var(--background);
+    background-attachment: fixed;
+    color: var(--foreground);
+    font-family: var(--font-sans), Arial, Helvetica, sans-serif;
+  }
+
+  /* plano cartesiano como textura de fundo — vocabulário do assunto,
+     esmaecendo pra fora do topo pra não competir com o conteúdo */
+  body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    pointer-events: none;
+    background-image:
+      linear-gradient(rgba(255, 255, 255, 0.02) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+    background-size: 48px 48px;
+    -webkit-mask-image: radial-gradient(ellipse 85% 55% at 50% 0%, #000, transparent 80%);
+            mask-image: radial-gradient(ellipse 85% 55% at 50% 0%, #000, transparent 80%);
+  }
+
+  h1, h2, h3, h4 {
+    font-family: var(--font-display);
+    letter-spacing: -0.025em;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded-full bg-accent-pale px-5 py-2.5
+           text-sm font-semibold text-accent-deep transition
+           hover:bg-accent-soft disabled:cursor-not-allowed disabled:opacity-40;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center gap-2 rounded-full border border-white/15
+           bg-white/[0.03] px-5 py-2.5 text-sm font-medium text-slate-200 transition
+           hover:border-white/25 hover:bg-white/[0.07];
+  }
 }

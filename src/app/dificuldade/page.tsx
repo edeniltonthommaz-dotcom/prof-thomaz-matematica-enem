@@ -32,7 +32,7 @@ export default function DificuldadePage() {
                   <Link
                     key={c.id}
                     href={`/assuntos/${c.id}?dif=${nivel}`}
-                    className="flex items-center justify-between rounded-lg border border-white/10 bg-white/[0.03] px-4 py-3 hover:bg-white/[0.06]"
+                    className="flex items-center justify-between rounded-xl border border-white/10 bg-white/[0.03] px-4 py-3 hover:bg-white/[0.06]"
                   >
                     <span className="text-sm text-slate-200">{c.nome}</span>
                     <span className="text-xs text-slate-400">{count} questões</span>

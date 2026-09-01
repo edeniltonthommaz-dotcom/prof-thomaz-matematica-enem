@@ -35,7 +35,7 @@ export default function DashboardHeader({ user }: { user: User | null }) {
         {avatarUrl ? (
           <Image src={avatarUrl} alt={nome} width={36} height={36} className="h-9 w-9 rounded-full" />
         ) : (
-          <div className="flex h-9 w-9 items-center justify-center rounded-full bg-gray-600/20 text-sm font-semibold text-gray-200">
+          <div className="flex h-9 w-9 items-center justify-center rounded-full bg-accent/12 text-sm font-semibold text-accent-soft">
             {primeiroNome.charAt(0).toUpperCase()}
           </div>
         )}

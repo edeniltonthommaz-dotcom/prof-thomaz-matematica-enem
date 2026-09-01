@@ -70,13 +70,13 @@ export default function CelebracaoModal({
       onClick={onFechar}
     >
       <div
-        className="w-full max-w-sm rounded-2xl border border-gray-400/30 bg-[#0f1729] p-6 text-center shadow-2xl shadow-black/40"
+        className="w-full max-w-sm rounded-2xl border border-accent/30 bg-[#0c1320] p-6 text-center shadow-2xl shadow-black/40"
         onClick={(e) => e.stopPropagation()}
       >
-        <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-gray-600/20 text-gray-200">
+        <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-accent/12 text-accent-soft">
           <Icone className="h-8 w-8" />
         </div>
-        <p className="text-xs font-semibold uppercase tracking-wide text-gray-300">{rotulo}</p>
+        <p className="text-xs font-semibold uppercase tracking-wide text-accent-soft">{rotulo}</p>
         <h2 id="celebracao-titulo" className="mt-1 text-2xl font-bold text-white">
           {titulo}
         </h2>
@@ -84,7 +84,7 @@ export default function CelebracaoModal({
         <button
           ref={botaoRef}
           onClick={onFechar}
-          className="mt-6 w-full rounded-lg bg-gray-600 px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-gray-500"
+          className="btn-primary mt-6 w-full"
         >
           Continuar
         </button>

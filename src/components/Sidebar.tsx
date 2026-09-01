@@ -77,11 +77,13 @@ export function NavLinks({ pathname, onNavigate }: { pathname: string; onNavigat
           <Link
             key={item.href}
             href={item.href}
-            className={`flex items-center gap-2.5 rounded-md px-3 py-2 text-sm transition-colors ${
-              ativo ? "bg-white/[0.06] text-white" : "text-slate-300 hover:bg-white/5 hover:text-white"
+            className={`flex items-center gap-2.5 rounded-lg px-3 py-2 text-sm transition-colors ${
+              ativo
+                ? "bg-accent/10 text-white ring-1 ring-inset ring-accent/20"
+                : "text-slate-300 hover:bg-white/5 hover:text-white"
             }`}
           >
-            <Icon className={`h-4 w-4 shrink-0 ${ativo ? "text-gray-200" : "text-slate-400"}`} />
+            <Icon className={`h-4 w-4 shrink-0 ${ativo ? "text-accent-soft" : "text-slate-400"}`} />
             {item.label}
           </Link>
         );
@@ -96,7 +98,7 @@ export default function Sidebar({ user }: { user: User | null }) {
 
   return (
     <>
-      <header className="flex items-center justify-between border-b border-white/10 bg-[#0b1120]/95 px-4 py-3 backdrop-blur sticky top-0 z-10 lg:hidden">
+      <header className="flex items-center justify-between border-b border-white/10 bg-[#070b12]/95 px-4 py-3 backdrop-blur sticky top-0 z-10 lg:hidden">
         <Logo />
         <button
           type="button"
@@ -111,7 +113,7 @@ export default function Sidebar({ user }: { user: User | null }) {
 
       <MobileSidebar aberto={menuAberto} onFechar={() => setMenuAberto(false)} user={user} pathname={pathname} />
 
-      <aside className="hidden lg:sticky lg:top-0 lg:flex lg:h-svh lg:w-64 lg:shrink-0 lg:flex-col lg:gap-6 lg:overflow-y-auto lg:border-r lg:border-white/10 lg:bg-[#0b1120] lg:px-4 lg:py-6">
+      <aside className="hidden lg:sticky lg:top-0 lg:flex lg:h-svh lg:w-64 lg:shrink-0 lg:flex-col lg:gap-6 lg:overflow-y-auto lg:border-r lg:border-white/10 lg:bg-[#070b12] lg:px-4 lg:py-6">
         <Logo />
         <NavLinks pathname={pathname} />
         <div className="mt-auto border-t border-white/10 pt-4">

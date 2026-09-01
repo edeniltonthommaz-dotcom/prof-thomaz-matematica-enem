@@ -30,9 +30,9 @@ export default function FlashcardGrid({
                   type="button"
                   onClick={() => alternar(card.id)}
                   aria-label={virado ? "Ver pergunta" : "Ver fórmula"}
-                  className={`flex min-h-[9rem] flex-col justify-between rounded-xl border p-4 text-left transition ${
+                  className={`flex min-h-[9rem] flex-col justify-between rounded-2xl border p-4 text-left transition ${
                     virado
-                      ? "border-gray-400/40 bg-gray-400/10"
+                      ? "border-accent/40 bg-accent/10"
                       : "border-white/10 bg-white/[0.03] hover:border-white/20"
                   }`}
                 >
@@ -40,7 +40,7 @@ export default function FlashcardGrid({
                     <p className="mb-2 text-[11px] font-semibold uppercase tracking-wide text-slate-500">
                       {card.subtopico}
                     </p>
-                    <p className={`text-sm ${virado ? "font-mono text-base text-gray-200" : "text-slate-100"}`}>
+                    <p className={`text-sm ${virado ? "font-mono text-base text-accent-soft" : "text-slate-100"}`}>
                       {virado ? card.verso : card.frente}
                     </p>
                   </div>

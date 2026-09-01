@@ -9,7 +9,7 @@ const AREA_H = VB_H - PAD * 2;
 const STROKE = "#8a93a6";
 const STROKE_SOFT = "#5b6577";
 const LABEL = "#cbd5e1";
-const FILL = "#3987e5";
+const FILL = "#22c9dd";
 
 function clamp(v: number, min: number, max: number) {
   return Math.max(min, Math.min(max, v));

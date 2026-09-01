@@ -71,7 +71,7 @@ export default function SimuladoPlayer({ questoes }: { questoes: QuestaoComCateg
   function estiloAlternativa(letra: Alternativa["letra"]) {
     if (!respondida) {
       return selecionada === letra
-        ? "border-gray-400 bg-gray-400/10"
+        ? "border-accent bg-accent/10"
         : "border-white/10 bg-white/[0.02] hover:bg-white/5";
     }
     if (letra === questao.correta) return "border-emerald-500/50 bg-emerald-500/15";
@@ -94,7 +94,7 @@ export default function SimuladoPlayer({ questoes }: { questoes: QuestaoComCateg
         <button
           type="button"
           onClick={() => router.refresh()}
-          className="inline-flex items-center gap-2 rounded-lg bg-gray-600 px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-gray-500"
+          className="btn-primary"
         >
           <RotateCcw className="h-4 w-4" />
           Refazer com novas questões
@@ -107,7 +107,7 @@ export default function SimuladoPlayer({ questoes }: { questoes: QuestaoComCateg
 
   return (
     <div className="mx-auto max-w-3xl px-4 py-10">
-      <p className="mb-1 text-xs font-semibold uppercase tracking-wide text-gray-400">
+      <p className="mb-1 text-xs font-semibold uppercase tracking-wide text-accent-soft">
         Simulado › {questao.categoriaNome} › {questao.subtopico}
       </p>
       <div className="mb-6 flex items-center justify-between">
@@ -117,7 +117,7 @@ export default function SimuladoPlayer({ questoes }: { questoes: QuestaoComCateg
         </span>
       </div>
 
-      <p className="mb-4 text-lg leading-relaxed text-slate-100">{questao.enunciado}</p>
+      <p className="mb-4 text-lg leading-relaxed text-slate-50">{questao.enunciado}</p>
 
       <div className="mb-6 flex flex-col gap-3">
         {questao.alternativas.map((alt) => (
@@ -125,7 +125,7 @@ export default function SimuladoPlayer({ questoes }: { questoes: QuestaoComCateg
             key={alt.letra}
             onClick={() => escolher(alt.letra)}
             disabled={respondida}
-            className={`flex items-start gap-3 rounded-lg border px-4 py-3 text-left transition ${estiloAlternativa(alt.letra)}`}
+            className={`flex items-start gap-3 rounded-xl border px-4 py-3 text-left transition ${estiloAlternativa(alt.letra)}`}
           >
             <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full border border-white/20 text-xs font-semibold">
               {alt.letra}
@@ -139,14 +139,14 @@ export default function SimuladoPlayer({ questoes }: { questoes: QuestaoComCateg
         <button
           onClick={responder}
           disabled={!selecionada}
-          className="rounded-lg bg-gray-600 px-5 py-2.5 text-sm font-semibold text-white transition disabled:cursor-not-allowed disabled:opacity-40 hover:bg-gray-500"
+          className="btn-primary"
         >
           Responder
         </button>
       ) : (
         <div className="flex flex-col gap-4">
           <div
-            className={`rounded-lg border px-4 py-3 text-sm ${
+            className={`rounded-xl border px-4 py-3 text-sm ${
               acertou
                 ? "border-emerald-500/40 bg-emerald-500/10 text-emerald-300"
                 : "border-rose-500/40 bg-rose-500/10 text-rose-300"
@@ -160,17 +160,20 @@ export default function SimuladoPlayer({ questoes }: { questoes: QuestaoComCateg
             )}
           </div>
 
-          <div className="rounded-lg border border-white/10 bg-white/[0.03] p-4">
-            <p className="mb-1 text-xs font-semibold uppercase tracking-wide text-slate-400">
+          <div className="rounded-xl border border-l-2 border-accent/20 border-l-accent bg-gradient-to-b from-accent/[0.08] to-accent/[0.02] p-4">
+            <p className="mb-1 text-xs font-semibold uppercase tracking-wide text-accent-soft">
               Resolução comentada
             </p>
             <p className="text-sm text-slate-200">{questao.explicacao}</p>
+            <p className="mt-3 font-mono text-xs font-medium uppercase tracking-wider text-emerald-400">
+              Gabarito: {questao.correta}
+            </p>
           </div>
 
           <div className="flex items-center justify-end pt-2">
             <button
               onClick={proxima}
-              className="rounded-lg bg-gray-600 px-4 py-2 text-sm font-medium text-white hover:bg-gray-500"
+              className="btn-primary"
             >
               {ultima ? "Ver resultado" : "Próxima questão →"}
             </button>
