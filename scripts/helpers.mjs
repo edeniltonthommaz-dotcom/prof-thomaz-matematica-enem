@@ -1,11 +1,27 @@
+export const SEED = 20260828;
+
+let _rngState = SEED >>> 0;
+
+// mulberry32 — PRNG determinístico de 32 bits
+function _next() {
+  _rngState = (_rngState + 0x6d2b79f5) | 0;
+  let t = Math.imul(_rngState ^ (_rngState >>> 15), 1 | _rngState);
+  t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t;
+  return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+}
+
+export function resetRng(seed = SEED) {
+  _rngState = seed >>> 0;
+}
+
 let idCounter = 0;
 
 export function randInt(min, max) {
-  return Math.floor(Math.random() * (max - min + 1)) + min;
+  return Math.floor(_next() * (max - min + 1)) + min;
 }
 
 export function randFloat(min, max, decimals = 2) {
-  const v = Math.random() * (max - min) + min;
+  const v = _next() * (max - min) + min;
   return Number(v.toFixed(decimals));
 }
 
@@ -33,6 +49,10 @@ export function pct(v) {
 export function nextId(categoriaId) {
   idCounter += 1;
   return `${categoriaId}-ined-${idCounter.toString().padStart(4, "0")}`;
+}
+
+export function resetIdCounter() {
+  idCounter = 0;
 }
 
 function gcd(a, b) {

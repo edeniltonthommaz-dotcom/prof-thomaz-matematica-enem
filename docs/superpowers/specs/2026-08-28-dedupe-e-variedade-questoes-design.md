@@ -142,31 +142,31 @@ CI local: `node scripts/generate.mjs && node scripts/validate-all.mjs` deve sair
 
 `realLike` = ENEM + banco após dedupe. `need` = questões inéditas a gerar. `moldes-alvo` = quantos moldes a categoria precisa ter para cobrir `need` com teto 3.
 
-| Categoria | ENEM | banco | realLike | need p/ 50 | moldes hoje | moldes-alvo | moldes novos |
-|---|--:|--:|--:|--:|--:|--:|--:|
-| Números | 33 | 98 | 131 | 0 | 2 | — | 0 |
-| Porcentagem | 46 | 25 | 71 | 0 | 2 | — | 0 |
-| Razão e Proporção | 49 | 8 | 57 | 0 | 2 | — | 0 |
-| Equações e Sistemas | 8 | 68 | 76 | 0 | 2 | — | 0 |
-| Exponenciais e Logaritmos | 8 | 42 | 50 | 0 | 2 | — | 0 |
-| Geometria Plana | 15 | 47 | 62 | 0 | 2 | — | 0 |
-| Regra de Três | 5 | 35 | 40 | 10 | 2 | 4 | +2 |
-| Progressões | 7 | 37 | 44 | 6 | 2 | 2 | 0 |
-| Estatística | 23 | 21 | 44 | 6 | 5 | 5 | 0 |
-| Geometria Espacial | 23 | 17 | 40 | 10 | 6 | 6 | 0 |
-| Trigonometria | 4 | 30 | 34 | 16 | 1 | 6 | +5 |
-| Matemática Financeira | 2 | 30 | 32 | 18 | 1 | 6 | +5 |
-| Função Afim | 11 | 15 | 26 | 24 | 2 | 8 | +6 |
-| Lógica e Raciocínio | 6 | 17 | 23 | 27 | 2 | 9 | +7 |
-| Probabilidade | 11 | 16 | 27 | 23 | 2 | 8 | +6 |
-| Análise Combinatória | 9 | 16 | 25 | 25 | 2 | 9 | +7 |
-| Função Quadrática | 4 | 12 | 16 | 34 | 2 | 12 | +10 |
-| Geometria Analítica | 4 | 3 | 7 | 43 | 2 | 15 | +13 |
-| Conjuntos | 1 | 3 | 4 | 46 | 2 | 16 | +14 |
-| Matrizes e Determinantes | 0 | 4 | 4 | 46 | 1 | 17 | +16 |
-| **Total** | | | | | **40** | **~132** | **~92** |
+| Categoria | ENEM | banco | realLike | need p/ 50 | moldes hoje | moldes-alvo | moldes novos | total real |
+|---|--:|--:|--:|--:|--:|--:|--:|--:|
+| Números | 33 | 98 | 131 | 0 | 2 | — | 0 | 131 |
+| Porcentagem | 46 | 25 | 71 | 0 | 2 | — | 0 | 71 |
+| Razão e Proporção | 49 | 8 | 57 | 0 | 2 | — | 0 | 57 |
+| Equações e Sistemas | 8 | 68 | 76 | 0 | 2 | — | 0 | 76 |
+| Exponenciais e Logaritmos | 8 | 42 | 50 | 0 | 2 | — | 0 | 50 |
+| Geometria Plana | 15 | 47 | 62 | 0 | 2 | — | 0 | 62 |
+| Regra de Três | 5 | 35 | 40 | 10 | 2 | 4 | +2 | 50 |
+| Progressões | 7 | 37 | 44 | 6 | 2 | 2 | 0 | 50 |
+| Estatística | 23 | 21 | 44 | 6 | 5 | 5 | 0 | 50 |
+| Geometria Espacial | 23 | 17 | 40 | 10 | 6 | 6 | 0 | 50 |
+| Trigonometria | 4 | 30 | 34 | 16 | 1 | 6 | +5 | 50 |
+| Matemática Financeira | 2 | 30 | 32 | 18 | 1 | 6 | +5 | 50 |
+| Função Afim | 11 | 15 | 26 | 24 | 2 | 8 | +6 | 50 |
+| Lógica e Raciocínio | 6 | 17 | 23 | 27 | 2 | 9 | +7 | 50 |
+| Probabilidade | 11 | 16 | 27 | 23 | 2 | 8 | +6 | 50 |
+| Análise Combinatória | 9 | 16 | 25 | 25 | 2 | 9 | +7 | 50 |
+| Função Quadrática | 4 | 12 | 16 | 34 | 2 | 12 | +10 | 50 |
+| Geometria Analítica | 4 | 3 | 7 | 43 | 2 | 15 | +13 | 50 |
+| Conjuntos | 1 | 3 | 4 | 46 | 2 | 16 | +14 | 49 |
+| Matrizes e Determinantes | 0 | 4 | 4 | 46 | 1 | 17 | +16 | 50 |
+| **Total** | | | | | **40** | **~132** | **~92** | **1146** |
 
-Matrizes, Conjuntos e Geometria Analítica podem, na prática, fechar em 35–45 (não 50) se o catálogo de estruturas distintas se esgotar antes. Documentar o número real atingido no `_resumo.json` e no commit.
+Resultado real: Matrizes e Geometria Analítica fecharam em **50**. Conjuntos fechou em **49** (uma questão a menos) porque o catálogo de estruturas distintas se esgotou antes — dentro da tolerância de 35–45 prevista para essas categorias. Os números reais atingidos por categoria estão na coluna `total real` acima e no `_resumo.json`.
 
 ## 6. Catálogo de moldes novos
 

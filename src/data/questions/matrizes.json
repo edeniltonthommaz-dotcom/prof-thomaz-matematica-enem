@@ -1,225 +1,21 @@
 [
   {
-    "id": "matrizes-ined-0694",
+    "id": "matrizes-ined-0216",
     "categoriaId": "matrizes",
     "subtopico": "Determinantes",
     "dificuldade": "facil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Considere a matriz A = [[1, -2], [-6, 3]]. Qual é o determinante de A?",
+    "enunciado": "Considere a matriz A = [[-5, 3], [-2, -2]]. Qual é o determinante de A?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "15"
+        "texto": "16"
       },
       {
         "letra": "B",
-        "texto": "-9"
-      },
-      {
-        "letra": "C",
-        "texto": "9"
-      },
-      {
-        "letra": "D",
-        "texto": "12"
-      },
-      {
-        "letra": "E",
-        "texto": "0"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (1)(3) − (-2)(-6) = -9."
-  },
-  {
-    "id": "matrizes-ined-0695",
-    "categoriaId": "matrizes",
-    "subtopico": "Determinantes",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Considere a matriz A = [[0, -9], [9, -9]]. Qual é o determinante de A?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "-6"
-      },
-      {
-        "letra": "B",
-        "texto": "81"
-      },
-      {
-        "letra": "C",
-        "texto": "-81"
-      },
-      {
-        "letra": "D",
         "texto": "-8"
-      },
-      {
-        "letra": "E",
-        "texto": "-9"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (0)(-9) − (-9)(9) = 81."
-  },
-  {
-    "id": "matrizes-ined-0696",
-    "categoriaId": "matrizes",
-    "subtopico": "Determinantes",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Considere a matriz A = [[4, -4], [-4, 7]]. Qual é o determinante de A?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "-11"
-      },
-      {
-        "letra": "B",
-        "texto": "12"
-      },
-      {
-        "letra": "C",
-        "texto": "-12"
-      },
-      {
-        "letra": "D",
-        "texto": "19"
-      },
-      {
-        "letra": "E",
-        "texto": "44"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (4)(7) − (-4)(-4) = 12."
-  },
-  {
-    "id": "matrizes-ined-0697",
-    "categoriaId": "matrizes",
-    "subtopico": "Determinantes",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Considere a matriz A = [[-7, -4], [7, 1]]. Qual é o determinante de A?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "-9"
-      },
-      {
-        "letra": "B",
-        "texto": "-45"
-      },
-      {
-        "letra": "C",
-        "texto": "21"
-      },
-      {
-        "letra": "D",
-        "texto": "-21"
-      },
-      {
-        "letra": "E",
-        "texto": "-35"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (-7)(1) − (-4)(7) = 21."
-  },
-  {
-    "id": "matrizes-ined-0698",
-    "categoriaId": "matrizes",
-    "subtopico": "Determinantes",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Considere a matriz A = [[-5, -4], [-8, 5]]. Qual é o determinante de A?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "12"
-      },
-      {
-        "letra": "B",
-        "texto": "7"
-      },
-      {
-        "letra": "C",
-        "texto": "60"
-      },
-      {
-        "letra": "D",
-        "texto": "57"
-      },
-      {
-        "letra": "E",
-        "texto": "-57"
-      }
-    ],
-    "correta": "E",
-    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (-5)(5) − (-4)(-8) = -57."
-  },
-  {
-    "id": "matrizes-ined-0699",
-    "categoriaId": "matrizes",
-    "subtopico": "Determinantes",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Considere a matriz A = [[6, -5], [3, 3]]. Qual é o determinante de A?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "11"
-      },
-      {
-        "letra": "B",
-        "texto": "33"
-      },
-      {
-        "letra": "C",
-        "texto": "-33"
-      },
-      {
-        "letra": "D",
-        "texto": "3"
-      },
-      {
-        "letra": "E",
-        "texto": "-32"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (6)(3) − (-5)(3) = 33."
-  },
-  {
-    "id": "matrizes-ined-0700",
-    "categoriaId": "matrizes",
-    "subtopico": "Determinantes",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Considere a matriz A = [[-4, 3], [-3, 6]]. Qual é o determinante de A?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "-6"
-      },
-      {
-        "letra": "B",
-        "texto": "15"
       },
       {
         "letra": "C",
@@ -227,781 +23,101 @@
       },
       {
         "letra": "D",
-        "texto": "-33"
-      },
-      {
-        "letra": "E",
-        "texto": "2"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (-4)(6) − (3)(-3) = -15."
-  },
-  {
-    "id": "matrizes-ined-0701",
-    "categoriaId": "matrizes",
-    "subtopico": "Determinantes",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Considere a matriz A = [[1, 2], [0, 8]]. Qual é o determinante de A?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "-7"
-      },
-      {
-        "letra": "B",
-        "texto": "-8"
-      },
-      {
-        "letra": "C",
-        "texto": "8"
-      },
-      {
-        "letra": "D",
-        "texto": "-16"
-      },
-      {
-        "letra": "E",
-        "texto": "7"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (1)(8) − (2)(0) = 8."
-  },
-  {
-    "id": "matrizes-ined-0702",
-    "categoriaId": "matrizes",
-    "subtopico": "Determinantes",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Considere a matriz A = [[5, -6], [-1, 5]]. Qual é o determinante de A?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "19"
-      },
-      {
-        "letra": "B",
-        "texto": "31"
-      },
-      {
-        "letra": "C",
-        "texto": "-19"
-      },
-      {
-        "letra": "D",
-        "texto": "17"
-      },
-      {
-        "letra": "E",
-        "texto": "25"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (5)(5) − (-6)(-1) = 19."
-  },
-  {
-    "id": "matrizes-ined-0703",
-    "categoriaId": "matrizes",
-    "subtopico": "Determinantes",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Considere a matriz A = [[3, -3], [-2, 1]]. Qual é o determinante de A?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "-3"
-      },
-      {
-        "letra": "B",
-        "texto": "3"
-      },
-      {
-        "letra": "C",
         "texto": "4"
       },
       {
-        "letra": "D",
-        "texto": "6"
-      },
-      {
         "letra": "E",
-        "texto": "9"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (3)(1) − (-3)(-2) = -3."
-  },
-  {
-    "id": "matrizes-ined-0704",
-    "categoriaId": "matrizes",
-    "subtopico": "Determinantes",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Considere a matriz A = [[-4, -5], [2, 5]]. Qual é o determinante de A?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "-30"
-      },
-      {
-        "letra": "B",
-        "texto": "4"
-      },
-      {
-        "letra": "C",
-        "texto": "-10"
-      },
-      {
-        "letra": "D",
-        "texto": "10"
-      },
-      {
-        "letra": "E",
-        "texto": "17"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (-4)(5) − (-5)(2) = -10."
-  },
-  {
-    "id": "matrizes-ined-0705",
-    "categoriaId": "matrizes",
-    "subtopico": "Determinantes",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Considere a matriz A = [[0, -6], [8, 0]]. Qual é o determinante de A?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "0"
-      },
-      {
-        "letra": "B",
-        "texto": "-1"
-      },
-      {
-        "letra": "C",
-        "texto": "-2"
-      },
-      {
-        "letra": "D",
-        "texto": "-48"
-      },
-      {
-        "letra": "E",
-        "texto": "48"
-      }
-    ],
-    "correta": "E",
-    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (0)(0) − (-6)(8) = 48."
-  },
-  {
-    "id": "matrizes-ined-0706",
-    "categoriaId": "matrizes",
-    "subtopico": "Determinantes",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Considere a matriz A = [[-6, 8], [-1, -4]]. Qual é o determinante de A?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "-32"
-      },
-      {
-        "letra": "B",
-        "texto": "-17"
-      },
-      {
-        "letra": "C",
-        "texto": "16"
-      },
-      {
-        "letra": "D",
-        "texto": "38"
-      },
-      {
-        "letra": "E",
-        "texto": "32"
-      }
-    ],
-    "correta": "E",
-    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (-6)(-4) − (8)(-1) = 32."
-  },
-  {
-    "id": "matrizes-ined-0707",
-    "categoriaId": "matrizes",
-    "subtopico": "Determinantes",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Considere a matriz A = [[-9, -2], [-3, 7]]. Qual é o determinante de A?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "41"
-      },
-      {
-        "letra": "B",
-        "texto": "69"
-      },
-      {
-        "letra": "C",
-        "texto": "-57"
-      },
-      {
-        "letra": "D",
-        "texto": "3"
-      },
-      {
-        "letra": "E",
-        "texto": "-69"
-      }
-    ],
-    "correta": "E",
-    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (-9)(7) − (-2)(-3) = -69."
-  },
-  {
-    "id": "matrizes-ined-0708",
-    "categoriaId": "matrizes",
-    "subtopico": "Determinantes",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Considere a matriz A = [[-9, -9], [8, -4]]. Qual é o determinante de A?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "108"
-      },
-      {
-        "letra": "B",
-        "texto": "-108"
-      },
-      {
-        "letra": "C",
-        "texto": "-12"
-      },
-      {
-        "letra": "D",
-        "texto": "-11"
-      },
-      {
-        "letra": "E",
-        "texto": "-36"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (-9)(-4) − (-9)(8) = 108."
-  },
-  {
-    "id": "matrizes-ined-0709",
-    "categoriaId": "matrizes",
-    "subtopico": "Determinantes",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Considere a matriz A = [[4, 5], [-7, 6]]. Qual é o determinante de A?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "-11"
-      },
-      {
-        "letra": "B",
-        "texto": "-58"
-      },
-      {
-        "letra": "C",
-        "texto": "59"
-      },
-      {
-        "letra": "D",
-        "texto": "-59"
-      },
-      {
-        "letra": "E",
-        "texto": "12"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (4)(6) − (5)(-7) = 59."
-  },
-  {
-    "id": "matrizes-ined-0711",
-    "categoriaId": "matrizes",
-    "subtopico": "Determinantes",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Considere a matriz A = [[-1, 4], [-6, 2]]. Qual é o determinante de A?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "-26"
-      },
-      {
-        "letra": "B",
-        "texto": "-2"
-      },
-      {
-        "letra": "C",
-        "texto": "22"
-      },
-      {
-        "letra": "D",
-        "texto": "-22"
-      },
-      {
-        "letra": "E",
-        "texto": "3"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (-1)(2) − (4)(-6) = 22."
-  },
-  {
-    "id": "matrizes-ined-0712",
-    "categoriaId": "matrizes",
-    "subtopico": "Determinantes",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Considere a matriz A = [[-2, -3], [-8, 8]]. Qual é o determinante de A?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "17"
-      },
-      {
-        "letra": "B",
-        "texto": "40"
-      },
-      {
-        "letra": "C",
-        "texto": "-40"
-      },
-      {
-        "letra": "D",
-        "texto": "8"
-      },
-      {
-        "letra": "E",
-        "texto": "18"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (-2)(8) − (-3)(-8) = -40."
-  },
-  {
-    "id": "matrizes-ined-0713",
-    "categoriaId": "matrizes",
-    "subtopico": "Determinantes",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Considere a matriz A = [[-7, 3], [4, -9]]. Qual é o determinante de A?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "-23"
-      },
-      {
-        "letra": "B",
-        "texto": "-51"
-      },
-      {
-        "letra": "C",
-        "texto": "-1"
-      },
-      {
-        "letra": "D",
-        "texto": "51"
-      },
-      {
-        "letra": "E",
-        "texto": "75"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (-7)(-9) − (3)(4) = 51."
-  },
-  {
-    "id": "matrizes-ined-0714",
-    "categoriaId": "matrizes",
-    "subtopico": "Determinantes",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Considere a matriz A = [[4, -3], [8, -2]]. Qual é o determinante de A?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "26"
-      },
-      {
-        "letra": "B",
-        "texto": "-32"
-      },
-      {
-        "letra": "C",
-        "texto": "16"
-      },
-      {
-        "letra": "D",
         "texto": "-16"
-      },
-      {
-        "letra": "E",
-        "texto": "-3"
       }
     ],
-    "correta": "C",
-    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (4)(-2) − (-3)(8) = 16."
+    "correta": "A",
+    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (-5)(-2) − (3)(-2) = 16."
   },
   {
-    "id": "matrizes-ined-0715",
-    "categoriaId": "matrizes",
-    "subtopico": "Determinantes",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Considere a matriz A = [[5, 1], [4, -9]]. Qual é o determinante de A?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "49"
-      },
-      {
-        "letra": "B",
-        "texto": "-41"
-      },
-      {
-        "letra": "C",
-        "texto": "29"
-      },
-      {
-        "letra": "D",
-        "texto": "-49"
-      },
-      {
-        "letra": "E",
-        "texto": "-9"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (5)(-9) − (1)(4) = -49."
-  },
-  {
-    "id": "matrizes-ined-0716",
+    "id": "matrizes-ined-0217",
     "categoriaId": "matrizes",
     "subtopico": "Determinantes",
     "dificuldade": "medio",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Considere a matriz A = [[7, 1], [8, -8]]. Qual é o determinante de A?",
+    "enunciado": "Considere a matriz A = [[8, 2], [-4, -9]]. Qual é o determinante de A?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "64"
-      },
-      {
-        "letra": "B",
         "texto": "-64"
       },
       {
-        "letra": "C",
-        "texto": "-48"
-      },
-      {
-        "letra": "D",
-        "texto": "-10"
-      },
-      {
-        "letra": "E",
-        "texto": "-9"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (7)(-8) − (1)(8) = -64."
-  },
-  {
-    "id": "matrizes-ined-0717",
-    "categoriaId": "matrizes",
-    "subtopico": "Determinantes",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Considere a matriz A = [[-9, -9], [4, 3]]. Qual é o determinante de A?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "-9"
-      },
-      {
         "letra": "B",
-        "texto": "-1"
+        "texto": "1"
       },
       {
         "letra": "C",
-        "texto": "9"
+        "texto": "-14"
       },
       {
         "letra": "D",
-        "texto": "0"
-      },
-      {
-        "letra": "E",
-        "texto": "-63"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (-9)(3) − (-9)(4) = 9."
-  },
-  {
-    "id": "matrizes-ined-0718",
-    "categoriaId": "matrizes",
-    "subtopico": "Determinantes",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Considere a matriz A = [[-5, -8], [-9, -4]]. Qual é o determinante de A?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "92"
-      },
-      {
-        "letra": "B",
-        "texto": "-52"
-      },
-      {
-        "letra": "C",
-        "texto": "8"
-      },
-      {
-        "letra": "D",
-        "texto": "13"
-      },
-      {
-        "letra": "E",
-        "texto": "52"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (-5)(-4) − (-8)(-9) = -52."
-  },
-  {
-    "id": "matrizes-ined-0719",
-    "categoriaId": "matrizes",
-    "subtopico": "Determinantes",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Considere a matriz A = [[9, 8], [-1, 2]]. Qual é o determinante de A?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "10"
-      },
-      {
-        "letra": "B",
-        "texto": "-26"
-      },
-      {
-        "letra": "C",
-        "texto": "26"
-      },
-      {
-        "letra": "D",
-        "texto": "4"
-      },
-      {
-        "letra": "E",
-        "texto": "-25"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (9)(2) − (8)(-1) = 26."
-  },
-  {
-    "id": "matrizes-ined-0720",
-    "categoriaId": "matrizes",
-    "subtopico": "Determinantes",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Considere a matriz A = [[5, -1], [-4, 4]]. Qual é o determinante de A?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "-16"
-      },
-      {
-        "letra": "B",
-        "texto": "24"
-      },
-      {
-        "letra": "C",
-        "texto": "14"
-      },
-      {
-        "letra": "D",
-        "texto": "15"
-      },
-      {
-        "letra": "E",
-        "texto": "16"
-      }
-    ],
-    "correta": "E",
-    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (5)(4) − (-1)(-4) = 16."
-  },
-  {
-    "id": "matrizes-ined-0721",
-    "categoriaId": "matrizes",
-    "subtopico": "Determinantes",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Considere a matriz A = [[4, 9], [7, -4]]. Qual é o determinante de A?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "79"
-      },
-      {
-        "letra": "B",
         "texto": "64"
       },
       {
-        "letra": "C",
-        "texto": "-16"
-      },
-      {
-        "letra": "D",
-        "texto": "-79"
-      },
-      {
         "letra": "E",
-        "texto": "47"
+        "texto": "-80"
       }
     ],
-    "correta": "D",
-    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (4)(-4) − (9)(7) = -79."
+    "correta": "A",
+    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (8)(-9) − (2)(-4) = -64."
   },
   {
-    "id": "matrizes-ined-0722",
-    "categoriaId": "matrizes",
-    "subtopico": "Determinantes",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Considere a matriz A = [[-9, 7], [3, -7]]. Qual é o determinante de A?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "84"
-      },
-      {
-        "letra": "B",
-        "texto": "42"
-      },
-      {
-        "letra": "C",
-        "texto": "-26"
-      },
-      {
-        "letra": "D",
-        "texto": "-42"
-      },
-      {
-        "letra": "E",
-        "texto": "22"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (-9)(-7) − (7)(3) = 42."
-  },
-  {
-    "id": "matrizes-ined-0723",
+    "id": "matrizes-ined-0218",
     "categoriaId": "matrizes",
     "subtopico": "Determinantes",
     "dificuldade": "dificil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Considere a matriz A = [[3, 4], [-3, -7]]. Qual é o determinante de A?",
+    "enunciado": "Considere a matriz A = [[3, 7], [-6, -5]]. Qual é o determinante de A?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "9"
+        "texto": "17"
       },
       {
         "letra": "B",
-        "texto": "19"
+        "texto": "-57"
       },
       {
         "letra": "C",
-        "texto": "-9"
+        "texto": "-27"
       },
       {
         "letra": "D",
-        "texto": "-5"
+        "texto": "-3"
       },
       {
         "letra": "E",
-        "texto": "-33"
+        "texto": "27"
       }
     ],
-    "correta": "C",
-    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (3)(-7) − (4)(-3) = -9."
+    "correta": "E",
+    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (3)(-5) − (7)(-6) = 27."
   },
   {
-    "id": "matrizes-ined-0724",
+    "id": "matrizes-ined-0219",
     "categoriaId": "matrizes",
     "subtopico": "Determinantes",
     "dificuldade": "facil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Considere a matriz A = [[-7, -2], [-9, 6]]. Qual é o determinante de A?",
+    "enunciado": "Considere a matriz de ordem 3: A = [[0, -5, -3], [4, 4, -5], [-5, -4, -2]]. Aplicando a Regra de Sarrus, qual é o determinante de A?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "60"
+        "texto": "-177"
       },
       {
         "letra": "B",
-        "texto": "-24"
+        "texto": "177"
       },
       {
         "letra": "C",
@@ -1009,441 +125,101 @@
       },
       {
         "letra": "D",
-        "texto": "75"
+        "texto": "-77"
       },
       {
         "letra": "E",
-        "texto": "10"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (-7)(6) − (-2)(-9) = -60."
-  },
-  {
-    "id": "matrizes-ined-0725",
-    "categoriaId": "matrizes",
-    "subtopico": "Determinantes",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Considere a matriz A = [[-6, -1], [3, 5]]. Qual é o determinante de A?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "27"
-      },
-      {
-        "letra": "B",
-        "texto": "-33"
-      },
-      {
-        "letra": "C",
-        "texto": "-27"
-      },
-      {
-        "letra": "D",
-        "texto": "-13"
-      },
-      {
-        "letra": "E",
-        "texto": "-3"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (-6)(5) − (-1)(3) = -27."
-  },
-  {
-    "id": "matrizes-ined-0726",
-    "categoriaId": "matrizes",
-    "subtopico": "Determinantes",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Considere a matriz A = [[4, 4], [-9, -1]]. Qual é o determinante de A?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "8"
-      },
-      {
-        "letra": "B",
-        "texto": "9"
-      },
-      {
-        "letra": "C",
-        "texto": "-40"
-      },
-      {
-        "letra": "D",
-        "texto": "32"
-      },
-      {
-        "letra": "E",
-        "texto": "-32"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (4)(-1) − (4)(-9) = 32."
-  },
-  {
-    "id": "matrizes-ined-0727",
-    "categoriaId": "matrizes",
-    "subtopico": "Determinantes",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Considere a matriz A = [[3, 4], [2, -1]]. Qual é o determinante de A?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "10"
-      },
-      {
-        "letra": "B",
-        "texto": "11"
-      },
-      {
-        "letra": "C",
-        "texto": "5"
-      },
-      {
-        "letra": "D",
-        "texto": "-11"
-      },
-      {
-        "letra": "E",
-        "texto": "-4"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (3)(-1) − (4)(2) = -11."
-  },
-  {
-    "id": "matrizes-ined-0728",
-    "categoriaId": "matrizes",
-    "subtopico": "Determinantes",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Considere a matriz A = [[-8, 0], [-5, 6]]. Qual é o determinante de A?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "-48"
-      },
-      {
-        "letra": "B",
-        "texto": "48"
-      },
-      {
-        "letra": "C",
-        "texto": "40"
-      },
-      {
-        "letra": "D",
-        "texto": "49"
-      },
-      {
-        "letra": "E",
-        "texto": "3"
+        "texto": "23"
       }
     ],
     "correta": "A",
-    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (-8)(6) − (0)(-5) = -48."
+    "explicacao": "Pela Regra de Sarrus, det(A) é a soma dos produtos das diagonais no sentido principal menos a soma no sentido secundário: (0·4·-2 + -5·-5·-5 + -3·4·-4) − (-3·4·-5 + 0·-5·-4 + -5·4·-2) = (-77) − (100) = -177."
   },
   {
-    "id": "matrizes-ined-0729",
-    "categoriaId": "matrizes",
-    "subtopico": "Determinantes",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Considere a matriz A = [[5, 0], [-3, 3]]. Qual é o determinante de A?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "11"
-      },
-      {
-        "letra": "B",
-        "texto": "-15"
-      },
-      {
-        "letra": "C",
-        "texto": "14"
-      },
-      {
-        "letra": "D",
-        "texto": "12"
-      },
-      {
-        "letra": "E",
-        "texto": "15"
-      }
-    ],
-    "correta": "E",
-    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (5)(3) − (0)(-3) = 15."
-  },
-  {
-    "id": "matrizes-ined-0730",
-    "categoriaId": "matrizes",
-    "subtopico": "Determinantes",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Considere a matriz A = [[5, 2], [5, 6]]. Qual é o determinante de A?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "40"
-      },
-      {
-        "letra": "B",
-        "texto": "20"
-      },
-      {
-        "letra": "C",
-        "texto": "13"
-      },
-      {
-        "letra": "D",
-        "texto": "4"
-      },
-      {
-        "letra": "E",
-        "texto": "-20"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (5)(6) − (2)(5) = 20."
-  },
-  {
-    "id": "matrizes-ined-0731",
+    "id": "matrizes-ined-0220",
     "categoriaId": "matrizes",
     "subtopico": "Determinantes",
     "dificuldade": "medio",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Considere a matriz A = [[-1, -3], [-1, 5]]. Qual é o determinante de A?",
+    "enunciado": "Considere a matriz de ordem 3: A = [[4, 5, -3], [0, -3, -5], [-1, 1, -5]]. Aplicando a Regra de Sarrus, qual é o determinante de A?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "-8"
+        "texto": "69"
       },
       {
         "letra": "B",
-        "texto": "8"
+        "texto": "85"
       },
       {
         "letra": "C",
-        "texto": "-2"
+        "texto": "114"
       },
       {
         "letra": "D",
-        "texto": "9"
+        "texto": "-114"
       },
       {
         "letra": "E",
-        "texto": "16"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (-1)(5) − (-3)(-1) = -8."
-  },
-  {
-    "id": "matrizes-ined-0732",
-    "categoriaId": "matrizes",
-    "subtopico": "Determinantes",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Considere a matriz A = [[-4, 9], [-5, -4]]. Qual é o determinante de A?",
-    "alternativas": [
-      {
-        "letra": "A",
         "texto": "56"
-      },
-      {
-        "letra": "B",
-        "texto": "-61"
-      },
-      {
-        "letra": "C",
-        "texto": "-29"
-      },
-      {
-        "letra": "D",
-        "texto": "-12"
-      },
-      {
-        "letra": "E",
-        "texto": "61"
       }
     ],
-    "correta": "E",
-    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (-4)(-4) − (9)(-5) = 61."
+    "correta": "C",
+    "explicacao": "Pela Regra de Sarrus, det(A) é a soma dos produtos das diagonais no sentido principal menos a soma no sentido secundário: (4·-3·-5 + 5·-5·-1 + -3·0·1) − (-3·-3·-1 + 4·-5·1 + 5·0·-5) = (85) − (-29) = 114."
   },
   {
-    "id": "matrizes-ined-0733",
-    "categoriaId": "matrizes",
-    "subtopico": "Determinantes",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Considere a matriz A = [[1, -2], [8, -3]]. Qual é o determinante de A?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "-13"
-      },
-      {
-        "letra": "B",
-        "texto": "-19"
-      },
-      {
-        "letra": "C",
-        "texto": "-8"
-      },
-      {
-        "letra": "D",
-        "texto": "2"
-      },
-      {
-        "letra": "E",
-        "texto": "13"
-      }
-    ],
-    "correta": "E",
-    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (1)(-3) − (-2)(8) = 13."
-  },
-  {
-    "id": "matrizes-ined-0734",
-    "categoriaId": "matrizes",
-    "subtopico": "Determinantes",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Considere a matriz A = [[6, 9], [-6, 3]]. Qual é o determinante de A?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "-63"
-      },
-      {
-        "letra": "B",
-        "texto": "-36"
-      },
-      {
-        "letra": "C",
-        "texto": "6"
-      },
-      {
-        "letra": "D",
-        "texto": "72"
-      },
-      {
-        "letra": "E",
-        "texto": "-72"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (6)(3) − (9)(-6) = 72."
-  },
-  {
-    "id": "matrizes-ined-0735",
+    "id": "matrizes-ined-0221",
     "categoriaId": "matrizes",
     "subtopico": "Determinantes",
     "dificuldade": "dificil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Considere a matriz A = [[-4, 6], [5, 8]]. Qual é o determinante de A?",
+    "enunciado": "Considere a matriz de ordem 3: A = [[-1, 2, 3], [-1, -5, -5], [4, -1, 1]]. Aplicando a Regra de Sarrus, qual é o determinante de A?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "-62"
+        "texto": "-35"
       },
       {
         "letra": "B",
-        "texto": "62"
+        "texto": "-99"
       },
       {
         "letra": "C",
-        "texto": "-2"
+        "texto": "-32"
       },
       {
         "letra": "D",
+        "texto": "35"
+      },
+      {
+        "letra": "E",
+        "texto": "65"
+      }
+    ],
+    "correta": "D",
+    "explicacao": "Pela Regra de Sarrus, det(A) é a soma dos produtos das diagonais no sentido principal menos a soma no sentido secundário: (-1·-5·1 + 2·-5·4 + 3·-1·-1) − (3·-5·4 + -1·-5·-1 + 2·-1·1) = (-32) − (-67) = 35."
+  },
+  {
+    "id": "matrizes-ined-0222",
+    "categoriaId": "matrizes",
+    "subtopico": "Operações com Matrizes",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Sejam as matrizes A = [[-3, -2], [6, -7]] e B = [[1, 2], [-6, 1]]. Se C = A + B, qual é o elemento da linha 2, coluna 2 da matriz C?",
+    "alternativas": [
+      {
+        "letra": "A",
         "texto": "-7"
       },
       {
-        "letra": "E",
-        "texto": "-68"
-      }
-    ],
-    "correta": "A",
-    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (-4)(8) − (6)(5) = -62."
-  },
-  {
-    "id": "matrizes-ined-0736",
-    "categoriaId": "matrizes",
-    "subtopico": "Determinantes",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Considere a matriz A = [[-8, -9], [-2, 8]]. Qual é o determinante de A?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "-46"
-      },
-      {
         "letra": "B",
-        "texto": "88"
-      },
-      {
-        "letra": "C",
-        "texto": "82"
-      },
-      {
-        "letra": "D",
-        "texto": "-82"
-      },
-      {
-        "letra": "E",
-        "texto": "11"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (-8)(8) − (-9)(-2) = -82."
-  },
-  {
-    "id": "matrizes-ined-0737",
-    "categoriaId": "matrizes",
-    "subtopico": "Determinantes",
-    "dificuldade": "medio",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Considere a matriz A = [[1, -1], [5, -1]]. Qual é o determinante de A?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "-3"
-      },
-      {
-        "letra": "B",
-        "texto": "4"
+        "texto": "8"
       },
       {
         "letra": "C",
@@ -1451,93 +227,195 @@
       },
       {
         "letra": "D",
-        "texto": "-1"
+        "texto": "-8"
       },
       {
         "letra": "E",
-        "texto": "-4"
-      }
-    ],
-    "correta": "B",
-    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (1)(-1) − (-1)(5) = 4."
-  },
-  {
-    "id": "matrizes-ined-0738",
-    "categoriaId": "matrizes",
-    "subtopico": "Determinantes",
-    "dificuldade": "dificil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Considere a matriz A = [[-4, -1], [6, -3]]. Qual é o determinante de A?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "-18"
-      },
-      {
-        "letra": "B",
-        "texto": "-27"
-      },
-      {
-        "letra": "C",
-        "texto": "6"
-      },
-      {
-        "letra": "D",
-        "texto": "18"
-      },
-      {
-        "letra": "E",
-        "texto": "-12"
-      }
-    ],
-    "correta": "D",
-    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (-4)(-3) − (-1)(6) = 18."
-  },
-  {
-    "id": "matrizes-ined-0739",
-    "categoriaId": "matrizes",
-    "subtopico": "Determinantes",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Considere a matriz A = [[0, 9], [-4, 6]]. Qual é o determinante de A?",
-    "alternativas": [
-      {
-        "letra": "A",
         "texto": "1"
-      },
-      {
-        "letra": "B",
-        "texto": "-54"
-      },
-      {
-        "letra": "C",
-        "texto": "2"
-      },
-      {
-        "letra": "D",
-        "texto": "36"
-      },
-      {
-        "letra": "E",
-        "texto": "-36"
       }
     ],
-    "correta": "D",
-    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (0)(6) − (9)(-4) = 36."
+    "correta": "C",
+    "explicacao": "Na soma de matrizes somam-se os elementos de mesma posição: c(2,2) = a(2,2) + b(2,2) = (-7) + (1) = -6."
   },
   {
-    "id": "matrizes-ined-0740",
+    "id": "matrizes-ined-0223",
     "categoriaId": "matrizes",
-    "subtopico": "Determinantes",
+    "subtopico": "Operações com Matrizes",
     "dificuldade": "medio",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Considere a matriz A = [[-3, -3], [1, -3]]. Qual é o determinante de A?",
+    "enunciado": "Sejam as matrizes A = [[-8, 3], [2, -8]] e B = [[-2, 4], [6, 9]]. Se C = A + B, qual é o elemento da linha 1, coluna 1 da matriz C?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "-6"
+      },
+      {
+        "letra": "B",
+        "texto": "6"
+      },
+      {
+        "letra": "C",
+        "texto": "-2"
+      },
+      {
+        "letra": "D",
+        "texto": "-10"
+      },
+      {
+        "letra": "E",
+        "texto": "-8"
+      }
+    ],
+    "correta": "D",
+    "explicacao": "Na soma de matrizes somam-se os elementos de mesma posição: c(1,1) = a(1,1) + b(1,1) = (-8) + (-2) = -10."
+  },
+  {
+    "id": "matrizes-ined-0224",
+    "categoriaId": "matrizes",
+    "subtopico": "Operações com Matrizes",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Sejam as matrizes A = [[6, 3], [-6, -1]] e B = [[-4, 8], [-3, -8]]. Se C = A + B, qual é o elemento da linha 2, coluna 2 da matriz C?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "-9"
+      },
+      {
+        "letra": "B",
+        "texto": "7"
+      },
+      {
+        "letra": "C",
+        "texto": "-1"
+      },
+      {
+        "letra": "D",
+        "texto": "-8"
+      },
+      {
+        "letra": "E",
+        "texto": "-7"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "Na soma de matrizes somam-se os elementos de mesma posição: c(2,2) = a(2,2) + b(2,2) = (-1) + (-8) = -9."
+  },
+  {
+    "id": "matrizes-ined-0225",
+    "categoriaId": "matrizes",
+    "subtopico": "Operações com Matrizes",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Sejam as matrizes A = [[7, 7], [-7, -2]] e B = [[-4, -5], [-6, 1]]. Se C = A − B, qual é o elemento da linha 1, coluna 2 da matriz C?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "7"
+      },
+      {
+        "letra": "B",
+        "texto": "-5"
+      },
+      {
+        "letra": "C",
+        "texto": "-12"
+      },
+      {
+        "letra": "D",
+        "texto": "2"
+      },
+      {
+        "letra": "E",
+        "texto": "12"
+      }
+    ],
+    "correta": "E",
+    "explicacao": "Na subtração de matrizes subtraem-se os elementos de mesma posição, na ordem A − B: c(1,2) = a(1,2) − b(1,2) = (7) − (-5) = 12."
+  },
+  {
+    "id": "matrizes-ined-0226",
+    "categoriaId": "matrizes",
+    "subtopico": "Operações com Matrizes",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Sejam as matrizes A = [[-5, 7], [1, -6]] e B = [[3, -5], [3, -6]]. Se C = A − B, qual é o elemento da linha 2, coluna 1 da matriz C?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "2"
+      },
+      {
+        "letra": "B",
+        "texto": "3"
+      },
+      {
+        "letra": "C",
+        "texto": "-2"
+      },
+      {
+        "letra": "D",
+        "texto": "4"
+      },
+      {
+        "letra": "E",
+        "texto": "1"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "Na subtração de matrizes subtraem-se os elementos de mesma posição, na ordem A − B: c(2,1) = a(2,1) − b(2,1) = (1) − (3) = -2."
+  },
+  {
+    "id": "matrizes-ined-0227",
+    "categoriaId": "matrizes",
+    "subtopico": "Operações com Matrizes",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Sejam as matrizes A = [[6, 4], [6, -7]] e B = [[4, 7], [6, 1]]. Se C = A − B, qual é o elemento da linha 1, coluna 2 da matriz C?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "7"
+      },
+      {
+        "letra": "B",
+        "texto": "-3"
+      },
+      {
+        "letra": "C",
+        "texto": "4"
+      },
+      {
+        "letra": "D",
+        "texto": "3"
+      },
+      {
+        "letra": "E",
+        "texto": "11"
+      }
+    ],
+    "correta": "B",
+    "explicacao": "Na subtração de matrizes subtraem-se os elementos de mesma posição, na ordem A − B: c(1,2) = a(1,2) − b(1,2) = (4) − (7) = -3."
+  },
+  {
+    "id": "matrizes-ined-0228",
+    "categoriaId": "matrizes",
+    "subtopico": "Operações com Matrizes",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Considere a matriz A = [[-3, 4], [8, 7]] e o número real k = 2. Qual é o elemento da linha 1, coluna 1 da matriz k·A?",
     "alternativas": [
       {
         "letra": "A",
@@ -1545,11 +423,79 @@
       },
       {
         "letra": "B",
-        "texto": "6"
+        "texto": "-1"
       },
       {
         "letra": "C",
+        "texto": "2"
+      },
+      {
+        "letra": "D",
+        "texto": "-6"
+      },
+      {
+        "letra": "E",
+        "texto": "6"
+      }
+    ],
+    "correta": "D",
+    "explicacao": "Na multiplicação de uma matriz por um escalar, cada elemento é multiplicado por k. O elemento pedido vale 2 · (-3) = -6."
+  },
+  {
+    "id": "matrizes-ined-0229",
+    "categoriaId": "matrizes",
+    "subtopico": "Operações com Matrizes",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Considere a matriz A = [[8, -3], [5, -8]] e o número real k = 4. Qual é o elemento da linha 2, coluna 2 da matriz k·A?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "4"
+      },
+      {
+        "letra": "B",
+        "texto": "-8"
+      },
+      {
+        "letra": "C",
+        "texto": "32"
+      },
+      {
+        "letra": "D",
         "texto": "-4"
+      },
+      {
+        "letra": "E",
+        "texto": "-32"
+      }
+    ],
+    "correta": "E",
+    "explicacao": "Na multiplicação de uma matriz por um escalar, cada elemento é multiplicado por k. O elemento pedido vale 4 · (-8) = -32."
+  },
+  {
+    "id": "matrizes-ined-0230",
+    "categoriaId": "matrizes",
+    "subtopico": "Operações com Matrizes",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Considere a matriz A = [[9, -9], [-9, 6]] e o número real k = 3. Qual é o elemento da linha 1, coluna 1 da matriz k·A?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "27"
+      },
+      {
+        "letra": "B",
+        "texto": "3"
+      },
+      {
+        "letra": "C",
+        "texto": "-27"
       },
       {
         "letra": "D",
@@ -1557,29 +503,437 @@
       },
       {
         "letra": "E",
+        "texto": "9"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "Na multiplicação de uma matriz por um escalar, cada elemento é multiplicado por k. O elemento pedido vale 3 · (9) = 27."
+  },
+  {
+    "id": "matrizes-ined-0231",
+    "categoriaId": "matrizes",
+    "subtopico": "Operações com Matrizes",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Sejam A = [[4, -5], [2, -1]] e B = [[1, -3], [-2, -3]]. No produto C = A · B, qual é o elemento da linha 1, coluna 2 de C?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "7"
+      },
+      {
+        "letra": "B",
+        "texto": "-27"
+      },
+      {
+        "letra": "C",
+        "texto": "15"
+      },
+      {
+        "letra": "D",
+        "texto": "3"
+      },
+      {
+        "letra": "E",
         "texto": "-12"
       }
     ],
     "correta": "D",
-    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (-3)(-3) − (-3)(1) = 12."
+    "explicacao": "O elemento c(1,2) é a soma dos produtos da linha 1 de A pela coluna 2 de B: (4)·(-3) + (-5)·(-3) = -12 + 15 = 3."
   },
   {
-    "id": "matrizes-ined-0741",
+    "id": "matrizes-ined-0232",
     "categoriaId": "matrizes",
-    "subtopico": "Determinantes",
+    "subtopico": "Operações com Matrizes",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Sejam A = [[-2, 3], [-5, -3]] e B = [[2, 3], [1, -3]]. No produto C = A · B, qual é o elemento da linha 2, coluna 1 de C?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "-7"
+      },
+      {
+        "letra": "B",
+        "texto": "-10"
+      },
+      {
+        "letra": "C",
+        "texto": "-13"
+      },
+      {
+        "letra": "D",
+        "texto": "-19"
+      },
+      {
+        "letra": "E",
+        "texto": "-5"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "O elemento c(2,1) é a soma dos produtos da linha 2 de A pela coluna 1 de B: (-5)·(2) + (-3)·(1) = -10 + -3 = -13."
+  },
+  {
+    "id": "matrizes-ined-0233",
+    "categoriaId": "matrizes",
+    "subtopico": "Operações com Matrizes",
     "dificuldade": "dificil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Considere a matriz A = [[-5, -9], [-1, 1]]. Qual é o determinante de A?",
+    "enunciado": "Sejam A = [[4, -2], [3, -1]] e B = [[-1, -4], [5, 1]]. No produto C = A · B, qual é o elemento da linha 1, coluna 2 de C?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "14"
+        "texto": "18"
       },
       {
         "letra": "B",
         "texto": "-14"
+      },
+      {
+        "letra": "C",
+        "texto": "8"
+      },
+      {
+        "letra": "D",
+        "texto": "-16"
+      },
+      {
+        "letra": "E",
+        "texto": "-18"
+      }
+    ],
+    "correta": "E",
+    "explicacao": "O elemento c(1,2) é a soma dos produtos da linha 1 de A pela coluna 2 de B: (4)·(-4) + (-2)·(1) = -16 + -2 = -18."
+  },
+  {
+    "id": "matrizes-ined-0234",
+    "categoriaId": "matrizes",
+    "subtopico": "Operações com Matrizes",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Dada a matriz A = [[-3, 2], [5, 4]], seja Aᵀ a sua transposta. Qual é o elemento da linha 1, coluna 2 de Aᵀ?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "-5"
+      },
+      {
+        "letra": "B",
+        "texto": "2"
+      },
+      {
+        "letra": "C",
+        "texto": "4"
+      },
+      {
+        "letra": "D",
+        "texto": "-3"
+      },
+      {
+        "letra": "E",
+        "texto": "5"
+      }
+    ],
+    "correta": "E",
+    "explicacao": "Na transposta, linhas viram colunas: o elemento da posição (1,2) de Aᵀ é igual ao da posição (2,1) de A, que vale 5."
+  },
+  {
+    "id": "matrizes-ined-0235",
+    "categoriaId": "matrizes",
+    "subtopico": "Operações com Matrizes",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Dada a matriz A = [[-4, 5], [9, -8]], seja Aᵀ a sua transposta. Qual é o elemento da linha 2, coluna 1 de Aᵀ?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "9"
+      },
+      {
+        "letra": "B",
+        "texto": "-4"
+      },
+      {
+        "letra": "C",
+        "texto": "5"
+      },
+      {
+        "letra": "D",
+        "texto": "-5"
+      },
+      {
+        "letra": "E",
+        "texto": "-8"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "Na transposta, linhas viram colunas: o elemento da posição (2,1) de Aᵀ é igual ao da posição (1,2) de A, que vale 5."
+  },
+  {
+    "id": "matrizes-ined-0236",
+    "categoriaId": "matrizes",
+    "subtopico": "Operações com Matrizes",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Dada a matriz A = [[-7, 6], [-8, 9]], seja Aᵀ a sua transposta. Qual é o elemento da linha 1, coluna 2 de Aᵀ?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "9"
+      },
+      {
+        "letra": "B",
+        "texto": "6"
+      },
+      {
+        "letra": "C",
+        "texto": "8"
+      },
+      {
+        "letra": "D",
+        "texto": "-8"
+      },
+      {
+        "letra": "E",
+        "texto": "-7"
+      }
+    ],
+    "correta": "D",
+    "explicacao": "Na transposta, linhas viram colunas: o elemento da posição (1,2) de Aᵀ é igual ao da posição (2,1) de A, que vale -8."
+  },
+  {
+    "id": "matrizes-ined-0237",
+    "categoriaId": "matrizes",
+    "subtopico": "Operações com Matrizes",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Considere a matriz quadrada M = [[-8, 7, -3], [9, -4, 5], [4, 0, -9]]. O traço de uma matriz é a soma dos elementos de sua diagonal principal. Qual é o traço de M?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "-21"
+      },
+      {
+        "letra": "B",
+        "texto": "-17"
+      },
+      {
+        "letra": "C",
+        "texto": "-288"
+      },
+      {
+        "letra": "D",
+        "texto": "1"
+      },
+      {
+        "letra": "E",
+        "texto": "-3"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "A diagonal principal vai do canto superior esquerdo ao inferior direito: traço(M) = (-8) + (-4) + (-9) = -21."
+  },
+  {
+    "id": "matrizes-ined-0238",
+    "categoriaId": "matrizes",
+    "subtopico": "Operações com Matrizes",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Considere a matriz quadrada M = [[-3, -4, 8], [-4, -3, 4], [6, 3, 7]]. O traço de uma matriz é a soma dos elementos de sua diagonal principal. Qual é o traço de M?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "4"
+      },
+      {
+        "letra": "B",
+        "texto": "14"
+      },
+      {
+        "letra": "C",
+        "texto": "63"
+      },
+      {
+        "letra": "D",
+        "texto": "11"
+      },
+      {
+        "letra": "E",
+        "texto": "1"
+      }
+    ],
+    "correta": "E",
+    "explicacao": "A diagonal principal vai do canto superior esquerdo ao inferior direito: traço(M) = (-3) + (-3) + (7) = 1."
+  },
+  {
+    "id": "matrizes-ined-0239",
+    "categoriaId": "matrizes",
+    "subtopico": "Operações com Matrizes",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Considere a matriz quadrada M = [[1, -2, -5], [-3, -9, -1], [1, -2, -6]]. O traço de uma matriz é a soma dos elementos de sua diagonal principal. Qual é o traço de M?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "54"
+      },
+      {
+        "letra": "B",
+        "texto": "-13"
+      },
+      {
+        "letra": "C",
+        "texto": "-14"
+      },
+      {
+        "letra": "D",
+        "texto": "-5"
+      },
+      {
+        "letra": "E",
+        "texto": "-26"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "A diagonal principal vai do canto superior esquerdo ao inferior direito: traço(M) = (1) + (-9) + (-6) = -14."
+  },
+  {
+    "id": "matrizes-ined-0240",
+    "categoriaId": "matrizes",
+    "subtopico": "Operações com Matrizes",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "As matrizes A = [[x + 2, 5], [3, 2y]] e B = [[8, 5], [3, 18]] são iguais. Qual é o valor de x + y?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "24"
+      },
+      {
+        "letra": "B",
+        "texto": "-3"
+      },
+      {
+        "letra": "C",
+        "texto": "15"
+      },
+      {
+        "letra": "D",
+        "texto": "26"
+      },
+      {
+        "letra": "E",
+        "texto": "17"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "Duas matrizes são iguais quando os elementos de mesma posição são iguais. Posição (1,1): x + 2 = 8 ⇒ x = 6. Posição (2,2): 2y = 18 ⇒ y = 9. Logo x + y = 15."
+  },
+  {
+    "id": "matrizes-ined-0241",
+    "categoriaId": "matrizes",
+    "subtopico": "Operações com Matrizes",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "As matrizes A = [[x + 8, 2], [7, 2y]] e B = [[13, 2], [7, 4]] são iguais. Qual é o valor de x + y?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "3"
+      },
+      {
+        "letra": "B",
+        "texto": "9"
+      },
+      {
+        "letra": "C",
+        "texto": "17"
+      },
+      {
+        "letra": "D",
+        "texto": "7"
+      },
+      {
+        "letra": "E",
+        "texto": "15"
+      }
+    ],
+    "correta": "D",
+    "explicacao": "Duas matrizes são iguais quando os elementos de mesma posição são iguais. Posição (1,1): x + 8 = 13 ⇒ x = 5. Posição (2,2): 2y = 4 ⇒ y = 2. Logo x + y = 7."
+  },
+  {
+    "id": "matrizes-ined-0242",
+    "categoriaId": "matrizes",
+    "subtopico": "Operações com Matrizes",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "As matrizes A = [[x + 7, -2], [-5, 2y]] e B = [[16, -2], [-5, 16]] são iguais. Qual é o valor de x + y?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "1"
+      },
+      {
+        "letra": "B",
+        "texto": "32"
+      },
+      {
+        "letra": "C",
+        "texto": "17"
+      },
+      {
+        "letra": "D",
+        "texto": "25"
+      },
+      {
+        "letra": "E",
+        "texto": "24"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "Duas matrizes são iguais quando os elementos de mesma posição são iguais. Posição (1,1): x + 7 = 16 ⇒ x = 9. Posição (2,2): 2y = 16 ⇒ y = 8. Logo x + y = 17."
+  },
+  {
+    "id": "matrizes-ined-0243",
+    "categoriaId": "matrizes",
+    "subtopico": "Operações com Matrizes",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma matriz A = (a_ij) de ordem 3 tem seus elementos definidos pela lei de formação a_ij = 3i − j, em que i indica a linha e j a coluna. Qual é o elemento a_23 dessa matriz?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "5"
+      },
+      {
+        "letra": "B",
+        "texto": "-3"
       },
       {
         "letra": "C",
@@ -1591,59 +945,25 @@
       },
       {
         "letra": "E",
-        "texto": "4"
+        "texto": "3"
       }
     ],
-    "correta": "B",
-    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (-5)(1) − (-9)(-1) = -14."
+    "correta": "E",
+    "explicacao": "Basta substituir i = 2 (linha) e j = 3 (coluna) na lei a_ij = 3i − j: a_23 = 3·2 − 3 = 3."
   },
   {
-    "id": "matrizes-ined-0742",
+    "id": "matrizes-ined-0244",
     "categoriaId": "matrizes",
-    "subtopico": "Determinantes",
-    "dificuldade": "facil",
-    "fonte": {
-      "tipo": "inedita"
-    },
-    "enunciado": "Considere a matriz A = [[4, 1], [-1, 8]]. Qual é o determinante de A?",
-    "alternativas": [
-      {
-        "letra": "A",
-        "texto": "-33"
-      },
-      {
-        "letra": "B",
-        "texto": "12"
-      },
-      {
-        "letra": "C",
-        "texto": "33"
-      },
-      {
-        "letra": "D",
-        "texto": "-12"
-      },
-      {
-        "letra": "E",
-        "texto": "31"
-      }
-    ],
-    "correta": "C",
-    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (4)(8) − (1)(-1) = 33."
-  },
-  {
-    "id": "matrizes-ined-0743",
-    "categoriaId": "matrizes",
-    "subtopico": "Determinantes",
+    "subtopico": "Operações com Matrizes",
     "dificuldade": "medio",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Considere a matriz A = [[1, -3], [-2, 4]]. Qual é o determinante de A?",
+    "enunciado": "Uma matriz A = (a_ij) de ordem 3 tem seus elementos definidos pela lei de formação a_ij = 2i − j, em que i indica a linha e j a coluna. Qual é o elemento a_31 dessa matriz?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "2"
+        "texto": "5"
       },
       {
         "letra": "B",
@@ -1651,41 +971,109 @@
       },
       {
         "letra": "C",
-        "texto": "10"
+        "texto": "4"
       },
       {
         "letra": "D",
-        "texto": "-2"
+        "texto": "-5"
       },
       {
         "letra": "E",
-        "texto": "5"
+        "texto": "-1"
       }
     ],
-    "correta": "D",
-    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (1)(4) − (-3)(-2) = -2."
+    "correta": "A",
+    "explicacao": "Basta substituir i = 3 (linha) e j = 1 (coluna) na lei a_ij = 2i − j: a_31 = 2·3 − 1 = 5."
   },
   {
-    "id": "matrizes-ined-0744",
+    "id": "matrizes-ined-0245",
     "categoriaId": "matrizes",
-    "subtopico": "Determinantes",
+    "subtopico": "Operações com Matrizes",
     "dificuldade": "dificil",
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Considere a matriz A = [[2, 2], [-5, 7]]. Qual é o determinante de A?",
+    "enunciado": "Uma matriz A = (a_ij) de ordem 3 tem seus elementos definidos pela lei de formação a_ij = 2i − j, em que i indica a linha e j a coluna. Qual é o elemento a_23 dessa matriz?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "-24"
+        "texto": "4"
       },
       {
         "letra": "B",
-        "texto": "12"
+        "texto": "5"
       },
       {
         "letra": "C",
-        "texto": "24"
+        "texto": "-1"
+      },
+      {
+        "letra": "D",
+        "texto": "6"
+      },
+      {
+        "letra": "E",
+        "texto": "1"
+      }
+    ],
+    "correta": "E",
+    "explicacao": "Basta substituir i = 2 (linha) e j = 3 (coluna) na lei a_ij = 2i − j: a_23 = 2·2 − 3 = 1."
+  },
+  {
+    "id": "matrizes-ined-0246",
+    "categoriaId": "matrizes",
+    "subtopico": "Operações com Matrizes",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "A matriz A = [[6, x + 5], [9, 8]] é simétrica (igual à sua transposta). Qual é o valor de x?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "14"
+      },
+      {
+        "letra": "B",
+        "texto": "4"
+      },
+      {
+        "letra": "C",
+        "texto": "-4"
+      },
+      {
+        "letra": "D",
+        "texto": "5"
+      },
+      {
+        "letra": "E",
+        "texto": "9"
+      }
+    ],
+    "correta": "B",
+    "explicacao": "Em uma matriz simétrica, o elemento (1,2) é igual ao elemento (2,1). Então x + 5 = 9, ou seja x = 9 − 5 = 4."
+  },
+  {
+    "id": "matrizes-ined-0247",
+    "categoriaId": "matrizes",
+    "subtopico": "Operações com Matrizes",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "A matriz A = [[-7, x − 1], [4, 1]] é simétrica (igual à sua transposta). Qual é o valor de x?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "-1"
+      },
+      {
+        "letra": "B",
+        "texto": "-5"
+      },
+      {
+        "letra": "C",
+        "texto": "5"
       },
       {
         "letra": "D",
@@ -1693,10 +1081,486 @@
       },
       {
         "letra": "E",
-        "texto": "13"
+        "texto": "3"
       }
     ],
     "correta": "C",
-    "explicacao": "Para uma matriz 2x2 [[a,b],[c,d]], det(A) = ad − bc = (2)(7) − (2)(-5) = 24."
+    "explicacao": "Em uma matriz simétrica, o elemento (1,2) é igual ao elemento (2,1). Então x − 1 = 4, ou seja x = 4 + 1 = 5."
+  },
+  {
+    "id": "matrizes-ined-0248",
+    "categoriaId": "matrizes",
+    "subtopico": "Operações com Matrizes",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "A matriz A = [[-4, x − 3], [4, 1]] é simétrica (igual à sua transposta). Qual é o valor de x?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "-7"
+      },
+      {
+        "letra": "B",
+        "texto": "-3"
+      },
+      {
+        "letra": "C",
+        "texto": "7"
+      },
+      {
+        "letra": "D",
+        "texto": "4"
+      },
+      {
+        "letra": "E",
+        "texto": "1"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "Em uma matriz simétrica, o elemento (1,2) é igual ao elemento (2,1). Então x − 3 = 4, ou seja x = 4 + 3 = 7."
+  },
+  {
+    "id": "matrizes-ined-0249",
+    "categoriaId": "matrizes",
+    "subtopico": "Operações com Matrizes",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Considere a matriz A = [[1, 4], [-3, -1]]. Calculando A² = A · A, qual é o elemento da linha 1, coluna 1 de A²?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "-11"
+      },
+      {
+        "letra": "B",
+        "texto": "-3"
+      },
+      {
+        "letra": "C",
+        "texto": "1"
+      },
+      {
+        "letra": "D",
+        "texto": "-23"
+      },
+      {
+        "letra": "E",
+        "texto": "13"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "O elemento (1,1) de A² é a 1ª linha de A multiplicada pela 1ª coluna de A: (1)·(1) + (4)·(-3) = 1 + -12 = -11."
+  },
+  {
+    "id": "matrizes-ined-0250",
+    "categoriaId": "matrizes",
+    "subtopico": "Operações com Matrizes",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Considere a matriz A = [[4, 2], [1, 3]]. Calculando A² = A · A, qual é o elemento da linha 1, coluna 1 de A²?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "14"
+      },
+      {
+        "letra": "B",
+        "texto": "16"
+      },
+      {
+        "letra": "C",
+        "texto": "20"
+      },
+      {
+        "letra": "D",
+        "texto": "22"
+      },
+      {
+        "letra": "E",
+        "texto": "18"
+      }
+    ],
+    "correta": "E",
+    "explicacao": "O elemento (1,1) de A² é a 1ª linha de A multiplicada pela 1ª coluna de A: (4)·(4) + (2)·(1) = 16 + 2 = 18."
+  },
+  {
+    "id": "matrizes-ined-0251",
+    "categoriaId": "matrizes",
+    "subtopico": "Operações com Matrizes",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Considere a matriz A = [[3, -1], [1, -5]]. Calculando A² = A · A, qual é o elemento da linha 1, coluna 1 de A²?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "8"
+      },
+      {
+        "letra": "B",
+        "texto": "9"
+      },
+      {
+        "letra": "C",
+        "texto": "14"
+      },
+      {
+        "letra": "D",
+        "texto": "7"
+      },
+      {
+        "letra": "E",
+        "texto": "10"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "O elemento (1,1) de A² é a 1ª linha de A multiplicada pela 1ª coluna de A: (3)·(3) + (-1)·(1) = 9 + -1 = 8."
+  },
+  {
+    "id": "matrizes-ined-0252",
+    "categoriaId": "matrizes",
+    "subtopico": "Determinantes",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "A matriz A = [[1, -3], [-2, 5]] tem determinante igual a −1. Qual é o elemento da linha 1, coluna 1 da matriz inversa A⁻¹?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "-1"
+      },
+      {
+        "letra": "B",
+        "texto": "-5"
+      },
+      {
+        "letra": "C",
+        "texto": "5"
+      },
+      {
+        "letra": "D",
+        "texto": "-3"
+      },
+      {
+        "letra": "E",
+        "texto": "6"
+      }
+    ],
+    "correta": "B",
+    "explicacao": "Para uma matriz 2×2 [[a, b], [c, d]], a inversa é A⁻¹ = (1/det)·[[d, −b], [−c, a]]. O elemento (1,1) é d/det = (5)/(−1) = -5."
+  },
+  {
+    "id": "matrizes-ined-0253",
+    "categoriaId": "matrizes",
+    "subtopico": "Determinantes",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "A matriz A = [[1, -2], [-2, 3]] tem determinante igual a −1. Qual é o elemento da linha 1, coluna 1 da matriz inversa A⁻¹?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "-3"
+      },
+      {
+        "letra": "B",
+        "texto": "-2"
+      },
+      {
+        "letra": "C",
+        "texto": "4"
+      },
+      {
+        "letra": "D",
+        "texto": "3"
+      },
+      {
+        "letra": "E",
+        "texto": "-1"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "Para uma matriz 2×2 [[a, b], [c, d]], a inversa é A⁻¹ = (1/det)·[[d, −b], [−c, a]]. O elemento (1,1) é d/det = (3)/(−1) = -3."
+  },
+  {
+    "id": "matrizes-ined-0254",
+    "categoriaId": "matrizes",
+    "subtopico": "Determinantes",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "A matriz A = [[1, -3], [-3, 8]] tem determinante igual a −1. Qual é o elemento da linha 1, coluna 1 da matriz inversa A⁻¹?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "-8"
+      },
+      {
+        "letra": "B",
+        "texto": "-1"
+      },
+      {
+        "letra": "C",
+        "texto": "-3"
+      },
+      {
+        "letra": "D",
+        "texto": "9"
+      },
+      {
+        "letra": "E",
+        "texto": "8"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "Para uma matriz 2×2 [[a, b], [c, d]], a inversa é A⁻¹ = (1/det)·[[d, −b], [−c, a]]. O elemento (1,1) é d/det = (8)/(−1) = -8."
+  },
+  {
+    "id": "matrizes-ined-0255",
+    "categoriaId": "matrizes",
+    "subtopico": "Determinantes",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "O determinante da matriz A = [[x, 2], [6, 6]] é igual a zero. Qual é o valor de x?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "2"
+      },
+      {
+        "letra": "B",
+        "texto": "6"
+      },
+      {
+        "letra": "C",
+        "texto": "18"
+      },
+      {
+        "letra": "D",
+        "texto": "-2"
+      },
+      {
+        "letra": "E",
+        "texto": "12"
+      }
+    ],
+    "correta": "A",
+    "explicacao": "det(A) = x·6 − 2·6 = 0 ⇒ 6·x = 12 ⇒ x = 12 ÷ 6 = 2."
+  },
+  {
+    "id": "matrizes-ined-0256",
+    "categoriaId": "matrizes",
+    "subtopico": "Determinantes",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "O determinante da matriz A = [[x, 3], [3, 3]] é igual a zero. Qual é o valor de x?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "-3"
+      },
+      {
+        "letra": "B",
+        "texto": "3"
+      },
+      {
+        "letra": "C",
+        "texto": "12"
+      },
+      {
+        "letra": "D",
+        "texto": "6"
+      },
+      {
+        "letra": "E",
+        "texto": "9"
+      }
+    ],
+    "correta": "B",
+    "explicacao": "det(A) = x·3 − 3·3 = 0 ⇒ 3·x = 9 ⇒ x = 9 ÷ 3 = 3."
+  },
+  {
+    "id": "matrizes-ined-0257",
+    "categoriaId": "matrizes",
+    "subtopico": "Determinantes",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "O determinante da matriz A = [[x, 4], [6, 4]] é igual a zero. Qual é o valor de x?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "24"
+      },
+      {
+        "letra": "B",
+        "texto": "20"
+      },
+      {
+        "letra": "C",
+        "texto": "28"
+      },
+      {
+        "letra": "D",
+        "texto": "6"
+      },
+      {
+        "letra": "E",
+        "texto": "-6"
+      }
+    ],
+    "correta": "D",
+    "explicacao": "det(A) = x·4 − 4·6 = 0 ⇒ 4·x = 24 ⇒ x = 24 ÷ 4 = 6."
+  },
+  {
+    "id": "matrizes-ined-0258",
+    "categoriaId": "matrizes",
+    "subtopico": "Aplicações Práticas",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Considere o sistema linear { 5x + 2y = 61 ; 5x + 4y = 77 }. Resolvendo-o pela Regra de Cramer, qual é o valor de x?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "90"
+      },
+      {
+        "letra": "B",
+        "texto": "-9"
+      },
+      {
+        "letra": "C",
+        "texto": "17"
+      },
+      {
+        "letra": "D",
+        "texto": "9"
+      },
+      {
+        "letra": "E",
+        "texto": "8"
+      }
+    ],
+    "correta": "D",
+    "explicacao": "Regra de Cramer: D = 5·4 − 5·2 = 10; Dx = 61·4 − 77·2 = 90. Então x = Dx / D = 90 / 10 = 9."
+  },
+  {
+    "id": "matrizes-ined-0259",
+    "categoriaId": "matrizes",
+    "subtopico": "Aplicações Práticas",
+    "dificuldade": "medio",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Considere o sistema linear { 2x + 3y = 31 ; 1x + 4y = 38 }. Resolvendo-o pela Regra de Cramer, qual é o valor de x?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "11"
+      },
+      {
+        "letra": "B",
+        "texto": "10"
+      },
+      {
+        "letra": "C",
+        "texto": "2"
+      },
+      {
+        "letra": "D",
+        "texto": "9"
+      },
+      {
+        "letra": "E",
+        "texto": "-2"
+      }
+    ],
+    "correta": "C",
+    "explicacao": "Regra de Cramer: D = 2·4 − 1·3 = 5; Dx = 31·4 − 38·3 = 10. Então x = Dx / D = 10 / 5 = 2."
+  },
+  {
+    "id": "matrizes-ined-0260",
+    "categoriaId": "matrizes",
+    "subtopico": "Aplicações Práticas",
+    "dificuldade": "dificil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Considere o sistema linear { 5x + 3y = 44 ; 1x + 5y = 44 }. Resolvendo-o pela Regra de Cramer, qual é o valor de x?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "-4"
+      },
+      {
+        "letra": "B",
+        "texto": "4"
+      },
+      {
+        "letra": "C",
+        "texto": "88"
+      },
+      {
+        "letra": "D",
+        "texto": "8"
+      },
+      {
+        "letra": "E",
+        "texto": "12"
+      }
+    ],
+    "correta": "B",
+    "explicacao": "Regra de Cramer: D = 5·5 − 1·3 = 22; Dx = 44·5 − 44·3 = 88. Então x = Dx / D = 88 / 22 = 4."
+  },
+  {
+    "id": "matrizes-ined-0261",
+    "categoriaId": "matrizes",
+    "subtopico": "Aplicações Práticas",
+    "dificuldade": "facil",
+    "fonte": {
+      "tipo": "inedita"
+    },
+    "enunciado": "Uma rede registrou as quantidades vendidas de três produtos (pães, bolos e tortas) em duas lojas na matriz Q = [[3, 10, 11], [17, 9, 13]], em que a linha 1 é a Unidade A e a linha 2 é a Unidade B, e as colunas seguem a ordem dos produtos citada. Os preços unitários, em reais, formam o vetor p = [25, 5, 40]. Qual foi o faturamento da Unidade A?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "R$ 990,00"
+      },
+      {
+        "letra": "B",
+        "texto": "R$ 125,00"
+      },
+      {
+        "letra": "C",
+        "texto": "R$ 94,00"
+      },
+      {
+        "letra": "D",
+        "texto": "R$ 565,00"
+      },
+      {
+        "letra": "E",
+        "texto": "R$ 600,00"
+      }
+    ],
+    "correta": "D",
+    "explicacao": "O faturamento de uma loja é o produto da sua linha em Q pelo vetor de preços: 3·25 + 10·5 + 11·40 = 75 + 50 + 440 = R$ 565,00."
   }
 ]

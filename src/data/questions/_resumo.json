@@ -2,121 +2,161 @@
   {
     "categoriaId": "numeros",
     "real": 33,
-    "inedita": 17,
-    "total": 50
+    "banco": 98,
+    "realLike": 131,
+    "inedita": 0,
+    "total": 131
   },
   {
     "categoriaId": "porcentagem",
     "real": 46,
-    "inedita": 10,
-    "total": 56
+    "banco": 25,
+    "realLike": 71,
+    "inedita": 0,
+    "total": 71
   },
   {
     "categoriaId": "razao-proporcao",
     "real": 49,
-    "inedita": 10,
-    "total": 59
+    "banco": 8,
+    "realLike": 57,
+    "inedita": 0,
+    "total": 57
   },
   {
     "categoriaId": "regra-de-tres",
     "real": 5,
-    "inedita": 45,
+    "banco": 35,
+    "realLike": 40,
+    "inedita": 10,
     "total": 50
   },
   {
     "categoriaId": "equacoes",
     "real": 8,
-    "inedita": 42,
-    "total": 50
+    "banco": 68,
+    "realLike": 76,
+    "inedita": 0,
+    "total": 76
   },
   {
     "categoriaId": "funcao-afim",
     "real": 11,
-    "inedita": 39,
+    "banco": 15,
+    "realLike": 26,
+    "inedita": 24,
     "total": 50
   },
   {
     "categoriaId": "funcao-quadratica",
     "real": 4,
-    "inedita": 46,
+    "banco": 12,
+    "realLike": 16,
+    "inedita": 34,
     "total": 50
   },
   {
     "categoriaId": "exponenciais-logaritmos",
     "real": 8,
-    "inedita": 42,
+    "banco": 42,
+    "realLike": 50,
+    "inedita": 0,
     "total": 50
   },
   {
     "categoriaId": "progressoes",
     "real": 7,
-    "inedita": 43,
+    "banco": 37,
+    "realLike": 44,
+    "inedita": 6,
     "total": 50
   },
   {
     "categoriaId": "geometria-plana",
     "real": 15,
-    "inedita": 35,
-    "total": 50
+    "banco": 47,
+    "realLike": 62,
+    "inedita": 0,
+    "total": 62
   },
   {
     "categoriaId": "geometria-espacial",
     "real": 23,
-    "inedita": 27,
+    "banco": 17,
+    "realLike": 40,
+    "inedita": 10,
     "total": 50
   },
   {
     "categoriaId": "geometria-analitica",
     "real": 4,
-    "inedita": 46,
+    "banco": 3,
+    "realLike": 7,
+    "inedita": 43,
     "total": 50
   },
   {
     "categoriaId": "trigonometria",
     "real": 4,
-    "inedita": 46,
+    "banco": 30,
+    "realLike": 34,
+    "inedita": 16,
     "total": 50
   },
   {
     "categoriaId": "estatistica",
     "real": 23,
-    "inedita": 27,
+    "banco": 21,
+    "realLike": 44,
+    "inedita": 6,
     "total": 50
   },
   {
     "categoriaId": "probabilidade",
     "real": 11,
-    "inedita": 39,
+    "banco": 16,
+    "realLike": 27,
+    "inedita": 23,
     "total": 50
   },
   {
     "categoriaId": "analise-combinatoria",
     "real": 9,
-    "inedita": 41,
+    "banco": 16,
+    "realLike": 25,
+    "inedita": 25,
     "total": 50
   },
   {
     "categoriaId": "matematica-financeira",
     "real": 2,
-    "inedita": 48,
+    "banco": 30,
+    "realLike": 32,
+    "inedita": 18,
     "total": 50
   },
   {
     "categoriaId": "matrizes",
     "real": 0,
-    "inedita": 50,
+    "banco": 4,
+    "realLike": 4,
+    "inedita": 46,
     "total": 50
   },
   {
     "categoriaId": "logica",
     "real": 6,
-    "inedita": 44,
+    "banco": 17,
+    "realLike": 23,
+    "inedita": 27,
     "total": 50
   },
   {
     "categoriaId": "conjuntos",
     "real": 1,
-    "inedita": 49,
-    "total": 50
+    "banco": 3,
+    "realLike": 4,
+    "inedita": 45,
+    "total": 49
   }
 ]

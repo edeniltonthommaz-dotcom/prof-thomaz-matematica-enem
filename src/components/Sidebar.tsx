@@ -4,6 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { useState } from "react";
 import { usePathname } from "next/navigation";
+import resumo from "@/data/questions/_resumo.json";
 import type { User } from "@supabase/supabase-js";
 import {
   Home,
@@ -41,6 +42,8 @@ const NAV_ITEMS: ItemNav[] = [
   { href: "/desempenho", label: "Meu Desempenho", icon: BarChart3 },
 ];
 
+const TOTAL_QUESTOES = Math.floor(resumo.reduce((s, r) => s + r.total, 0) / 100) * 100;
+
 export function Logo() {
   return (
     <Link href="/" className="flex items-center gap-2.5 shrink-0">
@@ -57,7 +60,7 @@ export function Logo() {
         <span className="block text-[11px] text-slate-400">
           Matemática ENEM
           <br />
-          1500+ questões
+          {`${TOTAL_QUESTOES}+`} questões
         </span>
       </span>
     </Link>

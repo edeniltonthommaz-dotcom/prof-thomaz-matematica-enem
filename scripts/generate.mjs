@@ -3,58 +3,78 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { CATEGORIAS } from "./categorias.mjs";
 import { TEMPLATES } from "./templates.mjs";
-import { DIFICULDADES, dedupeByEnunciado } from "./helpers.mjs";
+import { DIFICULDADES, dedupeByEnunciado, resetRng, resetIdCounter } from "./helpers.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const OUT_DIR = path.join(__dirname, "..", "src", "data", "questions");
 const REAL_PATH = path.join(OUT_DIR, "real.json");
-const DEFAULT_TARGET = 10;
-const META_TOTAL = 50;
+const BANCO_PATH = path.join(OUT_DIR, "banco.json");
 
-const realQuestoes = JSON.parse(fs.readFileSync(REAL_PATH, "utf-8"));
-const realCountPorCategoria = {};
-for (const q of realQuestoes) {
-  realCountPorCategoria[q.categoriaId] = (realCountPorCategoria[q.categoriaId] ?? 0) + 1;
-}
+const META_TOTAL = 50;
+const MAX_POR_TEMPLATE = 3;
+const MAX_TENTATIVAS_POR_TEMPLATE = 40;
+
+resetRng();
+resetIdCounter();
+
+const real = JSON.parse(fs.readFileSync(REAL_PATH, "utf-8"));
+const banco = JSON.parse(fs.readFileSync(BANCO_PATH, "utf-8"));
+
+const countPorCategoria = (arr) => {
+  const m = {};
+  for (const q of arr) m[q.categoriaId] = (m[q.categoriaId] ?? 0) + 1;
+  return m;
+};
+const realCount = countPorCategoria(real);
+const bancoCount = countPorCategoria(banco);
 
 fs.mkdirSync(OUT_DIR, { recursive: true });
 
-let totalGeral = 0;
+let totalIneditas = 0;
 const resumo = [];
 
 for (const categoriaId of CATEGORIAS) {
-  const fns = TEMPLATES[categoriaId];
-  if (!fns || fns.length === 0) {
-    console.warn(`(!) Sem templates para categoria: ${categoriaId}`);
-    continue;
-  }
-  const realCount = realCountPorCategoria[categoriaId] ?? 0;
-  const TARGET_PER_CATEGORIA = Math.max(DEFAULT_TARGET, META_TOTAL - realCount);
-  const MAX_TENTATIVAS = TARGET_PER_CATEGORIA * 15;
+  const fns = TEMPLATES[categoriaId] ?? [];
+  const rc = realCount[categoriaId] ?? 0;
+  const bc = bancoCount[categoriaId] ?? 0;
+  const realLike = rc + bc;
+  const need = Math.max(0, META_TOTAL - realLike);
+
   let questoes = [];
-  let tentativas = 0;
-  let fnIndex = 0;
-  let difIndex = 0;
-  while (questoes.length < TARGET_PER_CATEGORIA && tentativas < MAX_TENTATIVAS) {
-    const fn = fns[fnIndex % fns.length];
-    const dificuldade = DIFICULDADES[difIndex % DIFICULDADES.length];
-    try {
-      const q = fn(dificuldade);
-      questoes.push(q);
-    } catch (e) {
-      console.error(`Erro gerando questão de ${categoriaId}:`, e.message);
+  if (need > 0 && fns.length > 0) {
+    for (const fn of fns) {
+      if (questoes.length >= need) break;
+      let geradas = 0;
+      let difIdx = 0;
+      let tentativas = 0;
+      while (geradas < MAX_POR_TEMPLATE && questoes.length < need && tentativas < MAX_TENTATIVAS_POR_TEMPLATE) {
+        tentativas++;
+        const dificuldade = DIFICULDADES[difIdx % DIFICULDADES.length];
+        let q;
+        try {
+          q = fn(dificuldade);
+        } catch (e) {
+          console.error(`Erro em ${categoriaId}/${fn.name}: ${e.message}`);
+          continue;
+        }
+        const antes = questoes.length;
+        questoes = dedupeByEnunciado([...questoes, q]);
+        if (questoes.length > antes) {
+          geradas++;
+          difIdx++;
+        }
+      }
     }
-    fnIndex++;
-    difIndex++;
-    tentativas++;
-    questoes = dedupeByEnunciado(questoes);
   }
+
   const outPath = path.join(OUT_DIR, `${categoriaId}.json`);
   fs.writeFileSync(outPath, JSON.stringify(questoes, null, 2), "utf-8");
-  totalGeral += questoes.length;
-  resumo.push({ categoriaId, real: realCount, inedita: questoes.length, total: realCount + questoes.length });
-  console.log(`${categoriaId}: ${questoes.length} questões geradas (real: ${realCount}, total: ${realCount + questoes.length})`);
+  totalIneditas += questoes.length;
+  const total = realLike + questoes.length;
+  resumo.push({ categoriaId, real: rc, banco: bc, realLike, inedita: questoes.length, total });
+  const flag = total < META_TOTAL && need > 0 ? "  ⚠ < 50" : "";
+  console.log(`${categoriaId}: +${questoes.length} inéditas (realLike ${realLike}, total ${total})${flag}`);
 }
 
-console.log(`\nTotal geral (inéditas): ${totalGeral}`);
+console.log(`\nTotal de inéditas: ${totalIneditas}`);
 fs.writeFileSync(path.join(OUT_DIR, "_resumo.json"), JSON.stringify(resumo, null, 2), "utf-8");
