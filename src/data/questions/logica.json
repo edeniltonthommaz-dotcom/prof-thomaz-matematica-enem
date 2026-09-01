@@ -721,7 +721,7 @@
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Considere a proposição condicional: \"Se hoje é feriado, então o banco não abre.\" Qual das alternativas é a sua contrapositiva (proposição logicamente equivalente)?",
+    "enunciado": "A contrapositiva de uma proposição \"se p, então q\" é \"se não q, então não p\". Qual é a contrapositiva de \"Se hoje é feriado, então o banco não abre.\"?",
     "alternativas": [
       {
         "letra": "A",
@@ -755,7 +755,7 @@
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Uma proposição \"se p, então q\" é sempre equivalente à sua contrapositiva \"se não q, então não p\". Qual é a contrapositiva da proposição \"Se a lâmpada está acesa, então há energia elétrica na casa.\"?",
+    "enunciado": "Considere a proposição condicional: \"Se a lâmpada está acesa, então há energia elétrica na casa.\" Qual das alternativas é a sua contrapositiva?",
     "alternativas": [
       {
         "letra": "A",
@@ -789,7 +789,7 @@
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "A contrapositiva de uma proposição condicional é obtida negando-se os dois termos e invertendo-se a ordem entre eles. Determine a contrapositiva de: \"Se Maria está no Brasil, então Maria está na América do Sul.\"",
+    "enunciado": "Considere a proposição condicional: \"Se Maria está no Brasil, então Maria está na América do Sul.\" Qual das alternativas a seguir é logicamente equivalente a ela?",
     "alternativas": [
       {
         "letra": "A",

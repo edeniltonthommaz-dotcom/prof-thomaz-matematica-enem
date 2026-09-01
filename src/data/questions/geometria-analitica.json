@@ -31,7 +31,7 @@
       }
     ],
     "correta": "A",
-    "explicacao": "d = √[(4−1)² + (6−2)²] = √[3² + 4²] = √25 = 5."
+    "explicacao": "d = √[(4 − 1)² + (6 − 2)²] = √[3² + 4²] = √25 = 5."
   },
   {
     "id": "geometria-analitica-ined-0086",
@@ -65,7 +65,7 @@
       }
     ],
     "correta": "E",
-    "explicacao": "d = √[(1−-5)² + (9−1)²] = √[6² + 8²] = √100 = 10."
+    "explicacao": "d = √[(1 − (-5))² + (9 − 1)²] = √[6² + 8²] = √100 = 10."
   },
   {
     "id": "geometria-analitica-ined-0087",
@@ -99,7 +99,7 @@
       }
     ],
     "correta": "E",
-    "explicacao": "d = √[(13−5)² + (14−-1)²] = √[8² + 15²] = √289 = 17."
+    "explicacao": "d = √[(13 − 5)² + (14 − (-1))²] = √[8² + 15²] = √289 = 17."
   },
   {
     "id": "geometria-analitica-ined-0088",

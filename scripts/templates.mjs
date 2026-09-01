@@ -1003,31 +1003,34 @@ function quadArcoParabolico(dificuldade, tentativa = 0) {
     "da entrada em arco de um estádio",
     "de uma ponte em arco",
   ]);
+  // Tuplas [L, H, d] com L = meia-largura do vão, H = altura máxima, d = distância
+  // do centro (d < L). Escolhidas para proporções realistas e para k = H/L² variar
+  // entre as questões (não é sempre 1/4). altura = H·(L² − d²)/L², sempre inteira.
   const tuplas =
     dificuldade === "facil"
       ? [
-          [12, 36, 8],
-          [16, 64, 6],
+          [4, 4, 2],
+          [4, 8, 2],
         ]
       : dificuldade === "dificil"
         ? [
-            [20, 100, 12],
-            [24, 144, 8],
-            [24, 144, 16],
+            [12, 8, 6],
+            [3, 9, 1],
+            [3, 9, 2],
           ]
         : [
-            [16, 64, 10],
-            [20, 100, 8],
-            [20, 100, 6],
+            [6, 8, 3],
+            [8, 8, 4],
+            [6, 9, 4],
           ];
   const [L, H, d] = pick(tuplas);
-  const altura = H - (d * d) / 4;
+  const altura = (H * (L * L - d * d)) / (L * L);
   const correctText = `${altura} m`;
   const distractorTexts = [
-    `${(d * d) / 4} m`,
-    `${H - (d * d) / 2} m`,
-    `${H - (L * d) / 4} m`,
-    `${H - d} m`,
+    `${(H * d * d) / (L * L)} m`, // reportou só a queda, esqueceu de subtrair de H
+    `${H - (H * d) / L} m`, // usou modelo linear h = H − (H/L)·d
+    `${H + (H * d * d) / (L * L)} m`, // somou a queda em vez de subtrair
+    `${H} m`, // respondeu a altura máxima, ignorando o deslocamento
   ];
   if (tentativa < 40 && !_quadOk(correctText, distractorTexts))
     return quadArcoParabolico(dificuldade, tentativa + 1);
@@ -1038,7 +1041,7 @@ function quadArcoParabolico(dificuldade, tentativa = 0) {
     enunciado: `A altura ${ctx} é modelada por uma parábola com o vértice no topo. O vão (largura na base) mede ${2 * L} m e a altura máxima, no centro, é ${H} m. Qual é a altura do arco em um ponto a ${d} m do centro?`,
     correctText,
     distractorTexts,
-    explicacao: `Com a origem no centro da base, h(x) = ${H} − k·x², e h(±${L}) = 0 dá k = ${H}/${L}² = 1/4. Então h(${d}) = ${H} − (1/4)·${d}² = ${H} − ${(d * d) / 4} = ${altura} m.`,
+    explicacao: `Pondo a origem no centro da base, h(x) = ${H} − k·x² com h(±${L}) = 0, o que dá k = ${H}/${L}². Então h(${d}) = ${H}·(${L}² − ${d}²)/${L}² = ${H}·${L * L - d * d}/${L * L} = ${altura} m.`,
   });
 }
 
@@ -1346,6 +1349,7 @@ function geoDistanciaPontos(dificuldade) {
   const x2 = x1 + dx, y2 = y1 + dy;
   const correctText = `${dist}`;
   const distractorTexts = [`${dx + dy}`, `${dist - 1}`, `${dist + 1}`, `${Math.round(Math.sqrt(dx * dx + dy * dy) * 1.5)}`];
+  const par = (n) => (n < 0 ? `(${n})` : `${n}`);
   return makeQuestao({
     categoriaId: "geometria-analitica",
     subtopico: "Distância entre Pontos",
@@ -1353,7 +1357,7 @@ function geoDistanciaPontos(dificuldade) {
     enunciado: `No plano cartesiano, qual é a distância entre os pontos A(${x1}, ${y1}) e B(${x2}, ${y2})?`,
     correctText,
     distractorTexts,
-    explicacao: `d = √[(${x2}−${x1})² + (${y2}−${y1})²] = √[${dx}² + ${dy}²] = √${dx * dx + dy * dy} = ${correctText}.`,
+    explicacao: `d = √[(${x2} − ${par(x1)})² + (${y2} − ${par(y1)})²] = √[${dx}² + ${dy}²] = √${dx * dx + dy * dy} = ${correctText}.`,
   });
 }
 
@@ -1876,10 +1880,10 @@ function trigTrianguloRetangulo(dificuldade) {
     categoriaId: "trigonometria",
     subtopico: "Triângulo Retângulo",
     dificuldade,
-    enunciado: `Um observador está a ${catetoAdjacente} m da base de uma torre e vê o topo da torre sob um ângulo de ${ang.graus}° em relação ao chão. Usando tan(${ang.graus}°) ≈ ${ang.tan}, qual é aproximadamente a altura da torre?`,
+    enunciado: `Um observador está a ${catetoAdjacente} m da base de uma torre e vê o topo da torre sob um ângulo de ${ang.graus}° em relação ao chão. Usando tg ${ang.graus}° ≈ ${_trigNum(ang.tan)}, qual é aproximadamente a altura da torre?`,
     correctText,
     distractorTexts,
-    explicacao: `tan(${ang.graus}°) = altura / distância. Altura = distância × tan(${ang.graus}°) = ${catetoAdjacente} × ${ang.tan} ≈ ${correctText}.`,
+    explicacao: `tg ${ang.graus}° = altura / distância. Altura = distância × tg ${ang.graus}° = ${catetoAdjacente} × ${_trigNum(ang.tan)} ≈ ${correctText}.`,
   });
 }
 
@@ -4055,11 +4059,11 @@ function logCondicional(dificuldade) {
   ];
   let enunciado;
   if (dificuldade === "facil") {
-    enunciado = `Considere a proposição condicional: "${prop}" Qual das alternativas é a sua contrapositiva (proposição logicamente equivalente)?`;
+    enunciado = `A contrapositiva de uma proposição "se p, então q" é "se não q, então não p". Qual é a contrapositiva de "${prop}"?`;
   } else if (dificuldade === "medio") {
-    enunciado = `Uma proposição "se p, então q" é sempre equivalente à sua contrapositiva "se não q, então não p". Qual é a contrapositiva da proposição "${prop}"?`;
+    enunciado = `Considere a proposição condicional: "${prop}" Qual das alternativas é a sua contrapositiva?`;
   } else {
-    enunciado = `A contrapositiva de uma proposição condicional é obtida negando-se os dois termos e invertendo-se a ordem entre eles. Determine a contrapositiva de: "${prop}"`;
+    enunciado = `Considere a proposição condicional: "${prop}" Qual das alternativas a seguir é logicamente equivalente a ela?`;
   }
   const explicacao = `A contrapositiva de "se p, então q" é "se não q, então não p", sempre equivalente à original: "${correctText}". A recíproca ("se q, então p") e a inversa ("se não p, então não q") não são equivalentes à condicional dada.`;
   return makeQuestao({

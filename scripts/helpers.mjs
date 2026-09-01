@@ -43,7 +43,7 @@ export function brl(v) {
 }
 
 export function pct(v) {
-  return v % 1 === 0 ? `${v}%` : `${v.toFixed(1)}%`;
+  return v % 1 === 0 ? `${v}%` : `${v.toFixed(1).replace(".", ",")}%`;
 }
 
 export function nextId(categoriaId) {

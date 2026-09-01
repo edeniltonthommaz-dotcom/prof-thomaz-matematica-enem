@@ -21,14 +21,15 @@ function subtopicosPorCategoria() {
 export function validar() {
   const erros = [];
 
-  // Guard de determinismo: templates.mjs não pode usar Math.random() — todo sorteio
-  // tem que passar pelo PRNG semeado de helpers.mjs, senão a geração deixa de ser
-  // reprodutível byte a byte.
-  const templatesTxt = fs.readFileSync(path.join(__dirname, "templates.mjs"), "utf-8");
-  if (/Math\.random\s*\(/.test(templatesTxt))
-    erros.push(
-      "[MATH.RANDOM EM TEMPLATES] scripts/templates.mjs usa Math.random() — geração deixa de ser determinística",
-    );
+  // Guard de determinismo: nenhum script do pipeline de geração pode usar Math.random() —
+  // todo sorteio tem que passar pelo PRNG semeado de helpers.mjs, senão a geração deixa de
+  // ser reprodutível byte a byte. Varre scripts/*.mjs inteiro (não só templates.mjs).
+  for (const f of fs.readdirSync(__dirname)) {
+    if (!f.endsWith(".mjs") || f === "validate-all.mjs" || f === "validate.mjs") continue;
+    const txt = fs.readFileSync(path.join(__dirname, f), "utf-8");
+    if (/Math\.random\s*\(/.test(txt))
+      erros.push(`[MATH.RANDOM] scripts/${f} usa Math.random() — geração deixa de ser determinística`);
+  }
 
   const subtopicos = subtopicosPorCategoria();
   const idsGlobais = new Map(); // id -> arquivo
@@ -86,6 +87,15 @@ export function validar() {
   for (const q of JSON.parse(fs.readFileSync(path.join(DIR, "banco.json"), "utf-8"))) {
     registrar(q, "banco.json");
     checarAlternativas(q, "banco.json", { exigir5: false });
+  }
+
+  // _resumo.json (gravado por generate.mjs) tem que bater com a contagem real de questões.
+  const resumoPath = path.join(DIR, "_resumo.json");
+  if (fs.existsSync(resumoPath)) {
+    const resumo = JSON.parse(fs.readFileSync(resumoPath, "utf-8"));
+    const somaResumo = resumo.reduce((s, r) => s + r.total, 0);
+    if (somaResumo !== idsGlobais.size)
+      erros.push(`[RESUMO DESATUALIZADO] _resumo.json soma ${somaResumo} questões, mas foram contadas ${idsGlobais.size} — rode node scripts/generate.mjs`);
   }
 
   return { erros, totais: { ids: idsGlobais.size, enunciados: enunciadosGlobais.size } };

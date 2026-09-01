@@ -7,7 +7,7 @@
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Um observador está a 18 m da base de uma torre e vê o topo da torre sob um ângulo de 30° em relação ao chão. Usando tan(30°) ≈ 0.58, qual é aproximadamente a altura da torre?",
+    "enunciado": "Um observador está a 18 m da base de uma torre e vê o topo da torre sob um ângulo de 30° em relação ao chão. Usando tg 30° ≈ 0,58, qual é aproximadamente a altura da torre?",
     "alternativas": [
       {
         "letra": "A",
@@ -31,7 +31,7 @@
       }
     ],
     "correta": "D",
-    "explicacao": "tan(30°) = altura / distância. Altura = distância × tan(30°) = 18 × 0.58 ≈ 10 m."
+    "explicacao": "tg 30° = altura / distância. Altura = distância × tg 30° = 18 × 0,58 ≈ 10 m."
   },
   {
     "id": "trigonometria-ined-0129",
@@ -41,7 +41,7 @@
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Um observador está a 8 m da base de uma torre e vê o topo da torre sob um ângulo de 45° em relação ao chão. Usando tan(45°) ≈ 1, qual é aproximadamente a altura da torre?",
+    "enunciado": "Um observador está a 8 m da base de uma torre e vê o topo da torre sob um ângulo de 45° em relação ao chão. Usando tg 45° ≈ 1, qual é aproximadamente a altura da torre?",
     "alternativas": [
       {
         "letra": "A",
@@ -65,7 +65,7 @@
       }
     ],
     "correta": "D",
-    "explicacao": "tan(45°) = altura / distância. Altura = distância × tan(45°) = 8 × 1 ≈ 8 m."
+    "explicacao": "tg 45° = altura / distância. Altura = distância × tg 45° = 8 × 1 ≈ 8 m."
   },
   {
     "id": "trigonometria-ined-0130",
@@ -75,7 +75,7 @@
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "Um observador está a 11 m da base de uma torre e vê o topo da torre sob um ângulo de 37° em relação ao chão. Usando tan(37°) ≈ 0.75, qual é aproximadamente a altura da torre?",
+    "enunciado": "Um observador está a 11 m da base de uma torre e vê o topo da torre sob um ângulo de 37° em relação ao chão. Usando tg 37° ≈ 0,75, qual é aproximadamente a altura da torre?",
     "alternativas": [
       {
         "letra": "A",
@@ -99,7 +99,7 @@
       }
     ],
     "correta": "B",
-    "explicacao": "tan(37°) = altura / distância. Altura = distância × tan(37°) = 11 × 0.75 ≈ 8 m."
+    "explicacao": "tg 37° = altura / distância. Altura = distância × tg 37° = 11 × 0,75 ≈ 8 m."
   },
   {
     "id": "trigonometria-ined-0131",

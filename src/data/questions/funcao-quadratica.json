@@ -1027,31 +1027,31 @@
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "A altura da entrada em arco de um estádio é modelada por uma parábola com o vértice no topo. O vão (largura na base) mede 24 m e a altura máxima, no centro, é 36 m. Qual é a altura do arco em um ponto a 8 m do centro?",
+    "enunciado": "A altura da entrada em arco de um estádio é modelada por uma parábola com o vértice no topo. O vão (largura na base) mede 8 m e a altura máxima, no centro, é 4 m. Qual é a altura do arco em um ponto a 2 m do centro?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "20 m"
+        "texto": "3 m"
       },
       {
         "letra": "B",
-        "texto": "16 m"
+        "texto": "1 m"
       },
       {
         "letra": "C",
-        "texto": "28 m"
-      },
-      {
-        "letra": "D",
         "texto": "4 m"
       },
       {
+        "letra": "D",
+        "texto": "2 m"
+      },
+      {
         "letra": "E",
-        "texto": "12 m"
+        "texto": "5 m"
       }
     ],
     "correta": "A",
-    "explicacao": "Com a origem no centro da base, h(x) = 36 − k·x², e h(±12) = 0 dá k = 36/12² = 1/4. Então h(8) = 36 − (1/4)·8² = 36 − 16 = 20 m."
+    "explicacao": "Pondo a origem no centro da base, h(x) = 4 − k·x² com h(±4) = 0, o que dá k = 4/4². Então h(2) = 4·(4² − 2²)/4² = 4·12/16 = 3 m."
   },
   {
     "id": "funcao-quadratica-ined-0066",
@@ -1061,31 +1061,31 @@
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "A altura de um arco decorativo de um portal é modelada por uma parábola com o vértice no topo. O vão (largura na base) mede 40 m e a altura máxima, no centro, é 100 m. Qual é a altura do arco em um ponto a 6 m do centro?",
+    "enunciado": "A altura de um arco decorativo de um portal é modelada por uma parábola com o vértice no topo. O vão (largura na base) mede 12 m e a altura máxima, no centro, é 9 m. Qual é a altura do arco em um ponto a 4 m do centro?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "70 m"
+        "texto": "13 m"
       },
       {
         "letra": "B",
-        "texto": "94 m"
-      },
-      {
-        "letra": "C",
         "texto": "9 m"
       },
       {
+        "letra": "C",
+        "texto": "4 m"
+      },
+      {
         "letra": "D",
-        "texto": "91 m"
+        "texto": "5 m"
       },
       {
         "letra": "E",
-        "texto": "82 m"
+        "texto": "3 m"
       }
     ],
     "correta": "D",
-    "explicacao": "Com a origem no centro da base, h(x) = 100 − k·x², e h(±20) = 0 dá k = 100/20² = 1/4. Então h(6) = 100 − (1/4)·6² = 100 − 9 = 91 m."
+    "explicacao": "Pondo a origem no centro da base, h(x) = 9 − k·x² com h(±6) = 0, o que dá k = 9/6². Então h(4) = 9·(6² − 4²)/6² = 9·20/36 = 5 m."
   },
   {
     "id": "funcao-quadratica-ined-0067",
@@ -1095,31 +1095,31 @@
     "fonte": {
       "tipo": "inedita"
     },
-    "enunciado": "A altura de um túnel rodoviário é modelada por uma parábola com o vértice no topo. O vão (largura na base) mede 40 m e a altura máxima, no centro, é 100 m. Qual é a altura do arco em um ponto a 12 m do centro?",
+    "enunciado": "A altura de um túnel rodoviário é modelada por uma parábola com o vértice no topo. O vão (largura na base) mede 24 m e a altura máxima, no centro, é 8 m. Qual é a altura do arco em um ponto a 6 m do centro?",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "40 m"
+        "texto": "10 m"
       },
       {
         "letra": "B",
-        "texto": "28 m"
+        "texto": "4 m"
       },
       {
         "letra": "C",
-        "texto": "64 m"
+        "texto": "6 m"
       },
       {
         "letra": "D",
-        "texto": "88 m"
+        "texto": "8 m"
       },
       {
         "letra": "E",
-        "texto": "36 m"
+        "texto": "2 m"
       }
     ],
     "correta": "C",
-    "explicacao": "Com a origem no centro da base, h(x) = 100 − k·x², e h(±20) = 0 dá k = 100/20² = 1/4. Então h(12) = 100 − (1/4)·12² = 100 − 36 = 64 m."
+    "explicacao": "Pondo a origem no centro da base, h(x) = 8 − k·x² com h(±12) = 0, o que dá k = 8/12². Então h(6) = 8·(12² − 6²)/12² = 8·108/144 = 6 m."
   },
   {
     "id": "funcao-quadratica-ined-0068",
