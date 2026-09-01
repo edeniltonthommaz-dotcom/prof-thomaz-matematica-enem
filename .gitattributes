@@ -1,0 +1,5 @@
+# Os JSON de questões são gerados por scripts/generate.mjs e commitados com LF,
+# mas o repo tem core.autocrlf=true — sem isso, toda troca de branch/checkout faz
+# o Git achar que os 15 arquivos por-categoria mudaram (são byte-idênticos, só o
+# fim de linha do working tree vira CRLF). Forçando LF aqui, o git status fica limpo.
+*.json text eol=lf
